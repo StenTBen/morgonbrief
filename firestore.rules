@@ -1,0 +1,18 @@
+rules_version = '2';
+
+// Only Karl's account can read the briefs or write feedback.
+// The pipeline writes through the Admin SDK, which bypasses these rules entirely.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isOwner() {
+      return request.auth != null && request.auth.token.email == 'ktibbelin@gmail.com';
+    }
+
+    match /briefs/{date}   { allow read: if isOwner(); allow write: if false; }
+    match /feedback/{id}   { allow read, create: if isOwner(); allow update, delete: if false; }
+    match /state/{doc}     { allow read, write: if false; }
+
+    match /{document=**}   { allow read, write: if false; }
+  }
+}

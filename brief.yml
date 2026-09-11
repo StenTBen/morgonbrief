@@ -1,0 +1,45 @@
+name: Morgonbrief
+
+on:
+  schedule:
+    # 02:00 UTC = 04:00 in Sweden (summer), 03:00 (winter).
+    # Deliberately early: GitHub's scheduler runs late under load, sometimes by
+    # half an hour, and the episode has to exist by 06:00.
+    - cron: '0 2 * * *'
+  workflow_dispatch: {} # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write # needed to publish the episode as a release asset
+
+concurrency:
+  group: morgonbrief
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - run: npm install --no-audit --no-fund
+
+      - name: Build today's brief
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+          GCP_SERVICE_ACCOUNT: ${{ secrets.GCP_SERVICE_ACCOUNT }}
+        run: npm run brief
+
+      - name: Publish the episode
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view audio >/dev/null 2>&1 \
+            || gh release create audio --title "Episodes" --notes "Daily audio briefs."
+          gh release upload audio out/*.mp3 --clobber
