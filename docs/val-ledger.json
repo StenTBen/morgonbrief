@@ -1,5 +1,5 @@
 {
-  "lastSuccessfulRun": "2026-09-12T23:07:48.208Z",
+  "lastSuccessfulRun": "2026-09-12T23:41:09.239Z",
   "observations": [
     {
       "clusterIndex": 0,
@@ -5691,6 +5691,208 @@
       "runId": "2026-09-12T23:07:48.208Z",
       "observedAt": "2026-09-12T23:07:48.208Z",
       "hash": "94ae4a03bcbb2fec"
+    },
+    {
+      "clusterIndex": 2,
+      "source": "SVT Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Håkan Juholt",
+        "Socialdemokraterna",
+        "partiledarna",
+        "Skavlan & Sverige – uppesittarkväll"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valrorelse-kritik",
+      "facts": [
+        "Håkan Juholt är Socialdemokraternas före detta partiledare.",
+        "Juholt är kritisk till hur partiledarna beter sig på sociala medier i valrörelsen.",
+        "Enligt honom är det för mycket trams.",
+        "Han säger 'Uppträd mer vuxet' i Skavlan & Sverige – uppesittarkväll."
+      ],
+      "sources": [
+        {
+          "source": "SVT Nyheter",
+          "title": "Håkan Juholt (S) om partiledarna: ”För mycket tramsande”",
+          "link": "https://www.svt.se/nyheter/inrikes/hakan-juholt-s-om-partiledarna-for-mycket-tramsande"
+        },
+        {
+          "source": "Inrikes | SVT Nyheter",
+          "title": "Håkan Juholt (S) om partiledarna: ”För mycket tramsande”",
+          "link": "https://www.svt.se/nyheter/inrikes/hakan-juholt-s-om-partiledarna-for-mycket-tramsande"
+        }
+      ],
+      "clusterId": "6998932bd652a181",
+      "runId": "2026-09-12T23:41:09.239Z",
+      "observedAt": "2026-09-12T23:41:09.239Z",
+      "hash": "392cd38a91361840"
+    },
+    {
+      "clusterIndex": 2,
+      "source": "Inrikes | SVT Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Håkan Juholt",
+        "Socialdemokraterna",
+        "partiledarna",
+        "Skavlan & Sverige – uppesittarkväll"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valrorelse-kritik",
+      "facts": [
+        "Håkan Juholt är Socialdemokraternas före detta partiledare.",
+        "Juholt är kritisk till hur partiledarna beter sig på sociala medier i valrörelsen.",
+        "Enligt honom är det för mycket trams.",
+        "Han säger 'Uppträd mer vuxet' i Skavlan & Sverige – uppesittarkväll."
+      ],
+      "sources": [
+        {
+          "source": "SVT Nyheter",
+          "title": "Håkan Juholt (S) om partiledarna: ”För mycket tramsande”",
+          "link": "https://www.svt.se/nyheter/inrikes/hakan-juholt-s-om-partiledarna-for-mycket-tramsande"
+        },
+        {
+          "source": "Inrikes | SVT Nyheter",
+          "title": "Håkan Juholt (S) om partiledarna: ”För mycket tramsande”",
+          "link": "https://www.svt.se/nyheter/inrikes/hakan-juholt-s-om-partiledarna-for-mycket-tramsande"
+        }
+      ],
+      "clusterId": "6998932bd652a181",
+      "runId": "2026-09-12T23:41:09.239Z",
+      "observedAt": "2026-09-12T23:41:09.239Z",
+      "hash": "0b7884511af9eba6"
+    },
+    {
+      "clusterIndex": 3,
+      "source": "Senast publicerat",
+      "claimType": "circulating",
+      "entities": [
+        "Huthirörelsen",
+        "Jemen",
+        "militärbas i södra Jemen"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "huthi-attack",
+      "facts": [
+        "Huthirörelsen i Jemen påstår under natten mot söndagen att den attackerat en militärbas i södra Jemen."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Huthirörelsen: Attack mot bas",
+          "link": "https://www.svd.se/a/16JMzl/huthirorelsen-attack-mot-bas?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Huthirörelsen: Attack mot bas",
+          "link": "https://www.aftonbladet.se/nyheter/a/vr2gpB/huthirorelsen-attack-mot-bas?utm_medium=rss"
+        }
+      ],
+      "clusterId": "2164e35f6d14276a",
+      "runId": "2026-09-12T23:41:09.239Z",
+      "observedAt": "2026-09-12T23:41:09.239Z",
+      "hash": "6c4926923c47e314"
+    },
+    {
+      "clusterIndex": 3,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "circulating",
+      "entities": [
+        "Huthirörelsen",
+        "Jemen",
+        "militärbas i södra Jemen"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "huthi-attack",
+      "facts": [
+        "Huthirörelsen i Jemen påstår under natten mot söndagen att den attackerat en militärbas i södra Jemen."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Huthirörelsen: Attack mot bas",
+          "link": "https://www.svd.se/a/16JMzl/huthirorelsen-attack-mot-bas?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Huthirörelsen: Attack mot bas",
+          "link": "https://www.aftonbladet.se/nyheter/a/vr2gpB/huthirorelsen-attack-mot-bas?utm_medium=rss"
+        }
+      ],
+      "clusterId": "2164e35f6d14276a",
+      "runId": "2026-09-12T23:41:09.239Z",
+      "observedAt": "2026-09-12T23:41:09.239Z",
+      "hash": "f3335864c6e31430"
+    },
+    {
+      "clusterIndex": 1,
+      "source": "Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Luleå Hockey",
+        "Ulf Engman"
+      ],
+      "assertedLink": {
+        "from": "löneutvecklingen",
+        "to": "konkurrenskraft",
+        "direction": "gynnar"
+      },
+      "linkSource": "Nyheter",
+      "continuesThread": "hockey-loner",
+      "facts": [
+        "Miljonrullningen inom svensk hockey fortsätter.",
+        "Luleå Hockey vägrar avslöja hur mycket pengar föreningen lägger på sitt lag.",
+        "Ulf Engman är vice sportchef."
+      ],
+      "sources": [
+        {
+          "source": "Nyheter",
+          "title": "Luleåbossen om miljonrullningen: \"Vi måste försöka hänga med\"",
+          "link": "https://www.nsd.se/sport/ishockey/artikel/luleabossen-om-miljonrullningen-vi-maste-forsoka-hanga-med/r5pmxznj"
+        }
+      ],
+      "clusterId": "55cc664b27dbb41b",
+      "runId": "2026-09-12T23:41:09.239Z",
+      "observedAt": "2026-09-12T23:41:09.239Z",
+      "hash": "772e31838b297d6d"
+    },
+    {
+      "clusterIndex": 5,
+      "source": "Barometern",
+      "claimType": "reported",
+      "entities": [
+        "Liberalerna",
+        "KD",
+        "Jonathan Strömberg",
+        "Christopher Dywik",
+        "Kalmaralliansen"
+      ],
+      "assertedLink": {
+        "from": "KD:s uppmaning att inte stödrösta på Liberalerna",
+        "to": "negativ kampanj mot L",
+        "direction": "skadar"
+      },
+      "linkSource": "Barometern",
+      "continuesThread": "valrorelse-kritik",
+      "facts": [
+        "Med en dag kvar till valet säger Liberalernas gruppledare Jonathan Strömberg att KD:s gruppledare bedriver en negativ kampanj mot L.",
+        "Christopher Dywik (KD) har uppmanat att inte stödrösta på Liberalerna."
+      ],
+      "sources": [
+        {
+          "source": "Barometern",
+          "title": "Spricka i Kalmaralliansen – precis innan valet: ”Trist”",
+          "link": "https://www.barometern.se/kalmar/spricka-i-kalmaralliansen-precis-innan-valet-trist/"
+        }
+      ],
+      "clusterId": "5ae7b49fb6a66800",
+      "runId": "2026-09-12T23:41:09.239Z",
+      "observedAt": "2026-09-12T23:41:09.239Z",
+      "hash": "3cd474cf8cc71732"
     }
   ],
   "published": [],
@@ -5714,6 +5916,11 @@
       "key": "hoppande majoriteter->totalt kaos i Sverige:orsakar",
       "reason": "DeepSeek 400: {\"error\":{\"message\":\"Prompt must contain the word 'json' in some form to use 'response_format' of type 'json_object'.\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":\"invalid_request_error\"}}",
       "at": "2026-09-12T23:07:48.208Z"
+    },
+    {
+      "key": "hoppande majoriteter->totalt kaos i Sverige:orsakar",
+      "reason": "DeepSeek 400: {\"error\":{\"message\":\"Prompt must contain the word 'json' in some form to use 'response_format' of type 'json_object'.\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":\"invalid_request_error\"}}",
+      "at": "2026-09-12T23:41:09.239Z"
     }
   ]
 }
