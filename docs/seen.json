@@ -1,5 +1,9 @@
 {
-  "congress": [],
+  "congress": [
+    "congress-fb-1ca938b0e2e84502",
+    "congress-fb-54b1cf1dac0931be",
+    "congress-fb-96a2bd2e061c5cba"
+  ],
   "crypto": [
     "gov-uniswap-25881",
     "gov-aave-24293",
@@ -14,9 +18,14 @@
     "world-VmVuaWNlIEZpbG0gRmVzdGl2",
     "world-UGhpbGlwcGluZXMgZmVycnkg",
     "world-U2F1ZGkgb2lsIHBpcGVsaW5l",
-    "world-SG91dGhpIGFkdmFuY2Ugb24g"
+    "world-SG91dGhpIGFkdmFuY2Ugb24g",
+    "world-Q2hpbGUgbnVyc2luZyBob21l",
+    "world-S2VueWEncyBjcmFja2Rvd24g"
   ],
   "val2026": [
+    "val2026-a72cdd9097e0c074",
+    "val2026-10175562d13ac155",
+    "val2026-c097dc7095b66f6f",
     "val2026-a72cdd9097e0c074",
     "val2026-10175562d13ac155",
     "val2026-c097dc7095b66f6f"
