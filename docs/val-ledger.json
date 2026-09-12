@@ -1,5 +1,5 @@
 {
-  "lastSuccessfulRun": "2026-09-12T21:34:30.879Z",
+  "lastSuccessfulRun": "2026-09-12T23:07:48.208Z",
   "observations": [
     {
       "clusterIndex": 0,
@@ -4642,6 +4642,1055 @@
       "runId": "2026-09-12T21:34:30.879Z",
       "observedAt": "2026-09-12T21:34:30.879Z",
       "hash": "f41a5b7793bc0821"
+    },
+    {
+      "clusterIndex": 0,
+      "source": "Göteborgs-Posten",
+      "claimType": "reported",
+      "entities": [
+        "statsministerkandidaterna",
+        "regeringsalternativ"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "slutdebatt",
+      "facts": [
+        "Statsministerkandidaterna dömer ut varandras regeringsalternativ.",
+        "Artikeln handlar om möjliga regeringar efter valet."
+      ],
+      "sources": [
+        {
+          "source": "Göteborgs-Posten",
+          "title": "Dömer ut varandras regeringsalternativ",
+          "link": "https://www.gp.se/politik/andersson-s-och-kristersson-m-domer-ut-varandras-regeringsalternativ.6f0a6691-dad1-42ff-939a-7eaafceae1bd"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Redo bilda regering – men inga nya besked",
+          "link": "https://www.sydsvenskan.se/sverige/kristersson-recept-for-totalt-kaos/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Redo bilda regering – men inga nya besked",
+          "link": "https://www.hd.se/sverige/kristersson-recept-for-totalt-kaos/"
+        },
+        {
+          "source": "Barometern",
+          "title": "Redo bilda regering – men inga nya besked",
+          "link": "https://www.barometern.se/sverige/kristersson-recept-for-totalt-kaos/"
+        }
+      ],
+      "clusterId": "02371a8aac2e2a00",
+      "runId": "2026-09-12T23:07:48.208Z",
+      "observedAt": "2026-09-12T23:07:48.208Z",
+      "hash": "fb9cbfde3be91fc8"
+    },
+    {
+      "clusterIndex": 0,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "S-ledaren",
+        "M-ledaren",
+        "Tidöpartierna",
+        "SD",
+        "statsministerrivalerna"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "slutdebatt",
+      "facts": [
+        "Statsministerrivalerna varnade för varandras regeringsalternativ i den sista debattduellen innan valet.",
+        "S-ledaren lämnade inga nya besked om vem hon tänker regera med.",
+        "M-ledaren tänker köra vidare med Tidöpartierna, men med SD i regeringen."
+      ],
+      "sources": [
+        {
+          "source": "Göteborgs-Posten",
+          "title": "Dömer ut varandras regeringsalternativ",
+          "link": "https://www.gp.se/politik/andersson-s-och-kristersson-m-domer-ut-varandras-regeringsalternativ.6f0a6691-dad1-42ff-939a-7eaafceae1bd"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Redo bilda regering – men inga nya besked",
+          "link": "https://www.sydsvenskan.se/sverige/kristersson-recept-for-totalt-kaos/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Redo bilda regering – men inga nya besked",
+          "link": "https://www.hd.se/sverige/kristersson-recept-for-totalt-kaos/"
+        },
+        {
+          "source": "Barometern",
+          "title": "Redo bilda regering – men inga nya besked",
+          "link": "https://www.barometern.se/sverige/kristersson-recept-for-totalt-kaos/"
+        }
+      ],
+      "clusterId": "02371a8aac2e2a00",
+      "runId": "2026-09-12T23:07:48.208Z",
+      "observedAt": "2026-09-12T23:07:48.208Z",
+      "hash": "884b4b33c4acd4c9"
+    },
+    {
+      "clusterIndex": 0,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "S-ledaren",
+        "M-ledaren",
+        "Tidöpartierna",
+        "SD",
+        "statsministerrivalerna"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "slutdebatt",
+      "facts": [
+        "Statsministerrivalerna varnade för varandras regeringsalternativ i den sista debattduellen innan valet.",
+        "S-ledaren lämnade inga nya besked om vem hon tänker regera med.",
+        "M-ledaren tänker köra vidare med Tidöpartierna, men med SD i regeringen."
+      ],
+      "sources": [
+        {
+          "source": "Göteborgs-Posten",
+          "title": "Dömer ut varandras regeringsalternativ",
+          "link": "https://www.gp.se/politik/andersson-s-och-kristersson-m-domer-ut-varandras-regeringsalternativ.6f0a6691-dad1-42ff-939a-7eaafceae1bd"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Redo bilda regering – men inga nya besked",
+          "link": "https://www.sydsvenskan.se/sverige/kristersson-recept-for-totalt-kaos/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Redo bilda regering – men inga nya besked",
+          "link": "https://www.hd.se/sverige/kristersson-recept-for-totalt-kaos/"
+        },
+        {
+          "source": "Barometern",
+          "title": "Redo bilda regering – men inga nya besked",
+          "link": "https://www.barometern.se/sverige/kristersson-recept-for-totalt-kaos/"
+        }
+      ],
+      "clusterId": "02371a8aac2e2a00",
+      "runId": "2026-09-12T23:07:48.208Z",
+      "observedAt": "2026-09-12T23:07:48.208Z",
+      "hash": "7d2937f72bf8a478"
+    },
+    {
+      "clusterIndex": 0,
+      "source": "Barometern",
+      "claimType": "reported",
+      "entities": [
+        "S-ledaren",
+        "M-ledaren",
+        "Tidöpartierna",
+        "SD",
+        "statsministerrivalerna"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "slutdebatt",
+      "facts": [
+        "Statsministerrivalerna varnade för varandras regeringsalternativ i den sista debattduellen innan valet.",
+        "S-ledaren lämnade inga nya besked om vem hon tänker regera med.",
+        "M-ledaren tänker köra vidare med Tidöpartierna, men med SD i regeringen."
+      ],
+      "sources": [
+        {
+          "source": "Göteborgs-Posten",
+          "title": "Dömer ut varandras regeringsalternativ",
+          "link": "https://www.gp.se/politik/andersson-s-och-kristersson-m-domer-ut-varandras-regeringsalternativ.6f0a6691-dad1-42ff-939a-7eaafceae1bd"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Redo bilda regering – men inga nya besked",
+          "link": "https://www.sydsvenskan.se/sverige/kristersson-recept-for-totalt-kaos/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Redo bilda regering – men inga nya besked",
+          "link": "https://www.hd.se/sverige/kristersson-recept-for-totalt-kaos/"
+        },
+        {
+          "source": "Barometern",
+          "title": "Redo bilda regering – men inga nya besked",
+          "link": "https://www.barometern.se/sverige/kristersson-recept-for-totalt-kaos/"
+        }
+      ],
+      "clusterId": "02371a8aac2e2a00",
+      "runId": "2026-09-12T23:07:48.208Z",
+      "observedAt": "2026-09-12T23:07:48.208Z",
+      "hash": "d57a7e7bdd01adaf"
+    },
+    {
+      "clusterIndex": 1,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "Bukarest",
+        "Rumänien",
+        "landets första klinik för barnpsykiatri"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "cultural-events",
+      "facts": [
+        "Tusentals personer samlades på lördagen runt ett fem kilometer långt bord i Bukarest.",
+        "Syftet är att slå världsrekord och samla in pengar till landets första klinik för barnpsykiatri."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Jättelångt bord slår världsrekord i Rumänien",
+          "link": "https://www.aftonbladet.se/nyheter/a/169KOB/jattelangt-bord-slar-varldsrekord-i-rumanien?utm_medium=rss"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Jättelångt bord slår världsrekord i Rumänien",
+          "link": "https://www.sydsvenskan.se/varlden/jattelangt-bord-slar-varldsrekord-i-rumanien/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Jättelångt bord slår världsrekord i Rumänien",
+          "link": "https://www.hd.se/jattelangt-bord-slar-varldsrekord-i-rumanien/"
+        }
+      ],
+      "clusterId": "941b640df717007c",
+      "runId": "2026-09-12T23:07:48.208Z",
+      "observedAt": "2026-09-12T23:07:48.208Z",
+      "hash": "7c8841b16d60d525"
+    },
+    {
+      "clusterIndex": 1,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "Bukarest",
+        "Rumänien",
+        "landets första klinik för barnpsykiatri"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "cultural-events",
+      "facts": [
+        "Tusentals personer samlades på lördagen runt ett fem kilometer långt bord i Bukarest.",
+        "Syftet är att slå världsrekord och samla in pengar till landets första klinik för barnpsykiatri."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Jättelångt bord slår världsrekord i Rumänien",
+          "link": "https://www.aftonbladet.se/nyheter/a/169KOB/jattelangt-bord-slar-varldsrekord-i-rumanien?utm_medium=rss"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Jättelångt bord slår världsrekord i Rumänien",
+          "link": "https://www.sydsvenskan.se/varlden/jattelangt-bord-slar-varldsrekord-i-rumanien/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Jättelångt bord slår världsrekord i Rumänien",
+          "link": "https://www.hd.se/jattelangt-bord-slar-varldsrekord-i-rumanien/"
+        }
+      ],
+      "clusterId": "941b640df717007c",
+      "runId": "2026-09-12T23:07:48.208Z",
+      "observedAt": "2026-09-12T23:07:48.208Z",
+      "hash": "d50bb9363153b4b3"
+    },
+    {
+      "clusterIndex": 4,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "AIK",
+        "Västerås",
+        "herrallsvenskan",
+        "domaren"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "allsvenskan",
+      "facts": [
+        "AIK har visat fin form i herrallsvenskan.",
+        "Hemma mot Västerås fick AIK viss hjälp av domaren.",
+        "Gästerna vände och vann med 4–1."
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "AIK chockat och utbuat – föll ihop mot Västerås",
+          "link": "https://www.sydsvenskan.se/sport/aik-chockat-och-utbuat-foll-ihop-mot-vasteras/"
+        },
+        {
+          "source": "hd.se",
+          "title": "AIK chockat och utbuat – föll ihop mot Västerås",
+          "link": "https://www.hd.se/sport/aik-chockat-och-utbuat-foll-ihop-mot-vasteras/"
+        }
+      ],
+      "clusterId": "d4e3fbc4975ead03",
+      "runId": "2026-09-12T23:07:48.208Z",
+      "observedAt": "2026-09-12T23:07:48.208Z",
+      "hash": "3fcfa1a2f33a82ae"
+    },
+    {
+      "clusterIndex": 4,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "AIK",
+        "Västerås",
+        "herrallsvenskan",
+        "domaren"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "allsvenskan",
+      "facts": [
+        "AIK har visat fin form i herrallsvenskan.",
+        "Hemma mot Västerås fick AIK viss hjälp av domaren.",
+        "Gästerna vände och vann med 4–1."
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "AIK chockat och utbuat – föll ihop mot Västerås",
+          "link": "https://www.sydsvenskan.se/sport/aik-chockat-och-utbuat-foll-ihop-mot-vasteras/"
+        },
+        {
+          "source": "hd.se",
+          "title": "AIK chockat och utbuat – föll ihop mot Västerås",
+          "link": "https://www.hd.se/sport/aik-chockat-och-utbuat-foll-ihop-mot-vasteras/"
+        }
+      ],
+      "clusterId": "d4e3fbc4975ead03",
+      "runId": "2026-09-12T23:07:48.208Z",
+      "observedAt": "2026-09-12T23:07:48.208Z",
+      "hash": "69a9102dfcbcebad"
+    },
+    {
+      "clusterIndex": 5,
+      "source": "Inrikes | SVT Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Kristersson",
+        "MP",
+        "V",
+        "Andersson",
+        "SD",
+        "Sveriges elproduktion",
+        "kärnkraft",
+        "havsbaserad vindkraft",
+        "Duellen",
+        "TV4"
+      ],
+      "assertedLink": {
+        "from": "MP och V",
+        "to": "Sveriges elproduktion framöver",
+        "direction": "skadar"
+      },
+      "linkSource": "Inrikes | SVT Nyheter",
+      "continuesThread": "slutdebatt",
+      "facts": [
+        "Kristersson pekar ut MP och V för att stå i vägen för Sveriges elproduktion framöver.",
+        "Andersson pekar ut SD för att stå i vägen för Sveriges elproduktion framöver.",
+        "I centrum står kärnkraft och havsbaserad vindkraft.",
+        "S-ledaren säger: 'Det är ju mig ni borde samarbeta med' under 'Duellen' i TV4."
+      ],
+      "sources": [
+        {
+          "source": "Inrikes | SVT Nyheter",
+          "title": "Drabbade samman om havsvind och kärnkraft: ”Mig ni borde samarbeta med”",
+          "link": "https://www.svt.se/nyheter/inrikes/drabbade-samman-om-havsvind-och-karnkraft-mig-ni-borde-samarbeta-med"
+        }
+      ],
+      "clusterId": "3308d82bc00728ba",
+      "runId": "2026-09-12T23:07:48.208Z",
+      "observedAt": "2026-09-12T23:07:48.208Z",
+      "hash": "b625ad73b6222ea5"
+    },
+    {
+      "clusterIndex": 10,
+      "source": "Senast publicerat",
+      "claimType": "reported",
+      "entities": [
+        "Josefine Halfwordson",
+        "Tônn Furniture"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "culture",
+      "facts": [
+        "Josefine Halfwordson är grundare av Tônn Furniture.",
+        "Artikeln handlar om drömsoffan, fjällstationens lugn och kärleken."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "”Bra förvaring ger lugn i hemmet”",
+          "link": "https://www.svd.se/a/aJexyM/josefine-halfwordson-grundare-av-tonn-furniture-om-dromsoffan?utm_medium=rss"
+        }
+      ],
+      "clusterId": "2d55e166418d0fbd",
+      "runId": "2026-09-12T23:07:48.208Z",
+      "observedAt": "2026-09-12T23:07:48.208Z",
+      "hash": "85a100670306a3e8"
+    },
+    {
+      "clusterIndex": 13,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Dan",
+        "Brac",
+        "segelbåten"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "fire-incidents",
+      "facts": [
+        "Svenske Dan följer bränderna på Brac från segelbåten.",
+        "Dan säger: 'Det är kraftfullt'."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Svenske Dan om bränderna på Brac: ”Det är kraftfullt”",
+          "link": "https://www.aftonbladet.se/nyheter/a/gknb5B/svenske-dan-om-skogsbranderna-pa-kroatiska-o-brac-kraftfullt?utm_medium=rss"
+        }
+      ],
+      "clusterId": "a43fa2d616acbf20",
+      "runId": "2026-09-12T23:07:48.208Z",
+      "observedAt": "2026-09-12T23:07:48.208Z",
+      "hash": "b2dab28b5e5d4c2d"
+    },
+    {
+      "clusterIndex": 14,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Ryssland",
+        "Ukraina"
+      ],
+      "assertedLink": {
+        "from": "ryska attacker",
+        "to": "Ukraina",
+        "direction": "skadar"
+      },
+      "linkSource": "Senaste nytt – nyheter från Aftonbladet",
+      "continuesThread": "ukraina-kriget",
+      "facts": [
+        "Minst sju människor har dödats i ryska attacker mot Ukraina.",
+        "Omkring 60 personer har skadats i attackerna."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Sju döda i ryska attacker mot Ukraina",
+          "link": "https://www.aftonbladet.se/nyheter/a/aJQVpL/sju-doda-i-ryska-attacker-mot-ukraina?utm_medium=rss"
+        }
+      ],
+      "clusterId": "c4ce1bd9806f6ede",
+      "runId": "2026-09-12T23:07:48.208Z",
+      "observedAt": "2026-09-12T23:07:48.208Z",
+      "hash": "f459dc9540b83efb"
+    },
+    {
+      "clusterIndex": 15,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "buddhistmunken",
+        "Guardian",
+        "kvinnlig medbrottsling"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "crime-investigations",
+      "facts": [
+        "Buddhistmunken förskingrade 27 miljoner kronor.",
+        "Han avslöjades av en sexvideo.",
+        "Munken och hans kvinnliga medbrottsling har gripits, skriver Guardian."
+      ],
+      "sources": [
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Munk stal 27 miljoner – avslöjad av sexvideo",
+          "link": "https://www.expressen.se/nyheter/varlden/munk-stal-27-miljoner-avslojad-av-sexvideo/"
+        }
+      ],
+      "clusterId": "827adc346b5c6cc6",
+      "runId": "2026-09-12T23:07:48.208Z",
+      "observedAt": "2026-09-12T23:07:48.208Z",
+      "hash": "20392867446e333d"
+    },
+    {
+      "clusterIndex": 16,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "turistort",
+        "skogsbrand"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "fire-incidents",
+      "facts": [
+        "En turistort hotas av en jättelik skogsbrand.",
+        "Över 3 000 hektar är eldhärjat."
+      ],
+      "sources": [
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Turistort hotas av jättelik skogsbrand",
+          "link": "https://www.expressen.se/nyheter/expressen-direkt/?post=bbbd05f9-9adf-41f4-893a-c1b55cc9bdf8"
+        }
+      ],
+      "clusterId": "df08215d89e54143",
+      "runId": "2026-09-12T23:07:48.208Z",
+      "observedAt": "2026-09-12T23:07:48.208Z",
+      "hash": "80430624917e4b09"
+    },
+    {
+      "clusterIndex": 17,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Sarah Daniels",
+        "BBC",
+        "Mohamed Khalifa",
+        "brittiska trebarnsmamman"
+      ],
+      "assertedLink": {
+        "from": "förseningen av testresultaten",
+        "to": "Sarah Daniels död",
+        "direction": "orsakar"
+      },
+      "linkSource": "Expressen: Nyheter",
+      "continuesThread": "crime-investigations",
+      "facts": [
+        "Sarah Daniels behövde vänta i nio månader på testresultaten.",
+        "Sen var det för sent att rädda den brittiska trebarnsmamman, skriver BBC.",
+        "Överläkaren Mohamed Khalifa säger: 'Förseningen var oacceptabel.'"
+      ],
+      "sources": [
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Sarah fick vänta i nio månader – dog",
+          "link": "https://www.expressen.se/nyheter/varlden/sarah-fick-vanta-i--nio-manader-dog/"
+        }
+      ],
+      "clusterId": "f716bc71e0d84c9a",
+      "runId": "2026-09-12T23:07:48.208Z",
+      "observedAt": "2026-09-12T23:07:48.208Z",
+      "hash": "1235a931682c0b6b"
+    },
+    {
+      "clusterIndex": 20,
+      "source": "Dagens industri",
+      "claimType": "reported",
+      "entities": [
+        "Magdalena Andersson",
+        "S",
+        "Ulf Kristersson",
+        "M",
+        "söndagens val"
+      ],
+      "assertedLink": {
+        "from": "hoppande majoriteter",
+        "to": "Sverige",
+        "direction": "skadar"
+      },
+      "linkSource": "Dagens industri",
+      "continuesThread": "slutdebatt",
+      "facts": [
+        "S-ledaren Magdalena Andersson utesluter inte att styra med hoppande majoriteter om hon går segrande ur söndagens val.",
+        "M-ledaren Ulf Kristersson säger: 'Det är ett recept för total kaos i Sverige.'"
+      ],
+      "sources": [
+        {
+          "source": "Dagens industri",
+          "title": "Kristersson: Recept för totalt kaos",
+          "link": "https://www.di.se/nyheter/kristersson-recept-for-totalt-kaos/"
+        }
+      ],
+      "clusterId": "af9a2bbd4ea214c5",
+      "runId": "2026-09-12T23:07:48.208Z",
+      "observedAt": "2026-09-12T23:07:48.208Z",
+      "hash": "ea838cf0b8ba40ac"
+    },
+    {
+      "clusterIndex": 22,
+      "source": "Göteborgs-Posten",
+      "claimType": "reported",
+      "entities": [
+        "Andersson",
+        "Attenius",
+        "Göteborg",
+        "statsministern"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valhot-goteborg",
+      "facts": [
+        "Andersson säger: 'Ord spelar roll' om hoten mot Attenius.",
+        "Även statsministern reagerar starkt efter händelsen i Göteborg."
+      ],
+      "sources": [
+        {
+          "source": "Göteborgs-Posten",
+          "title": "Andersson om hoten mot Attenius: \"Ord spelar roll\"",
+          "link": "https://www.gp.se/politik/partiledarna-reagerar-starkt-pa-hoten-mot-attenius-s.6f93d72b-5405-49b6-bfa2-9e21eb051259"
+        }
+      ],
+      "clusterId": "04ecdf8fe0a0f96a",
+      "runId": "2026-09-12T23:07:48.208Z",
+      "observedAt": "2026-09-12T23:07:48.208Z",
+      "hash": "0a2663bbdd7155f9"
+    },
+    {
+      "clusterIndex": 23,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "Malmö FF",
+        "FC Rosengård",
+        "Filippa Sjöström",
+        "Europaspel"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "allsvenskan",
+      "facts": [
+        "Malmö FF:s damer tog ett stort steg mot Europaspel även nästa år.",
+        "FC Rosengård fick ny luft i bottenstriden efter ett sent avgörande av inhopparen Filippa Sjöström."
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "Fotbollskrock i Malmö – då vann både MFF och FC Rosengård",
+          "link": "https://www.sydsvenskan.se/sport/fotbollskrock-i-malmo-da-vann-bade-mff-och-fc-rosengard/"
+        }
+      ],
+      "clusterId": "26fc0b9631e5486a",
+      "runId": "2026-09-12T23:07:48.208Z",
+      "observedAt": "2026-09-12T23:07:48.208Z",
+      "hash": "9656237cf1341f1f"
+    },
+    {
+      "clusterIndex": 24,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "Billeberga",
+        "Hardeberga"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sports-results",
+      "facts": [
+        "Billeberga slog Hardeberga borta."
+      ],
+      "sources": [
+        {
+          "source": "hd.se",
+          "title": "Billeberga slog Hardeberga borta",
+          "link": "https://www.hd.se/sport/hemmaplan/billeberga-vann-mot-hardeberga-borta/"
+        }
+      ],
+      "clusterId": "56ee779378d34227",
+      "runId": "2026-09-12T23:07:48.208Z",
+      "observedAt": "2026-09-12T23:07:48.208Z",
+      "hash": "4f83076ad2df27a2"
+    },
+    {
+      "clusterIndex": 0,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "Johannes Neumann",
+        "Rögle"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sports-results",
+      "facts": [
+        "Johannes Neumann scored a goal.",
+        "Rögle lost the match."
+      ],
+      "sources": [
+        {
+          "source": "hd.se",
+          "title": "Johannes Neumann målskytt – men Rögle föll",
+          "link": "https://www.hd.se/sport/hemmaplan/johannes-neumann-malskytt-men-rogle-foll/"
+        }
+      ],
+      "clusterId": "4081037fe4a16278",
+      "runId": "2026-09-12T23:07:48.208Z",
+      "observedAt": "2026-09-12T23:07:48.208Z",
+      "hash": "b44e34938b11f802"
+    },
+    {
+      "clusterIndex": 1,
+      "source": "Nyheter",
+      "claimType": "circulating",
+      "entities": [
+        "sol- och vindkraft",
+        "vätgasnät"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "ai-reglering",
+      "facts": [
+        "The text suggests routing solar and wind power via a hydrogen network.",
+        "The text claims those intending to profit from solar and wind power were driven only by profit interest.",
+        "The text claims no electricity is created as long as sun and wind are absent."
+      ],
+      "sources": [
+        {
+          "source": "Nyheter",
+          "title": "Låt sol- och vindkraften ta en omväg via vätgasnät",
+          "link": "https://www.nsd.se/insandare/artikel/lat-sol-och-vindkraften-ta-en-omvag-via-vatgasnat/jdqv13xr"
+        }
+      ],
+      "clusterId": "eb6decee24ab0308",
+      "runId": "2026-09-12T23:07:48.208Z",
+      "observedAt": "2026-09-12T23:07:48.208Z",
+      "hash": "5c80ec47fae84bb6"
+    },
+    {
+      "clusterIndex": 2,
+      "source": "Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Norrbotten",
+        "Norrbottens profiler"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valrorelse-kritik",
+      "facts": [
+        "Some Norrbotten profiles have decided how to vote; others are still undecided.",
+        "Profiles from Norrbotten were interviewed about their political heart issues and reasoning ahead of election day."
+      ],
+      "sources": [
+        {
+          "source": "Nyheter",
+          "title": "Inför valet: Därför röstar Norrbottens profiler som de gör",
+          "link": "https://www.nsd.se/nyheter/norrbotten/artikel/infor-valet-rostar-norrbottens-profiler-sa-har/lzdndepr"
+        }
+      ],
+      "clusterId": "10151b7d2094a3ba",
+      "runId": "2026-09-12T23:07:48.208Z",
+      "observedAt": "2026-09-12T23:07:48.208Z",
+      "hash": "0f4102ef4d4b6580"
+    },
+    {
+      "clusterIndex": 3,
+      "source": "Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Kiruna",
+        "Stefan Sydberg",
+        "Moderaterna (M)",
+        "Kirunapolitiken"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valrorelse-kritik",
+      "facts": [
+        "It will soon be determined which more houses from old Kiruna will be preserved.",
+        "Parties in Kiruna have differing views on whether to prioritize moving many houses.",
+        "Stefan Sydberg (M) says it is more sensible to build new."
+      ],
+      "sources": [
+        {
+          "source": "Nyheter",
+          "title": "Olika syn i Kirunapolitiken på flytt av hus från gamla stan",
+          "link": "https://www.nsd.se/nyheter/kiruna/artikel/oenighet-i-kiruna-om-flytt-av-hus-fran-gamla-stan/l61nonvj"
+        }
+      ],
+      "clusterId": "d196f27df4dba882",
+      "runId": "2026-09-12T23:07:48.208Z",
+      "observedAt": "2026-09-12T23:07:48.208Z",
+      "hash": "e5b5e4373bb5bfbe"
+    },
+    {
+      "clusterIndex": 4,
+      "source": "Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Sunderbyn",
+        "Hushållningssällskapet",
+        "Mats Rönnqvist",
+        "Coop Norrbottens investeringsbolag CN Invest",
+        "fiskodling"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "atervandande-till-sverige",
+      "facts": [
+        "In late May, an environmental permit was granted for a large fish farming investment in Sunderbyn.",
+        "Hushållningssällskapet is now seeking business partners to secure financing and break ground.",
+        "The investment could yield 3,000 tonnes of char per year.",
+        "Mats Rönnqvist, CFO and CEO of Coop Norrbotten's investment company CN Invest, says they view projects adding food production in northern Sweden very positively."
+      ],
+      "sources": [
+        {
+          "source": "Nyheter",
+          "title": "Jättesatsning på fiskodling kan ge 3 000 ton röding per år",
+          "link": "https://www.nsd.se/nyheter/lulea/artikel/coop-norrbotten-vill-investera-i-fiskodling-i-sunderbyn/l78690xj"
+        }
+      ],
+      "clusterId": "4e38b9190e5457f2",
+      "runId": "2026-09-12T23:07:48.208Z",
+      "observedAt": "2026-09-12T23:07:48.208Z",
+      "hash": "3bb61aa2b0a0b243"
+    },
+    {
+      "clusterIndex": 5,
+      "source": "Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Luleå Hockey",
+        "Ulf Engman"
+      ],
+      "assertedLink": {
+        "from": "löneutvecklingen",
+        "to": "kunna fortsätta konkurrera",
+        "direction": "orsakar"
+      },
+      "linkSource": "Nyheter",
+      "continuesThread": "sports-analysis",
+      "facts": [
+        "The million-dollar spending in Swedish hockey continues.",
+        "Luleå Hockey refuses to disclose how much money the club spends on its team.",
+        "Vice sports manager Ulf Engman says they must try to keep up with salary development to continue competing."
+      ],
+      "sources": [
+        {
+          "source": "Nyheter",
+          "title": "Luleåbossen om miljonrullningen: \"Vi måste försöka hänga med\"",
+          "link": "https://www.nsd.se/sport/ishockey/artikel/luleabossen-om-miljonrullningen-vi-maste-forsoka-hanga-med/r5pmxznj"
+        }
+      ],
+      "clusterId": "55cc664b27dbb41b",
+      "runId": "2026-09-12T23:07:48.208Z",
+      "observedAt": "2026-09-12T23:07:48.208Z",
+      "hash": "aeb1470e2acd78c0"
+    },
+    {
+      "clusterIndex": 6,
+      "source": "Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Veronica Palm",
+        "NSD",
+        "Netflix"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valdagen-soffan",
+      "facts": [
+        "The election campaign has been long, and now it is the voters' turn.",
+        "NSD political editor Veronica Palm writes that you only need to feel what feels best in your gut and go vote."
+      ],
+      "sources": [
+        {
+          "source": "Nyheter",
+          "title": "Gå och rösta. Sedan kan du binga Netflix",
+          "link": "https://www.nsd.se/ledare/artikel/redan-rostat-grattis-da-slipper-du-hysterin/lyxey1zr"
+        }
+      ],
+      "clusterId": "96007b3e09de59e6",
+      "runId": "2026-09-12T23:07:48.208Z",
+      "observedAt": "2026-09-12T23:07:48.208Z",
+      "hash": "b7dda26002578c1a"
+    },
+    {
+      "clusterIndex": 7,
+      "source": "Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Luleå",
+        "motorcykelolycka"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "traffic-accident",
+      "facts": [
+        "A person in Luleå was injured in an accident late on Saturday after a traffic accident.",
+        "A man was taken to hospital after a motorcycle accident.",
+        "A serious crime is being investigated."
+      ],
+      "sources": [
+        {
+          "source": "Nyheter",
+          "title": "Man till sjukhus efter motorcykelolycka – grovt brott utreds",
+          "link": "https://www.nsd.se/nyheter/lulea/artikel/man-till-sjukhus-efter-motorcykelolycka-grovt-brott-utreds/r0ez6ndj"
+        }
+      ],
+      "clusterId": "ecb02fce8953366c",
+      "runId": "2026-09-12T23:07:48.208Z",
+      "observedAt": "2026-09-12T23:07:48.208Z",
+      "hash": "b755b94e840069ca"
+    },
+    {
+      "clusterIndex": 9,
+      "source": "Barometern",
+      "claimType": "reported",
+      "entities": [
+        "Kalmaralliansen",
+        "Liberalerna",
+        "Kristdemokraterna (KD)",
+        "Jonathan Strömberg",
+        "Christopher Dywik"
+      ],
+      "assertedLink": {
+        "from": "Christopher Dywik (KD) har uppmanat att inte stödrösta på Liberalerna",
+        "to": "negativ kampanj mot L",
+        "direction": "skadar"
+      },
+      "linkSource": "Barometern",
+      "continuesThread": "valrorelse-kritik",
+      "facts": [
+        "With only one day left until polling stations close, Liberalerna's group leader Jonathan Strömberg says KD's group leader is running a negative campaign against L.",
+        "The reason is that Christopher Dywik (KD) has urged people not to tactical-vote for Liberalerna.",
+        "There is a split in the Kalmar alliance just before the election."
+      ],
+      "sources": [
+        {
+          "source": "Barometern",
+          "title": "Spricka i Kalmaralliansen – precis innan valet: ”Trist”",
+          "link": "https://www.barometern.se/kalmar/spricka-i-kalmaralliansen-precis-innan-valet-trist/"
+        }
+      ],
+      "clusterId": "5ae7b49fb6a66800",
+      "runId": "2026-09-12T23:07:48.208Z",
+      "observedAt": "2026-09-12T23:07:48.208Z",
+      "hash": "62dd58b409e58cf7"
+    },
+    {
+      "clusterIndex": 14,
+      "source": "Fokus - Pliktleverans av elektroniskt material",
+      "claimType": "circulating",
+      "entities": [
+        "S-ledda regeringar",
+        "S-politik",
+        "Fokus"
+      ],
+      "assertedLink": {
+        "from": "S-ledda regeringar",
+        "to": "S-politik",
+        "direction": "skadar"
+      },
+      "linkSource": "Fokus - Pliktleverans av elektroniskt material",
+      "continuesThread": "valrorelse-kritik",
+      "facts": [
+        "S-led governments never pursue S politics, only things other parties have put out on the common smorgasbord.",
+        "The post 'Spagatpolitik väntar!' appeared first on Fokus."
+      ],
+      "sources": [
+        {
+          "source": "Fokus - Pliktleverans av elektroniskt material",
+          "title": "Spagatpolitik väntar!",
+          "link": "https://www.fokus.se/sticket/spagatpolitik-vantar/"
+        }
+      ],
+      "clusterId": "d9ad52bbfade117f",
+      "runId": "2026-09-12T23:07:48.208Z",
+      "observedAt": "2026-09-12T23:07:48.208Z",
+      "hash": "d02a77f77dfbb0b1"
+    },
+    {
+      "clusterIndex": 17,
+      "source": "TV4 Nyheterna",
+      "claimType": "reported",
+      "entities": [
+        "Kristersson",
+        "de rödgröna",
+        "Andersson"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "andersson-extrema-krafter",
+      "facts": [
+        "Kristersson says the red-greens are a new chaos government.",
+        "Andersson says she will call everyone."
+      ],
+      "sources": [
+        {
+          "source": "TV4 Nyheterna",
+          "title": "Kristersson om de rödgröna: ”En ny kaosregering”",
+          "link": "https://www.tv4.se/artikel/2KlhB9l4IYXyXbaQlc5N4W/kristersson-om-de-roedgroena-en-ny-kaosregering"
+        }
+      ],
+      "clusterId": "f2caae1db6740a34",
+      "runId": "2026-09-12T23:07:48.208Z",
+      "observedAt": "2026-09-12T23:07:48.208Z",
+      "hash": "349a5d5ea7e154ad"
+    },
+    {
+      "clusterIndex": 20,
+      "source": "BBC News",
+      "claimType": "reported",
+      "entities": [
+        "Trump",
+        "Ireland"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "trump-visit-protests",
+      "facts": [
+        "Trump's comments on a united Ireland may have targeted an audience across the Atlantic.",
+        "Nobody could have predicted that today's main global headline would be Trump's desire to see a unified Ireland."
+      ],
+      "sources": [
+        {
+          "source": "BBC News",
+          "title": "Trump's comments on a united Ireland may have targeted audience across the Atlantic",
+          "link": "https://www.bbc.co.uk/news/articles/cwyzppd1d5lo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "clusterId": "cd21a5daca06e5a7",
+      "runId": "2026-09-12T23:07:48.208Z",
+      "observedAt": "2026-09-12T23:07:48.208Z",
+      "hash": "4c3b3538f38bf06f"
+    },
+    {
+      "clusterIndex": 21,
+      "source": "BBC News",
+      "claimType": "reported",
+      "entities": [
+        "Dayana Yastremska",
+        "Odesa",
+        "Roland Garros",
+        "Russian missile"
+      ],
+      "assertedLink": {
+        "from": "Russian strike",
+        "to": "flat",
+        "direction": "skadar"
+      },
+      "linkSource": "BBC News",
+      "continuesThread": "ukraina-kriget",
+      "facts": [
+        "Dayana Yastremska says her flat took a direct hit by a Russian missile in Odesa.",
+        "All that was left was her Roland Garros towel.",
+        "Only a Roland Garros towel is left, according to the Ukraine tennis player."
+      ],
+      "sources": [
+        {
+          "source": "BBC News",
+          "title": "Only Roland Garros towel left, says Ukraine tennis player after Russian strike hits flat",
+          "link": "https://www.bbc.co.uk/news/articles/c4gr33g3evlo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "clusterId": "420d57a0ec272f06",
+      "runId": "2026-09-12T23:07:48.208Z",
+      "observedAt": "2026-09-12T23:07:48.208Z",
+      "hash": "94ae4a03bcbb2fec"
     }
   ],
   "published": [],
@@ -4660,6 +5709,11 @@
       "key": "hoppande majoriteter->totalt kaos i Sverige:orsakar",
       "reason": "DeepSeek 400: {\"error\":{\"message\":\"Prompt must contain the word 'json' in some form to use 'response_format' of type 'json_object'.\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":\"invalid_request_error\"}}",
       "at": "2026-09-12T21:34:30.879Z"
+    },
+    {
+      "key": "hoppande majoriteter->totalt kaos i Sverige:orsakar",
+      "reason": "DeepSeek 400: {\"error\":{\"message\":\"Prompt must contain the word 'json' in some form to use 'response_format' of type 'json_object'.\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":\"invalid_request_error\"}}",
+      "at": "2026-09-12T23:07:48.208Z"
     }
   ]
 }
