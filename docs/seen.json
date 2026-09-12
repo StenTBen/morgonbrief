@@ -2,11 +2,15 @@
   "congress": [],
   "crypto": [
     "gov-uniswap-25881",
-    "gov-aave-24293"
+    "gov-aave-24293",
+    "gov-uniswap-26137",
+    "gov-uniswap-26137"
   ],
   "world": [
     "world-QlJJQ1Mgc3VtbWl0IG9wZW5z",
     "world-VHJ1bXAgYW5kIFJlcHVibGlj",
-    "world-J1dvbWFuIFVua25vd24nIHdp"
+    "world-J1dvbWFuIFVua25vd24nIHdp",
+    "world-VmVuaWNlIEZpbG0gRmVzdGl2",
+    "world-UGhpbGlwcGluZXMgZmVycnkg"
   ]
 }
