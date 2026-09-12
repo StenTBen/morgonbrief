@@ -1,0 +1,67 @@
+{
+  "id": "world",
+  "label": "Världen",
+  "status": "active",
+  "_comment_purpose": "This sphere exists to find what is large elsewhere and absent here. It is defined by subtraction: a story only qualifies if plenty of international outlets carried it AND Swedish media did not. Anything Omni already gave Karl this morning is, by construction, disqualified.",
+  "_comment_feeds": "Weighted deliberately away from the Anglo-American centre, because that is where Swedish coverage already overlaps most. Africa, South and Southeast Asia, Latin America and Central Asia are the real blind spots. Dead feeds are normal - delete them here rather than debugging them.",
+  "feeds": [
+    "https://feeds.bbci.co.uk/news/world/rss.xml",
+    "https://www.aljazeera.com/xml/rss/all.xml",
+    "https://www.theguardian.com/world/rss",
+    "https://www.france24.com/en/rss",
+    "https://rss.dw.com/rdf/rss-en-world",
+    "https://allafrica.com/tools/headlines/rdf/latest/headlines.rdf",
+    "https://restofworld.org/feed/latest/",
+    "https://asia.nikkei.com/rss/feed/nar",
+    "https://www.scmp.com/rss/91/feed",
+    "https://www.thehindu.com/news/international/feeder/default.rss",
+    "https://kyivindependent.com/feed/",
+    "https://www.intellinews.com/feed",
+    "https://apnews.com/hub/world-news.rss"
+  ],
+  "_comment_shadow": "Never displayed, never quoted, never a source. Swept only so we can subtract. If a story appears here, it is not a gap - it is Tuesday. Add the outlets Karl actually reads, because the subtraction is only as good as this list.",
+  "swedishShadowFeeds": [
+    "https://www.svt.se/nyheter/rss.xml",
+    "https://api.sr.se/api/rss/program/83",
+    "https://www.dn.se/rss/",
+    "https://www.svd.se/feed/articles.rss",
+    "https://feeds.expressen.se/nyheter/",
+    "https://rss.aftonbladet.se/rss2/small/pages/sections/senastenytt/",
+    "https://www.di.se/rss"
+  ],
+  "_comment_scoring": "Deterministic, as everywhere: the model reports observations (how many outlets, whether Swedish coverage exists, which region), the arithmetic here decides. 'Big' is measured by independent international pickup, not by how dramatic a headline sounds.",
+  "scoring": {
+    "manyInternationalSources": 40,
+    "someInternationalSources": 25,
+    "noSwedishCoverage": 35,
+    "weakSwedishCoverage": 15,
+    "underreportedRegion": 15,
+    "threshold": 60
+  },
+  "_comment_thresholds": "manyInternational is the bar for 'this is genuinely large'. Raise it if the sphere gets noisy, lower it if it goes quiet for days at a time.",
+  "sourceThresholds": {
+    "many": 5,
+    "some": 3
+  },
+  "_comment_regions": "Regions where Swedish coverage is thinnest. A story from here earns a bonus because the gap is structural rather than accidental.",
+  "underreportedRegions": [
+    "Africa",
+    "South Asia",
+    "Southeast Asia",
+    "Central Asia",
+    "Latin America",
+    "Caribbean",
+    "Pacific",
+    "Middle East"
+  ],
+  "maxItemsPerEpisode": 2,
+  "scriptRules": [
+    "The listener follows the news closely and has already read the Swedish coverage. This story is here precisely because Swedish media did not carry it, so assume no prior knowledge of it specifically while assuming a well-informed adult generally.",
+    "Never remark that Swedish media ignored the story, and never frame the segment around that absence. The gap is why the story was selected; it is not what the story is about. Follow the ANNOUNCE / GROUND / SUBSTANCE order above - for this sphere GROUND carries most of the weight, because the listener is well informed generally but has not encountered these specific actors.",
+    "Every factual claim must come from the supplied articles. If something is not in the material, say that it is not in the material.",
+    "Mark provenance out loud: a wire report, a regional outlet's own reporting, and an official statement are three different things and must sound different.",
+    "Say plainly when a claim rests on a single outlet, and name that outlet.",
+    "Explain why it matters beyond the region it happened in - a listener in Sweden needs the thread back to something consequential.",
+    "Write in Swedish, for the ear. Spoken sentences, no headings, no bullet points, no stage directions."
+  ]
+}
