@@ -1,0 +1,2747 @@
+{
+  "lastSuccessfulRun": "2026-09-12T19:47:22.079Z",
+  "observations": [
+    {
+      "clusterIndex": 0,
+      "source": "Senast publicerat",
+      "claimType": "reported",
+      "entities": [
+        "Magdalena Andersson",
+        "Socialdemokraterna",
+        "Ulf Kristersson",
+        "Moderaterna"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "swedish-election-2026",
+      "facts": [
+        "Magdalena Andersson utesluter inte att styra med hoppande majoriteter om hon går segrande."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Kristersson: Recept för totalt kaos",
+          "link": "https://www.svd.se/a/QJbEpA/kristersson-recept-for-totalt-kaos?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Kristersson: Recept för totalt kaos",
+          "link": "https://www.aftonbladet.se/nyheter/a/K8mlE7/kristersson-recept-for-totalt-kaos?utm_medium=rss"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Kristersson: Recept för totalt kaos",
+          "link": "https://www.di.se/nyheter/kristersson-recept-for-totalt-kaos/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Kristersson: Recept för totalt kaos",
+          "link": "https://www.sydsvenskan.se/sverige/kristersson-recept-for-totalt-kaos/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Kristersson: Recept för totalt kaos",
+          "link": "https://www.hd.se/sverige/kristersson-recept-for-totalt-kaos/"
+        },
+        {
+          "source": "Barometern",
+          "title": "Kristersson: Recept för totalt kaos",
+          "link": "https://www.barometern.se/sverige/kristersson-recept-for-totalt-kaos/"
+        }
+      ],
+      "clusterId": "10175562d13ac155",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "a784979a7bb0b06e"
+    },
+    {
+      "clusterIndex": 0,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Magdalena Andersson",
+        "Socialdemokraterna",
+        "Ulf Kristersson",
+        "Moderaterna"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "swedish-election-2026",
+      "facts": [
+        "Magdalena Andersson utesluter inte att styra med hoppande majoriteter om hon går segrande."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Kristersson: Recept för totalt kaos",
+          "link": "https://www.svd.se/a/QJbEpA/kristersson-recept-for-totalt-kaos?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Kristersson: Recept för totalt kaos",
+          "link": "https://www.aftonbladet.se/nyheter/a/K8mlE7/kristersson-recept-for-totalt-kaos?utm_medium=rss"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Kristersson: Recept för totalt kaos",
+          "link": "https://www.di.se/nyheter/kristersson-recept-for-totalt-kaos/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Kristersson: Recept för totalt kaos",
+          "link": "https://www.sydsvenskan.se/sverige/kristersson-recept-for-totalt-kaos/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Kristersson: Recept för totalt kaos",
+          "link": "https://www.hd.se/sverige/kristersson-recept-for-totalt-kaos/"
+        },
+        {
+          "source": "Barometern",
+          "title": "Kristersson: Recept för totalt kaos",
+          "link": "https://www.barometern.se/sverige/kristersson-recept-for-totalt-kaos/"
+        }
+      ],
+      "clusterId": "10175562d13ac155",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "ce6500deea5e7e85"
+    },
+    {
+      "clusterIndex": 0,
+      "source": "Dagens industri",
+      "claimType": "reported",
+      "entities": [
+        "Magdalena Andersson",
+        "Socialdemokraterna",
+        "Ulf Kristersson",
+        "Moderaterna"
+      ],
+      "assertedLink": {
+        "from": "hoppande majoriteter",
+        "to": "totalt kaos i Sverige",
+        "direction": "orsakar"
+      },
+      "linkSource": "Dagens industri",
+      "continuesThread": "swedish-election-2026",
+      "facts": [
+        "Magdalena Andersson utesluter inte att styra med hoppande majoriteter om hon går segrande ur söndagens val.",
+        "Ulf Kristersson säger: 'Det är ett recept för total kaos i Sverige'."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Kristersson: Recept för totalt kaos",
+          "link": "https://www.svd.se/a/QJbEpA/kristersson-recept-for-totalt-kaos?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Kristersson: Recept för totalt kaos",
+          "link": "https://www.aftonbladet.se/nyheter/a/K8mlE7/kristersson-recept-for-totalt-kaos?utm_medium=rss"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Kristersson: Recept för totalt kaos",
+          "link": "https://www.di.se/nyheter/kristersson-recept-for-totalt-kaos/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Kristersson: Recept för totalt kaos",
+          "link": "https://www.sydsvenskan.se/sverige/kristersson-recept-for-totalt-kaos/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Kristersson: Recept för totalt kaos",
+          "link": "https://www.hd.se/sverige/kristersson-recept-for-totalt-kaos/"
+        },
+        {
+          "source": "Barometern",
+          "title": "Kristersson: Recept för totalt kaos",
+          "link": "https://www.barometern.se/sverige/kristersson-recept-for-totalt-kaos/"
+        }
+      ],
+      "clusterId": "10175562d13ac155",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "4f0507084ed0e051"
+    },
+    {
+      "clusterIndex": 0,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "Magdalena Andersson",
+        "Socialdemokraterna",
+        "Ulf Kristersson",
+        "Moderaterna"
+      ],
+      "assertedLink": {
+        "from": "hoppande majoriteter",
+        "to": "totalt kaos i Sverige",
+        "direction": "orsakar"
+      },
+      "linkSource": "sydsvenskan.se",
+      "continuesThread": "swedish-election-2026",
+      "facts": [
+        "Magdalena Andersson utesluter inte att styra med hoppande majoriteter om hon går segrande ur söndagens val.",
+        "Ulf Kristersson säger: 'Det är ett recept för total kaos i Sverige'."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Kristersson: Recept för totalt kaos",
+          "link": "https://www.svd.se/a/QJbEpA/kristersson-recept-for-totalt-kaos?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Kristersson: Recept för totalt kaos",
+          "link": "https://www.aftonbladet.se/nyheter/a/K8mlE7/kristersson-recept-for-totalt-kaos?utm_medium=rss"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Kristersson: Recept för totalt kaos",
+          "link": "https://www.di.se/nyheter/kristersson-recept-for-totalt-kaos/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Kristersson: Recept för totalt kaos",
+          "link": "https://www.sydsvenskan.se/sverige/kristersson-recept-for-totalt-kaos/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Kristersson: Recept för totalt kaos",
+          "link": "https://www.hd.se/sverige/kristersson-recept-for-totalt-kaos/"
+        },
+        {
+          "source": "Barometern",
+          "title": "Kristersson: Recept för totalt kaos",
+          "link": "https://www.barometern.se/sverige/kristersson-recept-for-totalt-kaos/"
+        }
+      ],
+      "clusterId": "10175562d13ac155",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "30e079e1d30597bd"
+    },
+    {
+      "clusterIndex": 0,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "Magdalena Andersson",
+        "Socialdemokraterna",
+        "Ulf Kristersson",
+        "Moderaterna"
+      ],
+      "assertedLink": {
+        "from": "hoppande majoriteter",
+        "to": "totalt kaos i Sverige",
+        "direction": "orsakar"
+      },
+      "linkSource": "hd.se",
+      "continuesThread": "swedish-election-2026",
+      "facts": [
+        "Magdalena Andersson utesluter inte att styra med hoppande majoriteter om hon går segrande ur söndagens val.",
+        "Ulf Kristersson säger: 'Det är ett recept för total kaos i Sverige'."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Kristersson: Recept för totalt kaos",
+          "link": "https://www.svd.se/a/QJbEpA/kristersson-recept-for-totalt-kaos?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Kristersson: Recept för totalt kaos",
+          "link": "https://www.aftonbladet.se/nyheter/a/K8mlE7/kristersson-recept-for-totalt-kaos?utm_medium=rss"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Kristersson: Recept för totalt kaos",
+          "link": "https://www.di.se/nyheter/kristersson-recept-for-totalt-kaos/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Kristersson: Recept för totalt kaos",
+          "link": "https://www.sydsvenskan.se/sverige/kristersson-recept-for-totalt-kaos/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Kristersson: Recept för totalt kaos",
+          "link": "https://www.hd.se/sverige/kristersson-recept-for-totalt-kaos/"
+        },
+        {
+          "source": "Barometern",
+          "title": "Kristersson: Recept för totalt kaos",
+          "link": "https://www.barometern.se/sverige/kristersson-recept-for-totalt-kaos/"
+        }
+      ],
+      "clusterId": "10175562d13ac155",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "75ea4c7901204078"
+    },
+    {
+      "clusterIndex": 1,
+      "source": "Senast publicerat",
+      "claimType": "reported",
+      "entities": [
+        "Jonas Attenius",
+        "Socialdemokraterna",
+        "Göteborg",
+        "Majorna"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valhot-goteborg",
+      "facts": [
+        "Kommunstyrelsens ordförande Jonas Attenius (S) blev på lördagskvällen hotad i Majorna i Göteborg."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "S-politiker hotad vid valarbete i Göteborg",
+          "link": "https://www.svd.se/a/k0rPdk/s-politiker-hotad-vid-valarbete-i-goteborg?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "S-politiker hotad vid valarbete i Göteborg",
+          "link": "https://www.aftonbladet.se/nyheter/a/Ok91zO/s-politiker-hotad-vid-valarbete-i-goteborg?utm_medium=rss"
+        },
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Jonas Attenius (S) hotad i Göteborg",
+          "link": "https://www.expressen.se/nyheter/politik/jonas-attenius-s-hotad-i-goteborg/"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "S-politiker hotad vid valarbete i Göteborg",
+          "link": "https://www.di.se/nyheter/s-politiker-hotad-vid-valarbete-i-goteborg/"
+        }
+      ],
+      "clusterId": "c097dc7095b66f6f",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "19cdd04bce0ce6b7"
+    },
+    {
+      "clusterIndex": 1,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Jonas Attenius",
+        "Socialdemokraterna",
+        "Göteborg",
+        "Majorna"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valhot-goteborg",
+      "facts": [
+        "Kommunstyrelsens ordförande Jonas Attenius (S) blev på lördagskvällen hotad i Majorna i Göteborg."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "S-politiker hotad vid valarbete i Göteborg",
+          "link": "https://www.svd.se/a/k0rPdk/s-politiker-hotad-vid-valarbete-i-goteborg?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "S-politiker hotad vid valarbete i Göteborg",
+          "link": "https://www.aftonbladet.se/nyheter/a/Ok91zO/s-politiker-hotad-vid-valarbete-i-goteborg?utm_medium=rss"
+        },
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Jonas Attenius (S) hotad i Göteborg",
+          "link": "https://www.expressen.se/nyheter/politik/jonas-attenius-s-hotad-i-goteborg/"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "S-politiker hotad vid valarbete i Göteborg",
+          "link": "https://www.di.se/nyheter/s-politiker-hotad-vid-valarbete-i-goteborg/"
+        }
+      ],
+      "clusterId": "c097dc7095b66f6f",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "0620d5d5c19102ee"
+    },
+    {
+      "clusterIndex": 1,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Jonas Attenius",
+        "Socialdemokraterna",
+        "Göteborg",
+        "Göteborgs-Posten"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valhot-goteborg",
+      "facts": [
+        "Jonas Attenius, socialdemokratisk kommunstyrelseordförande i Göteborg, har utsatts för ett misstänkt olaga hot, rapporterar Göteborgs-Posten.",
+        "Attenius säger till GP: 'Han skriker din jävla landsförrädare'."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "S-politiker hotad vid valarbete i Göteborg",
+          "link": "https://www.svd.se/a/k0rPdk/s-politiker-hotad-vid-valarbete-i-goteborg?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "S-politiker hotad vid valarbete i Göteborg",
+          "link": "https://www.aftonbladet.se/nyheter/a/Ok91zO/s-politiker-hotad-vid-valarbete-i-goteborg?utm_medium=rss"
+        },
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Jonas Attenius (S) hotad i Göteborg",
+          "link": "https://www.expressen.se/nyheter/politik/jonas-attenius-s-hotad-i-goteborg/"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "S-politiker hotad vid valarbete i Göteborg",
+          "link": "https://www.di.se/nyheter/s-politiker-hotad-vid-valarbete-i-goteborg/"
+        }
+      ],
+      "clusterId": "c097dc7095b66f6f",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "d0df2b9334ca6fbc"
+    },
+    {
+      "clusterIndex": 1,
+      "source": "Dagens industri",
+      "claimType": "reported",
+      "entities": [
+        "Jonas Attenius",
+        "Socialdemokraterna",
+        "Göteborg",
+        "Majorna",
+        "Polis"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valhot-goteborg",
+      "facts": [
+        "Kommunstyrelsens ordförande Jonas Attenius (S) blev på lördagskvällen hotad i Majorna i Göteborg.",
+        "Polis kallades till platsen och händelsen är nu polisanmäld."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "S-politiker hotad vid valarbete i Göteborg",
+          "link": "https://www.svd.se/a/k0rPdk/s-politiker-hotad-vid-valarbete-i-goteborg?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "S-politiker hotad vid valarbete i Göteborg",
+          "link": "https://www.aftonbladet.se/nyheter/a/Ok91zO/s-politiker-hotad-vid-valarbete-i-goteborg?utm_medium=rss"
+        },
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Jonas Attenius (S) hotad i Göteborg",
+          "link": "https://www.expressen.se/nyheter/politik/jonas-attenius-s-hotad-i-goteborg/"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "S-politiker hotad vid valarbete i Göteborg",
+          "link": "https://www.di.se/nyheter/s-politiker-hotad-vid-valarbete-i-goteborg/"
+        }
+      ],
+      "clusterId": "c097dc7095b66f6f",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "a9d409be60c64908"
+    },
+    {
+      "clusterIndex": 2,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "AFD",
+        "Sachsen-Anhalt",
+        "Tyskland"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "afd-protester",
+      "facts": [
+        "Tiotusentals människor protesterade på lördagen mot ytterhögerpartiet AFD.",
+        "AFD vann förra helgen delstatsvalet i Sachsen-Anhalt i Tyskland."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Tiotusentals protesterar mot AFD",
+          "link": "https://www.aftonbladet.se/nyheter/a/k0rx3Q/tiotusentals-protesterar-mot-afd?utm_medium=rss"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Tiotusentals protesterar mot AFD",
+          "link": "https://www.di.se/nyheter/tiotusentals-protesterar-mot-afd/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Tiotusentals protesterar mot AFD",
+          "link": "https://www.sydsvenskan.se/varlden/tiotusentals-protesterar-mot-afd/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Tiotusentals protesterar mot AFD",
+          "link": "https://www.hd.se/varlden/tiotusentals-protesterar-mot-afd/"
+        }
+      ],
+      "clusterId": "cb21186da51f2ab1",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "f994f41e66bff56e"
+    },
+    {
+      "clusterIndex": 2,
+      "source": "Dagens industri",
+      "claimType": "reported",
+      "entities": [
+        "AFD",
+        "Sachsen-Anhalt",
+        "Tyskland"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "afd-protester",
+      "facts": [
+        "Tiotusentals människor protesterade på lördagen mot ytterhögerpartiet AFD.",
+        "AFD vann förra helgen delstatsvalet i Sachsen-Anhalt i Tyskland."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Tiotusentals protesterar mot AFD",
+          "link": "https://www.aftonbladet.se/nyheter/a/k0rx3Q/tiotusentals-protesterar-mot-afd?utm_medium=rss"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Tiotusentals protesterar mot AFD",
+          "link": "https://www.di.se/nyheter/tiotusentals-protesterar-mot-afd/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Tiotusentals protesterar mot AFD",
+          "link": "https://www.sydsvenskan.se/varlden/tiotusentals-protesterar-mot-afd/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Tiotusentals protesterar mot AFD",
+          "link": "https://www.hd.se/varlden/tiotusentals-protesterar-mot-afd/"
+        }
+      ],
+      "clusterId": "cb21186da51f2ab1",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "4e30d67aad79064a"
+    },
+    {
+      "clusterIndex": 2,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "AFD",
+        "Sachsen-Anhalt",
+        "Tyskland"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "afd-protester",
+      "facts": [
+        "Tiotusentals människor protesterade på lördagen mot ytterhögerpartiet AFD.",
+        "AFD vann förra helgen delstatsvalet i Sachsen-Anhalt i Tyskland."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Tiotusentals protesterar mot AFD",
+          "link": "https://www.aftonbladet.se/nyheter/a/k0rx3Q/tiotusentals-protesterar-mot-afd?utm_medium=rss"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Tiotusentals protesterar mot AFD",
+          "link": "https://www.di.se/nyheter/tiotusentals-protesterar-mot-afd/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Tiotusentals protesterar mot AFD",
+          "link": "https://www.sydsvenskan.se/varlden/tiotusentals-protesterar-mot-afd/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Tiotusentals protesterar mot AFD",
+          "link": "https://www.hd.se/varlden/tiotusentals-protesterar-mot-afd/"
+        }
+      ],
+      "clusterId": "cb21186da51f2ab1",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "38de1232bdb1c0d8"
+    },
+    {
+      "clusterIndex": 2,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "AFD",
+        "Sachsen-Anhalt",
+        "Tyskland"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "afd-protester",
+      "facts": [
+        "Tiotusentals människor protesterade på lördagen mot ytterhögerpartiet AFD.",
+        "AFD vann förra helgen delstatsvalet i Sachsen-Anhalt i Tyskland."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Tiotusentals protesterar mot AFD",
+          "link": "https://www.aftonbladet.se/nyheter/a/k0rx3Q/tiotusentals-protesterar-mot-afd?utm_medium=rss"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Tiotusentals protesterar mot AFD",
+          "link": "https://www.di.se/nyheter/tiotusentals-protesterar-mot-afd/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Tiotusentals protesterar mot AFD",
+          "link": "https://www.sydsvenskan.se/varlden/tiotusentals-protesterar-mot-afd/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Tiotusentals protesterar mot AFD",
+          "link": "https://www.hd.se/varlden/tiotusentals-protesterar-mot-afd/"
+        }
+      ],
+      "clusterId": "cb21186da51f2ab1",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "3b05c59b8b7f1872"
+    },
+    {
+      "clusterIndex": 3,
+      "source": "Inrikes | SVT Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Magdalena Andersson",
+        "Socialdemokraterna",
+        "Vänsterpartiet"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "andersson-extrema-krafter",
+      "facts": [
+        "Magdalena Andersson lovar att aldrig låta sig 'styras av extrema krafter' om hon blir statsminister.",
+        "Andersson säger: 'Vänsterpartiet har en resa kvar att göra, men jag är ju väldigt tydlig, jag kommer inte låta mig styras av extrema krafter, det är ett löfte till svenska folket'."
+      ],
+      "sources": [
+        {
+          "source": "Inrikes | SVT Nyheter",
+          "title": "Magdalena Anderssons löfte: ”Kommer aldrig låta mig styras av extrema krafter”",
+          "link": "https://www.svt.se/nyheter/inrikes/magdalena-anderssons-lofte-kommer-aldrig-lata-mig-styras-av-extrema-krafter"
+        },
+        {
+          "source": "TV4 Nyheterna",
+          "title": "Anderssons pik: ”Kommer aldrig låta mig styras av extrema krafter”",
+          "link": "https://www.tv4.se/artikel/a9bh5DSth9QocsQEusIB1/anderssons-loefte-kommer-aldrig-lata-mig-styras-av-extrema-krafter"
+        }
+      ],
+      "clusterId": "f3d3482f0e5bf12e",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "563f54c1dc1c37c9"
+    },
+    {
+      "clusterIndex": 3,
+      "source": "TV4 Nyheterna",
+      "claimType": "reported",
+      "entities": [
+        "Magdalena Andersson",
+        "Socialdemokraterna",
+        "Ulf Kristersson",
+        "Moderaterna"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "andersson-extrema-krafter",
+      "facts": [
+        "Magdalena Andersson säger att hon aldrig kommer låta sig styras av extrema krafter.",
+        "Kristerssons svar: 'Tänkte hon ta in terrorromantikerna?'"
+      ],
+      "sources": [
+        {
+          "source": "Inrikes | SVT Nyheter",
+          "title": "Magdalena Anderssons löfte: ”Kommer aldrig låta mig styras av extrema krafter”",
+          "link": "https://www.svt.se/nyheter/inrikes/magdalena-anderssons-lofte-kommer-aldrig-lata-mig-styras-av-extrema-krafter"
+        },
+        {
+          "source": "TV4 Nyheterna",
+          "title": "Anderssons pik: ”Kommer aldrig låta mig styras av extrema krafter”",
+          "link": "https://www.tv4.se/artikel/a9bh5DSth9QocsQEusIB1/anderssons-loefte-kommer-aldrig-lata-mig-styras-av-extrema-krafter"
+        }
+      ],
+      "clusterId": "f3d3482f0e5bf12e",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "e2ed5896e64c48b5"
+    },
+    {
+      "clusterIndex": 4,
+      "source": "DN.se - Dagens Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Jonas Attenius",
+        "Socialdemokraterna",
+        "Göteborg"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valhot-goteborg",
+      "facts": [
+        "På lördagen attackerades S-toppen Jonas Attenius i Göteborg.",
+        "En man hotade att dränka honom och kallade honom 'landsförrädare'.",
+        "Attenius säger till DN: 'Nu är det skarpt läge. Nu smäller det'."
+      ],
+      "sources": [
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "Man attackerade S-toppen: ”Skrek landsförrädare”",
+          "link": "https://www.dn.se/sverige/man-gick-till-attack-mot-s-toppen/"
+        },
+        {
+          "source": "Göteborgs-Posten",
+          "title": "Jonas Attenius (S) hotad – polisinsats i Majorna",
+          "link": "https://www.gp.se/politik/jonas-attenius-s-hotad-polisinsats-i-majorna.65045b90-d6e5-4c7e-9ff0-4135d9973198"
+        }
+      ],
+      "clusterId": "23e4481284c4810b",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "4d5ae910469b0a97"
+    },
+    {
+      "clusterIndex": 4,
+      "source": "Göteborgs-Posten",
+      "claimType": "reported",
+      "entities": [
+        "Jonas Attenius",
+        "Socialdemokraterna",
+        "Majorna"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valhot-goteborg",
+      "facts": [
+        "Jonas Attenius (S) hotad – polisinsats i Majorna.",
+        "S-toppen säger: 'Jag tänkte: Nu smäller det, nu är det kört'."
+      ],
+      "sources": [
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "Man attackerade S-toppen: ”Skrek landsförrädare”",
+          "link": "https://www.dn.se/sverige/man-gick-till-attack-mot-s-toppen/"
+        },
+        {
+          "source": "Göteborgs-Posten",
+          "title": "Jonas Attenius (S) hotad – polisinsats i Majorna",
+          "link": "https://www.gp.se/politik/jonas-attenius-s-hotad-polisinsats-i-majorna.65045b90-d6e5-4c7e-9ff0-4135d9973198"
+        }
+      ],
+      "clusterId": "23e4481284c4810b",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "3cbb3ec7404c1822"
+    },
+    {
+      "clusterIndex": 5,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "Woman unknown",
+        "Venedig",
+        "Guldlejonet"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "venedig-filmfestival",
+      "facts": [
+        "Danska dramafilmen 'Woman unknown' vinner Guldlejonet på filmfestivalen i Venedig.",
+        "Filmen var den enda av årets tävlande bidrag som regisserats av en kvinna."
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "Guldlejonet till danskt drama",
+          "link": "https://www.sydsvenskan.se/noje/guldlejonet-till-danskt-drama/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Guldlejonet till danskt drama",
+          "link": "https://www.hd.se/guldlejonet-till-danskt-drama/"
+        }
+      ],
+      "clusterId": "cb4541d466f276ad",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "debb10edfd366f43"
+    },
+    {
+      "clusterIndex": 5,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "Woman unknown",
+        "Venedig",
+        "Guldlejonet"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "venedig-filmfestival",
+      "facts": [
+        "Danska dramafilmen 'Woman unknown' vinner Guldlejonet på filmfestivalen i Venedig.",
+        "Filmen var den enda av årets tävlande bidrag som regisserats av en kvinna."
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "Guldlejonet till danskt drama",
+          "link": "https://www.sydsvenskan.se/noje/guldlejonet-till-danskt-drama/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Guldlejonet till danskt drama",
+          "link": "https://www.hd.se/guldlejonet-till-danskt-drama/"
+        }
+      ],
+      "clusterId": "cb4541d466f276ad",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "2d6b4eb23bf6943e"
+    },
+    {
+      "clusterIndex": 6,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "Sverigedemokraterna",
+        "TV4 Nyheterna"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sd-sms-utskick",
+      "facts": [
+        "Sverigedemokraterna skickade sms till personer som inte firar svensk namnsdag.",
+        "Personer som fått smset kan ha rätt till skadestånd, rapporterar TV4 Nyheterna."
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "Expert: SD:s sms-utskick bryter mot lagen",
+          "link": "https://www.sydsvenskan.se/sverige/expert-sds-sms-utskick-bryter-mot-lagen/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Expert: SD:s sms-utskick bryter mot lagen",
+          "link": "https://www.hd.se/expert-sds-sms-utskick-bryter-mot-lagen/"
+        }
+      ],
+      "clusterId": "08fec50f6ed7673f",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "3391d0df33b1a0e4"
+    },
+    {
+      "clusterIndex": 6,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "Sverigedemokraterna",
+        "TV4 Nyheterna"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sd-sms-utskick",
+      "facts": [
+        "Sverigedemokraterna skickade sms till personer som inte firar svensk namnsdag.",
+        "Personer som fått smset kan ha rätt till skadestånd, rapporterar TV4 Nyheterna."
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "Expert: SD:s sms-utskick bryter mot lagen",
+          "link": "https://www.sydsvenskan.se/sverige/expert-sds-sms-utskick-bryter-mot-lagen/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Expert: SD:s sms-utskick bryter mot lagen",
+          "link": "https://www.hd.se/expert-sds-sms-utskick-bryter-mot-lagen/"
+        }
+      ],
+      "clusterId": "08fec50f6ed7673f",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "b73cc2f335ecaf47"
+    },
+    {
+      "clusterIndex": 7,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "Sam Larsson",
+        "IFK Göteborg",
+        "Halmstad",
+        "Allsvenskan"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "allsvenskan",
+      "facts": [
+        "Sam Larsson är tillbaka i allsvenskan och fortsätter leverera för sitt IFK Göteborg.",
+        "I 2–1-segern hemma mot Halmstad satte han ledningsmålet med en vacker frispark."
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "Drömfrispark av Sam Larsson när Blåvitt vann igen",
+          "link": "https://www.sydsvenskan.se/sport/dromfrispark-av-sam-larsson-nar-blavitt-vann-igen/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Drömfrispark av Sam Larsson när Blåvitt vann igen",
+          "link": "https://www.hd.se/sport/dromfrispark-av-sam-larsson-nar-blavitt-vann-igen/"
+        }
+      ],
+      "clusterId": "6a7795fa444839e5",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "6d1fe170b3adbb63"
+    },
+    {
+      "clusterIndex": 7,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "Sam Larsson",
+        "IFK Göteborg",
+        "Halmstad",
+        "Allsvenskan"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "allsvenskan",
+      "facts": [
+        "Sam Larsson är tillbaka i allsvenskan och fortsätter leverera för sitt IFK Göteborg.",
+        "I 2–1-segern hemma mot Halmstad satte han ledningsmålet med en vacker frispark."
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "Drömfrispark av Sam Larsson när Blåvitt vann igen",
+          "link": "https://www.sydsvenskan.se/sport/dromfrispark-av-sam-larsson-nar-blavitt-vann-igen/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Drömfrispark av Sam Larsson när Blåvitt vann igen",
+          "link": "https://www.hd.se/sport/dromfrispark-av-sam-larsson-nar-blavitt-vann-igen/"
+        }
+      ],
+      "clusterId": "6a7795fa444839e5",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "304f3125712b9ae2"
+    },
+    {
+      "clusterIndex": 8,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "Volodymyr Zelenskyj",
+        "Vladimir Putin",
+        "Ryssland",
+        "Ukraina",
+        "G20",
+        "Miami",
+        "Kreml"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "zelenskyj-putin-g20",
+      "facts": [
+        "Ukrainas president Volodymyr Zelenskyj vill träffa sin ryska motsvarighet Vladimir Putin på G20-mötet i Miami i december.",
+        "Förslaget får kalla handen från Ryssland."
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "Kreml nobbar Zelenskyjs önskan om möte på G20",
+          "link": "https://www.sydsvenskan.se/varlden/zelenskyj-vill-traffa-putin-pa-g20-i-miami/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Kreml nobbar Zelenskyjs önskan om möte på G20",
+          "link": "https://www.hd.se/varlden/zelenskyj-vill-traffa-putin-pa-g20-i-miami/"
+        }
+      ],
+      "clusterId": "ee1dd3676e32db7b",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "0de492be4f2516cb"
+    },
+    {
+      "clusterIndex": 8,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "Volodymyr Zelenskyj",
+        "Vladimir Putin",
+        "Ryssland",
+        "Ukraina",
+        "G20",
+        "Miami",
+        "Kreml"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "zelenskyj-putin-g20",
+      "facts": [
+        "Ukrainas president Volodymyr Zelenskyj vill träffa sin ryska motsvarighet Vladimir Putin på G20-mötet i Miami i december.",
+        "Förslaget får kalla handen från Ryssland."
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "Kreml nobbar Zelenskyjs önskan om möte på G20",
+          "link": "https://www.sydsvenskan.se/varlden/zelenskyj-vill-traffa-putin-pa-g20-i-miami/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Kreml nobbar Zelenskyjs önskan om möte på G20",
+          "link": "https://www.hd.se/varlden/zelenskyj-vill-traffa-putin-pa-g20-i-miami/"
+        }
+      ],
+      "clusterId": "ee1dd3676e32db7b",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "1fd81a925edadc55"
+    },
+    {
+      "clusterIndex": 9,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "Maja Stark",
+        "Linn Grant",
+        "Solheim Cup"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "solheim-cup",
+      "facts": [
+        "Tre matcher, tre segrar för Maja Stark och Linn Grant i Solheim Cup.",
+        "Grant säger: 'Jädrigt gött att ta tre av tre'."
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "Tre av tre för Stark och Grant: ”Jädrigt gött”",
+          "link": "https://www.sydsvenskan.se/sport/succen-fortsatter-svenskorna-knackte-superduon/"
+        },
+        {
+          "source": "Barometern",
+          "title": "Tre av tre för Stark och Grant: ”Jädrigt gött”",
+          "link": "https://www.barometern.se/sport/succen-fortsatter-svenskorna-knackte-superduon/"
+        }
+      ],
+      "clusterId": "baed99d407af436f",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "d6bcfcb07785d985"
+    },
+    {
+      "clusterIndex": 9,
+      "source": "Barometern",
+      "claimType": "reported",
+      "entities": [
+        "Maja Stark",
+        "Linn Grant",
+        "Solheim Cup"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "solheim-cup",
+      "facts": [
+        "Tre matcher, tre segrar för Maja Stark och Linn Grant i Solheim Cup.",
+        "Grant säger: 'Jädrigt gött att ta tre av tre'."
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "Tre av tre för Stark och Grant: ”Jädrigt gött”",
+          "link": "https://www.sydsvenskan.se/sport/succen-fortsatter-svenskorna-knackte-superduon/"
+        },
+        {
+          "source": "Barometern",
+          "title": "Tre av tre för Stark och Grant: ”Jädrigt gött”",
+          "link": "https://www.barometern.se/sport/succen-fortsatter-svenskorna-knackte-superduon/"
+        }
+      ],
+      "clusterId": "baed99d407af436f",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "cdbed00fcbf6c781"
+    },
+    {
+      "clusterIndex": 10,
+      "source": "DN.se - Dagens Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Komisar",
+        "Zaporizjzja",
+        "Ukraina"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "ukraina-kriget",
+      "facts": [
+        "Nära fronten repareras i det dolda trasiga drönare och skadade militärfordon.",
+        "För att minska sårbarheten sker alltmer i mobila verkstäder.",
+        "Beväpnad med en svets lagar Komisar, 50, och hans enhet allt som förstörts i striderna."
+      ],
+      "sources": [
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "Svetsaren som räddar Ukrainas sönderskjutna stridsfordon",
+          "link": "https://www.dn.se/varlden/svetsaren-som-raddar-ukrainas-sonderskjutna-stridsfordon/"
+        }
+      ],
+      "clusterId": "873500edee416ab5",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "2a7b489fa9dea665"
+    },
+    {
+      "clusterIndex": 11,
+      "source": "DN.se - Dagens Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Luleå",
+        "Alfred Renholm"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "barn-och-demokrati",
+      "facts": [
+        "Svenska barn ligger i topp när det gäller demokratikunskaper.",
+        "I Luleå har elever i tvåan startat egna partier.",
+        "Viktiga valfrågor är soligare dagar och pizza till lunch, men också allvarliga ting.",
+        "Alfred Renholm säger: 'De som attackerar ett land ska hamna i fängelse'."
+      ],
+      "sources": [
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "Barnens vallöften – soliga dagar, fred och tacos",
+          "link": "https://www.dn.se/sverige/barnens-valloften-soliga-dagar-fred-och-tacos/"
+        }
+      ],
+      "clusterId": "e6b26b83f2bd8fdc",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "0ad2b437a7c5ed94"
+    },
+    {
+      "clusterIndex": 12,
+      "source": "DN.se - Dagens Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Klas Eklund",
+        "DN Debatt"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valrorelse-kritik",
+      "facts": [
+        "Klas Eklund skriver i DN Debatt att valrörelsen varit en av de sämsta han upplevt.",
+        "Båda sidor har strösslat pengar över svenskarna och swishat iväg löften som aldrig kommer att kunna uppfyllas.",
+        "Första uppgiften för den regering som nu tar vid blir att börja bryta sina löften till väljarna."
+      ],
+      "sources": [
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "DN Debatt. ”Valrörelsens poesi är över – dags att regera på prosa”",
+          "link": "https://www.dn.se/debatt/valrorelsens-poesi-ar-over-dags-att-regera-pa-prosa/"
+        }
+      ],
+      "clusterId": "f457047edb10ad62",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "8cd2b26d01dd4abf"
+    },
+    {
+      "clusterIndex": 13,
+      "source": "DN.se - Dagens Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Anthropic",
+        "Dario Amodei",
+        "Open AI",
+        "Sam Altman",
+        "Elon Musk"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "ai-reglering",
+      "facts": [
+        "Dario Amodei, vd för Anthropic, skriver i ett inlägg på bolagets sajt att utvecklingen av AI måste bromsas.",
+        "Förslaget får stöd från både Open AI:s Sam Altman och Elon Musk."
+      ],
+      "sources": [
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "Anthropic vill bromsa AI – stöds av Musk och Altman",
+          "link": "https://www.dn.se/varlden/anthropic-vill-bromsa-ai-stods-av-musk-och-altman/"
+        }
+      ],
+      "clusterId": "a72cdd9097e0c074",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "764907b64ff6513e"
+    },
+    {
+      "clusterIndex": 14,
+      "source": "DN.se - Dagens Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Lisa Magnusson",
+        "Lindsay Clancy",
+        "USA"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "lindsay-clancy",
+      "facts": [
+        "Lindsay Clancy ströp sina barn till döds, vilket hon inte förnekar.",
+        "Barnens pappa säger att han förlåter henne.",
+        "Kvinnor demonstrerar för att visa henne sitt stöd.",
+        "Juryn har haft så svårt att bestämma sig att rättegången nu måste tas om."
+      ],
+      "sources": [
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "Lisa Magnusson: Lindsay Clancy ströp sina barn till döds – men borde hon gå fri?",
+          "link": "https://www.dn.se/ledare/lisa-magnusson-lindsay-clancy-strop-sina-barn-till-dods-men-borde-hon-ga-fri/"
+        }
+      ],
+      "clusterId": "c5e3a7020c31bb4b",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "89b8782a9ab14a28"
+    },
+    {
+      "clusterIndex": 15,
+      "source": "DN.se - Dagens Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Siri Helle"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valvaka-stress",
+      "facts": [
+        "För en del kan söndagens valvaka innebära rejält stresspåslag och ett nästan tvångsmässigt informationssökande.",
+        "Psykologen Siri Helle tipsar om hur du bäst tar dig igenom kvällen, oavsett vilken valvaketyp du är."
+      ],
+      "sources": [
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "Dags för valvaka – psykologens bästa råd när nerverna tar över",
+          "link": "https://www.dn.se/insidan/dags-for-valvaka-psykologens-basta-rad-nar-nerverna-tar-over/"
+        }
+      ],
+      "clusterId": "14055976391874e7",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "5427feb2037b9cd2"
+    },
+    {
+      "clusterIndex": 16,
+      "source": "DN.se - Dagens Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Bengt Ohlsson",
+        "DN",
+        "Löntagarfonder",
+        "Socialism"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valrorelse-1976",
+      "facts": [
+        "I serien 'Benkes tidsmaskin' bläddrar författaren och skribenten Bengt Ohlsson i DN:s hundraåriga arkiv i jakt på gårdagens nyheter.",
+        "Den här veckan landar han i valrörelsen 1976.",
+        "Valrörelsen 1976 handlade om löntagarfonder och socialism."
+      ],
+      "sources": [
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "Bengt Ohlsson: Valrörelsen 1976 handlade om löntagarfonder och socialism",
+          "link": "https://www.dn.se/kultur/bengt-ohlsson-valrorelsen-1976-handlade-om-lontagarfonder-och-socialism/"
+        }
+      ],
+      "clusterId": "3be09d90d6d5bb97",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "b3c1c2df689dace3"
+    },
+    {
+      "clusterIndex": 17,
+      "source": "DN.se - Dagens Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "AFD",
+        "Sachsen-Anhalt"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "afd-ledamoter",
+      "facts": [
+        "Efter AFD:s storseger i tyska delstaten Sachsen-Anhalt får partiet 20 nya ledamöter i delstatsparlamentet.",
+        "Bland dem finns kopplingar till allt från extremism och kriminalitet till porr."
+      ],
+      "sources": [
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "Stasiförflutet, högerextremism och porrkarriär – här är AFD:s nya ledamöter",
+          "link": "https://www.dn.se/varlden/stasiforflutet-hogerextremism-och-porrkarriar-har-ar-afds-nya-ledamoter/"
+        }
+      ],
+      "clusterId": "cecaa29299fb2268",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "3d9f069278f95234"
+    },
+    {
+      "clusterIndex": 18,
+      "source": "Senast publicerat",
+      "claimType": "reported",
+      "entities": [],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valdagen-soffan",
+      "facts": [
+        "På valdagen riktas blickarna mot dem som väljer soffan framför vallokalen."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Plötsligt blev det fint att ligga",
+          "link": "https://www.svd.se/a/xrVAnR/soffan-och-liggmoblernas-revansch?utm_medium=rss"
+        }
+      ],
+      "clusterId": "b568b8a1c65f73a6",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "6df3f8b4efadfdd1"
+    },
+    {
+      "clusterIndex": 19,
+      "source": "Senast publicerat",
+      "claimType": "reported",
+      "entities": [
+        "The blood of dawnwalker"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "spelrecension",
+      "facts": [
+        "'The blood of dawnwalker' är en triumf för det konsekvent genomförda och kompromisslöst konstnärliga."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Underskönt vampyrspel ger AI-hatarna helt rätt",
+          "link": "https://www.svd.se/a/2pk5Xq/the-blood-of-dawnwalker-tv-spel-recension-av-thomas-engstrom?utm_medium=rss"
+        }
+      ],
+      "clusterId": "e3878a2bd174d591",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "760571f13ac7347b"
+    },
+    {
+      "clusterIndex": 20,
+      "source": "Senast publicerat",
+      "claimType": "reported",
+      "entities": [
+        "Maxim Grigoriev",
+        "Sverige"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "atervandande-till-sverige",
+      "facts": [
+        "Efter tjugo år i utlandet har författaren Maxim Grigoriev flyttat hem."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Att leva i Sverige är som att söka banklån",
+          "link": "https://www.svd.se/a/n1XgJQ/maxim-grigoriev-flyttar-hem-till-ett-forandrat-sverige?utm_medium=rss"
+        }
+      ],
+      "clusterId": "d12edb585c397a4f",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "f99a3cd6bfbbd067"
+    },
+    {
+      "clusterIndex": 21,
+      "source": "Senast publicerat",
+      "claimType": "reported",
+      "entities": [
+        "Liberalerna"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-prognos",
+      "facts": [
+        "Sista prognosen: L rusar – småpartier mot succé.",
+        "Valet kan bli ett bakslag för de tre största partierna – alldeles oavsett vem som vinner."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Sista prognosen: L rusar – småpartier mot succé",
+          "link": "https://www.svd.se/a/rryXj3/vem-vinner-valet-vinstchans-okar-for-kristersson?utm_medium=rss"
+        }
+      ],
+      "clusterId": "825c88f3140608c4",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "3f641559668662a1"
+    },
+    {
+      "clusterIndex": 22,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Vargas hundar"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "vargas-hundar",
+      "facts": [
+        "Hundarna omhändertogs – sen kom chocken."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Vargas hundar omhänder­togs – sen kom chocken",
+          "link": "https://www.aftonbladet.se/nyheter/a/2pgwJr/vargas-hundar-omhandertogs-sen-kom-chocken?utm_medium=rss"
+        }
+      ],
+      "clusterId": "06ed1abc0f8da53a",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "0ad05e2b2cefde62"
+    },
+    {
+      "clusterIndex": 23,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Partiledarna"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-uppladdning",
+      "facts": [
+        "Kvällen före valet – så laddar partiledarna upp.",
+        "En partiledare nämner 'Pommes frites'."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Kvällen före valet – så laddar partiledarna upp",
+          "link": "https://www.aftonbladet.se/nyheter/a/bOvOql/kvallen-innan-valet-sa-laddar-partiledarna-upp?utm_medium=rss"
+        }
+      ],
+      "clusterId": "6886f5ba6b2098fc",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "3380bbd63b83e040"
+    },
+    {
+      "clusterIndex": 24,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "slutdebatt",
+      "facts": [
+        "Hätsk stämning i slutduell: 'Fett underkänt'.",
+        "Någon har 'Spridit lögner'."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Hätsk stämning i slutduell: ”Fett underkänt”",
+          "link": "https://www.aftonbladet.se/nyheter/a/e7LMe9/hatsk-stamning-infor-slutduell-andas-desperation?utm_medium=rss"
+        }
+      ],
+      "clusterId": "17901313e0c0b08d",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "e4eea7b0c4d308c5"
+    },
+    {
+      "clusterIndex": 0,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Ulf Kristersson",
+        "Magdalena Andersson",
+        "Viktor Barth-Kron"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "swedish-election-2022",
+      "facts": [
+        "En valrörelse som partiledare är en mental och fysisk prestation i elitklass.",
+        "Ulf Kristersson och Magdalena Andersson är långt ifrån ensamma."
+      ],
+      "sources": [
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Ulf och Magda – hur orkar ni?",
+          "link": "https://www.expressen.se/kronikorer/viktor-barth-kron/ulf-och-magda-hur-orkar-ni/"
+        }
+      ],
+      "clusterId": "9eea0340782924cf",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "840566d37555b0f2"
+    },
+    {
+      "clusterIndex": 1,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "TV4",
+        "Expressen"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "swedish-election-2022",
+      "facts": [
+        "Ekonomi, kriminalitet, Sverige 2024 och regeringsfrågan var ämnena i TV4:s statsministerduell.",
+        "Expressen har en valkompass."
+      ],
+      "sources": [
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Så var TV4:s statsministerduell – ämne för ämne",
+          "link": "https://www.expressen.se/nyheter/politik/sa-var-tv4s-statsministerduell-amne-for-amne/"
+        }
+      ],
+      "clusterId": "3ed2a61daacc7372",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "1b3a54b4c2da78a9"
+    },
+    {
+      "clusterIndex": 2,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Ulf Kristersson",
+        "Moderaterna",
+        "Magdalena Andersson",
+        "Socialdemokraterna",
+        "TV4"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "swedish-election-2022",
+      "facts": [
+        "Det hettade till när Ulf Kristersson (M) och Magdalena Andersson (S) debatterade klimatet i TV4:s statsministerduell.",
+        "Andersson kallade regeringens klimatpolitik för ett haveri.",
+        "Kristersson svarade att det är systematisk svartmålning."
+      ],
+      "sources": [
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Bråk om klimatet: ”Är bäst i hela EU”",
+          "link": "https://www.expressen.se/nyheter/politik/brak-om-klimatet-ar-bast-i-hela-eu/"
+        }
+      ],
+      "clusterId": "d576b14a4d8848e3",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "c421309d180e0a97"
+    },
+    {
+      "clusterIndex": 3,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Nagham Khawwas",
+        "Securitas",
+        "Diskrimineringsombudsmannen",
+        "DO"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "discrimination-hijab",
+      "facts": [
+        "Nagham Khawwas, 23, nekades ett jobb på Securitas eftersom hon bär hijab.",
+        "Diskrimineringsombudsmannen ger henne rätt.",
+        "Hon säger att hon inte ska behöva ändra vem hon är eller vem hon tror på för att få ett jobb."
+      ],
+      "sources": [
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Nagham nekades jobbet på Securitas – får rätt av DO",
+          "link": "https://www.expressen.se/nyheter/sverige/nagham-nekades-jobbet-pa-securitas-far-ratt-av-do/"
+        }
+      ],
+      "clusterId": "1c820e950338f6e3",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "5300b4a0d2bffb51"
+    },
+    {
+      "clusterIndex": 4,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Teneriffa",
+        "lokala vattenbolaget"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "tenerife-sewage",
+      "facts": [
+        "Bara toalettpapper hör hemma i toaletten.",
+        "Hittills i år har 200 ton våtservetter rensats bort ur avloppssystemet på södra Teneriffa."
+      ],
+      "sources": [
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Varnar turister på Teneriffa – efter enorma fyndet i avloppet",
+          "link": "https://www.expressen.se/nyheter/varlden/varnar-turister-pa-teneriffa-efter-enorma-fyndet-i-avloppet/"
+        }
+      ],
+      "clusterId": "6b5b989542a08ecd",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "d25a02cf18994524"
+    },
+    {
+      "clusterIndex": 5,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Ebba Busch",
+        "Kristdemokraterna",
+        "Simona Mohamsson",
+        "Liberalerna",
+        "Stockholm"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "swedish-election-2022",
+      "facts": [
+        "Simona Mohamsson (L) och Ebba Busch (KD) serverade öl på en fullsatt bar i centrala Stockholm.",
+        "Ebba Busch säger att hon vill slutspurta med Simona."
+      ],
+      "sources": [
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Ebba Busch och Simona Mohamsson serverar öl på bar",
+          "link": "https://www.expressen.se/nyheter/politik/ebba-busch-och-simona-mohamsson-serverar-ol-pa-bar/"
+        }
+      ],
+      "clusterId": "f80043ee4d5dea4d",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "ea3f1283bcce23f3"
+    },
+    {
+      "clusterIndex": 6,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Vänsterpartiet",
+        "Socialdemokraterna",
+        "Centerpartiet",
+        "Maria Forsberg"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "swedish-election-2022",
+      "facts": [
+        "Vänsterpartiets ledning har suttit i möten flera gånger under lördagen.",
+        "Internt är oron utbredd för att man ska tappa till S och C sista dygnet.",
+        "Maria Forsberg är partisekreterare och säger att det är viktigt att bli större än Centerpartiet."
+      ],
+      "sources": [
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Stora oron i Vänsterpartiet – flera krismöten",
+          "link": "https://www.expressen.se/nyheter/politik/stora-oron-i-vansterpartiet-flera-krismoten/"
+        }
+      ],
+      "clusterId": "b85d68d1a22b769b",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "92854628832be964"
+    },
+    {
+      "clusterIndex": 7,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Magnus Ranstorp",
+        "Vänsterpartiet",
+        "New York"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "swedish-election-2022",
+      "facts": [
+        "Magnus Ranstorp har just börjat med regeringens utredning av politisk islam.",
+        "Han följer från New York de nya avslöjandena om Vänsterpartiet.",
+        "Ranstorp säger att det finns en invävd terrorromantik där och att Vänsterpartiet inte har tagit det på allvar."
+      ],
+      "sources": [
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Magnus Ranstorp om nya V-avslöjandena: ”Extremt olämpligt”",
+          "link": "https://www.expressen.se/nyheter/sverige/magnus-ranstorp-om-nya-v-avslojandena-extremt-olampligt/"
+        }
+      ],
+      "clusterId": "9431f7985a68812c",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "25cda1a2558f7fe9"
+    },
+    {
+      "clusterIndex": 8,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Vänersborg"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "traffic-accident",
+      "facts": [
+        "Sex personer till sjukhus efter krock mellan A-traktor och bil i Vänersborg."
+      ],
+      "sources": [
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Sex till sjukhus efter krock",
+          "link": "https://www.expressen.se/nyheter/expressen-direkt/?post=262f9bca-c45f-4892-ac52-10ba41626ee9"
+        }
+      ],
+      "clusterId": "929f6eec79d397fd",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "afc019e29d0701e4"
+    },
+    {
+      "clusterIndex": 9,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Roger Akelius",
+        "Centerpartiet",
+        "Socialdemokraterna"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "swedish-election-2022",
+      "facts": [
+        "Mångmiljardären Roger Akelius, 81, kommer att rösta på Centerpartiet i årets val.",
+        "Den partiledare han gillar bäst leder ett annat parti."
+      ],
+      "sources": [
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Miljardären Roger Akelius hyllning till S-ledaren",
+          "link": "https://www.expressen.se/nyheter/politik/miljardaren-roger-akelius-hyllning--s-ledaren-mest-statsmannamassig/"
+        }
+      ],
+      "clusterId": "ce7af85f4778e491",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "81642ce93ec22e1c"
+    },
+    {
+      "clusterIndex": 10,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Donald Trump"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "trump-visit-protests",
+      "facts": [
+        "10 000 på gatorna i protest mot Trumps besök.",
+        "Någon har kallat det barnsligt."
+      ],
+      "sources": [
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Stora protester mot Trumps besök",
+          "link": "https://www.expressen.se/tv/nyheter/varlden/stora-protester-mot-trumps-besok"
+        }
+      ],
+      "clusterId": "a06eb204129a8069",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "81ce4f85a1d083f9"
+    },
+    {
+      "clusterIndex": 11,
+      "source": "Dagens industri",
+      "claimType": "reported",
+      "entities": [
+        "Dagens industri",
+        "Aktuell hållbarhet"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "swedish-election-2022",
+      "facts": [
+        "Flera svenska vd:ar efterlyser långsiktiga spelregler, investeringar i energi och infrastruktur samt tydligare klimatpolitik inför valet.",
+        "Det visar en ny enkät från Dagens industri och Aktuell hållbarhet."
+      ],
+      "sources": [
+        {
+          "source": "Dagens industri",
+          "title": "Topparnas önskelista: Det vill vi ha nästa mandatperiod",
+          "link": "https://www.di.se/nyheter/topparnas-onskelista-det-vill-vi-ha-nasta-mandatperiod/"
+        }
+      ],
+      "clusterId": "a934177690981212",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "a3a92650e6ed4bd7"
+    },
+    {
+      "clusterIndex": 12,
+      "source": "Dagens industri",
+      "claimType": "reported",
+      "entities": [],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "property-tax",
+      "facts": [
+        "Merparten av landets småhusägare får sänkta taxeringsvärden i höstens taxering.",
+        "Boende i delar av norra Sverige får höjningar – i vissa kommuner stiger värdena med 20-30 procent."
+      ],
+      "sources": [
+        {
+          "source": "Dagens industri",
+          "title": "Lägre taxeringsvärden – men skattejublet uteblir",
+          "link": "https://www.di.se/nyheter/lagre-taxeringsvarden-men-skattejublet-uteblir/"
+        }
+      ],
+      "clusterId": "e1b578221f40af82",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "ad7cc90048005f7c"
+    },
+    {
+      "clusterIndex": 13,
+      "source": "Dagens industri",
+      "claimType": "reported",
+      "entities": [
+        "Danmark",
+        "Arktis",
+        "Grönland",
+        "Ryssland",
+        "Søren Andersen"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "arctic-defense",
+      "facts": [
+        "Danmark lägger över 100 miljarder på att rusta upp Arktis och Grönland.",
+        "Hotet från Ryssland målas upp som litet.",
+        "Generalmajor Søren Andersen basar över försvarsinsatserna på ön och säger att det handlar om trovärdig avskräckning."
+      ],
+      "sources": [
+        {
+          "source": "Dagens industri",
+          "title": "”Det handlar om avskräckning”",
+          "link": "https://www.di.se/nyheter/det-handlar-om-avskrackning/"
+        }
+      ],
+      "clusterId": "6f792c31b73aad5a",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "23d00b0d8f65c89d"
+    },
+    {
+      "clusterIndex": 14,
+      "source": "Dagens industri",
+      "claimType": "reported",
+      "entities": [
+        "Nigel Farage",
+        "Reform UK"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "uk-politics",
+      "facts": [
+        "En kryptoinvesterare utlovade en rekorddonation till Nigel Farages Reform UK.",
+        "En annan kryptoinvesterare ville inte vara sämre.",
+        "Totalt får Reform UK in nästan en miljard kronor genom dubbelgåvan."
+      ],
+      "sources": [
+        {
+          "source": "Dagens industri",
+          "title": "Kryptoduo miljarddonerar till Farage",
+          "link": "https://www.di.se/nyheter/kryptoduo-miljarddonerar-till-farage/"
+        }
+      ],
+      "clusterId": "c7c1d651cee76c1f",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "d156dc38bb6baf03"
+    },
+    {
+      "clusterIndex": 15,
+      "source": "Göteborgs-Posten",
+      "claimType": "reported",
+      "entities": [
+        "Sam Larsson",
+        "IFK Göteborg"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sports",
+      "facts": [
+        "Sam Larsson har öst in poäng och vänt på IFK Göteborgs säsong.",
+        "Han hyllas stort."
+      ],
+      "sources": [
+        {
+          "source": "Göteborgs-Posten",
+          "title": "Sam Larsson efter succén: \"Börjar komma i form\"",
+          "link": "https://www.gp.se/sport/fotboll/ifk-goteborg/hyllningen-av-sam-larsson-han-har-vant-en-sasong.4926cdac-1737-435a-9186-cf20275d528b"
+        }
+      ],
+      "clusterId": "99aefee329ad01ff",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "a1fad5a2c1769a81"
+    },
+    {
+      "clusterIndex": 16,
+      "source": "Göteborgs-Posten",
+      "claimType": "reported",
+      "entities": [
+        "Frölunda"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sports",
+      "facts": [
+        "En oväntad målskytt klev fram för Frölunda under lördagen."
+      ],
+      "sources": [
+        {
+          "source": "Göteborgs-Posten",
+          "title": "Frölundamålvaktens glädje – efter osannolika fullträffen",
+          "link": "https://www.gp.se/sport/ishockey/frolunda/lasse-johansson-malskytt-nar-frolunda-slog-storhamar.e147665a-3ba4-46cb-8865-d7846d83b144"
+        }
+      ],
+      "clusterId": "0326b081c9ca0389",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "1df6051ba987a461"
+    },
+    {
+      "clusterIndex": 17,
+      "source": "Göteborgs-Posten",
+      "claimType": "reported",
+      "entities": [
+        "Björklund"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sports",
+      "facts": [
+        "Björklund öser beröm över mittbacken.",
+        "Mittbacken kommer från en tuff period."
+      ],
+      "sources": [
+        {
+          "source": "Göteborgs-Posten",
+          "title": "Björklund öser beröm över mittbacken: ”In i döden”",
+          "link": "https://www.gp.se/sport/fotboll/ifk-goteborg/joachim-bjorklund-oser-berom-over-jonas-bager.177bd215-2758-4352-bdbd-ba570e671883"
+        }
+      ],
+      "clusterId": "ce990c7fa5046dae",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "ad66226daa1e73f4"
+    },
+    {
+      "clusterIndex": 18,
+      "source": "Göteborgs-Posten",
+      "claimType": "reported",
+      "entities": [
+        "Michael Lindgren",
+        "Herr talman",
+        "Svenska nyheter",
+        "Grotesco"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "culture",
+      "facts": [
+        "Michael Lindgren ligger bakom Herr talman, Svenska nyheter och Grotesco.",
+        "Han vill att alla i Sverige bara ska samsas.",
+        "Han kanske är klar med politisk humor."
+      ],
+      "sources": [
+        {
+          "source": "Göteborgs-Posten",
+          "title": "Michael Lindgren: ”Jag kanske är klar med politisk humor”",
+          "link": "https://www.gp.se/kultur/michael-lindgren-vill-att-sverige-ska-sluta-valja-lag.d6957afa-d9b6-4a2c-9e3e-d3a00a05d4a6"
+        }
+      ],
+      "clusterId": "80c4a24317057aad",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "ae84579342320d0c"
+    },
+    {
+      "clusterIndex": 19,
+      "source": "Göteborgs-Posten",
+      "claimType": "reported",
+      "entities": [
+        "Sverigedemokraterna"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "swedish-election-2022",
+      "facts": [
+        "Den svenska valdagen närmar sig och internationella medier uppmärksammar det.",
+        "I omvärlden målas en bild upp av ett jämnt val.",
+        "Bilden är framför allt av ett land där Sverigedemokraternas växande inflytande har förändrat den politiska spelplanen."
+      ],
+      "sources": [
+        {
+          "source": "Göteborgs-Posten",
+          "title": "Så rapporterar världens medier om svenska valet",
+          "link": "https://www.gp.se/nyheter/varlden/sa-rapporterar-internationella-medier-om-det-svenska-valet-.1c925982-2cc2-4c30-90e0-4e396409f136"
+        }
+      ],
+      "clusterId": "0d38cfa5a5abc519",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "9f6878bb23956992"
+    },
+    {
+      "clusterIndex": 20,
+      "source": "Göteborgs-Posten",
+      "claimType": "reported",
+      "entities": [
+        "Halmstad",
+        "IFK Göteborg"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sports",
+      "facts": [
+        "Mot Halmstad blev det en ny seger för IFK Göteborg.",
+        "Avståndet upp till fjärdeplatsen krympte."
+      ],
+      "sources": [
+        {
+          "source": "Göteborgs-Posten",
+          "title": "\"Blåvitts resa imponerar – spännande höst väntar\"",
+          "link": "https://www.gp.se/sport/fotboll/ifk-goteborg/snabbanalys-blavitt-kan-tacka-sam-larsson-basta-pa-flera-ar.d50b6b21-1e4a-42ee-b940-77554d3590cb"
+        }
+      ],
+      "clusterId": "1b7f40a6363fdc0b",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "884c6d29b941d408"
+    },
+    {
+      "clusterIndex": 21,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "Jimmie Åkesson"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "swedish-election-2022",
+      "facts": [
+        "Väljarna är inte röstboskap – vad Jimmie Åkesson än säger."
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "Väljarna är inte röstboskap – vad Jimmie Åkesson än säger",
+          "link": "https://www.sydsvenskan.se/opinion/moa-berglof/valjarna-ar-inte-rostboskap-for-partierna/"
+        }
+      ],
+      "clusterId": "9de30e7b51dc040a",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "e10f2eac35384972"
+    },
+    {
+      "clusterIndex": 22,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "swedish-election-2022",
+      "facts": [
+        "Min muslimska röst är lika svensk som din."
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "”Min muslimska röst är lika svensk som din”",
+          "link": "https://www.sydsvenskan.se/malmo/min-muslimska-rost-ar-lika-svensk-som-din/"
+        }
+      ],
+      "clusterId": "c4dbc4df2e16ba05",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "c0742526a2f8280a"
+    },
+    {
+      "clusterIndex": 23,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "Kvidinge",
+        "Hasslarp"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sports",
+      "facts": [
+        "Dubbla nollor när Kvidinge tog emot Hasslarp."
+      ],
+      "sources": [
+        {
+          "source": "hd.se",
+          "title": "Dubbla nollor när Kvidinge tog emot Hasslarp",
+          "link": "https://www.hd.se/sport/hemmaplan/dubbla-nollor-nar-kvidinge-tog-emot-hasslarp/"
+        }
+      ],
+      "clusterId": "04488c0e2124a703",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "89ea38a9b9483572"
+    },
+    {
+      "clusterIndex": 24,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "Västra Karup"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sports",
+      "facts": [
+        "Västra Karup är äntligen segrare igen."
+      ],
+      "sources": [
+        {
+          "source": "hd.se",
+          "title": "Västra Karup äntligen segrare igen",
+          "link": "https://www.hd.se/sport/hemmaplan/vastra-karup-antligen-segrare-igen/"
+        }
+      ],
+      "clusterId": "b23197a1f77bdaaa",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "a250722b85b519ea"
+    },
+    {
+      "clusterIndex": 0,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "Landskrona Bois"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sports-results",
+      "facts": [
+        "Landskrona Bois earned a long-awaited point."
+      ],
+      "sources": [
+        {
+          "source": "hd.se",
+          "title": "Efterlängtad poäng för Landskrona Bois",
+          "link": "https://www.hd.se/sport/hemmaplan/efterlangtad-poang-for-landskrona-bois/"
+        }
+      ],
+      "clusterId": "7a4d76a8dd923aff",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "04339a573bc98411"
+    },
+    {
+      "clusterIndex": 1,
+      "source": "Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Kalix",
+        "E4"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "fire-incidents",
+      "facts": [
+        "At 20:35 on Saturday evening, an alarm was received about a fire in a pedestrian tunnel in Kalix."
+      ],
+      "sources": [
+        {
+          "source": "Nyheter",
+          "title": "Brand i gångtunnel under väg E4",
+          "link": "https://www.nsd.se/nyheter/kalix/artikel/mindre-brand-i-gangtunnel-under-e4-i-kalix/jo5qe0ql"
+        }
+      ],
+      "clusterId": "0e49e01a0c5c9d7a",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "8d2f885486d5fe9e"
+    },
+    {
+      "clusterIndex": 2,
+      "source": "Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Kiruna library",
+        "Kate Hearne",
+        "babies",
+        "parents"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "cultural-events",
+      "facts": [
+        "Music at the library is not common, but in Kiruna it happens regularly.",
+        "The audience is babies and their parents.",
+        "Kate Hearne is a freelance musician behind the idea.",
+        "Hearne said it is perfect to play baroque music for babies."
+      ],
+      "sources": [
+        {
+          "source": "Nyheter",
+          "title": "Ovanliga draget på Kirunas bibliotek – spelar Bach för bebisar",
+          "link": "https://www.nsd.se/kultur/kiruna/artikel/bach-for-bebisar-pa-kirunas-stadsbibliotek/lw6g0z7j"
+        }
+      ],
+      "clusterId": "b335e4c82d41d287",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "ce1b46d6bc64a200"
+    },
+    {
+      "clusterIndex": 3,
+      "source": "Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Piteå F19",
+        "Morön",
+        "LF Arena",
+        "division 2 norra Norrland nord dam"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sports-results",
+      "facts": [
+        "The match ended 1-1 after 0-0 at halftime when Piteå F19 hosted Morön at LF Arena in division 2 norra Norrland nord dam in football on Saturday."
+      ],
+      "sources": [
+        {
+          "source": "Nyheter",
+          "title": "Oavgjort möte mellan Piteå F19 och Morön",
+          "link": "https://www.nsd.se/sport/fotboll/artikel/oavgjort-mote-mellan-pitea-f19-och-moron/j82q074j"
+        }
+      ],
+      "clusterId": "74260a14b03ce90b",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "770e277b9c2d7666"
+    },
+    {
+      "clusterIndex": 4,
+      "source": "Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Gällivare",
+        "police",
+        "two men"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "crime-investigations",
+      "facts": [
+        "Police struck against two villages in Gällivare during the night towards Friday.",
+        "Two men were arrested suspected of aggravated hunting crime.",
+        "Several residents saw how police cordoned off a property in one of the villages."
+      ],
+      "sources": [
+        {
+          "source": "Nyheter",
+          "title": "Två anhållna misstänkta för grovt jaktbrott – stor polisinsats",
+          "link": "https://www.nsd.se/nyheter/gallivare/artikel/tva-man-anhallna-for-grovt-jaktbrott-i-gallivare/rexpwmyl"
+        }
+      ],
+      "clusterId": "efb5252d75dabaf1",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "69a9ac12991889d0"
+    },
+    {
+      "clusterIndex": 5,
+      "source": "Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Leif Pekkari",
+        "Tärendö",
+        "Håkan Öberg",
+        "Gällivare",
+        "Jukka Niskala",
+        "Luleå",
+        "Gällivare SK",
+        "Ersnäs IF",
+        "division 5"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sports-results",
+      "facts": [
+        "Leif Pekkari, 67, from Tärendö, Håkan Öberg, 67, from Gällivare, and Jukka Niskala, 66, from Luleå were the referee trio in Saturday's match in division 5 between Gällivare SK and Ersnäs IF.",
+        "Leif Pekkari said it was fun that they got the youth Niskala involved too."
+      ],
+      "sources": [
+        {
+          "source": "Nyheter",
+          "title": "Tre röda kort – när domarna firade 300 år: \"En masskonfrontation\"",
+          "link": "https://www.nsd.se/sport/fotboll/artikel/tre-roda-kort-nar-domarna-firade-300-ar-en-masskonfrontation/r230xgxl"
+        }
+      ],
+      "clusterId": "20c3e8e6da5d9158",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "340fbaa158eb8ca5"
+    },
+    {
+      "clusterIndex": 6,
+      "source": "Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Luleå/MSSK"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sports-analysis",
+      "facts": [
+        "Luleå/MSSK has missed gold before.",
+        "The problem is that now it looks like it will become a rule rather than an exception."
+      ],
+      "sources": [
+        {
+          "source": "Nyheter",
+          "title": "\"Det här SKA vara landets bästa damförening\"",
+          "link": "https://www.nsd.se/sport/ishockey/artikel/sloseri-med-allt-det-arbete-som-lulea-lagt-ner/r3582zkj"
+        }
+      ],
+      "clusterId": "b329cfca6e1b3058",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "d4edd20992529765"
+    },
+    {
+      "clusterIndex": 7,
+      "source": "Barometern",
+      "claimType": "reported",
+      "entities": [
+        "Judith Laneborg",
+        "Hanna Mecke",
+        "French monastery",
+        "bishop",
+        "200 youths"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "youth-travel",
+      "facts": [
+        "18-year-old Judith Laneborg and 17-year-old Hanna Mecke were two of 200 youths who recently returned home after a trip to a French monastery together with the bishop.",
+        "They said they would definitely recommend others to make the same trip."
+      ],
+      "sources": [
+        {
+          "source": "Barometern",
+          "title": "Hemma efter vecka i kloster: ”Munkarna var som oss”",
+          "link": "https://www.barometern.se/oskarshamn/hemma-efter-vecka-i-kloster-munkarna-var-som-oss/"
+        }
+      ],
+      "clusterId": "97605956a4e8e510",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "a5aa1c6511a44ea4"
+    },
+    {
+      "clusterIndex": 8,
+      "source": "Barometern",
+      "claimType": "reported",
+      "entities": [
+        "Isak Arvidsson",
+        "Gullabo",
+        "South Swedish Rally"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sports-results",
+      "facts": [
+        "Isak Arvidsson is Swedish champion in rally.",
+        "After victory also in South Swedish Rally, the Gullabo driver is best."
+      ],
+      "sources": [
+        {
+          "source": "Barometern",
+          "title": "Gullaboförarens makalösa avslutning gav SM-guld",
+          "link": "https://www.barometern.se/sport/gullaboforarens-makalosa-avslutning-gav-sm-guld/"
+        }
+      ],
+      "clusterId": "00734c08c0b98396",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "219242dd79d808e1"
+    },
+    {
+      "clusterIndex": 9,
+      "source": "Barometern",
+      "claimType": "reported",
+      "entities": [
+        "Kalmaralliansen",
+        "Jonathan Strömberg",
+        "Liberalerna",
+        "KD",
+        "Christopher Dywik"
+      ],
+      "assertedLink": {
+        "from": "Christopher Dywik (KD) urging not to support vote for Liberalerna",
+        "to": "Liberalerna",
+        "direction": "skadar"
+      },
+      "linkSource": "Barometern",
+      "continuesThread": "election-campaign",
+      "facts": [
+        "With only one day left until the polling stations close, Liberalerna's group leader Jonathan Strömberg says KD's group leader is conducting a negative campaign against L.",
+        "The reason is that Christopher Dywik (KD) has urged people not to support vote for Liberalerna."
+      ],
+      "sources": [
+        {
+          "source": "Barometern",
+          "title": "Spricka i Kalmaralliansen – precis innan valet: ”Trist”",
+          "link": "https://www.barometern.se/kalmar/spricka-i-kalmaralliansen-precis-innan-valet-trist/"
+        }
+      ],
+      "clusterId": "5ae7b49fb6a66800",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "d7760e29799d6165"
+    },
+    {
+      "clusterIndex": 10,
+      "source": "Barometern",
+      "claimType": "reported",
+      "entities": [
+        "AFD",
+        "Sachsen-Anhalt",
+        "Martin Brückner",
+        "FBC"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "election-campaign",
+      "facts": [
+        "AFD's landslide victory in the state election in Sachsen-Anhalt has made headlines worldwide.",
+        "FBC coach Martin Brückner is concerned about the development in his hometown.",
+        "He said as a German you must take responsibility and know your history."
+      ],
+      "sources": [
+        {
+          "source": "Barometern",
+          "title": "Tränarens oro – efter omtalade valet i hemorten",
+          "link": "https://www.barometern.se/kalmar/tranarens-oro-efter-omtalade-valet-i-hemorten/"
+        }
+      ],
+      "clusterId": "ef9cd6166054a4cb",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "b9e5f4b4eb26af24"
+    },
+    {
+      "clusterIndex": 11,
+      "source": "Barometern",
+      "claimType": "reported",
+      "entities": [
+        "Kalmar AIK",
+        "Kalmarpolisen"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sports-results",
+      "facts": [
+        "Kalmar AIK won away against Kalmarpolisen."
+      ],
+      "sources": [
+        {
+          "source": "Barometern",
+          "title": "Kalmar AIK vann på bortaplan mot Kalmarpolisen",
+          "link": "https://www.barometern.se/sport/kalmar-aik-vann-pa-bortaplan-mot-kalmarpolisen/"
+        }
+      ],
+      "clusterId": "522f0931e0bb8cc2",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "60f1dc0debd026a4"
+    },
+    {
+      "clusterIndex": 12,
+      "source": "Barometern",
+      "claimType": "reported",
+      "entities": [
+        "David",
+        "SM i Grönlandsroll",
+        "Arktis"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sports-results",
+      "facts": [
+        "David paddled 47 meters up and down in SM i Grönlandsroll.",
+        "Behind SM i Grönlandsroll is an ancient survival technique from the Arctic."
+      ],
+      "sources": [
+        {
+          "source": "Barometern",
+          "title": "SM i Grönlandsroll – David paddlade 47 meter upp och ned",
+          "link": "https://www.barometern.se/kalmar/sm-i-gronlandsroll-david-paddlade-47-meter-upp-och-ned/"
+        }
+      ],
+      "clusterId": "66ced8d1ec3c5149",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "bd8f482efe1ac262"
+    },
+    {
+      "clusterIndex": 13,
+      "source": "ETC.se",
+      "claimType": "reported",
+      "entities": [
+        "Nooshi Dadgostar",
+        "V",
+        "Ebba Busch",
+        "Social Democrats",
+        "Tidö light",
+        "media"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "election-campaign",
+      "facts": [
+        "V leader Nooshi Dadgostar warns of a social democratic 'Tidö light' and urges voters to vote as far left as possible.",
+        "The election campaign has been marked by recurring scrutiny of antisemitic V candidates, but Dadgostar directs criticism at the media.",
+        "Dadgostar said other parties' election lists have not been reviewed in the same way."
+      ],
+      "sources": [
+        {
+          "source": "ETC.se",
+          "title": "Dadgostar: Ebba Busch ska inte bli vice statsminister",
+          "link": "https://www.etc.se/inrikes/dadgostar-ebba-busch-ska-inte-bli-vice-statsminister?utm_source=rss"
+        }
+      ],
+      "clusterId": "df6681acc91cb558",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "f1d1556ea1f7f230"
+    },
+    {
+      "clusterIndex": 14,
+      "source": "TV4 Nyheterna",
+      "claimType": "reported",
+      "entities": [
+        "Andersson (S)",
+        "Kristersson",
+        "statsministern"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "election-campaign",
+      "facts": [
+        "Andersson (S) gives the prime minister a 'fat fail' in order rating.",
+        "Kristersson: 'This bitterness is not for me.'"
+      ],
+      "sources": [
+        {
+          "source": "TV4 Nyheterna",
+          "title": "Andersson (S) ger statsministern ”fett underkänt” i ordningsbetyg",
+          "link": "https://www.tv4.se/artikel/5kHm9OoYLhzewDfok2jh9m/andersson-s-ger-statsministern-fett-underkaent-i-ordningsbetyg"
+        }
+      ],
+      "clusterId": "e8bf1d92d94e0dcb",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "a2ee49151d1bb8ab"
+    },
+    {
+      "clusterIndex": 15,
+      "source": "TV4 Nyheterna",
+      "claimType": "reported",
+      "entities": [
+        "Kommunalråd",
+        "Magdalena Andersson",
+        "SD"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "election-campaign",
+      "facts": [
+        "A municipal commissioner was attacked and called 'traitor to the country'.",
+        "Magdalena Andersson criticizes SD.",
+        "The response: Magdalena Andersson's foul play."
+      ],
+      "sources": [
+        {
+          "source": "TV4 Nyheterna",
+          "title": "Kommunalråd attackerades – kallades ”landsförrädare”",
+          "link": "https://www.tv4.se/artikel/29W4Mc1o9D0n6NWMWGqZJg/statsministerkandidaterna-om-kommunalrads-attacken-foerfaerligt"
+        }
+      ],
+      "clusterId": "50c15800d8b361ee",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "147b8113b955f38a"
+    },
+    {
+      "clusterIndex": 16,
+      "source": "TV4 Nyheterna",
+      "claimType": "reported",
+      "entities": [
+        "SSU",
+        "Kristersson",
+        "Bo Lundgren",
+        "Ulf Kristersson"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "election-campaign",
+      "facts": [
+        "Signs of Bo Lundgren appeared when Ulf Kristersson arrived.",
+        "Kristersson: 'Stressed right now.'"
+      ],
+      "sources": [
+        {
+          "source": "TV4 Nyheterna",
+          "title": "SSU:s skyltkupp – Kristersson: ”Stressade just nu”",
+          "link": "https://www.tv4.se/artikel/460o9zNgCsF9oONYafVWjo/ssu-s-skyltkupp-kristersson-stressade-just-nu"
+        }
+      ],
+      "clusterId": "1889f8ee9d840497",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "abad173562761cdf"
+    },
+    {
+      "clusterIndex": 17,
+      "source": "BBC News",
+      "claimType": "reported",
+      "entities": [
+        "Bulgaria",
+        "weapons site",
+        "company"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "international-news",
+      "facts": [
+        "Bulgaria is investigating a fire at a weapons site that the owner calls sabotage.",
+        "Officials are not ruling out 'outside interference', while the company says the blaze at its site was sabotage."
+      ],
+      "sources": [
+        {
+          "source": "BBC News",
+          "title": "Bulgaria investigates fire at weapons site that owner calls sabotage",
+          "link": "https://www.bbc.co.uk/news/articles/cd94kj17zvwo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "clusterId": "972e3658857723f7",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "c7bbf54169b905d7"
+    },
+    {
+      "clusterIndex": 18,
+      "source": "BBC News",
+      "claimType": "reported",
+      "entities": [
+        "Céline Dion",
+        "Paris",
+        "fans"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "entertainment-news",
+      "facts": [
+        "Fans of the Canadian singer greeted her as she left her hotel on Saturday.",
+        "Céline Dion fans prepare for comeback concert in Paris."
+      ],
+      "sources": [
+        {
+          "source": "BBC News",
+          "title": "Céline Dion fans prepare for comeback concert in Paris",
+          "link": "https://www.bbc.co.uk/news/videos/cwyz11gk7y7o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "clusterId": "44f55a1149241868",
+      "runId": "2026-09-12T19:47:22.079Z",
+      "observedAt": "2026-09-12T19:47:22.079Z",
+      "hash": "cc4c156aff3c0955"
+    }
+  ],
+  "published": [],
+  "discarded": [
+    {
+      "key": "hoppande majoriteter->totalt kaos i Sverige:orsakar",
+      "reason": "DeepSeek 400: {\"error\":{\"message\":\"Prompt must contain the word 'json' in some form to use 'response_format' of type 'json_object'.\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":\"invalid_request_error\"}}",
+      "at": "2026-09-12T19:47:22.079Z"
+    }
+  ]
+}
