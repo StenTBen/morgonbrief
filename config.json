@@ -1,0 +1,25 @@
+{
+  "_comment_voice": "The voice is a taste decision, so it lives here rather than in code. Change 'name', re-run the workflow, listen. Chirp3-HD voices do NOT support speaking rate or pitch (Google's own limitation), so the only lever is which voice - if you want a slower, heavier delivery than any Chirp3 voice gives, switch 'family' to 'Wavenet', which does support rate and pitch below.",
+
+  "voice": {
+    "name": "sv-SE-Chirp3-HD-Charon",
+    "family": "Chirp3-HD",
+
+    "_comment_alternatives": "Male Chirp3-HD voices, roughly from measured to brighter. Try them in this order if Charon is not right: Charon (Google's own demo voice, deep and even), Rasalgethi, Schedar, Algenib, Alnilam, Umbriel, Orus, Enceladus, Iapetus, Achird, Algieba, Sadaltager, Sadachbia, Fenrir, Puck, Zubenelgenubi. Female: Achernar (the old default), Aoede, Autonoe, Callirrhoe, Despina, Erinome, Gacrux, Kore, Laomedeia, Leda, Pulcherrima, Sulafat, Vindemiatrix, Zephyr.",
+    "alternatives": [
+      "sv-SE-Chirp3-HD-Charon",
+      "sv-SE-Chirp3-HD-Rasalgethi",
+      "sv-SE-Chirp3-HD-Schedar",
+      "sv-SE-Chirp3-HD-Algenib",
+      "sv-SE-Chirp3-HD-Alnilam",
+      "sv-SE-Chirp3-HD-Umbriel"
+    ],
+
+    "_comment_rate": "Ignored by Chirp3-HD voices; applied only when 'family' is Wavenet or Neural2. 1.0 is normal, 0.92 reads as deliberate, below 0.85 sounds sedated.",
+    "speakingRate": 0.94,
+    "pitch": -1.5
+  },
+
+  "_comment_delivery": "Handed to the model as the persona for the spoken script. This shapes sentence length and register, which is half of what makes a voice sound senior - the other half is the voice itself.",
+  "delivery": "Write as an experienced news anchor reads: measured, declarative sentences, one idea per sentence. No chattiness, no filler openers, no rhetorical questions. Trust the listener to keep up."
+}
