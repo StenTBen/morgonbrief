@@ -1,0 +1,19 @@
+rules_version = '2';
+
+// The brief itself is no longer read from Firestore - it is a static file
+// served from the same origin as the app, which is what makes it cacheable
+// and readable with no signal. Firestore now only records feedback.
+//
+// The app signs in silently and anonymously; there is no login screen. That
+// session is what stops anyone who has not loaded the app from writing here.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    match /feedback/{id} {
+      allow create: if request.auth != null;
+      allow read, update, delete: if false;
+    }
+
+    match /{document=**} { allow read, write: if false; }
+  }
+}
