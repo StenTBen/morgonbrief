@@ -1,5 +1,5 @@
 {
-  "lastSuccessfulRun": "2026-09-12T20:28:16.823Z",
+  "lastSuccessfulRun": "2026-09-12T21:34:30.879Z",
   "observations": [
     {
       "clusterIndex": 0,
@@ -3683,6 +3683,965 @@
       "runId": "2026-09-12T20:28:16.823Z",
       "observedAt": "2026-09-12T20:28:16.823Z",
       "hash": "14eb914c2498fd6e"
+    },
+    {
+      "clusterIndex": 1,
+      "source": "Dagens industri",
+      "claimType": "reported",
+      "entities": [
+        "Anthropic",
+        "Dario Amodei",
+        "Open AI",
+        "Sam Altman",
+        "Elon Musk"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "ai-reglering",
+      "facts": [
+        "Dario Amodei, vd för Anthropic, skriver i ett inlägg på bolagets sajt att utvecklingen av AI måste bromsas.",
+        "Förslaget får stöd från både Open AI:s Sam Altman och Elon Musk."
+      ],
+      "sources": [
+        {
+          "source": "Dagens industri",
+          "title": "Anthropic vill bromsa AI – stöds av Musk och Altman",
+          "link": "https://www.di.se/nyheter/anthropic-vill-bromsa-ai-stods-av-musk-och-altman/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Anthropic vill bromsa AI – stöds av Musk och Altman",
+          "link": "https://www.sydsvenskan.se/anthropic-vill-bromsa-ai-stods-av-musk-och-altman/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Anthropic vill bromsa AI – stöds av Musk och Altman",
+          "link": "https://www.hd.se/ekonomi/anthropic-vill-bromsa-ai-stods-av-musk-och-altman/"
+        }
+      ],
+      "clusterId": "b37b042832d41d80",
+      "runId": "2026-09-12T21:34:30.879Z",
+      "observedAt": "2026-09-12T21:34:30.879Z",
+      "hash": "eb3497a171196d7a"
+    },
+    {
+      "clusterIndex": 1,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "Anthropic",
+        "Dario Amodei",
+        "Open AI",
+        "Sam Altman",
+        "Elon Musk"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "ai-reglering",
+      "facts": [
+        "Dario Amodei, vd för Anthropic, skriver i ett inlägg på bolagets sajt att utvecklingen av AI måste bromsas.",
+        "Förslaget får stöd från både Open AI:s Sam Altman och Elon Musk."
+      ],
+      "sources": [
+        {
+          "source": "Dagens industri",
+          "title": "Anthropic vill bromsa AI – stöds av Musk och Altman",
+          "link": "https://www.di.se/nyheter/anthropic-vill-bromsa-ai-stods-av-musk-och-altman/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Anthropic vill bromsa AI – stöds av Musk och Altman",
+          "link": "https://www.sydsvenskan.se/anthropic-vill-bromsa-ai-stods-av-musk-och-altman/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Anthropic vill bromsa AI – stöds av Musk och Altman",
+          "link": "https://www.hd.se/ekonomi/anthropic-vill-bromsa-ai-stods-av-musk-och-altman/"
+        }
+      ],
+      "clusterId": "b37b042832d41d80",
+      "runId": "2026-09-12T21:34:30.879Z",
+      "observedAt": "2026-09-12T21:34:30.879Z",
+      "hash": "c75ada63a467ab78"
+    },
+    {
+      "clusterIndex": 1,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "Anthropic",
+        "Dario Amodei",
+        "Open AI",
+        "Sam Altman",
+        "Elon Musk"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "ai-reglering",
+      "facts": [
+        "Dario Amodei, vd för Anthropic, skriver i ett inlägg på bolagets sajt att utvecklingen av AI måste bromsas.",
+        "Förslaget får stöd från både Open AI:s Sam Altman och Elon Musk."
+      ],
+      "sources": [
+        {
+          "source": "Dagens industri",
+          "title": "Anthropic vill bromsa AI – stöds av Musk och Altman",
+          "link": "https://www.di.se/nyheter/anthropic-vill-bromsa-ai-stods-av-musk-och-altman/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Anthropic vill bromsa AI – stöds av Musk och Altman",
+          "link": "https://www.sydsvenskan.se/anthropic-vill-bromsa-ai-stods-av-musk-och-altman/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Anthropic vill bromsa AI – stöds av Musk och Altman",
+          "link": "https://www.hd.se/ekonomi/anthropic-vill-bromsa-ai-stods-av-musk-och-altman/"
+        }
+      ],
+      "clusterId": "b37b042832d41d80",
+      "runId": "2026-09-12T21:34:30.879Z",
+      "observedAt": "2026-09-12T21:34:30.879Z",
+      "hash": "89eeee9b52a85f44"
+    },
+    {
+      "clusterIndex": 2,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "S-ledaren",
+        "M-ledaren",
+        "Tidöpartierna",
+        "Sverigedemokraterna"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "slutdebatt",
+      "facts": [
+        "Statsministerrivalerna varnade för varandras regeringsalternativ i den sista debattduellen innan valet.",
+        "S-ledaren lämnade inga nya besked om vem hon tänker regera med.",
+        "M-ledaren tänker köra vidare med Tidöpartierna, men med SD i regeringen."
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "Redo bilda regering – men inga nya besked",
+          "link": "https://www.sydsvenskan.se/sverige/kristersson-recept-for-totalt-kaos/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Redo bilda regering – men inga nya besked",
+          "link": "https://www.hd.se/sverige/kristersson-recept-for-totalt-kaos/"
+        },
+        {
+          "source": "Barometern",
+          "title": "Redo bilda regering – men inga nya besked",
+          "link": "https://www.barometern.se/sverige/kristersson-recept-for-totalt-kaos/"
+        }
+      ],
+      "clusterId": "39d08bc008fb5af5",
+      "runId": "2026-09-12T21:34:30.879Z",
+      "observedAt": "2026-09-12T21:34:30.879Z",
+      "hash": "33f54fded6ea6d9b"
+    },
+    {
+      "clusterIndex": 2,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "S-ledaren",
+        "M-ledaren",
+        "Tidöpartierna",
+        "Sverigedemokraterna"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "slutdebatt",
+      "facts": [
+        "Statsministerrivalerna varnade för varandras regeringsalternativ i den sista debattduellen innan valet.",
+        "S-ledaren lämnade inga nya besked om vem hon tänker regera med.",
+        "M-ledaren tänker köra vidare med Tidöpartierna, men med SD i regeringen."
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "Redo bilda regering – men inga nya besked",
+          "link": "https://www.sydsvenskan.se/sverige/kristersson-recept-for-totalt-kaos/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Redo bilda regering – men inga nya besked",
+          "link": "https://www.hd.se/sverige/kristersson-recept-for-totalt-kaos/"
+        },
+        {
+          "source": "Barometern",
+          "title": "Redo bilda regering – men inga nya besked",
+          "link": "https://www.barometern.se/sverige/kristersson-recept-for-totalt-kaos/"
+        }
+      ],
+      "clusterId": "39d08bc008fb5af5",
+      "runId": "2026-09-12T21:34:30.879Z",
+      "observedAt": "2026-09-12T21:34:30.879Z",
+      "hash": "1e63843c5a1f76b4"
+    },
+    {
+      "clusterIndex": 2,
+      "source": "Barometern",
+      "claimType": "reported",
+      "entities": [
+        "S-ledaren",
+        "M-ledaren",
+        "Tidöpartierna",
+        "Sverigedemokraterna"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "slutdebatt",
+      "facts": [
+        "Statsministerrivalerna varnade för varandras regeringsalternativ i den sista debattduellen innan valet.",
+        "S-ledaren lämnade inga nya besked om vem hon tänker regera med.",
+        "M-ledaren tänker köra vidare med Tidöpartierna, men med SD i regeringen."
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "Redo bilda regering – men inga nya besked",
+          "link": "https://www.sydsvenskan.se/sverige/kristersson-recept-for-totalt-kaos/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Redo bilda regering – men inga nya besked",
+          "link": "https://www.hd.se/sverige/kristersson-recept-for-totalt-kaos/"
+        },
+        {
+          "source": "Barometern",
+          "title": "Redo bilda regering – men inga nya besked",
+          "link": "https://www.barometern.se/sverige/kristersson-recept-for-totalt-kaos/"
+        }
+      ],
+      "clusterId": "39d08bc008fb5af5",
+      "runId": "2026-09-12T21:34:30.879Z",
+      "observedAt": "2026-09-12T21:34:30.879Z",
+      "hash": "3f004b3b02914168"
+    },
+    {
+      "clusterIndex": 4,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "Open AI",
+        "Sam Altman"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "ai-reglering",
+      "facts": [
+        "AI-jätten Open AI kommer inte att börsnoteras i år.",
+        "Det uppger bolagets vd Sam Altman i en intervju på lördagen."
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "Altman: Ingen börsnotering för Open AI i år",
+          "link": "https://www.sydsvenskan.se/ekonomi/altman-ingen-borsnotering-for-open-ai-i-ar/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Altman: Ingen börsnotering för Open AI i år",
+          "link": "https://www.hd.se/ekonomi/altman-ingen-borsnotering-for-open-ai-i-ar/"
+        }
+      ],
+      "clusterId": "0c5b5ed7049d45de",
+      "runId": "2026-09-12T21:34:30.879Z",
+      "observedAt": "2026-09-12T21:34:30.879Z",
+      "hash": "9fa65be226f57036"
+    },
+    {
+      "clusterIndex": 4,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "Open AI",
+        "Sam Altman"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "ai-reglering",
+      "facts": [
+        "AI-jätten Open AI kommer inte att börsnoteras i år.",
+        "Det uppger bolagets vd Sam Altman i en intervju på lördagen."
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "Altman: Ingen börsnotering för Open AI i år",
+          "link": "https://www.sydsvenskan.se/ekonomi/altman-ingen-borsnotering-for-open-ai-i-ar/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Altman: Ingen börsnotering för Open AI i år",
+          "link": "https://www.hd.se/ekonomi/altman-ingen-borsnotering-for-open-ai-i-ar/"
+        }
+      ],
+      "clusterId": "0c5b5ed7049d45de",
+      "runId": "2026-09-12T21:34:30.879Z",
+      "observedAt": "2026-09-12T21:34:30.879Z",
+      "hash": "e659e2185e5b59db"
+    },
+    {
+      "clusterIndex": 9,
+      "source": "DN.se - Dagens Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Helena Lindblad",
+        "May el-Toukhys",
+        "Maggie Gyllenhaal",
+        "John Malkovich",
+        "Wild horse nine",
+        "Venedig filmfestival"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "venedig-filmfestival",
+      "facts": [
+        "May el-Toukhys Guldlejonvinnare ligger helt rätt i tiden enligt Helena Lindblad.",
+        "Tävlingens enda kvinnliga långfilmsregissör fick höja det gyllene, bevingade lejonet.",
+        "Maggie Gyllenhaals jury prisade John Malkovich för sin roll som ångerfull CIA-agent i 'Wild horse nine'.",
+        "Helena Lindblad avslutar den 83:e filmfestivalen."
+      ],
+      "sources": [
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "Helena Lindblad: Danska May el-Toukhys Guldlejonvinnare ligger helt rätt i tiden",
+          "link": "https://www.dn.se/kultur/helena-lindblad-danska-may-el-toukhys-guldlejonvinnare-ligger-helt-ratt-i-tiden/"
+        }
+      ],
+      "clusterId": "4c6cff00fcc2e36f",
+      "runId": "2026-09-12T21:34:30.879Z",
+      "observedAt": "2026-09-12T21:34:30.879Z",
+      "hash": "cb087ded2dbb84ff"
+    },
+    {
+      "clusterIndex": 10,
+      "source": "DN.se - Dagens Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Marie Demker",
+        "statsvetare"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "slutdebatt",
+      "facts": [
+        "Årets sista duell är klar.",
+        "Inför förra valet fanns en klar vinnare – nu var det betydligt jämnare, säger statsvetaren Marie Demker.",
+        "Demker säger: 'Det var inget som påtagligt överraskade egentligen. De var ju på hemmaplan.'"
+      ],
+      "sources": [
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "Statsvetare: Betydligt jämnare än förra valet",
+          "link": "https://www.dn.se/sverige/statsvetare-betydligt-jamnare-an-forra-valet/"
+        }
+      ],
+      "clusterId": "c2e02ea0469b2713",
+      "runId": "2026-09-12T21:34:30.879Z",
+      "observedAt": "2026-09-12T21:34:30.879Z",
+      "hash": "d80d03d38ddde43b"
+    },
+    {
+      "clusterIndex": 11,
+      "source": "DN.se - Dagens Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Rudy Giuliani",
+        "Zohran Mamdani",
+        "New York",
+        "11 september"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "international-news",
+      "facts": [
+        "Det var scenen som stack ut när 25-årsminnet av 11 september högtidlighölls.",
+        "Två borgmästare, Zohran Mamdani och Rudy Giuliani, skakade hand.",
+        "Hela New York talar om det 'stela handslaget'."
+      ],
+      "sources": [
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "Hela New York talar om det ”stela handslaget” mellan Giuliani och Mamdani",
+          "link": "https://www.dn.se/varlden/hela-new-york-talar-om-det-stela-handslaget-mellan-giuliani-och-mamdani/"
+        }
+      ],
+      "clusterId": "cdc7fe9920ecf02e",
+      "runId": "2026-09-12T21:34:30.879Z",
+      "observedAt": "2026-09-12T21:34:30.879Z",
+      "hash": "998353f0fa8a7e39"
+    },
+    {
+      "clusterIndex": 15,
+      "source": "Senast publicerat",
+      "claimType": "reported",
+      "entities": [
+        "Helsingborgs stadsteater",
+        "Jane Horneys"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "culture",
+      "facts": [
+        "Helsingborgs stadsteater inleder hösten med en fullödigt expressionistisk thriller om 'Jane Horneys'."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Spionmysteriet blir till filmisk surrealism",
+          "link": "https://www.svd.se/a/oEmrmK/recension-jane-horneys-sista-timmar-pa-helsingborgs-stadsteater?utm_medium=rss"
+        }
+      ],
+      "clusterId": "36596f292d555ea9",
+      "runId": "2026-09-12T21:34:30.879Z",
+      "observedAt": "2026-09-12T21:34:30.879Z",
+      "hash": "daeedca7e8afe59d"
+    },
+    {
+      "clusterIndex": 19,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Bukarest",
+        "Rumänien"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "cultural-events",
+      "facts": [
+        "Tusentals personer samlades på lördagen runt ett fem kilometer långt bord i huvudstaden Bukarest.",
+        "Jättelångt bord slår världsrekord i Rumänien."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Jättelångt bord slår världsrekord i Rumänien",
+          "link": "https://www.aftonbladet.se/nyheter/a/169KOB/jattelangt-bord-slar-varldsrekord-i-rumanien?utm_medium=rss"
+        }
+      ],
+      "clusterId": "941b640df717007c",
+      "runId": "2026-09-12T21:34:30.879Z",
+      "observedAt": "2026-09-12T21:34:30.879Z",
+      "hash": "e46b568e2fd3a2fc"
+    },
+    {
+      "clusterIndex": 20,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Ukraina",
+        "Ryssland"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "ukraina-kriget",
+      "facts": [
+        "Minst sju människor har dödats och omkring 60 skadats i ryska attacker runt om i Ukraina."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Sju döda i ryska attacker mot Ukraina",
+          "link": "https://www.aftonbladet.se/nyheter/a/aJQVpL/sju-doda-i-ryska-attacker-mot-ukraina?utm_medium=rss"
+        }
+      ],
+      "clusterId": "c4ce1bd9806f6ede",
+      "runId": "2026-09-12T21:34:30.879Z",
+      "observedAt": "2026-09-12T21:34:30.879Z",
+      "hash": "7ce2ab86225cf0cb"
+    },
+    {
+      "clusterIndex": 3,
+      "source": "Expressen: Nyheter",
+      "claimType": "verified",
+      "entities": [
+        "Nagham Khawwas",
+        "Securitas",
+        "Diskrimineringsombudsmannen",
+        "DO"
+      ],
+      "assertedLink": {
+        "from": "hijab",
+        "to": "nekad anställning på Securitas",
+        "direction": "orsakar"
+      },
+      "linkSource": "Expressen: Nyheter",
+      "continuesThread": "discrimination-hijab",
+      "facts": [
+        "Nagham Khawwas, 23, nekades ett jobb på Securitas eftersom hon bär hijab.",
+        "Diskrimineringsombudsmannen ger henne rätt."
+      ],
+      "sources": [
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Nagham nekades jobbet på Securitas – får rätt av DO",
+          "link": "https://www.expressen.se/nyheter/sverige/nagham-nekades-jobbet-pa-securitas-far-ratt-av-do/"
+        }
+      ],
+      "clusterId": "1c820e950338f6e3",
+      "runId": "2026-09-12T21:34:30.879Z",
+      "observedAt": "2026-09-12T21:34:30.879Z",
+      "hash": "2746b272aaf3d922"
+    },
+    {
+      "clusterIndex": 8,
+      "source": "Dagens industri",
+      "claimType": "reported",
+      "entities": [
+        "AFD",
+        "Sachsen-Anhalt",
+        "Tyskland"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "afd-protester",
+      "facts": [
+        "Tiotusentals människor protesterade på lördagen mot ytterhögerpartiet AFD.",
+        "AFD vann delstatsvalet i Sachsen-Anhalt förra helgen."
+      ],
+      "sources": [
+        {
+          "source": "Dagens industri",
+          "title": "Tiotusentals protesterar mot AFD",
+          "link": "https://www.di.se/nyheter/tiotusentals-protesterar-mot-afd/"
+        }
+      ],
+      "clusterId": "424d85b423d88f5a",
+      "runId": "2026-09-12T21:34:30.879Z",
+      "observedAt": "2026-09-12T21:34:30.879Z",
+      "hash": "aea1b5ee9ded9957"
+    },
+    {
+      "clusterIndex": 9,
+      "source": "Dagens industri",
+      "claimType": "reported",
+      "entities": [
+        "Magdalena Andersson",
+        "Socialdemokraterna",
+        "Ulf Kristersson",
+        "Moderaterna"
+      ],
+      "assertedLink": {
+        "from": "hoppande majoriteter",
+        "to": "totalt kaos i Sverige",
+        "direction": "orsakar"
+      },
+      "linkSource": "Dagens industri",
+      "continuesThread": "andersson-extrema-krafter",
+      "facts": [
+        "S-ledaren Magdalena Andersson utesluter inte att styra med hoppande majoriteter om hon går segrande ur söndagens val.",
+        "M-ledaren Ulf Kristersson säger att det är ett recept för totalt kaos i Sverige."
+      ],
+      "sources": [
+        {
+          "source": "Dagens industri",
+          "title": "Kristersson: Recept för totalt kaos",
+          "link": "https://www.di.se/nyheter/kristersson-recept-for-totalt-kaos/"
+        }
+      ],
+      "clusterId": "af9a2bbd4ea214c5",
+      "runId": "2026-09-12T21:34:30.879Z",
+      "observedAt": "2026-09-12T21:34:30.879Z",
+      "hash": "f4c8e6439fcc6c99"
+    },
+    {
+      "clusterIndex": 11,
+      "source": "Göteborgs-Posten",
+      "claimType": "reported",
+      "entities": [
+        "Sam Larsson",
+        "IFK Göteborg"
+      ],
+      "assertedLink": {
+        "from": "Sam Larssons poängproduktion",
+        "to": "IFK Göteborgs säsong vände",
+        "direction": "gynnar"
+      },
+      "linkSource": "Göteborgs-Posten",
+      "continuesThread": "allsvenskan",
+      "facts": [
+        "Hemvändaren har öst in poäng och vänt på IFK Göteborgs säsong.",
+        "Han hyllas stort."
+      ],
+      "sources": [
+        {
+          "source": "Göteborgs-Posten",
+          "title": "Sam Larsson efter succén: \"Börjar komma i form\"",
+          "link": "https://www.gp.se/sport/fotboll/ifk-goteborg/betydelsen-av-sam-larsson-i-blavitt-har-vant-en-sasong.4926cdac-1737-435a-9186-cf20275d528b"
+        }
+      ],
+      "clusterId": "4a23566330f6ffb4",
+      "runId": "2026-09-12T21:34:30.879Z",
+      "observedAt": "2026-09-12T21:34:30.879Z",
+      "hash": "f4d7897edca526bc"
+    },
+    {
+      "clusterIndex": 15,
+      "source": "Göteborgs-Posten",
+      "claimType": "reported",
+      "entities": [
+        "Sverigedemokraterna",
+        "internationella medier"
+      ],
+      "assertedLink": {
+        "from": "Sverigedemokraternas växande inflytande",
+        "to": "förändrad politisk spelplan",
+        "direction": "orsakar"
+      },
+      "linkSource": "Göteborgs-Posten",
+      "continuesThread": "svenska-valet-prognos",
+      "facts": [
+        "Den svenska valdagen närmar sig, vilket internationella medier uppmärksammat.",
+        "I omvärlden målas en bild upp av ett jämnt val.",
+        "Sverigedemokraternas växande inflytande har förändrat den politiska spelplanen."
+      ],
+      "sources": [
+        {
+          "source": "Göteborgs-Posten",
+          "title": "Så rapporterar världens medier om svenska valet",
+          "link": "https://www.gp.se/nyheter/varlden/sa-rapporterar-internationella-medier-om-det-svenska-valet-.1c925982-2cc2-4c30-90e0-4e396409f136"
+        }
+      ],
+      "clusterId": "0d38cfa5a5abc519",
+      "runId": "2026-09-12T21:34:30.879Z",
+      "observedAt": "2026-09-12T21:34:30.879Z",
+      "hash": "2e729aa8a9fbfda3"
+    },
+    {
+      "clusterIndex": 17,
+      "source": "Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Luleå"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "traffic-accident",
+      "facts": [
+        "En person skadades i en olycka sent på lördagen efter en trafikolycka.",
+        "Motorcykelolycka i Luleå – drabbad till sjukhus."
+      ],
+      "sources": [
+        {
+          "source": "Nyheter",
+          "title": "Motorcykelolycka i Luleå – drabbad till sjukhus",
+          "link": "https://www.nsd.se/nyheter/lulea/artikel/motorcykelolycka-i-lulea-drabbad-till-sjukhus/r0ez6ndj"
+        }
+      ],
+      "clusterId": "6af2ffcac427a5cd",
+      "runId": "2026-09-12T21:34:30.879Z",
+      "observedAt": "2026-09-12T21:34:30.879Z",
+      "hash": "e952c6f2a09dcb01"
+    },
+    {
+      "clusterIndex": 22,
+      "source": "Barometern",
+      "claimType": "reported",
+      "entities": [
+        "Kalmaralliansen",
+        "Jonathan Strömberg",
+        "Liberalerna",
+        "Christopher Dywik",
+        "Kristdemokraterna"
+      ],
+      "assertedLink": {
+        "from": "KD:s uppmaning att inte stödrösta på Liberalerna",
+        "to": "spricka i Kalmaralliansen",
+        "direction": "orsakar"
+      },
+      "linkSource": "Barometern",
+      "continuesThread": "valrorelse-kritik",
+      "facts": [
+        "Med bara en dag kvar tills vallokalerna stänger säger Liberalernas gruppledare Jonathan Strömberg att KD:s gruppledare bedriver en negativ kampanj mot L.",
+        "Christopher Dywik (KD) har uppmanat att inte stödrösta på Liberalerna."
+      ],
+      "sources": [
+        {
+          "source": "Barometern",
+          "title": "Spricka i Kalmaralliansen – precis innan valet: ”Trist”",
+          "link": "https://www.barometern.se/kalmar/spricka-i-kalmaralliansen-precis-innan-valet-trist/"
+        }
+      ],
+      "clusterId": "5ae7b49fb6a66800",
+      "runId": "2026-09-12T21:34:30.879Z",
+      "observedAt": "2026-09-12T21:34:30.879Z",
+      "hash": "1f56569844bf8fbf"
+    },
+    {
+      "clusterIndex": 23,
+      "source": "Barometern",
+      "claimType": "reported",
+      "entities": [
+        "Kalmar FF",
+        "Malmö FF"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "allsvenskan",
+      "facts": [
+        "Kalmar FF föll med 0-4 på bortaplan mot Malmö FF."
+      ],
+      "sources": [
+        {
+          "source": "Barometern",
+          "title": "Kalmar FF föll med 0-4 på bortaplan mot Malmö FF",
+          "link": "https://www.barometern.se/sport/kalmar-ff-foll-med-0-4-pa-bortaplan-mot-malmo-ff/"
+        }
+      ],
+      "clusterId": "2c22397d16fd4876",
+      "runId": "2026-09-12T21:34:30.879Z",
+      "observedAt": "2026-09-12T21:34:30.879Z",
+      "hash": "0987fb631127737d"
+    },
+    {
+      "clusterIndex": 24,
+      "source": "Barometern",
+      "claimType": "reported",
+      "entities": [
+        "Skog- och miljömässan",
+        "Oskarshamn",
+        "Fallebo gård",
+        "Henrik Johansson"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "cultural-events",
+      "facts": [
+        "Skog- och miljömässan i Oskarshamn arrangerades under lördagen på Fallebo gård.",
+        "Mässan brukar locka några tusen besökare.",
+        "Henrik Johansson, besökare, säger att det är viktigt att saker händer i staden."
+      ],
+      "sources": [
+        {
+          "source": "Barometern",
+          "title": "Populära mässan tillbaka: ”Viktigt att saker händer”",
+          "link": "https://www.barometern.se/oskarshamn/populara-massan-tillbaka-viktigt-att-saker-hander/"
+        }
+      ],
+      "clusterId": "dd3cf0c117376090",
+      "runId": "2026-09-12T21:34:30.879Z",
+      "observedAt": "2026-09-12T21:34:30.879Z",
+      "hash": "2b39e4134b8d4122"
+    },
+    {
+      "clusterIndex": 3,
+      "source": "TV4 Nyheterna",
+      "claimType": "reported",
+      "entities": [
+        "valrörelsen"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "slutdebatt",
+      "facts": [
+        "Mutual warnings were issued in the final stage of the election campaign."
+      ],
+      "sources": [
+        {
+          "source": "TV4 Nyheterna",
+          "title": "Ömsesidiga varningar i valrörelsens sista dans",
+          "link": "https://www.tv4.se/artikel/3oQWKN6dIupHXxrLUYn3Gx/oemsesidiga-varningar-i-valroerelsens-sista-dans"
+        }
+      ],
+      "clusterId": "c9195eaf89085079",
+      "runId": "2026-09-12T21:34:30.879Z",
+      "observedAt": "2026-09-12T21:34:30.879Z",
+      "hash": "de6f3148e136851b"
+    },
+    {
+      "clusterIndex": 4,
+      "source": "TV4 Nyheterna",
+      "claimType": "reported",
+      "entities": [
+        "Duellen",
+        "analytiker"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "slutdebatt",
+      "facts": [
+        "Analysts gave their assessments of the Duellen debate.",
+        "One participant was described by analysts as 'the best of the week'."
+      ],
+      "sources": [
+        {
+          "source": "TV4 Nyheterna",
+          "title": "Analyserna av Duellen: ”Veckans bästa”",
+          "link": "https://www.tv4.se/artikel/46bYQ6vKBNIUNa6hQMwCMK/analyserna-av-duellen-veckans-baesta"
+        }
+      ],
+      "clusterId": "bf027edd09129513",
+      "runId": "2026-09-12T21:34:30.879Z",
+      "observedAt": "2026-09-12T21:34:30.879Z",
+      "hash": "7dd56fbbb32d0eda"
+    },
+    {
+      "clusterIndex": 5,
+      "source": "TV4 Nyheterna",
+      "claimType": "reported",
+      "entities": [
+        "Kristersson",
+        "de rödgröna",
+        "Andersson"
+      ],
+      "assertedLink": {
+        "from": "de rödgröna",
+        "to": "en ny kaosregering",
+        "direction": "orsakar"
+      },
+      "linkSource": "TV4 Nyheterna",
+      "continuesThread": "andersson-extrema-krafter",
+      "facts": [
+        "Kristersson described the red-green bloc as 'a new chaos government'.",
+        "Andersson said she will call everyone."
+      ],
+      "sources": [
+        {
+          "source": "TV4 Nyheterna",
+          "title": "Kristersson om de rödgröna: ”En ny kaosregering”",
+          "link": "https://www.tv4.se/artikel/2KlhB9l4IYXyXbaQlc5N4W/kristersson-om-de-roedgroena-en-ny-kaosregering"
+        }
+      ],
+      "clusterId": "f2caae1db6740a34",
+      "runId": "2026-09-12T21:34:30.879Z",
+      "observedAt": "2026-09-12T21:34:30.879Z",
+      "hash": "6273d7b0fb085b18"
+    },
+    {
+      "clusterIndex": 6,
+      "source": "TV4 Nyheterna",
+      "claimType": "reported",
+      "entities": [
+        "Attenius",
+        "SD",
+        "kommunalrådet"
+      ],
+      "assertedLink": {
+        "from": "SD",
+        "to": "attacken",
+        "direction": "orsakar"
+      },
+      "linkSource": "TV4 Nyheterna",
+      "continuesThread": "valhot-goteborg",
+      "facts": [
+        "Attenius criticized SD harshly regarding the attack.",
+        "Attenius said SD is trying to dodge its responsibility."
+      ],
+      "sources": [
+        {
+          "source": "TV4 Nyheterna",
+          "title": "Kommunalrådets ord om attacken – riktar hård kritik mot SD",
+          "link": "https://www.tv4.se/artikel/7hO5Gqk1lHQtVvUNOdTEJ2/kommunalradets-ord-om-attacken-riktar-hard-kritik-mot-sd"
+        }
+      ],
+      "clusterId": "37355ef129eb9895",
+      "runId": "2026-09-12T21:34:30.879Z",
+      "observedAt": "2026-09-12T21:34:30.879Z",
+      "hash": "112cbe4614bc9aab"
+    },
+    {
+      "clusterIndex": 7,
+      "source": "TV4 Nyheterna",
+      "claimType": "reported",
+      "entities": [
+        "Magdalena Andersson",
+        "SD",
+        "partiledarna",
+        "kommunalrådet"
+      ],
+      "assertedLink": {
+        "from": "SD",
+        "to": "attacken mot kommunalrådet",
+        "direction": "orsakar"
+      },
+      "linkSource": "TV4 Nyheterna",
+      "continuesThread": "valhot-goteborg",
+      "facts": [
+        "Party leaders called the attack on the municipal commissioner 'terrible'.",
+        "Magdalena Andersson criticized SD.",
+        "SD responded by accusing Magdalena Andersson of foul play."
+      ],
+      "sources": [
+        {
+          "source": "TV4 Nyheterna",
+          "title": "Partiledarna om attacken mot kommunalrådet: ”Förfärligt”",
+          "link": "https://www.tv4.se/artikel/29W4Mc1o9D0n6NWMWGqZJg/statsministerkandidaterna-om-kommunalrads-attacken-foerfaerligt"
+        }
+      ],
+      "clusterId": "50c15800d8b361ee",
+      "runId": "2026-09-12T21:34:30.879Z",
+      "observedAt": "2026-09-12T21:34:30.879Z",
+      "hash": "cf9c841959ae9934"
+    },
+    {
+      "clusterIndex": 8,
+      "source": "TV4 Nyheterna",
+      "claimType": "reported",
+      "entities": [
+        "Hannah",
+        "Kalmar",
+        "Dagens Nyheter"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valdagen-soffan",
+      "facts": [
+        "Hannah, 38, lives in Kalmar with her husband and three sons aged ten, seven, and two.",
+        "While on parental leave with her youngest son at 10 months old, she had problems with breastfeeding.",
+        "She previously told Dagens Nyheter about this.",
+        "She said she was soon to return to work after parental leave, with career, family life, and a recently purchased house."
+      ],
+      "sources": [
+        {
+          "source": "TV4 Nyheterna",
+          "title": "Hannah, 38, ska rösta för sista gången",
+          "link": "https://www.tv4.se/artikel/7zpG6yDZC1yB3RdC7S6b9e/hannah-38-ska-roesta-foer-sista-gangen"
+        }
+      ],
+      "clusterId": "1ef8c395ca22a343",
+      "runId": "2026-09-12T21:34:30.879Z",
+      "observedAt": "2026-09-12T21:34:30.879Z",
+      "hash": "3ef78d0f78a2e469"
+    },
+    {
+      "clusterIndex": 9,
+      "source": "BBC News",
+      "claimType": "reported",
+      "entities": [
+        "Dayana Yastremska",
+        "Odesa",
+        "Roland Garros"
+      ],
+      "assertedLink": {
+        "from": "Russian missile",
+        "to": "flat",
+        "direction": "skadar"
+      },
+      "linkSource": "BBC News",
+      "continuesThread": "ukraina-kriget",
+      "facts": [
+        "Dayana Yastremska said her flat took a 'direct hit' by a Russian missile in Odesa.",
+        "All that was left was her Roland Garros towel."
+      ],
+      "sources": [
+        {
+          "source": "BBC News",
+          "title": "Only Roland Garros towel left, says Ukraine tennis player after Russian strike hits flat",
+          "link": "https://www.bbc.co.uk/news/articles/c4gr33g3evlo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "clusterId": "420d57a0ec272f06",
+      "runId": "2026-09-12T21:34:30.879Z",
+      "observedAt": "2026-09-12T21:34:30.879Z",
+      "hash": "f41a5b7793bc0821"
     }
   ],
   "published": [],
@@ -3696,6 +4655,11 @@
       "key": "hoppande majoriteter->totalt kaos i Sverige:orsakar",
       "reason": "DeepSeek 400: {\"error\":{\"message\":\"Prompt must contain the word 'json' in some form to use 'response_format' of type 'json_object'.\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":\"invalid_request_error\"}}",
       "at": "2026-09-12T20:28:16.823Z"
+    },
+    {
+      "key": "hoppande majoriteter->totalt kaos i Sverige:orsakar",
+      "reason": "DeepSeek 400: {\"error\":{\"message\":\"Prompt must contain the word 'json' in some form to use 'response_format' of type 'json_object'.\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":\"invalid_request_error\"}}",
+      "at": "2026-09-12T21:34:30.879Z"
     }
   ]
 }
