@@ -2,12 +2,10 @@ name: Morgonbrief
 
 on:
   schedule:
-    # 02:00 UTC = 04:00 in Sweden (summer), 03:00 (winter).
-    # Deliberately early: GitHub's scheduler runs late under load, sometimes by
-    # half an hour, and the brief has to exist by 06:00.
     - cron: '0 2 * * *'
-  workflow_dispatch: {} # run it by hand from the Actions tab
-
+      timezone: 'Europe/Stockholm'
+  workflow_dispatch: {}inputs:
+    
 permissions:
   contents: write # publish the episode, commit the feed
 
