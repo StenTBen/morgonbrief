@@ -1,12 +1,12 @@
 {
   "date": "2026-09-12",
-  "builtAt": "2026-09-12T19:10:04.023Z",
+  "builtAt": "2026-09-12T19:18:29.728Z",
   "episodes": [
     {
       "sphere": "congress",
       "sphereLabel": "US Congress",
       "audioUrl": "https://github.com/StenTBen/morgonbrief/releases/download/audio/pod-congress-2026-09-12.mp3",
-      "audioBytes": 55872,
+      "audioBytes": 54624,
       "itemCount": 0,
       "items": [],
       "script": "God morgon. Inget lagförslag klarade tröskeln idag. Bevakningen handlade om politik, inte om lagstiftning som rört sig, och då finns det ingenting i dokumenten att fördjupa. Vi hörs imorgon."
@@ -15,7 +15,7 @@
       "sphere": "crypto",
       "sphereLabel": "Crypto",
       "audioUrl": "https://github.com/StenTBen/morgonbrief/releases/download/audio/pod-crypto-2026-09-12.mp3",
-      "audioBytes": 36672,
+      "audioBytes": 35136,
       "itemCount": 0,
       "items": [],
       "script": "God morgon. Inget i crypto klarade tröskeln idag. Ingen governance-strid var het nog, och inga kedjor rörde sig utanför det normala. Vi hörs imorgon."
@@ -24,7 +24,7 @@
       "sphere": "world",
       "sphereLabel": "Världen",
       "audioUrl": "https://github.com/StenTBen/morgonbrief/releases/download/audio/pod-world-2026-09-12.mp3",
-      "audioBytes": 49056,
+      "audioBytes": 48096,
       "itemCount": 0,
       "items": [],
       "script": "God morgon. Inget internationellt ämne klarade tröskeln idag. Det som var stort ute i världen har svensk press också rapporterat, och då finns det ingen lucka att fylla. Vi hörs imorgon."
@@ -32,14 +32,14 @@
   ],
   "feed": [
     {
-      "id": "feed-world-VHJ1bXAgdmlzaXRzIElyZWxh",
-      "sphere": "world",
+      "id": "feed-val2026-VHJ1bXAgdmlzaXRzIElyZWxh",
+      "sphere": "val2026",
       "kategori": "POLITIK",
       "rubrik": "Trump: Enat Irland vore fantastiskt",
-      "sammanfattning": "USA:s president Donald Trump sade under ett besök i Dublin att ett enat Irland vore en fantastisk sak och att det kommer att ske så småningom. Uttalandet kom efter ett möte med Irlands premiärminister Micheál Martin, och en talesperson för Martin sade att Trumps hållning varit konsekvent. Downing Street uppgav att man håller fast vid långfredagsavtalet, medan företrädare för flera nordirländska partier betonade att frågan avgörs av Nordirlands befolkning. Besöket omfattade också ett möte med president Catherine Connolly och golf i Doonbeg, och möttes av protester i Dublin och Doonbeg.",
-      "synthes": "BBC uppger att Trump sade att det inte finns något bra svar på frågan om ett enat Irland, medan SVT och DN återger uttalandet utan den nyansen; BBC och SVT nämner olika siffror för kritiken mot besöket respektive protesternas omfattning.",
-      "leadSource": "BBC News",
-      "publishedAt": "2026-09-12T13:56:20.000Z",
+      "sammanfattning": "USA:s president Donald Trump sade under sitt besök i Dublin att ett enat Irland vore en fantastisk sak och att det kommer att ske så småningom. Uttalandet kom efter mötet med Irlands premiärminister Micheál Martin. Downing Street uppgav att man håller fast vid långfredagsavtalet, och en talesperson för Martin sade att Trumps hållning inte är överraskande. Under besöket hölls också en protest i Dublin med över 10 000 deltagare, och enligt en mätning i Sunday Independent är 69 procent av irländarna kritiska till besöket.",
+      "synthes": "BBC uppger att Trump sade att Storbritannien förstås har något att säga om saken, medan SVT och DN beskriver uttalandet som ett stöd för återförening; BBC nämner också att Trump senare sade att det inte finns något bra svar på frågan om ett enat Irland.",
+      "leadSource": "SVT Nyheter",
+      "publishedAt": "2026-09-12T11:53:01.000Z",
       "readMinutes": 1,
       "sourceCount": 11,
       "singleSource": false,
@@ -81,9 +81,9 @@
       "id": "feed-world-SG91dGhpcyBzZWl6ZSBZZW1l",
       "sphere": "world",
       "kategori": "GEOPOLITIK",
-      "rubrik": "Huthier tar kontroll över Bab al-Mandab",
-      "sammanfattning": "Huthirörelsen i Jemen har genom en offensiv tagit kontroll över landets rödahavskust och strategiska öar, vilket enligt flera källor ger dem grepp om Bab al-Mandab-sundet. Saudiarabien har stängt en oljeledning efter attacker och uppger att drönarna kom från Irak, som fördömer attackerna och utreder dem. Enligt Axios ska Saudiarabiens kronprins ha bett Trump om anfall mot huthierna, vilket Trump enligt uppgifterna avböjde. FN varnar för att tiotusentals människor drivits på flykt, och analytiker pekar på stigande oljepriser och risker för den globala handeln.",
-      "synthes": "SVT och DN uppger att huthierna tagit full kontroll över kusten, medan BBC och Al Jazeera beskriver kontrollen över sundet som hävdad av gruppen; uppgifterna om antalet flyktingar skiljer sig mellan källorna, från 46 000 till 76 000.",
+      "rubrik": "Huthierna tar kontroll över Bab al-Mandab",
+      "sammanfattning": "Den Iranstödda huthirörelsen i Jemen har efter en veckolång offensiv tagit kontroll över landets Rödahavskust och strategiska öar, däribland Perim, och därmed över sundet Bab al-Mandab. Saudiarabien har stängt sin öst-västliga oljeledning efter drönarattacker och uppger att attackerna kom från Irak. Enligt Axios ska Saudiarabiens kronprins ha bett Trump att beordra anfall mot huthierna, vilket Trump ska ha avböjt. FN varnar för att tiotusentals människor har tvingats fly, och oljepriset har stigit.",
+      "synthes": "SVT och DN uppger att huthierna tagit full kontroll över kusten, medan BBC och Al Jazeera beskriver att huthierna själva säger att sjöfarten är säker utom för saudiska fartyg; DN och Aftonbladet lyfter olika flyktingtal (46 000 respektive 76 000), vilket kan bero på olika tidpunkter.",
       "leadSource": "France 24 - International breaking news, top stories and headlines",
       "publishedAt": "2026-09-12T10:27:03.000Z",
       "readMinutes": 1,
@@ -124,12 +124,58 @@
       ]
     },
     {
+      "id": "feed-val2026-QW50aHJvcGljIENFTyBjYWxs",
+      "sphere": "val2026",
+      "kategori": "TEKNIK",
+      "rubrik": "Anthropic vill bromsa AI-utvecklingen",
+      "sammanfattning": "Anthropics vd Dario Amodei skriver i en essä att tempot i utvecklingen av AI-modeller måste sänkas och övervakas, och föreslår bland annat oberoende granskning, branschregler och global reglering. Förslaget får stöd av Open AI:s Sam Altman och Elon Musk. Bakgrunden är en rad varningar från AI-forskare, bland annat Jacob Coxon, som lämnat Anthropic och varnat för att AI kan utplåna mänskligheten. Samtidigt har USA:s president Donald Trump avvisat farhågorna.",
+      "synthes": "BBC och SVT beskriver stödet från Altman och Musk, medan DN och Expressen citerar Amodeis formulering om att bromsa takten; BBC noterar att vissa bedömare ser utspelet som ett sätt att konsolidera kontroll snarare än som en säkerhetsfråga.",
+      "leadSource": "DN.se - Dagens Nyheter",
+      "publishedAt": "2026-09-12T17:56:42.000Z",
+      "readMinutes": 1,
+      "sourceCount": 9,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "BBC News",
+          "title": "Anthropic boss Dario Amodei calls for AI development to slow down",
+          "link": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source": "BBC News",
+          "title": "Dramatic insider warnings over AI fall flat with some in Silicon Valley",
+          "link": "https://www.bbc.co.uk/news/articles/cq635037g18o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source": "Utrikes | SVT Nyheter",
+          "title": "AI-jättens vd: AI-utvecklingen borde bromsas",
+          "link": "https://www.svt.se/nyheter/utrikes/ai-jattens-vd-ai-utvecklingen-borde-bromsas"
+        },
+        {
+          "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+          "title": "Anthropic CEO calls for AI race to slow down. Musk and OpenAI's Altman agrees",
+          "link": "https://www.coindesk.com/tech/2026/09/12/anthropic-ceo-calls-for-ai-race-to-slow-down-musk-and-openai-s-altman-agrees"
+        },
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "Anthropic vill bromsa AI – stöds av Musk och Altman",
+          "link": "https://www.dn.se/varlden/anthropic-vill-bromsa-ai-stods-av-musk-och-altman/"
+        },
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "Linus Larsson: AI-jättarna älskar att prata om faror medan de trycker gasen i botten",
+          "link": "https://www.dn.se/varlden/linus-larsson-ai-jattarna-alskar-att-prata-om-faror-medan-de-trycker-gasen-i-botten/"
+        }
+      ]
+    },
+    {
       "id": "feed-congress-UmVwdWJsaWNhbiBtaWR0ZXJt",
       "sphere": "congress",
       "kategori": "POLITIK",
-      "rubrik": "Republikanernas konvent dominerades av Trump",
-      "sammanfattning": "Republikanerna höll ett tvådagarskonvent i Dallas inför mellanårsvalet, där Donald Trump talade båda kvällarna och bland annat uppmanade publiken att svära en trohetsed och rösta. Konventet visade både partiets beroende av Trump och de interna splittringarna, enligt flera bedömare. JD Vance höll avslutningstalet, medan talare som Mike Johnson antydde att Trump skulle kunna kandidera till representanthuset efter sin presidentperiod. Trump deltog också i en minnesceremoni vid Pentagon för 25-årsdagen av 11 september.",
-      "synthes": "Roll Call och The Guardian beskriver konventet som ett personkultsevenemang med risker för partiet, medan NPR och BBC lyfter fram både Trumps mobiliseringseffekt och frågan om vem som kommer efter honom.",
+      "rubrik": "Republikanernas mellanårskonvent i Dallas",
+      "sammanfattning": "Republikanerna höll sitt första mellanårskonvent i Dallas, där Donald Trump talade båda kvällarna och bland annat uppmanade väljarna att rösta i höstens val. Trump höll också ett tal vid Pentagon under 25-årsdagen av 11 september-attackerna. Konventet visade samtidigt på interna spänningar och en tunn politisk agenda inför mellanårsvalet.",
+      "synthes": "Roll Call och NPR beskriver Trumps dubbla roll som kampanjande och president, medan BBC och SVT lyfter frågan om vem som kommer efter Trump; Guardian och DN beskriver konventet som en personkult kring presidenten.",
       "leadSource": "Congress",
       "publishedAt": "2026-09-12T14:00:00.000Z",
       "readMinutes": 1,
@@ -170,104 +216,12 @@
       ]
     },
     {
-      "id": "feed-val2026-QW50aHJvcGljIENFTyBjYWxs",
-      "sphere": "val2026",
-      "kategori": "TEKNIK",
-      "rubrik": "Anthropic vill bromsa AI-utvecklingen",
-      "sammanfattning": "Anthropics vd Dario Amodei skriver i en essä att utvecklingen av AI-modeller måste bromsas och övervakas, och föreslår oberoende granskning, branschregler och global reglering. Förslaget fick stöd av Open AI:s Sam Altman och Elon Musk, medan andra i Silicon Valley är skeptiska och menar att varningarna kan handla om att gynna bolagens egna intressen. Bakgrunden är flera uppmärksammade varningar från AI-forskare, bland annat en bedömning att risken för att AI utplånar mänskligheten är omkring tio procent.",
-      "synthes": "BBC och DN återger Amodeis förslag och stödet från Altman och Musk, medan BBC även lyfter fram kritik från investerare och andra teknikföreträdare som ifrågasätter motivet bakom varningarna.",
-      "leadSource": "DN.se - Dagens Nyheter",
-      "publishedAt": "2026-09-12T17:56:42.000Z",
-      "readMinutes": 1,
-      "sourceCount": 7,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "BBC News",
-          "title": "Anthropic boss Dario Amodei calls for AI development to slow down",
-          "link": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "BBC News",
-          "title": "Dramatic insider warnings over AI fall flat with some in Silicon Valley",
-          "link": "https://www.bbc.co.uk/news/articles/cq635037g18o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "Utrikes | SVT Nyheter",
-          "title": "AI-jättens vd: AI-utvecklingen borde bromsas",
-          "link": "https://www.svt.se/nyheter/utrikes/ai-jattens-vd-ai-utvecklingen-borde-bromsas"
-        },
-        {
-          "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-          "title": "Anthropic CEO calls for AI race to slow down. Musk and OpenAI's Altman agrees",
-          "link": "https://www.coindesk.com/tech/2026/09/12/anthropic-ceo-calls-for-ai-race-to-slow-down-musk-and-openai-s-altman-agrees"
-        },
-        {
-          "source": "DN.se - Dagens Nyheter",
-          "title": "Anthropic vill bromsa AI – stöds av Musk och Altman",
-          "link": "https://www.dn.se/varlden/anthropic-vill-bromsa-ai-stods-av-musk-och-altman/"
-        },
-        {
-          "source": "DN.se - Dagens Nyheter",
-          "title": "Linus Larsson: AI-jättarna älskar att prata om faror medan de trycker gasen i botten",
-          "link": "https://www.dn.se/varlden/linus-larsson-ai-jattarna-alskar-att-prata-om-faror-medan-de-trycker-gasen-i-botten/"
-        }
-      ]
-    },
-    {
-      "id": "feed-world-VVMgbWFya3MgMjV0aCBhbm5p",
-      "sphere": "world",
-      "kategori": "POLITIK",
-      "rubrik": "USA minns 11 september – 25 år senare",
-      "sammanfattning": "USA högtidlighöll 25-årsdagen av 11 september med ceremonier i New York, vid Pentagon och i Shanksville, där nära 3 000 dödsoffer hedrades med tysta minuter och uppläsning av namn. Donald Trump talade vid Pentagon och kopplade minnet till konflikten med Iran, medan samtliga levande tidigare presidenter deltog i New York. CIA publicerade 71 tidigare hemligstämplade presidentbriefingar som visar att al-Qaida och en möjlig flygplansattack diskuterades redan 1998.",
-      "synthes": "BBC och SVT uppger att Trump inte deltog i ceremonin i New York, och SVT hänvisar till uppgifter om att han nekats tala där; The Hindu och BBC ger delvis olika uppgifter om vad de frisläppta dokumenten visar om Bin Ladens mål.",
-      "leadSource": "BBC News",
-      "publishedAt": "2026-09-12T00:43:00.000Z",
-      "readMinutes": 1,
-      "sourceCount": 6,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "BBC News",
-          "title": "Gen Zs recall first learning of 'deeply harrowing, terrifying' 9/11",
-          "link": "https://www.bbc.co.uk/news/articles/cgmrzzkjywlo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "BBC News",
-          "title": "CIA warned of threat of 'explosive airplane' years before 9/11, documents show",
-          "link": "https://www.bbc.co.uk/news/articles/c17j94ew1lno?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "BBC News",
-          "title": "'Never, ever forget' - America marks 25th anniversary of 9/11 attacks",
-          "link": "https://www.bbc.co.uk/news/articles/clyjqvjzlwno?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "BBC News",
-          "title": "In 9/11 remarks, Trump links war with Iran",
-          "link": "https://www.bbc.co.uk/news/videos/c5yjkj438eeo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "Utrikes | SVT Nyheter",
-          "title": "Tyst minut för offren i 11-september attackerna",
-          "link": "https://www.svt.se/nyheter/utrikes/25-ar-sedan-terrorattackerna-11-september-svt-sander"
-        },
-        {
-          "source": "SVT Nyheter",
-          "title": "Tyst minut för offren i 11-september attackerna",
-          "link": "https://www.svt.se/nyheter/utrikes/25-ar-sedan-terrorattackerna-11-september-svt-sander"
-        }
-      ]
-    },
-    {
       "id": "feed-world-RnJhbmNlIHRyYWluIGRlcmFp",
       "sphere": "world",
       "kategori": "JURIDIK",
       "rubrik": "Misstanke om sabotage bakom tågurspårning i Frankrike",
-      "sammanfattning": "Ett passagerartåg spårade ur i nordvästra Frankrike på fredagskvällen och 44 personer skadades, varav en ung kvinna allvarligt. Enligt åklagaren är huvudteorin att en rälsbit legat på spåret, och polisen utreder om det rör sig om en avsiktlig handling. Tågets färdskrivare har tagits i beslag och flera förhör ska hållas. Tågföraren testades negativt för droger och alkohol.",
-      "synthes": "SVT och AFP uppger att polisen misstänker sabotage, medan BBC och The Hindu beskriver att utredningen ännu inte fastställt orsaken och att tåget enligt en uppgift ska ha träffat ett oidentifierat föremål.",
+      "sammanfattning": "Ett passagerartåg spårade ur i Normandie i nordvästra Frankrike på fredagskvällen, och 44 personer skadades, varav en ung kvinna allvarligt. Enligt åklagaren hittades en rälsbit på spåret, och huvudteorin är att urspårningen orsakades av en avsiktlig handling. Tågets färdskrivare har tagits i beslag och utredningen pågår.",
+      "synthes": "SVT och AFP uppger att polisen misstänker sabotage, medan BBC och SCMP beskriver att en rälsbit hittades och att olyckan utreds som en möjlig fientlig handling; The Hindu uppger att tåget ska ha träffat ett oidentifierat föremål.",
       "leadSource": "BBC News",
       "publishedAt": "2026-09-12T15:05:53.000Z",
       "readMinutes": 1,
@@ -308,12 +262,58 @@
       ]
     },
     {
+      "id": "feed-val2026-R2FuZyBsZWFkZXIgSGF2YWwg",
+      "sphere": "val2026",
+      "kategori": "JURIDIK",
+      "rubrik": "Haval Khalil utlämnad till Sverige",
+      "sammanfattning": "Den 31-årige Haval Khalil har utlämnats från Rumänien till Sverige och greps vid ankomsten. Han är misstänkt för medhjälp till mordförsök och grov utpressning och beskrivs av polisen som en högprioriterad person med koppling till ett kriminellt nätverk i Stockholm. Han har tidigare dömts för inblandning i kidnappningen av rapparen Einár. Förhör ska hållas under helgen och häktningsförhandling väntas på måndag.",
+      "synthes": "SVT och Aftonbladet uppger att Khalil greps i Rumänien den 3 september, medan TV4 och Expressen bekräftar utlämningen; Aftonbladet nämner kopplingen till Dalennätverket och att även nätverkets ledare misstänks i samma mål.",
+      "leadSource": "SVT Nyheter",
+      "publishedAt": "2026-09-12T12:41:21.000Z",
+      "readMinutes": 1,
+      "sourceCount": 6,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "Utrikes | SVT Nyheter",
+          "title": "Gängtoppen Haval Khalil har utlämnats till Sverige",
+          "link": "https://www.svt.se/nyheter/utrikes/gangtoppen-haval-khalil-har-lamnats-ut-till-sverige"
+        },
+        {
+          "source": "SVT Nyheter",
+          "title": "Gängtoppen Haval Khalil har utlämnats till Sverige",
+          "link": "https://www.svt.se/nyheter/utrikes/gangtoppen-haval-khalil-har-lamnats-ut-till-sverige"
+        },
+        {
+          "source": "Senast publicerat",
+          "title": "Svensk gängkriminell utlämnad från Rumänien",
+          "link": "https://www.svd.se/a/wA9Gmd/senaste-nytt?pinnedEntry=77346&utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Gängkriminell man har lämnats ut till Sverige",
+          "link": "https://www.aftonbladet.se/nyheter/a/k0jnb6/gangkriminell-man-har-lamnats-ut-till-sverige?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Gängrapparen Haval Khalil, 31, har landat i Sverige",
+          "link": "https://www.aftonbladet.se/nyheter/krim/a/m0jooO/gangrapparen-haval-khalil-har-overlamnats?utm_medium=rss"
+        },
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Haval Khalil har lämnats ut till Sverige",
+          "link": "https://www.expressen.se/nyheter/krim/haval-khalil-har-lamnats-ut-till-sverige/"
+        }
+      ]
+    },
+    {
       "id": "feed-crypto-Q3J5cHRvIGJpbGxpb25haXJl",
       "sphere": "crypto",
       "kategori": "POLITIK",
       "rubrik": "Kryptomiljardärer donerar till Reform UK",
-      "sammanfattning": "Ben Delo, medgrundare av BitMEX, och Christopher Harborne donerade vardera 36 miljoner pund till Nigel Farages parti Reform UK inom loppet av ett dygn. Donationerna uppgår sammanlagt till omkring 97 miljoner dollar och beskrivs som de största enskilda politiska donationerna i brittisk historia. Samtidigt behandlar överhuset ett förslag som skulle stoppa kryptodonationer och begränsa utländska gåvor till 100 000 pund per år.",
-      "synthes": "Källorna är eniga om beloppen och mottagaren, men The Block och CoinDesk lyfter särskilt fram den pågående lagstiftningen medan övriga fokuserar på donationernas storlek.",
+      "sammanfattning": "Ben Delo, medgrundare av BitMEX, och Christopher Harborne har vardera donerat 36 miljoner pund till Nigel Farages parti Reform UK. Donationerna uppges sammantaget motsvara de största enskilda politiska donationerna i brittisk historia. Samtidigt behandlar överhuset ett förslag som skulle stoppa kryptodonationer och begränsa utländska gåvor till 100 000 pund per år.",
+      "synthes": "The Block, Cointelegraph, Decrypt, CoinDesk och POLITICO är eniga om beloppen och att donationerna är rekordstora; The Block nämner även den pågående lagstiftningen i överhuset.",
       "leadSource": "The Block",
       "publishedAt": "2026-09-12T16:18:05.000Z",
       "readMinutes": 1,
@@ -357,9 +357,9 @@
       "id": "feed-val2026-S3Jpc3RlcnNzb246IEFuZGVy",
       "sphere": "val2026",
       "kategori": "POLITIK",
-      "rubrik": "Kristersson varnar för hoppande majoriteter",
-      "sammanfattning": "I den sista debattduellen i TV4 inför valet sade S-ledaren Magdalena Andersson att hon inte utesluter att styra med hoppande majoriteter, men att det inte är det mest sannolika scenariot. Moderaternas Ulf Kristersson kallade idén ett recept för totalt kaos i Sverige. Andersson sade också att hon undviker röda linjer och att hon är öppen för samarbete med alla partier utom Sverigedemokraterna. De två gav olika bilder av svensk ekonomi, där Andersson pekade på stigande arbetslöshet och Kristersson på rekordmånga sysselsatta.",
-      "synthes": "Källorna återger samma debatt och samma citat, med skillnaden att Di och Sydsvenskan även tar med Anderssons löfte att aldrig styras av extrema krafter.",
+      "rubrik": "Kristersson: Recept för totalt kaos",
+      "sammanfattning": "I den sista debattduellen i TV4 inför valet sade S-ledaren Magdalena Andersson att hon inte utesluter att styra med hoppande majoriteter, men att det inte är det mest sannolika scenariot. Moderaternas Ulf Kristersson kallade idén ett recept för totalt kaos. Andersson sade också att hon vill undvika röda linjer och att hon är öppen för samarbete med alla partier utom Sverigedemokraterna.",
+      "synthes": "DN, Aftonbladet, Di, Sydsvenskan, hd.se och Barometern återger samma citat och uppgifter; Di och Sydsvenskan lyfter även Anderssons löfte att inte låta sig styras av extrema krafter.",
       "leadSource": "Senast publicerat",
       "publishedAt": "2026-09-12T17:46:32.000Z",
       "readMinutes": 1,
@@ -400,94 +400,48 @@
       ]
     },
     {
-      "id": "feed-val2026-R2FuZyBsZWFkZXIgSGF2YWwg",
-      "sphere": "val2026",
-      "kategori": "JURIDIK",
-      "rubrik": "Haval Khalil utlämnad till Sverige",
-      "sammanfattning": "Haval Khalil, 31, greps i Rumänien den 3 september och har nu förts till Sverige, där han greps av svensk polis. Han är misstänkt för medhjälp till mordförsök och grov utpressning och beskrivs av polisen som en högprioriterad person med koppling till ett kriminellt nätverk i Stockholm. Förhör ska hållas under helgen och häktningsförhandling väntas på måndag. Khalil dömdes 2021 till fängelse för inblandning i kidnappningen av rapparen Einár.",
-      "synthes": "SVT och Aftonbladet uppger att han kopplas till Dalennätverket och att även nätverkets ledare misstänks i samma mål, vilket inte nämns i de kortare notiserna från SvD, Expressen och TV4.",
-      "leadSource": "SVT Nyheter",
-      "publishedAt": "2026-09-12T12:41:21.000Z",
-      "readMinutes": 1,
-      "sourceCount": 6,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "Utrikes | SVT Nyheter",
-          "title": "Gängtoppen Haval Khalil har utlämnats till Sverige",
-          "link": "https://www.svt.se/nyheter/utrikes/gangtoppen-haval-khalil-har-lamnats-ut-till-sverige"
-        },
-        {
-          "source": "SVT Nyheter",
-          "title": "Gängtoppen Haval Khalil har utlämnats till Sverige",
-          "link": "https://www.svt.se/nyheter/utrikes/gangtoppen-haval-khalil-har-lamnats-ut-till-sverige"
-        },
-        {
-          "source": "Senast publicerat",
-          "title": "Svensk gängkriminell utlämnad från Rumänien",
-          "link": "https://www.svd.se/a/wA9Gmd/senaste-nytt?pinnedEntry=77346&utm_medium=rss"
-        },
-        {
-          "source": "Senaste nytt – nyheter från Aftonbladet",
-          "title": "Gängkriminell man har lämnats ut till Sverige",
-          "link": "https://www.aftonbladet.se/nyheter/a/k0jnb6/gangkriminell-man-har-lamnats-ut-till-sverige?utm_medium=rss"
-        },
-        {
-          "source": "Senaste nytt – nyheter från Aftonbladet",
-          "title": "Gängrapparen Haval Khalil, 31, har landat i Sverige",
-          "link": "https://www.aftonbladet.se/nyheter/krim/a/m0jooO/gangrapparen-haval-khalil-har-overlamnats?utm_medium=rss"
-        },
-        {
-          "source": "Expressen: Nyheter",
-          "title": "Haval Khalil har lämnats ut till Sverige",
-          "link": "https://www.expressen.se/nyheter/krim/haval-khalil-har-lamnats-ut-till-sverige/"
-        }
-      ]
-    },
-    {
-      "id": "feed-world-QlJJQ1Mgc3VtbWl0IGluIE5l",
-      "sphere": "world",
-      "kategori": "GEOPOLITIK",
-      "rubrik": "Brics möts i New Delhi – enighet om lokala valutor",
-      "sammanfattning": "Brics-länderna höll sitt 18:e toppmöte i New Delhi och antog enhälligt New Delhi Declaration 2026, där man bland annat enas om att utöka handel och betalningar i lokala valutor. Länderna uppmanade också till maximal återhållsamhet i Mellanöstern och enades om samarbete kring AI. Indiens premiärminister Narendra Modi efterlyste en omformning av den globala styrningen till förmån för det globala syd.",
-      "synthes": "France 24 och SCMP betonar de gemensamma uttalandena och de-dollariseringen, medan Al Jazeera och The Hindu fokuserar på Modis och Xis respektive budskap; SCMP noterar samtidigt att interna splittringar kan bromsa gruppens framsteg.",
-      "leadSource": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-      "publishedAt": "2026-09-12T12:19:56.000Z",
+      "id": "feed-congress-MjV0aCBhbm5pdmVyc2FyeSBv",
+      "sphere": "congress",
+      "kategori": "POLITIK",
+      "rubrik": "25 år efter 11 september-attackerna",
+      "sammanfattning": "USA har markerat 25-årsdagen av 11 september-attackerna med ceremonier i New York, Pentagon och Pennsylvania. President Donald Trump talade vid Pentagon och kopplade samman kriget mot terrorismen med konflikten med Iran. CIA har samtidigt offentliggjort 71 tidigare hemligstämplade presidentbriefingar som visar att underrättelsetjänsten varnade för al-Qaidas planer redan 1998.",
+      "synthes": "BBC och SVT beskriver ceremonierna och de sju tysta minuterna, medan DN uppger att Trump inte närvarade i New York; BBC och POLITICO lyfter Trumps koppling till Iran, och BBC:s dokumentartikel visar att CIA varnade flera år i förväg.",
+      "leadSource": "BBC News",
+      "publishedAt": "2026-09-11T17:21:00.000Z",
       "readMinutes": 1,
       "sourceCount": 5,
       "singleSource": false,
       "enriched": true,
       "sources": [
         {
-          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-          "title": "India’s Modi calls for empowerment of Global South at BRICS Summit",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/9/12/indias-modi-calls-for-empowerment-of-global-south-at-brics-summit?traffic_source=rss"
+          "source": "BBC News",
+          "title": "Gen Zs recall first learning of 'deeply harrowing, terrifying' 9/11",
+          "link": "https://www.bbc.co.uk/news/articles/cgmrzzkjywlo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "source": "France 24 - International breaking news, top stories and headlines",
-          "title": "BRICS: What is in the joint statement from the 11 members?",
-          "link": "https://www.france24.com/en/video/20260912-brics-what-is-in-the-joint-statement-from-the-11-members"
+          "source": "BBC News",
+          "title": "CIA warned of threat of 'explosive airplane' years before 9/11, documents show",
+          "link": "https://www.bbc.co.uk/news/articles/c17j94ew1lno?at_medium=RSS&at_campaign=rss"
         },
         {
-          "source": "France 24 - International breaking news, top stories and headlines",
-          "title": "BRICS nations urge 'maximum restraint' in Middle East war",
-          "link": "https://www.france24.com/en/video/20260912-brics-nations-urge-maximum-restraint-in-middle-east-war"
+          "source": "BBC News",
+          "title": "'Never, ever forget' - America marks 25th anniversary of 9/11 attacks",
+          "link": "https://www.bbc.co.uk/news/articles/clyjqvjzlwno?at_medium=RSS&at_campaign=rss"
         },
         {
-          "source": "France 24 - International breaking news, top stories and headlines",
-          "title": "BRICS leaders meet in India as wars and US tensions test the bloc",
-          "link": "https://www.france24.com/en/video/20260912-brics-leaders-meet-in-india-as-wars-and-us-tensions-test-the-bloc"
+          "source": "BBC News",
+          "title": "In 9/11 remarks, Trump links war with Iran",
+          "link": "https://www.bbc.co.uk/news/videos/c5yjkj438eeo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "source": "France 24 - International breaking news, top stories and headlines",
-          "title": "Russia's Putin arrives in India as BRICS leaders begin talks",
-          "link": "https://www.france24.com/en/video/20260912-russia-s-putin-arrives-in-india-as-brics-leaders-begin-talks"
+          "source": "Utrikes | SVT Nyheter",
+          "title": "Tyst minut för offren i 11-september attackerna",
+          "link": "https://www.svt.se/nyheter/utrikes/25-ar-sedan-terrorattackerna-11-september-svt-sander"
         },
         {
-          "source": "AllAfrica News: Latest",
-          "title": "Ethiopia: Ethiopia Reaffirms Reform Momentum, Brics Commitment At Finance Leaders' Meeting",
-          "link": "https://allafrica.com/stories/202609110568.html"
+          "source": "SVT Nyheter",
+          "title": "Tyst minut för offren i 11-september attackerna",
+          "link": "https://www.svt.se/nyheter/utrikes/25-ar-sedan-terrorattackerna-11-september-svt-sander"
         }
       ]
     },
@@ -495,9 +449,9 @@
       "id": "feed-crypto-VVMgaW5mbGF0aW9uIGRhdGEg",
       "sphere": "crypto",
       "kategori": "EKONOMI",
-      "rubrik": "USA:s inflation oförändrad – räntehöjning väntas",
-      "sammanfattning": "Inflationen i USA låg på 3,4 procent i årstakt i augusti, oförändrat från juli, enligt BLS. Drivmedelspriserna steg och dieselpriset nådde en ny rekordnivå, vilket kopplas till högre oljepriser till följd av kriget mot Iran. Marknaden räknar nu med att Federal Reserve höjer räntan nästa vecka. Kärninflationen steg 0,3 procent i månaden, snabbare än väntat.",
-      "synthes": "BBC och CoinDesk uppger att en räntehöjning i praktiken är säker, medan Decrypt anger att sannolikheten låg nära 62 procent; CoinDesk noterar att kärninflationen på årsbasis var den lägsta sedan 2021.",
+      "rubrik": "Inflationen i USA ligger kvar på 3,4 procent",
+      "sammanfattning": "Inflationen i USA låg på 3,4 procent i årstakt i augusti, oförändrat från juli, enligt BLS. Drivande var stigande bensinpriser, som steg 3,9 procent under månaden. Samtidigt väntas Federal Reserve höja räntan nästa vecka, och enligt CME Group räknar 85 procent av handlarna med en höjning på en kvarts procentenhet.",
+      "synthes": "BBC och CoinDesk uppger att kärninflationen steg mer än väntat, medan Decrypt noterar att den årliga kärninflationen saktade in; CoinDesk och Cointelegraph beskriver att bitcoin steg tillfälligt efter siffrorna.",
       "leadSource": "The Block",
       "publishedAt": "2026-09-11T17:40:54.000Z",
       "readMinutes": 1,
@@ -538,53 +492,104 @@
       ]
     },
     {
-      "id": "feed-val2026-UmVjb3JkIGVhcmx5IHZvdGlu",
-      "sphere": "val2026",
-      "kategori": "POLITIK",
-      "rubrik": "Rekordmånga förtidsröstar",
-      "sammanfattning": "Förtidsröstningen i riksdags-, region- och kommunalvalen har passerat 3,5 miljoner väljare, enligt Valmyndigheten, jämfört med drygt 3,1 miljoner 2022. Förtidsröstningen har pågått sedan den 26 augusti och har lett till köer på flera håll. I Umeå har väntetiderna varit upp till en och en halv timme, och politiker där säger att kampanjandet behöver börja tidigare inför nästa val.",
-      "synthes": "SVT och Valmyndigheten via TT ger delvis olika siffror beroende på mättillfälle, där SVT anger tre miljoner under fredagen och TT 3 525 199 fram till lördag eftermiddag.",
-      "leadSource": "SVT Nyheter",
-      "publishedAt": "2026-09-11T14:47:38.000Z",
+      "id": "feed-world-U2F1ZGkgQXJhYmlhIHNodXRz",
+      "sphere": "world",
+      "kategori": "GEOPOLITIK",
+      "rubrik": "Saudiarabien stänger oljeledning efter drönarattack",
+      "sammanfattning": "Saudiarabien har stängt sin öst-västliga oljeledning efter drönarattacker som enligt Riyad avfyrades från Irak. Irak har avskedat en militär befälhavare och inlett en utredning, och tre gränsövergångar mot Iran har stängts tillfälligt. Ledningen har transporterat sju miljoner fat olja dagligen och varit en viktig väg förbi Hormuzsundet.",
+      "synthes": "DN och BBC uppger att ledningen stängts som en försiktighetsåtgärd, medan Al Jazeera och The Hindu beskriver att Irak utreder attackerna; Al Jazeera uppger att Trump sagt att Iran troligen ligger bakom, utan att lägga fram bevis.",
+      "leadSource": "BBC News",
+      "publishedAt": "2026-09-12T12:15:50.000Z",
       "readMinutes": 1,
       "sourceCount": 5,
       "singleSource": false,
       "enriched": true,
       "sources": [
         {
-          "source": "SVT Nyheter",
-          "title": "Rekord i förtidsröstning – politiker i Umeå: Måste börja kampanja tidigare",
-          "link": "https://www.svt.se/nyheter/lokalt/vasterbotten/rekord-i-fortidsrostning-politiker-i-umea-maste-borja-kampanja-tidigare"
-        },
-        {
-          "source": "Senast publicerat",
-          "title": "Långa köer för att rösta: ”Stått här en timme”",
-          "link": "https://www.svd.se/a/WvKVbK/rekordmanga-fortidsrostar-i-valet-2026?utm_medium=rss"
-        },
-        {
-          "source": "Senaste nytt – nyheter från Aftonbladet",
-          "title": "Förtidsrösterna har passerat 3,5 miljoner",
-          "link": "https://www.aftonbladet.se/nyheter/a/bOvMpk/fortidsrosterna-har-passerat-3-5-miljoner?utm_medium=rss"
+          "source": "DN.se - Dagens Nyheter",
+          "title": "Saudiarabien stänger oljeledning",
+          "link": "https://www.dn.se/varlden/saudiarabien-stanger-ned-oljeledning/"
         },
         {
           "source": "Dagens industri",
-          "title": "Förtidsrösterna har passerat 3,5 miljoner",
-          "link": "https://www.di.se/nyheter/fortidsrosterna-har-passerat-35-miljoner/"
+          "title": "Expertens varning: Då stiger oljepriset ännu mer",
+          "link": "https://www.di.se/nyheter/expertens-varning-da-stiger-oljepriset-annu-mer/"
         },
         {
-          "source": "sydsvenskan.se",
-          "title": "Förtidsrösterna har passerat 3,5 miljoner",
-          "link": "https://www.sydsvenskan.se/sverige/fortidsrosterna-har-passerat-35-miljoner/"
+          "source": "BBC News",
+          "title": "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
+          "link": "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+          "title": "Iraq probes drone strikes on Saudi Arabia, shuts three crossings to Iran",
+          "link": "https://www.aljazeera.com/news/2026/9/12/iraq-probes-drone-strikes-on-saudi-arabia-shuts-three-crossings-to-iran?traffic_source=rss"
+        },
+        {
+          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+          "title": "Trump: Iran probably ‘behind’ Saudi oil pipeline attack",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/9/12/trump-iran-probably-behind-saudi-oil-pipeline-attack?traffic_source=rss"
+        },
+        {
+          "source": "World News Today: International News Headlines - The Hindu | The Hindu",
+          "title": "Saudi Arabia shuts down major oil pipeline, says drones launched from Iraq hit it",
+          "link": "https://www.thehindu.com/news/international/saudi-arabia-shuts-down-major-oil-pipeline-citing-attacks-amid-fighting-in-yemen/article71457890.ece"
         }
       ]
     },
     {
-      "id": "feed-val2026-U29saGVpbSBDdXA6IFN0YXJr",
+      "id": "feed-val2026-U0QgU01TIGNhbXBhaWduIGNv",
+      "sphere": "val2026",
+      "kategori": "POLITIK",
+      "rubrik": "SD:s sms-utskick möts av kritik",
+      "sammanfattning": "Sverigedemokraterna skickade på lördagsmorgonen ut ett sms med budskapet att S och SD är överens om att stänga alla muslimska friskolor. Socialdemokraterna tillbakavisar uppgiften och kallar utskicket ett lagbrott. Enligt IMY har politiska partier begränsade möjligheter att skicka politisk reklam via sms, och både SD och Moderaterna har tidigare fått reprimander för liknande utskick.",
+      "synthes": "Aftonbladet, GP, Sydsvenskan, hd.se och TV4 beskriver utskicket och kritiken; GP och TV4 lyfter att behandling av uppgifter om etnicitet eller religion är förbjuden enligt GDPR, medan SD kallar utskicket konsumentupplysning.",
+      "leadSource": "Senaste nytt – nyheter från Aftonbladet",
+      "publishedAt": "2026-09-12T11:32:46.000Z",
+      "readMinutes": 1,
+      "sourceCount": 5,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Mohamuds tioåriga dotter fick SD-sms: ”Chockad och ledsen”",
+          "link": "https://www.aftonbladet.se/nyheter/a/5pqyym/sd-smsade-10-arig-flicka-chockad-och-ledsen?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Åkesson om SMS-kampanjen: \"Konsumentupplysning\"",
+          "link": "https://tv.aftonbladet.se/video/407097?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "S om SD:s sms: ”Typiskt Sverigedemokraterna”",
+          "link": "https://www.aftonbladet.se/nyheter/a/zOj9KO/s-om-sd-s-sms-smutsig-valrorelse?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "SD:s mystiska sms – S rasar",
+          "link": "https://www.aftonbladet.se/nyheter/a/oEavvV/sd-s-mystiska-sms-gatt-ut-till-de-mest-sarbara?utm_medium=rss"
+        },
+        {
+          "source": "Göteborgs-Posten",
+          "title": "S rasar mot SD:s sms-kupp: ”Bryter mot lagen”",
+          "link": "https://www.gp.se/politik/s-rasar-mot-sds-sms-kupp-bryter-medvetet-mot-lagen.6ed245f2-9b6f-44ff-9343-e7e01896ef11"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Expert: SD:s sms-utskick bryter mot lagen",
+          "link": "https://www.sydsvenskan.se/sverige/expert-sds-sms-utskick-bryter-mot-lagen/"
+        }
+      ]
+    },
+    {
+      "id": "feed-val2026-U29saGVpbSBDdXAgZ29sZg",
       "sphere": "val2026",
       "kategori": "SPORT",
       "rubrik": "Stark och Grant obesegrade i Solheim Cup",
-      "sammanfattning": "Maja Stark och Linn Grant har vunnit sina tre första matcher i Solheim Cup i Nederländerna, bland annat efter att Stark sänkt ett inspel från 76 meter för eagle på första hålet i bästbollen. Europa och USA stod lika, 8–8, inför söndagens singelmatcher. Kaptenen Anna Nordqvist fick kritik för vissa parval men hyllades för att ha matchat två rookies som vann.",
-      "synthes": "DN och Sydsvenskan beskriver Nordqvists beslut olika, där DN kallar ett av dem ett uppenbart misstag medan Sydsvenskan fokuserar på svenskornas segrar; SVT lyfter Starks reaktion på en ny ramsa.",
+      "sammanfattning": "Maja Stark och Linn Grant har vunnit sina tre första matcher i Solheim Cup i Nederländerna. I bästbollmatchen mot Lauren Coughlin och Megan Khang sänkte Stark ett inspel från 76 meter för eagle på första hålet. Europa ledde med 8–8 inför söndagens singelmatcher.",
+      "synthes": "SVT, DN, Sydsvenskan, hd.se och Barometern beskriver svenskornas segrar; Sydsvenskan och DN noterar att Stark och Grant vilades under eftermiddagen trots sin form.",
       "leadSource": "SVT Nyheter",
       "publishedAt": "2026-09-11T11:22:46.000Z",
       "readMinutes": 1,
@@ -596,11 +601,6 @@
           "source": "SVT Nyheter",
           "title": "Maja Stark brister ut i garv när hon får höra nya ramsan: ”Galningar”",
           "link": "https://www.svt.se/sport/golf/maja-stark-brister-ut-i-garv-nar-hon-far-hora-nya-ramsan-galningar"
-        },
-        {
-          "source": "DN.se - Dagens Nyheter",
-          "title": "Lika i Solheim Cup – efter Nordqvists oväntade val",
-          "link": "https://www.dn.se/sport/lika-i-solheim-cup-efter-nordqvists-ovantade-val/"
         },
         {
           "source": "DN.se - Dagens Nyheter",
@@ -621,16 +621,21 @@
           "source": "hd.se",
           "title": "Starks drömstart – sänkte inspel från 76 meter",
           "link": "https://www.hd.se/sport/starks-dromstart-sankte-inspel-fran-76-meter/"
+        },
+        {
+          "source": "Barometern",
+          "title": "Tre av tre för Stark och Grant: ”Jädrigt gött”",
+          "link": "https://www.barometern.se/sport/succen-fortsatter-svenskorna-knackte-superduon/"
         }
       ]
     },
     {
-      "id": "feed-val2026-UyBwb2xpdGljaWFuIEpvbmFz",
+      "id": "feed-val2026-UyBwb2xpdGljaWFuIHRocmVh",
       "sphere": "val2026",
       "kategori": "POLITIK",
       "rubrik": "S-politiker hotad under valarbete i Göteborg",
-      "sammanfattning": "Jonas Attenius (S), kommunstyrelsens ordförande i Göteborg, utsattes på lördagskvällen för ett misstänkt olaga hot vid Klippans ångbåtsbrygga i Majorna. En man i 55-årsåldern ska ha skrikit hotfulla ord och identifierades av polis, som upprättade en anmälan. Både Magdalena Andersson och Ulf Kristersson kommenterade händelsen i TV4:s debatt och tog avstånd från tonläget.",
-      "synthes": "GP och Expressen tillför detaljer om polisinsatsen och den misstänkte mannens ålder, medan övriga källor återger samma händelseförlopp och citat.",
+      "sammanfattning": "Jonas Attenius (S), kommunstyrelsens ordförande i Göteborg, utsattes på lördagskvällen för ett misstänkt olaga hot vid Klippans ångbåtsbrygga i Majorna. En man i 55-årsåldern ska ha skrikit hotfulla ord och identifierades av polis, som upprättade en anmälan. Händelsen uppmärksammades av Magdalena Andersson i TV4:s valduell, och Ulf Kristersson kallade den förfärlig.",
+      "synthes": "Aftonbladet, Expressen, Di och GP återger samma händelseförlopp; GP har även intervjuat Attenius om valrörelsens tonläge, där han kallar den den mest obehagliga han varit med om.",
       "leadSource": "Senast publicerat",
       "publishedAt": "2026-09-12T18:38:24.000Z",
       "readMinutes": 1,
@@ -671,12 +676,12 @@
       ]
     },
     {
-      "id": "feed-val2026-QWtlc3NvbiB2b3RlcyBpbiBS",
+      "id": "feed-val2026-w4VrZXNzb24gdm90ZXMgaW4g",
       "sphere": "val2026",
       "kategori": "POLITIK",
       "rubrik": "Åkesson förtidsröstade i Rinkeby",
-      "sammanfattning": "Sverigedemokraternas partiledare Jimmie Åkesson förtidsröstade i Folkets hus i Rinkeby och sade att området inte ser ut som Sverige och att klädseln hos en del boende uttrycker värderingar han inte anser hör hemma i landet. Han sade att valet av röstlokal inte var en politisk markering. Åkesson kritiserade också SVT:s slutdebatt och menade att TV4 lyckades bättre.",
-      "synthes": "Källorna återger samma uttalanden, men Sydsvenskan och hd.se citerar en formulering om att det känns som en del av ett annat land som inte finns med i TT-versionen.",
+      "sammanfattning": "Sverigedemokraternas partiledare Jimmie Åkesson förtidsröstade i Folkets hus i Rinkeby på lördagen. Han sade att området inte ser ut som Sverige och kritiserade bebyggelsen och förekomsten av täckande kläder. Åkesson sade också att han inte ser valet av röstlokal som en politisk markering.",
+      "synthes": "Aftonbladet, Sydsvenskan, hd.se och Barometern återger samma citat; Aftonbladet och Sydsvenskan noterar att mer än nio av tio invånare i Rinkeby enligt SCB har utländsk bakgrund.",
       "leadSource": "Senast publicerat",
       "publishedAt": "2026-09-12T10:40:31.000Z",
       "readMinutes": 1,
@@ -717,38 +722,89 @@
       ]
     },
     {
-      "id": "feed-val2026-U2F1ZGkgQXJhYmlhIHNodXRz",
+      "id": "feed-val2026-UmVjb3JkIGVhcmx5IHZvdGlu",
       "sphere": "val2026",
-      "kategori": "EKONOMI",
-      "rubrik": "Saudiarabien stänger oljeledning efter drönarattack",
-      "sammanfattning": "Saudiarabien har stängt den öst-västliga oljeledningen efter en drönarattack som enligt utrikesministeriet kom från Irak. Irak har avsatt en militär befälhavare och inlett en utredning, och Saudiarabien avstår i nuläget från vedergällning. Stängningen sker samtidigt som huthierna tagit kontroll över Jemens rödahavskust, vilket hotar saudisk oljeexport. Oljepriset har passerat 100 dollar fatet.",
-      "synthes": "BBC och The Hindu uppger att ledningen fraktat 4–5 procent av den globala oljetillförseln, medan DN anger sju miljoner fat dagligen; DN uppger att leveranserna sjönk till den lägsta nivån på över tre decennier.",
-      "leadSource": "DN.se - Dagens Nyheter",
-      "publishedAt": "2026-09-12T05:27:20.000Z",
+      "kategori": "POLITIK",
+      "rubrik": "Rekordmånga förtidsröstar",
+      "sammanfattning": "Fram till lördag eftermiddag hade 3 525 199 väljare förtidsröstat, enligt Valmyndigheten, jämfört med drygt 3,1 miljoner i valet 2022. Förtidsröstningen har pågått sedan den 26 augusti och har lett till köer på flera håll. I Umeå har väntetiderna varit upp till en och en halv timme.",
+      "synthes": "Aftonbladet, Di och Sydsvenskan återger Valmyndighetens siffror; SVT uppger att ökningen är 21 procent jämfört med samma tid 2022 och att politiker i Umeå vill börja kampanja tidigare.",
+      "leadSource": "SVT Nyheter",
+      "publishedAt": "2026-09-11T14:47:38.000Z",
+      "readMinutes": 1,
+      "sourceCount": 5,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "SVT Nyheter",
+          "title": "Rekord i förtidsröstning – politiker i Umeå: Måste börja kampanja tidigare",
+          "link": "https://www.svt.se/nyheter/lokalt/vasterbotten/rekord-i-fortidsrostning-politiker-i-umea-maste-borja-kampanja-tidigare"
+        },
+        {
+          "source": "Senast publicerat",
+          "title": "Långa köer för att rösta: ”Stått här en timme”",
+          "link": "https://www.svd.se/a/WvKVbK/rekordmanga-fortidsrostar-i-valet-2026?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Förtidsrösterna har passerat 3,5 miljoner",
+          "link": "https://www.aftonbladet.se/nyheter/a/bOvMpk/fortidsrosterna-har-passerat-3-5-miljoner?utm_medium=rss"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Förtidsrösterna har passerat 3,5 miljoner",
+          "link": "https://www.di.se/nyheter/fortidsrosterna-har-passerat-35-miljoner/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Förtidsrösterna har passerat 3,5 miljoner",
+          "link": "https://www.sydsvenskan.se/sverige/fortidsrosterna-har-passerat-35-miljoner/"
+        }
+      ]
+    },
+    {
+      "id": "feed-world-QlJJQ1Mgc3VtbWl0IGluIE5l",
+      "sphere": "world",
+      "kategori": "GEOPOLITIK",
+      "rubrik": "Brics-toppmöte i New Delhi",
+      "sammanfattning": "Brics-länderna höll toppmöte i New Delhi och antog en gemensam deklaration där man bland annat uppmanar till återhållsamhet i Mellanöstern och fortsatt handel i lokala valutor. Indiens premiärminister Narendra Modi efterlyste reformer av global styrning, och Kinas president Xi Jinping sade att Kina och Indien bär ett stort ansvar. Rysslands president Vladimir Putin deltog i mötet.",
+      "synthes": "Al Jazeera, France 24, SCMP och The Hindu beskriver mötet; SCMP lyfter att Brics-länderna enats om att utöka handel och betalningar i lokala valutor, medan The Hindu noterar att Brasilien uppger att länderna inte vill ersätta dollarn.",
+      "leadSource": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+      "publishedAt": "2026-09-12T12:19:56.000Z",
       "readMinutes": 1,
       "sourceCount": 4,
       "singleSource": false,
       "enriched": true,
       "sources": [
         {
-          "source": "DN.se - Dagens Nyheter",
-          "title": "Saudiarabien stänger oljeledning",
-          "link": "https://www.dn.se/varlden/saudiarabien-stanger-ned-oljeledning/"
+          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+          "title": "India’s Modi calls for empowerment of Global South at BRICS Summit",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/9/12/indias-modi-calls-for-empowerment-of-global-south-at-brics-summit?traffic_source=rss"
         },
         {
-          "source": "Dagens industri",
-          "title": "Expertens varning: Då stiger oljepriset ännu mer",
-          "link": "https://www.di.se/nyheter/expertens-varning-da-stiger-oljepriset-annu-mer/"
+          "source": "France 24 - International breaking news, top stories and headlines",
+          "title": "BRICS: What is in the joint statement from the 11 members?",
+          "link": "https://www.france24.com/en/video/20260912-brics-what-is-in-the-joint-statement-from-the-11-members"
         },
         {
-          "source": "BBC News",
-          "title": "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
-          "link": "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss"
+          "source": "France 24 - International breaking news, top stories and headlines",
+          "title": "BRICS nations urge 'maximum restraint' in Middle East war",
+          "link": "https://www.france24.com/en/video/20260912-brics-nations-urge-maximum-restraint-in-middle-east-war"
         },
         {
-          "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-          "title": "Saudi Arabia shuts down major oil pipeline, says drones launched from Iraq hit it",
-          "link": "https://www.thehindu.com/news/international/saudi-arabia-shuts-down-major-oil-pipeline-citing-attacks-amid-fighting-in-yemen/article71457890.ece"
+          "source": "France 24 - International breaking news, top stories and headlines",
+          "title": "BRICS leaders meet in India as wars and US tensions test the bloc",
+          "link": "https://www.france24.com/en/video/20260912-brics-leaders-meet-in-india-as-wars-and-us-tensions-test-the-bloc"
+        },
+        {
+          "source": "France 24 - International breaking news, top stories and headlines",
+          "title": "Russia's Putin arrives in India as BRICS leaders begin talks",
+          "link": "https://www.france24.com/en/video/20260912-russia-s-putin-arrives-in-india-as-brics-leaders-begin-talks"
+        },
+        {
+          "source": "News - South China Morning Post",
+          "title": "Under Trump’s shadow, Brics takes step towards de-dollarisation",
+          "link": "https://www.scmp.com/news/china/diplomacy/article/3367315/under-trumps-shadow-brics-takes-step-towards-de-dollarisation?utm_source=rss_feed"
         }
       ]
     },
@@ -757,8 +813,8 @@
       "sphere": "world",
       "kategori": "OLYCKA",
       "rubrik": "Minst 76 döda efter färjebrand i Filippinerna",
-      "sammanfattning": "En brand bröt ut på färjan MV June Aster på onsdagskvällen under färd från Manila mot Coron, och antalet bekräftade döda har stigit till 76. 43 personer överlevde och 13 saknas fortfarande. Räddningsarbetet försvårades av giftig rök och värme, och identifieringen av offren sker med hjälp av DNA och tillhörigheter. Enligt överlevande hördes explosioner från lastrummet innan branden spreds.",
-      "synthes": "The Hindu anger i en tidigare version minst 35 döda och över 50 saknade, medan BBC, SCMP och Aftonbladet uppger 76 döda och 13 saknade; uppgifterna om antalet explosioner varierar mellan en och två.",
+      "sammanfattning": "En brand bröt ut på färjan MV June Aster utanför Palawan i Filippinerna i onsdags kväll. Antalet döda har stigit till 76, och 13 personer saknas fortfarande. Färjan var på väg från Manila till Coron med 132 personer ombord, varav 43 överlevde. Enligt överlevande hördes explosioner från lastrummet innan branden spreds.",
+      "synthes": "Aftonbladet, BBC, SCMP och The Hindu uppger olika detaljer om antalet döda och saknade; The Hindu nämner att två explosioner hördes enligt sjöfartsmyndigheten, medan BBC uppger att branden började i en lastlucka.",
       "leadSource": "BBC News",
       "publishedAt": "2026-09-12T15:09:55.000Z",
       "readMinutes": 1,
@@ -794,48 +850,94 @@
       ]
     },
     {
-      "id": "feed-val2026-U0QgdGV4dCBtZXNzYWdlIGNh",
+      "id": "feed-val2026-TGliZXJhbGVybmEgc3VyZ2Vz",
       "sphere": "val2026",
       "kategori": "POLITIK",
-      "rubrik": "SD:s sms-utskick om muslimska friskolor",
-      "sammanfattning": "Sverigedemokraterna skickade på lördagsmorgonen ut ett sms med budskapet att S och SD är överens om att stänga alla muslimska friskolor. Socialdemokraterna tillbakavisar uppgiften och kallar utskicket ett lagbrott och ett tecken på en smutsig valrörelse. SD:s Jimmie Åkesson beskriver utskicket som konsumentupplysning. Flera experter anser att utskicket bryter mot GDPR och att mottagare kan ha rätt till skadestånd.",
-      "synthes": "Aftonbladet och GP återger SD:s först utförligare motivering om hedersförtryck och islamism, som SD senare korrigerade, medan Sydsvenskan och hd.se fokuserar på expertkritiken och de möjliga skadeståndsanspråken.",
-      "leadSource": "Senaste nytt – nyheter från Aftonbladet",
-      "publishedAt": "2026-09-12T09:42:31.000Z",
+      "rubrik": "Liberalerna fortsätter uppåt i opinionen",
+      "sammanfattning": "I SVT/Verians sista väljarbarometer före valet ligger Liberalerna på 5,5 procent, medan Moderaterna får 15,8 procent, den lägsta nivån sedan 2003. Enligt Verian kommer en stor del av L:s uppgång från moderata väljare. Socialdemokraterna ligger på 27,6 procent, och avståndet mellan blocken har minskat till 5,6 procentenheter.",
+      "synthes": "SVT och Aftonbladet beskriver samma mätning; SVT noterar att S tappar både till rödgröna partier och över blockgränsen, och att knappt tio procent av de tillfrågade är osäkra.",
+      "leadSource": "SVT Nyheter",
+      "publishedAt": "2026-09-11T15:45:53.000Z",
       "readMinutes": 1,
       "sourceCount": 4,
       "singleSource": false,
       "enriched": true,
       "sources": [
         {
-          "source": "Senaste nytt – nyheter från Aftonbladet",
-          "title": "Åkesson om SMS-kampanjen: \"Konsumentupplysning\"",
-          "link": "https://tv.aftonbladet.se/video/407097?utm_medium=rss"
+          "source": "SVT Nyheter",
+          "title": "Taktikröster viktig förklaring bakom L:s rusning",
+          "link": "https://www.svt.se/nyheter/inrikes/taktikroster-viktig-forklaring-bakom-ls-rusning"
         },
         {
-          "source": "Senaste nytt – nyheter från Aftonbladet",
-          "title": "S om SD:s sms: ”Typiskt Sverigedemokraterna”",
-          "link": "https://www.aftonbladet.se/nyheter/a/zOj9KO/s-om-sd-s-sms-smutsig-valrorelse?utm_medium=rss"
+          "source": "SVT Nyheter",
+          "title": "SVT/Verian: Liberalerna fortsätter rusa – tar väljare från Moderaterna",
+          "link": "https://www.svt.se/nyheter/inrikes/svtverian-liberalerna-fortsatter-rusa-tar-valjare-fran-moderaterna"
         },
         {
-          "source": "Senaste nytt – nyheter från Aftonbladet",
-          "title": "SD:s mystiska sms – S rasar",
-          "link": "https://www.aftonbladet.se/nyheter/a/oEavvV/sd-s-mystiska-sms-gatt-ut-till-de-mest-sarbara?utm_medium=rss"
+          "source": "Inrikes | SVT Nyheter",
+          "title": "Taktikröster viktig förklaring bakom L:s rusning",
+          "link": "https://www.svt.se/nyheter/inrikes/taktikroster-viktig-forklaring-bakom-ls-rusning"
         },
         {
-          "source": "Göteborgs-Posten",
-          "title": "S rasar mot SD:s sms-kupp: ”Bryter mot lagen”",
-          "link": "https://www.gp.se/politik/s-rasar-mot-sds-sms-kupp-bryter-medvetet-mot-lagen.6ed245f2-9b6f-44ff-9343-e7e01896ef11"
+          "source": "Inrikes | SVT Nyheter",
+          "title": "SVT/Verian: Liberalerna fortsätter rusa – tar väljare från Moderaterna",
+          "link": "https://www.svt.se/nyheter/inrikes/svtverian-liberalerna-fortsatter-rusa-tar-valjare-fran-moderaterna"
+        },
+        {
+          "source": "Senast publicerat",
+          "title": "Sista prognosen: L rusar – småpartier mot succé",
+          "link": "https://www.svd.se/a/rryXj3/vem-vinner-valet-vinstchans-okar-for-kristersson?utm_medium=rss"
+        },
+        {
+          "source": "Senast publicerat",
+          "title": "Kristersson: ”Uppmanar inte någon att stödrösta”",
+          "link": "https://www.svd.se/a/d49QA1/kristersson-finns-alla-mojligheter-och-risker?utm_medium=rss"
+        }
+      ]
+    },
+    {
+      "id": "feed-val2026-w4VrZXNzb24ncyBNdXNsaW0g",
+      "sphere": "val2026",
+      "kategori": "POLITIK",
+      "rubrik": "Åkesson: Muslimer kan avgöra valet",
+      "sammanfattning": "Sverigedemokraternas partiledare Jimmie Åkesson sade i SVT:s slutdebatt att muslimsk invandring kan komma att avgöra riksdagsvalet och att det oroar honom. Uttalandet möttes av kritik från Miljöpartiets Amanda Lind och Socialdemokraternas Magdalena Andersson. Åkesson sade efter debatten att S och V skaffar sig makt genom invandringen.",
+      "synthes": "SVT, DN och Sydsvenskan återger uttalandet; DN:s ledarskribenter och Sydsvenskan kritiserar Åkessons resonemang, medan SVT noterar att Åkesson själv säger sig vara medveten om att det är kontroversiellt.",
+      "leadSource": "SVT Nyheter",
+      "publishedAt": "2026-09-11T21:33:27.000Z",
+      "readMinutes": 1,
+      "sourceCount": 4,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "SVT Nyheter",
+          "title": "Jimmie Åkessons oro: Muslimer kan avgöra valet",
+          "link": "https://www.svt.se/nyheter/inrikes/jimmie-akessons-oro-muslimer-kan-avgora-valet"
+        },
+        {
+          "source": "Inrikes | SVT Nyheter",
+          "title": "Jimmie Åkessons oro: Muslimer kan avgöra valet",
+          "link": "https://www.svt.se/nyheter/inrikes/jimmie-akessons-oro-muslimer-kan-avgora-valet"
+        },
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "Max Hjelm: Jimmie Åkessons ord under slutdebatten visar vad som står på spel",
+          "link": "https://www.dn.se/ledare/max-hjelm-jimmie-akessons-ord-under-slutdebatten-visar-vad-som-star-pa-spel/"
+        },
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "Tomas Ramberg: Plötsligt beror valresultatet på muslimerna",
+          "link": "https://www.dn.se/sverige/tomas-ramberg-plotsligt-beror-valresultatet-pa-muslimerna/"
         },
         {
           "source": "sydsvenskan.se",
-          "title": "Expert: SD:s sms-utskick bryter mot lagen",
-          "link": "https://www.sydsvenskan.se/sverige/expert-sds-sms-utskick-bryter-mot-lagen/"
+          "title": "Väljarna är inte röstboskap – vad Jimmie Åkesson än säger",
+          "link": "https://www.sydsvenskan.se/opinion/moa-berglof/valjarna-ar-inte-rostboskap-for-partierna/"
         },
         {
           "source": "sydsvenskan.se",
-          "title": "S om SD:s sms: ”Typiskt Sverigedemokraterna”",
-          "link": "https://www.sydsvenskan.se/sverige/s-om-sds-sms-utskick-en-smutsig-valrorelse/"
+          "title": "”Min muslimska röst är lika svensk som din”",
+          "link": "https://www.sydsvenskan.se/malmo/min-muslimska-rost-ar-lika-svensk-som-din/"
         }
       ]
     },
@@ -844,8 +946,8 @@
       "sphere": "congress",
       "kategori": "TEKNIK",
       "rubrik": "Anthropic stoppade misstänkta försök till biologiska vapen",
-      "sammanfattning": "Anthropic uppger i sin säkerhetsrapport att bolaget stoppat fem fall där AI-modellen Claude använts på sätt som kan stödja utveckling av biologiska vapen, bland annat ett försök att göra chikungunyaviruset farligare. Rapporten beskriver också cyberattacker, övervakningssystem och försök att bygga styr- och navigationssystem för raketer, bland annat från en grupp i norra Jemen. Bolaget säger sig ha delat information med myndigheter och branschaktörer.",
-      "synthes": "BBC och DN beskriver de biologiska fallen och cyberattackerna, medan The Hindu lyfter fram uppgifterna om den jemenitiska gruppen och dess raketprogram, vilket inte nämns i de svenska källorna.",
+      "sammanfattning": "Anthropic uppger i sin säkerhetsrapport att man mellan december 2025 och augusti 2026 stoppat fem försök att använda AI-modellen Claude för att stödja utveckling av biologiska vapen. Bland annat ska ett försök ha handlat om att göra chikungunyaviruset mer smittsamt. Rapporten beskriver också cyberattacker, övervakning och bedrägerier.",
+      "synthes": "BBC, DN, Cointelegraph och The Hindu beskriver rapportens innehåll; DN ger fler detaljer om det enskilda fallet med chikungunyaviruset, medan BBC nämner att även Google rapporterat om liknande försök med sin AI-tjänst.",
       "leadSource": "BBC News",
       "publishedAt": "2026-09-11T08:15:25.000Z",
       "readMinutes": 1,
@@ -870,8 +972,8 @@
         },
         {
           "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-          "title": "Anthropic says Yemen fighters used AI to seek guided weapons",
-          "link": "https://www.thehindu.com/news/international/anthropic-says-yemen-fighters-used-ai-to-seek-guided-weapons/article71456112.ece"
+          "title": "What are the AI threats flagged by Anthropic? | Explained",
+          "link": "https://www.thehindu.com/sci-tech/technology/what-are-the-ai-threats-flagged-by-anthropic-explained/article71459201.ece"
         }
       ]
     },
@@ -879,9 +981,9 @@
       "id": "feed-val2026-R2VybWFueSBzYXlzIFJ1c3Np",
       "sphere": "val2026",
       "kategori": "GEOPOLITIK",
-      "rubrik": "Tyskland pekar ut rysk underrättelse efter drönarangrepp",
-      "sammanfattning": "Enligt en rapport var rysk underrättelsetjänst inblandad i planeringen av angreppet med en sprängmedelsbestyckad drönare mot flygplatsen Leipzig/Halle i augusti. Tyska tjänstemän har identifierat en person som tros tillhöra GRU och som misstänks ha varit logistiksamordnare vid flygplatsen. Uppgifterna låg enligt tidningen Welt am Sonntag bakom beslutet att lägga skulden på Ryssland och stänga det ryska konsulatet i Bonn och ett ryskt kulturcentrum i Berlin.",
-      "synthes": "Alla fyra källor återger samma uppgifter från Welt am Sonntag utan att tillföra avvikande detaljer.",
+      "rubrik": "Tyskland: Rysk underrättelse bakom bombdrönare",
+      "sammanfattning": "Enligt en rapport var den ryska militära underrättelsetjänsten GRU inblandad i planeringen av angreppet med en sprängmedelsbestyckad drönare mot flygplatsen Leipzig/Halle i augusti. Tyska tjänstemän har identifierat en person som misstänks ha varit logistiksamordnare. Detta låg enligt tidningen Welt am Sonntag bakom Tysklands beslut att stänga det ryska konsulatet i Bonn och ett ryskt kulturcentrum i Berlin.",
+      "synthes": "SVT, Aftonbladet och Di återger samma uppgifter från Welt am Sonntag; ingen av källorna redovisar någon avvikande version.",
       "leadSource": "SVT Nyheter",
       "publishedAt": "2026-09-12T12:20:07.000Z",
       "readMinutes": 1,
@@ -912,48 +1014,12 @@
       ]
     },
     {
-      "id": "feed-val2026-TVAgd2FudHMgaGlnaGVyIHBl",
-      "sphere": "val2026",
-      "kategori": "POLITIK",
-      "rubrik": "MP vill höja bensinpriset och kompensera landsbygden",
-      "sammanfattning": "Miljöpartiet vill blanda in mer förnybart bränsle i bensinen, vilket enligt partiets beräkningar höjer priset med omkring två kronor och ger en höjning på sex kronor litern när de tillfälliga skattesänkningarna löper ut. Partiet vill samtidigt införa transportstöd till låginkomsttagare i lands- och glesbygd och stödja köp av elbilar. Språkrören säger att de inte ångrar beskedet trots sviktande siffror i opinionen.",
-      "synthes": "SVT publicerade först en felaktig formulering om att MP vill höja priset med sex kronor och korrigerade den, medan övriga källor återger partiets egen beräkning.",
-      "leadSource": "SVT Nyheter",
-      "publishedAt": "2026-09-11T16:38:51.000Z",
-      "readMinutes": 1,
-      "sourceCount": 4,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "SVT Nyheter",
-          "title": "MP vill höja bensinpriset – lovar stöd till landsbygden",
-          "link": "https://www.svt.se/nyheter/lokalt/norrbotten/mp-vill-hoja-bensinpriset-lovar-stod-till-landsbygden"
-        },
-        {
-          "source": "Senast publicerat",
-          "title": "MP oroas av siffrorna: Tar oss för givet",
-          "link": "https://www.svd.se/a/XM7gRm/mp-oroas-av-siffrorna-tar-oss-for-givet?utm_medium=rss"
-        },
-        {
-          "source": "Senaste nytt – nyheter från Aftonbladet",
-          "title": "MP oroas av siffrorna: Tar oss för givet",
-          "link": "https://www.aftonbladet.se/nyheter/a/pBeLdR/mp-oroas-av-siffrorna-tar-oss-for-givet?utm_medium=rss"
-        },
-        {
-          "source": "sydsvenskan.se",
-          "title": "MP oroas av siffrorna: Tar oss för givet",
-          "link": "https://www.sydsvenskan.se/sverige/mp-oroas-av-siffrorna-tar-oss-for-givet/"
-        }
-      ]
-    },
-    {
       "id": "feed-val2026-VGVucyBvZiB0aG91c2FuZHMg",
       "sphere": "val2026",
       "kategori": "POLITIK",
       "rubrik": "Massprotester mot AFD i Tyskland",
-      "sammanfattning": "Omkring 150 000 människor demonstrerade i ett tjugotal tyska städer mot ytterhögerpartiet AFD, som vann delstatsvalet i Sachsen-Anhalt med nästan 44 procent. Partiet saknar egen majoritet och förhandlar nu om att bilda den första högerextrema delstatsregeringen i Tyskland sedan andra världskriget. CDU fick 17,2 procent av rösterna.",
-      "synthes": "Källorna återger samma uppgifter om demonstrationerna och valresultatet utan inbördes motsägelser.",
+      "sammanfattning": "Omkring 150 000 människor demonstrerade på lördagen i ett tjugotal tyska städer mot ytterhögerpartiet AFD. Partiet vann nästan 44 procent i delstatsvalet i Sachsen-Anhalt och försöker nu bilda den första högerextrema delstatsregeringen i Tyskland sedan andra världskriget. CDU fick 17,2 procent av rösterna.",
+      "synthes": "Aftonbladet, Di, Sydsvenskan och hd.se återger samma uppgifter; ingen av källorna redovisar någon avvikande version.",
       "leadSource": "Senaste nytt – nyheter från Aftonbladet",
       "publishedAt": "2026-09-12T18:26:08.000Z",
       "readMinutes": 1,
@@ -988,8 +1054,8 @@
       "sphere": "val2026",
       "kategori": "OLYCKA",
       "rubrik": "15-åring överlevde två dygn i Berings hav",
-      "sammanfattning": "En 15-årig pojke räddades efter att ha tillbringat dagar på skrovet av en kapsejsad fiskebåt i Berings hav utanför Alaska. Hans äldre bror och kusin omkom i olyckan och deras kroppar bärgades. Pojken hade tecken på hypotermi och hade varken mat eller vatten under tiden. Båten hade lämnat Saint Lawrence Island den 4 september och skulle ha återvänt två dagar senare.",
-      "synthes": "BBC och DN uppger att pojken satt på båten i två dagar, medan Expressen beskriver att han hittades efter drygt 24 timmars sökande; DN och Expressen ger delvis olika uppgifter om när brodern och kusinen avled.",
+      "sammanfattning": "En 15-årig pojke räddades efter att ha tillbringat två dygn på sin kapsejsade fiskebåt i Berings hav utanför Alaska. Hans äldre bror och kusin omkom. Pojken hade tecken på hypotermi och räddades av ett fiskefartyg efter att kustbevakningen lokaliserat honom från luften.",
+      "synthes": "BBC, DN och Expressen beskriver händelsen; DN uppger att brodern drunknade tidigt och att kusinen höll sig fast en tid, medan Expressen citerar kaptenen som säger att pojken levde på bön.",
       "leadSource": "DN.se - Dagens Nyheter",
       "publishedAt": "2026-09-12T09:36:17.000Z",
       "readMinutes": 1,
@@ -1017,10 +1083,10 @@
     {
       "id": "feed-val2026-QWZyaWNhbiB0cm9sbCBhY2Nv",
       "sphere": "val2026",
-      "kategori": "GEOPOLITIK",
-      "rubrik": "Afrikanska trollkonton riktar sig mot svenska valet",
-      "sammanfattning": "En granskning av SVT, Trollrensics och Alliance4europe visar att tusentals konton baserade i västafrikanska länder som Nigeria och Benin massföljer svenska användare, oftast högerlutande. Kontona använder stulna bilder och påhittade svenska namn och tros syfta till att manipulera plattformens algoritm. Experter bedömer att ryska pengar sannolikt finansierar verksamheten och att den kan förvränga bilden av den politiska opinionen.",
-      "synthes": "SVT och GP uppger olika antal identifierade konton, där GP anger över 8 000 medan SVT beskriver tusentals; båda hänvisar till samma experter och samma slutsatser.",
+      "kategori": "POLITIK",
+      "rubrik": "Afrikanska trollkonton riktar sig mot Sverige",
+      "sammanfattning": "En granskning av SVT, Trollrensics och Alliance4europe visar att tusentals konton baserade i västafrikanska länder som Nigeria och Benin massföljer svenska användare på X. Kontona använder stulna bilder och påhittade namn och följer oftast högerlutande svenska konton. Enligt experter kan nätverket förstärka extrema budskap och förvränga bilden av den politiska opinionen.",
+      "synthes": "SVT och GP beskriver samma granskning; GP uppger att över 8 000 konton identifierats, medan SVT skriver tusentals, och båda lyfter experternas bedömning att ryska pengar sannolikt finansierar verksamheten.",
       "leadSource": "SVT Nyheter",
       "publishedAt": "2026-09-12T04:31:18.000Z",
       "readMinutes": 1,
@@ -1042,37 +1108,6 @@
           "source": "Göteborgs-Posten",
           "title": "Afrikanska trollkonton i svenska valrörelsen",
           "link": "https://www.gp.se/nyheter/sverige/afrikanska-trollkonton-i-svenska-valrorelsen-.39e9ae94-d2f5-4b59-ad2c-2f52b82d5e7e"
-        }
-      ]
-    },
-    {
-      "id": "feed-val2026-Tm9yd2F5J3MgUHJpbmNlc3Mg",
-      "sphere": "val2026",
-      "kategori": "POLITIK",
-      "rubrik": "Prinsessan Astrid av Norge är död",
-      "sammanfattning": "Prinsessan Astrid av Norge har avlidit vid 94 års ålder, två dagar efter att hon deltagit i sin bror kung Haralds begravning. Kung Haakon säger att hon under sitt långa liv representerade kungahuset på ett varmt och plikttroget sätt och att hennes bortgång är en stor förlust. Astrid blev Norges första dam vid 22 års ålder 1954 och var särskilt engagerad i omsorg om utsatta. Flaggor hissas på halv stång och hon begravs på statens bekostnad.",
-      "synthes": "SVT och TV4 uppger att kung Harald dog den 28 augusti, medan BBC anger att han avled förra månaden vid 89 års ålder; BBC tillför uppgifter om hennes hälsa och om kungafamiljens skandaler.",
-      "leadSource": "TV4 Nyheterna",
-      "publishedAt": "2026-09-11T14:42:51.000Z",
-      "readMinutes": 1,
-      "sourceCount": 3,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "Utrikes | SVT Nyheter",
-          "title": "Prinsessan Astrid av Norge är död",
-          "link": "https://www.svt.se/nyheter/utrikes/prinsessan-astrid-av-norge-ar-dod"
-        },
-        {
-          "source": "TV4 Nyheterna",
-          "title": "Prinsessan Astrid är död",
-          "link": "https://www.tv4.se/artikel/1IeH2wOjt8LcpYSWutOmFh/prinsessan-astrid-aer-doed"
-        },
-        {
-          "source": "BBC News",
-          "title": "Norway's Princess Astrid dies two days after attending brother King Harald's funeral",
-          "link": "https://www.bbc.co.uk/news/articles/cgjq1qy98vjo?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
