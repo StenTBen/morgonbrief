@@ -1,12 +1,12 @@
 {
   "date": "2026-09-12",
-  "builtAt": "2026-09-12T07:52:10.660Z",
+  "builtAt": "2026-09-12T08:14:43.129Z",
   "episodes": [
     {
       "sphere": "congress",
       "sphereLabel": "US Congress",
       "audioUrl": "https://github.com/StenTBen/morgonbrief/releases/download/audio/pod-congress-2026-09-12.mp3",
-      "audioBytes": 55392,
+      "audioBytes": 58272,
       "itemCount": 0,
       "items": [],
       "script": "God morgon. Inget lagförslag klarade tröskeln idag. Bevakningen handlade om politik, inte om lagstiftning som rört sig, och då finns det ingenting i dokumenten att fördjupa. Vi hörs imorgon."
@@ -15,7 +15,7 @@
       "sphere": "crypto",
       "sphereLabel": "Crypto",
       "audioUrl": "https://github.com/StenTBen/morgonbrief/releases/download/audio/pod-crypto-2026-09-12.mp3",
-      "audioBytes": 36864,
+      "audioBytes": 37152,
       "itemCount": 0,
       "items": [],
       "script": "God morgon. Inget i crypto klarade tröskeln idag. Ingen governance-strid var het nog, och inga kedjor rörde sig utanför det normala. Vi hörs imorgon."
@@ -26,12 +26,11 @@
       "id": "feed-congress-UmVwdWJsaWNhbiBtaWR0ZXJt",
       "sphere": "congress",
       "kategori": "POLITIK",
-      "rubrik": "Trump dominerar Republikanernas mellanårskonvent i Dallas",
-      "sammanfattning": "Republikanerna höll sitt första mellanårskonvent i Dallas, där Donald Trump var den centrala gestalten under båda kvällarna och uppmanade anhängare att rösta i november. Han bad publiken att räcka upp handen och upprepa ett löfte om att rösta, och avslutade med en varning om att den som inte röstar hamnar i helvetet. Vicepresident JD Vance höll ett mer sammanhållet tal på konventets sista kväll. Samtidigt besökte Trump National Medal of Honor Museum och deltog i en ceremoni vid Pentagon för 25-årsdagen av 11 september. Enligt NPR var Trumps närvaro både partiets största tillgång och dess största hinder i kampen om de jämna mellanårsvalen.",
-      "synthes": "Roll Call och NPR skildrar samma händelseförlopp men lägger olika tonvikt: Roll Call beskriver stämningen på plats och Trumps blandning av kampanj och högtidlighet, medan NPR och BBC fokuserar på partiets strategiska dilemma och frågan om vem som tar över efter Trump.",
+      "rubrik": "Republikanernas mellanårskonvent i Dallas dominerades av Trump",
+      "sammanfattning": "Republikanerna höll ett ovanligt konvent mitt i presidentperioden i Dallas, där Donald Trump talade båda kvällarna och uppmanade anhängare att rösta i mellanårsvalet. Han bad publiken att räcka upp handen och upprepa ett löfte om att rösta, och avslutade med en varning om att den som inte röstar hamnar i helvetet. Under dagarna varvades kampanjretorik med ett besök vid National Medal of Honor Museum och en ceremoni vid Pentagon för 25-årsdagen av 11 september. Vicepresident JD Vance höll ett avslutningstal, och flera kandidater och partiföreträdare lyfte fram Trump som rörelsens centralgestalt. NPR beskriver konventet som en uppvisning av både partiets största tillgång och dess största hinder.",
+      "synthes": "Roll Call och NPR skildrar samma händelseförlopp men lägger olika tonvikt: Roll Call fokuserar på Trumps dubbla roll som kampanjande president och statschef, medan NPR och BBC betonar frågan om vem som kommer efter Trump och hur konventet kan påverka valresultatet.",
       "leadSource": "Congress",
       "publishedAt": "2026-09-11T08:50:00.000Z",
-      "image": "https://static.politico.com/de/91/f6a7f82b4636b2e59e37690890cf/u-s-congress-38764.jpg",
       "readMinutes": 1,
       "sourceCount": 5,
       "singleSource": false,
@@ -74,11 +73,10 @@
       "sphere": "congress",
       "kategori": "EKONOMI",
       "rubrik": "Inflationen i USA låg kvar på 3,4 procent i augusti",
-      "sammanfattning": "Konsumentpriserna i USA steg 3,4 procent under tolv månader fram till augusti, oförändrat från juli, enligt Bureau of Labor Statistics. Drivande var bensinpriserna, som steg 3,9 procent enbart i augusti och svarade för mer än en tredjedel av inflationen, medan dieselpriset nådde en ny rekordnivå över 6 dollar per gallon. Reallönerna föll 0,3 procent under året. Inför Federal Reserves räntebesked nästa vecka räknar enligt CME Group 85 procent av handlarna med en höjning med en kvarts procentenhet. Kärninflationen steg 0,3 procent i månaden, snabbare än väntat, medan årstakten 2,4 procent var den lägsta sedan början av 2021.",
-      "synthes": "Källorna är eniga om att inflationen låg i linje med förväntningarna men att kärninflationen månadsvis var het, och de skiljer sig åt i synen på räntehöjningens sannolikhet: BBC och CoinDesk anger omkring 85 respektive 62 procent, medan Decrypt noterar att kryptomarknaden steg trots detta.",
+      "sammanfattning": "Amerikansk inflation var oförändrad på 3,4 procent i årstakt i augusti, enligt arbetsmarknadsstatistik. Drivande var stigande bensinpriser, som ensamma stod för mer än en tredjedel av inflationen, medan dieselpriset nådde en ny rekordnivå. Kärninflationen steg 0,3 procent på månadsbasis, snabbare än väntat, medan årstakten på 2,4 procent var den lägsta sedan början av 2021. Marknaden räknar i hög grad med en räntehöjning från Federal Reserve, och centralbankschefen Kevin Warsh har sagt att fokus bör ligga på att dämpa prisökningarna.",
+      "synthes": "Källorna är oense om sannolikheten för en räntehöjning: BBC uppger att 85 procent av handlarna räknar med en höjning, medan Decrypt anger att oddsen ligger nära 62 procent. CoinDesk och Decrypt är också oeniga om huruvida kärninflationen på årsbasis ska beskrivas som den lägsta sedan 2021.",
       "leadSource": "BBC News",
       "publishedAt": "2026-09-11T14:22:42.000Z",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/39dc/live/efa1fdd0-addb-11f1-8b98-35ffe039e825.jpg",
       "readMinutes": 1,
       "sourceCount": 5,
       "singleSource": false,
@@ -101,6 +99,11 @@
         },
         {
           "source": "Decrypt",
+          "title": "Bitcoin Golden Cross Flickers Off as Rate-Hike Bets Firm Up",
+          "link": "https://decrypt.co/378081/bitcoin-golden-cross-flickers-off"
+        },
+        {
+          "source": "Decrypt",
           "title": "Bitcoin Rises as Markets Digest Inflation Data Ahead of Fed Rate Decision",
           "link": "https://decrypt.co/377962/bitcoin-price-cpi-inflation-fed-rate-decision"
         },
@@ -108,24 +111,18 @@
           "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
           "title": "Core CPI rose a faster-than-forecast 0.3% in August, setting up possible Fed rate hike",
           "link": "https://www.coindesk.com/markets/2026/09/11/core-cpi-rose-a-faster-than-forecast-0-3-in-august-setting-up-fed-rate-hike"
-        },
-        {
-          "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-          "title": "Rising yields, oil prices leave bitcoin vulnerable ahead of U.S. inflation report",
-          "link": "https://www.coindesk.com/daybook-us/2026/09/11/rising-yields-oil-prices-leave-bitcoin-vulnerable-ahead-of-u-s-inflation-report"
         }
       ]
     },
     {
-      "id": "feed-congress-Q2xhcml0eSBBY3QgaGVhZHMg",
+      "id": "feed-congress-Q2xhcml0eSBBY3QgY3J5cHRv",
       "sphere": "congress",
       "kategori": "REGLERING",
-      "rubrik": "Lummis pressar demokrater inför Clarity Act-omröstning",
-      "sammanfattning": "Senator Cynthia Lummis uppmanar demokrater att stödja kryptolagstiftningen Clarity Act inför den procedurmässiga omröstningen i senaten nästa vecka. Hennes kansli hänvisar till 114 sakliga ändringar som demokrater begärt och som republikanerna accepterat, bland annat inom SEC:s tillsynsramverk, penningtvättslagar och tillsyn av icke-decentraliserade finansplattformar. Demokraternas huvudinvändning gäller etik: de vill att delstatliga justitieministrar, inte justitiedepartementet, ska ansvara för efterlevnaden av regler mot att offentliga tjänstemän tjänar på krypto. Även några republikaner, däribland Mike Rounds och Jerry Moran, vill se ytterligare ändringar av stablecoin-bestämmelserna. Enligt CoinDesk krävs 60 röster för att driva lagförslaget vidare.",
-      "synthes": "Källorna är eniga om att ett reviderat utkast cirkulerades i torsdags och att etikavsnittet i stort sett lämnats oförändrat, men de skiljer sig i detaljgrad: Senate News redogör utförligt för Lummis argumentation medan Cointelegraph, Decrypt och CoinDesk kortfattat beskriver de tekniska ändringarna.",
+      "rubrik": "Lummis pressar demokrater inför senatsomröstning om Clarity Act",
+      "sammanfattning": "Senator Cynthia Lummis uppmanar demokrater att stödja kryptolagstiftningen Clarity Act inför en procedurröst i senaten nästa vecka. Hennes kansli hänvisar till 114 ändringar som demokrater begärt och som republikanerna accepterat, bland annat inom SEC:s tillsynsramverk och penningtvättsregler. Demokraternas huvudfråga gäller etik, där de vill att delstatliga åklagare ska ansvara för efterlevnaden i stället för justitiedepartementet. Även några republikaner, däribland Mike Rounds och Jerry Moran, har invändningar mot en bestämmelse om stablecoins.",
+      "synthes": "Källorna är eniga om att etikavsnittet i stort sett lämnats oförändrat och att nya krav införs för kontrollerade handelsprotokoll, men CoinDesk noterar att vägen framåt för lagförslaget fortfarande är oklar.",
       "leadSource": "Senate News",
       "publishedAt": "2026-09-10T21:20:06.000Z",
-      "image": "https://thehill.com/wp-content/uploads/sites/2/2026/02/lummiscynthia_012826gn01_w.jpg?w=900",
       "readMinutes": 1,
       "sourceCount": 4,
       "singleSource": false,
@@ -158,11 +155,10 @@
       "sphere": "crypto",
       "kategori": "JURIDIK",
       "rubrik": "Sam Bankman-Fried begär prövning i Högsta domstolen",
-      "sammanfattning": "Sam Bankman-Fried har bett USA:s högsta domstol att upphäva sin bedrägeridom och den konfiskering på 11 miljarder dollar som dömdes ut efter FTX:s kollaps. Hans advokater hävdar att han felaktigt hindrades från att lägga fram bevis för att FTX hade tillräckliga tillgångar för att täcka kundernas förluster, och att konfiskeringsbeloppet är oproportionerligt. Enligt Decrypt kallar försvaret beloppet för en förkrossande bot. Ärendet väntar nu på Högsta domstolens beslut.",
-      "synthes": "Samtliga fyra källor beskriver samma överklagande och försvarets två huvudargument, utan att motsäga varandra.",
+      "sammanfattning": "Sam Bankman-Fried har bett USA:s högsta domstol att upphäva sin bedrägeridom och förverkandet på 11 miljarder dollar. Hans advokater hävdar att han felaktigt hindrades från att lägga fram bevis om att FTX hade tillräckliga tillgångar för att täcka kundernas förluster. Förverkandebeloppet beskrivs som oproportionerligt och betungande.",
+      "synthes": "Källorna beskriver samma begäran och samma huvudsakliga argument, utan att motsäga varandra.",
       "leadSource": "The Block",
       "publishedAt": "2026-09-11T04:20:15.000Z",
-      "image": "https://www.tbstat.com/wp/uploads/2022/11/20221109_Sam-Bankman-Fried-1-1200x675.jpg",
       "readMinutes": 1,
       "sourceCount": 4,
       "singleSource": false,
@@ -194,12 +190,11 @@
       "id": "feed-congress-VHJ1bXAncyAkNSwwMDAgZGl2",
       "sphere": "congress",
       "kategori": "EKONOMI",
-      "rubrik": "Republikanska senatorer splittrade om Trumps 5 000-dollarsutdelning",
-      "sammanfattning": "Donald Trump föreslog på konventet i Dallas att varje vuxen amerikan ska få 5 000 dollar om republikanerna behåller båda kamrarna i mellanårsvalet. Senator Ted Cruz ställer sig positiv under förutsättning att utbetalningen utformas som en skatterabatt och bara går till dem som arbetar och betalar skatt. Susan Collins varnar för att förslaget utan inkomsttak blir utomordentligt kostsamt och ifrågasätter att det kopplas till valresultatet. Enligt House News skulle utbetalningen till omkring 270 miljoner vuxna kosta över 1,3 biljoner dollar, och statsobligationsräntorna steg något efter beskedet. Vicepresident Vance säger att utdelningen ska finansieras med tullintäkter, som hittills i budgetåret uppgått till 154 miljarder dollar.",
-      "synthes": "Källorna kompletterar varandra: Senate News redogör för den politiska kritiken från Cruz och Collins, House News för de budgetmässiga och marknadsmässiga konsekvenserna, och BBC ifrågasätter om löftet är ett tecken på panik.",
+      "rubrik": "Republikanska senatorer kritiska till Trumps utdelningsförslag",
+      "sammanfattning": "Donald Trump föreslog på konventet i Dallas att varje vuxen amerikan ska få 5 000 dollar om republikanerna behåller majoriteten i kongressen. Senator Ted Cruz säger sig kunna stödja förslaget om det utformas som en skatterabatt och bara går till dem som arbetar och betalar skatt. Susan Collins kallar förslaget utomordentligt kostsamt och ifrågasätter att det saknar inkomsttak. Enligt beräkningar skulle förslaget kosta över 1 000 miljarder dollar och öka den federala skulden, som nyligen passerat 40 000 miljarder.",
+      "synthes": "Källorna kompletterar varandra: Senate News och House News redovisar olika kostnadsuppskattningar, där House News anger drygt 1 300 miljarder dollar medan Senate News talar om över 1 000 miljarder, och BBC ifrågasätter om löftet är ett tecken på panik.",
       "leadSource": "Senate News",
       "publishedAt": "2026-09-11T18:02:48.000Z",
-      "image": "https://thehill.com/wp-content/uploads/sites/2/2026/09/AP26253809514467-e1789082117726.jpg?w=900",
       "readMinutes": 1,
       "sourceCount": 3,
       "singleSource": false,
@@ -231,12 +226,11 @@
       "id": "feed-crypto-TWV0YXBsYW5ldCBjdXRzIGV4",
       "sphere": "crypto",
       "kategori": "MARKNAD",
-      "rubrik": "Metaplanet skär ned aktieprogram kraftigt",
-      "sammanfattning": "Bitcoin-treasurybolaget Metaplanet minskar sin potentiella aktiepool i serie 10 med 41 procent, från 319,5 miljoner till 188,2 miljoner aktier, och skrotar ett personaloptionsprogram. Enligt CoinDesk motsvarar nedskärningen ett värde på 220 miljoner dollar. Bolaget planerar samtidigt ett dotterbolag i Hongkong med en miljon dollar i kapital för handel med bitcoin, aktier och kreditprodukter. Ändringarna kommer efter att aktien fallit omkring 17 procent under två handelsdagar och efter kritik från aktieägare mot tilldelningen till insiders.",
-      "synthes": "Källorna är eniga om siffrorna för nedskärningen men skiljer sig i beskrivningen av orsaken: The Block och Cointelegraph lyfter aktiekursens nedgång och Hongkong-satsningen, medan CoinDesk och Cointelegraph betonar aktieägarnas missnöje.",
+      "rubrik": "Metaplanet skär ned personaloptioner kraftigt",
+      "sammanfattning": "Bitcoinbolaget Metaplanet minskar sin potentiella aktiepool för serie 10 med 41 procent, motsvarande 131,3 miljoner aktier, och skrotar ett personaloptionsprogram. Beslutet kommer efter att aktien fallit omkring 17 procent under två handelsdagar. Bolaget planerar samtidigt ett dotterbolag i Hongkong med en miljon dollar i kapital för handel med bitcoin, aktier och kreditprodukter.",
+      "synthes": "Källorna är eniga om nedskärningens storlek, men CoinDesk uppger att den frigjorda värderingen uppgår till 220 miljoner dollar medan Cointelegraph anger antalet aktier.",
       "leadSource": "The Block",
       "publishedAt": "2026-09-11T15:45:25.000Z",
-      "image": "https://www.tbstat.com/wp/uploads/2025/04/20250401_MetaPlanet_News_2-1200x675.jpg",
       "readMinutes": 1,
       "sourceCount": 3,
       "singleSource": false,
@@ -267,13 +261,12 @@
     {
       "id": "feed-crypto-SW5kaWEgbGF1bmNoZXMgdG9r",
       "sphere": "crypto",
-      "kategori": "MARKNAD",
+      "kategori": "REGLERING",
       "rubrik": "Indien inleder pilotprojekt med tokeniserade obligationer",
-      "sammanfattning": "Indiens finansmarknadsregulator SEBI har startat pilotprojektet Demat 2.0, där tre emittenter rest motsvarande drygt 100 miljoner dollar i tokeniserade företagsobligationer. Avvecklingen sker via centralbankens digitala grossistvaluta, den digitala rupien. Senare faser ska enligt SEBI införa sekundärhandel och öppna de tokeniserade obligationerna för privatpersoner. Enligt CoinDesk handlar det om en marknad för företagsobligationer värd 620 miljarder dollar.",
-      "synthes": "Källorna är eniga om belopp och upplägg, men CoinDesk sätter in piloten i ett större sammanhang genom att ange marknadens totala storlek.",
+      "sammanfattning": "Indiens marknadsregulator SEBI har startat pilotprojektet Demat 2.0, där tre emittenter rest över 100 miljoner dollar i tokeniserade företagsobligationer. Avvecklingen sker via centralbankens digitala grossistvaluta. Senare faser väntas omfatta sekundärhandel och öppna marknaden för privatpersoner.",
+      "synthes": "Källorna är eniga om upplägget men anger något olika belopp: Cointelegraph uppger 107 miljoner dollar medan The Block och CoinDesk talar om över 100 miljoner dollar.",
       "leadSource": "The Block",
       "publishedAt": "2026-09-11T12:09:12.000Z",
-      "image": "https://www.tbstat.com/wp/uploads/2020/06/20200612_India_Crypto_Ban-Daily-1200x675.jpg",
       "readMinutes": 1,
       "sourceCount": 3,
       "singleSource": false,
@@ -300,12 +293,11 @@
       "id": "feed-crypto-QmxvY2tzdHJlYW0gcmVmdXNl",
       "sphere": "crypto",
       "kategori": "JURIDIK",
-      "rubrik": "Blockstream vägrar betala lösensumma efter Liquid-exploateringen",
-      "sammanfattning": "Blockstream avvisar kravet på lösensumma för de knappt 600 bitcoin som fortfarande saknas efter exploateringen av Liquid-nätverket. Enligt Decrypt rör det sig om bitcoin till ett värde av omkring 47 miljoner dollar, närmare bestämt 598,5 BTC. Bolaget säger att det kommer att samarbeta med brottsbekämpande myndigheter, börser och forensiska specialister för att återfå medlen om hackarna inte lämnar tillbaka dem. Transaktioner på Liquid har återupptagits, men uttag är fortfarande avstängda medan återställningsarbetet pågår.",
-      "synthes": "Källorna är eniga om beloppet och Blockstreams hållning; Decrypt och Cointelegraph citerar bolagets formulering att det handlar om stöld, medan The Block betonar att uttag ännu inte är möjliga.",
+      "rubrik": "Blockstream vägrar betala lösensumma efter Liquid-intrånget",
+      "sammanfattning": "Blockstream avvisar kravet på lösensumma för de knappt 600 bitcoin som fortfarande saknas efter intrånget i Liquid. Bolaget säger att man kommer att samarbeta med myndigheter, börser och forensiska specialister för att återfå medlen om hackarna inte lämnar tillbaka dem. Transaktioner i Liquid har återupptagits, men uttag är fortfarande avstängda.",
+      "synthes": "Källorna är eniga om beloppet och hållningen; Decrypt uppskattar de saknade medlen till ett värde av 47 miljoner dollar.",
       "leadSource": "The Block",
       "publishedAt": "2026-09-11T11:21:17.000Z",
-      "image": "https://www.tbstat.com/wp/uploads/2019/05/Blockstream-1200x675.jpg",
       "readMinutes": 1,
       "sourceCount": 3,
       "singleSource": false,
@@ -329,47 +321,14 @@
       ]
     },
     {
-      "id": "feed-crypto-RVNNQSB3YXJucyBvbiBwcmVk",
-      "sphere": "crypto",
-      "kategori": "REGLERING",
-      "rubrik": "EU-myndighet kritiserar prediktionsmarknader",
-      "sammanfattning": "EU:s värdepappersmyndighet ESMA konstaterar att flera stora prediktionsmarknader saknar tillstånd inom unionen och ifrågasätter varför Polymarket och Kalshi blockerar vissa EU-länder men inte andra. Myndigheten pekar också på att VPN-tjänster används för att kringgå blockeringarna och säger att marknaderna är genomsyrade av insiderhandel. I en bredare varning lyfter ESMA tokeniserade aktier, DeFi-exploateringar och prediktionsmarknader som områden där kryptos kopplingar till det traditionella finansiella systemet kan förstärka risker.",
-      "synthes": "Källorna är eniga om ESMA:s slutsatser men lägger olika fokus: The Block och Decrypt betonar tillståndsfrågan och insiderhandeln, medan Cointelegraph lyfter den bredare riskbilden för det traditionella finansiella systemet.",
-      "leadSource": "The Block",
-      "publishedAt": "2026-09-11T10:10:37.000Z",
-      "image": "https://www.tbstat.com/wp/uploads/2020/12/shutterstock_584623759-1013x675.jpg",
-      "readMinutes": 1,
-      "sourceCount": 3,
-      "singleSource": false,
-      "enriched": false,
-      "sources": [
-        {
-          "source": "The Block",
-          "title": "ESMA says major prediction platforms lack EU authorization, questions Polymarket and Kalshi’s partial geo-blocks",
-          "link": "https://www.theblock.co/news/regulation/2026-09-11-esma-says-major-prediction-platforms-lack-eu-authorization-questions-polymarket-and-kalshis-partial-geo-blocks-414239"
-        },
-        {
-          "source": "Cointelegraph.com News",
-          "title": "ESMA warns growing crypto ties could amplify risks to traditional finance",
-          "link": "https://cointelegraph.com/news/esma-warns-growing-crypto-ties-could-amplify-risks-to-traditional-finance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-        },
-        {
-          "source": "Decrypt",
-          "title": "EU Regulator Says Prediction Markets Are 'Rife With Inside Trading'",
-          "link": "https://decrypt.co/377947/eu-regulator-says-prediction-markets-are-rife-with-inside-trading"
-        }
-      ]
-    },
-    {
       "id": "feed-crypto-Qml0d2lzZSB0byBjbG9zZSBE",
       "sphere": "crypto",
       "kategori": "MARKNAD",
       "rubrik": "Bitwise lägger ned sin Dogecoin-ETF",
-      "sammanfattning": "Bitwise stänger sin Dogecoin-ETF, BWOW, mindre än ett år efter lanseringen i november 2025. Vid starten omsatte fonden omkring 3 miljoner dollar, men handelsvolymen har sedan dess varit långt lägre. Enligt Cointelegraph uppgick fondens nettotillgångar till omkring 688 000 dollar den 9 september. Handeln väntas upphöra den 14 oktober och kontantutbetalningar till kvarvarande andelsägare beräknas ske omkring den 22 oktober.",
-      "synthes": "Källorna är eniga om datum och belopp; The Block och Cointelegraph ger något mer detaljer om volymer och tillgångar, medan Decrypt enbart redogör för tidplanen.",
+      "sammanfattning": "Bitwise stänger sin Dogecoin-ETF mindre än ett år efter lanseringen. Fonden hade cirka 688 000 dollar i nettotillgångar den 9 september och handeln väntas upphöra den 14 oktober, med kontantutbetalningar omkring den 22 oktober. Vid lanseringen i november 2025 omsatte fonden omkring 3 miljoner dollar, men volymerna har sedan dess varit låga.",
+      "synthes": "Källorna är eniga om tidpunkter och belopp.",
       "leadSource": "The Block",
       "publishedAt": "2026-09-10T20:28:46.000Z",
-      "image": "https://www.tbstat.com/wp/uploads/2024/05/kabosu-doge-1200x671.png",
       "readMinutes": 1,
       "sourceCount": 3,
       "singleSource": false,
@@ -396,12 +355,11 @@
       "id": "feed-congress-MjV0aCBhbm5pdmVyc2FyeSBv",
       "sphere": "congress",
       "kategori": "GEOPOLITIK",
-      "rubrik": "USA minns 11 september – 25 år senare",
-      "sammanfattning": "USA högtidlighöll 25-årsdagen av terrorattackerna den 11 september 2001 med ceremonier i New York, vid Pentagon och i Shanksville i Pennsylvania. Donald Trump ledde ceremonin vid Pentagon och kopplade i sitt tal kriget mot terrorismen till den pågående konflikten med Iran, där han sade att Islamiska republiken aldrig kommer att få kärnvapen. Vicepresident JD Vance deltog i minnesceremonin vid World Trade Center tillsammans med samtliga fyra levande tidigare presidenter. Nästan 3 000 namn lästes upp, och en sjunde klocka ringdes för dem som avlidit av sjukdomar kopplade till dammet efter attackerna. CIA publicerade 71 tidigare hemligstämplade presidentbriefingar, varav en från 1998 varnade för att al-Qaida kunde flyga ett explosivt flygplan in i en amerikansk stad.",
-      "synthes": "Källorna kompletterar varandra: BBC redogör för ceremonierna och de avhemligade dokumenten, medan SVT noterar att Trump inte deltog i minnesceremonin på Manhattan och att sju tysta minuter hölls under dagen.",
+      "rubrik": "USA hedrade offren för 11 september-attackerna",
+      "sammanfattning": "25 år efter attackerna mot World Trade Center, Pentagon och ett fält i Pennsylvania hölls minnesceremonier på alla tre platser. Donald Trump ledde ceremonin vid Pentagon och kopplade där kriget mot terrorismen till den pågående konflikten med Iran. JD Vance deltog i New York tillsammans med samtliga fyra levande före detta presidenter. CIA publicerade 71 tidigare hemligstämplade presidentbriefingar, varav en från 1998 varnade för att al-Qaida kunde flyga ett explosivt flygplan in i en amerikansk stad.",
+      "synthes": "SVT och BBC skiljer sig åt om Trumps närvaro: SVT uppger att han inte deltar i ceremonin på Manhattan, medan BBC rapporterar att han ledde ceremonin vid Pentagon och att Vance representerade administrationen i New York.",
       "leadSource": "BBC News",
       "publishedAt": "2026-09-12T00:43:00.000Z",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3c68/live/3f2e2470-ae3e-11f1-a1d3-cf0ffc395bed.jpg",
       "readMinutes": 1,
       "sourceCount": 2,
       "singleSource": false,
@@ -440,42 +398,14 @@
       ]
     },
     {
-      "id": "feed-congress-TmV3IE1leGljbyBEZW1vY3Jh",
-      "sphere": "congress",
-      "kategori": "POLITIK",
-      "rubrik": "Demokrater vill att Apple och Google behåller namnet New Mexico",
-      "sammanfattning": "Fem demokratiska kongressledamöter från New Mexico har i ett brev till Apple och Google uppmanat företagen att inte följa Donald Trumps förslag att byta namn på delstaten till New America i sina karttjänster. Trump delade i söndags en karta på Truth Social där Mexico var överstruket och ersatt med America. Ledamöterna, däribland senatorerna Ben Ray Luján och Martin Heinrich, skriver att konstitutionen inte ger presidenten rätt att ensidigt byta namn på en delstat och att ett sådant beslut kräver en ändring av delstatens egen konstitution. De hänvisar till att Apple Maps och Google Maps nyligen bytte namn på Lake Ontario till Lake America och på Mexikanska golfen till Gulf of America för amerikanska användare.",
-      "synthes": "Senate News och House News publicerar identiska texter i denna fråga och motsäger inte varandra.",
-      "leadSource": "Senate News",
-      "publishedAt": "2026-09-11T02:19:20.000Z",
-      "image": "https://thehill.com/wp-content/uploads/sites/2/2026/09/AP25247654634560-e1789092773839.jpg?w=900",
-      "readMinutes": 1,
-      "sourceCount": 2,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "Senate News",
-          "title": "New Mexico Democrats call on Apple, Google to keep state&#039;s name on map",
-          "link": "https://thehill.com/policy/technology/6083529-lawmakers-urge-apple-google-new-mexico/"
-        },
-        {
-          "source": "House News",
-          "title": "New Mexico Democrats call on Apple, Google to keep state&#039;s name on map",
-          "link": "https://thehill.com/policy/technology/6083529-lawmakers-urge-apple-google-new-mexico/"
-        }
-      ]
-    },
-    {
       "id": "feed-congress-QW50aHJvcGljIHJlcG9ydHMg",
       "sphere": "congress",
       "kategori": "TEKNIK",
       "rubrik": "Anthropic stoppade försök att använda AI för biologiska vapen",
-      "sammanfattning": "Anthropic uppger i sin hotintelligensrapport att företaget identifierat och stoppat försök att använda dess AI-modell för verksamhet som skulle kunna stödja utveckling av biologiska vapen. Rapporten beskriver fem fallstudier av sådan användning och sex fall där Claude använts för att utveckla programvara för konventionella vapen, däribland eldvapen, missiler, beväpnade drönare och bomber. Modellerna Claude Haiku, Sonnet och Opus ska ha missbrukats mellan december 2025 och augusti 2026, bland annat av en ryskknutet cyberespionagekampanj och en iransk propagandainstitution. Enligt Cointelegraph riktade en rysktalande aktör in sig på fler än 20 organisationer, medan en konsult i Mali byggde en massövervakningsplattform med Claude.",
-      "synthes": "BBC ger en bred översikt över rapportens innehåll och branschens varningar, medan Cointelegraph kompletterar med konkreta detaljer om två av fallen.",
+      "sammanfattning": "Anthropic uppger i sin hotrapport att man identifierat och stoppat försök att använda företagets AI-modell för verksamhet som skulle kunna stödja utveckling av biologiska vapen. Rapporten beskriver också fall av cyberattacker, övervakning, bedrägerier och påverkansoperationer kopplade till bland annat ryska och iranska aktörer. Även Google har rapporterat att någon försökt använda Gemini för att få fram en teknisk vägledning för syntes av vapeniserade biologiska agens.",
+      "synthes": "BBC ger en bred översikt över rapportens innehåll medan Cointelegraph fokuserar på enskilda fall, och båda beskriver samma slutsatser utan att motsäga varandra.",
       "leadSource": "BBC News",
       "publishedAt": "2026-09-11T08:15:25.000Z",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/090c/live/88ca35f0-ad6d-11f1-8edd-ada2fcb84b27.jpg",
       "readMinutes": 1,
       "sourceCount": 2,
       "singleSource": false,
@@ -494,15 +424,66 @@
       ]
     },
     {
+      "id": "feed-crypto-RVUgcmVndWxhdG9yIHF1ZXN0",
+      "sphere": "crypto",
+      "kategori": "REGLERING",
+      "rubrik": "EU-myndighet ifrågasätter prediktionsmarknader",
+      "sammanfattning": "EU:s värdepappersmyndighet ESMA konstaterar att stora prediktionsplattformar saknar tillstånd inom unionen. Myndigheten ifrågasätter också varför Kalshi och Polymarket blockerar vissa EU-länder men inte andra, och noterar att blockeringarna kan kringgås med VPN. ESMA beskriver marknaden som genomsyrad av insiderhandel.",
+      "synthes": "Källorna är eniga om ESMA:s slutsatser.",
+      "leadSource": "The Block",
+      "publishedAt": "2026-09-11T10:10:37.000Z",
+      "readMinutes": 1,
+      "sourceCount": 2,
+      "singleSource": false,
+      "enriched": false,
+      "sources": [
+        {
+          "source": "The Block",
+          "title": "ESMA says major prediction platforms lack EU authorization, questions Polymarket and Kalshi’s partial geo-blocks",
+          "link": "https://www.theblock.co/news/regulation/2026-09-11-esma-says-major-prediction-platforms-lack-eu-authorization-questions-polymarket-and-kalshis-partial-geo-blocks-414239"
+        },
+        {
+          "source": "Decrypt",
+          "title": "EU Regulator Says Prediction Markets Are 'Rife With Inside Trading'",
+          "link": "https://decrypt.co/377947/eu-regulator-says-prediction-markets-are-rife-with-inside-trading"
+        }
+      ]
+    },
+    {
+      "id": "feed-congress-TmV3IE1leGljbyBEZW1vY3Jh",
+      "sphere": "congress",
+      "kategori": "POLITIK",
+      "rubrik": "Demokrater vill att Apple och Google behåller namnet New Mexico",
+      "sammanfattning": "Fem demokratiska kongressledamöter från New Mexico har skrivit till Apple och Google och begärt att bolagen offentligt lovar att behålla delstatens namn i sina karttjänster. Bakgrunden är att Donald Trump på Truth Social delat en karta där Mexico strukits och ersatts av America. Ledamöterna hänvisar till att kartplattformarna tidigare bytt namn på Lake Ontario och Mexikanska golfen för amerikanska användare. De skriver att konstitutionen inte ger presidenten rätt att ensidigt byta namn på en delstat.",
+      "synthes": "Källorna är identiska till innehållet.",
+      "leadSource": "Senate News",
+      "publishedAt": "2026-09-11T02:19:20.000Z",
+      "readMinutes": 1,
+      "sourceCount": 2,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "Senate News",
+          "title": "New Mexico Democrats call on Apple, Google to keep state&#039;s name on map",
+          "link": "https://thehill.com/policy/technology/6083529-lawmakers-urge-apple-google-new-mexico/"
+        },
+        {
+          "source": "House News",
+          "title": "New Mexico Democrats call on Apple, Google to keep state&#039;s name on map",
+          "link": "https://thehill.com/policy/technology/6083529-lawmakers-urge-apple-google-new-mexico/"
+        }
+      ]
+    },
+    {
       "id": "feed-crypto-U3RhbmRhcmQgQ2hhcnRlcmVk",
       "sphere": "crypto",
       "kategori": "MARKNAD",
-      "rubrik": "Standard Chartered spår femfaldig uppgång för SKY",
-      "sammanfattning": "Standard Chartered har inlett bevakning av Sky och kallar projektet för DeFi:s centralbank. Banken räknar med att tokenen SKY stiger till 0,325 dollar i slutet av 2028, en femfaldig uppgång från nuvarande nivå. Prognosen bygger på att Sky för över fem gånger så mycket värde till tokeninnehavarna i takt med att användningen av USDS och utlåningskapaciteten fortsätter att växa.",
-      "synthes": "Båda källorna återger samma prognos och kursmål utan att motsäga varandra.",
+      "rubrik": "Standard Chartered spår kraftig uppgång för SKY",
+      "sammanfattning": "Standard Chartered har inlett bevakning av Sky och kallar projektet för DeFi:s centralbank. Banken räknar med att tokenen SKY stiger till 0,325 dollar till 2028, en femfaldig uppgång, drivet av ökad användning av USDS och växande lånekapacitet.",
+      "synthes": "Källorna är eniga om prognosen.",
       "leadSource": "The Block",
       "publishedAt": "2026-09-11T16:48:11.000Z",
-      "image": "https://www.tbstat.com/wp/uploads/2019/11/shutterstock_1286806993-1013x675.jpg",
       "readMinutes": 1,
       "sourceCount": 2,
       "singleSource": false,
@@ -524,12 +505,11 @@
       "id": "feed-crypto-Um9iaW5ob29kIGNyeXB0byB2",
       "sphere": "crypto",
       "kategori": "MARKNAD",
-      "rubrik": "Robinhoods kryptovolym upp 61 procent i augusti",
-      "sammanfattning": "Robinhoods kryptohandelsvolym ökade 61 procent i augusti jämfört med föregående månad, men ligger fortfarande 38 procent under samma period i fjol. Bitstamp svarade för 10,1 miljarder dollar av volymen, medan handeln i Robinhoods egen app föll 46 procent jämfört med ett år tidigare. Enligt Decrypt är det dock inte den traditionella handeln som växer snabbast i bolaget.",
-      "synthes": "Cointelegraph redovisar de exakta siffrorna för volymer och plattformar, medan Decrypt lyfter fram att bolagets snabbast växande verksamhet inte är traditionell handel.",
+      "rubrik": "Robinhoods kryptovolymer upp 61 procent i augusti",
+      "sammanfattning": "Robinhoods kryptohandelsvolym ökade 61 procent i augusti jämfört med månaden före, men ligger fortfarande 38 procent under nivån ett år tidigare. Bitstamp stod för 10,1 miljarder dollar av volymen, medan handeln i Robinhoods egen app föll 46 procent jämfört med året innan.",
+      "synthes": "Källorna är eniga om siffrorna; Decrypt noterar att bolagets snabbast växande verksamhet inte längre är traditionell handel.",
       "leadSource": "Cointelegraph.com News",
       "publishedAt": "2026-09-11T11:49:07.000Z",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M283JZSQVMT1TPB7GVMGKVNK/robinhood2-2.jpg",
       "readMinutes": 1,
       "sourceCount": 2,
       "singleSource": false,
@@ -548,42 +528,14 @@
       ]
     },
     {
-      "id": "feed-crypto-Qml0Y29pbiBnb2xkZW4gY3Jv",
-      "sphere": "crypto",
-      "kategori": "MARKNAD",
-      "rubrik": "Bitcoins gyllene kors tappar kraft när räntehöjningar prisas in",
-      "sammanfattning": "Enligt Decrypt har en snabbt förändrad räntemarknad ändrat det kortsiktiga läget för bitcoin på diagrammet, och det gyllene korset fladdrar till och med bort. CoinDesk konstaterar att bitcoin backar sedan ännu ett gyllene kors inte levererat, och att historiken pekar på att mycket av uppgången ofta sker innan signalen uppstår. Det gyllene korset kan ändå stödja den längre utsikten.",
-      "synthes": "Båda källorna är eniga om att signalen försvagats, men Decrypt betonar räntemarknadens roll medan CoinDesk fokuserar på det historiska mönstret.",
-      "leadSource": "Decrypt",
-      "publishedAt": "2026-09-11T20:53:39.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/crypto-trading-decrypt-style-02-gID_7.png",
-      "readMinutes": 1,
-      "sourceCount": 2,
-      "singleSource": false,
-      "enriched": false,
-      "sources": [
-        {
-          "source": "Decrypt",
-          "title": "Bitcoin Golden Cross Flickers Off as Rate-Hike Bets Firm Up",
-          "link": "https://decrypt.co/378081/bitcoin-golden-cross-flickers-off"
-        },
-        {
-          "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-          "title": "Bitcoin pulls back as another golden cross fails to deliver",
-          "link": "https://www.coindesk.com/markets/2026/09/11/bitcoin-pulls-back-as-another-golden-cross-fails-to-deliver"
-        }
-      ]
-    },
-    {
       "id": "feed-congress-SG91dGhpcyBzZWl6ZSBrZXkg",
       "sphere": "congress",
       "kategori": "GEOPOLITIK",
       "rubrik": "Huthirörelsen kontrollerar Bab el-Mandab",
-      "sammanfattning": "Den iranstödda huthirörelsen i Jemen har genom en blixtoffensiv tagit kontroll över strategiskt avgörande öar i Röda havet och hela Jemens rödahavskust, enligt källor till internationella nyhetsbyråer. Därmed kontrollerar rörelsen Bab el-Mandab, sundet som är avgörande för världshandeln. Huthierna har också tagit den strategiskt viktiga hamnstaden Mocka vid Röda havet. FN:s särskilda sändebud för Jemen, svenske Hans Grundberg, kräver att rebellerna stoppar sina attacker.",
-      "synthes": "SVT:s tre artiklar beskriver samma händelseutveckling ur olika vinklar och motsäger inte varandra.",
+      "sammanfattning": "Den iranstödda huthirörelsen i Jemen har genom en snabb offensiv tagit kontroll över strategiskt viktiga öar i Röda havet och hela Jemens rödahavskust. Därmed kontrollerar rörelsen Bab el-Mandab, sundet som är centralt för världshandeln. Huthirebellerna har också tagit hamnstaden Mocka, och FN:s särskilda sändebud för Jemen, svenske Hans Grundberg, kräver att attackerna upphör.",
+      "synthes": "Källorna är eniga om händelseförloppet.",
       "leadSource": "Utrikes | SVT Nyheter",
       "publishedAt": "2026-09-11T15:35:20.000Z",
-      "image": null,
       "readMinutes": 1,
       "sourceCount": 1,
       "singleSource": true,
@@ -611,11 +563,10 @@
       "sphere": "congress",
       "kategori": "POLITIK",
       "rubrik": "Representanthuset röstar om datacenterkostnader",
-      "sammanfattning": "Representanthuset väntas rösta på tisdag om ett lagförslag som ska skydda konsumenter från elkostnader kopplade till datacenter. Fler utsatta republikanska ledamöter har nu ställt sig bakom förslaget. Enligt Congress har partiledningen valt att gå vidare med omröstningen på grund av politisk press att hantera frågan före mellanårsvalet.",
-      "synthes": "De två artiklarna från samma källa kompletterar varandra och motsäger inte varandra.",
+      "sammanfattning": "Representanthuset väntas rösta om ett lagförslag som ska skydda konsumenter från elkostnader kopplade till datacenter. Fler utsatta republikaner har nu ställt sig bakom förslaget. Republikanska ledare har valt att gå vidare med omröstningen under politisk press att hantera frågan före mellanårsvalet.",
+      "synthes": "Källorna är eniga om att en omröstning planeras.",
       "leadSource": "Congress",
       "publishedAt": "2026-09-11T15:33:18.000Z",
-      "image": "https://static.politico.com/ed/90/0c8b97364bbea5f8889b89d4a0b2/u-s-congress-978-9.jpg",
       "readMinutes": 1,
       "sourceCount": 1,
       "singleSource": true,
@@ -634,69 +585,14 @@
       ]
     },
     {
-      "id": "feed-congress-Rm9ybWVyIEhvdXNlIG1lbWJl",
-      "sphere": "congress",
-      "kategori": "POLITIK",
-      "rubrik": "Tidigare kongressledamöter minns 11 september",
-      "sammanfattning": "Tidigare kongressledamöter samlades vid Capitol för en ceremoni med Association of Former Members of Congress för att uppmärksamma 25-årsdagen av terrorattackerna den 11 september. Bland deltagarna fanns de tidigare ledamöterna Tim Roemer, Jane Harman och Charlie Dent. Harman berättade hur hon för 25 år sedan stod utanför Capitol tillsammans med kollegor utan att veta vad som väntade efter attackerna mot Pentagon och World Trade Center, och hon hedrade offren ombord på United Airlines Flight 93.",
-      "synthes": "De två artiklarna från samma källa skildrar samma ceremoni ur olika perspektiv och motsäger inte varandra.",
-      "leadSource": "Roll Call",
-      "publishedAt": "2026-09-11T17:02:23.000Z",
-      "image": "https://rollcall.com/app/uploads/2026/09/9_11_hill_097_091126.jpg",
-      "readMinutes": 1,
-      "sourceCount": 1,
-      "singleSource": true,
-      "enriched": false,
-      "sources": [
-        {
-          "source": "Roll Call",
-          "title": "Capitol Lens &#124; Pipes of peace",
-          "link": "https://rollcall.com/2026/09/11/capitol-lens-pipes-of-peace/"
-        },
-        {
-          "source": "Roll Call",
-          "title": "Former House members reflect on 25th anniversary of Sept. 11 attacks",
-          "link": "https://rollcall.com/2026/09/11/former-house-members-reflect-on-25th-anniversary-of-sept-11-attacks/"
-        }
-      ]
-    },
-    {
-      "id": "feed-congress-RmV0dGVybWFuJ3MgR09QIGNv",
-      "sphere": "congress",
-      "kategori": "POLITIK",
-      "rubrik": "Fettermans framträdande på GOP-konventet väcker frågor",
-      "sammanfattning": "Senator John Fetterman uppträdde oväntat via video på Republikanernas mellanårskonvent i Dallas, vilket väcker irritation bland demokrater i Washington som redan är frustrerade över hans täta framträdanden i Fox News och hans kritik av demokratiska socialister. Enligt politiska strateger skulle hans låga stöd bland demokratiska väljare i Pennsylvania redan ha gjort honom sårbar. Fetterman har samtidigt skickat ut en fundraising-text som bygger på framträdandet och lyfter fram hans samarbete med den republikanske senatorn Dave McCormick.",
-      "synthes": "De två artiklarna från samma källa belyser samma händelse från olika håll och motsäger inte varandra.",
-      "leadSource": "Senate News",
-      "publishedAt": "2026-09-11T10:00:00.000Z",
-      "image": "https://thehill.com/wp-content/uploads/sites/2/2026/09/Fetterman_091126_Bolton_Getty_Kevin-Dietsch.jpg?w=900",
-      "readMinutes": 1,
-      "sourceCount": 1,
-      "singleSource": true,
-      "enriched": false,
-      "sources": [
-        {
-          "source": "Senate News",
-          "title": "Fetterman’s GOP convention appearance raises questions about his political future",
-          "link": "https://thehill.com/homenews/senate/6083365-fetterman-gop-convention-video-pennsylvania/"
-        },
-        {
-          "source": "Senate News",
-          "title": "Fetterman fundraising off GOP midterm convention appearance",
-          "link": "https://thehill.com/homenews/senate/6082917-fetterman-fundraising-gop-convention/"
-        }
-      ]
-    },
-    {
       "id": "feed-congress-VHJ1bXAgdGFyaWZmIHdhciB3",
       "sphere": "congress",
       "kategori": "EKONOMI",
-      "rubrik": "Handelskriget med Kanada oroar väljare i Wichita och Michigan",
-      "sammanfattning": "Wichitas borgmästare Lily Wu kommenterar Donald Trumps hot mot Bombardier och hur handelskriget med Kanada kan påverka staden, som kallas världens flyghuvudstad. I Michigan förbereder sig väljare i vågmästarlägen på högre priser till följd av tullkonflikten med Kanada. Enligt NPR väcker handelskonflikten missnöje bland väljare inför årets mellanårsval.",
-      "synthes": "De två inslagen från samma källa belyser samma handelskonflikt ur olika lokala perspektiv och motsäger inte varandra.",
+      "rubrik": "Handelskonflikten med Kanada oroar lokala väljare",
+      "sammanfattning": "Wichitas borgmästare Lily Wu kommenterar Trumps tullhot mot kanadensiska Bombardier och vad handelskonflikten kan betyda för staden. I Michigan förbereder sig väljare i vågmästarlägen på högre priser till följd av tullkonflikten med Kanada inför mellanårsvalet.",
+      "synthes": "Källorna belyser samma handelskonflikt ur två olika lokala perspektiv.",
       "leadSource": "NPR Topics: Politics",
       "publishedAt": "2026-09-11T20:34:45.000Z",
-      "image": null,
       "readMinutes": 1,
       "sourceCount": 1,
       "singleSource": true,
@@ -719,11 +615,10 @@
       "sphere": "congress",
       "kategori": "POLITIK",
       "rubrik": "Representanthuset röstar om Rysslandssanktioner",
-      "sammanfattning": "Representanthuset har satt upp en omröstning om ett sanktionslagförslag mot Ryssland som redan passerat senaten. Förslaget väntas möta motstånd i representanthuset, där många demokrater oroar sig för att det skulle ge Vita huset för stor befogenhet att besluta om tullar.",
-      "synthes": "Endast en källa rapporterar detta, varför uppgifterna inte kan stämmas av mot andra.",
+      "sammanfattning": "Representanthuset ska rösta om ett sanktionspaket mot Ryssland som redan passerat senaten. Förslaget möter motstånd i representanthuset, där många demokrater oroar sig för att det skulle ge Vita huset för stora befogenheter på tullområdet.",
+      "synthes": "",
       "leadSource": "Congress",
       "publishedAt": "2026-09-11T16:37:18.000Z",
-      "image": "https://static.politico.com/4e/16/0bfbe7fb4e4db21bc14f1b642801/congress-zelenskyy-47198.jpg",
       "readMinutes": 1,
       "sourceCount": 1,
       "singleSource": true,
@@ -737,15 +632,82 @@
       ]
     },
     {
+      "id": "feed-crypto-Qml0Y29pbiBFVEYgb3V0Zmxv",
+      "sphere": "crypto",
+      "kategori": "MARKNAD",
+      "rubrik": "Utflöden från bitcoin-ETF:er tilltar",
+      "sammanfattning": "Investerare tog ut 449 miljoner dollar från bitcoin-ETF:er under tre dagar. ARK 21Shares stod för 164 miljoner dollar av uttagen i torsdags. Även fonder kopplade till ether och solana hade nettoutflöden.",
+      "synthes": "",
+      "leadSource": "Cointelegraph.com News",
+      "publishedAt": "2026-09-11T12:33:38.000Z",
+      "readMinutes": 1,
+      "sourceCount": 1,
+      "singleSource": true,
+      "enriched": false,
+      "sources": [
+        {
+          "source": "Cointelegraph.com News",
+          "title": "Bitcoin ETF outflows accelerate as investors pull $449M in three days",
+          "link": "https://cointelegraph.com/markets/bitcoin-etfs-282m-biggest-outflow-july?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ]
+    },
+    {
+      "id": "feed-crypto-TWFya2V0cyBicmFjZSBmb3Ig",
+      "sphere": "crypto",
+      "kategori": "MARKNAD",
+      "rubrik": "Marknaden väntar på besked från Fed",
+      "sammanfattning": "En räntehöjning från Federal Reserve anses i stort sett säker, och handlare kan komma att bortse från själva höjningen för att i stället väga in vad högre räntor signalerar om ekonomin.",
+      "synthes": "",
+      "leadSource": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "publishedAt": "2026-09-11T15:45:56.000Z",
+      "readMinutes": 1,
+      "sourceCount": 1,
+      "singleSource": true,
+      "enriched": false,
+      "sources": [
+        {
+          "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+          "title": "With Fed rate hike all but assured, here's how markets might react",
+          "link": "https://www.coindesk.com/markets/2026/09/11/hotter-cpi-complicates-fed-hold-as-warsh-s-preferred-inflation-gauge-tells-different-story"
+        }
+      ]
+    },
+    {
+      "id": "feed-congress-Rm9ybWVyIEhvdXNlIG1lbWJl",
+      "sphere": "congress",
+      "kategori": "POLITIK",
+      "rubrik": "Tidigare kongressledamöter hedrade offren för 11 september",
+      "sammanfattning": "Tidigare kongressledamöter samlades vid Capitol för en ceremoni med Association of Former Members of Congress för att uppmärksamma 25-årsdagen av 11 september-attackerna. Bland deltagarna fanns Jane Harman, Tim Roemer och Charlie Dent. Harman mindes hur hon och kollegor samlats utanför Capitol för 25 år sedan och hedrade offren ombord på United Airlines Flight 93.",
+      "synthes": "",
+      "leadSource": "Roll Call",
+      "publishedAt": "2026-09-11T17:02:23.000Z",
+      "readMinutes": 1,
+      "sourceCount": 1,
+      "singleSource": true,
+      "enriched": false,
+      "sources": [
+        {
+          "source": "Roll Call",
+          "title": "Capitol Lens &#124; Pipes of peace",
+          "link": "https://rollcall.com/2026/09/11/capitol-lens-pipes-of-peace/"
+        },
+        {
+          "source": "Roll Call",
+          "title": "Former House members reflect on 25th anniversary of Sept. 11 attacks",
+          "link": "https://rollcall.com/2026/09/11/former-house-members-reflect-on-25th-anniversary-of-sept-11-attacks/"
+        }
+      ]
+    },
+    {
       "id": "feed-congress-RGVtb2NyYXRzIHJldmFtcCBt",
       "sphere": "congress",
       "kategori": "POLITIK",
-      "rubrik": "Demokraterna ändrar strategi mot republikansk anti-trans-retorik",
-      "sammanfattning": "Demokratiska strateger anser att partiet behöver en ny ansats inför mellanårsvalet, i ljuset av en ny våg av anti-trans-budskap från republikanskt håll. Enligt Congress behövs ett förnyat tillvägagångssätt för att möta denna kommunikation.",
-      "synthes": "Endast en källa rapporterar detta, varför uppgifterna inte kan stämmas av mot andra.",
+      "rubrik": "Demokraterna ändrar strategi mot anti-transbudskap",
+      "sammanfattning": "Demokratiska strateger anser att partiet behöver ett nytt grepp inför en våg av anti-transbudskap från republikanskt håll inför mellanårsvalet.",
+      "synthes": "",
       "leadSource": "Congress",
       "publishedAt": "2026-09-11T09:00:00.000Z",
-      "image": "https://static.politico.com/fa/49/84a708c74fe0ae3c99524e8fee91/election-2-26-texas-43186.jpg",
       "readMinutes": 1,
       "sourceCount": 1,
       "singleSource": true,
@@ -762,12 +724,11 @@
       "id": "feed-congress-UmFuZCBQYXVsIHByaXZhdGUg",
       "sphere": "congress",
       "kategori": "POLITIK",
-      "rubrik": "Rand Paul reser med privatjet på skattebetalarnas bekostnad",
-      "sammanfattning": "Senator Rand Paul och hans personal reser med privatjet finansierad av skattemedel samtidigt som han förespråkar återhållsamhet i de offentliga utgifterna. Enligt Congress är utgiften varken olaglig eller strider mot senatens regler, men den väcker frågor om varför charterflygen var nödvändiga för officiella uppdrag.",
-      "synthes": "Endast en källa rapporterar detta, varför uppgifterna inte kan stämmas av mot andra.",
+      "rubrik": "Rand Pauls privata flygresor ifrågasätts",
+      "sammanfattning": "Senator Rand Paul och hans personal har rest med privatjet på skattebetalarnas bekostnad samtidigt som han förespråkar återhållsamhet i de offentliga utgifterna. Kostnaden är varken olaglig eller strider mot senatens regler, men väcker frågor om varför charterflygen var nödvändiga för officiella uppdrag.",
+      "synthes": "",
       "leadSource": "Congress",
       "publishedAt": "2026-09-11T08:45:00.000Z",
-      "image": "https://static.politico.com/08/ca/86c88edc46d595a0ac8b55615514/u-s-congress-837-1.jpg",
       "readMinutes": 1,
       "sourceCount": 1,
       "singleSource": true,
@@ -781,15 +742,14 @@
       ]
     },
     {
-      "id": "feed-congress-UmVwdWJsaWNhbnMgZGlzY3Vz",
+      "id": "feed-congress-UmVwdWJsaWNhbnMgcHJpdmF0",
       "sphere": "congress",
       "kategori": "POLITIK",
-      "rubrik": "Republikanernas interna oro inför senatsvalen",
-      "sammanfattning": "Republikaner som samlats i Dallas är oroade över läget i Georgia och North Carolina inför senatsvalen. Samtidigt ser de optimistiskt på Michigan. Enligt Congress diskuteras dessa bedömningar internt inom partiet under konventet.",
-      "synthes": "Endast en källa rapporterar detta, varför uppgifterna inte kan stämmas av mot andra.",
+      "rubrik": "Republikaner oroade över senatskartan",
+      "sammanfattning": "Republikaner som samlats i Dallas är oroade över läget i Georgia och North Carolina, medan de ser optimistiskt på Michigan inför mellanårsvalet.",
+      "synthes": "",
       "leadSource": "Congress",
       "publishedAt": "2026-09-11T00:22:12.000Z",
-      "image": "https://static.politico.com/62/a5/594d955a49a5b6d0cd3ed6a5f64c/091026-shm06911-rncdaytwo-48.jpg",
       "readMinutes": 1,
       "sourceCount": 1,
       "singleSource": true,
