@@ -4,9 +4,9 @@
   "status": "active",
   "_comment_status": "'active' so the nightly run carries this sphere in the feed alongside congress, crypto and world, exactly like any other. The pulse workflow owns it only inside its window below, and never consults status. There is no duplicate risk because the two never overlap: the nightly run fires at 02:00 and the pulse window is 12:00-23:00.",
 
-  "_comment_pulse": "Election day only. Two pulses an hour from noon to 23:00, then the sphere reverts to being an ordinary nightly sphere. The runner enforces this window itself, so a stray cron firing outside it costs one no-op job rather than an unwanted run.",
+  "_comment_pulse": "From 21:00 the evening before through 23:00 on election day - roughly 26 hours, two pulses an hour. The runner enforces this window itself, so a stray cron firing outside it costs one no-op job rather than an unwanted run. NOTE that the nightly run at 02:00 now falls INSIDE this window and rewrites docs/feed.json wholesale, so the pulse re-merges every entry it has ever published on each run. Without that, everything between 21:00 and 02:00 would vanish at 02:00.",
   "pulse": {
-    "from": "2026-09-13T12:00:00+02:00",
+    "from": "2026-09-12T21:00:00+02:00",
     "until": "2026-09-13T23:00:00+02:00",
     "sweepWindowHours": 3,
     "_comment_window": "Generous on purpose. Actions cron drifts and is sometimes skipped, so a tight window drops items after a delayed run. The overlap is absorbed by link-hash dedupe in the ledger - that dedupe is what makes a wide window safe, so do not narrow the window instead of trusting it."
