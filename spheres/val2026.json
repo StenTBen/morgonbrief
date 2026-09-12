@@ -1,0 +1,92 @@
+{
+  "id": "val2026",
+  "label": "Valet",
+  "status": "active",
+  "_comment_status": "'active' so the nightly run carries this sphere in the feed alongside congress, crypto and world, exactly like any other. The pulse workflow owns it only inside its window below, and never consults status. There is no duplicate risk because the two never overlap: the nightly run fires at 02:00 and the pulse window is 12:00-23:00.",
+
+  "_comment_pulse": "From 21:00 the evening before through 23:00 on election day - roughly 26 hours, two pulses an hour. The runner enforces this window itself, so a stray cron firing outside it costs one no-op job rather than an unwanted run. NOTE that the nightly run at 02:00 now falls INSIDE this window and rewrites docs/feed.json wholesale, so the pulse re-merges every entry it has ever published on each run. Without that, everything between 21:00 and 02:00 would vanish at 02:00.",
+  "pulse": {
+    "from": "2026-09-12T21:00:00+02:00",
+    "until": "2026-09-13T23:00:00+02:00",
+    "sweepWindowHours": 3,
+    "_comment_window": "Generous on purpose. Actions cron drifts and is sometimes skipped, so a tight window drops items after a delayed run. The overlap is absorbed by link-hash dedupe in the ledger - that dedupe is what makes a wide window safe, so do not narrow the window instead of trusting it."
+  },
+
+  "_comment_feeds": "Wide on purpose. Public service, broadsheets, tabloids, business press, regional papers, and analysis and opinion outlets across the spectrum - the last group because a claim that only the partisan press is carrying is itself a finding, and you cannot see that if you only sweep the centre. NONE of these URLs has been tested. Verify before the first pulse: a dead feed here under-counts circulation, which pushes pattern counts toward the gates. It does not merely lose stories, it invents them.",
+  "feeds": [
+    "https://www.svt.se/nyheter/rss.xml",
+    "https://www.svt.se/nyheter/inrikes/rss.xml",
+    "https://api.sr.se/api/rss/program/83",
+    "https://api.sr.se/api/rss/program/1650",
+    "https://www.dn.se/rss/",
+    "https://www.svd.se/feed/articles.rss",
+    "https://rss.aftonbladet.se/rss2/small/pages/sections/senastenytt/",
+    "https://feeds.expressen.se/nyheter/",
+    "https://www.di.se/rss",
+    "https://www.gp.se/rss",
+    "https://www.sydsvenskan.se/rss.xml",
+    "https://www.hd.se/rss.xml",
+    "https://www.vk.se/rss",
+    "https://www.nsd.se/rss",
+    "https://www.barometern.se/rss",
+    "https://www.altinget.se/rss",
+    "https://www.dagenssamhalle.se/rss",
+    "https://kvartal.se/feed/",
+    "https://www.etc.se/rss.xml",
+    "https://www.dagensarena.se/feed/",
+    "https://timbro.se/feed/",
+    "https://www.arenaide.se/feed/",
+    "https://www.fokus.se/feed/",
+    "https://www.omni.se/rss",
+    "https://www.tv4.se/rss",
+    "https://feeds.bbci.co.uk/news/world/europe/rss.xml",
+    "https://www.politico.eu/feed/",
+    "https://www.euractiv.com/feed/"
+  ],
+
+  "_comment_provenance": "Three tiers, because this sphere reads rumours deliberately. verified = the text cites a primary document. reported = a named outlet asserts it under its own byline. circulating = an unconfirmed claim in circulation.",
+  "rumourRules": {
+    "circulatingRequiresAnchor": 1,
+    "transitionMinOutlets": 2,
+    "_comment": "A circulating item is described AS circulation - that the claim spread and was not confirmed - never restated as content, and it may never carry an entry alone. The one exception: when a circulating claim crosses into editorial pickup by two or more independent outlets, the crossing is the story rather than the claim."
+  },
+
+  "_comment_scoring": "Same discipline as everywhere else: the model reports observations, arithmetic decides. What differs is WHAT is counted. Congress counts cosponsors; world counts international outlets minus Swedish coverage. On election night everything is covered, so coverage volume stops discriminating - frequency across runs replaces it, which is the only reason the 30-minute cadence buys anything.",
+  "_comment_gates": "These rank rather than admit. Karl wants 1-2 entries an hour, so a hard publish/discard threshold would simply produce nothing on a slow hour. Instead every candidate gets the strongest label its counts earn, the best one is published, and the label travels with the entry so a thin hour reads as thin instead of being dressed up. That is the honest half of what the old hard gate was protecting.",
+  "patternGates": {
+    "ledgerWindowHours": 48,
+    "levels": [
+      { "label": "stark",  "clusters": 3, "runs": 2, "sources": 4 },
+      { "label": "medel",  "clusters": 2, "runs": 1, "sources": 3 },
+      { "label": "tunn",   "clusters": 1, "runs": 1, "sources": 2 }
+    ]
+  },
+
+  "_comment_output": "Two pulses an hour times one entry each is the top of the 1-2 range. Raise publishPerPulse to 2 only if the feed feels thin - it will mostly mean publishing weaker patterns, not finding more strong ones.",
+  "publishPerPulse": 1,
+  "_comment_episode": "How many of the day's published entries the nightly episode draws on. The pulse writes through the day; the episode stitches the most recent ones together rather than re-running the whole pipeline.",
+  "maxItemsPerEpisode": 3,
+  "maxObservedClusters": 99,
+  "observationBatchSize": 25,
+  "_comment_clusters": "Observations are batched, not sent one call per cluster. 99 clusters in a SINGLE call would overrun the output ceiling - that is the trap already recorded in STATUS, where asking the model to report on everything rather than only the gaps overflowed the cap. Batches of 25 give four observation calls plus one entry call per pulse, roughly 115 calls across the whole window.",
+
+  "limits": {
+    "maxCoverageItems": 300,
+    "articlesPerStory": 5,
+    "articleMaxChars": 12000,
+    "articleBodyCharsInPrompt": 9000,
+    "tokensObservation": 32000,
+    "tokensEntry": 16000
+  },
+
+  "_comment_script": "Rendered by scriptSystemPrompt() under 'RULES SPECIFIC TO ...', after config.segmentStructure. Written to sit alongside ANNOUNCE / GROUND / SUBSTANCE rather than replace it. This tier is read rather than spoken, so paragraphs are allowed.",
+  "scriptRules": [
+    "The subject is the pattern observed across sources, not the newest event. ANNOUNCE names the relation; GROUND gives the actors and what came before; SUBSTANCE is what reading the articles in full added beyond the headlines.",
+    "State what the coverage showed, then separately what the full text added. Never blend the two into one sentence.",
+    "Attribute every cause-effect claim to whoever asserted it. Never assert a link in your own voice.",
+    "A claim still only circulating is named as unconfirmed and described as circulation. Never restate it as fact, and never build a paragraph on it alone.",
+    "When the evidence is thin, say so in the text rather than writing around it. An honest sentence that this rests on two outlets is worth more than a confident paragraph that hides it.",
+    "Poll numbers appear only when the subject is methodology or a measured change over time. Never as standings.",
+    "Write in Swedish, plainly. No headings, no bullet points."
+  ]
+}
