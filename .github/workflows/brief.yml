@@ -16,7 +16,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 150
 
     steps:
       - uses: actions/checkout@v4
@@ -53,4 +53,4 @@ jobs:
           git add docs/feed.json docs/seen.json
           # Nothing to commit is a normal outcome, not a failure.
           git diff --staged --quiet || git commit -m "Brief for $(date -u +%Y-%m-%d)"
-          git push
+          git pull --rebase --autostash git push
