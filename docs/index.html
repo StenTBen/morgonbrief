@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0B0D0C">
+<title>Morgonbrief</title>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ground: #0B0D0C;
+    --raised: #141817;
+    --ink: #F2F4F3;
+    --muted: #8B948F;
+    --dim: #5C645F;
+    --rule: #232825;
+    --accent: #4ADE80;
+    --accent-dim: #2E7D50;
+    --warn: #C8A24B;
+    --sans: 'Inter', system-ui, sans-serif;
+    --mono: 'JetBrains Mono', ui-monospace, monospace;
+    --dock-h: 84px;
+  }
+
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 40rem;
+    margin-inline: auto;
+    padding: 0 22px calc(var(--dock-h) + env(safe-area-inset-bottom) + 28px);
+  }
+
+  /* ---------- masthead ---------- */
+  .masthead { padding: max(18px, env(safe-area-inset-top)) 0 0; }
+  .wordmark {
+    font-family: var(--mono);
+    font-size: 1.02rem;
+    font-weight: 500;
+    letter-spacing: .22em;
+    margin: 0;
+  }
+  .nav {
+    font-family: var(--mono);
+    font-size: .68rem;
+    letter-spacing: .16em;
+    color: var(--dim);
+    margin: 7px 0 30px;
+  }
+  .nav span { margin-right: 4px; }
+
+  .dateline {
+    font-family: var(--mono);
+    font-size: .7rem;
+    letter-spacing: .13em;
+    color: var(--muted);
+    margin-bottom: 14px;
+  }
+  .lede {
+    font-size: 2.05rem;
+    font-weight: 800;
+    line-height: 1.12;
+    letter-spacing: -.021em;
+    margin: 0 0 16px;
+  }
+  .standfirst { color: var(--muted); font-size: .95rem; margin: 0 0 30px; max-width: 30rem; }
+  .hairline { width: 46px; height: 2px; background: var(--accent); margin-bottom: 32px; }
+
+  /* ---------- entries ---------- */
+  .entry {
+    display: grid;
+    grid-template-columns: 1fr 104px;
+    gap: 16px;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .entry.no-image { grid-template-columns: 1fr; }
+
+  .kicker {
+    font-family: var(--mono);
+    font-size: .66rem;
+    font-weight: 500;
+    letter-spacing: .15em;
+    color: var(--accent);
+    margin: 0 0 7px;
+  }
+  .entry h2 {
+    font-size: 1.22rem;
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: -.014em;
+    margin: 0 0 8px;
+  }
+  .dek { color: var(--muted); font-size: .93rem; margin: 0 0 10px; }
+  .synthes { color: var(--accent-dim); font-size: .87rem; margin: 0 0 10px; }
+
+  .meta {
+    font-family: var(--mono);
+    font-size: .64rem;
+    letter-spacing: .1em;
+    color: var(--dim);
+    text-transform: uppercase;
+  }
+  .meta .flag { color: var(--warn); }
+
+  .thumb {
+    width: 104px; height: 104px;
+    border-radius: 6px;
+    object-fit: cover;
+    background: var(--raised);
+    align-self: start;
+  }
+
+  details.sources { margin-top: 12px; }
+  details.sources summary {
+    font-family: var(--mono);
+    font-size: .64rem;
+    letter-spacing: .1em;
+    color: var(--dim);
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  details.sources ul { list-style: none; padding: 0; margin: 10px 0 0; }
+  details.sources li { margin-bottom: 6px; font-size: .84rem; }
+  details.sources a { color: var(--muted); text-decoration-color: var(--rule); text-underline-offset: 3px; }
+
+  .actions { display: flex; gap: 7px; margin-top: 13px; flex-wrap: wrap; }
+  .actions button {
+    font-family: var(--mono);
+    font-size: .63rem;
+    letter-spacing: .07em;
+    padding: 6px 11px;
+    border-radius: 100px;
+    border: 1px solid var(--rule);
+    background: transparent;
+    color: var(--dim);
+    cursor: pointer;
+    transition: all 130ms ease;
+  }
+  .actions button[data-chosen="true"] {
+    color: var(--ground);
+    background: var(--accent);
+    border-color: var(--accent);
+    font-weight: 500;
+  }
+
+  /* ---------- docked player ---------- */
+  .dock {
+    position: fixed;
+    left: 0; right: 0;
+    bottom: 0;
+    z-index: 20;
+    background: color-mix(in srgb, var(--raised) 94%, transparent);
+    backdrop-filter: blur(16px);
+    border-top: 1px solid var(--rule);
+    padding: 11px 16px calc(11px + env(safe-area-inset-bottom));
+  }
+  .dock-inner {
+    max-width: 40rem;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+  }
+  .dock-art {
+    width: 42px; height: 42px; flex: none;
+    border-radius: 8px;
+    background: var(--accent-dim);
+    display: grid; place-items: center;
+  }
+  .dock-art img { width: 26px; height: 26px; }
+  .dock-text { flex: 1; min-width: 0; }
+  .dock-title {
+    font-size: .86rem; font-weight: 600; margin: 0;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .dock-sub { font-size: .74rem; color: var(--dim); }
+
+  .ctrl {
+    border: none; background: transparent; color: var(--ink);
+    font-family: var(--mono); font-size: .64rem;
+    cursor: pointer; padding: 6px; flex: none;
+    display: grid; place-items: center;
+  }
+  .ctrl:disabled { opacity: .3; }
+  .ctrl svg { width: 21px; height: 21px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+
+  #play {
+    width: 42px; height: 42px; flex: none;
+    border-radius: 50%;
+    border: none;
+    background: var(--accent);
+    color: var(--ground);
+    cursor: pointer;
+    display: grid; place-items: center;
+  }
+  #play:disabled { opacity: .35; }
+  #play svg { width: 17px; height: 17px; fill: currentColor; stroke: none; }
+
+  .times { font-family: var(--mono); font-size: .66rem; color: var(--dim); flex: none; font-variant-numeric: tabular-nums; }
+
+  .scrub { height: 2px; background: var(--rule); margin-top: 10px; border-radius: 2px; overflow: hidden; }
+  .scrub-fill { height: 100%; background: var(--accent); width: 0; }
+
+  .tracks { display: flex; gap: 6px; margin-top: 9px; overflow-x: auto; }
+  .track {
+    font-family: var(--mono); font-size: .62rem; letter-spacing: .08em;
+    padding: 4px 10px; border-radius: 100px; white-space: nowrap;
+    border: 1px solid var(--rule); background: transparent; color: var(--dim); cursor: pointer;
+  }
+  .track[aria-current="true"] { color: var(--accent); border-color: var(--accent-dim); }
+
+  .notice { color: var(--muted); font-size: .92rem; line-height: 1.6; }
+  .section-label {
+    font-family: var(--mono); font-size: .66rem; letter-spacing: .15em;
+    color: var(--dim); text-transform: uppercase;
+    margin: 36px 0 20px; padding-top: 22px; border-top: 1px solid var(--rule);
+  }
+
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="masthead">
+    <h1 class="wordmark">MORGONBRIEF</h1>
+    <p class="nav"><span>NYHETER</span>/<span>ANALYS</span>/<span>FÖRDJUPNING</span></p>
+    <p class="dateline" id="dateline">—</p>
+    <h2 class="lede">Din morgon.<br>Världens sammanfattning.</h2>
+    <p class="standfirst">Dagens viktigaste ur dina bevakningsområden, omskrivet och sammanvägt från flera källor.</p>
+    <div class="hairline"></div>
+  </header>
+  <main id="app"><p class="notice">Hämtar dagens flöde…</p></main>
+</div>
+
+<div class="dock">
+  <div class="dock-inner">
+    <div class="dock-art"><img src="icon-192.png" alt=""></div>
+    <div class="dock-text">
+      <p class="dock-title" id="dockTitle">Laddar…</p>
+      <span class="dock-sub" id="dockSub">Dagens avsnitt</span>
+    </div>
+    <button class="ctrl" id="back15" aria-label="Backa 15 sekunder" disabled>
+      <svg viewBox="0 0 24 24"><path d="M11 7 7 11l4 4"/><path d="M7 11h7a4 4 0 0 1 0 8h-3"/></svg>
+    </button>
+    <button id="play" aria-label="Spela" disabled>
+      <svg viewBox="0 0 24 24" id="playIcon"><path d="M7 4l13 8-13 8z"/></svg>
+    </button>
+    <button class="ctrl" id="fwd30" aria-label="Hoppa 30 sekunder" disabled>
+      <svg viewBox="0 0 24 24"><path d="m13 7 4 4-4 4"/><path d="M17 11h-7a4 4 0 0 0 0 8h3"/></svg>
+    </button>
+    <span class="times" id="times">0:00</span>
+  </div>
+  <div class="dock-inner" style="display:block"><div class="scrub"><div class="scrub-fill" id="scrub"></div></div></div>
+  <div class="dock-inner" style="display:block"><div class="tracks" id="tracks"></div></div>
+</div>
+
+<audio id="audio" preload="none"></audio>
+
+<script type="module">
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js';
+import { getAuth, signInAnonymously } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js';
+import { getFirestore, collection, addDoc, serverTimestamp }
+  from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js';
+
+const firebaseConfig = {
+  apiKey: "AIzaSyBDQ__uXZ6t-cBP2T4DoxUKtrZacARu5YM",
+  authDomain: "morgonbrief-78d31.firebaseapp.com",
+  projectId: "morgonbrief-78d31",
+  storageBucket: "morgonbrief-78d31.firebasestorage.app",
+  messagingSenderId: "622096427515",
+  appId: "1:622096427515:web:3d834f02d6ea6e0e50835e"
+};
+
+const db = getFirestore(initializeApp(firebaseConfig));
+signInAnonymously(getAuth()).catch(() => {}); // feedback is best-effort, never blocks reading
+
+const $ = (id) => document.getElementById(id);
+const app = $('app'), audio = $('audio'), playBtn = $('play');
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;' }[c]));
+const clock = (s) => isFinite(s) ? `${Math.floor(s/60)}:${String(Math.floor(s%60)).padStart(2,'0')}` : '0:00';
+
+/* Votes are remembered on the device. Firestore is write-only by design (the
+   rules forbid reading it back), so without this the buttons forget every
+   choice the moment the app closes - which is exactly what happened. */
+const VOTES = 'morgonbrief.votes';
+const loadVotes = () => { try { return JSON.parse(localStorage.getItem(VOTES) ?? '{}'); } catch { return {}; } };
+const saveVote = (id, vote) => {
+  try {
+    const all = loadVotes();
+    if (all[id] === vote) delete all[id]; else all[id] = vote; // tapping again clears it
+    localStorage.setItem(VOTES, JSON.stringify(all));
+    return all[id] ?? null;
+  } catch { return vote; }
+};
+
+let episodes = [], current = 0;
+load();
+
+async function load() {
+  try {
+    const res = await fetch('feed.json', { cache: 'no-cache' });
+    if (!res.ok) throw new Error(String(res.status));
+    render(await res.json());
+  } catch {
+    app.innerHTML = `<p class="notice">Kunde inte hämta flödet, och inget finns sparat offline än. Öppna appen en gång med täckning.</p>`;
+  }
+}
+
+function render(data) {
+  const d = new Date(data.date + 'T00:00:00');
+  $('dateline').textContent =
+    d.toLocaleDateString('sv-SE', { day: 'numeric', month: 'short', year: 'numeric' }).toUpperCase()
+    + ' · ' + d.toLocaleDateString('sv-SE', { weekday: 'long' }).toUpperCase();
+
+  episodes = (data.episodes ?? []).filter((e) => e.audioUrl);
+  buildPlaylist();
+
+  const feed = data.feed ?? [];
+  const deep = (data.episodes ?? []).flatMap((e) => (e.items ?? []).map((i) => ({ ...i, sphere: e.sphere, kategori: e.sphereLabel })));
+
+  app.innerHTML =
+    (feed.length ? feed.map(entry).join('') : `<p class="notice">Inga poster i flödet idag.</p>`) +
+    (deep.length
+      ? `<p class="section-label">Fördjupat i dagens avsnitt</p>` + deep.map((i) => entry(i, true)).join('')
+      : `<p class="section-label">Inget klarade tröskeln för fördjupning idag</p>`);
+
+  wireFeedback(data.date);
+}
+
+function entry(item, isDeep = false) {
+  const votes = loadVotes();
+  const chosen = votes[item.id] ?? null;
+  const when = item.publishedAt
+    ? new Date(item.publishedAt).toLocaleDateString('sv-SE', { day: 'numeric', month: 'short' }).toUpperCase()
+    : '';
+  const meta = [
+    esc(item.leadSource ?? ''),
+    when,
+    item.readMinutes ? `${item.readMinutes} MIN` : ''
+  ].filter(Boolean).join(' · ');
+
+  const flags = [
+    item.singleSource ? '<span class="flag">EN KÄLLA</span>' : '',
+    (!isDeep && item.enriched === false) ? '<span class="flag">ENDAST INGRESS</span>' : ''
+  ].filter(Boolean).join(' · ');
+
+  const body = `
+    <div>
+      <p class="kicker">${esc(item.kategori || item.sphere || '')}</p>
+      <h2>${esc(item.rubrik)}</h2>
+      <p class="dek">${esc(item.sammanfattning)}</p>
+      ${item.synthes ? `<p class="synthes">${esc(item.synthes)}</p>` : ''}
+      ${item.varfor ? `<p class="synthes">${esc(item.varfor)}</p>` : ''}
+      <p class="meta">${meta}${meta && flags ? ' · ' : ''}${flags}</p>
+      <details class="sources">
+        <summary>Källor (${(item.sources ?? item.coverage ?? []).length + (item.documentUrl ? 1 : 0)})</summary>
+        <ul>
+          ${item.documentUrl ? `<li><a href="${esc(item.documentUrl)}" target="_blank" rel="noopener">Primärkällan</a></li>` : ''}
+          ${(item.sources ?? item.coverage ?? []).map((s) =>
+            `<li><a href="${esc(s.link)}" target="_blank" rel="noopener">${esc(s.title)}</a> — ${esc(s.source)}</li>`
+          ).join('')}
+        </ul>
+      </details>
+      <div class="actions">
+        <button data-vote="up"     data-chosen="${chosen === 'up'}">Mer sånt här</button>
+        <button data-vote="down"   data-chosen="${chosen === 'down'}">Mindre</button>
+        <button data-vote="deeper" data-chosen="${chosen === 'deeper'}">Fördjupa</button>
+      </div>
+    </div>`;
+
+  return `
+    <article class="entry ${item.image ? '' : 'no-image'}" data-id="${esc(item.id)}" data-sphere="${esc(item.sphere ?? '')}">
+      ${body}
+      ${item.image ? `<img class="thumb" src="${esc(item.image)}" alt="" loading="lazy" onerror="this.remove();this.closest('.entry').classList.add('no-image')">` : ''}
+    </article>`;
+}
+
+/* ---- playlist ---- */
+function buildPlaylist() {
+  const tracks = $('tracks');
+  if (!episodes.length) { $('dockTitle').textContent = 'Inget avsnitt idag'; tracks.innerHTML = ''; return; }
+  tracks.innerHTML = episodes.length > 1
+    ? episodes.map((e, i) => `<button class="track" data-i="${i}" aria-current="${i === 0}">${esc(e.sphereLabel)}</button>`).join('')
+    : '';
+  for (const b of tracks.querySelectorAll('.track')) b.onclick = () => { select(+b.dataset.i); audio.play(); };
+  for (const id of ['play','back15','fwd30']) $(id).disabled = false;
+  select(0);
+}
+
+function select(i) {
+  current = i;
+  const ep = episodes[i];
+  audio.src = ep.audioUrl;
+  $('dockTitle').textContent = ep.sphereLabel;
+  $('dockSub').textContent = ep.itemCount ? `${ep.itemCount} fördjupat ämne${ep.itemCount === 1 ? '' : 'n'}` : 'Inget klarade tröskeln';
+  for (const b of $('tracks').querySelectorAll('.track')) b.setAttribute('aria-current', String(+b.dataset.i === i));
+  if ('mediaSession' in navigator) {
+    navigator.mediaSession.metadata = new MediaMetadata({
+      title: ep.sphereLabel, artist: 'Morgonbrief', album: 'Morgonbrief',
+      artwork: [{ src: 'icon-512.png', sizes: '512x512', type: 'image/png' }]
+    });
+  }
+}
+
+playBtn.onclick = () => audio.paused ? audio.play() : audio.pause();
+$('back15').onclick = () => { audio.currentTime = Math.max(0, audio.currentTime - 15); };
+$('fwd30').onclick  = () => { audio.currentTime = Math.min(audio.duration || 0, audio.currentTime + 30); };
+
+const PLAY = '<path d="M7 4l13 8-13 8z"/>';
+const PAUSE = '<path d="M8 5h3v14H8zM13 5h3v14h-3z"/>';
+audio.onplay  = () => { $('playIcon').innerHTML = PAUSE; playBtn.setAttribute('aria-label','Pausa'); };
+audio.onpause = () => { $('playIcon').innerHTML = PLAY;  playBtn.setAttribute('aria-label','Spela'); };
+audio.ontimeupdate = () => {
+  $('times').textContent = audio.duration ? `${clock(audio.currentTime)} / ${clock(audio.duration)}` : clock(audio.currentTime);
+  $('scrub').style.width = audio.duration ? `${(audio.currentTime / audio.duration) * 100}%` : '0';
+};
+audio.onended = () => { if (current + 1 < episodes.length) { select(current + 1); audio.play(); } };
+
+if ('mediaSession' in navigator) {
+  navigator.mediaSession.setActionHandler('play', () => audio.play());
+  navigator.mediaSession.setActionHandler('pause', () => audio.pause());
+  navigator.mediaSession.setActionHandler('seekbackward', () => { audio.currentTime -= 15; });
+  navigator.mediaSession.setActionHandler('seekforward', () => { audio.currentTime += 30; });
+  navigator.mediaSession.setActionHandler('nexttrack', () => { if (current + 1 < episodes.length) { select(current + 1); audio.play(); } });
+  navigator.mediaSession.setActionHandler('previoustrack', () => { if (current > 0) { select(current - 1); audio.play(); } });
+}
+
+function wireFeedback(date) {
+  for (const button of document.querySelectorAll('.actions button')) {
+    button.onclick = async () => {
+      const article = button.closest('.entry');
+      const id = article.dataset.id;
+      const now = saveVote(id, button.dataset.vote);
+      for (const sib of article.querySelectorAll('.actions button')) {
+        sib.dataset.chosen = String(sib.dataset.vote === now);
+      }
+      if (!now) return; // cleared
+      try {
+        await addDoc(collection(db, 'feedback'), {
+          date, sphere: article.dataset.sphere, itemId: id,
+          vote: button.dataset.vote, createdAt: serverTimestamp()
+        });
+      } catch { /* the local choice stands even if the write fails */ }
+    };
+  }
+}
+
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
+</script>
+</body>
+</html>
