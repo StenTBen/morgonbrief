@@ -1,10 +1,13 @@
 name: Election pulse (val2026)
 
-# Election day only: every 30 minutes from noon to 23:00 Swedish time on
-# 13 September. After that the sphere goes back to being an ordinary nightly
-# sphere carried by the Morgonbrief workflow alongside congress, crypto and
-# world. The two never overlap - this window ends at 23:00, the nightly run
-# fires at 02:00 - so there is no duplicate risk and nothing to switch over.
+# Every 30 minutes from 21:00 on 12 September to 23:00 on 13 September, Swedish
+# time. After that the sphere goes back to being an ordinary nightly sphere
+# carried by the Morgonbrief workflow alongside congress, crypto and world.
+#
+# The nightly run at 02:00 falls INSIDE this window and rewrites docs/feed.json
+# wholesale. The pulse therefore replays every entry it has published on each
+# run, so the 02:30 pulse restores whatever 02:00 removed. That is why the
+# nightly workflow needs no change.
 #
 # Separate from the daily workflow for two reasons. run.mjs has no sphere flag
 # and exits non-zero when nothing is produced, which is right for a daily brief
@@ -13,14 +16,17 @@ name: Election pulse (val2026)
 
 on:
   schedule:
-    # 12:00 through 23:30 on 13 September. The runner enforces the real window
-    # itself and exits cleanly after 23:00, so the trailing 23:30 slot is a
-    # no-op rather than an unwanted run.
+    # The window spans two calendar days, so it needs two entries: the evening
+    # of the 12th, then all of the 13th. The runner enforces the real window
+    # itself and exits cleanly after 23:00 on the 13th, so the trailing slots
+    # are no-ops rather than unwanted runs.
     #
     # Actions honours schedules loosely - runs are delayed under load and are
     # sometimes skipped entirely. The runner never assumes even spacing: it
     # sweeps a generous window and dedupes by link hash in the ledger.
-    - cron: '*/30 12-23 13 9 *'
+    - cron: '*/30 21-23 12 9 *'
+      timezone: 'Europe/Stockholm'
+    - cron: '*/30 * 13 9 *'
       timezone: 'Europe/Stockholm'
 
   workflow_dispatch:
@@ -90,3 +96,4 @@ jobs:
           git commit -m "val2026 pulse $(date -u +%Y-%m-%dT%H:%MZ)"
           git pull --rebase --autostash
           git push
+          
