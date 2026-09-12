@@ -1,12 +1,12 @@
 {
   "date": "2026-09-12",
-  "builtAt": "2026-09-12T09:44:35.677Z",
+  "builtAt": "2026-09-12T10:28:56.847Z",
   "episodes": [
     {
       "sphere": "congress",
       "sphereLabel": "US Congress",
       "audioUrl": "https://github.com/StenTBen/morgonbrief/releases/download/audio/pod-congress-2026-09-12.mp3",
-      "audioBytes": 58272,
+      "audioBytes": 50304,
       "itemCount": 0,
       "items": [],
       "script": "God morgon. Inget lagförslag klarade tröskeln idag. Bevakningen handlade om politik, inte om lagstiftning som rört sig, och då finns det ingenting i dokumenten att fördjupa. Vi hörs imorgon."
@@ -15,20 +15,128 @@
       "sphere": "crypto",
       "sphereLabel": "Crypto",
       "audioUrl": "https://github.com/StenTBen/morgonbrief/releases/download/audio/pod-crypto-2026-09-12.mp3",
-      "audioBytes": 38112,
+      "audioBytes": 46176,
       "itemCount": 0,
       "items": [],
       "script": "God morgon. Inget i crypto klarade tröskeln idag. Ingen governance-strid var het nog, och inga kedjor rörde sig utanför det normala. Vi hörs imorgon."
+    },
+    {
+      "sphere": "world",
+      "sphereLabel": "Världen",
+      "audioUrl": "https://github.com/StenTBen/morgonbrief/releases/download/audio/pod-world-2026-09-12.mp3",
+      "audioBytes": 2331264,
+      "itemCount": 1,
+      "items": [
+        {
+          "id": "world-QlJJQ1Mgc3VtbWl0IG9wZW5z",
+          "kategori": "HANDEL",
+          "rubrik": "BRICS-toppmöte i New Delhi präglas av krig och tullhot",
+          "sammanfattning": "BRICS håller sitt 18:e toppmöte i New Delhi den 12–13 september med elva medlemsländer representerade. Xi Jinping är på plats i Indien för första gången på sju år, medan Putin och Pezeshkian anlände redan i fredags för bilaterala samtal med Modi. På agendan står handel, energisäkerhet, AI-samarbete och gränsöverskridande betalningar. Samtidigt är splittringen stor: Iran och UAE står på motsatta sidor i kriget i Mellanöstern, och Indien och Kina har en olöst gränstvist.",
+          "varfor": "Toppmötet visar hur länder utanför västvärlden försöker bygga alternativ till dollarn och västdominerade betalningssystem, vilket på sikt kan försvaga USA:s finansiella maktmedel.",
+          "status": "Pågående – mötet avslutas den 13 september och ett gemensamt uttalande väntas bli svårt att enas om.",
+          "score": 60,
+          "reasons": [
+            "4 international outlets (+25)",
+            "No Swedish coverage found (+35)"
+          ],
+          "region": "Global",
+          "swedishCoverage": "none",
+          "leadSource": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+          "publishedAt": "2026-09-12T07:44:06.000Z",
+          "singleSource": false,
+          "enriched": true,
+          "sourceCount": 4,
+          "coverage": [
+            {
+              "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+              "title": "Trump may be BRICS’s best recruitment agent",
+              "link": "https://www.aljazeera.com/opinions/2026/9/12/trump-may-be-bricss-best-recruitment-agent?traffic_source=rss"
+            },
+            {
+              "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+              "title": "BRICS summit opens in New Delhi amid wars, global tensions, tariffs",
+              "link": "https://www.aljazeera.com/news/2026/9/12/brics-summit-opens-in-new-delhi-amid-wars-global-tensions-tariffs?traffic_source=rss"
+            },
+            {
+              "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+              "title": "BRICS meets in India: What’s on the agenda, why it matters",
+              "link": "https://www.aljazeera.com/news/2026/9/12/brics-meets-in-india-whats-on-the-agenda-why-it-matters?traffic_source=rss"
+            },
+            {
+              "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+              "title": "China’s Xi lands in India for BRICS summit overshadowed by wars",
+              "link": "https://www.aljazeera.com/news/2026/9/12/chinas-xi-heads-to-india-for-brics-summit-overshadowed-by-wars?traffic_source=rss"
+            },
+            {
+              "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+              "title": "Putin and Pezeshkian call out US dominance ahead of BRICS",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/12/putin-and-pezeshkian-call-out-us-dominance-ahead-of-brics?traffic_source=rss"
+            },
+            {
+              "source": "France 24 - International breaking news, top stories and headlines",
+              "title": "BRICS leaders gather in India as wars and US tensions test unity",
+              "link": "https://www.france24.com/en/asia-pacific/20260912-brics-summit-set-to-be-dominated-by-wars-in-ukraine-and-iran"
+            }
+          ]
+        }
+      ],
+      "script": "BRIKS-toppmötet har öppnat i New Delhi.\n\nBRIKS bildades 2006 av Brasilien, Ryssland, Indien och Kina, och Sydafrika anslöt fyra år senare. Gruppen har sedan dess byggts ut till elva medlemmar: Egypten, Etiopien, Iran, Saudiarabien, Förenade Arabemiraten och Indonesien har tillkommit. Tillsammans står de för knappt hälften av världens befolkning och omkring fyrtio procent av världens BNP. Det här är det artonde toppmötet, och Indien är värd för fjärde gången. Mötet pågår i två dagar, den tolfte och trettonde september.\n\nDet som händer nu är att Kinas president Xi Jinping har landat i New Delhi. Det är hans första besök i Indien på sju år. Bakgrunden är den blodiga gränskonfrontationen i Himalaya 2020, då soldater dödades i sammandrabbningar längs den omkring 350 mil långa gränsen mot Tibet. Förbindelserna har tinat långsamt sedan dess, med återupptagna flygförbindelser, visum och kontakter på hög nivå, men själva territorietvisten är olöst och båda sidor har fortfarande stora trupper utplacerade. Xi ska enligt Indiens utrikesdepartement träffa premiärminister Narendra Modi ansikte mot ansikte under dagen. Kinas regering sade i fredags att man är beredd att arbeta med Indien genom att stärka kommunikationen, förbättra samarbetet och hantera meningsskiljaktigheter på rätt sätt. Pradeep Taneja, Kina-Indien-expert vid University of Melbourne, säger till nyhetsbyrån AFP att parterna söker en tidig och substantiell skörd i gränsfrågan, och att man inte kan bygga upp styrkor vid gränsen samtidigt som man säger att man ska fortsätta ha mellanmänskliga och ekonomiska relationer. Det finns alltså en öppning, men den är villkorad och ingen av parterna har sagt vad den konkret innehåller.\n\nRysslands president Vladimir Putin och Irans president Masoud Pezeshkian anlände till New Delhi i fredags. Putin träffade Modi och kom överens om att fördjupa vad båda kallar den särskilda relationen länderna emellan. Modi träffade också Pezeshkian, och tog då upp behovet av att skydda fri navigering och handel samt säkerheten för fartygsbesättningar. Det är Pezeshkians första besök i Indien som iransk president, och det första besöket av en iransk president i regionen på åtta år.\n\nToppmötets dagordning domineras av tre saker: kriget mellan USA och Israel mot Iran, Rysslands krig mot Ukraina, och handels- och energifrågor. Expansion av betalningskanaler utanför väst och samarbete om artificiell intelligens står också på agendan. Ryssland uppgav i torsdags att man vid mötet ska diskutera handelsavveckling i digitala valutor med andra BRIKS-länder. Indiens centralbankschef Sanjay Malhotra bekräftade i augusti att BRIKS-länderna diskuterar att koppla samman sina snabbetalningssystem och möjligen sina centralbanksdigitala valutor. Alicia García-Herrero, chefsekonom för Asien-Stillahavsregionen på den franska finanskoncernen Natixis, säger till Al Jazeera att ledarna visserligen kommer att diskutera gränsöverskridande betalningar, men att de inte kommer att försöka ersätta dollarn. Det är en viktig distinktion: att bygga alternativ är inte samma sak som att bygga en ersättare. Enligt Internationella valutafonden stod dollarn för 57,1 procent av världens valutareserver under första kvartalet i år, medan den kinesiska renminbin stod för två procent. Dollarns andel ökade till och med något under kvartalet.\n\nDet är på den punkten mötet är som mest splittrat. Iran och Förenade Arabemiraten är båda medlemmar och står på motsatta sidor i kriget som USA och Israel för mot Iran. Sedan kriget började har Teheran slagit tillbaka mot amerikanska militära tillgångar och civil infrastruktur i Gulfen, inklusive i Förenade Arabemiraten. Enligt Al Jazeera har iranska anfall dödat femton personer i Förenade Arabemiraten: två militärer, en civil entreprenör och tolv andra civila. Förenade Arabemiraten meddelade i augusti en tids obestämd handelsembargo mot Iran. Vid ett utrikesministermöte i BRIKS i maj i år kunde man inte enas om ett gemensamt uttalande om kriget. Vid förra årets toppmöte i Rio de Janeiro antogs en gemensam deklaration som fördömde den tolv dagar långa amerikansk-israeliska bombkampanjen mot Irans ledning och kärnprogram. I deklarationen från juli 2025 undvek BRIKS att kritisera Ryssland för kriget i Ukraina och fördömde i stället Ukrainas attacker mot Ryssland. Manoj Kewalramani, ordförande för geostrategiprogrammet vid tankesmedjan Takshashila i Bengaluru, säger till Al Jazeera att han skulle bli förvånad om USA och Israel nämns vid namn i årets uttalande, och att man sannolikt landar i en kompromiss kring suveränitet, territoriell integritet och legitima intressen. Det innebär i praktiken att ett eventuellt gemensamt uttalande inte kommer att peka ut någon.\n\nEn annan konflikt löper parallellt. Saudiarabien, också medlem, är inblandat i strider i Jemen mot Houthirörelsen, som stöds av Iran. Houthistyrkorna har under veckan tagit kontroll över hela Jemens rödahavskust, inklusive Bab al-Mandab-sundet, enligt Al Jazeera. I juli slog jemenitiska regeringsstyrkor till mot flygplatsen i Sanaa, som Houthirörelsen kontrollerar, för att hindra flygplan som de uppgav transporterade iranska vapen från att landa. Irans utrikesminister Abbas Araghchi talade i torsdags kväll med sin saudiska motsvarighet Faisal bin Farhan om vad Irans utrikesministerium kallar eskalerande spänningar och växande osäkerhet i regionen. Enligt samma ministerium betonade båda sidor behovet av fortsatt samarbete och diplomatiska ansträngningar för att förhindra att spänningarna sprids och för att återupprätta stabilitet. Det är en part i konflikten som beskriver sitt eget samtal, och det bör man hålla i minnet.\n\nVarför spelar det här roll utanför regionen? Två skäl. Det första är handelspolitiken. USA har lagt tullar på flera BRIKS-medlemmar under olika förevändningar, ofta med krav på politiska förändringar för att tullarna ska tas bort. President Donald Trump har kallat gruppen anti-amerikansk och hotat med strafftullar mot länder som ansluter sig till den. I juli införde Washington en ny tull på 25 procent på en rad brasilianska produkter, värt miljarder dollar i export, trots att USA har ett handelsöverskott mot Brasilien. Den amerikanska administrationen har också granskat Brasiliens snabbetalningssystem Pix, som konkurrerar med etablerade kortnätverk. BRIKS finansministrar och centralbankschefer har protesterat mot tullar och icke-tariffära åtgärder som de menar snedvrider handeln och strider mot Världshandelsorganisationens regler. Enligt Al Jazeera överväger Washington dessutom ytterligare åtgärder som kan drabba länder starkt beroende av rysk energi, däribland Kina och Indien. Det andra skälet är betalningsinfrastrukturen. Sydafrika har anslutit sig till Kinas gränsöverskridande interbankbetalningssystem, Brasilien och Kina använder i ökande grad sina egna valutor i bilateral handel, Indien och Förenade Arabemiraten har gjort upp i rupier och dirham, och Kina och Ryssland har flyttat en stor del av sin bilaterala handel till nationella valutor. Nya utvecklingsbanken, som grundades av de ursprungliga BRIKS-länderna, har som uttalat mål att trettio procent av utlåningen ska ske i medlemsländernas valutor, med en möjlig höjning till fyrtio till femtio procent i nästa strategiperiod, 2027 till 2031. Inget av detta utgör ett rivaliserande globalt finanssystem. Mycket är experimentellt, bilateralt eller begränsat i skala. Poängen är att alternativen byggs, inte att dollarn ersätts.\n\nVad som är okänt: det finns ännu inget gemensamt slututtalande från toppmötet, och Al Jazeeras material innehåller ingen uppgift om vad Indien som ordförandeland konkret vill få ut av mötet utöver de prioriteringar som anges i ordförandeskapets dokument. Det finns heller ingen uppgift om vad Xi och Modi kom fram till i sina samtal, eftersom samtalen ska hållas under dagen. Om Kina och USA möts den 24 september för ett statsbesök, vilket Al Jazeera uppger att Xi väntas göra med Trump, är det en uppgift som i materialet bara stöds av Al Jazeera.\n\nOm proveniens: huvuddelen av det jag har redovisat kommer från Al Jazeeras egen rapportering och från en analysartikel i samma kanal, skriven av en professor vid York University i Toronto, vars åsikter uttryckligen är hans egna och inte kanalens. Nyhetsbyrån AFP bidrar med expertcitatet om gränsfrågan. Uppgiften att Ryssland ska diskutera handelsavveckling i digitala valutor kommer från Kreml via Al Jazeera. Uppgiften om iranska anfalls dödsoffer i Förenade Arabemiraten, femton personer, och om embargot mot Iran, står Al Jazeera ensamt för i det här materialet. Samma sak gäller uppgiften att Houthistyrkorna tagit kontroll över hela Jemens rödahavskust. De siffrorna och de händelserna bör tillskrivas Al Jazeera och ingen annan."
     }
   ],
   "feed": [
     {
+      "id": "feed-congress-UmVwdWJsaWNhbiBtaWR0ZXJt",
+      "sphere": "congress",
+      "kategori": "POLITIK",
+      "rubrik": "Republikanernas mellanårskonvent dominerades av Trump",
+      "sammanfattning": "Republikanerna höll ett ovanligt mellanårskonvent i Dallas i två dagar, där Donald Trump var den centrala gestalten. Han uppmanade väljarna att låtsas att han stod på valsedeln i november och varnade för att den som inte röstar hamnar i helvetet. Talare målade upp Demokraterna som extremister och kommunister, medan kritik riktades mot partiets motståndare. Vicepresident JD Vance höll ett avslutningstal och nämndes som en möjlig efterträdare 2028, men någon tydlig tronföljd blev det inte. Konventet präglades av tomma stolar och låga tittarsiffror, samtidigt som Trump har historiskt låga godkännandetal.",
+      "synthes": "",
+      "leadSource": "Congress",
+      "publishedAt": "2026-09-11T08:50:00.000Z",
+      "readMinutes": 1,
+      "sourceCount": 6,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "Congress",
+          "title": "Capitol agenda: Trump tells Republicans to vote or ‘go to hell’",
+          "link": "https://www.politico.com/live-updates/2026/09/11/congress/what-were-watching-01071987"
+        },
+        {
+          "source": "Roll Call",
+          "title": "&#8216;Tired of politics&#8217;: By GOP convention&#8217;s end, even Trump had tapped out",
+          "link": "https://rollcall.com/2026/09/11/tired-of-politics-by-gop-conventions-end-even-trump-had-tapped-out/"
+        },
+        {
+          "source": "Roll Call",
+          "title": "‘He’s not going away’: GOP loyalists not ready for Trump to leave political stage",
+          "link": "https://rollcall.com/2026/09/11/donald-trump-midterm-convention-republican-party/"
+        },
+        {
+          "source": "NPR Topics: Politics",
+          "title": "Empty seats, socialism and Trump dominate the Republican midterm convention",
+          "link": "https://www.npr.org/2026/09/11/nx-s1-5962848/republican-convention-trump-dividend-vance-midterms"
+        },
+        {
+          "source": "US Congress | The Guardian",
+          "title": "Trump personality cult alive and well in Dallas – will it power Republican midterm success?",
+          "link": "https://www.theguardian.com/us-news/2026/sep/12/trump-dallas-midterms-convention-republicans"
+        },
+        {
+          "source": "BBC News",
+          "title": "As Trump dominates convention, some Republicans quietly ask who comes next",
+          "link": "https://www.bbc.co.uk/news/articles/c2l8xvvw95no?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
       "id": "feed-crypto-VVMgaW5mbGF0aW9uIGRhdGEg",
       "sphere": "crypto",
       "kategori": "EKONOMI",
-      "rubrik": "USA:s inflation oförändrad på 3,4 procent – bränslepriser driver upptryck",
-      "sammanfattning": "Amerikansk inflation låg på 3,4 procent i årstakt till augusti, samma nivå som i juli, enligt Bureau of Labor Statistics. Bensinpriserna steg 3,9 procent enbart under månaden och svarade för mer än en tredjedel av inflationen, medan diesel nådde ett nytt rekord över 6 dollar per gallon. Reallönen föll 0,3 procent under året. Inför Fed-beskedet nästa vecka räknar 85 procent av handlarna enligt CME Group med en höjning på en kvarts procentenhet, och räntan har legat stilla mellan 3,5 och 3,75 procent i fem möten i rad.",
-      "synthes": "Källorna är oense om sannolikheten för en räntehöjning: BBC och CoinDesk anger att den i praktiken är säkerställd, medan Decrypt uppger att oddsen ligger nära 62 procent, och CoinDesk noterar att kärninflationen på årsbasis på 2,4 procent var den lägsta sedan början av 2021 samtidigt som månadstakten överraskade.",
+      "rubrik": "Inflationen oförändrad men bränslepriser pressar hushållen",
+      "sammanfattning": "USA:s inflation låg på 3,4 procent i årstakt i augusti, samma nivå som i juli, enligt BLS. Dieselpriset nådde en ny rekordnivå över 6 dollar per gallon, drivet av stigande oljepriser till följd av kriget mot Iran. Kärninflationen steg 0,3 procent i månaden, vilket var högre än väntat, medan årstakten på 2,4 procent var den lägsta sedan början av 2021. Marknaden räknar nu med en räntehöjning från Fed nästa vecka, och bitcoin och aktier reagerade blandat på siffrorna.",
+      "synthes": "",
       "leadSource": "The Block",
       "publishedAt": "2026-09-11T17:40:54.000Z",
       "readMinutes": 1,
@@ -53,64 +161,64 @@
         },
         {
           "source": "Decrypt",
-          "title": "Bitcoin Golden Cross Flickers Off as Rate-Hike Bets Firm Up",
-          "link": "https://decrypt.co/378081/bitcoin-golden-cross-flickers-off"
-        },
-        {
-          "source": "Decrypt",
           "title": "Bitcoin Rises as Markets Digest Inflation Data Ahead of Fed Rate Decision",
           "link": "https://decrypt.co/377962/bitcoin-price-cpi-inflation-fed-rate-decision"
         },
         {
           "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-          "title": "With Fed rate hike all but assured, here's how markets might react",
-          "link": "https://www.coindesk.com/markets/2026/09/11/hotter-cpi-complicates-fed-hold-as-warsh-s-preferred-inflation-gauge-tells-different-story"
+          "title": "Core CPI rose a faster-than-forecast 0.3% in August, setting up possible Fed rate hike",
+          "link": "https://www.coindesk.com/markets/2026/09/11/core-cpi-rose-a-faster-than-forecast-0-3-in-august-setting-up-fed-rate-hike"
+        },
+        {
+          "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+          "title": "Rising yields, oil prices leave bitcoin vulnerable ahead of U.S. inflation report",
+          "link": "https://www.coindesk.com/daybook-us/2026/09/11/rising-yields-oil-prices-leave-bitcoin-vulnerable-ahead-of-u-s-inflation-report"
         }
       ]
     },
     {
-      "id": "feed-congress-UmVwdWJsaWNhbiBtaWR0ZXJt",
-      "sphere": "congress",
-      "kategori": "POLITIK",
-      "rubrik": "Republikanernas mellanårskonvent i Dallas dominerades helt av Trump",
-      "sammanfattning": "Republikanerna höll sitt första mellanårskonvent i Dallas, där Donald Trump talade båda kvällarna och uppmanade väljarna att rösta som om han själv stod på valsedeln. Han bad publiken att upprepa en ed om att rösta i november och avslutade med en varning om att den som inte röstar hamnar i helvetet. Vicepresident JD Vance höll avslutningstalet, och flera kandidater fick korta framträdanden. Konventet ägde rum mot bakgrund av opinionssiffror som visar Trumps jobbapproval på historiskt låga nivåer.",
-      "synthes": "Roll Call skildrar evenemanget som delvis valediktatoriskt och noterar tomma stolar samt att få i publiken ville utse en efterträdare till Trump, medan NPR och BBC betonar att partiet både har Trump som sin största tillgång och sitt största hinder, och SVT beskriver strategin som att injicera så mycket Trump som möjligt.",
-      "leadSource": "Congress",
-      "publishedAt": "2026-09-11T08:50:00.000Z",
+      "id": "feed-world-QlJJQ1Mgc3VtbWl0IG9wZW5z",
+      "sphere": "world",
+      "kategori": "GEOPOLITIK",
+      "rubrik": "BRICS-toppmöte i New Delhi präglas av krig och tullar",
+      "sammanfattning": "BRICS höll sitt 18:e toppmöte i New Delhi den 12–13 september med ledare från bland annat Kina, Ryssland och Iran på plats. Agendan dominerades av kriget i Mellanöstern, Rysslands krig i Ukraina, energisäkerhet och handel, samt planer på att koppla samman betalningssystem och öka handeln i lokala valutor. Samtidigt finns djupa splittringar inom gruppen, särskilt mellan Iran och UAE samt mellan Indien och Kina. USA:s president Trump har hotat med strafftullar mot länder som närmar sig BRICS, vilket enligt en analys kan driva fler länder att söka alternativ till dollarn.",
+      "synthes": "",
+      "leadSource": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+      "publishedAt": "2026-09-12T07:44:06.000Z",
       "readMinutes": 1,
-      "sourceCount": 5,
+      "sourceCount": 4,
       "singleSource": false,
       "enriched": true,
       "sources": [
         {
-          "source": "Congress",
-          "title": "Capitol agenda: Trump tells Republicans to vote or ‘go to hell’",
-          "link": "https://www.politico.com/live-updates/2026/09/11/congress/what-were-watching-01071987"
+          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+          "title": "Trump may be BRICS’s best recruitment agent",
+          "link": "https://www.aljazeera.com/opinions/2026/9/12/trump-may-be-bricss-best-recruitment-agent?traffic_source=rss"
         },
         {
-          "source": "Roll Call",
-          "title": "&#8216;Tired of politics&#8217;: By GOP convention&#8217;s end, even Trump had tapped out",
-          "link": "https://rollcall.com/2026/09/11/tired-of-politics-by-gop-conventions-end-even-trump-had-tapped-out/"
+          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+          "title": "BRICS summit opens in New Delhi amid wars, global tensions, tariffs",
+          "link": "https://www.aljazeera.com/news/2026/9/12/brics-summit-opens-in-new-delhi-amid-wars-global-tensions-tariffs?traffic_source=rss"
         },
         {
-          "source": "Roll Call",
-          "title": "‘He’s not going away’: GOP loyalists not ready for Trump to leave political stage",
-          "link": "https://rollcall.com/2026/09/11/donald-trump-midterm-convention-republican-party/"
+          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+          "title": "BRICS meets in India: What’s on the agenda, why it matters",
+          "link": "https://www.aljazeera.com/news/2026/9/12/brics-meets-in-india-whats-on-the-agenda-why-it-matters?traffic_source=rss"
         },
         {
-          "source": "Roll Call",
-          "title": "Roll Call on the Road: Day Two in Dallas",
-          "link": "https://rollcall.com/2026/09/10/roll-call-on-the-road-day-two-in-dallas/"
+          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+          "title": "China’s Xi lands in India for BRICS summit overshadowed by wars",
+          "link": "https://www.aljazeera.com/news/2026/9/12/chinas-xi-heads-to-india-for-brics-summit-overshadowed-by-wars?traffic_source=rss"
         },
         {
-          "source": "NPR Topics: Politics",
-          "title": "Empty seats, socialism and Trump dominate the Republican midterm convention",
-          "link": "https://www.npr.org/2026/09/11/nx-s1-5962848/republican-convention-trump-dividend-vance-midterms"
+          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+          "title": "Putin and Pezeshkian call out US dominance ahead of BRICS",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/9/12/putin-and-pezeshkian-call-out-us-dominance-ahead-of-brics?traffic_source=rss"
         },
         {
-          "source": "NPR Topics: Politics",
-          "title": "Vance, Trump urge Americans to support Republicans on last night of convention",
-          "link": "https://www.npr.org/2026/09/11/nx-s1-5965527/vance-trump-urge-americans-to-support-republicans-on-last-night-of-convention"
+          "source": "France 24 - International breaking news, top stories and headlines",
+          "title": "BRICS leaders gather in India as wars and US tensions test unity",
+          "link": "https://www.france24.com/en/asia-pacific/20260912-brics-summit-set-to-be-dominated-by-wars-in-ukraine-and-iran"
         }
       ]
     },
@@ -118,9 +226,9 @@
       "id": "feed-crypto-U0JGIGFza3MgU3VwcmVtZSBD",
       "sphere": "crypto",
       "kategori": "JURIDIK",
-      "rubrik": "Sam Bankman-Fried begär omprövning i Högsta domstolen",
-      "sammanfattning": "Sam Bankman-Fried har vänt sig till USA:s högsta domstol för att få sin bedrägeridom och förverkandet på 11 miljarder dollar upphävda. Hans advokater hävdar att han felaktigt hindrades från att lägga fram bevis om att FTX hade tillräckliga tillgångar för att täcka förlusterna, och kallar förverkandet för en förkrossande bot. Ärendet väntar nu på domstolens prövning.",
-      "synthes": "Alla fyra källor beskriver samma begäran och samma två huvudargument, utan att motsäga varandra.",
+      "rubrik": "SBF begär att Högsta domstolen river upp domen",
+      "sammanfattning": "Sam Bankman-Fried har bett USA:s högsta domstol att ogiltigförklara hans bedrägeridom och förverkan på 11 miljarder dollar. Hans advokater hävdar att han felaktigt hindrades från att lägga fram bevis om att FTX hade tillräckliga tillgångar för att täcka kundernas förluster. De kallar förverkan för en förkrossande bot och menar att den är oproportionerlig. Fallet är nu uppe i Högsta domstolen.",
+      "synthes": "",
       "leadSource": "The Block",
       "publishedAt": "2026-09-11T04:20:15.000Z",
       "readMinutes": 1,
@@ -154,9 +262,9 @@
       "id": "feed-congress-MjV0aCBhbm5pdmVyc2FyeSBv",
       "sphere": "congress",
       "kategori": "POLITIK",
-      "rubrik": "USA hedrade offren 25 år efter 11 september-attackerna",
-      "sammanfattning": "Ceremonier hölls i New York, vid Pentagon och i Shanksville i Pennsylvania för att markera 25-årsdagen av attackerna. Donald Trump ledde ceremonin vid Pentagon, medan JD Vance deltog i New York tillsammans med samtliga fyra levande före detta presidenter och deras fruar. Nästan 3 000 namn lästes upp och sju tysta minuter hölls, varav en ny för dem som avlidit av sjukdomar kopplade till dammet efter tornens kollaps. Trump kopplade i sitt tal samman terrorkriget efter 11 september med den pågående konflikten med Iran.",
-      "synthes": "SVT uppger att Trump inte deltar i minnesceremonin på Manhattan, medan BBC rapporterar att han ledde ceremonin vid Pentagon och att Vance representerade administrationen i New York – källorna beskriver alltså olika platser för presidentens deltagande.",
+      "rubrik": "USA minns 11 september 25 år senare",
+      "sammanfattning": "USA högtidlighöll 25-årsdagen av 11 september-attackerna med ceremonier i New York, Pentagon och Shanksville. President Trump talade vid Pentagon och kopplade kriget mot terrorismen till den pågående konflikten med Iran. Vicepresident Vance deltog i minnesceremonin vid World Trade Center tillsammans med alla fyra levande före detta presidenter. Nästan 3 000 namn lästes upp och klockor ringde för att markera tidpunkterna för attackerna. CIA publicerade 71 tidigare hemligstämplade presidentbriefingar som visar att hotet om en flygplansattack diskuterades redan 1998.",
+      "synthes": "",
       "leadSource": "NPR Topics: Politics",
       "publishedAt": "2026-09-11T11:55:49.000Z",
       "readMinutes": 1,
@@ -199,10 +307,10 @@
     {
       "id": "feed-congress-VHJ1bXAncyAkNSwwMDAgZGl2",
       "sphere": "congress",
-      "kategori": "EKONOMI",
-      "rubrik": "Republikansk splittring kring Trumps förslag om 5 000 dollar till varje vuxen",
-      "sammanfattning": "Trump lovade på konventet i Dallas att betala ut 5 000 dollar till varje vuxen amerikan om republikanerna behåller båda kamrarna i november. Förslaget möts av motstånd från både moderata och konservativa republikaner. Senator Susan Collins kallar det utomordentligt kostsamt och ifrågasätter att det saknar inkomsttak, medan Ted Cruz kan tänka sig stöd om utbetalningen utformas som en skatterabatt och bara går till dem som arbetar och betalar skatt. Majoritetsledaren John Thune försvarar idén men har inte lovat någon omröstning i senaten.",
-      "synthes": "Källorna kompletterar varandra: senatsnyheterna fokuserar på Cruz och Collins invändningar, medan husnyheterna visar att förslaget fick den tioåriga statsobligationsräntan att stiga till sin högsta stängningsnivå sedan april 2007 och att finansieringen enligt Vance ska komma från tullintäkter.",
+      "kategori": "POLITIK",
+      "rubrik": "Republikaner splittrade om Trumps 5 000-dollarpromise",
+      "sammanfattning": "Donald Trump lovade i sitt konventstal att ge varje vuxen amerikan 5 000 dollar om Republikanerna vinner mellanårsvalet. Förslaget möttes av skepsis från flera republikaner. Senator Ted Cruz vill att pengarna ska vara skatteåterbäringar till arbetande, medan Susan Collins kallar det extremt kostsamt och ifrågasätter avsaknaden av inkomsttak. Thomas Massie och Bob Good förlöjligar eller kritiserar förslaget. Bondräntor steg något efter beskedet, och ekonomer ifrågasätter hur det ska finansieras.",
+      "synthes": "",
       "leadSource": "Senate News",
       "publishedAt": "2026-09-11T18:02:48.000Z",
       "readMinutes": 1,
@@ -233,12 +341,48 @@
       ]
     },
     {
+      "id": "feed-world-Tm9ydGggS29yZWEgZmlyZXMg",
+      "sphere": "world",
+      "kategori": "GEOPOLITIK",
+      "rubrik": "Nordkorea avfyrade ballistiska robotar efter militärövning",
+      "sammanfattning": "Nordkorea avfyrade flera kortdistansrobotar från Wonsan mot havet i öst på lördagsmorgonen, enligt Sydkoreas försvarsmakt. Robotarna flög omkring 25 mil. Avfyrningen skedde dagen efter att USA, Sydkorea och Japan avslutat den fem dagar långa övningen Freedom Edge, som Nordkorea ser som ett hot. USA:s Stillahavskommando bedömer att avfyrningen inte utgör ett omedelbart hot. Sydkorea uppmanar Nordkorea att stoppa uppskjutningarna, som strider mot FN:s säkerhetsråds resolutioner.",
+      "synthes": "",
+      "leadSource": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+      "publishedAt": "2026-09-12T02:25:59.000Z",
+      "readMinutes": 1,
+      "sourceCount": 3,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+          "title": "North Korea fires ballistic missiles off eastern coast, Seoul says",
+          "link": "https://www.aljazeera.com/news/2026/9/12/north-korea-fires-ballistic-missiles-off-eastern-coast-seoul-says?traffic_source=rss"
+        },
+        {
+          "source": "News - South China Morning Post",
+          "title": "North Korea launches missile salvo after US-South Korea-Japan drills",
+          "link": "https://www.scmp.com/news/asia/east-asia/article/3367271/north-korea-launches-missile-salvo-after-us-south-korea-japan-drills?utm_source=rss_feed"
+        },
+        {
+          "source": "World News Today: International News Headlines - The Hindu | The Hindu",
+          "title": "North Korea launches ballistic missiles toward sea after military drill it sees as threat",
+          "link": "https://www.thehindu.com/news/international/north-korea-launches-ballistic-missiles-toward-sea-after-military-drill-it-sees-as-threat/article71458990.ece"
+        },
+        {
+          "source": "World News Today: International News Headlines - The Hindu | The Hindu",
+          "title": "North Korea fires ballistic missiles toward sea after rivals' military drill it sees as provocation",
+          "link": "https://www.thehindu.com/news/international/north-korea-fires-ballistic-missiles-toward-sea-after-rivals-military-drill-it-sees-as-provocation/article71459171.ece"
+        }
+      ]
+    },
+    {
       "id": "feed-crypto-SW5kaWEgbGF1bmNoZXMgdG9r",
       "sphere": "crypto",
-      "kategori": "REGLERING",
-      "rubrik": "Indien inleder pilotprojekt med tokeniserade obligationer",
-      "sammanfattning": "Indiens marknadsregulator SEBI har startat pilotprojektet Demat 2.0, där tre emittenter rest motsvarande drygt 100 miljoner dollar i tokeniserade företagsobligationer. Avvecklingen sker via centralbankens digitala grossistrupie. Senare faser ska enligt SEBI införa sekundärhandel och öppna instrumenten för privatpersoner.",
-      "synthes": "Källorna anger något olika belopp – Cointelegraph uppger 107 miljoner dollar medan The Block och CoinDesk talar om över 100 miljoner dollar – men beskriver i övrigt samma upplägg och samma planerade faser.",
+      "kategori": "TEKNIK",
+      "rubrik": "Indien startar pilotprojekt för tokeniserade obligationer",
+      "sammanfattning": "Indiens SEBI har inlett pilotprojektet Demat 2.0 där tre emittenter rest över 100 miljoner dollar i tokeniserade företagsobligationer. Avvecklingen sker via centralbankens grossist-CBDC, den digitala rupien. Senare faser väntas omfatta sekundärhandel och öppna för privatpersoner. Projektet är en del av att digitalisera Indiens företagsobligationsmarknad på 620 miljarder dollar.",
+      "synthes": "",
       "leadSource": "The Block",
       "publishedAt": "2026-09-11T12:09:12.000Z",
       "readMinutes": 1,
@@ -266,10 +410,10 @@
     {
       "id": "feed-crypto-QmxvY2tzdHJlYW0gcmVmdXNl",
       "sphere": "crypto",
-      "kategori": "JURIDIK",
-      "rubrik": "Blockstream vägrar betala lösensumma efter attacken mot Liquid",
-      "sammanfattning": "Blockstream avvisar kravet på lösensumma för de knappt 600 bitcoin som fortfarande saknas efter exploateringen av Liquid-nätverket. Företaget säger att det ska arbeta med brottsbekämpande myndigheter, börser och forensiska specialister för att återfå medlen om hackarna inte lämnar tillbaka dem. Transaktioner på Liquid har återupptagits, men uttag är fortfarande avstängda medan återställningsarbetet pågår.",
-      "synthes": "Decrypt preciserar beloppet till 598,5 BTC och ett värde av 47 miljoner dollar, medan The Block och Cointelegraph anger cirka 600 BTC – i sak beskriver källorna samma händelseförlopp.",
+      "kategori": "MARKNAD",
+      "rubrik": "Blockstream vägrar betala lösensumma efter Liquid-hack",
+      "sammanfattning": "Blockstream har avvisat kravet på lösensumma efter att hackare kommit över nästan 600 bitcoin, värda cirka 47 miljoner dollar, från Liquid-nätverket. Företaget säger att det är stöld och att man kommer att samarbeta med brottsbekämpande myndigheter, börser och forensiska experter för att återfå bitcoin om de inte lämnas tillbaka. Transaktioner på Liquid har återupptagits, men uttag är fortfarande avstängda.",
+      "synthes": "",
       "leadSource": "The Block",
       "publishedAt": "2026-09-11T11:21:17.000Z",
       "readMinutes": 1,
@@ -298,9 +442,9 @@
       "id": "feed-crypto-TWV0YXBsYW5ldCBjdXRzIGV4",
       "sphere": "crypto",
       "kategori": "MARKNAD",
-      "rubrik": "Metaplanet skär ned incitamentsprogram efter aktieoro",
-      "sammanfattning": "Bitcoin-treasurybolaget Metaplanet minskar sin serie 10 av potentiella aktier med 41 procent, till 188,2 miljoner aktier, och skrotar ett personaloptionsprogram. Beslutet kommer efter att aktien fallit omkring 17 procent under två handelsdagar. Bolaget planerar samtidigt ett dotterbolag i Hongkong med en miljon dollar i kapital för handel med bitcoin, aktier och kreditprodukter.",
-      "synthes": "CoinDesk anger att nedskärningen motsvarar 220 miljoner dollar i värde, medan Cointelegraph preciserar antalet borttagna aktier till 131,3 miljoner – uppgifterna kompletterar varandra utan att motsäga sig.",
+      "rubrik": "Metaplanet skär ned optionsprogram efter aktiekursfall",
+      "sammanfattning": "Metaplanet minskar sin serie 10 av aktieoptioner med 41 procent, vilket motsvarar 131,3 miljoner potentiella aktier, och skrotar ett program för anställdas teckningsoptioner. Beslutet kommer efter att aktien fallit omkring 17 procent under två handelsdagar. Företaget planerar också att bilda ett dotterbolag i Hongkong med en miljon dollar för handel med bitcoin, aktier och kreditprodukter. Åtgärderna ses som ett svar på aktieägarnas missnöje med insiderallokeringar.",
+      "synthes": "",
       "leadSource": "The Block",
       "publishedAt": "2026-09-11T15:45:25.000Z",
       "readMinutes": 1,
@@ -334,9 +478,9 @@
       "id": "feed-congress-QW50aHJvcGljIHJlcG9ydHMg",
       "sphere": "congress",
       "kategori": "TEKNIK",
-      "rubrik": "Anthropic stoppade försök att använda Claude för biologiska vapen",
-      "sammanfattning": "Anthropic uppger i sin hotunderrättelserapport att man identifierat och stoppat försök att använda AI-modellen Claude för verksamhet som skulle kunna stödja utveckling av biologiska vapen. Rapporten beskriver fem fallstudier av sådan användning och sex fall där Claude använts för programvara till konventionella vapen. Modellerna ska också ha använts av aktörer kopplade till rysk cyberespionage och av en iransk propagandainstitution. Senator Bernie Sanders har krävt ett stopp för avancerad AI-utveckling, medan Trump avvisat farhågorna.",
-      "synthes": "Cointelegraph lyfter särskilt en ryskspråkig aktör som riktat in sig mot fler än 20 organisationer och en konsult i Mali som byggt en massövervakningsplattform, detaljer som BBC:s rapport inte framhäver.",
+      "rubrik": "Anthropic stoppar försök att använda AI för biologiska vapen",
+      "sammanfattning": "Anthropic rapporterar att man upptäckt och stoppat försök att använda företagets AI-modell Claude för aktiviteter som skulle kunna stödja utveckling av biologiska vapen. I sin hotintelligensrapport beskriver företaget fem fall av sådan användning, samt fall av cyberattacker, övervakning och desinformation. Rapporten nämner också rysk cyberespionage och iransk propagandaversamhet. Senator Bernie Sanders har krävt ett stopp för avancerad AI-utveckling, medan president Trump avvisar farhågorna.",
+      "synthes": "",
       "leadSource": "BBC News",
       "publishedAt": "2026-09-11T08:15:25.000Z",
       "readMinutes": 1,
@@ -360,15 +504,15 @@
       "id": "feed-congress-TmV3IE1leGljbyBEZW1vY3Jh",
       "sphere": "congress",
       "kategori": "POLITIK",
-      "rubrik": "Demokrater ber Apple och Google behålla namnet New Mexico",
-      "sammanfattning": "Fem demokratiska kongressledamöter från New Mexico har i ett brev till Apples och Googles chefer begärt att karttjänsterna inte ska anta Trumps förslag att döpa om delstaten till New America. Trump publicerade i söndags en karta på Truth Social där Mexico strukits och ersatts av America. Ledamöterna hänvisar till att Apple Maps och Google Maps nyligen bytt namn på Lake Ontario och Mexikanska golfen för amerikanska användare, och argumenterar för att en president inte kan byta namn på en delstat utan konstitutionell process i delstaten.",
-      "synthes": "Senats- och husnyheterna innehåller identisk text och tillför inget utöver varandra.",
+      "rubrik": "Demokrater vill att Apple och Google behåller New Mexico",
+      "sammanfattning": "Demokratiska kongressledamöter från New Mexico har uppmanat Apple och Google att inte följa Donald Trumps förslag att byta namn på delstaten till \"New America\" på sina kartplattformar. Trump delade i söndags en bild på Truth Social där \"Mexico\" var överstruket och ersatt med \"America\". Ledamöterna vill att karttjänsterna behåller det officiella namnet.",
+      "synthes": "",
       "leadSource": "Senate News",
       "publishedAt": "2026-09-11T02:19:20.000Z",
       "readMinutes": 1,
       "sourceCount": 2,
       "singleSource": false,
-      "enriched": true,
+      "enriched": false,
       "sources": [
         {
           "source": "Senate News",
@@ -386,9 +530,9 @@
       "id": "feed-crypto-U3RhbmRhcmQgQ2hhcnRlcmVk",
       "sphere": "crypto",
       "kategori": "MARKNAD",
-      "rubrik": "Standard Chartered spår femfaldig uppgång för SKY-token",
-      "sammanfattning": "Standard Chartered har inlett bevakning av Sky och kallar projektet DeFi:s centralbank. Banken räknar med att SKY stiger till 0,325 dollar till 2028, en femfaldig uppgång, drivet av ökad USDS-adoption och lånekapacitet.",
-      "synthes": "Båda källorna återger samma prognos och samma kursmål.",
+      "rubrik": "Standard Chartered spår SKY-token femdubblas till 2028",
+      "sammanfattning": "Standard Chartered har inlett bevakning av Sky och kallar projektet för \"DeFi:s centralbank\". Banken spår att SKY-token ska stiga till 0,325 dollar till slutet av 2028, en femfaldig ökning från nuvarande nivå. Prognosen bygger på ökad användning av USDS och växande lånekapacitet.",
+      "synthes": "",
       "leadSource": "The Block",
       "publishedAt": "2026-09-11T16:48:11.000Z",
       "readMinutes": 1,
@@ -412,9 +556,9 @@
       "id": "feed-crypto-RVNNQSBxdWVzdGlvbnMgcHJl",
       "sphere": "crypto",
       "kategori": "REGLERING",
-      "rubrik": "EU-regulator ifrågasätter prediktionsmarknader",
-      "sammanfattning": "ESMA konstaterar att stora prediktionsplattformar saknar EU-tillstånd och ifrågasätter hur Polymarket och Kalshi begränsar åtkomsten geografiskt. Myndigheten pekar på att plattformarna blockerar vissa EU-länder men inte andra, och att VPN-tjänster kan kringgå blockeringarna. ESMA beskriver också marknaden som genomsyrad av insiderhandel.",
-      "synthes": "The Block fokuserar på avsaknaden av EU-auktorisation och de delvisa geoblockeringarna, medan Decrypt lyfter insiderhandeln och VPN-problematiken – tillsammans ger de en bredare bild av ESMA:s kritik.",
+      "rubrik": "EU-myndighet kritiserar prediktionsmarknader",
+      "sammanfattning": "Europeiska värdepappers- och marknadsmyndigheten, ESMA, säger att stora prediktionsplattformar saknar EU-tillstånd. Myndigheten ifrågasätter varför Polymarket och Kalshi blockerar vissa EU-länder men inte andra, och noterar att VPN kan kringgå blockeringarna. ESMA beskriver prediktionsmarknaderna som genomsyrade av insiderhandel.",
+      "synthes": "",
       "leadSource": "The Block",
       "publishedAt": "2026-09-11T10:10:37.000Z",
       "readMinutes": 1,
@@ -438,9 +582,9 @@
       "id": "feed-crypto-Um9iaW5ob29kIGNyeXB0byB2",
       "sphere": "crypto",
       "kategori": "MARKNAD",
-      "rubrik": "Robinhoods kryptovolymer upp 61 procent i augusti",
-      "sammanfattning": "Robinhoods kryptohandelsvolym steg 61 procent i augusti jämfört med månaden före, men ligger fortfarande 38 procent under samma månad i fjol. Bitstamp svarade för 10,1 miljarder dollar av volymen, medan handeln i Robinhoods egen app föll 46 procent jämfört med ett år tidigare. Enligt Decrypt är det inte den traditionella handeln som växer snabbast i bolaget.",
-      "synthes": "Cointelegraph redovisar siffrorna nedbrutna per plattform, medan Decrypt lyfter att den snabbast växande verksamheten inte är traditionell handel – källorna kompletterar varandra.",
+      "rubrik": "Robinhoods kryptovolym upp 61 procent i augusti",
+      "sammanfattning": "Robinhoods kryptohandelsvolym ökade med 61 procent i augusti jämfört med juli, men är fortfarande 38 procent lägre än samma månad förra året. Bitstamp stod för 10,1 miljarder dollar av volymen, medan handeln i Robinhood-appen föll 46 procent jämfört med året innan. Den snabbast växande delen av verksamheten är dock inte traditionell handel.",
+      "synthes": "",
       "leadSource": "Cointelegraph.com News",
       "publishedAt": "2026-09-11T11:49:07.000Z",
       "readMinutes": 1,
@@ -464,9 +608,9 @@
       "id": "feed-crypto-Qml0d2lzZSB0byBjbG9zZSBE",
       "sphere": "crypto",
       "kategori": "MARKNAD",
-      "rubrik": "Bitwise lägger ned sin Dogecoin-ETF",
-      "sammanfattning": "Bitwise stänger sin Dogecoin-ETF BWOW mindre än ett år efter lanseringen. Fonden hade cirka 688 000 dollar i nettotillgångar den 9 september. Handeln väntas upphöra den 14 oktober och kontantutbetalningar till kvarvarande andelsägare beräknas ske omkring den 22 oktober.",
-      "synthes": "Båda källorna anger samma datum och samma belopp, utan att motsäga varandra.",
+      "rubrik": "Bitwise lägger ned Dogecoin-ETF",
+      "sammanfattning": "Bitwise stänger sin Dogecoin-ETF, BWOW, mindre än ett år efter lanseringen. Fonden hade cirka 688 000 dollar i nettotillgångar den 9 september. Handeln väntas upphöra den 14 oktober och kontantutbetalningar till kvarvarande andelsägare beräknas ske omkring den 22 oktober.",
+      "synthes": "",
       "leadSource": "Cointelegraph.com News",
       "publishedAt": "2026-09-11T07:47:13.000Z",
       "readMinutes": 1,
@@ -490,9 +634,9 @@
       "id": "feed-congress-SG91c2Ugdm90ZSBvbiBkYXRh",
       "sphere": "congress",
       "kategori": "POLITIK",
-      "rubrik": "Representanthuset kan rösta om datacenterkostnader",
-      "sammanfattning": "Representanthuset väntas rösta om ett lagförslag som ska skydda konsumenter från elkostnader kopplade till datacenter. Republikanernas ledning har valt att gå vidare med omröstningen under politisk press att hantera frågan före mellanårsvalet. Fler utsatta republikaner i kammaren stöder nu förslaget.",
-      "synthes": "De två källorna är två versioner av samma artikel och tillför ingen motstridig information.",
+      "rubrik": "Representanthuset röstar om datacenterkostnader",
+      "sammanfattning": "Representanthuset väntas rösta på tisdag om ett lagförslag som ska skydda konsumenter från elkostnader kopplade till datacenter. Fler utsatta republikaner har nu ställt sig bakom förslaget. Republikanska ledare har valt att gå vidare med omröstningen inför mellanårsvalet.",
+      "synthes": "",
       "leadSource": "Congress",
       "publishedAt": "2026-09-11T15:33:18.000Z",
       "readMinutes": 1,
@@ -513,12 +657,12 @@
       ]
     },
     {
-      "id": "feed-congress-VHJ1bXAgdGFyaWZmcyBhbmQg",
+      "id": "feed-congress-VHJ1bXAgdGFyaWZmIHdhciB3",
       "sphere": "congress",
       "kategori": "POLITIK",
-      "rubrik": "Tullkonflikt med Kanada oroar väljare i Wichita och Michigan",
-      "sammanfattning": "Wichitas borgmästare Lily Wu kommenterar Trumps hot mot Bombardier och vad tullkriget med Kanada kan betyda för hennes stad. I Michigan förbereder sig väljare i vågmästarområden på högre priser till följd av tullkonflikten, inför årets mellanårsval.",
-      "synthes": "De två inslagen belyser samma konflikt från olika geografiska utgångspunkter och motsäger inte varandra.",
+      "rubrik": "Wichita-borgmästare oroas av Trumps tullhot mot Bombardier",
+      "sammanfattning": "Wichitas borgmästare Lily Wu kommenterar Trumps tullkonflikt med Kanada och hoten mot Bombardier, ett flygplanstillverkare med verksamhet i staden. Hon varnar för konsekvenserna för Wichita, som kallas världens flyghuvudstad. I Michigan uttrycker väljare oro för stigande priser till följd av handelskriget med Kanada inför mellanårsvalet.",
+      "synthes": "",
       "leadSource": "NPR Topics: Politics",
       "publishedAt": "2026-09-11T20:34:45.000Z",
       "readMinutes": 1,
@@ -539,12 +683,38 @@
       ]
     },
     {
+      "id": "feed-congress-VmFuY2UgYW5kIFRydW1wIHNw",
+      "sphere": "congress",
+      "kategori": "POLITIK",
+      "rubrik": "Vance och Trump uppmanar väljare att stödja Republikanerna",
+      "sammanfattning": "Vicepresident JD Vance höll tal på den sista kvällen av Republikanernas mellanårskonvent. President Trump framträdde som partiets dominerande ledare. En republikansk strateg kommenterar Vances tal och vad det betyder för partiet.",
+      "synthes": "",
+      "leadSource": "NPR Topics: Politics",
+      "publishedAt": "2026-09-11T08:46:18.000Z",
+      "readMinutes": 1,
+      "sourceCount": 1,
+      "singleSource": true,
+      "enriched": false,
+      "sources": [
+        {
+          "source": "NPR Topics: Politics",
+          "title": "Vance, Trump urge Americans to support Republicans on last night of convention",
+          "link": "https://www.npr.org/2026/09/11/nx-s1-5965527/vance-trump-urge-americans-to-support-republicans-on-last-night-of-convention"
+        },
+        {
+          "source": "NPR Topics: Politics",
+          "title": "Republican strategist shares takeaways from Vance's speech at the GOP convention",
+          "link": "https://www.npr.org/2026/09/11/nx-s1-5964894/republican-strategist-shares-takeaways-from-vances-speech-at-the-gop-convention"
+        }
+      ]
+    },
+    {
       "id": "feed-congress-SG91dGhpcyB0YWtlIGNvbnRy",
       "sphere": "congress",
       "kategori": "GEOPOLITIK",
       "rubrik": "Huthierna kontrollerar Bab el-Mandab",
-      "sammanfattning": "Den Iranstödda huthimilisen i Jemen har genom en blixtoffensiv tagit kontroll över strategiskt avgörande öar i Röda havet och hela Jemens rödahavskust. Därmed kontrollerar rörelsen Bab el-Mandab, sundet som är centralt för världshandeln. Källor uppger detta för internationella nyhetsbyråer, och frågan som ställs är om världen står inför en andra Hormuzkris.",
-      "synthes": "De två SVT-inslagen beskriver samma händelseutveckling och samma strategiska slutsats.",
+      "sammanfattning": "Den Iranstödda Huthirörelsen i Jemen har genom en blixtoffensiv tagit kontroll över strategiskt viktiga öar i Röda havet och hela Jemens rödahavskust. Därmed kontrollerar de Bab el-Mandab-sundet, en nyckelväg för världshandeln. Källor uppger att rörelsen nu har full kontroll över sundet, vilket väcker frågor om en ny Hormuzkris.",
+      "synthes": "",
       "leadSource": "Utrikes | SVT Nyheter",
       "publishedAt": "2026-09-11T15:35:20.000Z",
       "readMinutes": 1,
@@ -568,8 +738,8 @@
       "id": "feed-congress-SG91c2Ugdm90ZSBvbiBSdXNz",
       "sphere": "congress",
       "kategori": "POLITIK",
-      "rubrik": "Representanthuset tar upp Rysslands-sanktioner",
-      "sammanfattning": "Representanthuset har utlyst en omröstning om det sanktionspaket mot Ryssland som senaten redan antagit. Förslaget väntas möta motstånd i kammaren, där många demokrater oroar sig för att det skulle ge Vita huset för långtgående tullbefogenheter.",
+      "rubrik": "Representanthuset röstar om Rysslandssanktioner",
+      "sammanfattning": "Representanthuset har planerat en omröstning om ett sanktionslagförslag mot Ryssland som redan passerat senaten. Förslaget möter motstånd i representanthuset, där många demokrater oroas för att det ger Vita huset för stor tullbefogenhet.",
       "synthes": "",
       "leadSource": "Congress",
       "publishedAt": "2026-09-11T16:37:18.000Z",
@@ -589,9 +759,9 @@
       "id": "feed-congress-Rm9ybWVyIEhvdXNlIG1lbWJl",
       "sphere": "congress",
       "kategori": "POLITIK",
-      "rubrik": "Tidigare kongressledamöter hedrade 11 september-offren",
-      "sammanfattning": "Tidigare kongressledamöter samlades vid Capitolium för en ceremoni med Association of Former Members of Congress för att uppmärksamma 25-årsdagen av attackerna den 11 september. Bland deltagarna fanns de före detta ledamöterna Tim Roemer, Jane Harman och Charlie Dent. Jane Harman mindes hur hon och kollegor samlats utanför Capitolium för 25 år sedan och hedrade offren ombord på United Airlines Flight 93.",
-      "synthes": "De två Roll Call-inslagen är en bildtext och en artikel om samma ceremoni och kompletterar varandra.",
+      "rubrik": "Tidigare kongressledamöter minns 11 september",
+      "sammanfattning": "Tidigare kongressledamöter samlades vid Capitol för att hedra 25-årsdagen av 11 september-attackerna. Jane Harman, tidigare demokratisk ledamot från Kalifornien, mindes hur hon och kollegor samlats utanför Capitol för 25 år sedan. Ceremonin hölls av Association of Former Members of Congress.",
+      "synthes": "",
       "leadSource": "Roll Call",
       "publishedAt": "2026-09-11T17:02:23.000Z",
       "readMinutes": 1,
@@ -615,8 +785,8 @@
       "id": "feed-congress-RGVtb2NyYXRzIHJldmFtcCBt",
       "sphere": "congress",
       "kategori": "POLITIK",
-      "rubrik": "Demokraterna gör om strategin mot anti-trans-kampanjer",
-      "sammanfattning": "Demokratiska strateger anser att partiet behöver ett nytt grepp inför mellanårsvalet, i ljuset av en ny våg av anti-trans-budskap från republikanskt håll.",
+      "rubrik": "Demokraterna omarbetar strategi mot anti-trans-attacker",
+      "sammanfattning": "Demokratiska strateger säger att partiet behöver en ny strategi för att möta en våg av anti-trans-budskap från Republikanerna inför mellanårsvalet. Partiet reviderar sitt spelbok för att hantera frågan.",
       "synthes": "",
       "leadSource": "Congress",
       "publishedAt": "2026-09-11T09:00:00.000Z",
@@ -637,7 +807,7 @@
       "sphere": "congress",
       "kategori": "POLITIK",
       "rubrik": "Rand Paul flyger privatjet på skattebetalarnas bekostnad",
-      "sammanfattning": "Senator Rand Paul och hans personal reser med privatchartrade jetplan finansierade med skattemedel, samtidigt som han förespråkar återhållsamhet i de offentliga utgifterna. Kostnaden är varken olaglig eller strider mot senatens regler, men väcker frågor om varför charterflygen varit nödvändiga för officiella uppdrag.",
+      "sammanfattning": "Senator Rand Paul och hans personal reser med privatjet bekostad av skattebetalarna samtidigt som han förespråkar åtstramning. Kostnaden är inte olaglig eller mot senatens regler, men väcker frågor om varför charterflygen var nödvändiga för officiella uppdrag.",
       "synthes": "",
       "leadSource": "Congress",
       "publishedAt": "2026-09-11T08:45:00.000Z",
@@ -654,11 +824,11 @@
       ]
     },
     {
-      "id": "feed-congress-UmVwdWJsaWNhbnMgZGlzY3Vz",
+      "id": "feed-congress-UmVwdWJsaWNhbnMgcHJpdmF0",
       "sphere": "congress",
       "kategori": "POLITIK",
-      "rubrik": "Republikanernas interna oro inför senatsvalet",
-      "sammanfattning": "Republikaner som samlats i Dallas är oroade över läget i Georgia och North Carolina, medan de ser positivt på Michigan. Det framgår av hur partiet internt diskuterar sin senatskarta under konventet.",
+      "rubrik": "Republikaner oroas av Georgia och North Carolina",
+      "sammanfattning": "Republikaner som samlats i Dallas är oroade över sina chanser i Georgia och North Carolina, men ser positivt på Michigan. Detta framkommer i privata samtal under konventet.",
       "synthes": "",
       "leadSource": "Congress",
       "publishedAt": "2026-09-11T00:22:12.000Z",
@@ -671,69 +841,6 @@
           "source": "Congress",
           "title": "How Republicans are privately talking about their Senate map at the convention",
           "link": "https://www.politico.com/live-updates/2026/09/10/congress/republicans-senate-map-midterms-plan-01071850"
-        }
-      ]
-    },
-    {
-      "id": "feed-congress-SHVzdGVkIGZpcmVzIHBvbGl0",
-      "sphere": "congress",
-      "kategori": "POLITIK",
-      "rubrik": "Husted sparkar politisk chef efter nazistiska inlägg",
-      "sammanfattning": "Senator Jon Husted från Ohio avskedade sin kampanjs politiska chef Stephen Woytek på fredagen. Bakgrunden är sociala medier-inlägg kopplade till Woytek, bland annat en profilbild på Facebook föreställande nazistiska officerare och en offentlig spellista med låtar som hyllar Rhodesia. En talesperson för kampanjen bekräftar uppgifterna för The Hill.",
-      "synthes": "",
-      "leadSource": "Senate News",
-      "publishedAt": "2026-09-11T21:19:55.000Z",
-      "readMinutes": 1,
-      "sourceCount": 1,
-      "singleSource": true,
-      "enriched": false,
-      "sources": [
-        {
-          "source": "Senate News",
-          "title": "Husted ousts his political director over posts with Nazi imagery",
-          "link": "https://thehill.com/homenews/senate/6085514-husted-political-director-nazi-imagery/"
-        }
-      ]
-    },
-    {
-      "id": "feed-congress-RmV0dGVybWFuIGFwcGVhcmFu",
-      "sphere": "congress",
-      "kategori": "POLITIK",
-      "rubrik": "Fettermans framträdande på GOP-konventet väcker frågor",
-      "sammanfattning": "Senator John Fetterman från Pennsylvania gjorde ett överraskande videoinslag på Republikanernas mellanårskonvent, vilket väcker irritation bland demokrater i Washington. Partikamrater är redan frustrerade över hans täta medverkan i Fox News och hans kritik av demokratiska socialister. Strateger och analytiker pekar på att hans låga förtroendesiffror bland demokratiska väljare i Pennsylvania redan hade skapat problem för hans politiska framtid.",
-      "synthes": "",
-      "leadSource": "Senate News",
-      "publishedAt": "2026-09-11T10:00:00.000Z",
-      "readMinutes": 1,
-      "sourceCount": 1,
-      "singleSource": true,
-      "enriched": false,
-      "sources": [
-        {
-          "source": "Senate News",
-          "title": "Fetterman’s GOP convention appearance raises questions about his political future",
-          "link": "https://thehill.com/homenews/senate/6083365-fetterman-gop-convention-video-pennsylvania/"
-        }
-      ]
-    },
-    {
-      "id": "feed-congress-QmFjb24gbXVsbGluZyAyMDI4",
-      "sphere": "congress",
-      "kategori": "POLITIK",
-      "rubrik": "Bacon överväger presidentkandidatur 2028",
-      "sammanfattning": "Representanthusledamoten Don Bacon från Nebraska uppger att han överväger att ställa upp i presidentvalet 2028, samtidigt som han förbereder sig för att lämna kongressen nästa år. Han har tidigare antytt ett intresse för Vita huset och säger i en intervju som publiceras i sin helhet på lördag att han gärna skulle ställa upp.",
-      "synthes": "",
-      "leadSource": "House News",
-      "publishedAt": "2026-09-12T00:50:58.000Z",
-      "readMinutes": 1,
-      "sourceCount": 1,
-      "singleSource": true,
-      "enriched": false,
-      "sources": [
-        {
-          "source": "House News",
-          "title": "Bacon says he&#039;s mulling 2028 White House bid",
-          "link": "https://thehill.com/homenews/campaign/6085724-don-bacon-considers-2028-presidency/"
         }
       ]
     }
