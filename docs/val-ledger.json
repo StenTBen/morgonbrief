@@ -1,5 +1,5 @@
 {
-  "lastSuccessfulRun": "2026-09-13T17:00:42.245Z",
+  "lastSuccessfulRun": "2026-09-13T19:36:56.798Z",
   "observations": [
     {
       "clusterIndex": 0,
@@ -16107,6 +16107,3835 @@
       "runId": "2026-09-13T17:00:42.245Z",
       "observedAt": "2026-09-13T17:00:42.245Z",
       "hash": "334d58f65a8cda04"
+    },
+    {
+      "clusterIndex": 0,
+      "source": "SVT Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "SVT",
+        "Valu",
+        "Tidöpartierna",
+        "Liberalerna",
+        "Mats Knutson"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-prognos",
+      "facts": [
+        "Oppositionen ser ut att vara flera procentenheter större än Tidöpartierna enligt SVT:s Valu.",
+        "Liberalerna verkar tydligt klara spärren.",
+        "Resultatet möttes av jubel på Liberalernas valvaka.",
+        "Mats Knutson säger att det ser ut att vara väldigt svårt för Tidöpartierna att hämta in."
+      ],
+      "sources": [
+        {
+          "source": "SVT Nyheter",
+          "title": "Oppositionen tydligt större än Tidöpartierna – enligt SVT:s Valu",
+          "link": "https://www.svt.se/nyheter/inrikes/oppositionen-tydligt-storre-an-tidopartierna-enligt-svts-valu"
+        },
+        {
+          "source": "Inrikes | SVT Nyheter",
+          "title": "Oppositionen tydligt större än Tidöpartierna – enligt SVT:s Valu",
+          "link": "https://www.svt.se/nyheter/inrikes/oppositionen-tydligt-storre-an-tidopartierna-enligt-svts-valu"
+        },
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "SVT:s Valu: Liberalerna klarar riksdagsspärren",
+          "link": "https://www.dn.se/sverige/svts-valu-liberalerna-klarar-riksdagssparren/"
+        },
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "Oppositionen störst i SVT:s Valu – L klarar sig över spärren",
+          "link": "https://www.dn.se/sverige/nu-avgors-valet-2026/"
+        },
+        {
+          "source": "Senast publicerat",
+          "title": "Statsvetare: ”Ser ut att vara avgjort”",
+          "link": "https://www.svd.se/a/6qQ128/statsvetare-ser-ut-att-vara-avgjort?utm_medium=rss"
+        },
+        {
+          "source": "Senast publicerat",
+          "title": "Övertag för de rödgröna i vallokalsmätning",
+          "link": "https://www.svd.se/a/q6aXl1/overtag-for-de-rodgrona-i-vallokalsmatning?utm_medium=rss"
+        },
+        {
+          "source": "Senast publicerat",
+          "title": "KD: ”Väldigt fint resultat för oss”",
+          "link": "https://www.svd.se/a/Bx9dBG/busch-kanner-medvind-trots-attacker-inom-tido?utm_medium=rss"
+        },
+        {
+          "source": "Senast publicerat",
+          "title": "Valu: Oppositionen mot seger – Liberalerna kvar",
+          "link": "https://www.svd.se/a/wrm3eA/valet-2026-live-lopande-sammanfattning-valvakan?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Statsvetare: ”Ser ut att vara avgjort”",
+          "link": "https://www.aftonbladet.se/nyheter/a/ln2Xde/statsvetare-ser-ut-att-vara-avgjort?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Övertag för de rödgröna i vallokalsmätning",
+          "link": "https://www.aftonbladet.se/nyheter/a/aJ9LM7/overtag-for-de-rodgrona-i-vallokalsmatning?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Glädje hos C på valvakan: ”Fint val”",
+          "link": "https://www.aftonbladet.se/nyheter/a/3p0QdX/c-ledaren-tror-pa-mittenregering?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "KD: ”Väldigt fint resultat för oss”",
+          "link": "https://www.aftonbladet.se/nyheter/a/2pzKlv/busch-kanner-medvind-trots-attacker-inom-tido?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "V: Då röstar vi nej till Magdalena Andersson",
+          "link": "https://www.aftonbladet.se/nyheter/a/M7GWXm/700-anmalda-till-vansterpartiets-valvaka?utm_medium=rss"
+        },
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Rejält tapp för Sverigedemokraterna: ”Är en besvikelse”",
+          "link": "https://www.expressen.se/nyheter/politik/rejalt-tapp-for-sverigedemokraterna-ar-en-besvikelse/"
+        },
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Fiasko för Tidöpartierna – enligt SVT:s rekordstora Valu",
+          "link": "https://www.expressen.se/nyheter/politik/fiasko-for-tidopartierna-enligt-svts-rekordstora-valu/"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Rysarmatch mellan M och SD om andraplatsen",
+          "link": "https://www.di.se/nyheter/rysarmatch-mellan-m-och-sd-om-andraplatsen/"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Valrysaren: Två grupper har majoritet",
+          "link": "https://www.di.se/nyheter/valrysaren-tva-grupper-har-majoritet/"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "SVT:s Valu: L ser ut att klara spärren",
+          "link": "https://www.di.se/nyheter/svts-valu-l-ser-ut-att-klara-sparren/"
+        },
+        {
+          "source": "Göteborgs-Posten",
+          "title": "Första prognosen i valet – går mot regeringsskifte",
+          "link": "https://www.gp.se/politik/vallokalsundersokningen-oppositionen-storre-an-tido.c4a18f45-7aa8-4c98-b52f-f8b24765ef03"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Statsvetare: ”Ser ut att vara avgjort”",
+          "link": "https://www.sydsvenskan.se/sverige/statsvetare-ser-ut-att-vara-avgjort/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Övertag för de rödgröna i vallokalsmätning",
+          "link": "https://www.sydsvenskan.se/sverige/overtag-for-de-rodgrona-i-vallokalsmatning/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Grafik: Bygg din egen regering",
+          "link": "https://www.sydsvenskan.se/sverige/grafik-bygg-din-egen-regering/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Statsvetare: ”Ser ut att vara avgjort”",
+          "link": "https://www.hd.se/sverige/statsvetare-ser-ut-att-vara-avgjort/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Övertag för de rödgröna i vallokalsmätning",
+          "link": "https://www.hd.se/sverige/overtag-for-de-rodgrona-i-vallokalsmatning/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Ställningen mellan blocken i riksdagsvalet",
+          "link": "https://www.hd.se/skane/stallningen-mellan-blocken-i-riksdagsvalet/"
+        },
+        {
+          "source": "Barometern",
+          "title": "Statsvetare: ”Ser ut att vara avgjort”",
+          "link": "https://www.barometern.se/sverige/statsvetare-ser-ut-att-vara-avgjort/"
+        },
+        {
+          "source": "Barometern",
+          "title": "”Nu blir det ännu svårare för Magdalena Andersson att bilda regering”",
+          "link": "https://www.barometern.se/ledare/nu-blir-det-annu-svarare-for-magdalena-andersson-att-bilda-regering/"
+        },
+        {
+          "source": "Barometern",
+          "title": "Övertag för de rödgröna i vallokalsmätning",
+          "link": "https://www.barometern.se/sverige/overtag-for-de-rodgrona-i-vallokalsmatning/"
+        },
+        {
+          "source": "Altinget",
+          "title": "M&#228;tningarna: R&#246;dgr&#246;n seger och L klarar sp&#228;rren",
+          "link": "https://www.altinget.se/artikel/matningarna-rodgron-seger-och-l-klarar-sparren"
+        },
+        {
+          "source": "Dagens Samhälle - Senaste nytt",
+          "title": "L ser ut att klara spärren – Gulan Avci: ”Svårt att beskriva glädjen”",
+          "link": "https://www.dagenssamhalle.se/styrning-och-beslut/demokrati/l-ser-ut-att-klara-sparren-gulan-avci-svart-att-beskriva-gladjen/"
+        },
+        {
+          "source": "Dagens Samhälle - Senaste nytt",
+          "title": "Dubbeljubel och chock hos Moderaterna i Göteborg",
+          "link": "https://www.dagenssamhalle.se/styrning-och-beslut/kommunpolitik/dubbeljubel-och-chock-hos-moderaterna-i-goteborg/"
+        },
+        {
+          "source": "Dagens Samhälle - Senaste nytt",
+          "title": "SD-besvikelse i Sundsvall – men hopp om lokalt Tidöstyre",
+          "link": "https://www.dagenssamhalle.se/styrning-och-beslut/kommunpolitik/sd-besvikelse-i-sundsvall-men-hopp-om-lokalt-tidostyre/"
+        },
+        {
+          "source": "ETC.se",
+          "title": "Statsvetarna tror på maktskifte: ”Skulle vara sensationell upphämtning”",
+          "link": "https://www.etc.se/inrikes/statsvetarna-tror-paa-maktskifte-skulle-vara-sensationell-upphaemtning?utm_source=rss"
+        },
+        {
+          "source": "ETC.se",
+          "title": "SD tappar stort i skolvalet",
+          "link": "https://www.etc.se/inrikes/storfoerlust-foer-sd-i-landets-skolval?utm_source=rss"
+        }
+      ],
+      "clusterId": "edf5d61c5dd76d93",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "9d76e18219441d8f"
+    },
+    {
+      "clusterIndex": 0,
+      "source": "Inrikes | SVT Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "SVT",
+        "Valu",
+        "Tidöpartierna",
+        "Liberalerna",
+        "Mats Knutson"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-prognos",
+      "facts": [
+        "Oppositionen ser ut att vara flera procentenheter större än Tidöpartierna enligt SVT:s Valu.",
+        "Liberalerna verkar tydligt klara spärren.",
+        "Resultatet möttes av jubel på Liberalernas valvaka.",
+        "Mats Knutson säger att det ser ut att vara väldigt svårt för Tidöpartierna att hämta in."
+      ],
+      "sources": [
+        {
+          "source": "SVT Nyheter",
+          "title": "Oppositionen tydligt större än Tidöpartierna – enligt SVT:s Valu",
+          "link": "https://www.svt.se/nyheter/inrikes/oppositionen-tydligt-storre-an-tidopartierna-enligt-svts-valu"
+        },
+        {
+          "source": "Inrikes | SVT Nyheter",
+          "title": "Oppositionen tydligt större än Tidöpartierna – enligt SVT:s Valu",
+          "link": "https://www.svt.se/nyheter/inrikes/oppositionen-tydligt-storre-an-tidopartierna-enligt-svts-valu"
+        },
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "SVT:s Valu: Liberalerna klarar riksdagsspärren",
+          "link": "https://www.dn.se/sverige/svts-valu-liberalerna-klarar-riksdagssparren/"
+        },
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "Oppositionen störst i SVT:s Valu – L klarar sig över spärren",
+          "link": "https://www.dn.se/sverige/nu-avgors-valet-2026/"
+        },
+        {
+          "source": "Senast publicerat",
+          "title": "Statsvetare: ”Ser ut att vara avgjort”",
+          "link": "https://www.svd.se/a/6qQ128/statsvetare-ser-ut-att-vara-avgjort?utm_medium=rss"
+        },
+        {
+          "source": "Senast publicerat",
+          "title": "Övertag för de rödgröna i vallokalsmätning",
+          "link": "https://www.svd.se/a/q6aXl1/overtag-for-de-rodgrona-i-vallokalsmatning?utm_medium=rss"
+        },
+        {
+          "source": "Senast publicerat",
+          "title": "KD: ”Väldigt fint resultat för oss”",
+          "link": "https://www.svd.se/a/Bx9dBG/busch-kanner-medvind-trots-attacker-inom-tido?utm_medium=rss"
+        },
+        {
+          "source": "Senast publicerat",
+          "title": "Valu: Oppositionen mot seger – Liberalerna kvar",
+          "link": "https://www.svd.se/a/wrm3eA/valet-2026-live-lopande-sammanfattning-valvakan?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Statsvetare: ”Ser ut att vara avgjort”",
+          "link": "https://www.aftonbladet.se/nyheter/a/ln2Xde/statsvetare-ser-ut-att-vara-avgjort?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Övertag för de rödgröna i vallokalsmätning",
+          "link": "https://www.aftonbladet.se/nyheter/a/aJ9LM7/overtag-for-de-rodgrona-i-vallokalsmatning?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Glädje hos C på valvakan: ”Fint val”",
+          "link": "https://www.aftonbladet.se/nyheter/a/3p0QdX/c-ledaren-tror-pa-mittenregering?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "KD: ”Väldigt fint resultat för oss”",
+          "link": "https://www.aftonbladet.se/nyheter/a/2pzKlv/busch-kanner-medvind-trots-attacker-inom-tido?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "V: Då röstar vi nej till Magdalena Andersson",
+          "link": "https://www.aftonbladet.se/nyheter/a/M7GWXm/700-anmalda-till-vansterpartiets-valvaka?utm_medium=rss"
+        },
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Rejält tapp för Sverigedemokraterna: ”Är en besvikelse”",
+          "link": "https://www.expressen.se/nyheter/politik/rejalt-tapp-for-sverigedemokraterna-ar-en-besvikelse/"
+        },
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Fiasko för Tidöpartierna – enligt SVT:s rekordstora Valu",
+          "link": "https://www.expressen.se/nyheter/politik/fiasko-for-tidopartierna-enligt-svts-rekordstora-valu/"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Rysarmatch mellan M och SD om andraplatsen",
+          "link": "https://www.di.se/nyheter/rysarmatch-mellan-m-och-sd-om-andraplatsen/"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Valrysaren: Två grupper har majoritet",
+          "link": "https://www.di.se/nyheter/valrysaren-tva-grupper-har-majoritet/"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "SVT:s Valu: L ser ut att klara spärren",
+          "link": "https://www.di.se/nyheter/svts-valu-l-ser-ut-att-klara-sparren/"
+        },
+        {
+          "source": "Göteborgs-Posten",
+          "title": "Första prognosen i valet – går mot regeringsskifte",
+          "link": "https://www.gp.se/politik/vallokalsundersokningen-oppositionen-storre-an-tido.c4a18f45-7aa8-4c98-b52f-f8b24765ef03"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Statsvetare: ”Ser ut att vara avgjort”",
+          "link": "https://www.sydsvenskan.se/sverige/statsvetare-ser-ut-att-vara-avgjort/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Övertag för de rödgröna i vallokalsmätning",
+          "link": "https://www.sydsvenskan.se/sverige/overtag-for-de-rodgrona-i-vallokalsmatning/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Grafik: Bygg din egen regering",
+          "link": "https://www.sydsvenskan.se/sverige/grafik-bygg-din-egen-regering/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Statsvetare: ”Ser ut att vara avgjort”",
+          "link": "https://www.hd.se/sverige/statsvetare-ser-ut-att-vara-avgjort/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Övertag för de rödgröna i vallokalsmätning",
+          "link": "https://www.hd.se/sverige/overtag-for-de-rodgrona-i-vallokalsmatning/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Ställningen mellan blocken i riksdagsvalet",
+          "link": "https://www.hd.se/skane/stallningen-mellan-blocken-i-riksdagsvalet/"
+        },
+        {
+          "source": "Barometern",
+          "title": "Statsvetare: ”Ser ut att vara avgjort”",
+          "link": "https://www.barometern.se/sverige/statsvetare-ser-ut-att-vara-avgjort/"
+        },
+        {
+          "source": "Barometern",
+          "title": "”Nu blir det ännu svårare för Magdalena Andersson att bilda regering”",
+          "link": "https://www.barometern.se/ledare/nu-blir-det-annu-svarare-for-magdalena-andersson-att-bilda-regering/"
+        },
+        {
+          "source": "Barometern",
+          "title": "Övertag för de rödgröna i vallokalsmätning",
+          "link": "https://www.barometern.se/sverige/overtag-for-de-rodgrona-i-vallokalsmatning/"
+        },
+        {
+          "source": "Altinget",
+          "title": "M&#228;tningarna: R&#246;dgr&#246;n seger och L klarar sp&#228;rren",
+          "link": "https://www.altinget.se/artikel/matningarna-rodgron-seger-och-l-klarar-sparren"
+        },
+        {
+          "source": "Dagens Samhälle - Senaste nytt",
+          "title": "L ser ut att klara spärren – Gulan Avci: ”Svårt att beskriva glädjen”",
+          "link": "https://www.dagenssamhalle.se/styrning-och-beslut/demokrati/l-ser-ut-att-klara-sparren-gulan-avci-svart-att-beskriva-gladjen/"
+        },
+        {
+          "source": "Dagens Samhälle - Senaste nytt",
+          "title": "Dubbeljubel och chock hos Moderaterna i Göteborg",
+          "link": "https://www.dagenssamhalle.se/styrning-och-beslut/kommunpolitik/dubbeljubel-och-chock-hos-moderaterna-i-goteborg/"
+        },
+        {
+          "source": "Dagens Samhälle - Senaste nytt",
+          "title": "SD-besvikelse i Sundsvall – men hopp om lokalt Tidöstyre",
+          "link": "https://www.dagenssamhalle.se/styrning-och-beslut/kommunpolitik/sd-besvikelse-i-sundsvall-men-hopp-om-lokalt-tidostyre/"
+        },
+        {
+          "source": "ETC.se",
+          "title": "Statsvetarna tror på maktskifte: ”Skulle vara sensationell upphämtning”",
+          "link": "https://www.etc.se/inrikes/statsvetarna-tror-paa-maktskifte-skulle-vara-sensationell-upphaemtning?utm_source=rss"
+        },
+        {
+          "source": "ETC.se",
+          "title": "SD tappar stort i skolvalet",
+          "link": "https://www.etc.se/inrikes/storfoerlust-foer-sd-i-landets-skolval?utm_source=rss"
+        }
+      ],
+      "clusterId": "edf5d61c5dd76d93",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "42ee784f281a34da"
+    },
+    {
+      "clusterIndex": 0,
+      "source": "DN.se - Dagens Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "SVT",
+        "Valu",
+        "Liberalerna",
+        "Romina Pourmokhtari"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-prognos",
+      "facts": [
+        "Liberalerna verkar klara riksdagsspärren.",
+        "Enligt SVT:s vallokalsundersökning får Liberalerna 5,4 procent av rösterna i riksdagsvalet.",
+        "Romina Pourmokhtari säger att det är väldigt stor glädje och lättnad."
+      ],
+      "sources": [
+        {
+          "source": "SVT Nyheter",
+          "title": "Oppositionen tydligt större än Tidöpartierna – enligt SVT:s Valu",
+          "link": "https://www.svt.se/nyheter/inrikes/oppositionen-tydligt-storre-an-tidopartierna-enligt-svts-valu"
+        },
+        {
+          "source": "Inrikes | SVT Nyheter",
+          "title": "Oppositionen tydligt större än Tidöpartierna – enligt SVT:s Valu",
+          "link": "https://www.svt.se/nyheter/inrikes/oppositionen-tydligt-storre-an-tidopartierna-enligt-svts-valu"
+        },
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "SVT:s Valu: Liberalerna klarar riksdagsspärren",
+          "link": "https://www.dn.se/sverige/svts-valu-liberalerna-klarar-riksdagssparren/"
+        },
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "Oppositionen störst i SVT:s Valu – L klarar sig över spärren",
+          "link": "https://www.dn.se/sverige/nu-avgors-valet-2026/"
+        },
+        {
+          "source": "Senast publicerat",
+          "title": "Statsvetare: ”Ser ut att vara avgjort”",
+          "link": "https://www.svd.se/a/6qQ128/statsvetare-ser-ut-att-vara-avgjort?utm_medium=rss"
+        },
+        {
+          "source": "Senast publicerat",
+          "title": "Övertag för de rödgröna i vallokalsmätning",
+          "link": "https://www.svd.se/a/q6aXl1/overtag-for-de-rodgrona-i-vallokalsmatning?utm_medium=rss"
+        },
+        {
+          "source": "Senast publicerat",
+          "title": "KD: ”Väldigt fint resultat för oss”",
+          "link": "https://www.svd.se/a/Bx9dBG/busch-kanner-medvind-trots-attacker-inom-tido?utm_medium=rss"
+        },
+        {
+          "source": "Senast publicerat",
+          "title": "Valu: Oppositionen mot seger – Liberalerna kvar",
+          "link": "https://www.svd.se/a/wrm3eA/valet-2026-live-lopande-sammanfattning-valvakan?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Statsvetare: ”Ser ut att vara avgjort”",
+          "link": "https://www.aftonbladet.se/nyheter/a/ln2Xde/statsvetare-ser-ut-att-vara-avgjort?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Övertag för de rödgröna i vallokalsmätning",
+          "link": "https://www.aftonbladet.se/nyheter/a/aJ9LM7/overtag-for-de-rodgrona-i-vallokalsmatning?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Glädje hos C på valvakan: ”Fint val”",
+          "link": "https://www.aftonbladet.se/nyheter/a/3p0QdX/c-ledaren-tror-pa-mittenregering?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "KD: ”Väldigt fint resultat för oss”",
+          "link": "https://www.aftonbladet.se/nyheter/a/2pzKlv/busch-kanner-medvind-trots-attacker-inom-tido?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "V: Då röstar vi nej till Magdalena Andersson",
+          "link": "https://www.aftonbladet.se/nyheter/a/M7GWXm/700-anmalda-till-vansterpartiets-valvaka?utm_medium=rss"
+        },
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Rejält tapp för Sverigedemokraterna: ”Är en besvikelse”",
+          "link": "https://www.expressen.se/nyheter/politik/rejalt-tapp-for-sverigedemokraterna-ar-en-besvikelse/"
+        },
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Fiasko för Tidöpartierna – enligt SVT:s rekordstora Valu",
+          "link": "https://www.expressen.se/nyheter/politik/fiasko-for-tidopartierna-enligt-svts-rekordstora-valu/"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Rysarmatch mellan M och SD om andraplatsen",
+          "link": "https://www.di.se/nyheter/rysarmatch-mellan-m-och-sd-om-andraplatsen/"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Valrysaren: Två grupper har majoritet",
+          "link": "https://www.di.se/nyheter/valrysaren-tva-grupper-har-majoritet/"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "SVT:s Valu: L ser ut att klara spärren",
+          "link": "https://www.di.se/nyheter/svts-valu-l-ser-ut-att-klara-sparren/"
+        },
+        {
+          "source": "Göteborgs-Posten",
+          "title": "Första prognosen i valet – går mot regeringsskifte",
+          "link": "https://www.gp.se/politik/vallokalsundersokningen-oppositionen-storre-an-tido.c4a18f45-7aa8-4c98-b52f-f8b24765ef03"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Statsvetare: ”Ser ut att vara avgjort”",
+          "link": "https://www.sydsvenskan.se/sverige/statsvetare-ser-ut-att-vara-avgjort/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Övertag för de rödgröna i vallokalsmätning",
+          "link": "https://www.sydsvenskan.se/sverige/overtag-for-de-rodgrona-i-vallokalsmatning/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Grafik: Bygg din egen regering",
+          "link": "https://www.sydsvenskan.se/sverige/grafik-bygg-din-egen-regering/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Statsvetare: ”Ser ut att vara avgjort”",
+          "link": "https://www.hd.se/sverige/statsvetare-ser-ut-att-vara-avgjort/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Övertag för de rödgröna i vallokalsmätning",
+          "link": "https://www.hd.se/sverige/overtag-for-de-rodgrona-i-vallokalsmatning/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Ställningen mellan blocken i riksdagsvalet",
+          "link": "https://www.hd.se/skane/stallningen-mellan-blocken-i-riksdagsvalet/"
+        },
+        {
+          "source": "Barometern",
+          "title": "Statsvetare: ”Ser ut att vara avgjort”",
+          "link": "https://www.barometern.se/sverige/statsvetare-ser-ut-att-vara-avgjort/"
+        },
+        {
+          "source": "Barometern",
+          "title": "”Nu blir det ännu svårare för Magdalena Andersson att bilda regering”",
+          "link": "https://www.barometern.se/ledare/nu-blir-det-annu-svarare-for-magdalena-andersson-att-bilda-regering/"
+        },
+        {
+          "source": "Barometern",
+          "title": "Övertag för de rödgröna i vallokalsmätning",
+          "link": "https://www.barometern.se/sverige/overtag-for-de-rodgrona-i-vallokalsmatning/"
+        },
+        {
+          "source": "Altinget",
+          "title": "M&#228;tningarna: R&#246;dgr&#246;n seger och L klarar sp&#228;rren",
+          "link": "https://www.altinget.se/artikel/matningarna-rodgron-seger-och-l-klarar-sparren"
+        },
+        {
+          "source": "Dagens Samhälle - Senaste nytt",
+          "title": "L ser ut att klara spärren – Gulan Avci: ”Svårt att beskriva glädjen”",
+          "link": "https://www.dagenssamhalle.se/styrning-och-beslut/demokrati/l-ser-ut-att-klara-sparren-gulan-avci-svart-att-beskriva-gladjen/"
+        },
+        {
+          "source": "Dagens Samhälle - Senaste nytt",
+          "title": "Dubbeljubel och chock hos Moderaterna i Göteborg",
+          "link": "https://www.dagenssamhalle.se/styrning-och-beslut/kommunpolitik/dubbeljubel-och-chock-hos-moderaterna-i-goteborg/"
+        },
+        {
+          "source": "Dagens Samhälle - Senaste nytt",
+          "title": "SD-besvikelse i Sundsvall – men hopp om lokalt Tidöstyre",
+          "link": "https://www.dagenssamhalle.se/styrning-och-beslut/kommunpolitik/sd-besvikelse-i-sundsvall-men-hopp-om-lokalt-tidostyre/"
+        },
+        {
+          "source": "ETC.se",
+          "title": "Statsvetarna tror på maktskifte: ”Skulle vara sensationell upphämtning”",
+          "link": "https://www.etc.se/inrikes/statsvetarna-tror-paa-maktskifte-skulle-vara-sensationell-upphaemtning?utm_source=rss"
+        },
+        {
+          "source": "ETC.se",
+          "title": "SD tappar stort i skolvalet",
+          "link": "https://www.etc.se/inrikes/storfoerlust-foer-sd-i-landets-skolval?utm_source=rss"
+        }
+      ],
+      "clusterId": "edf5d61c5dd76d93",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "1ad6e2ca39baf0c3"
+    },
+    {
+      "clusterIndex": 0,
+      "source": "Senast publicerat",
+      "claimType": "reported",
+      "entities": [
+        "SVT",
+        "Valu",
+        "rödgröna partierna"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-prognos",
+      "facts": [
+        "De rödgröna partierna har övertaget i SVT:s vallokalsundersökning.",
+        "En statsvetare säger att det ser ut att vara avgjort."
+      ],
+      "sources": [
+        {
+          "source": "SVT Nyheter",
+          "title": "Oppositionen tydligt större än Tidöpartierna – enligt SVT:s Valu",
+          "link": "https://www.svt.se/nyheter/inrikes/oppositionen-tydligt-storre-an-tidopartierna-enligt-svts-valu"
+        },
+        {
+          "source": "Inrikes | SVT Nyheter",
+          "title": "Oppositionen tydligt större än Tidöpartierna – enligt SVT:s Valu",
+          "link": "https://www.svt.se/nyheter/inrikes/oppositionen-tydligt-storre-an-tidopartierna-enligt-svts-valu"
+        },
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "SVT:s Valu: Liberalerna klarar riksdagsspärren",
+          "link": "https://www.dn.se/sverige/svts-valu-liberalerna-klarar-riksdagssparren/"
+        },
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "Oppositionen störst i SVT:s Valu – L klarar sig över spärren",
+          "link": "https://www.dn.se/sverige/nu-avgors-valet-2026/"
+        },
+        {
+          "source": "Senast publicerat",
+          "title": "Statsvetare: ”Ser ut att vara avgjort”",
+          "link": "https://www.svd.se/a/6qQ128/statsvetare-ser-ut-att-vara-avgjort?utm_medium=rss"
+        },
+        {
+          "source": "Senast publicerat",
+          "title": "Övertag för de rödgröna i vallokalsmätning",
+          "link": "https://www.svd.se/a/q6aXl1/overtag-for-de-rodgrona-i-vallokalsmatning?utm_medium=rss"
+        },
+        {
+          "source": "Senast publicerat",
+          "title": "KD: ”Väldigt fint resultat för oss”",
+          "link": "https://www.svd.se/a/Bx9dBG/busch-kanner-medvind-trots-attacker-inom-tido?utm_medium=rss"
+        },
+        {
+          "source": "Senast publicerat",
+          "title": "Valu: Oppositionen mot seger – Liberalerna kvar",
+          "link": "https://www.svd.se/a/wrm3eA/valet-2026-live-lopande-sammanfattning-valvakan?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Statsvetare: ”Ser ut att vara avgjort”",
+          "link": "https://www.aftonbladet.se/nyheter/a/ln2Xde/statsvetare-ser-ut-att-vara-avgjort?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Övertag för de rödgröna i vallokalsmätning",
+          "link": "https://www.aftonbladet.se/nyheter/a/aJ9LM7/overtag-for-de-rodgrona-i-vallokalsmatning?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Glädje hos C på valvakan: ”Fint val”",
+          "link": "https://www.aftonbladet.se/nyheter/a/3p0QdX/c-ledaren-tror-pa-mittenregering?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "KD: ”Väldigt fint resultat för oss”",
+          "link": "https://www.aftonbladet.se/nyheter/a/2pzKlv/busch-kanner-medvind-trots-attacker-inom-tido?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "V: Då röstar vi nej till Magdalena Andersson",
+          "link": "https://www.aftonbladet.se/nyheter/a/M7GWXm/700-anmalda-till-vansterpartiets-valvaka?utm_medium=rss"
+        },
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Rejält tapp för Sverigedemokraterna: ”Är en besvikelse”",
+          "link": "https://www.expressen.se/nyheter/politik/rejalt-tapp-for-sverigedemokraterna-ar-en-besvikelse/"
+        },
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Fiasko för Tidöpartierna – enligt SVT:s rekordstora Valu",
+          "link": "https://www.expressen.se/nyheter/politik/fiasko-for-tidopartierna-enligt-svts-rekordstora-valu/"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Rysarmatch mellan M och SD om andraplatsen",
+          "link": "https://www.di.se/nyheter/rysarmatch-mellan-m-och-sd-om-andraplatsen/"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Valrysaren: Två grupper har majoritet",
+          "link": "https://www.di.se/nyheter/valrysaren-tva-grupper-har-majoritet/"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "SVT:s Valu: L ser ut att klara spärren",
+          "link": "https://www.di.se/nyheter/svts-valu-l-ser-ut-att-klara-sparren/"
+        },
+        {
+          "source": "Göteborgs-Posten",
+          "title": "Första prognosen i valet – går mot regeringsskifte",
+          "link": "https://www.gp.se/politik/vallokalsundersokningen-oppositionen-storre-an-tido.c4a18f45-7aa8-4c98-b52f-f8b24765ef03"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Statsvetare: ”Ser ut att vara avgjort”",
+          "link": "https://www.sydsvenskan.se/sverige/statsvetare-ser-ut-att-vara-avgjort/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Övertag för de rödgröna i vallokalsmätning",
+          "link": "https://www.sydsvenskan.se/sverige/overtag-for-de-rodgrona-i-vallokalsmatning/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Grafik: Bygg din egen regering",
+          "link": "https://www.sydsvenskan.se/sverige/grafik-bygg-din-egen-regering/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Statsvetare: ”Ser ut att vara avgjort”",
+          "link": "https://www.hd.se/sverige/statsvetare-ser-ut-att-vara-avgjort/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Övertag för de rödgröna i vallokalsmätning",
+          "link": "https://www.hd.se/sverige/overtag-for-de-rodgrona-i-vallokalsmatning/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Ställningen mellan blocken i riksdagsvalet",
+          "link": "https://www.hd.se/skane/stallningen-mellan-blocken-i-riksdagsvalet/"
+        },
+        {
+          "source": "Barometern",
+          "title": "Statsvetare: ”Ser ut att vara avgjort”",
+          "link": "https://www.barometern.se/sverige/statsvetare-ser-ut-att-vara-avgjort/"
+        },
+        {
+          "source": "Barometern",
+          "title": "”Nu blir det ännu svårare för Magdalena Andersson att bilda regering”",
+          "link": "https://www.barometern.se/ledare/nu-blir-det-annu-svarare-for-magdalena-andersson-att-bilda-regering/"
+        },
+        {
+          "source": "Barometern",
+          "title": "Övertag för de rödgröna i vallokalsmätning",
+          "link": "https://www.barometern.se/sverige/overtag-for-de-rodgrona-i-vallokalsmatning/"
+        },
+        {
+          "source": "Altinget",
+          "title": "M&#228;tningarna: R&#246;dgr&#246;n seger och L klarar sp&#228;rren",
+          "link": "https://www.altinget.se/artikel/matningarna-rodgron-seger-och-l-klarar-sparren"
+        },
+        {
+          "source": "Dagens Samhälle - Senaste nytt",
+          "title": "L ser ut att klara spärren – Gulan Avci: ”Svårt att beskriva glädjen”",
+          "link": "https://www.dagenssamhalle.se/styrning-och-beslut/demokrati/l-ser-ut-att-klara-sparren-gulan-avci-svart-att-beskriva-gladjen/"
+        },
+        {
+          "source": "Dagens Samhälle - Senaste nytt",
+          "title": "Dubbeljubel och chock hos Moderaterna i Göteborg",
+          "link": "https://www.dagenssamhalle.se/styrning-och-beslut/kommunpolitik/dubbeljubel-och-chock-hos-moderaterna-i-goteborg/"
+        },
+        {
+          "source": "Dagens Samhälle - Senaste nytt",
+          "title": "SD-besvikelse i Sundsvall – men hopp om lokalt Tidöstyre",
+          "link": "https://www.dagenssamhalle.se/styrning-och-beslut/kommunpolitik/sd-besvikelse-i-sundsvall-men-hopp-om-lokalt-tidostyre/"
+        },
+        {
+          "source": "ETC.se",
+          "title": "Statsvetarna tror på maktskifte: ”Skulle vara sensationell upphämtning”",
+          "link": "https://www.etc.se/inrikes/statsvetarna-tror-paa-maktskifte-skulle-vara-sensationell-upphaemtning?utm_source=rss"
+        },
+        {
+          "source": "ETC.se",
+          "title": "SD tappar stort i skolvalet",
+          "link": "https://www.etc.se/inrikes/storfoerlust-foer-sd-i-landets-skolval?utm_source=rss"
+        }
+      ],
+      "clusterId": "edf5d61c5dd76d93",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "ab8031b5f8ff6c49"
+    },
+    {
+      "clusterIndex": 1,
+      "source": "SVT Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Liberalerna",
+        "SVT",
+        "Valu",
+        "Romina Pourmokhtari",
+        "Simona Mohamsson"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-prognos",
+      "facts": [
+        "Liberalerna är klart över spärren i SVT:s Valu.",
+        "Få trodde för några veckor sedan att Liberalerna skulle klara spärren.",
+        "Romina Pourmokhtari säger att de kan andas ut och njuta av allt hårt arbete.",
+        "Pourmokhtari hyllar partiledaren Simona Mohamsson."
+      ],
+      "sources": [
+        {
+          "source": "SVT Nyheter",
+          "title": "Liberalernas jubel – klart över spärren i SVT:s valu",
+          "link": "https://www.svt.se/nyheter/inrikes/liberalernas-jubel-klart-over-sparren-i-svts-valu"
+        },
+        {
+          "source": "Inrikes | SVT Nyheter",
+          "title": "Liberalernas jubel – klart över spärren i SVT:s valu",
+          "link": "https://www.svt.se/nyheter/inrikes/liberalernas-jubel-klart-over-sparren-i-svts-valu"
+        },
+        {
+          "source": "Senast publicerat",
+          "title": "Jubel hos Liberalerna",
+          "link": "https://www.svd.se/a/0pd072/kommer-att-vara-mycket-gladje-har-i-kvall?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Jubel hos Liberalerna",
+          "link": "https://www.aftonbladet.se/nyheter/a/zO2Xyq/kommer-att-vara-mycket-gladje-har-i-kvall?utm_medium=rss"
+        }
+      ],
+      "clusterId": "350bf18074b4dc9c",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "583cc78a0359d2c4"
+    },
+    {
+      "clusterIndex": 1,
+      "source": "Inrikes | SVT Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Liberalerna",
+        "SVT",
+        "Valu",
+        "Romina Pourmokhtari",
+        "Simona Mohamsson"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-prognos",
+      "facts": [
+        "Liberalerna är klart över spärren i SVT:s Valu.",
+        "Få trodde för några veckor sedan att Liberalerna skulle klara spärren.",
+        "Romina Pourmokhtari säger att de kan andas ut och njuta av allt hårt arbete.",
+        "Pourmokhtari hyllar partiledaren Simona Mohamsson."
+      ],
+      "sources": [
+        {
+          "source": "SVT Nyheter",
+          "title": "Liberalernas jubel – klart över spärren i SVT:s valu",
+          "link": "https://www.svt.se/nyheter/inrikes/liberalernas-jubel-klart-over-sparren-i-svts-valu"
+        },
+        {
+          "source": "Inrikes | SVT Nyheter",
+          "title": "Liberalernas jubel – klart över spärren i SVT:s valu",
+          "link": "https://www.svt.se/nyheter/inrikes/liberalernas-jubel-klart-over-sparren-i-svts-valu"
+        },
+        {
+          "source": "Senast publicerat",
+          "title": "Jubel hos Liberalerna",
+          "link": "https://www.svd.se/a/0pd072/kommer-att-vara-mycket-gladje-har-i-kvall?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Jubel hos Liberalerna",
+          "link": "https://www.aftonbladet.se/nyheter/a/zO2Xyq/kommer-att-vara-mycket-gladje-har-i-kvall?utm_medium=rss"
+        }
+      ],
+      "clusterId": "350bf18074b4dc9c",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "a8a9b0edd78bc99b"
+    },
+    {
+      "clusterIndex": 1,
+      "source": "Senast publicerat",
+      "claimType": "reported",
+      "entities": [
+        "Liberalerna",
+        "SVT",
+        "Valu"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-prognos",
+      "facts": [
+        "Det är ett öronbedövande jubel och glädjekramar hos Liberalerna.",
+        "Liberalerna är klart över spärren i SVT:s Valu."
+      ],
+      "sources": [
+        {
+          "source": "SVT Nyheter",
+          "title": "Liberalernas jubel – klart över spärren i SVT:s valu",
+          "link": "https://www.svt.se/nyheter/inrikes/liberalernas-jubel-klart-over-sparren-i-svts-valu"
+        },
+        {
+          "source": "Inrikes | SVT Nyheter",
+          "title": "Liberalernas jubel – klart över spärren i SVT:s valu",
+          "link": "https://www.svt.se/nyheter/inrikes/liberalernas-jubel-klart-over-sparren-i-svts-valu"
+        },
+        {
+          "source": "Senast publicerat",
+          "title": "Jubel hos Liberalerna",
+          "link": "https://www.svd.se/a/0pd072/kommer-att-vara-mycket-gladje-har-i-kvall?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Jubel hos Liberalerna",
+          "link": "https://www.aftonbladet.se/nyheter/a/zO2Xyq/kommer-att-vara-mycket-gladje-har-i-kvall?utm_medium=rss"
+        }
+      ],
+      "clusterId": "350bf18074b4dc9c",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "0fca44b42eac390d"
+    },
+    {
+      "clusterIndex": 1,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Liberalerna",
+        "SVT",
+        "Valu"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-prognos",
+      "facts": [
+        "Det är ett öronbedövande jubel och glädjekramar hos Liberalerna.",
+        "Liberalerna är klart över spärren i SVT:s Valu."
+      ],
+      "sources": [
+        {
+          "source": "SVT Nyheter",
+          "title": "Liberalernas jubel – klart över spärren i SVT:s valu",
+          "link": "https://www.svt.se/nyheter/inrikes/liberalernas-jubel-klart-over-sparren-i-svts-valu"
+        },
+        {
+          "source": "Inrikes | SVT Nyheter",
+          "title": "Liberalernas jubel – klart över spärren i SVT:s valu",
+          "link": "https://www.svt.se/nyheter/inrikes/liberalernas-jubel-klart-over-sparren-i-svts-valu"
+        },
+        {
+          "source": "Senast publicerat",
+          "title": "Jubel hos Liberalerna",
+          "link": "https://www.svd.se/a/0pd072/kommer-att-vara-mycket-gladje-har-i-kvall?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Jubel hos Liberalerna",
+          "link": "https://www.aftonbladet.se/nyheter/a/zO2Xyq/kommer-att-vara-mycket-gladje-har-i-kvall?utm_medium=rss"
+        }
+      ],
+      "clusterId": "350bf18074b4dc9c",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "b2817e449acb8ecf"
+    },
+    {
+      "clusterIndex": 2,
+      "source": "Senast publicerat",
+      "claimType": "reported",
+      "entities": [
+        "svenska valet",
+        "internationella medier"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-uppladdning",
+      "facts": [
+        "Det svenska valet sammanfattas i flera internationella medier som ett regeringsskifte eller en skarpare högersväng."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Så rapporterar omvärlden om svenska valet",
+          "link": "https://www.svd.se/a/gkljQa/sa-rapporterar-omvarlden-om-svenska-valet?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Så rapporterar omvärlden om svenska valet",
+          "link": "https://www.aftonbladet.se/nyheter/a/e7gmvl/sa-rapporterar-omvarlden-om-svenska-valet?utm_medium=rss"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Så rapporterar omvärlden om svenska valet",
+          "link": "https://www.di.se/nyheter/sa-rapporterar-omvarlden-om-svenska-valet/"
+        },
+        {
+          "source": "Nyheter",
+          "title": "Så rapporterar omvärlden om svenska valet",
+          "link": "https://www.nsd.se/nyheter/utrikes/sverige/artikel/sa-rapporterar-omvarlden-om-svenska-valet/jo5qey8l"
+        }
+      ],
+      "clusterId": "b8ddf0c51d1c0983",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "f2ca612ddae3d7eb"
+    },
+    {
+      "clusterIndex": 2,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "svenska valet",
+        "internationella medier"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-uppladdning",
+      "facts": [
+        "Det svenska valet sammanfattas i flera internationella medier som ett regeringsskifte eller en skarpare högersväng."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Så rapporterar omvärlden om svenska valet",
+          "link": "https://www.svd.se/a/gkljQa/sa-rapporterar-omvarlden-om-svenska-valet?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Så rapporterar omvärlden om svenska valet",
+          "link": "https://www.aftonbladet.se/nyheter/a/e7gmvl/sa-rapporterar-omvarlden-om-svenska-valet?utm_medium=rss"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Så rapporterar omvärlden om svenska valet",
+          "link": "https://www.di.se/nyheter/sa-rapporterar-omvarlden-om-svenska-valet/"
+        },
+        {
+          "source": "Nyheter",
+          "title": "Så rapporterar omvärlden om svenska valet",
+          "link": "https://www.nsd.se/nyheter/utrikes/sverige/artikel/sa-rapporterar-omvarlden-om-svenska-valet/jo5qey8l"
+        }
+      ],
+      "clusterId": "b8ddf0c51d1c0983",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "02bc93dc5ccc42b1"
+    },
+    {
+      "clusterIndex": 2,
+      "source": "Dagens industri",
+      "claimType": "reported",
+      "entities": [
+        "svenska valet",
+        "internationella medier",
+        "ytterhögerparti"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-uppladdning",
+      "facts": [
+        "Det svenska valet sammanfattas i flera internationella medier som ett regeringsskifte eller en skarpare högersväng.",
+        "Många internationella medier fokuserar på att ett ytterhögerparti för första gången kan nå regeringsställning."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Så rapporterar omvärlden om svenska valet",
+          "link": "https://www.svd.se/a/gkljQa/sa-rapporterar-omvarlden-om-svenska-valet?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Så rapporterar omvärlden om svenska valet",
+          "link": "https://www.aftonbladet.se/nyheter/a/e7gmvl/sa-rapporterar-omvarlden-om-svenska-valet?utm_medium=rss"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Så rapporterar omvärlden om svenska valet",
+          "link": "https://www.di.se/nyheter/sa-rapporterar-omvarlden-om-svenska-valet/"
+        },
+        {
+          "source": "Nyheter",
+          "title": "Så rapporterar omvärlden om svenska valet",
+          "link": "https://www.nsd.se/nyheter/utrikes/sverige/artikel/sa-rapporterar-omvarlden-om-svenska-valet/jo5qey8l"
+        }
+      ],
+      "clusterId": "b8ddf0c51d1c0983",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "d3bdc50cbeb48415"
+    },
+    {
+      "clusterIndex": 2,
+      "source": "Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "svenska valet",
+        "internationella medier",
+        "ytterhögerparti"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-uppladdning",
+      "facts": [
+        "Det svenska valet sammanfattas i flera internationella medier som ett regeringsskifte eller en skarpare högersväng.",
+        "Många internationella medier fokuserar på att ett ytterhögerparti för första gången kan nå regeringsställning."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Så rapporterar omvärlden om svenska valet",
+          "link": "https://www.svd.se/a/gkljQa/sa-rapporterar-omvarlden-om-svenska-valet?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Så rapporterar omvärlden om svenska valet",
+          "link": "https://www.aftonbladet.se/nyheter/a/e7gmvl/sa-rapporterar-omvarlden-om-svenska-valet?utm_medium=rss"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Så rapporterar omvärlden om svenska valet",
+          "link": "https://www.di.se/nyheter/sa-rapporterar-omvarlden-om-svenska-valet/"
+        },
+        {
+          "source": "Nyheter",
+          "title": "Så rapporterar omvärlden om svenska valet",
+          "link": "https://www.nsd.se/nyheter/utrikes/sverige/artikel/sa-rapporterar-omvarlden-om-svenska-valet/jo5qey8l"
+        }
+      ],
+      "clusterId": "b8ddf0c51d1c0983",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "6cab5a4e71b1c575"
+    },
+    {
+      "clusterIndex": 3,
+      "source": "Senast publicerat",
+      "claimType": "circulating",
+      "entities": [
+        "Moderaterna",
+        "Ulf Kristersson",
+        "oppositionen"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-uppladdning",
+      "facts": [
+        "Om oppositionen vinner en majoritet i valet kommer statsminister Ulf Kristersson (M) inte erkänna sig besegrad."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "M-draget: Kommer inte att erkänna sig besegrad",
+          "link": "https://www.svd.se/a/GxRK56/ulf-kristersson-m-kommer-inte-att-erkanna-sig-besegrad?utm_medium=rss"
+        },
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Socialdemokraternas motplan för att ta över",
+          "link": "https://www.expressen.se/nyheter/politik/socialdemokraternas-motplan-for-att-ta-over/"
+        },
+        {
+          "source": "Expressen: Nyheter",
+          "title": "JUST NU: Expressens valvaka",
+          "link": "https://www.expressen.se/tv/nyheter/live/just-nu-expressens-valvaka"
+        }
+      ],
+      "clusterId": "10104b6924dea08d",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "a964b972b138439a"
+    },
+    {
+      "clusterIndex": 3,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Ulf Kristersson",
+        "Tidö",
+        "Socialdemokraterna",
+        "Ekot",
+        "Expressen"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-uppladdning",
+      "facts": [
+        "Ulf Kristersson kommer inte erkänna sig besegrad om Tidö hamnar i minoritet.",
+        "Flera medier, bland annat Ekot, uppger att Kristersson inte kommer erkänna sig besegrad.",
+        "Socialdemokraterna står redo med ett motdrag enligt Expressens uppgifter."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "M-draget: Kommer inte att erkänna sig besegrad",
+          "link": "https://www.svd.se/a/GxRK56/ulf-kristersson-m-kommer-inte-att-erkanna-sig-besegrad?utm_medium=rss"
+        },
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Socialdemokraternas motplan för att ta över",
+          "link": "https://www.expressen.se/nyheter/politik/socialdemokraternas-motplan-for-att-ta-over/"
+        },
+        {
+          "source": "Expressen: Nyheter",
+          "title": "JUST NU: Expressens valvaka",
+          "link": "https://www.expressen.se/tv/nyheter/live/just-nu-expressens-valvaka"
+        }
+      ],
+      "clusterId": "10104b6924dea08d",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "e93879ac4282808a"
+    },
+    {
+      "clusterIndex": 4,
+      "source": "Senast publicerat",
+      "claimType": "reported",
+      "entities": [
+        "Sverigedemokraterna",
+        "SVT",
+        "Valu"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-prognos",
+      "facts": [
+        "Sverigedemokraterna ser enligt SVT:s vallokalsundersökning ut att backa för första gången i ett riksdagsval."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Risk för ”dubbel käftsmäll” för SD",
+          "link": "https://www.svd.se/a/j02Xje/lindberg-sd-en-hel-del-smutskastning?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Risk för ”dubbel käftsmäll” för SD",
+          "link": "https://www.aftonbladet.se/nyheter/a/3p0Q30/lindberg-sd-en-hel-del-smutskastning?utm_medium=rss"
+        }
+      ],
+      "clusterId": "327a97ec8a52a3a5",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "97d83a318ea14239"
+    },
+    {
+      "clusterIndex": 4,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Sverigedemokraterna",
+        "SVT",
+        "Valu"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-prognos",
+      "facts": [
+        "Sverigedemokraterna ser enligt SVT:s vallokalsundersökning ut att backa för första gången i ett riksdagsval."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Risk för ”dubbel käftsmäll” för SD",
+          "link": "https://www.svd.se/a/j02Xje/lindberg-sd-en-hel-del-smutskastning?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Risk för ”dubbel käftsmäll” för SD",
+          "link": "https://www.aftonbladet.se/nyheter/a/3p0Q30/lindberg-sd-en-hel-del-smutskastning?utm_medium=rss"
+        }
+      ],
+      "clusterId": "327a97ec8a52a3a5",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "1fe32a9dd58d7a95"
+    },
+    {
+      "clusterIndex": 5,
+      "source": "Senast publicerat",
+      "claimType": "reported",
+      "entities": [
+        "Miljöpartiet"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-prognos",
+      "facts": [
+        "Miljöpartiet ser ut att få sin högsta notering hittills.",
+        "Det är glädje och jubel."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "”Förhandlar gör vi när vi har ett valresultat”",
+          "link": "https://www.svd.se/a/7pvLGv/daniel-hellden-mp-en-pirrig-dag?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "”Förhandlar gör vi när vi har ett valresultat”",
+          "link": "https://www.aftonbladet.se/nyheter/a/43wv8e/daniel-hellden-mp-en-pirrig-dag?utm_medium=rss"
+        }
+      ],
+      "clusterId": "106ece525823be6b",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "87d144ccf16fffcb"
+    },
+    {
+      "clusterIndex": 5,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Miljöpartiet"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-prognos",
+      "facts": [
+        "Miljöpartiet ser ut att få sin högsta notering hittills.",
+        "Det är glädje och jubel."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "”Förhandlar gör vi när vi har ett valresultat”",
+          "link": "https://www.svd.se/a/7pvLGv/daniel-hellden-mp-en-pirrig-dag?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "”Förhandlar gör vi när vi har ett valresultat”",
+          "link": "https://www.aftonbladet.se/nyheter/a/43wv8e/daniel-hellden-mp-en-pirrig-dag?utm_medium=rss"
+        }
+      ],
+      "clusterId": "106ece525823be6b",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "b35322bbcb8779af"
+    },
+    {
+      "clusterIndex": 6,
+      "source": "Senast publicerat",
+      "claimType": "reported",
+      "entities": [
+        "Socialdemokraterna",
+        "Magdalena Andersson"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-prognos",
+      "facts": [
+        "Om valresultatet står sig blir Magdalena Andersson statsminister.",
+        "Det är glatt på Socialdemokraternas valvaka."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Glatt på S-vaka: ”Chans till regeringsskifte”",
+          "link": "https://www.svd.se/a/K841R7/mycket-pa-spel-for-s-ledaren?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Glatt på S-vaka: ”Chans till regeringsskifte”",
+          "link": "https://www.aftonbladet.se/nyheter/a/wr2XLL/mycket-pa-spel-for-s-ledaren?utm_medium=rss"
+        }
+      ],
+      "clusterId": "77624977b0cbe351",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "43711e9f6ff1e0dc"
+    },
+    {
+      "clusterIndex": 6,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Socialdemokraterna",
+        "Magdalena Andersson"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-prognos",
+      "facts": [
+        "Om valresultatet står sig blir Magdalena Andersson statsminister.",
+        "Det är glatt på Socialdemokraternas valvaka."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Glatt på S-vaka: ”Chans till regeringsskifte”",
+          "link": "https://www.svd.se/a/K841R7/mycket-pa-spel-for-s-ledaren?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Glatt på S-vaka: ”Chans till regeringsskifte”",
+          "link": "https://www.aftonbladet.se/nyheter/a/wr2XLL/mycket-pa-spel-for-s-ledaren?utm_medium=rss"
+        }
+      ],
+      "clusterId": "77624977b0cbe351",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "80d79e270c89fc2c"
+    },
+    {
+      "clusterIndex": 7,
+      "source": "Senast publicerat",
+      "claimType": "reported",
+      "entities": [
+        "Moderaterna"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-prognos",
+      "facts": [
+        "Moderaterna är fortsatt Sveriges näst största parti.",
+        "Moderaterna backar jämfört med förra valet."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Tunga besked för Moderaterna på valvakan",
+          "link": "https://www.svd.se/a/WvMd2G/m-kampanjar-in-i-det-sista?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Tunga besked för Moderaterna på valvakan",
+          "link": "https://www.aftonbladet.se/nyheter/a/16JwzJ/m-kampanjar-in-i-det-sista?utm_medium=rss"
+        }
+      ],
+      "clusterId": "a52e6f62fdd24ac4",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "526e05f347847be2"
+    },
+    {
+      "clusterIndex": 7,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Moderaterna"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-prognos",
+      "facts": [
+        "Moderaterna är fortsatt Sveriges näst största parti.",
+        "Moderaterna backar jämfört med förra valet."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Tunga besked för Moderaterna på valvakan",
+          "link": "https://www.svd.se/a/WvMd2G/m-kampanjar-in-i-det-sista?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Tunga besked för Moderaterna på valvakan",
+          "link": "https://www.aftonbladet.se/nyheter/a/16JwzJ/m-kampanjar-in-i-det-sista?utm_medium=rss"
+        }
+      ],
+      "clusterId": "a52e6f62fdd24ac4",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "a45be55be4e0a796"
+    },
+    {
+      "clusterIndex": 8,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Jimmie Åkesson",
+        "SVT"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-uppladdning",
+      "facts": [
+        "Åkesson skippar SVT:s valvaka."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Åkesson skippar SVT:s valvaka",
+          "link": "https://www.aftonbladet.se/nyheter/a/d4ePaJ/akesson-skippar-sd-s-valvaka?utm_medium=rss"
+        },
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Därför dissar Åkesson SVT:s valvaka: ”Tråkigt”",
+          "link": "https://www.expressen.se/nyheter/politik/darfor-dissar-akesson-svts-valvaka-trakigt/"
+        }
+      ],
+      "clusterId": "61b873309a23ecfb",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "a240751679a7c5e2"
+    },
+    {
+      "clusterIndex": 8,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Jimmie Åkesson",
+        "SVT",
+        "Oskar Cavalli-Björkman"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-uppladdning",
+      "facts": [
+        "Av tradition brukar partiledarna gästa SVT:s vaka sent på valkvällen.",
+        "Jimmie Åkesson nobbar SVT:s vaka för andra gången på två dagar.",
+        "Presschefen Oskar Cavalli-Björkman säger att det är tråkigt att sitta i deras studio."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Åkesson skippar SVT:s valvaka",
+          "link": "https://www.aftonbladet.se/nyheter/a/d4ePaJ/akesson-skippar-sd-s-valvaka?utm_medium=rss"
+        },
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Därför dissar Åkesson SVT:s valvaka: ”Tråkigt”",
+          "link": "https://www.expressen.se/nyheter/politik/darfor-dissar-akesson-svts-valvaka-trakigt/"
+        }
+      ],
+      "clusterId": "61b873309a23ecfb",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "70f2440e708c86e6"
+    },
+    {
+      "clusterIndex": 9,
+      "source": "Dagens industri",
+      "claimType": "reported",
+      "entities": [
+        "Dagens industri",
+        "DITV"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-uppladdning",
+      "facts": [
+        "Dagens industri sänder live om valdramatiken på DITV."
+      ],
+      "sources": [
+        {
+          "source": "Dagens industri",
+          "title": "LIVE: Följ valdramatiken på DITV",
+          "link": "https://www.di.se/ditv/borsmorgon/live-folj-valdramatiken-pa-ditv/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Livegrafik minut för minut – följ rösträkningen här",
+          "link": "https://www.sydsvenskan.se/sverige/livegrafik-minut-for-minut-folj-rostrakningen-har/"
+        }
+      ],
+      "clusterId": "fedd91f6d6445af0",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "d1b9cfdc0012ad99"
+    },
+    {
+      "clusterIndex": 9,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "Sydsvenskan",
+        "vallokaler"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-uppladdning",
+      "facts": [
+        "Vallokalerna har stängt.",
+        "Röstsiffrorna börjar rulla in.",
+        "Sydsvenskan har livegrafik minut för minut."
+      ],
+      "sources": [
+        {
+          "source": "Dagens industri",
+          "title": "LIVE: Följ valdramatiken på DITV",
+          "link": "https://www.di.se/ditv/borsmorgon/live-folj-valdramatiken-pa-ditv/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Livegrafik minut för minut – följ rösträkningen här",
+          "link": "https://www.sydsvenskan.se/sverige/livegrafik-minut-for-minut-folj-rostrakningen-har/"
+        }
+      ],
+      "clusterId": "fedd91f6d6445af0",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "b0cf232ea4467b1c"
+    },
+    {
+      "clusterIndex": 10,
+      "source": "Göteborgs-Posten",
+      "claimType": "reported",
+      "entities": [
+        "Göteborgs-Posten",
+        "riksdagsvalet",
+        "kommunvalet",
+        "regionvalet"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-uppladdning",
+      "facts": [
+        "Göteborgs-Posten visar de senaste siffrorna från riksdagsvalet, kommunvalet och regionvalet."
+      ],
+      "sources": [
+        {
+          "source": "Göteborgs-Posten",
+          "title": "Följ rösträkningen – minut för minut",
+          "link": "https://www.gp.se/nyheter/sverige/sa-rostar-sverige-har-ar-de-senaste-siffrorna-i-valet-2026.fa76169e-4247-46cc-a7f7-988cc9126c61"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Följ rösträkningen i Malmö direkt – ska S till slut tappa makten?",
+          "link": "https://www.sydsvenskan.se/malmo/folj-rostrakningen-i-malmo-direkt-ska-s-tillslut-tappa-makten/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Grafik: Följ rösträkningen i Lund – minut för minut",
+          "link": "https://www.sydsvenskan.se/lund/grafik-folj-rostrakningen-i-lund-minut-for-minut/"
+        }
+      ],
+      "clusterId": "72a70ad58058f786",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "8ea501249dd07135"
+    },
+    {
+      "clusterIndex": 10,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "Sydsvenskan",
+        "Malmö",
+        "Socialdemokraterna",
+        "kommunvalet"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valhot-goteborg",
+      "facts": [
+        "Sydsvenskan är på plats på valvakor i Malmö och följer rösträkningen i kommunvalet.",
+        "Sydsvenskan rapporterar hela kvällen."
+      ],
+      "sources": [
+        {
+          "source": "Göteborgs-Posten",
+          "title": "Följ rösträkningen – minut för minut",
+          "link": "https://www.gp.se/nyheter/sverige/sa-rostar-sverige-har-ar-de-senaste-siffrorna-i-valet-2026.fa76169e-4247-46cc-a7f7-988cc9126c61"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Följ rösträkningen i Malmö direkt – ska S till slut tappa makten?",
+          "link": "https://www.sydsvenskan.se/malmo/folj-rostrakningen-i-malmo-direkt-ska-s-tillslut-tappa-makten/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Grafik: Följ rösträkningen i Lund – minut för minut",
+          "link": "https://www.sydsvenskan.se/lund/grafik-folj-rostrakningen-i-lund-minut-for-minut/"
+        }
+      ],
+      "clusterId": "72a70ad58058f786",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "953144a63fe655c3"
+    },
+    {
+      "clusterIndex": 11,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "Sverigedemokraterna",
+        "Helsingborg",
+        "Påarp",
+        "Erik Sidén",
+        "valkansliet i Helsingborg"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sd-sms-utskick",
+      "facts": [
+        "En kandidat på Sverigedemokraternas lista till kommunfullmäktige i Helsingborg har under valdagen varit röstmottagare i Påarp.",
+        "Efter upptäckten stoppas hon från att vara med och räkna rösterna.",
+        "Erik Sidén på valkansliet i Helsingborg säger att hon inte får delta i rösträkningen."
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "Röstmottagare står på SD-lista – stoppas från rösträkningen",
+          "link": "https://www.sydsvenskan.se/skane/rostmottagare-star-pa-sd-lista-stoppas-fran-rostrakningen/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Röstmottagare står på SD-lista – stoppas från rösträkningen",
+          "link": "https://www.hd.se/rostmottagare-star-pa-sd-lista-stoppas-fran-rostrakningen/"
+        }
+      ],
+      "clusterId": "f0cd11653664fe61",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "9da3399821ff6f9b"
+    },
+    {
+      "clusterIndex": 11,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "Sverigedemokraterna",
+        "Helsingborg",
+        "Påarp",
+        "Erik Sidén",
+        "valkansliet i Helsingborg"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sd-sms-utskick",
+      "facts": [
+        "En kandidat på Sverigedemokraternas lista till kommunfullmäktige i Helsingborg har under valdagen varit röstmottagare i Påarp.",
+        "Efter upptäckten stoppas hon från att vara med och räkna rösterna.",
+        "Erik Sidén på valkansliet i Helsingborg säger att hon inte får delta i rösträkningen."
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "Röstmottagare står på SD-lista – stoppas från rösträkningen",
+          "link": "https://www.sydsvenskan.se/skane/rostmottagare-star-pa-sd-lista-stoppas-fran-rostrakningen/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Röstmottagare står på SD-lista – stoppas från rösträkningen",
+          "link": "https://www.hd.se/rostmottagare-star-pa-sd-lista-stoppas-fran-rostrakningen/"
+        }
+      ],
+      "clusterId": "f0cd11653664fe61",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "3ad3cdcaf84dffd1"
+    },
+    {
+      "clusterIndex": 13,
+      "source": "SVT Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Haparanda kommun",
+        "Wili Valikainen"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valdagen-soffan",
+      "facts": [
+        "Haparanda kommun har lägst valdeltagande i landet.",
+        "Wili Valikainen, 23, var soffliggare 2022 men har nu röstat för första gången.",
+        "Han säger att det känns fint att åstadkomma något."
+      ],
+      "sources": [
+        {
+          "source": "SVT Nyheter",
+          "title": "Wili, 23, var soffliggare – nu har han röstat för första gången",
+          "link": "https://www.svt.se/nyheter/lokalt/norrbotten/wili-23-var-soffliggare-nu-har-han-rostat-for-forsta-gangen"
+        }
+      ],
+      "clusterId": "89eb385e4705d79a",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "1ed2bd35f6338996"
+    },
+    {
+      "clusterIndex": 14,
+      "source": "DN.se - Dagens Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Vänsterpartiet",
+        "SVT",
+        "Valu",
+        "Maria Forsberg"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-prognos",
+      "facts": [
+        "Vänsterpartiet får 8 procent i SVT:s Valu, en ökning från förra valet om resultatet står sig.",
+        "Detta trots en rad avslöjanden om antisemitism.",
+        "Partisekreteraren Maria Forsberg säger att ingen har pratat om de frågorna när hon knackat dörr."
+      ],
+      "sources": [
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "Vänsterpartiet går starkt i Valun: ”Adjö Tidö”",
+          "link": "https://www.dn.se/sverige/vansterpartiet-gar-starkt-i-valun-adjo-tido/"
+        }
+      ],
+      "clusterId": "146828dad374232d",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "7742a918d255a85a"
+    },
+    {
+      "clusterIndex": 15,
+      "source": "DN.se - Dagens Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "SVT",
+        "Valu",
+        "Liberalerna",
+        "oppositionen"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-prognos",
+      "facts": [
+        "DN sammanfattar dagens nyheter: alla senaste siffrorna om valet, SVT:s Valu, oppositionen störst och L klarar spärren, samt hur en ny regering bildas."
+      ],
+      "sources": [
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "13 september: Missa inte dagens nyheter",
+          "link": "https://www.dn.se/sverige/13-september-missa-inte-dagens-nyheter/"
+        }
+      ],
+      "clusterId": "1e716dca56c9df27",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "1b1f93a54ea86931"
+    },
+    {
+      "clusterIndex": 16,
+      "source": "DN.se - Dagens Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Sverigedemokraterna",
+        "SVT",
+        "Valu",
+        "Richard Jomshof"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-prognos",
+      "facts": [
+        "Stämningen dämpades på Sverigedemokraternas valvaka när SVT:s valundersökning visade att de kan backa för första gången i ett riksdagsval.",
+        "SD-toppen Richard Jomshof säger till DN att det är otroligt deppigt."
+      ],
+      "sources": [
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "SD-toppens besvikelse efter tappet i Valu: ”Vill inte tro det”",
+          "link": "https://www.dn.se/sverige/sd-toppens-besvikelse-efter-tappet-i-valu-vill-inte-tro-det/"
+        }
+      ],
+      "clusterId": "94f15a4a749ee4dd",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "fc2ee26fe02babb8"
+    },
+    {
+      "clusterIndex": 17,
+      "source": "DN.se - Dagens Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "KD",
+        "Liberalerna",
+        "generation alfa",
+        "skolvalet",
+        "MUCF",
+        "Magnus Jägerskog"
+      ],
+      "assertedLink": {
+        "from": "skolval",
+        "to": "intresset för demokratin",
+        "direction": "gynnar"
+      },
+      "linkSource": "DN.se - Dagens Nyheter",
+      "continuesThread": "barn-och-demokrati",
+      "facts": [
+        "När generation alfa röstar i skolvalet för första gången är de mer vänsterorienterade än eleverna för fyra år sedan.",
+        "KD och L hamnar utanför riksdagen om Sveriges elever får bestämma.",
+        "Det är rekordmånga som röstat i år, 23 000 fler än 2022.",
+        "Magnus Jägerskog, generaldirektör på MUCF, säger att de är väldigt glada eftersom de vet att skolval har en positiv inverkan på intresset för demokratin."
+      ],
+      "sources": [
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "KD och L ut ur riksdagen – om Sveriges elever får bestämma",
+          "link": "https://www.dn.se/sverige/kd-och-l-ut-ur-riksdagen-om-sveriges-elever-far-bestamma/"
+        }
+      ],
+      "clusterId": "8a15bfcb024456c4",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "b261af847cde64f8"
+    },
+    {
+      "clusterIndex": 18,
+      "source": "DN.se - Dagens Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Ryssland",
+        "Ukraina",
+        "Carl Bildt",
+        "Warszawa"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "ukraina-kriget",
+      "facts": [
+        "Ett persontåg på väg till Warszawa träffades av en rysk drönare i Ukraina.",
+        "Carl Bildt reste med ett tåg som var bara minuter från det som attackerades."
+      ],
+      "sources": [
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "Ryska drönare mot Ukraina – Bildts tåg nära träffas",
+          "link": "https://www.dn.se/varlden/ryska-dronare-mot-ukraina-bildts-tag-nara-traffas/"
+        }
+      ],
+      "clusterId": "2da84cc746c3aaa5",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "8cb191009d1c7ecc"
+    },
+    {
+      "clusterIndex": 20,
+      "source": "Senast publicerat",
+      "claimType": "reported",
+      "entities": [
+        "Simona Mohamsson"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-prognos",
+      "facts": [
+        "Fenomenet Mohamsson går rakt in i historieböckerna."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Fenomenet Mohamsson rakt in i historieböckerna",
+          "link": "https://www.svd.se/a/0p33lG?pinnedEntry=77444&utm_medium=rss"
+        }
+      ],
+      "clusterId": "0235139be5b21c66",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "9ae75b76609ea20d"
+    },
+    {
+      "clusterIndex": 21,
+      "source": "Senast publicerat",
+      "claimType": "reported",
+      "entities": [
+        "svalorna"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "cultural-events",
+      "facts": [
+        "Den 14 september skulle svalorna enligt gammal svensk tradition lämna oss för året."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Dagen då svalorna spårlöst försvann",
+          "link": "https://www.svd.se/a/GxOjlx/dagen-da-svalorna-sparlost-forsvann?utm_medium=rss"
+        }
+      ],
+      "clusterId": "e6c509f02ce903e1",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "f4ebfc5de469f457"
+    },
+    {
+      "clusterIndex": 22,
+      "source": "Senast publicerat",
+      "claimType": "reported",
+      "entities": [
+        "Sverige"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valrorelse-kritik",
+      "facts": [
+        "Ledare: Det går inte att trona på fornstora dar – nu är det dags att gå vidare.",
+        "Bygget av Sverige fortsätter."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Nu fortsätter bygget av Sverige",
+          "link": "https://www.svd.se/a/Exe5wK/nu-fortsatter-bygget-av-sverige?utm_medium=rss"
+        }
+      ],
+      "clusterId": "94bc718005ac8e6c",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "367c8948856b67c6"
+    },
+    {
+      "clusterIndex": 23,
+      "source": "Senast publicerat",
+      "claimType": "reported",
+      "entities": [
+        "Alexander Ekman"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "cultural-events",
+      "facts": [
+        "Höstens hetaste scenpremiärer inkluderar Alexander Ekmans humor, fixeringen vid yta, nyskriven opera i galopptempo och en bortglömd kvinnlig konstnär."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Här är tolv av höstens hetaste scenpremiärer",
+          "link": "https://www.svd.se/a/V6GwnW/svd-s-scenkritiker-lyfter-fram-tolv-intressanta-hostpremiarer?utm_medium=rss"
+        }
+      ],
+      "clusterId": "87d926c8bff1d810",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "05fc6235144b81fb"
+    },
+    {
+      "clusterIndex": 24,
+      "source": "Senast publicerat",
+      "claimType": "reported",
+      "entities": [
+        "AI",
+        "medborgarna",
+        "myndighetsbeslut",
+        "valrörelsen"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "ai-reglering",
+      "facts": [
+        "En fråga som har saknats i valrörelsen är vilka myndighetsbeslut som fattas i dag med AI i underlaget.",
+        "AI fattar redan beslut om medborgarna."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "”AI fattar redan beslut om medborgarna”",
+          "link": "https://www.svd.se/a/Bxepbw/ai-fattar-redan-beslut-om-medborgarna-skriver-debattorer?utm_medium=rss"
+        }
+      ],
+      "clusterId": "a03b4bf72376b9d5",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "c013394f93bbc2b8"
+    },
+    {
+      "clusterIndex": 0,
+      "source": "Senast publicerat",
+      "claimType": "reported",
+      "entities": [
+        "Centerpartiet",
+        "SVT",
+        "vallokalsundersökning"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "swedish-election-2026",
+      "facts": [
+        "Centerpartiet ligger något över sitt resultat i förra valet enligt SVT:s vallokalsundersökning.",
+        "Glädje rapporteras hos Centerpartiet på valvakan."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Glädje hos C på valvakan: ”Fint val”",
+          "link": "https://www.svd.se/a/j02XJb/c-ledaren-tror-pa-mittenregering?utm_medium=rss"
+        }
+      ],
+      "clusterId": "81597a74ece27167",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "48a5f8c9364edbef"
+    },
+    {
+      "clusterIndex": 1,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Simba"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sports",
+      "facts": [
+        "Seger för 'Simba'.",
+        "Rubriken beskriver en glädjechock men att huvudpersonen saknas."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Glädjechock– men huvudpersonen saknas",
+          "link": "https://www.aftonbladet.se/nyheter/a/OkdPMO/gladjechock-men-huvudpersonen-saknas?utm_medium=rss"
+        }
+      ],
+      "clusterId": "3a81f0badc517fcb",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "26fbc1a698019ea0"
+    },
+    {
+      "clusterIndex": 2,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Miljöpartiet",
+        "MP",
+        "valundersökningen"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "swedish-election-2026",
+      "facts": [
+        "MP gör sitt bästa val någonsin enligt valundersökningen.",
+        "Dubbeljubel rapporteras på MP:s valvaka.",
+        "Citat: 'Vad fan!'"
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "MP gör sitt bästa val någonsin – enligt valundersökningen",
+          "link": "https://www.aftonbladet.se/nyheter/a/xr2XqQ/mp-gor-sitt-basta-val-nagonsin-enligt-valundersokningen?utm_medium=rss"
+        }
+      ],
+      "clusterId": "8d8d5c2f047b44cf",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "759df0c0083d77dd"
+    },
+    {
+      "clusterIndex": 3,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Sverigedemokraterna",
+        "SD-ledamot",
+        "SD-topp",
+        "småpartiröstare"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sd-sms-utskick",
+      "facts": [
+        "En SD-ledamot säger: 'Grattis alla mentalhandikappade småpartiröstare'.",
+        "En SD-topp säger: 'Inte det vi hoppats på'."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "SD-ledamoten: ”Grattis alla mentalhandikappade småpartiröstare”",
+          "link": "https://www.aftonbladet.se/nyheter/a/bOxWl5/rejalt-tapp-for-sd-visar-vallokalsundersokningarna?utm_medium=rss"
+        }
+      ],
+      "clusterId": "609dc330c2503e4f",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "36d1785c58a01275"
+    },
+    {
+      "clusterIndex": 4,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "matematikprofessor",
+        "vänstersidan"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-prognos",
+      "facts": [
+        "En matematikprofessor säger: 'Ser ut som att vänstersidan vinner'.",
+        "Professorn tillägger: 'Om det inte har blivit något fel...'"
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Matematikprofessor: ”Ser ut som att vänstersidan vinner”",
+          "link": "https://www.aftonbladet.se/nyheter/a/XM1J2b/matematikern-den-sidan-vinner-valet?utm_medium=rss"
+        }
+      ],
+      "clusterId": "05aea8a0a9eac8e6",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "a954a9c7dcda7282"
+    },
+    {
+      "clusterIndex": 5,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Skottland",
+        "Wales",
+        "Nordirland",
+        "ledarna för Skottland, Wales och Nordirland"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "uk-politics",
+      "facts": [
+        "Ledarna för Skottland, Wales och Nordirland har kommit överens om att gemensamt sätta press för mer oberoende."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Brittiska landsdelarna vill få mer oberoende",
+          "link": "https://www.aftonbladet.se/nyheter/a/7pvL28/brittiska-landsdelarna-vill-fa-mer-oberoende?utm_medium=rss"
+        }
+      ],
+      "clusterId": "4b3d37c1b02b5de2",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "b4a4909a7cb01b9b"
+    },
+    {
+      "clusterIndex": 6,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "man i 40-årsåldern",
+        "motorcykel",
+        "traktor",
+        "polisen"
+      ],
+      "assertedLink": {
+        "from": "kollision med traktor",
+        "to": "man död",
+        "direction": "orsakar"
+      },
+      "linkSource": "Senaste nytt – nyheter från Aftonbladet",
+      "continuesThread": "traffic-accident",
+      "facts": [
+        "En man i 40-årsåldern på motorcykel har avlidit efter att ha kolliderat med en traktor.",
+        "Uppgiften kommer från polisen enligt Aftonbladet."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Man död i kollision med traktor",
+          "link": "https://www.aftonbladet.se/nyheter/a/16JwLB/man-dod-i-kollision-med-traktor?utm_medium=rss"
+        }
+      ],
+      "clusterId": "0099eaa003bc72f4",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "693b7365a51eae21"
+    },
+    {
+      "clusterIndex": 7,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Menendez-bröderna",
+        "rätten"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "crime-investigations",
+      "facts": [
+        "Menendez-bröderna får snabbspår i rätten.",
+        "De beviljas ny prövning.",
+        "Nya uppgifter eller ny information har framkommit."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Menendez-bröderna får snabbspår i rätten: ”Nya uppgifter”",
+          "link": "https://www.aftonbladet.se/nyheter/a/3peObM/menendez-broderna-far-snabbspar-i-ratten-nya-uppgifter?utm_medium=rss"
+        }
+      ],
+      "clusterId": "5f0aca77efcc0269",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "5e6545d3e311d3b4"
+    },
+    {
+      "clusterIndex": 8,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Kristersson",
+        "rödgrön majoritet",
+        "nyckelspelaren"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "swedish-election-2026",
+      "facts": [
+        "Kristerssons plan vid rödgrön majoritet är att erkänna sig inte besegrad.",
+        "Rödgrön majoritet är inte nog enligt rubriken.",
+        "En nyckelspelare nämns."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Kristerssons plan vid rödgrön majoritet: Erkänner sig inte besegrad",
+          "link": "https://www.aftonbladet.se/nyheter/a/K84184/kristerssons-plan-vid-rodgron-majoritet-erkanner-sig-inte-besegrad?utm_medium=rss"
+        }
+      ],
+      "clusterId": "badf93ee2f4b7e8c",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "6b0f9b50d790e70a"
+    },
+    {
+      "clusterIndex": 9,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Richard Jomshof",
+        "S-politikern"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valrorelse-kritik",
+      "facts": [
+        "Richard Jomshof säger om den hotade S-politikern: 'Inget med det att göra'.",
+        "S-politikern har blivit uthängd och hotad."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Richard Jomshof om hotade S-politikern: Inget med det att göra",
+          "link": "https://www.aftonbladet.se/nyheter/a/2pzKxa/richard-jomshof-om-hotade-s-politikern-inget-med-det-att-gora?utm_medium=rss"
+        }
+      ],
+      "clusterId": "9ee801bdde9dfd6d",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "d307741a2872331b"
+    },
+    {
+      "clusterIndex": 10,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Moderaterna",
+        "M",
+        "Sverigedemokraterna",
+        "SD",
+        "skolvalet",
+        "riksdagen 2026"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "barn-och-demokrati",
+      "facts": [
+        "Moderaterna blir med 32,7 procent av stödet överlägset största parti i skolvalet för riksdagen 2026.",
+        "SD tappar stort i skolvalet."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "M klart störst i skolvalet – SD tappar stort",
+          "link": "https://www.aftonbladet.se/nyheter/a/K841xe/m-klart-storst-i-skolvalet-sd-tappar-stort?utm_medium=rss"
+        }
+      ],
+      "clusterId": "2bf9a6afdf6d2718",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "7d3fc7631a4425f3"
+    },
+    {
+      "clusterIndex": 11,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Örebropartiet",
+        "partitoppen"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valrorelse-kritik",
+      "facts": [
+        "Örebropartiet anklagar en kvinna för valfusk.",
+        "Kvinnan säger: 'Det är så kränkande'.",
+        "Partitoppen säger: 'La inte ut våra sedlar'."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Örebropartiet anklagar henne för valfusk: ”Det är så kränkande”",
+          "link": "https://www.aftonbladet.se/nyheter/a/oE2BBa/orebropartiet-anklagar-henne-for-valfusk-sa-krankande?utm_medium=rss"
+        }
+      ],
+      "clusterId": "ca5141106255fc43",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "c451785f048663df"
+    },
+    {
+      "clusterIndex": 13,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Kristersson"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "swedish-election-2026",
+      "facts": [
+        "Kristersson säger: 'Har medvind'.",
+        "Kristersson har förberett segertal."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Kristersson: ”Har medvind”",
+          "link": "https://www.aftonbladet.se/nyheter/a/M7GWkM/kristersson-har-medvind?utm_medium=rss"
+        }
+      ],
+      "clusterId": "7d693daa15f901d3",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "5b45cb938e02103b"
+    },
+    {
+      "clusterIndex": 14,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "valrörelsen"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valrorelse-kritik",
+      "facts": [
+        "Artikeln listar bäst, sämst och pinsammast i valrörelsen.",
+        "Citat: 'Total katastrof'."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Bäst och pinsammast i valrörelsen: ”Total katastrof”",
+          "link": "https://www.aftonbladet.se/nyheter/a/q6aXvg/bast-och-pinsammast-i-valrorelsen?utm_medium=rss"
+        }
+      ],
+      "clusterId": "0eb1fd60993dacde",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "1020d35022d7e965"
+    },
+    {
+      "clusterIndex": 15,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Maja, 25"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valdagen-soffan",
+      "facts": [
+        "Maja, 25, fick inte rösta.",
+        "Hon beskriver det som en skandal.",
+        "Hon blev hemskickad."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Maja, 25, fick inte rösta: Skandal",
+          "link": "https://www.aftonbladet.se/nyheter/a/5pKMe6/maja-25-fick-inte-rosta-skandal?utm_medium=rss"
+        }
+      ],
+      "clusterId": "82125194340e32cd",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "95e86c9e4dad95c0"
+    },
+    {
+      "clusterIndex": 16,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Postnord",
+        "väljare"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valdagen-soffan",
+      "facts": [
+        "Det rapporteras om långa köer, Postnordförsening och över 1200 incidenter.",
+        "Citat: 'Helt gråtfärdig'.",
+        "Människor har köat i timmar."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Valkaos: Långa köer, Postnordförsening och över 1200 incidenter",
+          "link": "https://www.aftonbladet.se/nyheter/a/3p0Qzd/valkaos-under-slutspurten-langa-koer-och-over-1200-incidenter?utm_medium=rss"
+        }
+      ],
+      "clusterId": "e7d18ba1b9d0ceed",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "f51c7d272c0b9012"
+    },
+    {
+      "clusterIndex": 17,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Pourmokhtari"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valrorelse-kritik",
+      "facts": [
+        "Pourmokhtari säger: 'Inte lika lättsam'.",
+        "Pourmokhtari säger: 'Haft lite konspirationsteorier'."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Pourmokhtari: ”Inte lika lättsam”",
+          "link": "https://www.aftonbladet.se/nyheter/a/xr2XpG/pourmokhtari-jattepirrigt?utm_medium=rss"
+        }
+      ],
+      "clusterId": "fe8732274c3665dd",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "4ab2f13d133d113e"
+    },
+    {
+      "clusterIndex": 19,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Elisha Martin",
+        "Stockholms centralstation"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valdagen-soffan",
+      "facts": [
+        "På centralstationen i Stockholm fortsätter folk köa för att lägga sina röster.",
+        "25-årige Elisha Martin står sist i röstkön och hann ställa sig i kön 15 sekunder innan stängning.",
+        "Han är där för att ogiltigförklara sin gamla röst, inte för att lägga en ny."
+      ],
+      "sources": [
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Elisha står sist i röstkön – hann med 15 sekunder",
+          "link": "https://www.expressen.se/nyheter/politik/elisha-star-sist-i-rostkon-hann-med-15-sekunder/"
+        }
+      ],
+      "clusterId": "2380ded69bb45ebb",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "dd90a32ed73fb902"
+    },
+    {
+      "clusterIndex": 20,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Aftenposten",
+        "Bildt",
+        "Ryssland",
+        "tåg"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "ukraina-kriget",
+      "facts": [
+        "Aftenposten uppger att Bildt kan ha varit möjlig måltavla för en rysk drönarattack.",
+        "Det handlar om en rysk attack mot ett tåg.",
+        "Svensken kan ha varit målet."
+      ],
+      "sources": [
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Aftenposten: Bildt möjlig måltavla för rysk drönarattack",
+          "link": "https://www.expressen.se/nyheter/expressen-direkt/?post=a3a4c961-6a48-41a2-bea2-0c11eb7428c6"
+        }
+      ],
+      "clusterId": "2dd188623cbbe983",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "1eec4746cb0a5f7d"
+    },
+    {
+      "clusterIndex": 21,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Socialdemokraterna",
+        "S",
+        "Valun",
+        "Tobias Baudin",
+        "Sverige"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "swedish-election-2026",
+      "facts": [
+        "Socialdemokraterna backar med 1,9 procentenheter i Valun.",
+        "Partiet är ändå säkert på ett maktskifte.",
+        "Partisekreteraren Tobias Baudin säger: 'Om det här blir valresultatet kommer Sverige att få en ny regering'."
+      ],
+      "sources": [
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Självsäkerhet hos S – trots tappet",
+          "link": "https://www.expressen.se/nyheter/sverige/sjalvsakerhet-hos-s-trots-tappet-/"
+        }
+      ],
+      "clusterId": "9659acfa6390da65",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "8534e1f0bef3ab7b"
+    },
+    {
+      "clusterIndex": 22,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "SVT",
+        "Valu",
+        "Viktor Barth-Kron",
+        "Expressen"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-prognos",
+      "facts": [
+        "SVT:s stora vallokalsundersökning har presenterats.",
+        "Expressens politiska kommentator Viktor Barth-Kron svarar på tre frågor om Valu."
+      ],
+      "sources": [
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Det visar SVT:s Valu – Viktor Barth-Kron svarar",
+          "link": "https://www.expressen.se/kronikorer/viktor-barth-kron/det-visar-svts-valu-viktor-barth-kron-svarar/"
+        }
+      ],
+      "clusterId": "43f85035ee19b322",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "cfd3916b7ae79098"
+    },
+    {
+      "clusterIndex": 23,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "SVT",
+        "Valun"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-prognos",
+      "facts": [
+        "SVT ger besked att de kör Valun 20.00 trots köer."
+      ],
+      "sources": [
+        {
+          "source": "Expressen: Nyheter",
+          "title": "SVT:s besked: Kör Valun 20.00 – trots köer",
+          "link": "https://www.expressen.se/nyheter/politik/allt-om-valet-2026-folj-direktrapporten/?post=9fffc3a4-56fb-48db-a338-8282aeb610d8"
+        }
+      ],
+      "clusterId": "021fc0e8b3550000",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "3068ade5382043dc"
+    },
+    {
+      "clusterIndex": 24,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Andersson",
+        "partiledarna"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "andersson-extrema-krafter",
+      "facts": [
+        "Andersson uttalar sig om samtalen vid en valseger.",
+        "Andersson säger vad hon säger till partiledarna."
+      ],
+      "sources": [
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Andersson: Det säger jag till partiledarna",
+          "link": "https://www.expressen.se/nyheter/politik/allt-om-valet-2026-folj-direktrapporten/?post=37bc7628-703c-4b66-a888-cb4eed7c98dc"
+        }
+      ],
+      "clusterId": "0246329be415f71c",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "66a2ccbd42640207"
+    },
+    {
+      "clusterIndex": 0,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Kristersson",
+        "vallokaler"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valdagen-soffan",
+      "facts": [
+        "Kristersson har framfört krav efter förtidskaoset",
+        "Det har varit köer i vallokalerna"
+      ],
+      "sources": [
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Kristerssons krav efter förtidskaoset",
+          "link": "https://www.expressen.se/nyheter/politik/allt-om-valet-2026-folj-direktrapporten/?post=2ec39b26-dd1a-48cc-a865-9e6493952660"
+        }
+      ],
+      "clusterId": "f2402c5ef064dc31",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "5979c820e8ecf77d"
+    },
+    {
+      "clusterIndex": 1,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Centerpartiet",
+        "Elisabeth Thand Ringqvist",
+        "Moderaterna",
+        "Miljöpartiet",
+        "Kristdemokraterna"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valvaka-stress",
+      "facts": [
+        "C håller igen med champagne",
+        "C har infört bakisförbud på valvakan",
+        "Elisabeth Thand Ringqvist säger att hon kör helt utan alkohol i kväll",
+        "M hade en mästerkocksgodkänd meny",
+        "Miljöpartiet hade en köttmiss",
+        "KD hade en kändiscaterad buffé"
+      ],
+      "sources": [
+        {
+          "source": "Expressen: Nyheter",
+          "title": "C håller igen med champagne: ”Inte bakis”",
+          "link": "https://www.expressen.se/nyheter/politik/c-haller-igen-med--champagneinte-bakis/"
+        }
+      ],
+      "clusterId": "e32e33b2832bd493",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "0c3a7b687a7b2f75"
+    },
+    {
+      "clusterIndex": 3,
+      "source": "Dagens industri",
+      "claimType": "reported",
+      "entities": [
+        "Donald Trump",
+        "Irland",
+        "irländsk whiskey",
+        "USA"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "trump-visit-protests",
+      "facts": [
+        "Trump lovar slopa irländska whiskeytullar",
+        "Irländsk whiskey ska befrias från amerikanska strafftullar",
+        "Trump är på besök på Irland"
+      ],
+      "sources": [
+        {
+          "source": "Dagens industri",
+          "title": "Trump lovar slopa irländska whiskeytullar",
+          "link": "https://www.di.se/nyheter/trump-lovar-slopa-irlandska-whiskeytullar/"
+        }
+      ],
+      "clusterId": "4c13d9e62d3fe61a",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "daa018d2992409df"
+    },
+    {
+      "clusterIndex": 4,
+      "source": "Dagens industri",
+      "claimType": "reported",
+      "entities": [
+        "Karin Enström",
+        "Moderaterna",
+        "Socialdemokraterna",
+        "Tidö"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-uppladdning",
+      "facts": [
+        "Karin Enström är partisekreterare i Moderaterna",
+        "Hon spår en stökig tid om Socialdemokraterna får bilda regering",
+        "Oppositionen har ett stort försprång",
+        "Hon vill inte erkänna sig besegrad ännu"
+      ],
+      "sources": [
+        {
+          "source": "Dagens industri",
+          "title": "M-toppens svar om Tidös framtid",
+          "link": "https://www.di.se/nyheter/m-toppens-svar-om-tidos-framtid/"
+        }
+      ],
+      "clusterId": "c6c5cdb667ba4d9b",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "11c131688c50a509"
+    },
+    {
+      "clusterIndex": 5,
+      "source": "Dagens industri",
+      "claimType": "reported",
+      "entities": [
+        "Christer Gardell",
+        "Magdalena Andersson",
+        "Socialdemokraterna"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-prognos",
+      "facts": [
+        "Christer Gardell spår en mittenregering med Magdalena Andersson som ny statsminister om vallokalsundersökningens maktskifte håller i sig",
+        "Gardell säger att han inte ser någon risk för att en mittenregering skulle schabbla bort det"
+      ],
+      "sources": [
+        {
+          "source": "Dagens industri",
+          "title": "Gardell: Ingen katastrof – spår mittenregering",
+          "link": "https://www.di.se/nyheter/gardell-ingen-katastrof-spar-mittenregering/"
+        }
+      ],
+      "clusterId": "23f08c0d1696ad7d",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "70d1ebc95c6f038c"
+    },
+    {
+      "clusterIndex": 6,
+      "source": "Dagens industri",
+      "claimType": "reported",
+      "entities": [
+        "Sven Hagströmer",
+        "Alexandra Ivanov Hökmark",
+        "Dagens industri",
+        "SVT",
+        "Magdalena Andersson"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-prognos",
+      "facts": [
+        "Sven Hagströmer är finansman",
+        "Alexandra Ivanov Hökmark är Di:s tf politiska redaktör",
+        "De kommenterar utfallet i SVT:s valundersökning",
+        "Hagströmer säger att Magdalena Andersson har ett litet helvete framför sig"
+      ],
+      "sources": [
+        {
+          "source": "Dagens industri",
+          "title": "Hagströmer: \"Magdalena Andersson har ett litet helvete framför sig\"",
+          "link": "https://www.di.se/ditv/nyheter/hagstromer-magdalena-andersson-har-ett-litet-helvete-framfor-sig/"
+        }
+      ],
+      "clusterId": "f6c48e6a395a4f12",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "72cb61e6cdedcd69"
+    },
+    {
+      "clusterIndex": 7,
+      "source": "Dagens industri",
+      "claimType": "reported",
+      "entities": [
+        "Richard Jomshof",
+        "Sverigedemokraterna",
+        "SVT"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sd-sms-utskick",
+      "facts": [
+        "I SVT:s vallokalsundersökning tappar Sverigedemokraterna 3,3 procentenheter mot valresultatet 2022",
+        "Richard Jomshof är riksdagsledamot och tidigare partisekreterare för Sverigedemokraterna",
+        "Jomshof säger att det är en ny verklighet för dem",
+        "Jomshof säger att den dagen kommer då de inte längre växer måste man förstå att de är ett etablerat parti"
+      ],
+      "sources": [
+        {
+          "source": "Dagens industri",
+          "title": "Jomshof: ”Det är en ny verklighet för oss”",
+          "link": "https://www.di.se/nyheter/jomshof-det-ar-en-ny-verklighet-for-oss/"
+        }
+      ],
+      "clusterId": "77d70d8970006ff3",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "d8b776f9954406d7"
+    },
+    {
+      "clusterIndex": 8,
+      "source": "Dagens industri",
+      "claimType": "reported",
+      "entities": [
+        "Sven Hagströmer",
+        "Magdalena Andersson",
+        "Socialdemokraterna",
+        "SVT",
+        "Di TV"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "andersson-extrema-krafter",
+      "facts": [
+        "Socialdemokraterna är säkert nöjda med indikationerna som SVT:s Valu visar",
+        "Hagströmer spår att det blir svårt att bilda en vänsterregering och bedriva politik i den konstellationen",
+        "Hagströmer uttalar sig i Di TV:s valsändning"
+      ],
+      "sources": [
+        {
+          "source": "Dagens industri",
+          "title": "Hagströmer: Andersson får ett helvete",
+          "link": "https://www.di.se/nyheter/hagstromer-andersson-far-ett-helvete/"
+        }
+      ],
+      "clusterId": "89ecdadf3904b841",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "d5875b0fcafdb329"
+    },
+    {
+      "clusterIndex": 9,
+      "source": "Dagens industri",
+      "claimType": "reported",
+      "entities": [
+        "Dagens industri"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "swedish-election-2026",
+      "facts": [
+        "Dagens industri har en samlingssida för rösträkningen i det svenska valet 2026"
+      ],
+      "sources": [
+        {
+          "source": "Dagens industri",
+          "title": "Valet 2026: Följ rösträkningen här",
+          "link": "https://www.di.se/nyheter/valet-2026-folj-rostrakningen-har/"
+        }
+      ],
+      "clusterId": "bd7fa0babf08d7e2",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "82678d197e9a3a5f"
+    },
+    {
+      "clusterIndex": 10,
+      "source": "Dagens industri",
+      "claimType": "reported",
+      "entities": [
+        "Donald Trump",
+        "USA",
+        "AI"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "ai-reglering",
+      "facts": [
+        "Flera branschhöjdare anser att AI-utvecklingen bör bromsas",
+        "USA:s president Donald Trump har inte mycket till övers för det",
+        "Trump spelar ner AI-oro och säger att den som vinner vinner"
+      ],
+      "sources": [
+        {
+          "source": "Dagens industri",
+          "title": "Trump spelar ner AI-oro: ”Den som vinner vinner”",
+          "link": "https://www.di.se/nyheter/trump-spelar-ner-ai-oro-den-som-vinner-vinner/"
+        }
+      ],
+      "clusterId": "b42ec5f224f612ac",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "63555cc48cf15dd5"
+    },
+    {
+      "clusterIndex": 11,
+      "source": "Dagens industri",
+      "claimType": "reported",
+      "entities": [
+        "Magdalena Andersson",
+        "Socialdemokraterna",
+        "Polymarket"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-prognos",
+      "facts": [
+        "Oppositionsledaren Magdalena Andersson rusar på prognosmarknaden Polymarket"
+      ],
+      "sources": [
+        {
+          "source": "Dagens industri",
+          "title": "Magdalena Andersson rusar på Polymarket",
+          "link": "https://www.di.se/nyheter/magdalena-andersson-rusar-pa-polymarket/"
+        }
+      ],
+      "clusterId": "8c7626f851810b2a",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "0cf2969a29c059dc"
+    },
+    {
+      "clusterIndex": 14,
+      "source": "Göteborgs-Posten",
+      "claimType": "reported",
+      "entities": [
+        "Cilla Naumann"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "kultur-mode-2027",
+      "facts": [
+        "Cilla Naumann har skapat en märkvärdig litterär skvader",
+        "Boken heter Juni natt blir aldrig av",
+        "Handlingen: en kvinna flyttar ut på landet och låter vresigheten löpa fritt"
+      ],
+      "sources": [
+        {
+          "source": "Göteborgs-Posten",
+          "title": "En kvinna flyttar ut på landet och låter vresigheten löpa fritt",
+          "link": "https://www.gp.se/kultur/litteratur/litteraturrecension/recension-juni-natt-blir-aldrig-av-av-cilla-naumann-.ca4f1cd6-ab5f-4086-9754-17934185f281"
+        }
+      ],
+      "clusterId": "d8c71d9311b821d5",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "b12ad96600784e60"
+    },
+    {
+      "clusterIndex": 15,
+      "source": "Göteborgs-Posten",
+      "claimType": "reported",
+      "entities": [
+        "Socialdemokraterna"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-prognos",
+      "facts": [
+        "S är störst i vallokalsundersökningen",
+        "Frågan är hur S ska kunna bilda regering",
+        "Nu börjar de riktiga rysaren"
+      ],
+      "sources": [
+        {
+          "source": "Göteborgs-Posten",
+          "title": "Analys: Nu börjar de riktiga rysaren",
+          "link": "https://www.gp.se/politik/valrorelsen-ar-over-nu-borjar-den-riktiga-rysaren.8b0b3347-4c32-40b8-ad66-d5c1b35e02c6"
+        }
+      ],
+      "clusterId": "3db2bccb59681413",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "f2f215618617b481"
+    },
+    {
+      "clusterIndex": 16,
+      "source": "Göteborgs-Posten",
+      "claimType": "reported",
+      "entities": [
+        "Öis",
+        "Holmberg",
+        "Malmö"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "allsvenskan",
+      "facts": [
+        "Öis har inte vunnit sedan 2 augusti",
+        "Mot Malmö kom ny förlust",
+        "Holmbergs prognos visar så många poäng Öis behöver ta"
+      ],
+      "sources": [
+        {
+          "source": "Göteborgs-Posten",
+          "title": "Holmbergs prognos – så många poäng behöver Öis ta",
+          "link": "https://www.gp.se/sport/fotboll/orgryte-is/andreas-holmbergs-prognos-sa-manga-poang-behover-ois-ta.2331dfcf-bb4c-4a36-9196-a3eae1d68e74"
+        }
+      ],
+      "clusterId": "c68002bfc7016066",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "afeb5705b85c053e"
+    },
+    {
+      "clusterIndex": 17,
+      "source": "Göteborgs-Posten",
+      "claimType": "reported",
+      "entities": [],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valdagen-soffan",
+      "facts": [
+        "Det finns hållpunkter att ha koll på",
+        "Då kommer valresultaten"
+      ],
+      "sources": [
+        {
+          "source": "Göteborgs-Posten",
+          "title": "Hållpunkterna att ha koll på",
+          "link": "https://www.gp.se/nyheter/sverige/val-2026-hallpunkterna-att-ha-koll-pa.6aae7738-70f1-4776-af51-e01177974a39"
+        }
+      ],
+      "clusterId": "3d5c2761b9a5fe6b",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "16c085875c1f1f58"
+    },
+    {
+      "clusterIndex": 18,
+      "source": "Göteborgs-Posten",
+      "claimType": "circulating",
+      "entities": [
+        "Örebropartiet",
+        "vallokaler"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valrorelse-kritik",
+      "facts": [
+        "Örebropartiet anklagar fem vallokaler för sabotage",
+        "Enligt anklagelsen ska man ha behövt komma tillbaka åtta gånger"
+      ],
+      "sources": [
+        {
+          "source": "Göteborgs-Posten",
+          "title": "Örebropartiet anklagar fem vallokaler för sabotage",
+          "link": "https://www.gp.se/politik/orebropartiet-anklagar-fem-vallokaler-for-sabotage.4b283ce9-2795-442f-bdc8-a93f84489eea"
+        }
+      ],
+      "clusterId": "599a1806cedf9279",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "051f6facc45572f1"
+    },
+    {
+      "clusterIndex": 19,
+      "source": "Göteborgs-Posten",
+      "claimType": "reported",
+      "entities": [
+        "Nils",
+        "valchefen"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valdagen-soffan",
+      "facts": [
+        "Nils, 18, fick inte rösta i sitt första val",
+        "Någon hade röstat i hans namn",
+        "Nils säger att han är chockad",
+        "Valchefen uttalar sig om hur vanligt det är"
+      ],
+      "sources": [
+        {
+          "source": "Göteborgs-Posten",
+          "title": "Nils, 18, fick inte rösta i sitt första val: ”Jag är chockad”",
+          "link": "https://www.gp.se/nyheter/goteborg/forstagangsvaljaren-nils-18-fick-inte-rosta-skandal.90cb5612-920c-479d-9a63-0a8429aca9a5"
+        }
+      ],
+      "clusterId": "c06844717ff513fe",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "a5fac09fe8f458ea"
+    },
+    {
+      "clusterIndex": 20,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "MFF",
+        "Örgryte",
+        "Jovan Milosavljevic",
+        "Malmö"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "allsvenskan",
+      "facts": [
+        "MFF hade inte en seger hemma i Malmö sedan den 12 juni",
+        "MFF hade bara ett mål i en allsvensk match sedan den 2 augusti",
+        "MFF vann med 4–1 mot Örgryte",
+        "Jovan Milosavljevic var målskytt och succéinhoppare",
+        "Milosavljevic säger att han är bara så lycklig"
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "MFF bröt mardrömssvit på hemmaplan: ”Jag är bara lycklig”",
+          "link": "https://www.sydsvenskan.se/sport/mff-brot-mardromssvit-pa-hemmaplan-jag-ar-bara-lycklig/"
+        }
+      ],
+      "clusterId": "bee957283a24c4b3",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "5c4b1f217eb0c731"
+    },
+    {
+      "clusterIndex": 21,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "Sverigedemokraterna",
+        "Skåne"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sd-sms-utskick",
+      "facts": [
+        "SD:s ras började i Skåne",
+        "Raset började redan för två år sedan"
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "SD:s ras började i Skåne – redan för två år sedan",
+          "link": "https://www.sydsvenskan.se/opinion/moa-berglof/sds-ras-borjade-i-skane-redan-for-tva-ar-sedan/"
+        }
+      ],
+      "clusterId": "1f0e412238427ab2",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "fca4e8e3c003216e"
+    },
+    {
+      "clusterIndex": 22,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "Sydsvenskan",
+        "Lund"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valhot-goteborg",
+      "facts": [
+        "Sydsvenskan är på plats på valvakor i Lund",
+        "Sydsvenskan följer rösträkningen i kommunvalet",
+        "Sydsvenskan rapporterar hela kvällen"
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "Hur går det i Lundavalet? Sydsvenskan rapporterar hela kvällen",
+          "link": "https://www.sydsvenskan.se/lund/hur-gar-det-i-lundavalet-sydsvenskan-rapporterar-hela-kvallen/"
+        }
+      ],
+      "clusterId": "43ee7f5c4fb584ce",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "0b1b1373e852c33e"
+    },
+    {
+      "clusterIndex": 23,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "Sydsvenskan"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valdagen-soffan",
+      "facts": [
+        "Sydsvenskan satsar stenhårt på att ge den bästa och bredaste valrapporteringen",
+        "Det blir blixtsnabb nyhetsuppdatering, bevakning från valvakor, grafik, kommentarer och analyser"
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "Så följer du kvällens valdrama hos Sydsvenskan",
+          "link": "https://www.sydsvenskan.se/malmo/sa-foljer-du-kvallens-valdrama-hos-sydsvenskan/"
+        }
+      ],
+      "clusterId": "1a91f4b49672d491",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "d7a835bfb4b48f66"
+    },
+    {
+      "clusterIndex": 24,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "Malmö FF",
+        "Gaute Helstrup",
+        "Stadion"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "allsvenskan",
+      "facts": [
+        "Tre raka förluster och ett kryss fick räcka",
+        "Malmö FF är åter en vinnare hemma på Stadion",
+        "Nu är det definitivt Gaute Helstrups lagbygge"
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "Nu är MFF definitivt Helstrups lagbygge",
+          "link": "https://www.sydsvenskan.se/sport/nu-ar-mff-definitivt-helstrups-lagbygge/"
+        }
+      ],
+      "clusterId": "7318bdcacfaafb3f",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "0f20a76c9da9ef4f"
+    },
+    {
+      "clusterIndex": 0,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "Malmö FF",
+        "Örgryte"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "allsvenskan",
+      "facts": [
+        "Malmö FF spelade mot Örgryte",
+        "Malmö FF vann hemmasegern"
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "Se alla målen från MFF:s efterlängtade hemmaseger",
+          "link": "https://www.sydsvenskan.se/sport/se-alla-malen-fran-mffs-efterlangtade-hemmaseger/"
+        }
+      ],
+      "clusterId": "50aced4aac3f217a",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "0092997ce6b2199b"
+    },
+    {
+      "clusterIndex": 1,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "Malmö FF",
+        "Örgryte",
+        "Stadion i Malmö"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "allsvenskan",
+      "facts": [
+        "Malmö FF mötte Örgryte hemma på Stadion i Malmö på söndagen",
+        "Malmö FF vann med 4–1",
+        "Fyra spelare betygsätts"
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "Fyra spelare höjde sig mest mot Örgryte",
+          "link": "https://www.sydsvenskan.se/sport/fyra-spelare-hojde-sig-mest-mot-orgryte/"
+        }
+      ],
+      "clusterId": "6c59ed88147b886f",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "fd43dc2cf348887f"
+    },
+    {
+      "clusterIndex": 6,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "Liberalerna",
+        "SVT",
+        "riksdagen"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-prognos",
+      "facts": [
+        "SVT:s vallokalsundersökning talar starkt för att Liberalerna håller sig kvar i riksdagen"
+      ],
+      "sources": [
+        {
+          "source": "hd.se",
+          "title": "L-toppen: ”Man ska ta ut segern i förskott, för då får man vara glad en stund i alla fall”",
+          "link": "https://www.hd.se/landskrona/l-toppen-man-ska-ta-ut-segern-i-forskott-for-da-far-man-vara-glad-en-stund-i-alla-fall/"
+        }
+      ],
+      "clusterId": "1ee7d64c4ec4eac4",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "61e8e911d9794664"
+    },
+    {
+      "clusterIndex": 7,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "Marcus Rossheim",
+        "HD",
+        "ValU"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-prognos",
+      "facts": [
+        "HD:s politiska redaktör Marcus Rossheim kommenterar resultaten från ValU"
+      ],
+      "sources": [
+        {
+          "source": "hd.se",
+          "title": "Marcus Rossheim kommenterar ValU",
+          "link": "https://www.hd.se/sverige/marcus-rossheim-kommenterar-valu/"
+        }
+      ],
+      "clusterId": "28b11641353f14c3",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "e7b40d7736eb2407"
+    },
+    {
+      "clusterIndex": 8,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "Fredrik Olofsson",
+        "Rögle"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sports",
+      "facts": [
+        "Fredrik Olofsson blev pappa för första gången mitt under SM-finalen i våras",
+        "Fredrik Olofsson inför sin andra säsong i Rögle"
+      ],
+      "sources": [
+        {
+          "source": "hd.se",
+          "title": "Röglestjärnans intensiva och roliga tillvaro:”Vardagen är helt ny”",
+          "link": "https://www.hd.se/sport/roglestjarnans-intensiva-och-roliga-tillvarovardagen-ar-helt-ny/"
+        }
+      ],
+      "clusterId": "5aff6ff74f25528f",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "786888d4c28af0b5"
+    },
+    {
+      "clusterIndex": 9,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "Perstorp",
+        "Bjuv",
+        "Klippan",
+        "Båstad",
+        "Landskrona"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valdagen-soffan",
+      "facts": [
+        "Rösträkning kan följas lokalt, regionalt och nationellt i realtid i Perstorp, Bjuv, Klippan, Båstad och Landskrona"
+      ],
+      "sources": [
+        {
+          "source": "hd.se",
+          "title": "Följ rösträkningen i Perstorp",
+          "link": "https://www.hd.se/perstorp/folj-rostrakningen-i-perstorp/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Följ rösträkningen i Bjuv",
+          "link": "https://www.hd.se/bjuv/folj-rostrakningen-i-bjuv/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Följ rösträkningen i Klippan",
+          "link": "https://www.hd.se/klippan/folj-rostrakningen-i-klippan/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Följ rösträkningen i Båstad",
+          "link": "https://www.hd.se/bastad/folj-rostrakningen-i-bastad/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Följ rösträkningen i Landskrona",
+          "link": "https://www.hd.se/landskrona/folj-rostrakningen-i-landskrona/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Följ rösträkningen i Helsingborg",
+          "link": "https://www.hd.se/helsingborg/folj-rostrakningen-i-helsingborg/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Följ rösträkningen i Ängelholm",
+          "link": "https://www.hd.se/angelholm/folj-rostrakningen-i-angelholm/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Följ rösträkningen i Örkelljunga",
+          "link": "https://www.hd.se/orkelljunga/folj-rostrakningen-i-orkelljunga/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Följ rösträkningen i Höganäs",
+          "link": "https://www.hd.se/hoganas/folj-rostrakningen-i-hoganas/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Följ rösträkningen i Svalöv",
+          "link": "https://www.hd.se/svalov/folj-rostrakningen-i-svalov/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Följ rösträkningen i Åstorp",
+          "link": "https://www.hd.se/astorp/folj-rostrakningen-i-astorp/"
+        }
+      ],
+      "clusterId": "2337098e23a38d3b",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "bdbda363e74b3dfb"
+    },
+    {
+      "clusterIndex": 10,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "Valmyndigheten"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valdagen-soffan",
+      "facts": [
+        "Rösträkningen kan följas minut för minut",
+        "Siffror uppdateras i realtid via Valmyndigheten",
+        "Användare kan se hur grannar röstar och bygga sin egen regering"
+      ],
+      "sources": [
+        {
+          "source": "hd.se",
+          "title": "Supergrafik: Följ rösträkningen här – minut för minut",
+          "link": "https://www.hd.se/sverige/supergrafik-folj-rostrakningen-har/"
+        }
+      ],
+      "clusterId": "f6f42ffa615c0c49",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "06d50993ac8793ae"
+    },
+    {
+      "clusterIndex": 11,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "Västra Karup"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sports-results",
+      "facts": [
+        "Västra Karups vinstsvit är slut"
+      ],
+      "sources": [
+        {
+          "source": "hd.se",
+          "title": "Vinstsviten slut för Västra Karup",
+          "link": "https://www.hd.se/sport/hemmaplan/vastra-karup-foll-och-stannade-pa-16-raka-segrar/"
+        }
+      ],
+      "clusterId": "460a2eba3dfae49d",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "6068d6cbc7c03a6e"
+    },
+    {
+      "clusterIndex": 12,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "Ängelholm"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sports-results",
+      "facts": [
+        "Ängelholm låg under i halvtid och vände matchen"
+      ],
+      "sources": [
+        {
+          "source": "hd.se",
+          "title": "Underläge i halvtid – då vände Ängelholm",
+          "link": "https://www.hd.se/sport/hemmaplan/underlage-i-halvtid-da-vande-angelholm/"
+        }
+      ],
+      "clusterId": "6533b04e3575c7ca",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "df07dc9d03fb0753"
+    },
+    {
+      "clusterIndex": 16,
+      "source": "Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "kommuner",
+        "riksdagsvalet",
+        "kommunvalet",
+        "regionvalet"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valdagen-soffan",
+      "facts": [
+        "Rösterna räknas och resultaten börjar komma in",
+        "Valresultatet kan följas lokalt, kommun för kommun",
+        "Väljarna har röstat i riksdags-, kommun- och regionvalet"
+      ],
+      "sources": [
+        {
+          "source": "Nyheter",
+          "title": "Så röstar DIN kommun – valresultatet direkt",
+          "link": "https://www.nsd.se/nyheter/norrbottens-lan/artikel/folj-valresultatet-i-din-kommun-direkt/j82q0xyj"
+        }
+      ],
+      "clusterId": "c9f55a4ef1c5c2f1",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "0a0d1b312c7d1599"
+    },
+    {
+      "clusterIndex": 17,
+      "source": "Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Victor Hugoson",
+        "Alvik",
+        "Luleå FC",
+        "division 4 Norrbotten uppflyttning herr"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sports-results",
+      "facts": [
+        "Alvik vann med 2-0 borta mot Luleå FC i division 4 Norrbotten uppflyttning herr",
+        "Victor Hugoson gjorde två mål"
+      ],
+      "sources": [
+        {
+          "source": "Nyheter",
+          "title": "Victor Hugoson tvåmålsskytt när Alvik vann",
+          "link": "https://www.nsd.se/sport/fotboll/artikel/victor-hugoson-tvamalsskytt-nar-alvik-vann/l78dmg0j"
+        }
+      ],
+      "clusterId": "cc9f1e67d8177bd0",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "cfb4ca3f8c73f2ba"
+    },
+    {
+      "clusterIndex": 18,
+      "source": "Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Jenni Hiirikoski",
+        "Luleå",
+        "Skellefteå",
+        "Warrior Career Excellence Award"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sports",
+      "facts": [
+        "Jenni Hiirikoski hyllades inför hemmapubliken före seriepremiären mot Skellefteå",
+        "Hiirikoski tog emot Warrior Career Excellence Award",
+        "Hiirikoski var mer nervös över hyllningen än matchen"
+      ],
+      "sources": [
+        {
+          "source": "Nyheter",
+          "title": "Hyllningen fick Hiirikoski att stanna upp: \"Det berörde mig\"",
+          "link": "https://www.nsd.se/sport/ishockey/artikel/hyllningen-fick-hiirikoski-att-stanna-upp-det-berorde-mig/jdq95x0r"
+        }
+      ],
+      "clusterId": "c86ffc17982b1746",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "d71549346c6b3e0a"
+    },
+    {
+      "clusterIndex": 19,
+      "source": "Nyheter",
+      "claimType": "verified",
+      "entities": [
+        "Trafikverket",
+        "E4",
+        "Lappnäset",
+        "trafikplats Hortlax"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "traffic-accident",
+      "facts": [
+        "Ett rådjur rör sig på eller i närheten av vägbanan i båda riktningarna på E4 mellan Lappnäset och trafikplats Hortlax",
+        "Trafiken påverkas",
+        "Uppgiften kommer från Trafikverket"
+      ],
+      "sources": [
+        {
+          "source": "Nyheter",
+          "title": "Rådjur på fel sida viltstängslet på E4",
+          "link": "https://www.nsd.se/trafik/pitea-kommun/artikel/radjur-pa-fel-sida-viltstangslet-pa-e4/l61z0m9j"
+        }
+      ],
+      "clusterId": "52b0906c599436e3",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "1f1d0a05eba01a46"
+    },
+    {
+      "clusterIndex": 20,
+      "source": "Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Miljöpartiet",
+        "NSD",
+        "Paulus Kuoljok"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valrorelse-kritik",
+      "facts": [
+        "Miljöpartiets svar om gruvor och ingrepp har väckt reaktioner efter NSD:s valenkät",
+        "Paulus Kuoljok var på plats vid en röstningslokal och mötte väljare på valdagen",
+        "MP:s svar beskrevs som lite kategoriskt"
+      ],
+      "sources": [
+        {
+          "source": "Nyheter",
+          "title": "Reaktioner på MP:s valguide: \"Vårt svar var lite kategoriskt\"",
+          "link": "https://www.nsd.se/nyheter/gallivare/artikel/miljopartiet-fortydligar-svar-om-gruvkommun/jn3qz5nr"
+        }
+      ],
+      "clusterId": "6d693e45517ce397",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "b05efc2c6ae732a8"
+    },
+    {
+      "clusterIndex": 22,
+      "source": "Barometern",
+      "claimType": "reported",
+      "entities": [
+        "riksdagsvalet",
+        "regionen",
+        "länets kommuner"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valdagen-soffan",
+      "facts": [
+        "Alla siffror från valet 2026 finns hos Barometern",
+        "Rösterna börjar räknas klockan 20",
+        "Siffrorna uppdateras löpande under kvällen och natten",
+        "Vallokalerna har stängt",
+        "Rösterna har börjat räknas",
+        "Resultatet där man bor kan följas i en räknare"
+      ],
+      "sources": [
+        {
+          "source": "Barometern",
+          "title": "Valet i siffror – här hittar du senaste resultaten",
+          "link": "https://www.barometern.se/kalmar-lan/valet-i-siffror-har-hittar-du-senaste-resultaten/"
+        },
+        {
+          "source": "Barometern",
+          "title": "Så röstade dina grannar – se resultatet där du bor",
+          "link": "https://www.barometern.se/kalmar-lan/sa-rostade-dina-grannar/"
+        }
+      ],
+      "clusterId": "599adb1692ad01d2",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "e782f468db2cf600"
+    },
+    {
+      "clusterIndex": 23,
+      "source": "Barometern",
+      "claimType": "reported",
+      "entities": [
+        "Kalmar AIK",
+        "Ramdala/Kristianopel"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sports-results",
+      "facts": [
+        "Kalmar AIK förlorade hemma mot Ramdala/Kristianopel"
+      ],
+      "sources": [
+        {
+          "source": "Barometern",
+          "title": "Förlust hemma för Kalmar AIK mot Ramdala/Kristianopel",
+          "link": "https://www.barometern.se/sport/forlust-hemma-for-kalmar-aik-mot-ramdalakristianopel/"
+        }
+      ],
+      "clusterId": "6491ef73f21ab8a6",
+      "runId": "2026-09-13T19:36:56.798Z",
+      "observedAt": "2026-09-13T19:36:56.798Z",
+      "hash": "06271adcad5ae7a4"
     }
   ],
   "published": [],
@@ -16155,6 +19984,11 @@
       "key": "transition:bb5d9781ecc58d5f",
       "reason": "DeepSeek 400: {\"error\":{\"message\":\"Prompt must contain the word 'json' in some form to use 'response_format' of type 'json_object'.\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":\"invalid_request_error\"}}",
       "at": "2026-09-13T17:00:42.245Z"
+    },
+    {
+      "key": "transition:bb5d9781ecc58d5f",
+      "reason": "DeepSeek 400: {\"error\":{\"message\":\"Prompt must contain the word 'json' in some form to use 'response_format' of type 'json_object'.\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":\"invalid_request_error\"}}",
+      "at": "2026-09-13T19:36:56.798Z"
     }
   ]
 }
