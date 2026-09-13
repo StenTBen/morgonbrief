@@ -37,7 +37,9 @@
 
     --sans: 'Inter', system-ui, -apple-system, sans-serif;
     --mono: 'JetBrains Mono', ui-monospace, monospace;
-    --gutter: 32px;
+    --gutter: 24px;   /* narrowed from 32: the index column only ever holds two
+                         digits, and the extra width read as an empty margin
+                         down the left edge rather than as structure. */
     --pad: 20px;
     --dock-h: 128px;
   }
@@ -115,16 +117,68 @@
   .item {
     display: grid;
     grid-template-columns: var(--gutter) minmax(0, 1fr);
-    gap: 14px;
-    padding: 20px 0;
+    gap: 11px;
+    padding: 17px 0;
     border-top: 1px solid var(--line-soft);
   }
-  .item:first-of-type { border-top: none; padding-top: 22px; }
+  .item:first-of-type { border-top: none; }
+  /* Right-aligned and set on the kicker's baseline. Left-aligned in a wide
+     column, the number floated in space with nothing under it; against the
+     text edge it reads as a margin note on the line it belongs to. */
   .num {
-    font-family: var(--mono); font-size: .8rem; font-weight: 500;
-    color: var(--slate-dim); line-height: 1.35; letter-spacing: -.02em;
+    font-family: var(--mono); font-size: .72rem; font-weight: 500;
+    color: var(--slate-dim); line-height: 1.5; letter-spacing: -.02em;
+    text-align: right; padding-top: 1px;
   }
-  .item.lead .num { color: var(--sage); }
+
+  /* ---------- the hero ---------- */
+  /* One per area, and the only place this design raises its voice. It breaks
+     the wrap's padding and runs edge to edge, which is why it needs no border,
+     no card and no accent colour to stand out - the full bleed IS the emphasis,
+     and everything below it can stay quiet.
+
+     Two forms. With a photograph: the headline sits inside the image over a
+     scrim. Without one: the headline carries the space alone at a size nothing
+     else on the page uses. No placeholder art, no gradient standing in for a
+     picture - a decorative image on a news brief implies a photograph nobody
+     took. */
+  .hero {
+    display: block;
+    margin: 4px calc(var(--pad) * -1) 0;
+    padding: 0 0 20px;
+    border-bottom: 1px solid var(--line);
+  }
+  .hero-figure { position: relative; margin: 0 0 16px; background: var(--near); }
+  .hero-figure img {
+    display: block; width: 100%; aspect-ratio: 5 / 4;
+    object-fit: cover;
+  }
+  /* The scrim is opaque enough at the bottom that white type is legible over
+     any photograph, including a bright sky. Tested against the worst case
+     rather than the average one. */
+  .hero-figure::after {
+    content: ''; position: absolute; inset: 0; pointer-events: none;
+    background: linear-gradient(to bottom,
+      rgba(0,0,0,0) 34%, rgba(0,0,0,.62) 68%, rgba(0,0,0,.94) 100%);
+  }
+  .hero-figure .hero-type {
+    position: absolute; left: var(--pad); right: var(--pad); bottom: 18px; z-index: 1;
+  }
+  .hero-body { padding: 0 var(--pad); }
+  .hero-type .kicker { color: var(--sage); }
+
+  .hero h2 {
+    color: var(--white);
+    font-size: 2.05rem; font-weight: 800; line-height: 1.05; letter-spacing: -.035em;
+    margin: 0;
+    text-wrap: balance;
+  }
+  /* Typographic form: no image to sit on, so the type takes the room instead. */
+  .hero.plain .hero-type { padding: 6px var(--pad) 16px; }
+  .hero.plain h2 { font-size: 2.3rem; }
+
+  .hero .dek { font-size: .99rem; line-height: 1.5; margin: 0 0 10px; }
+  .hero .synthes { font-size: .89rem; }
 
   .shot {
     display: block; width: 100%; aspect-ratio: 16 / 9;
@@ -148,7 +202,6 @@
     margin: 0 0 7px;
   }
   .dek { color: var(--cream); font-size: .9rem; line-height: 1.55; margin: 0 0 9px; white-space: pre-line; }
-  .item.lead .dek { font-size: .96rem; }
   .clamped .dek { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
   .clamped .synthes, .clamped details.sources, .clamped .actions { display: none; }
   .synthes { color: var(--sage-deep); font-size: .85rem; line-height: 1.5; margin: 0 0 9px; white-space: pre-line; }
@@ -185,6 +238,21 @@
     border-bottom: 1px solid transparent;
   }
   .actions button[data-chosen="true"] { color: var(--sage); border-bottom-color: var(--sage); }
+
+  /* A SEPARATE row, not three more buttons in the same one.
+     .actions is mutually exclusive by design - choosing Mindre clears Mer. Put
+     Svårare in that group and it would silently erase a relevance vote, so one
+     tap would answer two different questions and neither signal would survive.
+     Different question, different row, different store. */
+  .levels { display: flex; gap: 14px; margin-top: 7px; }
+  .levels button {
+    appearance: none; background: none; border: none; padding: 4px 0;
+    font-family: var(--mono); font-size: .6rem; letter-spacing: .1em;
+    color: var(--slate-dim); text-transform: uppercase; cursor: pointer;
+    border-bottom: 1px solid transparent;
+  }
+  .levels button[data-chosen="true"] { color: var(--cream); border-bottom-color: var(--cream); }
+  .clamped .levels { display: none; }
 
   .notice { color: var(--slate); font-size: .9rem; line-height: 1.6; padding: 22px 0; }
 
@@ -266,7 +334,7 @@
     .scrub:hover .scrub-knob { opacity: 1; }
   }
   @media (max-width: 360px) {
-    :root { --pad: 16px; --gutter: 26px; }
+    :root { --pad: 16px; --gutter: 20px; }
     .lede { font-size: 1.9rem; }
     .item h2 { font-size: 1.4rem; }
     .filter { font-size: .69rem; }
@@ -367,15 +435,24 @@ const areaFor = (id) => (id === 'all' ? ALL : AREAS.find((a) => a.id === id));
 /* Votes are remembered on the device. Firestore is write-only by design (the
    rules forbid reading it back), so without this the buttons forget every
    choice the moment the app closes. */
+/* Two stores because there are two questions.
+   VOTES  - relevance and depth: Mer / Mindre / Fördjupa, one answer per entry.
+   LEVELS - assumed prior knowledge: Svårare / Enklare, one answer per entry.
+   Kept apart so that answering one never clears the other. */
 const VOTES = 'morgonbrief.votes';
-const loadVotes = () => { try { return JSON.parse(localStorage.getItem(VOTES) ?? '{}'); } catch { return {}; } };
-const saveVote = (id, vote) => {
+const LEVELS = 'morgonbrief.levels';
+
+const loadStore = (key) => { try { return JSON.parse(localStorage.getItem(key) ?? '{}'); } catch { return {}; } };
+const loadVotes = () => loadStore(VOTES);
+const loadLevels = () => loadStore(LEVELS);
+
+const saveChoice = (key, id, choice) => {
   try {
-    const all = loadVotes();
-    if (all[id] === vote) delete all[id]; else all[id] = vote; // tapping again clears it
-    localStorage.setItem(VOTES, JSON.stringify(all));
+    const all = loadStore(key);
+    if (all[id] === choice) delete all[id]; else all[id] = choice; // tapping again clears it
+    localStorage.setItem(key, JSON.stringify(all));
     return all[id] ?? null;
-  } catch { return vote; }
+  } catch { return choice; }
 };
 
 let feedData = null, selected = 'all';
@@ -467,7 +544,7 @@ function renderView() {
   $('filterStatus').textContent = `${area.heading}. ${items.length} poster.`;
 
   app.innerHTML = items.length
-    ? items.map((item, i) => row(item, i)).join('')
+    ? hero(items[0]) + items.slice(1).map((item, i) => row(item, i + 1)).join('')
     : `<p class="notice">Inget under ${esc(area.label)} idag. Tryck Allt för hela flödet.</p>`;
 
   wireLead();
@@ -513,31 +590,62 @@ function sourcesOf(item) {
 
 function actionsOf(item) {
   const chosen = loadVotes()[item.id] ?? null;
+  const level = loadLevels()[item.id] ?? null;
   return `
-    <div class="actions">
+    <div class="actions" data-store="votes">
       <button data-vote="up"     data-chosen="${chosen === 'up'}">Mer</button>
       <button data-vote="down"   data-chosen="${chosen === 'down'}">Mindre</button>
       <button data-vote="deeper" data-chosen="${chosen === 'deeper'}">Fördjupa</button>
+    </div>
+    <div class="levels" data-store="levels">
+      <button data-vote="harder" data-chosen="${level === 'harder'}">Svårare</button>
+      <button data-vote="easier" data-chosen="${level === 'easier'}">Enklare</button>
     </div>`;
 }
 
-function row(item, i) {
-  const lead = i === 0;
+/* The day's lead for whichever area is selected. Unnumbered on purpose: the
+   running index counts the feed, and the hero is not in the feed - it is the
+   thing the feed is beneath. Numbering it 01 would make the first ordinary
+   entry 02 and imply the hero is merely first among equals. */
+function hero(item) {
+  const img = shot(item).replace('class="shot"', 'class="hero-img"');
+  const type = `
+    <div class="hero-type">
+      <p class="kicker">${esc(item.kategori || item.sphere || '')}</p>
+      <h2>${esc(item.rubrik)}</h2>
+    </div>`;
+
   return `
-    <article class="item${lead ? ' lead clamped' : ''}" ${lead ? 'id="leadItem"' : ''}
+    <article class="hero${img ? '' : ' plain'} clamped" id="leadItem"
              data-id="${esc(item.id)}" data-sphere="${esc(item.sphere ?? '')}">
-      <div class="num" aria-hidden="true">${pad2(i + 1)}</div>
-      <div>
-        ${lead ? shot(item) : ''}
-        <p class="kicker">${esc(item.kategori || item.sphere || '')}</p>
-        ${lead ? `<h2>${esc(item.rubrik)}</h2>` : `<h3>${esc(item.rubrik)}</h3>`}
+      ${img ? `<figure class="hero-figure">${img}${type}</figure>` : type}
+      <div class="hero-body">
         <p class="dek">${esc(item.sammanfattning)}</p>
         ${item.synthes ? `<p class="synthes">${esc(item.synthes)}</p>` : ''}
         ${item.varfor ? `<p class="synthes">${esc(item.varfor)}</p>` : ''}
         ${metaOf(item)}
         ${sourcesOf(item)}
         ${actionsOf(item)}
-        ${lead ? `<button class="more" id="leadMore" type="button">Läs hela</button>` : ''}
+        <button class="more" id="leadMore" type="button">Läs hela</button>
+      </div>
+    </article>`;
+}
+
+/* n is 1-based and counts only ordinary entries, so the first one under the
+   hero is 01. */
+function row(item, n) {
+  return `
+    <article class="item" data-id="${esc(item.id)}" data-sphere="${esc(item.sphere ?? '')}">
+      <div class="num" aria-hidden="true">${pad2(n)}</div>
+      <div>
+        <p class="kicker">${esc(item.kategori || item.sphere || '')}</p>
+        <h3>${esc(item.rubrik)}</h3>
+        <p class="dek">${esc(item.sammanfattning)}</p>
+        ${item.synthes ? `<p class="synthes">${esc(item.synthes)}</p>` : ''}
+        ${item.varfor ? `<p class="synthes">${esc(item.varfor)}</p>` : ''}
+        ${metaOf(item)}
+        ${sourcesOf(item)}
+        ${actionsOf(item)}
       </div>
     </article>`;
 }
@@ -685,20 +793,30 @@ if ('mediaSession' in navigator) {
   navigator.mediaSession.setActionHandler('previoustrack', () => { step(-1); audio.play(); });
 }
 
+/* Both rows are wired here, but each one only ever clears its own siblings.
+   The group is found from the button's own parent rather than from the article,
+   which is what keeps a Svårare tap from wiping a Mer vote. */
 function wireFeedback(date) {
-  for (const button of document.querySelectorAll('.actions button')) {
+  for (const button of document.querySelectorAll('.actions button, .levels button')) {
     button.onclick = async () => {
       tap();
+      const group = button.parentElement;
       const article = button.closest('article');
       const id = article.dataset.id;
-      const now = saveVote(id, button.dataset.vote);
-      for (const sib of article.querySelectorAll('.actions button')) {
+      const store = group.dataset.store === 'levels' ? LEVELS : VOTES;
+
+      const now = saveChoice(store, id, button.dataset.vote);
+      for (const sib of group.querySelectorAll('button')) {
         sib.dataset.chosen = String(sib.dataset.vote === now);
       }
-      if (!now) return; // cleared
+      if (!now) return; // tapped again, choice cleared
+
       try {
         await addDoc(collection(db, 'feedback'), {
           date, sphere: article.dataset.sphere, itemId: id,
+          // harder / easier join up / down / deeper in the same vote field.
+          // No schema change: feedback.mjs routes on the value, and the rows
+          // written before these buttons existed stay readable.
           vote: button.dataset.vote, createdAt: serverTimestamp()
         });
       } catch { /* the local choice stands even if the write fails */ }
