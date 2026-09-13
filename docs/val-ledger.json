@@ -1,5 +1,5 @@
 {
-  "lastSuccessfulRun": "2026-09-12T23:41:09.239Z",
+  "lastSuccessfulRun": "2026-09-13T02:53:44.842Z",
   "observations": [
     {
       "clusterIndex": 0,
@@ -5893,6 +5893,421 @@
       "runId": "2026-09-12T23:41:09.239Z",
       "observedAt": "2026-09-12T23:41:09.239Z",
       "hash": "3cd474cf8cc71732"
+    },
+    {
+      "clusterIndex": 0,
+      "source": "SVT Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Vanuatu"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "fartygsolycka-stilla-havet",
+      "facts": [
+        "Minst en person har omkommit",
+        "Över 30 saknas",
+        "Ett fartyg har förlist utanför Vanuatus kust i Stilla havet"
+      ],
+      "sources": [
+        {
+          "source": "SVT Nyheter",
+          "title": "Över 30 saknas efter fartygsolycka i Stilla havet",
+          "link": "https://www.svt.se/nyheter/utrikes/over-30-saknas-efter-fartygsolycka-i-stilla-havet"
+        },
+        {
+          "source": "Senast publicerat",
+          "title": "Över 30 saknas efter fartygsolycka",
+          "link": "https://www.svd.se/a/gklJV9/over-30-saknas-efter-fartygsolycka?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Över 30 saknas efter fartygsolycka",
+          "link": "https://www.aftonbladet.se/nyheter/a/9p1rjd/over-30-saknas-efter-fartygsolycka?utm_medium=rss"
+        }
+      ],
+      "clusterId": "064fc0c859b16b4a",
+      "runId": "2026-09-13T02:53:44.842Z",
+      "observedAt": "2026-09-13T02:53:44.842Z",
+      "hash": "4ee68dbbcbeea8aa"
+    },
+    {
+      "clusterIndex": 0,
+      "source": "Senast publicerat",
+      "claimType": "reported",
+      "entities": [
+        "Vanuatu"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "fartygsolycka-stilla-havet",
+      "facts": [
+        "Minst en person har omkommit",
+        "Över 30 saknas",
+        "Ett fartyg har förlist utanför Vanuatus kust"
+      ],
+      "sources": [
+        {
+          "source": "SVT Nyheter",
+          "title": "Över 30 saknas efter fartygsolycka i Stilla havet",
+          "link": "https://www.svt.se/nyheter/utrikes/over-30-saknas-efter-fartygsolycka-i-stilla-havet"
+        },
+        {
+          "source": "Senast publicerat",
+          "title": "Över 30 saknas efter fartygsolycka",
+          "link": "https://www.svd.se/a/gklJV9/over-30-saknas-efter-fartygsolycka?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Över 30 saknas efter fartygsolycka",
+          "link": "https://www.aftonbladet.se/nyheter/a/9p1rjd/over-30-saknas-efter-fartygsolycka?utm_medium=rss"
+        }
+      ],
+      "clusterId": "064fc0c859b16b4a",
+      "runId": "2026-09-13T02:53:44.842Z",
+      "observedAt": "2026-09-13T02:53:44.842Z",
+      "hash": "d866bd52683b2c0e"
+    },
+    {
+      "clusterIndex": 0,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Vanuatu"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "fartygsolycka-stilla-havet",
+      "facts": [
+        "Minst en person har omkommit",
+        "Över 30 saknas",
+        "Ett fartyg har förlist utanför Vanuatus kust"
+      ],
+      "sources": [
+        {
+          "source": "SVT Nyheter",
+          "title": "Över 30 saknas efter fartygsolycka i Stilla havet",
+          "link": "https://www.svt.se/nyheter/utrikes/over-30-saknas-efter-fartygsolycka-i-stilla-havet"
+        },
+        {
+          "source": "Senast publicerat",
+          "title": "Över 30 saknas efter fartygsolycka",
+          "link": "https://www.svd.se/a/gklJV9/over-30-saknas-efter-fartygsolycka?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Över 30 saknas efter fartygsolycka",
+          "link": "https://www.aftonbladet.se/nyheter/a/9p1rjd/over-30-saknas-efter-fartygsolycka?utm_medium=rss"
+        }
+      ],
+      "clusterId": "064fc0c859b16b4a",
+      "runId": "2026-09-13T02:53:44.842Z",
+      "observedAt": "2026-09-13T02:53:44.842Z",
+      "hash": "73b34caa92c9ec74"
+    },
+    {
+      "clusterIndex": 1,
+      "source": "SVT Nyheter",
+      "claimType": "circulating",
+      "entities": [
+        "Huthirörelsen",
+        "Jemen",
+        "Sharurah",
+        "Saudiarabien"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "huthi-attack",
+      "facts": [
+        "Huthirörelsen i Jemen påstår att den attackerat en militärbas i Sharurah i södra Saudiarabien"
+      ],
+      "sources": [
+        {
+          "source": "SVT Nyheter",
+          "title": "Huthirörelsen: Attack mot bas",
+          "link": "https://www.svt.se/nyheter/utrikes/huthirorelsen-attack-mot-bas"
+        }
+      ],
+      "clusterId": "1257bd2907c7283a",
+      "runId": "2026-09-13T02:53:44.842Z",
+      "observedAt": "2026-09-13T02:53:44.842Z",
+      "hash": "a2dd53392e75916c"
+    },
+    {
+      "clusterIndex": 2,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Hormuzsundet",
+        "brittiska marinen"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "fartyg-hormuzsundet",
+      "facts": [
+        "Ett fartyg har träffats av en projektil i Hormuzsundet",
+        "Uppgiften kommer från den brittiska marinens sjöövervakning"
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Fartyg träffat i Hormuzsundet",
+          "link": "https://www.aftonbladet.se/nyheter/a/wr2b9P/fartyg-traffat-i-hormuzsundet?utm_medium=rss"
+        }
+      ],
+      "clusterId": "02967f514e5a9380",
+      "runId": "2026-09-13T02:53:44.842Z",
+      "observedAt": "2026-09-13T02:53:44.842Z",
+      "hash": "5dd90626ce73c47c"
+    },
+    {
+      "clusterIndex": 3,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Turkiet",
+        "turkiska hbtqi-organisationer"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "turkiet-hbtqi-blockering",
+      "facts": [
+        "Sociala medie-konton tillhörande en rad turkiska hbtqi-organisationer har blockerats i Turkiet på lördagen"
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Turkiet blockerar fler hbtqi-organisationer",
+          "link": "https://www.aftonbladet.se/nyheter/a/M7Gqdo/turkiet-blockerar-fler-hbtqi-organisationer?utm_medium=rss"
+        }
+      ],
+      "clusterId": "34c6c72480abde38",
+      "runId": "2026-09-13T02:53:44.842Z",
+      "observedAt": "2026-09-13T02:53:44.842Z",
+      "hash": "8dfea281b1f9ff68"
+    },
+    {
+      "clusterIndex": 4,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Anthropic",
+        "Dario Amodei",
+        "CNN"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "ai-reglering",
+      "facts": [
+        "Branschjättar larmar om att utvecklingen av AI måste bromsas",
+        "Anthropic-vd:n Dario Amodei har svarat på CNNs fråga om AI kan döda alla människor"
+      ],
+      "sources": [
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Toppchefens svar om risken att AI dödar alla",
+          "link": "https://www.expressen.se/nyheter/varlden/toppchefens--svar-om-risken--att-ai-dodar-alla/"
+        }
+      ],
+      "clusterId": "b00acbea2c2d43b8",
+      "runId": "2026-09-13T02:53:44.842Z",
+      "observedAt": "2026-09-13T02:53:44.842Z",
+      "hash": "d1b19d7a3b47fa79"
+    },
+    {
+      "clusterIndex": 5,
+      "source": "Göteborgs-Posten",
+      "claimType": "reported",
+      "entities": [
+        "Mölndal"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "fire-incidents",
+      "facts": [
+        "En fullt utvecklad lägenhetsbrand har inträffat",
+        "Det brinner med öppna lågor i Mölndal",
+        "En person har förts till sjukhus"
+      ],
+      "sources": [
+        {
+          "source": "Göteborgs-Posten",
+          "title": "Fullt utvecklad lägenhetsbrand – en till sjukhus",
+          "link": "https://www.gp.se/nyheter/storgoteborg/fullt-utvecklad-lagenhetsbrand-i-molndal.814f7989-05ac-417a-a67c-981896c69850"
+        }
+      ],
+      "clusterId": "802314c90b550edb",
+      "runId": "2026-09-13T02:53:44.842Z",
+      "observedAt": "2026-09-13T02:53:44.842Z",
+      "hash": "d829c8ec38398813"
+    },
+    {
+      "clusterIndex": 6,
+      "source": "Göteborgs-Posten",
+      "claimType": "reported",
+      "entities": [],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "entertainment-news",
+      "facts": [
+        "En hyllad Oscarsvinnare har dött",
+        "Filmproducenten dog omgiven av sina nära och kära"
+      ],
+      "sources": [
+        {
+          "source": "Göteborgs-Posten",
+          "title": "Hyllade Oscarsvinnaren är död",
+          "link": "https://www.gp.se/kultur/oscarsvinnaren-jeremy-thomas-ar-dod.ea4fd029-2b52-49df-a416-07ed059ab38a"
+        }
+      ],
+      "clusterId": "7bc0418cd551855e",
+      "runId": "2026-09-13T02:53:44.842Z",
+      "observedAt": "2026-09-13T02:53:44.842Z",
+      "hash": "b663b1f32dd5096f"
+    },
+    {
+      "clusterIndex": 7,
+      "source": "Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Luleå"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "crime-investigations",
+      "facts": [
+        "En person gick lös med flera föremål i Luleå på natten",
+        "Personen fick omhändertas och slängas i fyllecell"
+      ],
+      "sources": [
+        {
+          "source": "Nyheter",
+          "title": "Vild kvinna stoppad efter bärsärkagång – kastade saker i centrum",
+          "link": "https://www.nsd.se/nyheter/lulea/artikel/vild-kvinna-stoppad-efter-barsarkagang-kastade-saker-i-centrum/r353pnxj"
+        },
+        {
+          "source": "Nyheter",
+          "title": "Insats efter drunkningslarm i centrum – person i vattnet",
+          "link": "https://www.nsd.se/nyheter/lulea/artikel/insats-efter-drunkningslarm-i-centrum-person-i-vattnet/lw6ekd1j"
+        }
+      ],
+      "clusterId": "171a4277c1f815ed",
+      "runId": "2026-09-13T02:53:44.842Z",
+      "observedAt": "2026-09-13T02:53:44.842Z",
+      "hash": "27a8395ac4d822c9"
+    },
+    {
+      "clusterIndex": 8,
+      "source": "Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "E4",
+        "Rutvik",
+        "Nickbyn S"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "traffic-accident",
+      "facts": [
+        "En älg är innanför viltstängslet på E4",
+        "Det är problem i trafiken på E4 mellan trafikplats Rutvik och Nickbyn S i båda riktningarna"
+      ],
+      "sources": [
+        {
+          "source": "Nyheter",
+          "title": "Älg innanför viltstängslet på E4",
+          "link": "https://www.nsd.se/trafik/lulea-kommun/artikel/alg-innanfor-viltstangslet-pa-e4/l78d0zwj"
+        }
+      ],
+      "clusterId": "90cc332b74c2e0ba",
+      "runId": "2026-09-13T02:53:44.842Z",
+      "observedAt": "2026-09-13T02:53:44.842Z",
+      "hash": "eeb332cdc4bcf469"
+    },
+    {
+      "clusterIndex": 9,
+      "source": "Altinget",
+      "claimType": "reported",
+      "entities": [
+        "Altinget"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valdagen-soffan",
+      "facts": [
+        "Altinget vägleder genom valdagen",
+        "Artikeln beskriver vad som händer när vallokalerna stänger och när valet är avgjort",
+        "Artikeln listar tider att hålla koll på när rösterna räknas"
+      ],
+      "sources": [
+        {
+          "source": "Altinget",
+          "title": "Allt du beh&#246;ver veta n&#228;r valet ska avg&#246;ras",
+          "link": "https://www.altinget.se/artikel/allt-du-behover-veta-nar-valet-ska-avgoras"
+        }
+      ],
+      "clusterId": "76342d510cf44218",
+      "runId": "2026-09-13T02:53:44.842Z",
+      "observedAt": "2026-09-13T02:53:44.842Z",
+      "hash": "c84adab9110e73e9"
+    },
+    {
+      "clusterIndex": 10,
+      "source": "ETC.se",
+      "claimType": "reported",
+      "entities": [
+        "Tidöpartierna"
+      ],
+      "assertedLink": {
+        "from": "Tidöpartierna",
+        "to": "grupper i samhället",
+        "direction": "skadar"
+      },
+      "linkSource": "ETC.se",
+      "continuesThread": "valrorelse-kritik",
+      "facts": [
+        "Tidöpartierna har ägnat fyra år åt att ställa grupper mot varandra",
+        "Tidöpartierna har enligt texten sparkat sönder det Sverige andra har byggt upp",
+        "Skribenten anser att fyra destruktiva år räcker nu"
+      ],
+      "sources": [
+        {
+          "source": "ETC.se",
+          "title": "Idag röstar jag för någon annans mormor",
+          "link": "https://www.etc.se/ledare/idag-roestar-jag-foer-naagon-annans-mormor?utm_source=rss"
+        }
+      ],
+      "clusterId": "7b5101d80d0c0761",
+      "runId": "2026-09-13T02:53:44.842Z",
+      "observedAt": "2026-09-13T02:53:44.842Z",
+      "hash": "d2bdb6e3acb4c36c"
+    },
+    {
+      "clusterIndex": 11,
+      "source": "POLITICO",
+      "claimType": "reported",
+      "entities": [
+        "NATO",
+        "Sverige"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "swedish-election-2026",
+      "facts": [
+        "Söndagens val hålls i Natos nyaste medlemsland",
+        "De senaste mätningarna visar att valet är jämnt"
+      ],
+      "sources": [
+        {
+          "source": "POLITICO",
+          "title": "How to watch Sweden&#8217;s election like a pro",
+          "link": "https://www.politico.eu/article/how-to-watch-sweden-election-like-pro/?utm_source=RSS_Feed&#038;utm_medium=RSS&#038;utm_campaign=RSS_Syndication"
+        }
+      ],
+      "clusterId": "fc98dc86f3426df4",
+      "runId": "2026-09-13T02:53:44.842Z",
+      "observedAt": "2026-09-13T02:53:44.842Z",
+      "hash": "f617ec468704c0fa"
     }
   ],
   "published": [],
@@ -5921,6 +6336,11 @@
       "key": "hoppande majoriteter->totalt kaos i Sverige:orsakar",
       "reason": "DeepSeek 400: {\"error\":{\"message\":\"Prompt must contain the word 'json' in some form to use 'response_format' of type 'json_object'.\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":\"invalid_request_error\"}}",
       "at": "2026-09-12T23:41:09.239Z"
+    },
+    {
+      "key": "transition:bb5d9781ecc58d5f",
+      "reason": "DeepSeek 400: {\"error\":{\"message\":\"Prompt must contain the word 'json' in some form to use 'response_format' of type 'json_object'.\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":\"invalid_request_error\"}}",
+      "at": "2026-09-13T02:53:44.842Z"
     }
   ]
 }
