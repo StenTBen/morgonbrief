@@ -1,5 +1,5 @@
 {
-  "lastSuccessfulRun": "2026-09-13T02:53:44.842Z",
+  "lastSuccessfulRun": "2026-09-13T07:57:47.870Z",
   "observations": [
     {
       "clusterIndex": 0,
@@ -6308,6 +6308,3383 @@
       "runId": "2026-09-13T02:53:44.842Z",
       "observedAt": "2026-09-13T02:53:44.842Z",
       "hash": "f617ec468704c0fa"
+    },
+    {
+      "clusterIndex": 0,
+      "source": "SVT Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Malmö",
+        "Polisen",
+        "kvinna",
+        "man i 30-årsåldern"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "crime-investigations",
+      "facts": [
+        "En man i 30-årsåldern har gripits misstänkt för mordförsök.",
+        "En kvinna har skjutits i huvudet i Malmö.",
+        "Kvinnan har förts till sjukhus.",
+        "Enligt polisen ska skadeläget inte vara livshotande."
+      ],
+      "sources": [
+        {
+          "source": "SVT Nyheter",
+          "title": "Kvinna skjuten i huvudet i Malmö – man gripen",
+          "link": "https://www.svt.se/nyheter/lokalt/skane/man-greps-for-mordforsok-i-malmo-kvinna-ford-till-sjukhus"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Kvinna skjuten i huvudet i Malmö",
+          "link": "https://www.aftonbladet.se/nyheter/a/GxRqXl/man-gripen-for-mordforsok-i-malmo?utm_medium=rss"
+        },
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Misstänkt våldtäkt",
+          "link": "https://www.expressen.se/nyheter/expressen-direkt/?post=3a269949-2113-49d6-bdb7-23a592bc32a3"
+        },
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Misstänkt mordförsök i Malmö",
+          "link": "https://www.expressen.se/nyheter/expressen-direkt/?post=b0ffc1c3-9eae-4b78-a5f5-53bfc5b108a0"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Kvinna skjuten i huvudet – man gripen",
+          "link": "https://www.sydsvenskan.se/man-gripen-for-grov-misshandel/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Man gripen misstänkt för våldtäkt på hotell",
+          "link": "https://www.sydsvenskan.se/man-misstankt-for-sexualbrott-pa-hotell/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Kvinna skjuten i huvudet i Malmö",
+          "link": "https://www.hd.se/skane/man-gripen-for-mordforsok-i-malmo-ZDfhx/"
+        }
+      ],
+      "clusterId": "e67856440f6fc02b",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "e7ea58aa174326fc"
+    },
+    {
+      "clusterIndex": 0,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Malmö",
+        "kvinna",
+        "man i 30-årsåldern"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "crime-investigations",
+      "facts": [
+        "En man i 30-årsåldern har gripits misstänkt för mordförsök.",
+        "En kvinna har skjutits i huvudet."
+      ],
+      "sources": [
+        {
+          "source": "SVT Nyheter",
+          "title": "Kvinna skjuten i huvudet i Malmö – man gripen",
+          "link": "https://www.svt.se/nyheter/lokalt/skane/man-greps-for-mordforsok-i-malmo-kvinna-ford-till-sjukhus"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Kvinna skjuten i huvudet i Malmö",
+          "link": "https://www.aftonbladet.se/nyheter/a/GxRqXl/man-gripen-for-mordforsok-i-malmo?utm_medium=rss"
+        },
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Misstänkt våldtäkt",
+          "link": "https://www.expressen.se/nyheter/expressen-direkt/?post=3a269949-2113-49d6-bdb7-23a592bc32a3"
+        },
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Misstänkt mordförsök i Malmö",
+          "link": "https://www.expressen.se/nyheter/expressen-direkt/?post=b0ffc1c3-9eae-4b78-a5f5-53bfc5b108a0"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Kvinna skjuten i huvudet – man gripen",
+          "link": "https://www.sydsvenskan.se/man-gripen-for-grov-misshandel/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Man gripen misstänkt för våldtäkt på hotell",
+          "link": "https://www.sydsvenskan.se/man-misstankt-for-sexualbrott-pa-hotell/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Kvinna skjuten i huvudet i Malmö",
+          "link": "https://www.hd.se/skane/man-gripen-for-mordforsok-i-malmo-ZDfhx/"
+        }
+      ],
+      "clusterId": "e67856440f6fc02b",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "2ac6fa59f7849992"
+    },
+    {
+      "clusterIndex": 0,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Malmö",
+        "man i 40-årsåldern"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "crime-investigations",
+      "facts": [
+        "En misstänkt man i 40-årsåldern har gripits i Malmö.",
+        "Händelsen rubriceras som misstänkt våldtäkt."
+      ],
+      "sources": [
+        {
+          "source": "SVT Nyheter",
+          "title": "Kvinna skjuten i huvudet i Malmö – man gripen",
+          "link": "https://www.svt.se/nyheter/lokalt/skane/man-greps-for-mordforsok-i-malmo-kvinna-ford-till-sjukhus"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Kvinna skjuten i huvudet i Malmö",
+          "link": "https://www.aftonbladet.se/nyheter/a/GxRqXl/man-gripen-for-mordforsok-i-malmo?utm_medium=rss"
+        },
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Misstänkt våldtäkt",
+          "link": "https://www.expressen.se/nyheter/expressen-direkt/?post=3a269949-2113-49d6-bdb7-23a592bc32a3"
+        },
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Misstänkt mordförsök i Malmö",
+          "link": "https://www.expressen.se/nyheter/expressen-direkt/?post=b0ffc1c3-9eae-4b78-a5f5-53bfc5b108a0"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Kvinna skjuten i huvudet – man gripen",
+          "link": "https://www.sydsvenskan.se/man-gripen-for-grov-misshandel/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Man gripen misstänkt för våldtäkt på hotell",
+          "link": "https://www.sydsvenskan.se/man-misstankt-for-sexualbrott-pa-hotell/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Kvinna skjuten i huvudet i Malmö",
+          "link": "https://www.hd.se/skane/man-gripen-for-mordforsok-i-malmo-ZDfhx/"
+        }
+      ],
+      "clusterId": "e67856440f6fc02b",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "6a95b9f180cd84bb"
+    },
+    {
+      "clusterIndex": 0,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "Sofielund",
+        "Polisen",
+        "kvinna",
+        "man"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "crime-investigations",
+      "facts": [
+        "Natten till söndagen blev en kvinna skjuten i huvudet i en lägenhet på Sofielund.",
+        "Polisen kunde prata med henne efter händelsen.",
+        "En man är gripen misstänkt för mordförsök."
+      ],
+      "sources": [
+        {
+          "source": "SVT Nyheter",
+          "title": "Kvinna skjuten i huvudet i Malmö – man gripen",
+          "link": "https://www.svt.se/nyheter/lokalt/skane/man-greps-for-mordforsok-i-malmo-kvinna-ford-till-sjukhus"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Kvinna skjuten i huvudet i Malmö",
+          "link": "https://www.aftonbladet.se/nyheter/a/GxRqXl/man-gripen-for-mordforsok-i-malmo?utm_medium=rss"
+        },
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Misstänkt våldtäkt",
+          "link": "https://www.expressen.se/nyheter/expressen-direkt/?post=3a269949-2113-49d6-bdb7-23a592bc32a3"
+        },
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Misstänkt mordförsök i Malmö",
+          "link": "https://www.expressen.se/nyheter/expressen-direkt/?post=b0ffc1c3-9eae-4b78-a5f5-53bfc5b108a0"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Kvinna skjuten i huvudet – man gripen",
+          "link": "https://www.sydsvenskan.se/man-gripen-for-grov-misshandel/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Man gripen misstänkt för våldtäkt på hotell",
+          "link": "https://www.sydsvenskan.se/man-misstankt-for-sexualbrott-pa-hotell/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Kvinna skjuten i huvudet i Malmö",
+          "link": "https://www.hd.se/skane/man-gripen-for-mordforsok-i-malmo-ZDfhx/"
+        }
+      ],
+      "clusterId": "e67856440f6fc02b",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "bd761de429b5934e"
+    },
+    {
+      "clusterIndex": 1,
+      "source": "Senast publicerat",
+      "claimType": "circulating",
+      "entities": [
+        "Spanien",
+        "Marocko",
+        "migranter"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "international-news",
+      "facts": [
+        "Frågan ställs om Marocko har gått till attack mot Spanien med migranter som vapen."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Ilska i Spanien: Var migrantkrisen en attack?",
+          "link": "https://www.svd.se/a/rr2bXl/ilska-i-spanien-var-migrantkrisen-en-attack?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Ilska i Spanien: Var migrantkrisen en attack?",
+          "link": "https://www.aftonbladet.se/nyheter/a/Exeq5a/ilska-i-spanien-var-migrantkrisen-en-attack?utm_medium=rss"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Ilska i Spanien: Var migrantkrisen en attack?",
+          "link": "https://www.sydsvenskan.se/varlden/ilska-i-spanien-var-migrantkrisen-en-attack/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Ilska i Spanien: Var migrantkrisen en attack?",
+          "link": "https://www.hd.se/varlden/ilska-i-spanien-var-migrantkrisen-en-attack/"
+        },
+        {
+          "source": "Barometern",
+          "title": "Ilska i Spanien: Var migrantkrisen en attack?",
+          "link": "https://www.barometern.se/varlden/ilska-i-spanien-var-migrantkrisen-en-attack/"
+        }
+      ],
+      "clusterId": "f9975ce1cfceae9c",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "aef0ddb80c1d9fca"
+    },
+    {
+      "clusterIndex": 1,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "circulating",
+      "entities": [
+        "Spanien",
+        "Marocko",
+        "migranter"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "international-news",
+      "facts": [
+        "Frågan ställs om Marocko har gått till attack mot Spanien med migranter som vapen."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Ilska i Spanien: Var migrantkrisen en attack?",
+          "link": "https://www.svd.se/a/rr2bXl/ilska-i-spanien-var-migrantkrisen-en-attack?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Ilska i Spanien: Var migrantkrisen en attack?",
+          "link": "https://www.aftonbladet.se/nyheter/a/Exeq5a/ilska-i-spanien-var-migrantkrisen-en-attack?utm_medium=rss"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Ilska i Spanien: Var migrantkrisen en attack?",
+          "link": "https://www.sydsvenskan.se/varlden/ilska-i-spanien-var-migrantkrisen-en-attack/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Ilska i Spanien: Var migrantkrisen en attack?",
+          "link": "https://www.hd.se/varlden/ilska-i-spanien-var-migrantkrisen-en-attack/"
+        },
+        {
+          "source": "Barometern",
+          "title": "Ilska i Spanien: Var migrantkrisen en attack?",
+          "link": "https://www.barometern.se/varlden/ilska-i-spanien-var-migrantkrisen-en-attack/"
+        }
+      ],
+      "clusterId": "f9975ce1cfceae9c",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "7a26c9227c2ba3da"
+    },
+    {
+      "clusterIndex": 1,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "Spanien",
+        "Marocko",
+        "spanska regeringen",
+        "migranter",
+        "folkmassor"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "international-news",
+      "facts": [
+        "Den spanska regeringen tonar ned att sommarens migrantkris var en marockansk komplott.",
+        "Det hade inte varit första gången.",
+        "Ilskna folkmassor kräver handling."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Ilska i Spanien: Var migrantkrisen en attack?",
+          "link": "https://www.svd.se/a/rr2bXl/ilska-i-spanien-var-migrantkrisen-en-attack?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Ilska i Spanien: Var migrantkrisen en attack?",
+          "link": "https://www.aftonbladet.se/nyheter/a/Exeq5a/ilska-i-spanien-var-migrantkrisen-en-attack?utm_medium=rss"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Ilska i Spanien: Var migrantkrisen en attack?",
+          "link": "https://www.sydsvenskan.se/varlden/ilska-i-spanien-var-migrantkrisen-en-attack/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Ilska i Spanien: Var migrantkrisen en attack?",
+          "link": "https://www.hd.se/varlden/ilska-i-spanien-var-migrantkrisen-en-attack/"
+        },
+        {
+          "source": "Barometern",
+          "title": "Ilska i Spanien: Var migrantkrisen en attack?",
+          "link": "https://www.barometern.se/varlden/ilska-i-spanien-var-migrantkrisen-en-attack/"
+        }
+      ],
+      "clusterId": "f9975ce1cfceae9c",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "11719b18f372c645"
+    },
+    {
+      "clusterIndex": 1,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "Spanien",
+        "Marocko",
+        "spanska regeringen",
+        "migranter",
+        "folkmassor"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "international-news",
+      "facts": [
+        "Den spanska regeringen tonar ned att sommarens migrantkris var en marockansk komplott.",
+        "Det hade inte varit första gången.",
+        "Ilskna folkmassor kräver handling."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Ilska i Spanien: Var migrantkrisen en attack?",
+          "link": "https://www.svd.se/a/rr2bXl/ilska-i-spanien-var-migrantkrisen-en-attack?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Ilska i Spanien: Var migrantkrisen en attack?",
+          "link": "https://www.aftonbladet.se/nyheter/a/Exeq5a/ilska-i-spanien-var-migrantkrisen-en-attack?utm_medium=rss"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Ilska i Spanien: Var migrantkrisen en attack?",
+          "link": "https://www.sydsvenskan.se/varlden/ilska-i-spanien-var-migrantkrisen-en-attack/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Ilska i Spanien: Var migrantkrisen en attack?",
+          "link": "https://www.hd.se/varlden/ilska-i-spanien-var-migrantkrisen-en-attack/"
+        },
+        {
+          "source": "Barometern",
+          "title": "Ilska i Spanien: Var migrantkrisen en attack?",
+          "link": "https://www.barometern.se/varlden/ilska-i-spanien-var-migrantkrisen-en-attack/"
+        }
+      ],
+      "clusterId": "f9975ce1cfceae9c",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "036e917969b25cf2"
+    },
+    {
+      "clusterIndex": 1,
+      "source": "Barometern",
+      "claimType": "reported",
+      "entities": [
+        "Spanien",
+        "Marocko",
+        "spanska regeringen",
+        "migranter",
+        "folkmassor"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "international-news",
+      "facts": [
+        "Den spanska regeringen tonar ned att sommarens migrantkris var en marockansk komplott.",
+        "Det hade inte varit första gången.",
+        "Ilskna folkmassor kräver handling."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Ilska i Spanien: Var migrantkrisen en attack?",
+          "link": "https://www.svd.se/a/rr2bXl/ilska-i-spanien-var-migrantkrisen-en-attack?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Ilska i Spanien: Var migrantkrisen en attack?",
+          "link": "https://www.aftonbladet.se/nyheter/a/Exeq5a/ilska-i-spanien-var-migrantkrisen-en-attack?utm_medium=rss"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Ilska i Spanien: Var migrantkrisen en attack?",
+          "link": "https://www.sydsvenskan.se/varlden/ilska-i-spanien-var-migrantkrisen-en-attack/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Ilska i Spanien: Var migrantkrisen en attack?",
+          "link": "https://www.hd.se/varlden/ilska-i-spanien-var-migrantkrisen-en-attack/"
+        },
+        {
+          "source": "Barometern",
+          "title": "Ilska i Spanien: Var migrantkrisen en attack?",
+          "link": "https://www.barometern.se/varlden/ilska-i-spanien-var-migrantkrisen-en-attack/"
+        }
+      ],
+      "clusterId": "f9975ce1cfceae9c",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "36dbd01b43470d9c"
+    },
+    {
+      "clusterIndex": 2,
+      "source": "Senast publicerat",
+      "claimType": "reported",
+      "entities": [
+        "Socialdemokraterna",
+        "Magdalena Andersson",
+        "valrörelsen"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valrorelse-kritik",
+      "facts": [
+        "Socialdemokraternas partiledare beskriver valrörelsen som rolig men också smutsig och med mycket lögner."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Andersson om valrörelsen: ”Smutsig”",
+          "link": "https://www.svd.se/a/7pvQwV/andersson-om-valrorelsen-smutsig?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Andersson om valrörelsen: ”Smutsig”",
+          "link": "https://www.aftonbladet.se/nyheter/a/8pMvKG/andersson-om-valrorelsen-smutsig?utm_medium=rss"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Andersson om valrörelsen: ”Smutsig”",
+          "link": "https://www.sydsvenskan.se/sverige/andersson-om-valrorelsen-smutsig/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Andersson om valrörelsen: ”Smutsig”",
+          "link": "https://www.hd.se/sverige/andersson-om-valrorelsen-smutsig/"
+        }
+      ],
+      "clusterId": "8b2c63a090be872c",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "6df9a9ae17609856"
+    },
+    {
+      "clusterIndex": 2,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Socialdemokraterna",
+        "Magdalena Andersson",
+        "valrörelsen"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valrorelse-kritik",
+      "facts": [
+        "Socialdemokraternas partiledare beskriver valrörelsen som rolig men också smutsig och med mycket lögner."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Andersson om valrörelsen: ”Smutsig”",
+          "link": "https://www.svd.se/a/7pvQwV/andersson-om-valrorelsen-smutsig?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Andersson om valrörelsen: ”Smutsig”",
+          "link": "https://www.aftonbladet.se/nyheter/a/8pMvKG/andersson-om-valrorelsen-smutsig?utm_medium=rss"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Andersson om valrörelsen: ”Smutsig”",
+          "link": "https://www.sydsvenskan.se/sverige/andersson-om-valrorelsen-smutsig/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Andersson om valrörelsen: ”Smutsig”",
+          "link": "https://www.hd.se/sverige/andersson-om-valrorelsen-smutsig/"
+        }
+      ],
+      "clusterId": "8b2c63a090be872c",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "ea21c748d7b91d6c"
+    },
+    {
+      "clusterIndex": 2,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "Socialdemokraterna",
+        "Magdalena Andersson",
+        "svenska folket",
+        "TT",
+        "valdagen"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valrorelse-kritik",
+      "facts": [
+        "Magdalena Andersson beskriver valrörelsen som rolig men också smutsig och med mycket lögner.",
+        "Hon säger till TT på valdagen: 'Nu är det upp till svenska folket.'"
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Andersson om valrörelsen: ”Smutsig”",
+          "link": "https://www.svd.se/a/7pvQwV/andersson-om-valrorelsen-smutsig?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Andersson om valrörelsen: ”Smutsig”",
+          "link": "https://www.aftonbladet.se/nyheter/a/8pMvKG/andersson-om-valrorelsen-smutsig?utm_medium=rss"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Andersson om valrörelsen: ”Smutsig”",
+          "link": "https://www.sydsvenskan.se/sverige/andersson-om-valrorelsen-smutsig/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Andersson om valrörelsen: ”Smutsig”",
+          "link": "https://www.hd.se/sverige/andersson-om-valrorelsen-smutsig/"
+        }
+      ],
+      "clusterId": "8b2c63a090be872c",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "6996bb8d9c7c12ed"
+    },
+    {
+      "clusterIndex": 2,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "Socialdemokraterna",
+        "Magdalena Andersson",
+        "svenska folket",
+        "TT",
+        "valdagen"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valrorelse-kritik",
+      "facts": [
+        "Magdalena Andersson beskriver valrörelsen som rolig men också smutsig och med mycket lögner.",
+        "Hon säger till TT på valdagen: 'Nu är det upp till svenska folket.'"
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Andersson om valrörelsen: ”Smutsig”",
+          "link": "https://www.svd.se/a/7pvQwV/andersson-om-valrorelsen-smutsig?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Andersson om valrörelsen: ”Smutsig”",
+          "link": "https://www.aftonbladet.se/nyheter/a/8pMvKG/andersson-om-valrorelsen-smutsig?utm_medium=rss"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Andersson om valrörelsen: ”Smutsig”",
+          "link": "https://www.sydsvenskan.se/sverige/andersson-om-valrorelsen-smutsig/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Andersson om valrörelsen: ”Smutsig”",
+          "link": "https://www.hd.se/sverige/andersson-om-valrorelsen-smutsig/"
+        }
+      ],
+      "clusterId": "8b2c63a090be872c",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "14c567f5acecd0c2"
+    },
+    {
+      "clusterIndex": 3,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Postnord",
+        "förtidsröster",
+        "vallokaler"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valdagen-soffan",
+      "facts": [
+        "Postnord har inte lyckats leverera alla förtidsröster i tid till när vallokalerna öppnat."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Postnord kraftigt försenade med förtidsröster",
+          "link": "https://www.aftonbladet.se/nyheter/a/XM1pQo/postnord-kraftigt-forsenade-med-fortidsroster?utm_medium=rss"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Postnord kraftigt försenade med förtidsröster",
+          "link": "https://www.di.se/nyheter/postnord-kraftigt-forsenade-med-fortidsroster/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Postnord kraftigt försenade med förtidsröster",
+          "link": "https://www.sydsvenskan.se/sverige/postnord-kraftigt-forsenade-med-fortidsroster/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Postnord kraftigt försenade med förtidsröster",
+          "link": "https://www.hd.se/postnord-kraftigt-forsenade-med-fortidsroster/"
+        }
+      ],
+      "clusterId": "b4ab4bb151d810bf",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "06bde21adfdb8174"
+    },
+    {
+      "clusterIndex": 3,
+      "source": "Dagens industri",
+      "claimType": "reported",
+      "entities": [
+        "Postnord",
+        "förtidsröster",
+        "vallokaler",
+        "Storstockholm"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valdagen-soffan",
+      "facts": [
+        "Postnord har inte lyckats leverera alla förtidsröster i tid till när vallokalerna öppnat.",
+        "Problemet drabbar främst Storstockholm."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Postnord kraftigt försenade med förtidsröster",
+          "link": "https://www.aftonbladet.se/nyheter/a/XM1pQo/postnord-kraftigt-forsenade-med-fortidsroster?utm_medium=rss"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Postnord kraftigt försenade med förtidsröster",
+          "link": "https://www.di.se/nyheter/postnord-kraftigt-forsenade-med-fortidsroster/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Postnord kraftigt försenade med förtidsröster",
+          "link": "https://www.sydsvenskan.se/sverige/postnord-kraftigt-forsenade-med-fortidsroster/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Postnord kraftigt försenade med förtidsröster",
+          "link": "https://www.hd.se/postnord-kraftigt-forsenade-med-fortidsroster/"
+        }
+      ],
+      "clusterId": "b4ab4bb151d810bf",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "37a558ecbd2e729b"
+    },
+    {
+      "clusterIndex": 3,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "Postnord",
+        "förtidsröster",
+        "vallokaler",
+        "Storstockholm"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valdagen-soffan",
+      "facts": [
+        "Postnord har inte lyckats leverera alla förtidsröster i tid till när vallokalerna öppnat.",
+        "Problemet drabbar främst Storstockholm."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Postnord kraftigt försenade med förtidsröster",
+          "link": "https://www.aftonbladet.se/nyheter/a/XM1pQo/postnord-kraftigt-forsenade-med-fortidsroster?utm_medium=rss"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Postnord kraftigt försenade med förtidsröster",
+          "link": "https://www.di.se/nyheter/postnord-kraftigt-forsenade-med-fortidsroster/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Postnord kraftigt försenade med förtidsröster",
+          "link": "https://www.sydsvenskan.se/sverige/postnord-kraftigt-forsenade-med-fortidsroster/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Postnord kraftigt försenade med förtidsröster",
+          "link": "https://www.hd.se/postnord-kraftigt-forsenade-med-fortidsroster/"
+        }
+      ],
+      "clusterId": "b4ab4bb151d810bf",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "f39a8d94414ec2b8"
+    },
+    {
+      "clusterIndex": 3,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "Postnord",
+        "förtidsröster",
+        "vallokaler",
+        "Storstockholm"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valdagen-soffan",
+      "facts": [
+        "Postnord har inte lyckats leverera alla förtidsröster i tid till när vallokalerna öppnat.",
+        "Problemet drabbar främst Storstockholm."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Postnord kraftigt försenade med förtidsröster",
+          "link": "https://www.aftonbladet.se/nyheter/a/XM1pQo/postnord-kraftigt-forsenade-med-fortidsroster?utm_medium=rss"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Postnord kraftigt försenade med förtidsröster",
+          "link": "https://www.di.se/nyheter/postnord-kraftigt-forsenade-med-fortidsroster/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Postnord kraftigt försenade med förtidsröster",
+          "link": "https://www.sydsvenskan.se/sverige/postnord-kraftigt-forsenade-med-fortidsroster/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Postnord kraftigt försenade med förtidsröster",
+          "link": "https://www.hd.se/postnord-kraftigt-forsenade-med-fortidsroster/"
+        }
+      ],
+      "clusterId": "b4ab4bb151d810bf",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "1660243737536910"
+    },
+    {
+      "clusterIndex": 4,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "förtidsröster",
+        "vallokaler"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valdagen-soffan",
+      "facts": [
+        "När vallokalerna öppnar på söndagsmorgonen landar antalet förtidsröster på 3 642 832."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Över 3,6 miljoner förtidsröstade",
+          "link": "https://www.aftonbladet.se/nyheter/a/Bx9qde/over-3-6-miljoner-fortidsrostade?utm_medium=rss"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Över 3,6 miljoner förtidsröstade",
+          "link": "https://www.di.se/nyheter/over-36-miljoner-fortidsrostade/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Över 3,6 miljoner förtidsröstade",
+          "link": "https://www.sydsvenskan.se/sverige/over-36-miljoner-fortidsrostade/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Över 3,6 miljoner förtidsröstade",
+          "link": "https://www.hd.se/sverige/over-36-miljoner-fortidsrostade/"
+        }
+      ],
+      "clusterId": "3d3e0fe682875366",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "661edac1d44055b5"
+    },
+    {
+      "clusterIndex": 4,
+      "source": "Dagens industri",
+      "claimType": "reported",
+      "entities": [
+        "förtidsröster",
+        "vallokaler"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valdagen-soffan",
+      "facts": [
+        "När vallokalerna öppnar på söndagsmorgonen landar antalet förtidsröster på 3 642 832."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Över 3,6 miljoner förtidsröstade",
+          "link": "https://www.aftonbladet.se/nyheter/a/Bx9qde/over-3-6-miljoner-fortidsrostade?utm_medium=rss"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Över 3,6 miljoner förtidsröstade",
+          "link": "https://www.di.se/nyheter/over-36-miljoner-fortidsrostade/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Över 3,6 miljoner förtidsröstade",
+          "link": "https://www.sydsvenskan.se/sverige/over-36-miljoner-fortidsrostade/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Över 3,6 miljoner förtidsröstade",
+          "link": "https://www.hd.se/sverige/over-36-miljoner-fortidsrostade/"
+        }
+      ],
+      "clusterId": "3d3e0fe682875366",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "037c7387e55f13fe"
+    },
+    {
+      "clusterIndex": 4,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "förtidsröster",
+        "vallokaler"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valdagen-soffan",
+      "facts": [
+        "När vallokalerna öppnar på söndagsmorgonen landar antalet förtidsröster på 3 642 832."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Över 3,6 miljoner förtidsröstade",
+          "link": "https://www.aftonbladet.se/nyheter/a/Bx9qde/over-3-6-miljoner-fortidsrostade?utm_medium=rss"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Över 3,6 miljoner förtidsröstade",
+          "link": "https://www.di.se/nyheter/over-36-miljoner-fortidsrostade/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Över 3,6 miljoner förtidsröstade",
+          "link": "https://www.sydsvenskan.se/sverige/over-36-miljoner-fortidsrostade/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Över 3,6 miljoner förtidsröstade",
+          "link": "https://www.hd.se/sverige/over-36-miljoner-fortidsrostade/"
+        }
+      ],
+      "clusterId": "3d3e0fe682875366",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "d8afafb2d2e016a5"
+    },
+    {
+      "clusterIndex": 4,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "förtidsröster",
+        "vallokaler"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valdagen-soffan",
+      "facts": [
+        "När vallokalerna öppnar på söndagsmorgonen landar antalet förtidsröster på 3 642 832."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Över 3,6 miljoner förtidsröstade",
+          "link": "https://www.aftonbladet.se/nyheter/a/Bx9qde/over-3-6-miljoner-fortidsrostade?utm_medium=rss"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Över 3,6 miljoner förtidsröstade",
+          "link": "https://www.di.se/nyheter/over-36-miljoner-fortidsrostade/"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Över 3,6 miljoner förtidsröstade",
+          "link": "https://www.sydsvenskan.se/sverige/over-36-miljoner-fortidsrostade/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Över 3,6 miljoner förtidsröstade",
+          "link": "https://www.hd.se/sverige/over-36-miljoner-fortidsrostade/"
+        }
+      ],
+      "clusterId": "3d3e0fe682875366",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "4bb24c67819853a7"
+    },
+    {
+      "clusterIndex": 5,
+      "source": "Senast publicerat",
+      "claimType": "reported",
+      "entities": [
+        "Truls Möregårdh",
+        "WTT Champions"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sports-results",
+      "facts": [
+        "Truls Möregårdh är klar för final i WTT Champions efter en rysare."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Truls Möregårdh klar för final efter rysare",
+          "link": "https://www.svd.se/a/wA9Gmd/senaste-nytt?pinnedEntry=77386&utm_medium=rss"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Truls Möregårdh klar för final efter rysare",
+          "link": "https://www.sydsvenskan.se/sport/moregardh-till-final-efter-rysare-sakrat-en-kvarts-miljon/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Truls Möregårdh klar för final efter rysare",
+          "link": "https://www.hd.se/sport/moregardh-till-final-efter-rysare-sakrat-en-kvarts-miljon/"
+        }
+      ],
+      "clusterId": "dec3575de7b091f5",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "abddc4f0c4b7f313"
+    },
+    {
+      "clusterIndex": 5,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "Truls Möregårdh",
+        "Tomokazu Harimoto",
+        "WTT Champions",
+        "Sportbladet"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sports-results",
+      "facts": [
+        "Bordtennisstjärnan Truls Möregårdh är klar för final i WTT Champions efter seger mot japanen Tomokazu Harimoto.",
+        "Uppgiften kommer från Sportbladet."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Truls Möregårdh klar för final efter rysare",
+          "link": "https://www.svd.se/a/wA9Gmd/senaste-nytt?pinnedEntry=77386&utm_medium=rss"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Truls Möregårdh klar för final efter rysare",
+          "link": "https://www.sydsvenskan.se/sport/moregardh-till-final-efter-rysare-sakrat-en-kvarts-miljon/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Truls Möregårdh klar för final efter rysare",
+          "link": "https://www.hd.se/sport/moregardh-till-final-efter-rysare-sakrat-en-kvarts-miljon/"
+        }
+      ],
+      "clusterId": "dec3575de7b091f5",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "77d7f90a8ef09fa4"
+    },
+    {
+      "clusterIndex": 5,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "Truls Möregårdh",
+        "Tomokazu Harimoto",
+        "WTT Champions",
+        "Sportbladet"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sports-results",
+      "facts": [
+        "Bordtennisstjärnan Truls Möregårdh är klar för final i WTT Champions efter seger mot japanen Tomokazu Harimoto.",
+        "Uppgiften kommer från Sportbladet."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Truls Möregårdh klar för final efter rysare",
+          "link": "https://www.svd.se/a/wA9Gmd/senaste-nytt?pinnedEntry=77386&utm_medium=rss"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Truls Möregårdh klar för final efter rysare",
+          "link": "https://www.sydsvenskan.se/sport/moregardh-till-final-efter-rysare-sakrat-en-kvarts-miljon/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Truls Möregårdh klar för final efter rysare",
+          "link": "https://www.hd.se/sport/moregardh-till-final-efter-rysare-sakrat-en-kvarts-miljon/"
+        }
+      ],
+      "clusterId": "dec3575de7b091f5",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "a3283dc148fb1fd8"
+    },
+    {
+      "clusterIndex": 6,
+      "source": "Senast publicerat",
+      "claimType": "reported",
+      "entities": [
+        "Love Sjögren Alpha",
+        "Fatima Sjögren Alpha",
+        "vallokaler"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valdagen-soffan",
+      "facts": [
+        "Vallokalerna runt om i landet har nu öppnat.",
+        "Love och Fatima Sjögren Alpha var först ut att rösta."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Röstningen i gång: ”Ville vara lite högtidlig”",
+          "link": "https://www.svd.se/a/Bx9qBl/rostningen-i-gang-ville-vara-lite-hogtidlig?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Röstningen i gång: ”Ville vara lite högtidlig”",
+          "link": "https://www.aftonbladet.se/nyheter/a/oE2lzR/rostningen-i-gang-ville-vara-lite-hogtidlig?utm_medium=rss"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Röstningen i gång: ”Ville vara lite högtidlig”",
+          "link": "https://www.di.se/nyheter/rostningen-i-gang-ville-vara-lite-hogtidlig/"
+        }
+      ],
+      "clusterId": "a3f63028c615c4bd",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "2c8de98ed5928873"
+    },
+    {
+      "clusterIndex": 6,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Love Sjögren Alpha",
+        "Fatima Sjögren Alpha",
+        "vallokaler"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valdagen-soffan",
+      "facts": [
+        "Vallokalerna runt om i landet har nu öppnat.",
+        "Love och Fatima Sjögren Alpha var först ut att rösta."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Röstningen i gång: ”Ville vara lite högtidlig”",
+          "link": "https://www.svd.se/a/Bx9qBl/rostningen-i-gang-ville-vara-lite-hogtidlig?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Röstningen i gång: ”Ville vara lite högtidlig”",
+          "link": "https://www.aftonbladet.se/nyheter/a/oE2lzR/rostningen-i-gang-ville-vara-lite-hogtidlig?utm_medium=rss"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Röstningen i gång: ”Ville vara lite högtidlig”",
+          "link": "https://www.di.se/nyheter/rostningen-i-gang-ville-vara-lite-hogtidlig/"
+        }
+      ],
+      "clusterId": "a3f63028c615c4bd",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "c0944520157b132c"
+    },
+    {
+      "clusterIndex": 6,
+      "source": "Dagens industri",
+      "claimType": "reported",
+      "entities": [
+        "Love Sjögren Alpha",
+        "Fatima Sjögren Alpha",
+        "Malmö",
+        "vallokaler"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valdagen-soffan",
+      "facts": [
+        "Vallokalerna runt om i landet har nu öppnat.",
+        "Love och Fatima Sjögren Alpha var först ut att rösta i sin lokal i Malmö."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Röstningen i gång: ”Ville vara lite högtidlig”",
+          "link": "https://www.svd.se/a/Bx9qBl/rostningen-i-gang-ville-vara-lite-hogtidlig?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Röstningen i gång: ”Ville vara lite högtidlig”",
+          "link": "https://www.aftonbladet.se/nyheter/a/oE2lzR/rostningen-i-gang-ville-vara-lite-hogtidlig?utm_medium=rss"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Röstningen i gång: ”Ville vara lite högtidlig”",
+          "link": "https://www.di.se/nyheter/rostningen-i-gang-ville-vara-lite-hogtidlig/"
+        }
+      ],
+      "clusterId": "a3f63028c615c4bd",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "4618303fd029fa84"
+    },
+    {
+      "clusterIndex": 7,
+      "source": "SVT Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Open AI",
+        "Sam Altman",
+        "börsnotering"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "ai-reglering",
+      "facts": [
+        "Open AI kommer inte att börsnoteras i år.",
+        "Det uppger bolagets vd Sam Altman i en intervju på lördagen."
+      ],
+      "sources": [
+        {
+          "source": "SVT Nyheter",
+          "title": "Altman: Ingen börsnotering för Open AI i år",
+          "link": "https://www.svt.se/nyheter/utrikes/altman-ingen-borsnotering-for-open-ai-i-ar"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Altman: Ingen börsnotering för Open AI i år",
+          "link": "https://www.di.se/nyheter/altman-ingen-borsnotering-for-open-ai-i-ar/"
+        }
+      ],
+      "clusterId": "e10529328794ac49",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "cd711bc78e01b005"
+    },
+    {
+      "clusterIndex": 7,
+      "source": "Dagens industri",
+      "claimType": "reported",
+      "entities": [
+        "Open AI",
+        "Sam Altman",
+        "börsnotering"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "ai-reglering",
+      "facts": [
+        "Open AI kommer inte att börsnoteras i år.",
+        "Det uppger bolagets vd Sam Altman i en intervju på lördagen."
+      ],
+      "sources": [
+        {
+          "source": "SVT Nyheter",
+          "title": "Altman: Ingen börsnotering för Open AI i år",
+          "link": "https://www.svt.se/nyheter/utrikes/altman-ingen-borsnotering-for-open-ai-i-ar"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Altman: Ingen börsnotering för Open AI i år",
+          "link": "https://www.di.se/nyheter/altman-ingen-borsnotering-for-open-ai-i-ar/"
+        }
+      ],
+      "clusterId": "e10529328794ac49",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "6d9a9c764a132e31"
+    },
+    {
+      "clusterIndex": 8,
+      "source": "Senast publicerat",
+      "claimType": "reported",
+      "entities": [
+        "valet 2022",
+        "presidentstrategin"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "swedish-election-2022",
+      "facts": [
+        "Frågan ställs vilka faktorer som formade valet 2022 och varför presidentstrategin misslyckades."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "En avgörande köttbullslunch",
+          "link": "https://www.svd.se/a/OkdqAq/en-avgorande-kottbullslunch?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Då vet vi vilka som vinner valet",
+          "link": "https://www.aftonbladet.se/nyheter/a/JOA666/valresultat-2026-da-kommer-resultatet?utm_medium=rss"
+        }
+      ],
+      "clusterId": "18566b63b292ec8c",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "f6d3d5c00145af08"
+    },
+    {
+      "clusterIndex": 8,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "valet",
+        "mandatpingis"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-prognos",
+      "facts": [
+        "Mandatpingis kan dröja."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "En avgörande köttbullslunch",
+          "link": "https://www.svd.se/a/OkdqAq/en-avgorande-kottbullslunch?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Då vet vi vilka som vinner valet",
+          "link": "https://www.aftonbladet.se/nyheter/a/JOA666/valresultat-2026-da-kommer-resultatet?utm_medium=rss"
+        }
+      ],
+      "clusterId": "18566b63b292ec8c",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "b6617cca18c8c253"
+    },
+    {
+      "clusterIndex": 9,
+      "source": "Senast publicerat",
+      "claimType": "reported",
+      "entities": [
+        "satelliter",
+        "skogsbränder",
+        "haven"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "international-news",
+      "facts": [
+        "Nya satelliter ska ge snabbare larm om skogsbränder.",
+        "De ska hålla koll på hur haven mår.",
+        "De ska följa det svaga växtljuset."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Nya satelliter ser växtljus och larmar om bränder",
+          "link": "https://www.svd.se/a/43w0ve/nya-satelliter-ser-vaxtljus-och-larmar-om-brander?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Nya satelliter ser växtljus och larmar om bränder",
+          "link": "https://www.aftonbladet.se/nyheter/a/OkdqPA/nya-satelliter-ser-vaxtljus-och-larmar-om-brander?utm_medium=rss"
+        }
+      ],
+      "clusterId": "08eca39960c219fc",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "4275b46c277cf17c"
+    },
+    {
+      "clusterIndex": 9,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "satelliter",
+        "skogsbränder",
+        "haven"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "international-news",
+      "facts": [
+        "Nya satelliter ska ge snabbare larm om skogsbränder.",
+        "De ska hålla koll på hur haven mår.",
+        "De ska följa det svaga växtljuset."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Nya satelliter ser växtljus och larmar om bränder",
+          "link": "https://www.svd.se/a/43w0ve/nya-satelliter-ser-vaxtljus-och-larmar-om-brander?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Nya satelliter ser växtljus och larmar om bränder",
+          "link": "https://www.aftonbladet.se/nyheter/a/OkdqPA/nya-satelliter-ser-vaxtljus-och-larmar-om-brander?utm_medium=rss"
+        }
+      ],
+      "clusterId": "08eca39960c219fc",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "543d6c8af247a102"
+    },
+    {
+      "clusterIndex": 10,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Ukraina",
+        "Ryssland",
+        "USA",
+        "Kyrylo Budanov"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "ukraina-kriget",
+      "facts": [
+        "En ny omgång samtal mellan Ukraina, Ryssland och USA kan komma att hållas i oktober.",
+        "Det uppger Kyrylo Budanov."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Ukraina: Nya fredssamtal kan hållas i oktober",
+          "link": "https://www.aftonbladet.se/nyheter/a/gklBKL/ukraina-nya-fredssamtal-kan-hallas-i-oktober?utm_medium=rss"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Ukraina: Nya fredssamtal kan hållas i oktober",
+          "link": "https://www.di.se/nyheter/ukraina-nya-fredssamtal-kan-hallas-i-oktober/"
+        }
+      ],
+      "clusterId": "a6fd5682674df7e6",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "0fea327bf93b4713"
+    },
+    {
+      "clusterIndex": 10,
+      "source": "Dagens industri",
+      "claimType": "reported",
+      "entities": [
+        "Ukraina",
+        "Ryssland",
+        "USA",
+        "Kyrylo Budanov",
+        "Ukrainas presidentkansli"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "ukraina-kriget",
+      "facts": [
+        "En ny omgång samtal mellan Ukraina, Ryssland och USA kan komma att hållas i oktober.",
+        "Det uppger Kyrylo Budanov, stabschef vid Ukrainas presidentkansli."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Ukraina: Nya fredssamtal kan hållas i oktober",
+          "link": "https://www.aftonbladet.se/nyheter/a/gklBKL/ukraina-nya-fredssamtal-kan-hallas-i-oktober?utm_medium=rss"
+        },
+        {
+          "source": "Dagens industri",
+          "title": "Ukraina: Nya fredssamtal kan hållas i oktober",
+          "link": "https://www.di.se/nyheter/ukraina-nya-fredssamtal-kan-hallas-i-oktober/"
+        }
+      ],
+      "clusterId": "a6fd5682674df7e6",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "caffcd86c115e7a6"
+    },
+    {
+      "clusterIndex": 11,
+      "source": "Dagens industri",
+      "claimType": "reported",
+      "entities": [
+        "statsministerrivalerna",
+        "S-ledaren",
+        "M-ledaren",
+        "Tidöpartierna",
+        "SD",
+        "regeringen"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "slutdebatt",
+      "facts": [
+        "Statsministerrivalerna varnade för varandras regeringsalternativ i den sista debattduellen innan valet.",
+        "S-ledaren lämnade inga nya besked om vem hon tänker regera med.",
+        "M-ledaren tänker köra vidare med Tidöpartierna, men med SD i regeringen."
+      ],
+      "sources": [
+        {
+          "source": "Dagens industri",
+          "title": "Redo bilda regering – men inga nya besked",
+          "link": "https://www.di.se/nyheter/redo-bilda-regering-men-inga-nya-besked/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Redo bilda regering – men inga nya besked",
+          "link": "https://www.hd.se/sverige/kristersson-recept-for-totalt-kaos/"
+        }
+      ],
+      "clusterId": "cdfed23a7d683393",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "90c0581ca2f307fb"
+    },
+    {
+      "clusterIndex": 11,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "statsministerrivalerna",
+        "S-ledaren",
+        "M-ledaren",
+        "Tidöpartierna",
+        "SD",
+        "regeringen"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "slutdebatt",
+      "facts": [
+        "Statsministerrivalerna varnade för varandras regeringsalternativ i den sista debattduellen innan valet.",
+        "S-ledaren lämnade inga nya besked om vem hon tänker regera med.",
+        "M-ledaren tänker köra vidare med Tidöpartierna, men med SD i regeringen."
+      ],
+      "sources": [
+        {
+          "source": "Dagens industri",
+          "title": "Redo bilda regering – men inga nya besked",
+          "link": "https://www.di.se/nyheter/redo-bilda-regering-men-inga-nya-besked/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Redo bilda regering – men inga nya besked",
+          "link": "https://www.hd.se/sverige/kristersson-recept-for-totalt-kaos/"
+        }
+      ],
+      "clusterId": "cdfed23a7d683393",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "0431de5241fbb78e"
+    },
+    {
+      "clusterIndex": 12,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "Hertzska villan",
+        "Vikingsbergsparken",
+        "Helsingborg"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "property-tax",
+      "facts": [
+        "Hertzska villan i Vikingsbergsparken i Helsingborg är till salu.",
+        "Villan har 17 rum från mitten av 1800-talet.",
+        "Utgångspriset är 19 500 000 kronor."
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "Anrik skånsk villa till salu: ”Vi har ingen stress”",
+          "link": "https://www.sydsvenskan.se/skane/anrik-skansk-villa-till-salu-vi-har-ingen-stress/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Anrik villa till salu i Helsingborg: ”Vi har ingen stress”",
+          "link": "https://www.hd.se/helsingborg/anrik-villa-till-salu-i-helsingborg-vi-har-ingen-stress/"
+        }
+      ],
+      "clusterId": "82c606b2bfd1c3e1",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "3d663d42072f1ccf"
+    },
+    {
+      "clusterIndex": 12,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "Hertzska villan",
+        "Vikingsbergsparken",
+        "Helsingborg"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "property-tax",
+      "facts": [
+        "Hertzska villan i Vikingsbergsparken är till salu.",
+        "Villan har 17 rum från mitten av 1800-talet.",
+        "Utgångspriset är 19 500 000 kronor."
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "Anrik skånsk villa till salu: ”Vi har ingen stress”",
+          "link": "https://www.sydsvenskan.se/skane/anrik-skansk-villa-till-salu-vi-har-ingen-stress/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Anrik villa till salu i Helsingborg: ”Vi har ingen stress”",
+          "link": "https://www.hd.se/helsingborg/anrik-villa-till-salu-i-helsingborg-vi-har-ingen-stress/"
+        }
+      ],
+      "clusterId": "82c606b2bfd1c3e1",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "9e3ac9d2082a61b6"
+    },
+    {
+      "clusterIndex": 14,
+      "source": "SVT Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Zecira Musovic",
+        "Sveriges VM-playoff",
+        "SVT Sport"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sports",
+      "facts": [
+        "Zecira Musovic, 30, har ett besked inför Sveriges VM-playoff.",
+        "Hon säger till SVT Sport: 'Jag tycker att jag är bättre än innan.'"
+      ],
+      "sources": [
+        {
+          "source": "SVT Nyheter",
+          "title": "Zecira Musovics besked inför avgörande VM-matcher: ”Bättre än innan”",
+          "link": "https://www.svt.se/sport/fotboll/zecira-musovics-besked-infor-avgorande-vm-matcher-battre-an-innan"
+        }
+      ],
+      "clusterId": "b789e9577cd4f5f8",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "72d957b54a79a6a6"
+    },
+    {
+      "clusterIndex": 15,
+      "source": "DN.se - Dagens Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Bayeuxtapeten",
+        "Storbritannien",
+        "Sandra Stiskalo",
+        "DN"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "cultural-events",
+      "facts": [
+        "Det medeltida broderiet är värt 10 miljarder.",
+        "Efter diplomatiska förhandlingar har Bayeuxtapeten fraktats till Storbritannien.",
+        "Alla vill se den.",
+        "DN:s Sandra Stiskalo berättar historien om den 70 meter långa och politiskt laddade linneduken."
+      ],
+      "sources": [
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "Så blev vi besatta av ett medeltida broderi värt 10 miljarder",
+          "link": "https://www.dn.se/kultur/sa-blev-vi-besatta-av-ett-medeltida-broderi-vart-10-miljarder/"
+        }
+      ],
+      "clusterId": "369962cd587276ef",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "dee3fa372f455a77"
+    },
+    {
+      "clusterIndex": 16,
+      "source": "DN.se - Dagens Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "indonesisk ö",
+        "forskare",
+        "förhistoriska skelett"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "international-news",
+      "facts": [
+        "På en indonesisk ö har forskare hittat tecken på missbruk hos två förhistoriska skelett.",
+        "Det tyder på att människor använt droger i tusentals år längre än vad vi tidigare vetat om.",
+        "Fyndet kan vara 25 000 år gammalt."
+      ],
+      "sources": [
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "Äldsta drogfyndet någonsin – kan vara 25 000 år gammalt",
+          "link": "https://www.dn.se/varlden/aldsta-drogfyndet-nagonsin-kan-vara-25-000-ar-gammalt/"
+        }
+      ],
+      "clusterId": "b137cf318ade82ec",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "31892285986c47f9"
+    },
+    {
+      "clusterIndex": 17,
+      "source": "DN.se - Dagens Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Mats Alvesson",
+        "arbetslivet",
+        "organisationer",
+        "chefer"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "culture",
+      "facts": [
+        "Mot den konfliktrisk som kan följa om man tar problem på allvar är viljan att inte veta ett bålverk.",
+        "Många på arbetsplatser nöjer sig med att allt ser bra ut på ytan.",
+        "Cheferna uppmuntrar för sällan seriösa utvärderingar.",
+        "Mats Alvesson förklarar varför organisationer är onödigt dysfunktionella."
+      ],
+      "sources": [
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "Mats Alvesson: Viljan att inte veta för mycket bromsar förnyelsen i arbetslivet",
+          "link": "https://www.dn.se/kultur/mats-alvesson-viljan-att-inte-veta-for-mycket-bromsar-fornyelsen-i-arbetslivet/"
+        }
+      ],
+      "clusterId": "169bde9cccf385b0",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "3405c63d44f8e373"
+    },
+    {
+      "clusterIndex": 18,
+      "source": "DN.se - Dagens Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "förtidsröster",
+        "valet",
+        "DN"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valdagen-soffan",
+      "facts": [
+        "Intresset för att förtidsrösta har varit rekordstort i årets val.",
+        "DN reder ut vad som gäller om man ångrar sin röst."
+      ],
+      "sources": [
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "Rekord för förtidsröster – det här gäller om du ångrar dig",
+          "link": "https://www.dn.se/sverige/rekord-for-fortidsroster-det-har-galler-om-du-angrar-dig-2/"
+        }
+      ],
+      "clusterId": "6305d930dc210bec",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "88e842bdfb4d139c"
+    },
+    {
+      "clusterIndex": 19,
+      "source": "DN.se - Dagens Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Elena Sadiku",
+        "Ballon d'Or",
+        "Häckentränaren"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sports",
+      "facts": [
+        "Elena Sadiku är nominerad till Ballon d'Or som en av världens fem bästa tränare.",
+        "Beskedet kom som en total chock för Häckentränaren.",
+        "Hon säger: 'Jag tänkte bara, är det någon som har klistrat in mitt huvud där?'"
+      ],
+      "sources": [
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "Chocken för Elena Sadiku: ”Då kom tårarna”",
+          "link": "https://www.dn.se/sport/chocken-for-elena-sadiku-da-kom-tararna/"
+        }
+      ],
+      "clusterId": "5b9dc2d96e71055a",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "dad7d1a9c86d9ddb"
+    },
+    {
+      "clusterIndex": 20,
+      "source": "DN.se - Dagens Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Alexandra Stråberg",
+        "globala räntor",
+        "stater"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "international-news",
+      "facts": [
+        "Dramatiken kring höjda globala räntor har ökat kraftigt.",
+        "Många stater svettas över nivåerna.",
+        "Det finns flera faror med utvecklingen.",
+        "Ekonomen Alexandra Stråberg säger: 'Det här kan bli ett återkommande problem.'"
+      ],
+      "sources": [
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "Fem faror när räntorna rusar globalt",
+          "link": "https://www.dn.se/ekonomi/fem-faror-nar-rantorna-rusar-globalt/"
+        }
+      ],
+      "clusterId": "1af71950e816d1a3",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "7d8b0f790e7c521b"
+    },
+    {
+      "clusterIndex": 21,
+      "source": "DN.se - Dagens Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Jessica",
+        "demokratin",
+        "valdagen"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "barn-och-demokrati",
+      "facts": [
+        "Yta eller innehåll är frågan för Jessica.",
+        "På valdagen kan ett fönat hår vara lika viktigt som valsedeln för att snygga till demokratin."
+      ],
+      "sources": [
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "Jessica: Därför vill jag vara fin för demokratin",
+          "link": "https://www.dn.se/kultur/jessica-jag-vill-vara-fin-for-demokratin/"
+        }
+      ],
+      "clusterId": "79f1f67f3bce7aa6",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "7fbeac9d8fe93f8c"
+    },
+    {
+      "clusterIndex": 22,
+      "source": "DN.se - Dagens Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Ingeborg Bachmann",
+        "Rebecka Kärde"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "culture",
+      "facts": [
+        "Den österrikiska jubilaren kommer ut med två böcker på svenska.",
+        "Rebecka Kärde läser om hennes 'mästerverk' och blir förvånad över sin egen ambivalens.",
+        "Frågan ställs om den 'sexistiska' kritiken hade rätt om Ingeborg Bachmanns prosa."
+      ],
+      "sources": [
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "Hade den ”sexistiska” kritiken rätt om Ingeborg Bachmanns prosa?",
+          "link": "https://www.dn.se/kultur/hade-den-sexistiska-kritiken-ratt-om-ingeborg-bachmanns-prosa/"
+        }
+      ],
+      "clusterId": "632991d7cda00a52",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "4eed132f9afd5887"
+    },
+    {
+      "clusterIndex": 23,
+      "source": "DN.se - Dagens Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Åsa Beckman",
+        "kulturtanterna",
+        "kvinnorna",
+        "rösträtt",
+        "DN"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "barn-och-demokrati",
+      "facts": [
+        "I början av 1900-talet kämpade kvinnorna oförtrutet för rösträtt.",
+        "Drygt 100 år senare finns en annan grupp som förvaltar deras arv – kulturtanterna.",
+        "Åsa Beckman skriver att de är ett samhälles allra bästa medborgare."
+      ],
+      "sources": [
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "Åsa Beckman: Vi hade haft ett bättre samhälle om alla var som kulturtanterna",
+          "link": "https://www.dn.se/kultur/asa-beckman-vi-hade-haft-ett-battre-samhalle-om-alla-var-som-kulturtanterna/"
+        }
+      ],
+      "clusterId": "769119184c5adf56",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "6c351f518e8a2f15"
+    },
+    {
+      "clusterIndex": 24,
+      "source": "Senast publicerat",
+      "claimType": "reported",
+      "entities": [
+        "valet",
+        "politisk period"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "svenska-valet-uppladdning",
+      "facts": [
+        "Runt hörnet väntar en ny politisk period."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Ett val för hoppfulla",
+          "link": "https://www.svd.se/a/q6MrqE/susanna-popova-sverige-kan-bli-ett-land-for-hoppfulla?utm_medium=rss"
+        }
+      ],
+      "clusterId": "965098cad33ec769",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "1194e29e3c02d294"
+    },
+    {
+      "clusterIndex": 0,
+      "source": "Senast publicerat",
+      "claimType": "reported",
+      "entities": [
+        "Jelena Rybakina",
+        "Kazakstan",
+        "US Open",
+        "Aryna Sabalenka"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sports-results",
+      "facts": [
+        "Jelena Rybakina från Kazakstan vinner US Open efter 2–1 i set i finalen mot Aryna Sabalenka."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Rybakina segrare i US Open: ”Allt föll på plats”",
+          "link": "https://www.svd.se/a/q6abXw/rybakina-segrare-i-us-open?utm_medium=rss"
+        }
+      ],
+      "clusterId": "0b7b5aa17275281e",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "2f84d4b41f2ed3ee"
+    },
+    {
+      "clusterIndex": 1,
+      "source": "Senast publicerat",
+      "claimType": "reported",
+      "entities": [
+        "barnen",
+        "han"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "atervandande-till-sverige",
+      "facts": [
+        "Han har gett bort allt.",
+        "Han har kallats både skattesmitare och antisemit.",
+        "Barnen fick 5 procent – resten skänktes bort."
+      ],
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Barnen fick 5 procent – resten skänktes bort",
+          "link": "https://www.svd.se/a/wrbMMP/roger-akelius-far-ett-barn-en-miljard-forstor-man-barnet?utm_medium=rss"
+        }
+      ],
+      "clusterId": "5348c69ee0614187",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "4eaa1ecfb00b4b62"
+    },
+    {
+      "clusterIndex": 2,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "SD",
+        "Sverigedemokraterna"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "swedish-election-2026",
+      "facts": [
+        "SD miljonsatsar.",
+        "Draget för att säkra valet: ”Har trevligt”."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "X-faktorn som kan avgöra valet – SD miljonsatsar",
+          "link": "https://www.aftonbladet.se/nyheter/a/0pzj3B/utlandssvenskar-kan-avgora-valet-rekordmanga-far-rosta?utm_medium=rss"
+        }
+      ],
+      "clusterId": "7d9fd2c655e264df",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "35763e527c01f5f5"
+    },
+    {
+      "clusterIndex": 3,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Haval",
+        "småbarnsmamman",
+        "mordkommandot"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "crime-investigations",
+      "facts": [
+        "Haval gripen i spektakulär gryningsräd.",
+        "Jakten på Haval & småbarnsmamman i mordkommandot."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Jakten på Haval & småbarnsmamman i mordkommandot",
+          "link": "https://www.aftonbladet.se/podcasts/episode/406821?utm_medium=rss"
+        }
+      ],
+      "clusterId": "df0099256edb1d90",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "20074841bba87f7b"
+    },
+    {
+      "clusterIndex": 4,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Indonesien",
+        "fartyg"
+      ],
+      "assertedLink": {
+        "from": "hårt väder",
+        "to": "fartyg välte",
+        "direction": "orsakar"
+      },
+      "linkSource": "Senaste nytt – nyheter från Aftonbladet",
+      "continuesThread": "fartygsolycka-stilla-havet",
+      "facts": [
+        "Över 140 människor saknas efter att ett fartyg har drabbats av hårt väder i Indonesien och vält."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Över 140 saknas efter att fartyg i Indonesien välte",
+          "link": "https://www.aftonbladet.se/nyheter/a/K84q2M/over-100-raddade-fran-fartyg-i-indonesien?utm_medium=rss"
+        }
+      ],
+      "clusterId": "ade7ebac4e411479",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "dfa7440204343e8f"
+    },
+    {
+      "clusterIndex": 5,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "valdagen"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valdagen-soffan",
+      "facts": [
+        "CHATT: Glad valdag!",
+        "Fråga: Hur långa är köerna?"
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "CHATT: Glad valdag!",
+          "link": "https://www.aftonbladet.se/nyheter/a/wr2bbL/hur-firar-du-valdagen?utm_medium=rss"
+        }
+      ],
+      "clusterId": "34022a4a90428951",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "8a0997faa8744774"
+    },
+    {
+      "clusterIndex": 6,
+      "source": "Senaste nytt – nyheter från Aftonbladet",
+      "claimType": "reported",
+      "entities": [
+        "Reform UK",
+        "Nigel Farage"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "uk-politics",
+      "facts": [
+        "Nigel Farages ytterhögerparti Reform UK har fått två enorma donationer under två dagar.",
+        "Reform UK fick miljarddonation på två dagar."
+      ],
+      "sources": [
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Reform UK fick miljarddonation – på två dagar",
+          "link": "https://www.aftonbladet.se/nyheter/a/M7GqX5/reform-uk-fick-miljarddonation-pa-tva-dagar?utm_medium=rss"
+        }
+      ],
+      "clusterId": "874fc19813152762",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "5ec3b7f83444ed06"
+    },
+    {
+      "clusterIndex": 7,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Trump",
+        "Nato"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "trump-visit-protests",
+      "facts": [
+        "Trumps nya angrepp.",
+        "Obekväma tystnaden efter orden om Nato.",
+        "”Ville inte ...”"
+      ],
+      "sources": [
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Trumps nya angrepp",
+          "link": "https://www.expressen.se/tv/nyheter/varlden/trump-till-nytt-angrepp-mot-nato-besviken"
+        }
+      ],
+      "clusterId": "074d7f454e3cad29",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "822298001bc0688a"
+    },
+    {
+      "clusterIndex": 8,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Postnord",
+        "Stockholmsområdet",
+        "Expressens valkompass"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "swedish-election-2026",
+      "facts": [
+        "Postnord blir flera timmar försenade med förtidsrösterna i Stockholmsområdet.",
+        "Osäker inför valet? Gör Expressens valkompass!"
+      ],
+      "sources": [
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Postnord timmar försenade med förtidsrösterna",
+          "link": "https://www.expressen.se/nyheter/politik/postnord-timmar-forsenade-med-fortidsrosterna/"
+        }
+      ],
+      "clusterId": "c44c4480734e2d6e",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "40f7b4cbe5b199fa"
+    },
+    {
+      "clusterIndex": 9,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Sverige",
+        "AfD",
+        "Tyskland",
+        "svenska valet",
+        "tyska delstatsvalet"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "swedish-election-2026",
+      "facts": [
+        "Omvärlden bevakar det svenska valet.",
+        "Ämnen som lyfts: migrationen, skjutvapenvåldet och möjligheten till rikedom.",
+        "Jämförelser görs med det tyska delstatsvalet.",
+        "Högernationalistiska AfD fick 44 procent i det tyska delstatsvalet."
+      ],
+      "sources": [
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Världens blickar på Sverige: ”Förödande”",
+          "link": "https://www.expressen.se/nyheter/politik/varldens-blickar-pa-sverige-forodande/"
+        }
+      ],
+      "clusterId": "9ebdbb84b3246d46",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "75a51ae20ce0826d"
+    },
+    {
+      "clusterIndex": 10,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Andersson",
+        "S",
+        "Stockholm",
+        "regeringen"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "andersson-extrema-krafter",
+      "facts": [
+        "S-ledaren röstade i Stockholm – minuter efter lokalerna öppnade.",
+        "Anderssons sista känga till regeringen."
+      ],
+      "sources": [
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Anderssons sista känga till regeringen",
+          "link": "https://www.expressen.se/tv/politik/har-gar-magdalena-andersson-och-rostar"
+        }
+      ],
+      "clusterId": "7adbac25d1e8c1f5",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "e35696d8517d862a"
+    },
+    {
+      "clusterIndex": 11,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Expressen",
+        "väljare"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valdagen-soffan",
+      "facts": [
+        "Valdagen är här och röstlokalerna har öppnat.",
+        "3 642 832 personer har förtidsröstat.",
+        "Chatta med Expressen och dela med dig."
+      ],
+      "sources": [
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Vad gör du på valdagen?",
+          "link": "https://www.expressen.se/nyheter/politik/vad-gor-du-pa-valdagen/"
+        }
+      ],
+      "clusterId": "77db220e7fbdbc5e",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "2561d5a1841b67b5"
+    },
+    {
+      "clusterIndex": 12,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "finansminister",
+        "Trump",
+        "klimatet",
+        "AI",
+        "konkurrenskraften",
+        "svensk ekonomi"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "ai-reglering",
+      "facts": [
+        "Oavsett vem som blir finansminister de kommande åren är det många utmaningar som väntar svensk ekonomi.",
+        "Utmaningar: Trump, klimatet, AI och konkurrenskraften."
+      ],
+      "sources": [
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Här är utmaningarna för nästa finansminister",
+          "link": "https://www.expressen.se/nyheter/politik/har-ar-utmaningarna-for-nasta-finansminister/"
+        }
+      ],
+      "clusterId": "b1669f9f8c2eca62",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "6fcb8bc9132006f9"
+    },
+    {
+      "clusterIndex": 13,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Amanda Lind",
+        "Daniel Helldén",
+        "Miljöpartiet",
+        "Andreas Johansson Heinö",
+        "Timbro"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valrorelse-kritik",
+      "facts": [
+        "I valrörelsens slutspurt väljer Miljöpartiet att lyfta fram sitt kvinnliga språkrör.",
+        "Fram med Amanda Lind, bort med Daniel Helldén.",
+        "Andreas Johansson Heinö är doktor i statsvetenskap och förläggare på Timbro.",
+        "Han säger: ”Man gör som alla andra och toppar laget.”"
+      ],
+      "sources": [
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Experter: Därför syns inte Helldén i spurten",
+          "link": "https://www.expressen.se/nyheter/politik/experter-darfor-syns-inte-hellden-i-spurten/"
+        }
+      ],
+      "clusterId": "5ee8b1ffd236db15",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "b1912d1467f5820f"
+    },
+    {
+      "clusterIndex": 14,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "väljare",
+        "vallokaler"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "swedish-election-2026",
+      "facts": [
+        "3 642 832 har röstat innan vallokalerna öppnat.",
+        "Rekordsiffra redan innan vallokalerna öppnar."
+      ],
+      "sources": [
+        {
+          "source": "Expressen: Nyheter",
+          "title": "3 642 832 har röstat – innan vallokalerna öppnat",
+          "link": "https://www.expressen.se/nyheter/politik/allt-om-valet-2026-folj-direktrapporten/?post=3f4e8d30-2b16-4ea1-ba9d-784a916c5fa3"
+        }
+      ],
+      "clusterId": "6a04b6b482d48ea9",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "0cceddee354c7380"
+    },
+    {
+      "clusterIndex": 15,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "valstuga",
+        "valaffisch"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "fire-incidents",
+      "facts": [
+        "Brand i valstuga.",
+        "Valaffisch fattade eld i natt.",
+        "Ingen misstänkt."
+      ],
+      "sources": [
+        {
+          "source": "Expressen: Nyheter",
+          "title": "JUST NU: Brand i valstuga",
+          "link": "https://www.expressen.se/nyheter/politik/allt-om-valet-2026-folj-direktrapporten/?post=b09a1ff7-f524-4e2a-b064-823d22f19cc1"
+        }
+      ],
+      "clusterId": "f16a3663d4284d61",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "6fe057bd8d84045a"
+    },
+    {
+      "clusterIndex": 16,
+      "source": "Expressen: Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "Ryssland"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "ukraina-kriget",
+      "facts": [
+        "Stopp i Ryssland.",
+        "Tio timmar långa köer."
+      ],
+      "sources": [
+        {
+          "source": "Expressen: Nyheter",
+          "title": "Stopp i Ryssland",
+          "link": "https://www.expressen.se/tv/nyheter/varlden/langa-koer-for-att-fa-tanka-i-ryssland"
+        }
+      ],
+      "clusterId": "23e965a962b941bc",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "d90aa5388b78837a"
+    },
+    {
+      "clusterIndex": 17,
+      "source": "Dagens industri",
+      "claimType": "verified",
+      "entities": [
+        "Nets",
+        "Strömstadsområdet",
+        "norska gränshandeln"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sports-results",
+      "facts": [
+        "Norrmännens gränshandel i Strömstadsområdet ökade med 10 procent i somras jämfört med samma period i fjol.",
+        "Siffrorna kommer från betalningsbolaget Nets."
+      ],
+      "sources": [
+        {
+          "source": "Dagens industri",
+          "title": "Lyft för norsk gränshandel i somras",
+          "link": "https://www.di.se/nyheter/lyft-for-norsk-granshandel-i-somras/"
+        }
+      ],
+      "clusterId": "a0de0aa36e9ce5f4",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "8f1b57392f637522"
+    },
+    {
+      "clusterIndex": 18,
+      "source": "Dagens industri",
+      "claimType": "verified",
+      "entities": [
+        "UKMTO",
+        "Hormuzsundet",
+        "brittiska marinen"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "fartyg-hormuzsundet",
+      "facts": [
+        "Ett fartyg har träffats av en projektil i Hormuzsundet.",
+        "Uppgiften kommer från den brittiska marinens sjöövervakning UKMTO på X."
+      ],
+      "sources": [
+        {
+          "source": "Dagens industri",
+          "title": "Fartyg träffat i Hormuzsundet",
+          "link": "https://www.di.se/nyheter/fartyg-traffat-i-hormuzsundet/"
+        }
+      ],
+      "clusterId": "58ae4940932bc133",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "37c81b9326d2377c"
+    },
+    {
+      "clusterIndex": 19,
+      "source": "Dagens industri",
+      "claimType": "circulating",
+      "entities": [
+        "Huthirörelsen",
+        "Saudiarabien",
+        "Sharurah",
+        "militärbas"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "huthi-attack",
+      "facts": [
+        "Huthirörelsen påstår att den attackerat en militärbas i Sharurah i södra Saudiarabien.",
+        "Saudiarabien uppger att två personer skadats i attacker mot ett gränssamhälle i en annan del av landet."
+      ],
+      "sources": [
+        {
+          "source": "Dagens industri",
+          "title": "Huthirörelsen: Attacker mot bas i Saudiarabien",
+          "link": "https://www.di.se/nyheter/huthirorelsen-attacker-mot-bas-i-saudiarabien/"
+        }
+      ],
+      "clusterId": "8ef2326cc86fce86",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "55ad91134982a74c"
+    },
+    {
+      "clusterIndex": 20,
+      "source": "Dagens industri",
+      "claimType": "reported",
+      "entities": [
+        "Lundbergs",
+        "Di"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sports-analysis",
+      "facts": [
+        "Di:s köprekommendation av investmentbolaget blev riktigt bra.",
+        "Aktien passar fortfarande in som bas i en lågriskportfölj.",
+        "Lundbergs är en hörnsten i portföljen."
+      ],
+      "sources": [
+        {
+          "source": "Dagens industri",
+          "title": "Lundbergs är en hörnsten i portföljen",
+          "link": "https://www.di.se/analys/lundbergs-ar-en-hornsten-i-portfoljen/"
+        }
+      ],
+      "clusterId": "0140c9db26243d14",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "2528eec270497f08"
+    },
+    {
+      "clusterIndex": 21,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "Lund",
+        "amatörteater",
+        "insändarskribent"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "cultural-events",
+      "facts": [
+        "Det behövs fler lokaler och scener för amatörteater i Lund.",
+        "Det tycker denne insändarskribent."
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "”Amatörteatern behöver stöd för att kunna utvecklas”",
+          "link": "https://www.sydsvenskan.se/lund/amatorteatern-behover-stod-for-att-kunna-utvecklas/"
+        }
+      ],
+      "clusterId": "7528728d4dab6adf",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "ec13d5f85d68245e"
+    },
+    {
+      "clusterIndex": 22,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "Sydsvenskan",
+        "politikreportrar",
+        "valet 2026"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "swedish-election-2026",
+      "facts": [
+        "Valrörelsen växlar upp.",
+        "I Valet Direkt kan man ställa egna frågor till politikreportrar.",
+        "Här får man koll på de senaste lokala utspelen och de stora rikspolitiska striderna."
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "Valet Direkt: Allt du behöver veta om valet 2026",
+          "link": "https://www.sydsvenskan.se/sverige/valet-direkt-vagen-till-valurnorna-2026/"
+        }
+      ],
+      "clusterId": "59b1d0ee44540441",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "db708de8099a9a71"
+    },
+    {
+      "clusterIndex": 23,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "nyhetsreporter",
+        "valrörelsen"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valrorelse-kritik",
+      "facts": [
+        "En riktig nyhetsreporter väljer alltid storyn.",
+        "Fråga: Vad missade vi denna valrörelse?"
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "En riktig nyhetsreporter väljer alltid storyn",
+          "link": "https://www.sydsvenskan.se/sverige/en-riktig-nyhetsreporter-valjer-alltid-storyn/"
+        }
+      ],
+      "clusterId": "c957498c090eb751",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "f91077d10d1c41c4"
+    },
+    {
+      "clusterIndex": 24,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "MMA",
+        "Trump",
+        "Skåne",
+        "Palestina",
+        "Maga-rörelsen",
+        "manosfären",
+        "Esther Arndtzén"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sports-analysis",
+      "facts": [
+        "MMA har gått från oreglerad subkultur till ett globalt spektakel.",
+        "MMA är på senare år starkt förknippat med manosfären och Maga-rörelsen.",
+        "Esther Arndtzén möter skånska utövare som strävar mot världseliten och med att nyansera bilden av kampsporten.",
+        "I Skåne slåss man för Palestina."
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "Spektaklet MMA är Trumps favoritsport – men i Skåne slåss man för Palestina",
+          "link": "https://www.sydsvenskan.se/kultur/mma-varlden-har-omfamnat-donald-trump-men-i-skane-slass-man-for-palestina/"
+        }
+      ],
+      "clusterId": "6f1c12c536426cfe",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "5c72bfb22a53cbd5"
+    },
+    {
+      "clusterIndex": 0,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "Sydsvenskan",
+        "riksdagen"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "swedish-election-2026",
+      "facts": [
+        "Valet kan bli historiskt.",
+        "Det finns fem viktiga siffror att hålla koll på under kvällen.",
+        "Rösterna till riksdagen räknas."
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "Valet kan bli historiskt – här är fem siffror att hålla koll på i kväll",
+          "link": "https://www.sydsvenskan.se/sverige/valet-kan-bli-historiskt-har-ar-fem-siffror-att-halla-koll-pa-i-kvall/"
+        }
+      ],
+      "clusterId": "380ffb6097298877",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "a645b77db2cec008"
+    },
+    {
+      "clusterIndex": 1,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "Malmö FF",
+        "Gaute Helstrup",
+        "Bodø/Glimt"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "allsvenskan",
+      "facts": [
+        "Malmö FF är på 20:e plats i världen när det gäller att ge speltid till unga.",
+        "Tidigare var Malmö FF känt för sina ålderstigna trupper.",
+        "Gaute Helstrup säger att de har fler spännande spelare i den åldersgruppen än Bodø/Glimt."
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "Stora skiftet – MFF i topp i världen på att ge unga speltid",
+          "link": "https://www.sydsvenskan.se/sport/stora-skiftet-mff-i-topp-i-varlden-pa-att-ge-unga-speltid/"
+        }
+      ],
+      "clusterId": "9b0657eb38adff81",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "43d302268347e752"
+    },
+    {
+      "clusterIndex": 2,
+      "source": "sydsvenskan.se",
+      "claimType": "reported",
+      "entities": [
+        "Djupadal",
+        "Lindängen",
+        "Malmö"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valdagen-soffan",
+      "facts": [
+        "I Malmös rikaste områden röstar nio av tio invånare.",
+        "I fattigare områden röstar runt hälften.",
+        "Det handlar inte bara om Malmöbornas plånböcker."
+      ],
+      "sources": [
+        {
+          "source": "sydsvenskan.se",
+          "title": "På Djupadal röstar nästan alla – och på Lindängen bara hälften",
+          "link": "https://www.sydsvenskan.se/malmo/pa-djupadal-rostar-nastan-alla-och-pa-lindangen-bara-halften/"
+        }
+      ],
+      "clusterId": "aff62f9f0ad37435",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "19c5bc23f88b1a57"
+    },
+    {
+      "clusterIndex": 3,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "Spirit of Discovery",
+        "Camilla",
+        "Storbritannien"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "spelrecension",
+      "facts": [
+        "Camilla är gudmor till kryssningsfartyget Spirit of Discovery.",
+        "Fartyget har en nedre åldersgräns på 50 år.",
+        "Fartyget marknadsförs som ett flytande boutiquehotell."
+      ],
+      "sources": [
+        {
+          "source": "hd.se",
+          "title": "Spirit of Discovery – ett flytande boutiquehotell endast för 50-plussare",
+          "link": "https://www.hd.se/helsingborg/spirit-of-discovery-ett-flytande-boutiquehotell-endast-for-50-plussare/"
+        }
+      ],
+      "clusterId": "74d1b801f84df4bf",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "65467325ef5a30ab"
+    },
+    {
+      "clusterIndex": 4,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "HD",
+        "partiledarna",
+        "riksdagen"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "swedish-election-2026",
+      "facts": [
+        "Inför valet på söndag har HD träffat samtliga partiledare i riksdagen.",
+        "Intervjuerna finns att läsa."
+      ],
+      "sources": [
+        {
+          "source": "hd.se",
+          "title": "Läs alla våra intervjuer med partiledarna",
+          "link": "https://www.hd.se/sverige/las-samtliga-av-vara-partiledarintervjuer/"
+        }
+      ],
+      "clusterId": "dd72e731668433e1",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "cbc18a5d1f7bbdcd"
+    },
+    {
+      "clusterIndex": 5,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "22-årig ängelholmare",
+        "krögare"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "crime-investigations",
+      "facts": [
+        "En 22-årig ängelholmare har dömts för misshandel av en krögare.",
+        "Påföljden är villkorlig dom och 100 timmars samhällstjänst."
+      ],
+      "sources": [
+        {
+          "source": "hd.se",
+          "title": "Berusad 22-åring överföll krögare – döms för misshandel",
+          "link": "https://www.hd.se/angelholm/berusad-22-aring-overfoll-krogare-doms-for-misshandel/"
+        }
+      ],
+      "clusterId": "3908f7073f1ba8fe",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "3f49a508b99aedc1"
+    },
+    {
+      "clusterIndex": 6,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "Strövelstorp",
+        "Vege å"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "traffic-accident",
+      "facts": [
+        "Broarbete pågår på bron över Vege å utanför Strövelstorp.",
+        "Vägen stängs av från och med måndagen den 14 september.",
+        "Bilister och kollektivtrafik får ta andra vägar."
+      ],
+      "sources": [
+        {
+          "source": "hd.se",
+          "title": "Väg stängs av i samband med broarbete i Strövelstorp",
+          "link": "https://www.hd.se/angelholm/vag-stangs-av-i-samband-med-broarbete-i-strovelstorp/"
+        }
+      ],
+      "clusterId": "21c3b6ee7b48bafa",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "981f79b11c0c8691"
+    },
+    {
+      "clusterIndex": 7,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "Togo",
+        "kantiansk filosof"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "swedish-election-2026",
+      "facts": [
+        "Det är valdag i nationen.",
+        "En kantiansk filosof från Togo anses relevant att lyssna på."
+      ],
+      "sources": [
+        {
+          "source": "hd.se",
+          "title": "Han fick Sverige att krympa – nästa regering borde lyssna på honom",
+          "link": "https://www.hd.se/kultur/han-fick-sverige-att-krympa-nasta-regering-borde-lyssna-pa-honom/"
+        }
+      ],
+      "clusterId": "6e56b028161492af",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "e47c4892692d94ac"
+    },
+    {
+      "clusterIndex": 8,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "väljare",
+        "nordvästra Skåne"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valdagen-soffan",
+      "facts": [
+        "52 väljare har intervjuats om varför de röstar och deras hjärtefrågor.",
+        "Hjärtefrågor inkluderar äldreomsorg, trygghet, klimatet och demokratin."
+      ],
+      "sources": [
+        {
+          "source": "hd.se",
+          "title": "Jätteenkät: Därför röstar vi idag",
+          "link": "https://www.hd.se/skane/jatteenkat-darfor-rostar-vi-idag/"
+        }
+      ],
+      "clusterId": "99bcd782619f405c",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "3d6aacd272c32f04"
+    },
+    {
+      "clusterIndex": 9,
+      "source": "hd.se",
+      "claimType": "reported",
+      "entities": [
+        "Marcus Rossheim",
+        "HD"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valvaka-stress",
+      "facts": [
+        "Valnatten kan bli mer spännande än på länge.",
+        "HD:s politiska redaktör Marcus Rossheim tipsar om sex saker att hålla utkik på."
+      ],
+      "sources": [
+        {
+          "source": "hd.se",
+          "title": "Här är sex saker jag håller utkik på i valnatten",
+          "link": "https://www.hd.se/opinion/ledare/har-ar-sex-saker-jag-haller-utkik-pa-i-valnatten/"
+        }
+      ],
+      "clusterId": "51823e10a406a4ac",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "d7649faee50c7606"
+    },
+    {
+      "clusterIndex": 10,
+      "source": "Nyheter",
+      "claimType": "reported",
+      "entities": [
+        "NSD",
+        "Norrbotten"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "swedish-election-2026",
+      "facts": [
+        "Under söndagen går folket till valurnorna.",
+        "Framåt natten kan vi ha fått svar på vilka som ska styra landet de kommande fyra åren.",
+        "NSD bevakar valet nationellt och lokalt i Norrbotten."
+      ],
+      "sources": [
+        {
+          "source": "Nyheter",
+          "title": "Live: Följ valet 2026 här",
+          "link": "https://www.nsd.se/nyheter/norrbotten/artikel/nsd-bevakar-valet-i-norrbotten-hela-sondagen/j82ox41j"
+        }
+      ],
+      "clusterId": "4a650d9f60c1f371",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "f529f04ab5075664"
+    },
+    {
+      "clusterIndex": 11,
+      "source": "Nyheter",
+      "claimType": "reported",
+      "entities": [],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "swedish-election-2026",
+      "facts": [
+        "En person svarar på frågor om valet.",
+        "Frågor kan handla om var man röstar, dubbelspår på malmbanan, nervositet och när resultatet är känt."
+      ],
+      "sources": [
+        {
+          "source": "Nyheter",
+          "title": "Ställ din fråga och få svar direkt",
+          "link": "https://www.nsd.se/ledare/artikel/stall-din-fraga-om-valet-veronica-palm-svarar-direkt/jdqvxn8r"
+        }
+      ],
+      "clusterId": "f747c412f9b36553",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "c04f078885089b9f"
+    },
+    {
+      "clusterIndex": 12,
+      "source": "Barometern",
+      "claimType": "reported",
+      "entities": [
+        "Högsby",
+        "man i 50-årsåldern",
+        "kvinna i 20-årsåldern",
+        "man i 20-årsåldern"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "crime-investigations",
+      "facts": [
+        "Vid midnatt larmades polisen till Högsby.",
+        "En man och en kvinna i 20-årsåldern ska ha blivit misshandlade av en man i 50-årsåldern."
+      ],
+      "sources": [
+        {
+          "source": "Barometern",
+          "title": "20-åringar slagna av berusad äldre man",
+          "link": "https://www.barometern.se/hogsby/20-aringar-slagna-av-berusad-aldre-man/"
+        }
+      ],
+      "clusterId": "4f2fa71b2a677569",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "a10444c771ea6f7f"
+    },
+    {
+      "clusterIndex": 13,
+      "source": "Barometern",
+      "claimType": "reported",
+      "entities": [
+        "Kalmar"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "crime-investigations",
+      "facts": [
+        "En person har slagits blodig av okända män i centrala Kalmar.",
+        "Händelsen utreds som misshandel."
+      ],
+      "sources": [
+        {
+          "source": "Barometern",
+          "title": "Slagen blodig av okända män – misshandel i centrala Kalmar",
+          "link": "https://www.barometern.se/kalmar/slagen-blodig-av-okanda-man-misshandel-i-centrala-kalmar/"
+        }
+      ],
+      "clusterId": "4cfde367466178f2",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "4c298a95903a8592"
+    },
+    {
+      "clusterIndex": 14,
+      "source": "Barometern",
+      "claimType": "reported",
+      "entities": [
+        "Barometern",
+        "OT",
+        "Kalmar",
+        "Nybro",
+        "Emmaboda",
+        "Torsås",
+        "Mörbylånga",
+        "Borgholm",
+        "Oskarshamn",
+        "Mönsterås",
+        "Högsby"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "swedish-election-2026",
+      "facts": [
+        "Det är söndagen den 13 september och Sveriges maktpositioner ska fördelas.",
+        "Barometern rapporterar direkt från Kalmar, Nybro, Emmaboda, Torsås, Mörbylånga och Borgholm samt ger nyhetsflashar från övriga kommuner i länet.",
+        "OT rapporterar direkt från Oskarshamn, Mönsterås och Högsby samt ger nyhetsflashar från övriga kommuner i länet.",
+        "Vallokalerna öppnar klockan 8."
+      ],
+      "sources": [
+        {
+          "source": "Barometern",
+          "title": "Valet direkt med Barometern – här får du senaste nytt",
+          "link": "https://www.barometern.se/kalmar/valet-direkt-med-barometern-har-far-du-senaste-nytt/"
+        },
+        {
+          "source": "Barometern",
+          "title": "Valet direkt med OT – här får du senaste nytt",
+          "link": "https://www.barometern.se/oskarshamn/valet-direkt-med-ot-har-far-du-senaste-nytt/"
+        }
+      ],
+      "clusterId": "b1576a491bffcde2",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "81b05b3b3ffe4b12"
+    },
+    {
+      "clusterIndex": 15,
+      "source": "Barometern",
+      "claimType": "reported",
+      "entities": [
+        "Sofie Sarenbrant",
+        "Vega Bratt",
+        "Bengt Eriksson",
+        "Blackout"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "spelrecension",
+      "facts": [
+        "Sofie Sarenbrant inleder en ny serie med den undersökande journalisten Vega Bratt som huvudperson.",
+        "Blackout är en spännande deckare.",
+        "Recensenten Bengt Eriksson övergick från att läsa till att lyssna."
+      ],
+      "sources": [
+        {
+          "source": "Barometern",
+          "title": "Sofie Sarenbrants nya kommer till sin rätt först som ljudbok",
+          "link": "https://www.barometern.se/kultur/sofie-sarenbrants-nya-kommer-till-sin-ratt-forst-som-ljudbok/"
+        }
+      ],
+      "clusterId": "6f8477a073bb2280",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "f7cdb520b39c29a6"
+    },
+    {
+      "clusterIndex": 16,
+      "source": "Barometern",
+      "claimType": "reported",
+      "entities": [
+        "Martin Kirchberg",
+        "Sverigedemokraterna",
+        "Mikael Honga",
+        "Byteatern"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valrorelse-kritik",
+      "facts": [
+        "I den kulturpolitiska diskussionen på Byteatern sade Martin Kirchberg att Sverigedemokraterna vill avskaffa enprocentsregeln.",
+        "Hans partikamrat Mikael Honga menade att konsten ska vara vacker.",
+        "Uttalandena säger något viktigt om skillnaderna i svensk kulturpolitik."
+      ],
+      "sources": [
+        {
+          "source": "Barometern",
+          "title": "Konst är ingen lyx – försvara enprocentsregeln",
+          "link": "https://www.barometern.se/insandare/konst-ar-ingen-lyx-forsvara-enprocentsregeln/"
+        }
+      ],
+      "clusterId": "f5e7b0e253963f7c",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "f998133baa61980d"
+    },
+    {
+      "clusterIndex": 17,
+      "source": "Barometern",
+      "claimType": "reported",
+      "entities": [],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "traffic-accident",
+      "facts": [
+        "En bil voltade och landade på en åker.",
+        "En person fördes till sjukhus."
+      ],
+      "sources": [
+        {
+          "source": "Barometern",
+          "title": "Bil voltade och landade på åker – en person till sjukhus",
+          "link": "https://www.barometern.se/kalmar/bil-voltade-och-landade-pa-aker-en-person-till-sjukhus/"
+        }
+      ],
+      "clusterId": "5f65421e143d5f1d",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "c5c8e141d61027d0"
+    },
+    {
+      "clusterIndex": 18,
+      "source": "Barometern",
+      "claimType": "reported",
+      "entities": [
+        "partierna",
+        "väljarna"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "valrorelse-kritik",
+      "facts": [
+        "Inför varje val hör vi samma sak: snabba löften, hårda ord och enkla lösningar på svåra problem.",
+        "Partierna säger det de tror att väljarna vill höra.",
+        "De berättar alltför sällan vad förslagen faktiskt kostar, vilka konsekvenser de får eller vilka kompromisser som krävs."
+      ],
+      "sources": [
+        {
+          "source": "Barometern",
+          "title": "Sluta fiska röster – börja tala klarspråk",
+          "link": "https://www.barometern.se/insandare/sluta-fiska-roster-borja-tala-klarsprak/"
+        }
+      ],
+      "clusterId": "3bed96ff6bdf9de5",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "2c763c0363032a93"
+    },
+    {
+      "clusterIndex": 19,
+      "source": "Barometern",
+      "claimType": "reported",
+      "entities": [],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "crime-investigations",
+      "facts": [
+        "En mopedförare har gripits för grovt rattfylleri."
+      ],
+      "sources": [
+        {
+          "source": "Barometern",
+          "title": "Mopedförare gripen för grovt rattfylleri",
+          "link": "https://www.barometern.se/nybro/mopedforare-gripen-for-grovt-rattfylleri/"
+        }
+      ],
+      "clusterId": "3c892d27cdda0b7f",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "82cb0b6a299720ab"
+    },
+    {
+      "clusterIndex": 20,
+      "source": "Barometern",
+      "claimType": "reported",
+      "entities": [
+        "Lotta Kjellberg",
+        "Mikael Kjellberg",
+        "Amanda Kjellberg"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "barn-och-demokrati",
+      "facts": [
+        "Lotta och Mikael Kjellberg åkte till sjukhuset för att få barn.",
+        "De fick åka hem utan dottern Amanda.",
+        "Amanda gick bort, bara två dagar gammal.",
+        "Det har gått 33 år men sorgen finns kvar."
+      ],
+      "sources": [
+        {
+          "source": "Barometern",
+          "title": "Sorgen efter Lottas och Mikaels dotter Amanda går aldrig över",
+          "link": "https://www.barometern.se/monsteras/sorgen-efter-lottas-och-mikaels-dotter-amanda-gar-aldrig-over/"
+        }
+      ],
+      "clusterId": "b25008d67c5d2bce",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "0718e565e0210e1a"
+    },
+    {
+      "clusterIndex": 21,
+      "source": "Barometern",
+      "claimType": "reported",
+      "entities": [
+        "Hannes Johansson",
+        "Oskarshamns AIK",
+        "Räppe",
+        "Torbjörn Arvidsson"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "sports-results",
+      "facts": [
+        "Hannes Johansson var tillbaka från start efter en skadefylld period.",
+        "Han gjorde två mål i Oskarshamns AIK:s 7–1-kross mot Räppe.",
+        "Tränaren Torbjörn Arvidssons taktiska drag gav full utdelning.",
+        "Arvidsson säger att Johansson har varit väldigt viktig för oss."
+      ],
+      "sources": [
+        {
+          "source": "Barometern",
+          "title": "Stora revanschen: \"Kändes som det var nu eller aldrig\"",
+          "link": "https://www.barometern.se/sport/stora-revanschen-kandes-som-det-var-nu-eller-aldrig/"
+        }
+      ],
+      "clusterId": "568e8ba567c15a12",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "3f8b8f1113fcc75a"
+    },
+    {
+      "clusterIndex": 22,
+      "source": "Dagens Samhälle - Senaste nytt",
+      "claimType": "reported",
+      "entities": [
+        "kommuner"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "swedish-election-2026",
+      "facts": [
+        "Flera kommuner håller folkomröstningar på allmänna valdagen.",
+        "Fyra lokala folkomröstningar hålls.",
+        "En av dem handlar om ett politiskt förslag som inte längre finns."
+      ],
+      "sources": [
+        {
+          "source": "Dagens Samhälle - Senaste nytt",
+          "title": "Fyra folkomröstningar på valdagen – ett förslag redan slopat",
+          "link": "https://www.dagenssamhalle.se/styrning-och-beslut/kommunpolitik/fyra-folkomrostningar-pa-valdagen-ett-forslag-redan-slopat/"
+        }
+      ],
+      "clusterId": "f5f94297eec8d6a6",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "bd89c9ac9dcb9ada"
+    },
+    {
+      "clusterIndex": 23,
+      "source": "ETC.se",
+      "claimType": "reported",
+      "entities": [
+        "Fredrika Menninga",
+        "Skåne"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "barn-och-demokrati",
+      "facts": [
+        "22-åriga Fredrika Menninga från Skåne har sedan barnsben kämpat mot oförklarliga symtom.",
+        "Hon är multisjuk.",
+        "Hon menar att tillgången till vård till stor del handlar om tur.",
+        "Hon säger att det handlar om vem man råkar få som läkare och vilken kunskap den personen har.",
+        "Hon har fått höra att hon inte kan ha vissa besvär för att läkaren själv aldrig hört talas om dem."
+      ],
+      "sources": [
+        {
+          "source": "ETC.se",
+          "title": "Fredrika, 22, är fast i vårdkarusellen: ”Att få hjälp handlar om tur”",
+          "link": "https://www.etc.se/inrikes/fredrika-22-aer-fast-i-vaardkarusellen-att-faa-hjaelp-handlar-om-tur?utm_source=rss"
+        }
+      ],
+      "clusterId": "8d40170cf13d4253",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "01e901d000403f1d"
+    },
+    {
+      "clusterIndex": 24,
+      "source": "TV4 Nyheterna",
+      "claimType": "reported",
+      "entities": [
+        "Donald Trump",
+        "Dallas",
+        "republikanska partikonventet"
+      ],
+      "assertedLink": null,
+      "linkSource": null,
+      "continuesThread": "trump-visit-protests",
+      "facts": [
+        "Donald Trumps ansikte fanns överallt, till och med i hissarna.",
+        "När presidenten gjorde entré under partikonventet i Dallas reste sig publiken och jublade.",
+        "Trump hävdade att arenan var full men stora sjok med tomma stolar syntes.",
+        "Presidenten höll ett maratontal på en timme och 45 minuter den första kvällen.",
+        "Han gjorde comeback för ytterligare ett tal dagen därpå på 25 minuter."
+      ],
+      "sources": [
+        {
+          "source": "TV4 Nyheterna",
+          "title": "Bakom kulisserna har han gått från tillgång till risk",
+          "link": "https://www.tv4.se/artikel/1OdxQlZnTZlyDDFeuB37Z8/bakom-kulisserna-har-han-gatt-fran-tillgang-till-risk"
+        }
+      ],
+      "clusterId": "e6bb85f124a3e64c",
+      "runId": "2026-09-13T07:57:47.870Z",
+      "observedAt": "2026-09-13T07:57:47.870Z",
+      "hash": "a623ba5f7af58524"
     }
   ],
   "published": [],
@@ -6341,6 +9718,11 @@
       "key": "transition:bb5d9781ecc58d5f",
       "reason": "DeepSeek 400: {\"error\":{\"message\":\"Prompt must contain the word 'json' in some form to use 'response_format' of type 'json_object'.\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":\"invalid_request_error\"}}",
       "at": "2026-09-13T02:53:44.842Z"
+    },
+    {
+      "key": "transition:bb5d9781ecc58d5f",
+      "reason": "DeepSeek 400: {\"error\":{\"message\":\"Prompt must contain the word 'json' in some form to use 'response_format' of type 'json_object'.\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":\"invalid_request_error\"}}",
+      "at": "2026-09-13T07:57:47.870Z"
     }
   ]
 }
