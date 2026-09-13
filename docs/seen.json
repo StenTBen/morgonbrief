@@ -5,7 +5,7 @@
     "congress-fb-96a2bd2e061c5cba",
     "congress-fb-1ca938b0e2e84502",
     "congress-fb-54b1cf1dac0931be",
-    "congress-fb-96a2bd2e061c5cba"
+    "congress-fb-5228a0cecda193a9"
   ],
   "crypto": [
     "gov-uniswap-25881",
@@ -13,7 +13,9 @@
     "gov-uniswap-26137",
     "tvl-ethereum-2026-09-12",
     "gov-makerdao/sky-28234",
-    "gov-uniswap-26168"
+    "gov-uniswap-26168",
+    "gov-uniswap-26208",
+    "gov-aave-25623"
   ],
   "world": [
     "world-QlJJQ1Mgc3VtbWl0IG9wZW5z",
@@ -26,7 +28,9 @@
     "world-Q2hpbGUgbnVyc2luZyBob21l",
     "world-S2VueWEncyBjcmFja2Rvd24g",
     "world-SXJhbiBhbmQgVUFFIGhvbGQg",
-    "world-QnVyaWFsIG9mIFVnYW5kYSdz"
+    "world-QnVyaWFsIG9mIFVnYW5kYSdz",
+    "world-SXJhbidzIFBlemVzaGtpYW4g",
+    "world-SG91dGhpcyBzZWl6ZSBNYXl1"
   ],
   "val2026": [
     "val2026-a72cdd9097e0c074",
