@@ -1,152 +1,352 @@
 {
   "date": "2026-09-13",
-  "builtAt": "2026-09-13T19:36:56.798Z",
+  "builtAt": "2026-09-13T23:12:51.109Z",
   "episodes": [
     {
       "sphere": "congress",
       "sphereLabel": "Politik",
       "audioUrl": "https://github.com/StenTBen/morgonbrief/releases/download/audio/pod-congress-2026-09-13.mp3",
-      "audioBytes": 608352,
+      "audioBytes": 738624,
       "itemCount": 0,
       "items": [],
-      "script": "Inget lagförslag finns att länka i dag. Det här avsnittet bygger på mediebevakning, inte på primärkällor.\n\n**Kongressledamoten Tom Tiffanys nödlandning i Wisconsin.**\n\nTom Tiffany är republikansk kongressledamot från Wisconsin och kandiderar till guvernör i delstaten. Han var på väg hem från ett partimöte i La Crosse County när hans småflygplan tappade motorkraft på väg mot Wausau Downtown Airport sent i lördags kväll.\n\nEnligt Tiffany själv, i ett inlägg på plattformen X, skadades han lindrigt. Piloten gjorde en nödlandning i sjön Lake Wausau, och båda två hamnade i vattnet och simmade i land. Det är Tiffans egen redogörelse som ligger till grund för uppgifterna; BBC och The Guardian rapporterar samma sak och hänvisar till hans uttalande. Någon oberoende bekräftelse av skadeläget eller av den tekniska orsaken finns inte i materialet. Vad som orsakade motorbortfallet är alltså okänt.\n\n**Kongressen återvänder – och AI hamnar i centrum för Demokraternas agenda.**\n\nBåde representanthuset och senaten återvänder till Washington den här veckan. Senaten väntas fortsätta förhandlingarna om budgetresolutionen och hålla en proceduromröstning om lagförslaget om kryptoregiering. Representanthusets agenda rapporteras vara oklar i detalj.\n\nParallellt har AI-reglering flyttats fram som en prioriterad fråga för Demokraterna. Enligt The New York Times uppmanade Barack Obama, vid en insamlingsmiddag i Manhattan i torsdags, Hakeem Jeffries – Demokraternas gruppledare i representanthuset – att göra AI-tillsyn till en central del av partiets agenda, och att ta fram ett ramverk för ett offentligt samtal om tekniken om partiet vinner tillbaka representanthuset. Den uppgiften cirkulerar via The New York Times och har inte bekräftats av Obama eller Jeffries själva.\n\nJeffries sade i söndags i ABC:s \"This Week\" att kongressen \"verkligen behöver agera skyndsamt\" kring AI, och att frågan kommer att vara högprioriterad för hans grupp. Det är hans egna ord, inte ett åtagande om ett specifikt lagförslag.\n\nVad som inte är känt: om det finns ett färdigt förslag, vilken form regleringen i så fall skulle ta, eller om Obama och Jeffries har enats om något konkret."
+      "script": "Inget lagförslag finns att länka i dag. Det här avsnittet bygger på bevakning, inte på primärkällor.\n\nKongressen är tillbaka i Washington i veckan. Senaten har tre oavslutade ärenden på agendan: kryptolagstiftningen, jordbrukslagen och den budgetresolution som Republikanerna behöver för att låsa upp ett tredje försoningspaket. Försoning är den process som låter en budget gå igenom Senaten med enkel majoritet i stället för de sextio röster som annars krävs för att avsluta debatten. Den största öppna frågan, enligt bevakningen, är om Republikanerna internt kan enas om den resolutionen. Senaten väntas också hålla en procedurröst om kryptolagstiftningen. Vad gäller jordbrukslagen och kryptolagen finns inga uppgifter i materialet om var de faktiskt står, bara att de är bland de prioriteringar som ligger framme. Notera också att bevakningen beskriver ett hus som \"rapporteras överväga\" ett antal ärenden — det är alltså inte bekräftat vad kammaren går till beslut om.\n\nDemokraternas ledare i Representanthuset, Hakeem Jeffries, sade i ABC:s \"This Week\" att kongressen bör agera skyndsamt kring skyddsåtgärder för artificiell intelligens, och kallade AI en hög prioritet. Bakgrunden: en tidigare medarbetare på AI-företaget Anthropic har varnat offentligt, och det är den varningen som satt fart på samtalen. Representanten Greg Stanton, demokrat från Arizona, sade i NewsNations \"The Hill Sunday\" att talmannen Mike Johnson borde hålla kammaren i session för att ta upp riskerna med snabbt framväxande AI-modeller. Republikanen Mike Flood från Nebraska sade i samma program att staten bör införa skyddsåtgärder och att ledarna för de stora AI-företagen borde svara på frågor om teknikens risker. En uppgift som cirkulerar, rapporterad av The New York Times, gör gällande att Barack Obama vid en insamling i torsdags ska ha uppmanat Jeffries att göra AI-tillsyn till en central del av Demokraternas agenda om partiet tar tillbaka Representanthuset. Den uppgiften är inte bekräftad av någon av de inblandade. Vad som är etablerat är Jeffries, Stantons och Floods egna uttalanden. Vad som inte är känt: om något utskott faktiskt lägger fram ett förslag, och när i så fall.\n\nRepresentanten Tom Tiffany, republikan från Wisconsin och kandidat till guvernörsvalet i delstaten, fick lindriga skador när hans flygplan gjorde en nödlandning i en sjö i lördags kväll. Enligt Tiffany själv tappade planet motorkraft på väg in mot Wausau Downtown Airport. Han skrev på sociala medier att han var på väg hem från ett partimöte i La Crosse County. Både Tiffany och piloten tog sig upp på planet och larmade 911 därifrån, enligt NPR, och simmade sedan till grundare vatten. BBC uppger att orsaken var ett mekaniskt fel. Det är Tiffanys egen redogörelse som ligger till grund för händelseförloppet; någon oberoende haverirapport finns inte i materialet."
     },
     {
       "sphere": "crypto",
       "sphereLabel": "Ekonomi",
       "audioUrl": "https://github.com/StenTBen/morgonbrief/releases/download/audio/pod-crypto-2026-09-13.mp3",
-      "audioBytes": 38016,
-      "itemCount": 0,
-      "items": [],
-      "script": "God morgon. Inget i crypto klarade tröskeln idag. Ingen governance-strid var het nog, och inga kedjor rörde sig utanför det normala. Vi hörs imorgon."
+      "audioBytes": 680736,
+      "itemCount": 1,
+      "items": [
+        {
+          "id": "tvl-ethereum-2026-09-13",
+          "rubrik": "Ethereum: TVL-rörelse",
+          "sammanfattning": "Ethereums TVL gick från 49 964 684 635 USD till 49 921 001 432 USD, en förändring på -0,0874 procent. Bakgrunden är en Bitcoin-bro-exploit där Blockaid uppger att cirka 46,1 miljarder syBTC myntades, medan angriparen enligt uppgift bara fick ut omkring 336 000 USD. Symbiosis uppger sig ha återfått 15 BTC och erbjuder angriparen 20 procents bounty.",
+          "varfor": "En exploit mot en Bitcoin-bro som myntade stora mängder syBTC och dränerade BTC från bron kan rimligen ha påverkat Ethereum-TVL för det berörda protokollet.",
+          "status": "Symbiosis har återfått 15 BTC och erbjuder angriparen 20 procents bounty.",
+          "score": 0,
+          "reasons": [],
+          "singleSource": true,
+          "documentUrl": "https://defillama.com/chain/Ethereum",
+          "coverage": [
+            {
+              "source": "The Block",
+              "title": "Symbiosis says it recovered 15 BTC after Bitcoin bridge exploit, offers attacker 20% bounty",
+              "link": "https://www.theblock.co/news/defi/2026-09-13-symbiosis-says-it-recovered-15-btc-after-bitcoin-bridge-exploit-offers-attacker-20-bounty-414568"
+            }
+          ]
+        }
+      ],
+      "script": "Symbiosis, en Bitcoin-brygga, har utsatts för ett exploit.\n\nBryggan är en tjänst som låser Bitcoin på ena sidan och ger en representant, syBTC, på den andra. Användaren får ett tokeniserat anspråk på den inlåsta bitcoinen i stället för att flytta den själv. Ett exploit är alltså inte ett intrång i Bitcoins nätverk, utan ett fel i bryggans egen logik för hur syBTC skapas och löses in.\n\nEnligt säkerhetsföretaget Blockaid myntades omkring 46,1 miljarder syBTC i attacken. Det talet är värt att stanna vid, för det är en myntningsvolym, inte ett värde. Attackören lyckades bara omsätta en bråkdel. Blockaid uppger att utbytet landade på omkring 336 000 dollar. Symbiosis säger själva att man har återfått 15 BTC och att man erbjuder angriparen 20 procent i bounty för att lämna tillbaka resten. Det är Symbiosis egen uppgift, förmedlad via The Block, och den är inte bekräftad av någon oberoende part i materialet.\n\nVad som inte framgår av materialet: hur exploiten gick till tekniskt, om de 15 BTC är återfunna genom spårning eller genom frivillig återlämning, och om bounty-erbjudandet har fått något svar. Det finns inte heller någon uppgift om hur stort det faktiska underskottet i bryggan är efter återföringen.\n\nVarför det spelar roll bortom den enskilda händelsen: en bryggas hela affärsidé vilar på att det tokeniserade anspråket alltid kan lösas in mot den underliggande bitcoinen. När myntningslogiken kan manipuleras uppstår ett glapp mellan utestående syBTC och faktiskt inlåst BTC. Det är den risken, inte priset på Bitcoin, som är själva händelsen här.\n\nEn siffra till, och den ska läsas med försiktighet. DefiLlama visar att Ethereums totala TVL gick från 49 964 684 635 dollar till 49 921 001 432 dollar, en nedgång på 0,087 procent. Det är en rörelse på under en tiondels procent. Källan till att just denna rörelse skulle ha med Symbiosis-exploiten att göra är DefiLlamas egen koppling, inte en verifierad orsak. En så liten förändring i en så stor pool går inte att tillskriva en enskild händelse utan vidare, och materialet innehåller inget som styrker sambandet.\n\nSammanfattningsvis: siffrorna om myntad volym och utbyte kommer från Blockaid via The Block. Uppgifterna om återfunnen Bitcoin och bounty kommer från Symbiosis själva. TVL-siffrorna kommer från DefiLlama. Ingen av dessa är oberoende bekräftade i det material jag har."
     },
     {
       "sphere": "val2026",
       "sphereLabel": "Valet",
       "audioUrl": "https://github.com/StenTBen/morgonbrief/releases/download/audio/pod-val2026-2026-09-13.mp3",
-      "audioBytes": 616224,
+      "audioBytes": 593472,
       "itemCount": 0,
       "items": [],
-      "script": "Valdagen: köerna, vallokalerna och vad bevakningen visar.\n\nUnderlaget här är rubriker och ingresser, inte fulltext och inte primärkällor. Det jag kan säga är vad bevakningen visar, och var den är tunn.\n\nFlera redaktioner rapporterar om långa köer till vallokaler runt om i landet. SVT Nyheter har en väljare i Ålidhemshallen i Umeå som uppger över tre timmars väntan, och att några bakom honom lämnade kön. Aftonbladet, Dagens industri och flera andra för vidare rapporter om köer på upp till flera timmar, med formuleringen att det beskrivs som allvarligt. Den enda namngivna rösten i underlaget är Anna Nyqvist, kanslichef på Valmyndigheten, som i Dagens industri säger att myndigheten varnat för köerna ända sedan valet 2022. Det är ett påstående från henne, inte något som är belagt i materialet.\n\nVad bevakningen inte ger: ingen samlad siffra på hur många vallokaler det gäller, ingen uppgift om orsakerna, och ingen bekräftelse på att köerna påverkat valdeltagandet. Göteborgs-Posten skriver om flera förklaringar och att en sticker ut, men ingressen namnger den inte. Den fråga som rimligen följer – vad som gäller för den som står i kö klockan 20 – ställs i GP:s ingress men besvaras inte där.\n\nVid sidan av detta dominerar två typer av material: guider om hur man röstar i vallokalen, publicerade i flera kanaler, och en notis om att statsministern röstar i riksdagsvalet tillsammans med Birgitta Ed. Det är servicejournalistik och ett sedvanligt bildinslag, inget som tillför något om läget.\n\nEn separat händelse i Malmö: en man i 30-årsåldern har anhållits misstänkt för mordförsök och grovt vapenbrott efter att en kvinna skjutits i huvudet. Enligt polisen, via SVT, fördes kvinnan till sjukhus och skadeläget ska inte vara livshotande. DN uppger att hon var vaken och talbar när polisen kom till bostaden. Det finns ingen uppgift i underlaget om relationen mellan de två, om motiv eller om vad utredningen bygger på. En notis om en mopedförare gripen för grovt rattfylleri i Barometern hör inte hit och jag kopplar den inte till något annat.\n\nDet jag kan säga om köerna är alltså att de rapporteras från flera håll, att en myndighetsföreträdare säger att man varnat sedan 2022, och att bevakningen ännu inte levererat vare sig omfattning eller orsak."
+      "script": "Underlaget för det här avsnittet är bevakning – rubriker och ingresser från SVT, Expressen, Dagens industri, Göteborgs-Posten, DN och Aftonbladet. Det är inte fulltext och inte primärkällor. Jag håller mig till det som står där.\n\nKvällens siffror bygger på en prognos, inte på ett färdigt resultat.\n\nSVT:s prognos är matematiskt uträknad och bygger på drygt en tiondel av de räknade rösterna. Den är alltså inte en vallokalsundersökning. Vallokalsundersökningarna pekade i rödgrön favör, enligt Dagens industri, medan prognosen visar i stort sett jämnt skägg. Henrik Ekengren Oscarsson, SVT:s valexpert, säger att det kommer att växla under kvällen. Det är skillnaden mellan en mätning av väljare på väg ut från vallokalen och en beräkning på faktiskt räknade röster – den senare rör sig när fler röster kommer in.\n\nPrognosen visar ett mandat mellan blocken. Expressen och DN anger att det motsvarar omkring 20 000 röster. DN skriver att oppositionen leder med ett mandat vid närmare sex miljoner räknade röster. Liberalerna klarar sig över spärren med marginal, enligt DN. S ser ut att gå mot sitt sämsta riksdagsval i modern tid och SD ser ut att backa för första gången i ett riksdagsval, enligt SVT:s prognos. Ekengren Oscarsson kallar läget gastkramande.\n\nVad som avgör är röster som räknas först på onsdag, enligt Aftonbladet. Det är de rösterna som ser ut att fälla avgörandet, och därför kan resultatet dröja till dess. Ulf Kristersson säger till DN att resultatet kan leda till en komplicerad regeringsbildning.\n\nJag noterar vad underlaget inte säger. Det står inget om hur stort det räknade underlaget är i absoluta tal utöver DN:s närmare sex miljoner, inget om vilka distrikt som återstår, och inget om hur osäkerheten i prognosen beräknas. Det är en lucka, inte ett svar jag fyller.\n\nVid sidan av siffrorna: långa köer till vallokalerna. I Umeå väntade väljare i över tre timmar, enligt SVT, och några lämnade kön. Den sista vallokalen i Umeå stängde vid 23. Flera lokaler höll öppet till klockan nio, enligt Göteborgs-Posten. En museivärd säger till GP att köerna inte går att mäta med andra tillfällen. GP skriver att det finns flera förklaringar till köerna i Göteborg och att en av dem sticker ut, men ingressen säger inte vilken.\n\nDet är vad bevakningen visar. Inget mer."
     },
     {
       "sphere": "world",
       "sphereLabel": "Världen",
       "audioUrl": "https://github.com/StenTBen/morgonbrief/releases/download/audio/pod-world-2026-09-13.mp3",
-      "audioBytes": 1725984,
+      "audioBytes": 1160832,
       "itemCount": 2,
       "items": [
         {
-          "id": "world-QlJJQ1Mgc3VtbWl0IGluIE5l",
-          "kategori": "VÄRLDSPOLITIK",
-          "rubrik": "Brics-toppmöte i New Delhi präglades av inre splittring",
-          "sammanfattning": "Brics-ledarna samlades i New Delhi för ett toppmöte där Indiens premiärminister Narendra Modi, Kinas president Xi Jinping, Rysslands president Vladimir Putin och Irans president Masoud Pezeshkian deltog. Gruppen antog en gemensam deklaration som uppmanar till återhållsamhet i Mellanöstern och kritiserar ensidiga tullar och sanktioner, men utan att peka ut någon stat vid namn. Iran och Förenade Arabemiraten står på motsatta sidor i kriget i Mellanöstern, och Rysslands krig i Ukraina nämns inte alls i deklarationen. Mötet blev ändå en arena för bilaterala samtal, bland annat mellan Irans och Abu Dhabis ledare.",
-          "varfor": "Brics samlar länder som tillsammans står för nästan hälften av världens befolkning och omkring 40 procent av den globala ekonomin, och hur gruppen hanterar sina motsättningar påverkar förutsättningarna för en multipolär världsordning. Att de inte kan enas om skarpa ställningstaganden i konkreta konflikter visar gränserna för vad gruppen kan åstadkomma som geopolitiskt block.",
-          "status": "Deklarationen antogs, men oenigheten om Iran och Ukraina kvarstår och några konkreta åtgärder har inte presenterats.",
-          "score": 75,
-          "reasons": [
-            "5 international outlets (+40)",
-            "No Swedish coverage found (+35)"
-          ],
-          "region": "Global",
-          "swedishCoverage": "none",
-          "leadSource": "BBC News",
-          "publishedAt": "2026-09-13T11:23:42.000Z",
-          "singleSource": false,
-          "enriched": true,
-          "sourceCount": 5,
-          "coverage": [
-            {
-              "source": "BBC News",
-              "title": "Iran war reshapes Brics ties but also exposes divisions",
-              "link": "https://www.bbc.co.uk/news/articles/ce8767g4jdpo?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-              "title": "World leaders gather in New Delhi for final day of BRICS summit",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/13/world-leaders-gather-in-new-delhi-for-final-day-of-brics-summit?traffic_source=rss"
-            },
-            {
-              "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-              "title": "The Iran war reveals the limits of BRICS",
-              "link": "https://www.aljazeera.com/opinions/2026/9/13/the-iran-war-reveals-the-limits-of?traffic_source=rss"
-            },
-            {
-              "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-              "title": "BRICS summit 2026: What are the key takeaways?",
-              "link": "https://www.aljazeera.com/news/2026/9/13/brics-summit-2026-what-are-the-key-takeaways?traffic_source=rss"
-            },
-            {
-              "source": "France 24 - International breaking news, top stories and headlines",
-              "title": "BRICS summit: What came out of the New Delhi meeting",
-              "link": "https://www.france24.com/en/brics-summit-what-came-out-of-the-new-delhi-meeting"
-            },
-            {
-              "source": "News - South China Morning Post",
-              "title": "Brics summit ends with Xi’s AI offer, Modi’s warning on critical minerals as weapons",
-              "link": "https://www.scmp.com/news/china/diplomacy/article/3367341/chinese-leader-pledges-help-brics-nations-ai-and-smart-manufacturing?utm_source=rss_feed"
-            }
-          ]
-        },
-        {
-          "id": "world-TmVwYWwgaHlkcm9wb3dlciB0",
-          "kategori": "KATASTROF",
-          "rubrik": "Nepalesisk arbetare räddad efter tio dygn i översvämmad tunnel",
-          "sammanfattning": "Den 30-årige nepalesiske vattenkraftsarbetaren Sanjay Sah räddades den 4 september efter att ha tillbringat tio dygn i en översvämmad tunnel vid Chilime-vattenkraftverket i Rasuwa-distriktet. Han överlevde i mörker på grumligt vatten och hade tappat all tidsuppfattning. Översvämningarna utlöstes av en is- och berglavin vid gränsen mellan Nepal och Tibet den 26 augusti och dödade minst 1 429 personer, medan över 5 640 fortfarande saknas. Räddningsarbetet fortsätter i tunnlarna, där sex arbetare tros vara instängda.",
-          "varfor": "Katastrofen belyser riskerna med de många vattenkraftsprojekt som byggs i Himalaya, ofta med gränsöverskridande finansiering och arbetskraft, i en region där stigande temperaturer gör bergen alltmer instabila. Den visar också hur svårt det är att genomföra räddningsinsatser i avlägsna bergsområden.",
-          "status": "Räddningsinsatser pågår fortfarande i Chilime-tunneln och vid Upper Trishuli-3B, men inga livstecken har hörts från de sex instängda arbetarna.",
-          "score": 75,
+          "id": "world-SW5kb25lc2lhbiBmZXJyeSBj",
+          "kategori": "SJÖFART",
+          "rubrik": "Färja kantrade i Javasjön – över hundra saknas",
+          "sammanfattning": "Färjan Virgo Transport 8 med 243 passagerare och besättningsmedlemmar ombord förliste i hårt väder i Javasjön natten mot söndagen. Fartyget var på väg från Surabaya på östra Java till Banjarmasin i Sydkalimantan när kaptenen rapporterade vågor på upp till tre meter och att fartyget började kränga, varefter kontakten bröts. Enligt Indonesiens nationella sök- och räddningsmyndighet Basarnas har 107 personer räddats, sex döda har bärgats och omkring 130 saknas fortfarande. Transportministern uppgav att fartyget hade kantrat men ännu inte sjunkit, och räddningsinsatsen med fyra fartyg, ett marinfartyg och helikopter kämpar mot höga vågor. Olyckan är den andra allvarliga färjeförlisningen i regionen inom fem dagar.",
+          "varfor": "Händelsen belyser de återkommande säkerhetsproblemen inom indonesisk sjöfart, där överfulla fartyg, bristande underhåll och oförutsägbart väder fortsätter att kräva människoliv i ett örike som är starkt beroende av båttransporter.",
+          "status": "Sökandet efter de saknade pågår fortfarande kring fartygets senast kända position, cirka 15 mil från destinationen.",
+          "score": 55,
           "reasons": [
             "3 international outlets (+25)",
-            "No Swedish coverage found (+35)",
-            "Underreported region (South Asia) (+15)"
+            "Only passing Swedish mention (+15)",
+            "Underreported region (Southeast Asia) (+15)"
           ],
-          "region": "South Asia",
-          "swedishCoverage": "none",
+          "region": "Southeast Asia",
+          "swedishCoverage": "weak",
           "leadSource": "France 24 - International breaking news, top stories and headlines",
-          "publishedAt": "2026-09-13T04:17:14.000Z",
+          "publishedAt": "2026-09-13T13:17:21.000Z",
           "singleSource": false,
           "enriched": true,
           "sourceCount": 3,
           "coverage": [
             {
               "source": "France 24 - International breaking news, top stories and headlines",
-              "title": "'Second life': Nepal hydropower tunnel survivor recalls ordeal",
-              "link": "https://www.france24.com/en/asia-pacific/20260913-second-life-nepal-hydropower-tunnel-survivor-recalls-ordeal"
+              "title": "Indonesia: Second ferry disaster in five days",
+              "link": "https://www.france24.com/en/indonesia-second-ferry-disaster-in-five-days"
             },
             {
               "source": "News - South China Morning Post",
-              "title": "Nepal flood survivor says rescue efforts must continue",
-              "link": "https://www.scmp.com/news/asia/south-asia/article/3367346/nepal-flood-survivor-says-rescue-efforts-must-continue?utm_source=rss_feed"
+              "title": "Indonesia searches for 130 passengers after ship sinks in Java Sea",
+              "link": "https://www.scmp.com/news/asia/southeast-asia/article/3367333/indonesian-ship-240-passengers-aboard-loses-contact-java-sea?utm_source=rss_feed"
             },
             {
               "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-              "title": "Nepal flash floods: Rescue teams clear 70 metres of debris in tunnel as they close in on six trapped workers",
-              "link": "https://www.thehindu.com/news/international/nepal-flash-floods-rescue-teams-clear-70-metres-of-debris-in-tunnel-as-they-close-in-on-six-trapped-workers/article71462802.ece"
-            },
+              "title": "Indonesia says six killed, 130 missing after ferry capsizes off Java",
+              "link": "https://www.thehindu.com/news/international/indonesia-passenger-vessel-with-243-people-reportedmissing-agency-says/article71462492.ece"
+            }
+          ]
+        },
+        {
+          "id": "world-UHJvLVBhbGVzdGluZSBwcm90",
+          "kategori": "PROTEST",
+          "rubrik": "Propalestinsk demonstration i Sydney kräver hårdare australisk linje mot Israel",
+          "sammanfattning": "En propalestinsk demonstration hölls i Sydney med krav på att den australiska regeringen ska agera kraftfullare och införa sanktioner mot Israel. Aktivisterna riktade särskilt kritik mot regeringens passivitet efter att den australiska humanitära hjälparbetaren Zomi Frankcom dödats av Israel.",
+          "varfor": "Protesten speglar ett växande inhemskt tryck på Australiens utrikespolitiska hållning gentemot Israel.",
+          "status": "Kraven har framförts men några nya australiska åtgärder har ännu inte aviserats.",
+          "score": 50,
+          "reasons": [
+            "No Swedish coverage found (+35)",
+            "Underreported region (Pacific) (+15)"
+          ],
+          "region": "Pacific",
+          "swedishCoverage": "none",
+          "leadSource": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+          "publishedAt": "2026-09-13T21:02:14.000Z",
+          "singleSource": true,
+          "enriched": true,
+          "sourceCount": 1,
+          "coverage": [
             {
-              "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-              "title": "'Second life': Nepal tunnel survivor recalls ordeal",
-              "link": "https://www.thehindu.com/news/international/second-life-nepal-tunnel-survivor-recalls-ordeal/article71462655.ece"
+              "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+              "title": "Pro-Palestine protest demands Australia increases pressure on Israel",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/13/pro-palestine-protest-demands-australia-increases-pressure-on-israel?traffic_source=rss"
             }
           ]
         }
       ],
-      "script": "Brics-toppmötet i New Delhi.\n\nBrics är en samarbetsgrupp som grundades 2006 av Brasilien, Ryssland, Indien och Kina, och som Sydafrika anslöt till fyra år senare. Gruppen har sedan byggts ut och omfattar i dag elva medlemsländer, däribland Egypten, Etiopien, Iran, Förenade Arabemiraten, Saudiarabien och Indonesien. Tillsammans står de för nära hälften av världens befolkning och omkring 40 procent av den globala ekonomin. Gruppen har länge drivit kravet att utvecklingsländer ska få större inflytande i Världsbanken, IMF och WTO. Mötet i New Delhi hölls mot bakgrund av kriget mellan USA, Israel och Iran, och Trumps tullkrig mot flera av medlemsländerna.\n\nIndiens premiärminister Narendra Modi var värd för toppmötet, och bland deltagarna fanns Kinas president Xi Jinping, Rysslands president Vladimir Putin, Irans president Masoud Pezeshkian, Abu Dhabis kronprins Sheikh Khaled bin Mohamed bin Zayed Al Nahyan och Sydafrikas president Cyril Ramaphosa. Att få dessa ledare till samma bord är i sig en diplomatisk bedrift – Indien och Kina hade en dödlig sammandrabbning vid sin omstridda gräns 2020, och Iran och Förenade Arabemiraten har stått på motsatta sidor i Mellanösternkriget, där Teheran avfyrat robotar och drönare mot sin egen Brics-partner. New Delhi-deklarationen antogs enhälligt under mötets första dag, lördagen den 12 september. Det är anmärkningsvärt i sig: tidigare i år misslyckades Brics utrikesministrar två gånger om att enas om ett gemensamt uttalande. Vad deklarationen säger är talande för vad den inte säger. Om kriget i Mellanöstern uppmanar den till största återhållsamhet och fördömer attacker mot civil infrastruktur och fredliga kärntekniska anläggningar, men den pekar inte ut någon skyldig – varken USA, Israel, Iran eller Gulfstaterna nämns. Den upprepar stödet för en tvåstatslösning och motsätter sig tvångsförflyttning av palestinier. Rysslands krig i Ukraina nämns inte alls, vilket är ett avsteg från tidigare Brics-deklarationer. När det gäller handel uttrycker deklarationen oro över godtyckligt stigande tullar och fördömer ensidiga sanktioner, men utan att namnge USA. Den fördömer också sanktioner som inte godkänts av FN:s säkerhetsråd, vilket är betydelsefullt för Ryssland. Kremls talesperson Dmitrij Peskov uppgav på söndagen, enligt den ryska statliga nyhetsbyrån TASS, att Xi och Modi erbjudit sina tjänster för fredssamtal om Ukraina och att Putin välkomnat detta. Enligt BBC:s rapportering från platsen hölls också ett bilateralt möte mellan Irans Pezeshkian och Abu Dhabis kronprins – det högsta kända direkta samtalet mellan länderna sedan kriget började. Xi:s besök i Delhi var hans första på sju år; han stannade mindre än ett dygn och hoppade över Modis galabankett. Vad som är känt är att en deklaration antogs. Vad som är okänt är vad den kommer att leda till i praktiken. Flera analytiker som uttalar sig i BBC och Al Jazeera beskriver en grupp som enas om att den nuvarande världsordningen behöver förändras, men inte om vad som ska ersätta den eller hur man tar sig dit. Den frågan är obesvarad.\n\nNepals översvämningskatastrof och räddningsarbetet i Chilime-tunneln.\n\nDen 26 augusti i år utlöstes en is- och stenlavin nära gränsen mellan Nepal och Tibet. Den drev fram en flodvåg nedför Bhotekoshi-floden som svepte bort hus, fordon, vägar och broar och skadade en rad vattenkraftsanläggningar i norra och centrala Nepal. Katastrofen är en av de dödligaste i landet i modern tid. Chilime är ett vattenkraftprojekt i Rasuwa-distriktet, och tunneln där är en av ett drygt tiotal tunnlar kopplade till vattenkraftsprojekt i de drabbade områdena.\n\nMinst 1 429 människor har dött och mer än 5 640 saknas, de flesta i Nepal. Siffrorna kommer från AFP och återges av The Hindu och South China Morning Post. Räddningsarbetet vid Chilime-tunneln fortsätter, och sex arbetare tros vara instängda där. Indiens ambassadör i Nepal, Naveen Srivastava, uppgav i en lägesrapport den 12 september att en grävmaskin, en lastare och en Bobcat förts in i tunneln och att det tekniska teamet avancerat omkring 70 meter. Enligt projektledaren återstår ungefär 60 meter till det underjordiska kraftverket. Ambassadören sade att arbetet skulle fortsätta genom natten. Nepals armé har enligt egen uppgift byggt mer än en kilometer tillfartsväg från Syafrubesi mot tunneln så att utrustning kan komma närmare. Armén och indisk räddningspersonal arbetar tillsammans inne i tunneln, enligt nyhetsportalen Khabarhub. Vid Upper Trishuli-3B, ett annat vattenkraftsprojekt, har armén satt in över 100 soldater i sökandet. Det finns dock ingen offentlig bekräftelse på att räddningsmanskapen fått kontakt med de sex arbetarna i Chilime. Enligt The Hindu har man hittat en luftficka nära det område där arbetarna tros befinna sig, men det bekräftar varken att de är vid liv eller att kontakt etablerats. En arbetare har räddats levande ur en tunnel: Sanjay Sah, 30 år, som fördes ut den 4 september efter tio dygn i mörker. Han drack grumligt vatten och förlorade tidsuppfattningen – hans första fråga vid räddningen var hur många dagar som gått. Han hade sällskap av en annan överlevande, Kabir Maharjan, 45 år. En kinesisk arbetare räddades den 5 september, dagen efter Sah. Sedan dess har inga livstecken hörts. Sah har i en intervju med AFP uppmanat myndigheterna att inte avbryta sökandet – antingen för att någon kan vara vid liv, eller för att kunna lämna över avlidnas kroppar till deras familjer. Det är värt att notera att uppgiften om att omkring 100 personer tros vara instängda i ett tiotal tunnlar kommer från The Hindu och inte bekräftas av de övriga källorna i materialet. Regeringen har pekat på stigande globala temperaturer som en bakomliggande orsak till lavinen. Det saknas i materialet uppgifter om vilka som äger eller driver de drabbade projekten, och därmed går det inte att av detta material sluta sig till ansvarsförhållanden.\n\nAvslutningsvis, om källornas tyngd: uppgiften att sex arbetare är instängda i Chilime-tunneln och att en luftficka hittats men ingen kontakt etablerats bygger på The Hindu och den indiska ambassadörens uttalanden, och har inte bekräftats av de övriga källorna. Uppgiften att omkring 100 personer tros vara instängda i ett tiotal tunnlar kommer enbart från The Hindu. Analysen av Brics begränsningar – att gruppen är mer av en förhandlingskoalition än ett geopolitiskt block – är en signerad analys i Al Jazeera och står för skribentens räkning, inte för nyhetsredaktionens."
+      "script": "Indonesien. En färja har kantrat i Javasjön och ett stort antal människor saknas.\n\nFör att sätta det i sitt sammanhang: Indonesien är en arkipelag med över sjutton tusen öar, och båttrafik är vardagstransport för många. Färjor förbinder Java med Borneo och andra öar, och säkerhetsstandarderna är låga. Det här är inte en isolerad händelse. Den tolfte augusti dog en person och fem saknades efter en brand ombord på en färja i Lombok-sundet utanför Bali. I juli sjönk en färja med över sjuttio personer nära Selayar söder om Sulawesi. Och i måndags, den sjunde september, försvann en snabbåt med åtta personer nära vulkanen Anak Krakatau i Banten, bland dem fem journalister. Den sökinsatsen pågår fortfarande.\n\nNu till det som hände. Färjan Virgo Transport 8 lämnade Surabaya i Östra Java natten till söndagen med destination Banjarmasin i Sydkalimantan. Ombord fanns 243 personer, varav 213 passagerare och 30 besättningsmedlemmar, enligt Basarnas, Indonesiens nationella sjöräddningsmyndighet. Kaptenen rapporterade sjögång med vågor upp till tre meter och meddelade att fartyget krängde, innan kontakten bröts vid tvåtiden på natten. I Putu Sudayana, som leder sjöräddningskontoret i Banjarmasin, säger att myndigheten fick rapport om incidenten två timmar senare, från rederiet.\n\nBasarnas uppger att sex personer har dött, 107 har räddats och 130 saknas. Siffrorna kommer från myndighetens egen lägesuppdatering. Transportminister Dudy Purwagandhi sade på en pressträff i Banjarmasin att fartyget hade kantrat men ännu inte sjunkit, baserat på övervakning från helikopter. Räddningsinsatsen sker med fyra fartyg, däribland ett marinfartyg, och en helikopter. Sudayana beskriver förhållandena som extremt riskfyllda; även räddningsfartyget, som är fyrtio meter långt, löper stor risk i vågorna. Fartygets sista kända position var omkring femton mil från destinationen.\n\nDet finns en uppgift som skiljer sig mellan källorna. France 24 skriver i sin sammanfattning att minst en person har dött, medan Basarnas siffra är sex. Det är Basarnas uppgift som är den senaste och mest specifika, och den förmedlas av The Hindu. Vad som orsakade att fartyget kantrade är inte fastställt i materialet. Inte heller finns någon uppgift om hur många som befann sig i vattnet när insatsen inleddes, eller om fartygets underhållshistorik. Anhöriga samlades vid en kommandocentral i Banjarmasin, där namnen på räddade uppdaterades på en whiteboardtavla.\n\nVarför det här spelar roll utanför regionen: Indonesien är en av världens största ekonomier och en central aktör i Sydostasien, och landets sjöfart bär en stor del av den inhemska transporten. Återkommande färjekatastrofer är en fråga om statlig tillsynskapacitet, inte bara om väder.\n\n--\n\nAustralien. En pro-palestinsk demonstration i Sydney kräver att den australiska regeringen ökar trycket på Israel.\n\nBakgrunden: Zomi Frankcom var en australisk humanitär hjälparbetare som dödades av israelisk militär. Demonstrationen i Sydney krävde att regeringen vidtar ytterligare åtgärder och inför sanktioner mot Israel, och aktivisterna riktade kritik mot vad de kallar regeringens passivitet i frågan.\n\nDet här är tunnare underlag än det låter. Uppgifterna kommer från en enda källa, Al Jazeera, och det är Al Jazeeras egen rapportering om demonstrationen. Materialet innehåller inga uppgifter om hur många som deltog, vem som organiserade demonstrationen, när den ägde rum eller om någon officiell australisk reaktion har kommit. Det finns inte heller någon uppgift om vilka sanktioner som efterfrågas eller mot vilka de skulle riktas. Det är alltså en demonstration och ett krav, inte ett beslut eller en åtgärd.\n\nVarför det spelar roll: Australien är en nära allierad till USA och en av Israels vänner i väst, och inrikes opinion i den här frågan har blivit en politisk faktor i flera västländer. Om trycket håller i sig kan det påverka hur Canberra röstar i multilaterala forum. Men det material som finns här visar bara att en demonstration har ägt rum och vad den krävde.\n\nAvslutningsvis, om underlaget: uppgifterna om färjan kommer från flera håll, Basarnas via The Hindu, nyhetsbyrån AFP och en sammanfattning från France 24. Uppgifterna om demonstrationen i Sydney kommer från en enda källa, Al Jazeera, och inget i den har bekräftats av någon annan."
     }
   ],
   "feed": [
     {
-      "id": "feed-val2026-QW50aHJvcGljIENFTyBjYWxs",
-      "sphere": "val2026",
-      "kategori": "TEKNIK",
-      "rubrik": "Anthropic-vd vill bromsa AI-utvecklingen – får stöd av Altman och Musk",
-      "sammanfattning": "Dario Amodei, vd för AI-bolaget Anthropic, skriver i en essä att utvecklingen av AI-modeller måste saktas ner och övervakas närmare. Han föreslår oberoende utvärderare med tillträde till företagens lokaler, branschgemensamma standarder och global reglering. Både OpenAI:s Sam Altman och xAI:s Elon Musk säger sig hålla med. Samtidigt uppger Altman att OpenAI inte kommer att börsnoteras i år på grund av säkerhetsläget. USA:s president Donald Trump har avvisat farhågorna och säger att det viktiga är att vinna AI-racet mot Kina.",
-      "synthes": "BBC och SVT rapporterar att Amodei får stöd av Altman och Musk, medan DN och Di lyfter kritik från bland andra professorn Olle Häggström som anser att enbart en inbromsning inte räcker, och Chamath Palihapitiya som menar att förslaget snarare handlar om att konsolidera makt.",
-      "leadSource": "DN.se - Dagens Nyheter",
-      "publishedAt": "2026-09-13T15:48:26.000Z",
+      "id": "feed-world-RmVycnkgY2Fwc2l6ZXMgaW4g",
+      "sphere": "world",
+      "kategori": "OLYCKA",
+      "rubrik": "Färja kantrade i Indonesien – sex döda och 130 saknas",
+      "sammanfattning": "En passagerarfärja mellan Java och Borneo kantrade i hårt väder. Ombord fanns 243 personer, varav 213 passagerare och 30 besättningsmedlemmar. Minst sex personer har dött och omkring 130 saknas, medan 107 har räddats. Transportministern uppger att fartyget har kantrat men inte sjunkit. Räddningsarbetet försvåras av vågor på upp till tre meter.",
+      "synthes": "SVT och The Hindu uppger sex döda och 130 saknade, medan France 24 anger minst en död och över 100 saknade; SCMP nämner 107 räddade och sex omkomna. Uppgifterna om våghöjd varierar mellan 2,5 och 3 meter.",
+      "leadSource": "France 24 - International breaking news, top stories and headlines",
+      "publishedAt": "2026-09-13T13:17:21.000Z",
       "readMinutes": 1,
-      "sourceCount": 9,
+      "sourceCount": 5,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "Utrikes | SVT Nyheter",
+          "title": "Flera döda efter att fartyg i Indonesien välte",
+          "link": "https://www.svt.se/nyheter/utrikes/flera-doda-efter-att-fartyg-i-indonesien-valte"
+        },
+        {
+          "source": "SVT Nyheter",
+          "title": "Flera döda efter att fartyg i Indonesien välte",
+          "link": "https://www.svt.se/nyheter/utrikes/flera-doda-efter-att-fartyg-i-indonesien-valte"
+        },
+        {
+          "source": "France 24 - International breaking news, top stories and headlines",
+          "title": "Indonesia: Second ferry disaster in five days",
+          "link": "https://www.france24.com/en/indonesia-second-ferry-disaster-in-five-days"
+        },
+        {
+          "source": "News - South China Morning Post",
+          "title": "Indonesia searches for 130 passengers after ship sinks in Java Sea",
+          "link": "https://www.scmp.com/news/asia/southeast-asia/article/3367333/indonesian-ship-240-passengers-aboard-loses-contact-java-sea?utm_source=rss_feed"
+        },
+        {
+          "source": "World News Today: International News Headlines - The Hindu | The Hindu",
+          "title": "Indonesia says six killed, 130 missing after ferry capsizes off Java",
+          "link": "https://www.thehindu.com/news/international/indonesia-passenger-vessel-with-243-people-reportedmissing-agency-says/article71462492.ece"
+        }
+      ],
+      "image": "https://www.svtstatic.se/image-news/1200/1.91:1/0.5/0.6/bc30389e3b386e1cffb14afff4a54ae85a97ad5a9fc85311259629edf7ec7dbd"
+    },
+    {
+      "id": "feed-val2026-UnVzc2lhbiBkcm9uZSBoaXRz",
+      "sphere": "val2026",
+      "kategori": "GEOPOLITIK",
+      "rubrik": "Rysk drönare träffade tåg vid polska gränsen – Bildt på tåg strax före",
+      "sammanfattning": "En rysk drönare träffade ett passagerartåg på väg från Kiev till Warszawa nära gränsövergången Dorohusk, två kilometer från polska gränsen. Ombord fanns över 200 personer, men ingen skadades. Carl Bildt färdades på ett annat tåg på samma sträcka, minuter före attacken. Ukrzaliznytsia uppger att det är fullt möjligt att Bildts tåg var målet. Ryssland säger sig ha slagit mot järnvägsinfrastruktur.",
+      "synthes": "BBC och TV4 rapporterar att Boris Johnson, David Petraeus och andra säkerhetsrådgivare färdades på samma linje, medan DN och TT fokuserar på Bildt. Ukrzaliznytsia uppger att tåget lämnade stationen tidigare än planerat på grund av hot.",
+      "leadSource": "DN.se - Dagens Nyheter",
+      "publishedAt": "2026-09-13T17:31:06.000Z",
+      "readMinutes": 1,
+      "sourceCount": 5,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "DN.se - Dagens Nyheter",
+          "title": "Ryska drönare mot Ukraina – Bildts tåg nära träffas",
+          "link": "https://www.dn.se/varlden/ryska-dronare-mot-ukraina-bildts-tag-nara-traffas/"
+        },
+        {
+          "source": "Senast publicerat",
+          "title": "Bildt möjlig måltavla för tågattack",
+          "link": "https://www.svd.se/a/V6vkl4/carl-bild-nara-rysk-tagattack?utm_medium=rss"
+        },
+        {
+          "source": "TV4 Nyheterna",
+          "title": "Ukrainsk myndighet: ”Fullt möjligt” att Carl Bildt var måltavla",
+          "link": "https://www.tv4.se/artikel/4KV46GPtxGCkLsBu79ETpM/ukrainsk-myndighet-fullt-moejligt-att-carl-bildt-var-maltavla"
+        },
+        {
+          "source": "BBC News",
+          "title": "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
+          "link": "https://www.bbc.co.uk/news/articles/cy5zg41dkqwo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source": "POLITICO",
+          "title": "Russian drone hits passenger train headed from Kyiv to Warsaw",
+          "link": "https://www.politico.eu/article/russia-attacks-gas-station-passenger-train-near-ukraine-poland-border/?utm_source=RSS_Feed&#038;utm_medium=RSS&#038;utm_campaign=RSS_Syndication"
+        }
+      ]
+    },
+    {
+      "id": "feed-val2026-RXh0cmVtZWx5IHRpZ2h0OyBy",
+      "sphere": "val2026",
+      "kategori": "POLITIK",
+      "rubrik": "Dött lopp mellan blocken – resultat kan dröja till onsdag",
+      "sammanfattning": "Enligt SVT:s prognos baserad på räknade röster står det i princip lika mellan oppositionen och regeringsunderlaget när närmare 70 procent av rösterna räknats. Skillnaden är ett mandat till de rödgrönas fördel, 175 mot 174, och endast 20 000 röster skiljer. Liberalerna ser ut att klara riksdagsspärren med 5,4 procent, medan Socialdemokraterna går mot sitt sämsta val i modern tid. SD backar för första gången.",
+      "synthes": "Alla källor återger samma prognossiffror, men sydsvenskan, hd.se och Barometern citerar Ebba Busch om att resultatet kan dröja till onsdag, vilket inte finns med i Aftonbladets version.",
+      "leadSource": "Senast publicerat",
+      "publishedAt": "2026-09-13T18:07:04.000Z",
+      "readMinutes": 1,
+      "sourceCount": 5,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Extremt jämnt – resultat kan dröja till onsdag",
+          "link": "https://www.svd.se/a/q6aXl1/overtag-for-de-rodgrona-i-vallokalsmatning?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Extremt jämnt – resultat kan dröja till onsdag",
+          "link": "https://www.aftonbladet.se/nyheter/a/aJ9LM7/overtag-for-de-rodgrona-i-vallokalsmatning?utm_medium=rss"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Extremt jämnt – resultat kan dröja till onsdag",
+          "link": "https://www.sydsvenskan.se/sverige/overtag-for-de-rodgrona-i-vallokalsmatning/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Extremt jämnt – resultat kan dröja till onsdag",
+          "link": "https://www.hd.se/sverige/overtag-for-de-rodgrona-i-vallokalsmatning/"
+        },
+        {
+          "source": "Barometern",
+          "title": "Extremt jämnt – resultat kan dröja till onsdag",
+          "link": "https://www.barometern.se/sverige/overtag-for-de-rodgrona-i-vallokalsmatning/"
+        }
+      ]
+    },
+    {
+      "id": "feed-val2026-V2VkbmVzZGF5IHZvdGVzIGNv",
+      "sphere": "val2026",
+      "kategori": "POLITIK",
+      "rubrik": "Onsdagsrösterna kan avgöra det jämna valet",
+      "sammanfattning": "Sent inkomna utlandsröster och förtidsröster räknas i uppsamlingsräkningen på onsdagen. I valet 2022 utgjorde dessa drygt 227 000 röster, 3,5 procent av totalen. Historiskt har de gynnat Miljöpartiet och Moderaterna, medan Socialdemokraterna och Sverigedemokraterna förlorat mest. Valmyndigheten vet ännu inte hur många röster det rör sig om i år, men de väntas bli fler än 2022.",
+      "synthes": "En källa beskriver onsdagsrösternas historiska betydelse och väljargruppens sammansättning, medan de övriga enbart rapporterar att rösterna kan avgöra valet.",
+      "leadSource": "Senast publicerat",
+      "publishedAt": "2026-09-13T22:07:17.000Z",
+      "readMinutes": 1,
+      "sourceCount": 5,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "Senast publicerat",
+          "title": "Onsdagsrösterna kan avgöra val",
+          "link": "https://www.svd.se/a/wr25OL/onsdagsrosterna-kan-avgora-val?utm_medium=rss"
+        },
+        {
+          "source": "Senast publicerat",
+          "title": "Kan avgöra valet – rösterna som räknas på onsdag",
+          "link": "https://www.svd.se/a/L47doP/kan-avgora-valet-rosterna-som-raknas-pa-onsdag?utm_medium=rss"
+        },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Kan avgöra valet – rösterna som räknas på onsdag",
+          "link": "https://www.aftonbladet.se/nyheter/a/16J8vq/kan-avgora-valet-rosterna-som-raknas-pa-onsdag?utm_medium=rss"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Kan avgöra valet – rösterna som räknas på onsdag",
+          "link": "https://www.sydsvenskan.se/sverige/kan-avgora-valet-rosterna-som-raknas-pa-onsdag/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Kan avgöra valet – rösterna som räknas på onsdag",
+          "link": "https://www.hd.se/sverige/kan-avgora-valet-rosterna-som-raknas-pa-onsdag/"
+        },
+        {
+          "source": "Barometern",
+          "title": "Kan avgöra valet – rösterna som räknas på onsdag",
+          "link": "https://www.barometern.se/sverige/kan-avgora-valet-rosterna-som-raknas-pa-onsdag/"
+        }
+      ]
+    },
+    {
+      "id": "feed-congress-UmVwLiBUaWZmYW55IHN1cnZp",
+      "sphere": "congress",
+      "kategori": "OLYCKA",
+      "rubrik": "Kongressledamot klarade nödlandning på sjö",
+      "sammanfattning": "Republikanen Tom Tiffany, guvernörskandidat i Wisconsin, färdades i ett enmotorigt flygplan som förlorade kraften vid inflygning till Wausau Downtown Airport. Piloten nödlandade på Lake Wausau. Tiffany och piloten tog sig ut ur planet och simmade till grunt vatten där de räddades av en luftbåt. Båda fick lindriga skador och fördes till sjukhus. FAA och NTSB utreder händelsen.",
+      "synthes": "BBC uppger att planet var en Beechcraft K35 med plats för upp till fem personer, medan The Guardian anger en fyr sitsig Bonanza. NPR och BBC rapporterar att paret var i vattnet i cirka 15–20 minuter.",
+      "leadSource": "House News",
+      "publishedAt": "2026-09-13T12:57:19.000Z",
+      "readMinutes": 1,
+      "sourceCount": 5,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "House News",
+          "title": "Tiffany suffers minor injuries after plane makes emergency lake landing",
+          "link": "https://thehill.com/homenews/house/6086647-wisconsin-gop-lawmaker-plane-crash/"
+        },
+        {
+          "source": "Political Campaign News | The Hill",
+          "title": "Tiffany suffers minor injuries after plane makes emergency lake landing",
+          "link": "https://thehill.com/homenews/house/6086647-wisconsin-gop-lawmaker-plane-crash/"
+        },
+        {
+          "source": "NPR Topics: Politics",
+          "title": "Wisconsin congressman survives emergency plane landing, swims to safety",
+          "link": "https://www.npr.org/2026/09/13/nx-s1-5968081/wisconsin-congressman-survives-emergency-plane-landing-swims-to-safety"
+        },
+        {
+          "source": "US politics | The Guardian",
+          "title": "Wisconsin congressman swims to safety after plane makes emergency landing in lake",
+          "link": "https://www.theguardian.com/us-news/2026/sep/13/wisconsin-congressman-plane-emergency-landing-lake"
+        },
+        {
+          "source": "BBC News",
+          "title": "US congressman swims to safety after his plane is forced to land on a lake",
+          "link": "https://www.bbc.co.uk/news/articles/c5y5d87x72zo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "id": "feed-congress-QW50aHJvcGljIENFTyBjYWxs",
+      "sphere": "congress",
+      "kategori": "TEKNIK",
+      "rubrik": "Anthropic-chefen vill bromsa AI – får stöd av Altman och Musk",
+      "sammanfattning": "Dario Amodei, vd för Anthropic, skriver i en essä att AI-utvecklingen måste bromsas och övervakas. Han föreslår oberoende granskning av modeller, branschregler och global reglering. Sam Altman och Elon Musk instämmer. Amodei varnar för att AI-system kan förbättra sig själva och att kontrollen kan gå förlorad. Han vill undvika att Kina drar ifrån.",
+      "synthes": "BBC och SVT rapporterar att Amodei hänvisar till en incident i juli där OpenAI:s agenter attackerade Hugging Face. DN och Cointelegraph nämner att Altman sagt att OpenAI inte börsnoteras i år på grund av säkerhetsfrågor.",
+      "leadSource": "BBC News",
+      "publishedAt": "2026-09-12T21:16:47.000Z",
+      "readMinutes": 1,
+      "sourceCount": 5,
       "singleSource": false,
       "enriched": true,
       "sources": [
@@ -172,128 +372,25 @@
         },
         {
           "source": "DN.se - Dagens Nyheter",
-          "title": "AI-jättarna varnar själva för domedagen – bara Trump tycks obekymrad",
-          "link": "https://www.dn.se/varlden/ai-jattarna-varnar-sjalva-for-domedagen-bara-trump-tycks-obekymrad/"
-        },
-        {
-          "source": "DN.se - Dagens Nyheter",
           "title": "Anthropic vill bromsa AI – stöds av Musk och Altman",
           "link": "https://www.dn.se/varlden/anthropic-vill-bromsa-ai-stods-av-musk-och-altman/"
         }
-      ],
-      "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/9256/live/a1802a30-aeb9-11f1-b1d1-571ed4d7ff2c.jpg"
-    },
-    {
-      "id": "feed-world-SW5kb25lc2lhbiBmZXJyeSBj",
-      "sphere": "world",
-      "kategori": "OLYCKA",
-      "rubrik": "Färja kantrade i Javasjön – sex döda och 130 saknas",
-      "sammanfattning": "En passagerarfärja på väg från Surabaya mot Banjarmasin i Indonesien kantrade i hårt väder natten mot söndagen. Ombord fanns 243 personer, varav 107 har räddats och sex har bekräftats döda. Omkring 130 saknas fortfarande. Räddningsinsatsen försvåras av vågor på upp till tre meter och omfattar fartyg, helikopter och hundratals personer. Olyckan är den andra större färjekatastrofen i regionen inom fem dagar.",
-      "synthes": "BBC uppger att fartyget hette Virgo Transport 8 och var 119 meter långt, medan SVT och Aftonbladet inte namnger fartyget; France 24 noterar att det är den andra stora färjeolyckan på fem dagar, vilket övriga källor inte tar upp.",
-      "leadSource": "BBC News",
-      "publishedAt": "2026-09-13T13:30:38.000Z",
-      "readMinutes": 1,
-      "sourceCount": 8,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "Utrikes | SVT Nyheter",
-          "title": "Flera döda efter att fartyg i Indonesien välte",
-          "link": "https://www.svt.se/nyheter/utrikes/flera-doda-efter-att-fartyg-i-indonesien-valte"
-        },
-        {
-          "source": "SVT Nyheter",
-          "title": "Flera döda efter att fartyg i Indonesien välte",
-          "link": "https://www.svt.se/nyheter/utrikes/flera-doda-efter-att-fartyg-i-indonesien-valte"
-        },
-        {
-          "source": "Senaste nytt – nyheter från Aftonbladet",
-          "title": "Flera döda efter att fartyg i Indonesien välte",
-          "link": "https://www.aftonbladet.se/nyheter/a/K84q2M/over-100-raddade-fran-fartyg-i-indonesien?utm_medium=rss"
-        },
-        {
-          "source": "BBC News",
-          "title": "Six dead, 130 missing after Indonesian ferry capsizes in Java Sea",
-          "link": "https://www.bbc.co.uk/news/articles/cvgykzgljlyo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-          "title": "Six killed, 130 missing after Indonesian passenger ship capsizes",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/9/13/six-killed-130-missing-after-indonesian-passenger-ship-capsizes?traffic_source=rss"
-        },
-        {
-          "source": "France 24 - International breaking news, top stories and headlines",
-          "title": "Indonesia: Second ferry disaster in five days",
-          "link": "https://www.france24.com/en/indonesia-second-ferry-disaster-in-five-days"
-        }
       ]
     },
     {
-      "id": "feed-congress-UmVwdWJsaWNhbiBtaWR0ZXJt",
-      "sphere": "congress",
-      "kategori": "POLITIK",
-      "rubrik": "Republikanskt konvent i Dallas – tunn politik och tomma stolar",
-      "sammanfattning": "Republikanerna höll ett tvådagarskonvent i Dallas inför mellanårsvalet i november. President Donald Trump var huvudattraktionen och talade båda kvällarna, men partiet presenterade ingen omfattande politisk agenda. Trumps löfte om utbetalningar på 5 000 dollar till väljarna väckte uppmärksamhet men också skepsis. Enligt TV4 fanns stora sjok av tomma stolar i arenan trots att Trump hävdade att den var full.",
-      "synthes": "Källorna är eniga om att konventet främst handlade om Trump som person, men NPR och The Hill ifrågasätter om evenemanget förändrar det svåra politiska läget för partiet, medan Guardian och TV4 beskriver en personkult med begränsad räckvidd.",
-      "leadSource": "Congress",
-      "publishedAt": "2026-09-12T14:00:00.000Z",
-      "readMinutes": 1,
-      "sourceCount": 7,
-      "singleSource": false,
-      "enriched": false,
-      "sources": [
-        {
-          "source": "Congress",
-          "title": "Convention puts GOP’s reality on display: Midterm policy agenda is skimpy",
-          "link": "https://www.politico.com/news/2026/09/12/republican-midterm-agenda-skimpy-01073238"
-        },
-        {
-          "source": "Administration News",
-          "title": "The Memo: Trump’s convention may struggle to turn tide for GOP",
-          "link": "https://thehill.com/homenews/campaign/6085663-trump-republican-midterm-convention-impact/"
-        },
-        {
-          "source": "Political Campaign News | The Hill",
-          "title": "The Memo: Trump’s convention may struggle to turn tide for GOP",
-          "link": "https://thehill.com/homenews/campaign/6085663-trump-republican-midterm-convention-impact/"
-        },
-        {
-          "source": "NPR Topics: Politics",
-          "title": "Politics chat: Trump's $5,000 promise to voters, Vance invokes Charlie Kirk",
-          "link": "https://www.npr.org/2026/09/13/nx-s1-5964863/politics-chat-trumps-5-000-promise-to-voters-vance-invokes-charlie-kirk"
-        },
-        {
-          "source": "NPR Topics: Politics",
-          "title": "Week in politics: Trump attends Republican midterm convention and Pentagon's 9/11 memorial service",
-          "link": "https://www.npr.org/2026/09/12/nx-s1-5965782/week-in-politics-trump-attends-republican-midterm-convention-and-pentagons-9-11-memorial-service"
-        },
-        {
-          "source": "US Congress | The Guardian",
-          "title": "Trump personality cult alive and well in Dallas – will it power Republican midterm success?",
-          "link": "https://www.theguardian.com/us-news/2026/sep/12/trump-dallas-midterms-convention-republicans"
-        }
-      ]
-    },
-    {
-      "id": "feed-val2026-TG9uZyBxdWV1ZXMgYXQgU3dl",
+      "id": "feed-val2026-VGhyZWUtaG91ciBxdWV1ZXMg",
       "sphere": "val2026",
-      "kategori": "VAL",
-      "rubrik": "Timslånga köer till vallokalerna – Umeå ändrade rutiner",
-      "sammanfattning": "Under valdagen rapporterades långa köer till vallokaler på flera håll i landet, värst i Umeå där väljare väntade i över tre timmar. Valkansliet i Umeå införde på eftermiddagen en ändring genom att separera stationen för valsedlar från den där kuverten läggs i, vilket kortade köerna. Valmyndighetens kanslichef Anna Nyqvist kallar situationen allvarlig men väntad och pekar på valsedelssystemet som huvudorsak. Alla som stod i kö före klockan 20 fick rösta.",
-      "synthes": "SVT, Expressen och Di rapporterar samstämmigt om köerna, men Di och Sydsvenskan citerar Valmyndigheten som säger att man varnat sedan valet 2022, medan Expressen lyfter enskilda väljares erfarenheter.",
+      "kategori": "POLITIK",
+      "rubrik": "Timslånga köer till vallokalerna – Umeå höll öppet till 23",
+      "sammanfattning": "På flera håll i landet rapporterades långa köer under valdagen. I Umeå väntade väljare i över tre timmar och den sista vallokalen stängde först 23.03. Kommunens valnämndsordförande beklagar. Valmyndigheten pekar på valsedelssystemet med upp till 103 valsedlar per ställ som huvudorsak. Myndigheten hade varnat för köer sedan valet 2022.",
+      "synthes": "SVT och TT rapporterar att köer även förekom i Göteborg, medan Valmyndigheten betonar att de flesta av landets cirka 6 300 vallokaler inte hade långa köer.",
       "leadSource": "SVT Nyheter",
-      "publishedAt": "2026-09-13T14:28:14.000Z",
+      "publishedAt": "2026-09-13T11:55:44.000Z",
       "readMinutes": 1,
-      "sourceCount": 7,
+      "sourceCount": 5,
       "singleSource": false,
       "enriched": true,
       "sources": [
-        {
-          "source": "SVT Nyheter",
-          "title": "Panikändring i Umeå – för att korta röstköerna: ”Snabbar på processen”",
-          "link": "https://www.svt.se/nyheter/lokalt/vasterbotten/panikandring-i-umea-for-att-korta-koerna-snabbar-pa-processen"
-        },
         {
           "source": "SVT Nyheter",
           "title": "Över tre timmars kö i Umeå – flera har lämnat kön",
@@ -301,137 +398,122 @@
         },
         {
           "source": "Senast publicerat",
-          "title": "Rapporter om långa köer: ”Allvarligt”",
+          "title": "Tre timmars kö för att rösta i Umeå: ”Beklagar”",
           "link": "https://www.svd.se/a/ArykQE/rapporter-om-langa-koer-allvarligt?utm_medium=rss"
         },
         {
-          "source": "Senaste nytt – nyheter från Aftonbladet",
-          "title": "Rapporter om långa köer: ”Allvarligt”",
-          "link": "https://www.aftonbladet.se/nyheter/a/6qQ18o/rapporter-om-langa-koer-allvarligt?utm_medium=rss"
+          "source": "sydsvenskan.se",
+          "title": "Tre timmars kö för att rösta i Umeå: ”Beklagar”",
+          "link": "https://www.sydsvenskan.se/sverige/rapporter-om-langa-koer-allvarligt/"
         },
         {
-          "source": "Expressen: Nyheter",
-          "title": "Lars, 84, gav upp i kökaoset: ”Får gå tillbaka”",
-          "link": "https://www.expressen.se/nyheter/politik/lars-84-gav-upp-i-kokaoset-far-ga-tillbaka/"
+          "source": "hd.se",
+          "title": "Tre timmars kö för att rösta i Umeå: ”Beklagar”",
+          "link": "https://www.hd.se/sverige/rostning-pagar-an-i-flera-lokaler-allvarligt/"
         },
         {
-          "source": "Dagens industri",
-          "title": "Rapporter om långa köer: ”Allvarligt”",
-          "link": "https://www.di.se/nyheter/rapporter-om-langa-koer-allvarligt/"
+          "source": "Barometern",
+          "title": "Tre timmars kö för att rösta i Umeå: ”Beklagar”",
+          "link": "https://www.barometern.se/sverige/rostning-pagar-an-i-flera-lokaler-allvarligt/"
         }
       ]
     },
     {
-      "id": "feed-world-QlJJQ1Mgc3VtbWl0IGluIE5l",
-      "sphere": "world",
-      "kategori": "GEOPOLITIK",
-      "rubrik": "Brics-mötet i New Delhi enades om deklaration – utan att peka ut någon",
-      "sammanfattning": "Brics-ländernas toppmöte i New Delhi avslutades med en gemensam deklaration som uppmanar till återhållsamhet i Mellanöstern och kritiserar ensidiga tullar och sanktioner, men utan att namnge USA, Israel eller Iran. Rysslands president Vladimir Putin anklagade väst för att försöka hålla tillbaka den globala södern. Indiens premiärminister Narendra Modi betonade att Brics inte är riktat mot någon. Kina föreslog samarbete kring öppen AI och smart tillverkning.",
-      "synthes": "BBC och Al Jazeera beskriver båda hur deklarationen undviker att peka ut någon part, men Al Jazeera är tydligare med att Iran och UAE står på motsatta sidor i kriget, medan SCMP lyfter Kinas AI-erbjudande och Modis varning om kritiska mineraler.",
-      "leadSource": "BBC News",
-      "publishedAt": "2026-09-13T11:23:42.000Z",
-      "readMinutes": 1,
-      "sourceCount": 6,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "Utrikes | SVT Nyheter",
-          "title": "Putin under toppmötet: ”Utvecklingen mot en multipolär värld är inte problemfri”",
-          "link": "https://www.svt.se/nyheter/utrikes/putin-under-toppmotet-utvecklingen-mot-en-multipolar-varld-ar-inte-problemfri"
-        },
-        {
-          "source": "BBC News",
-          "title": "Iran war reshapes Brics ties but also exposes divisions",
-          "link": "https://www.bbc.co.uk/news/articles/ce8767g4jdpo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-          "title": "World leaders gather in New Delhi for final day of BRICS summit",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/9/13/world-leaders-gather-in-new-delhi-for-final-day-of-brics-summit?traffic_source=rss"
-        },
-        {
-          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-          "title": "The Iran war reveals the limits of BRICS",
-          "link": "https://www.aljazeera.com/opinions/2026/9/13/the-iran-war-reveals-the-limits-of?traffic_source=rss"
-        },
-        {
-          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-          "title": "BRICS summit 2026: What are the key takeaways?",
-          "link": "https://www.aljazeera.com/news/2026/9/13/brics-summit-2026-what-are-the-key-takeaways?traffic_source=rss"
-        },
-        {
-          "source": "France 24 - International breaking news, top stories and headlines",
-          "title": "BRICS summit: What came out of the New Delhi meeting",
-          "link": "https://www.france24.com/en/brics-summit-what-came-out-of-the-new-delhi-meeting"
-        }
-      ]
-    },
-    {
-      "id": "feed-val2026-UnVzc2lhbiBkcm9uZSBoaXRz",
+      "id": "feed-val2026-R292ZXJubWVudCBwb3dlciBz",
       "sphere": "val2026",
-      "kategori": "SÄKERHET",
-      "rubrik": "Rysk drönare träffade passagerartåg nära polska gränsen",
-      "sammanfattning": "Ett passagerartåg på väg från Kiev till Warszawa träffades av en rysk drönare två kilometer från den polska gränsen. Ombord fanns 206 personer men ingen skadades eftersom tåget evakuerades i förväg. Carl Bildt och Boris Johnson färdades på ett annat tåg strax före och fick evakueringsorder. En annan drönare slog ner 800 meter från gränsen vid Dorohusk. Ukrainas utrikesminister kallar det Putins terror mot EU och Nato.",
-      "synthes": "Aftonbladet och Expressen uppger att tåget träffades två kilometer från gränsen, medan SVT skriver ett par kilometer; Expressen nämner att en kraftstation träffades och att två lastbilar började brinna, vilket andra källor inte tar upp.",
+      "kategori": "POLITIK",
+      "rubrik": "Regeringen kan sitta kvar trots rödgrön seger",
+      "sammanfattning": "Moderaternas valgeneral Martin Borgs säger att valet inte är över förrän en ny statsminister tolererats av riksdagen. Om det finns en icke-socialistisk majoritet anser M sig ha goda möjligheter att få genomslag. Enligt uppgifter till flera medier kommer Ulf Kristersson inte att erkänna sig besegrad på valnatten. Magdalena Andersson behöver stöd från S, V, MP och C för att bli statsminister.",
+      "synthes": "Alla källor återger samma uppgifter, men Barometern har en kraftigt förkortad version utan citat från V och C.",
       "leadSource": "Senast publicerat",
-      "publishedAt": "2026-09-13T12:30:33.000Z",
+      "publishedAt": "2026-09-13T20:34:30.000Z",
       "readMinutes": 1,
-      "sourceCount": 6,
+      "sourceCount": 5,
       "singleSource": false,
       "enriched": true,
       "sources": [
         {
           "source": "Senast publicerat",
-          "title": "Carl Bildt ”minuter” från rysk tågattack",
-          "link": "https://www.svd.se/a/V6vkl4/carl-bild-nara-rysk-tagattack?utm_medium=rss"
+          "title": "Strid om regeringsmakt kan fortsätta efter valet",
+          "link": "https://www.svd.se/a/q6aERL/strid-om-regeringsmakt-kan-fortsatta-efter-valet?utm_medium=rss"
         },
         {
           "source": "Senaste nytt – nyheter från Aftonbladet",
-          "title": "Tåg träffat av drönare – Bildt nära attacken",
-          "link": "https://www.aftonbladet.se/nyheter/a/3p0z8A/ryska-dronare-slog-ned-vid-polsk-grans?utm_medium=rss"
+          "title": "Strid om regeringsmakt kan fortsätta efter valet",
+          "link": "https://www.aftonbladet.se/nyheter/a/aJ9kW2/strid-om-regeringsmakt-kan-fortsatta-efter-valet?utm_medium=rss"
         },
         {
-          "source": "Senaste nytt – nyheter från Aftonbladet",
-          "title": "Ryska drönare mot Ukraina – Bildts tåg nära träffas",
-          "link": "https://www.aftonbladet.se/nyheter/a/43w04q/ryska-dronare-slog-ned-vid-polsk-grans?utm_medium=rss"
+          "source": "sydsvenskan.se",
+          "title": "Strid om regeringsmakt kan fortsätta efter valet",
+          "link": "https://www.sydsvenskan.se/sverige/strid-om-regeringsmakt-kan-fortsatta-efter-valet/"
         },
         {
-          "source": "Expressen: Nyheter",
-          "title": "Passagerartåg på väg till Polen träffat av drönare",
-          "link": "https://www.expressen.se/nyheter/varlden/passagerartag-pa-vag-till-polen-traffat-av-dronare/"
+          "source": "hd.se",
+          "title": "Strid om regeringsmakt kan fortsätta efter valet",
+          "link": "https://www.hd.se/sverige/strid-om-regeringsmakt-kan-fortsatta-efter-valet/"
         },
         {
-          "source": "Expressen: Nyheter",
-          "title": "Putins attack mot Natogräns",
-          "link": "https://www.expressen.se/tv/nyheter/varlden/ryska-dronare-slog-ned-vid-polsk-grans"
-        },
-        {
-          "source": "Dagens industri",
-          "title": "Tåg mot Warszawa träffat av rysk drönare",
-          "link": "https://www.di.se/nyheter/tag-mot-warszawa-traffat-av-rysk-dronare/"
+          "source": "Barometern",
+          "title": "Strid om regeringsmakt kan fortsätta efter valet",
+          "link": "https://www.barometern.se/sverige/strid-om-regeringsmakt-kan-fortsatta-efter-valet/"
         }
       ]
     },
     {
-      "id": "feed-congress-VHJ1bXAgY29tbWVudHMgb24g",
-      "sphere": "congress",
+      "id": "feed-val2026-UG9saXRpY2FsIHNjaWVudGlz",
+      "sphere": "val2026",
       "kategori": "POLITIK",
-      "rubrik": "Trump: Enat Irland vore fantastiskt",
-      "sammanfattning": "Under ett besök i Dublin sade USA:s president Donald Trump att ett enat Irland vore fantastiskt och att det kommer att hända så småningom. Uttalandet möttes av snabba reaktioner från London, där Downing Street hänvisade till att Storbritannien håller fast vid långfredagsavtalet. Nordiriska partiledare betonade att frågan avgörs av folket i Nordirland. Över 10 000 personer demonstrerade mot Trumps besök.",
-      "synthes": "BBC och SVT rapporterar samstämmigt om uttalandet, men BBC analyserar att Trump kan ha velat nå irländsk-amerikanska väljare inför mellanårsvalet, medan SVT noterar att 69 procent av irländarna är kritiska till besöket enligt en opinionsundersökning.",
-      "leadSource": "Administration News",
-      "publishedAt": "2026-09-12T12:51:38.000Z",
+      "rubrik": "Statsvetare: extremt svårbedömt läge",
+      "sammanfattning": "Strax före midnatt var det dött lopp mellan blocken i både prognos och rösträkning. Statsvetaren Tommy Möller säger att läget är extremt svårt att bedöma. Liberalerna ser ut att klara spärren med stödröster från Moderaterna och SD. Sverigedemokraternas tillbakagång beskrivs som en chockvåg. Socialdemokraterna backar även i Norrland.",
+      "synthes": "Alla källor citerar samma statsvetare, men Barometern har en förkortad version utan Möllers analys av S-rösternas fördelning.",
+      "leadSource": "Senast publicerat",
+      "publishedAt": "2026-09-13T18:43:35.000Z",
       "readMinutes": 1,
-      "sourceCount": 6,
+      "sourceCount": 5,
       "singleSource": false,
       "enriched": true,
       "sources": [
         {
-          "source": "Administration News",
-          "title": "Trump says a unified Ireland is &#039;going to happen eventually&#039;",
-          "link": "https://thehill.com/homenews/administration/6085955-trump-ireland-reunification-comments/"
+          "source": "Senast publicerat",
+          "title": "Statsvetare: ”Extremt svårbedömt läge”",
+          "link": "https://www.svd.se/a/6qQ128/statsvetare-ser-ut-att-vara-avgjort?utm_medium=rss"
         },
+        {
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Statsvetare: ”Extremt svårbedömt läge”",
+          "link": "https://www.aftonbladet.se/nyheter/a/ln2Xde/statsvetare-ser-ut-att-vara-avgjort?utm_medium=rss"
+        },
+        {
+          "source": "sydsvenskan.se",
+          "title": "Statsvetare: ”Extremt svårbedömt läge”",
+          "link": "https://www.sydsvenskan.se/sverige/statsvetare-ser-ut-att-vara-avgjort/"
+        },
+        {
+          "source": "hd.se",
+          "title": "Statsvetare: ”Extremt svårbedömt läge”",
+          "link": "https://www.hd.se/sverige/statsvetare-ser-ut-att-vara-avgjort/"
+        },
+        {
+          "source": "Barometern",
+          "title": "Statsvetare: ”Extremt svårbedömt läge”",
+          "link": "https://www.barometern.se/sverige/statsvetare-ser-ut-att-vara-avgjort/"
+        }
+      ]
+    },
+    {
+      "id": "feed-congress-VHJ1bXAgc2F5cyB1bml0ZWQg",
+      "sphere": "congress",
+      "kategori": "GEOPOLITIK",
+      "rubrik": "Trump: enat Irland vore fantastiskt",
+      "sammanfattning": "Under ett besök i Dublin sade Donald Trump att ett enat Irland vore fantastiskt och att det kommer att hända. Downing Street svarade att man håller fast vid långfredagsavtalet. Trumps uttalande fick blandade reaktioner från nordirländska partier. Över 10 000 personer demonstrerade i Dublin mot besöket.",
+      "synthes": "BBC rapporterar att Trump upprepade sitt stöd för ett enat Irland och att en före detta kongressledamot varnade för att läsa in en politikförändring. SVT och DN noterar att 69 procent av irländarna är kritiska till besöket enligt en opinionsundersökning.",
+      "leadSource": "BBC News",
+      "publishedAt": "2026-09-12T21:25:28.000Z",
+      "readMinutes": 1,
+      "sourceCount": 4,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
         {
           "source": "BBC News",
           "title": "Trump's comments on a united Ireland may have targeted audience across the Atlantic",
@@ -460,140 +542,110 @@
       ]
     },
     {
-      "id": "feed-val2026-UG9zdG5vcmQgZGVsYXlzIGVh",
-      "sphere": "val2026",
-      "kategori": "VAL",
-      "rubrik": "Försenade och felsorterade förtidsröster",
-      "sammanfattning": "Postnord, som för första året ansvarar för att leverera förtidsröster till vallokalerna, blev flera timmar försenad i Stockholmsområdet. I Örebro rapporterades ett femtiotal röster ha hamnat i fel vallokal. Enligt Postnord berodde det på ett rekordstort antal förtidsröster, 3,6 miljoner. Valmyndigheten uppger att rösträkningen kan försenas i drabbade distrikt. Väljare som vill ändra sin förtidsröst kan fortfarande rösta på valdagen.",
-      "synthes": "SVT och Di rapporterar att Postnord inte kunde ge någon prognos för när leveranserna skulle vara klara, medan Aftonbladet och Sydsvenskan senare uppger att rösterna var på väg fram; SVT och Postnord går isär om huruvida rösterna i Örebro var felsorterade eller feltolkade av vallokalen.",
-      "leadSource": "SVT Nyheter",
-      "publishedAt": "2026-09-13T13:52:29.000Z",
+      "id": "feed-congress-T2JhbWEgdXJnZXMgRGVtb2Ny",
+      "sphere": "congress",
+      "kategori": "POLITIK",
+      "rubrik": "Obama uppmanar Demokraterna att prioritera AI",
+      "sammanfattning": "Barack Obama uppmanade Demokraterna att skapa ett ramverk för en offentlig diskussion om AI, enligt ett tal vid en insamlingsgala i Manhattan. Han varnade för att tekniken utvecklas snabbt i privata händer och kan bli farlig utan insyn. Han nämnde både säkerhetsfrågor och risker för jobb och barns välbefinnande. Uttalandet kommer inför mellanårsvalet.",
+      "synthes": "The Guardian och House News rapporterar att Obama riktade sig till Hakeem Jeffries och att han vill se ett brett ramverk, medan övriga källor enbart nämner uppmaningen.",
+      "leadSource": "Politics",
+      "publishedAt": "2026-09-13T15:55:04.000Z",
       "readMinutes": 1,
-      "sourceCount": 6,
+      "sourceCount": 4,
       "singleSource": false,
       "enriched": true,
       "sources": [
         {
-          "source": "SVT Nyheter",
-          "title": "Rapporter om felsorterade och försenade röster",
-          "link": "https://www.svt.se/nyheter/lokalt/orebro/postnord-har-sorterat-roster-fel-leveranser-forsenade"
+          "source": "Politics",
+          "title": "Obama calls for Dems to focus on AI",
+          "link": "https://www.politico.com/news/2026/09/13/obama-ai-democrats-fundraiser-01073778"
         },
         {
-          "source": "SVT Nyheter",
-          "title": "Postnord försenade med förtidsröster",
-          "link": "https://www.svt.se/nyheter/inrikes/postnord-forsenade-med-fortidsrosterna"
+          "source": "House News",
+          "title": "Obama pushes Jeffries to move AI oversight to center of agenda: Report",
+          "link": "https://thehill.com/policy/technology/6086768-obama-urges-ai-oversight/"
         },
         {
-          "source": "Inrikes | SVT Nyheter",
-          "title": "Postnord försenade med förtidsröster",
-          "link": "https://www.svt.se/nyheter/inrikes/postnord-forsenade-med-fortidsrosterna"
+          "source": "Administration News",
+          "title": "Obama pushes Jeffries to move AI oversight to center of agenda: Report",
+          "link": "https://thehill.com/policy/technology/6086768-obama-urges-ai-oversight/"
         },
         {
-          "source": "Senaste nytt – nyheter från Aftonbladet",
-          "title": "Försenade förtidsröster på väg fram",
-          "link": "https://www.aftonbladet.se/nyheter/a/XM1pQo/postnord-kraftigt-forsenade-med-fortidsroster?utm_medium=rss"
-        },
-        {
-          "source": "Dagens industri",
-          "title": "Alla förtidsröster ännu inte levererade",
-          "link": "https://www.di.se/nyheter/alla-fortidsroster-annu-inte-levererade/"
-        },
-        {
-          "source": "sydsvenskan.se",
-          "title": "Försenade förtidsröster på väg fram",
-          "link": "https://www.sydsvenskan.se/sverige/postnord-kraftigt-forsenade-med-fortidsroster/"
+          "source": "US politics | The Guardian",
+          "title": "Obama reportedly urges Democrats to prioritize safety plan for AI",
+          "link": "https://www.theguardian.com/us-news/2026/sep/13/obama-democrats-ai-safety"
         }
       ]
     },
     {
-      "id": "feed-val2026-RWxlY3Rpb24gaW5jaWRlbnRz",
-      "sphere": "val2026",
-      "kategori": "VAL",
-      "rubrik": "Över 2 800 incidenter – saknade valsedlar kallas valfusk",
-      "sammanfattning": "Valmyndigheten har fått in över 2 800 incidentrapporter under valdagen, varav majoriteten gäller valsedlar som flyttats, dolts eller tagits bort. I sociala medier sprids filmer där saknade valsedlar beskrivs som valfusk, bland annat av Malmölistans partiledare. Enligt Valmyndigheten kan valsedlar saknas av flera skäl, exempelvis att de tagit slut eller ännu inte levererats av partierna. En statlig utredning föreslår att valadministrationen i framtiden ska sköta all distribution.",
-      "synthes": "SVT och DN rapporterar olika antal incidenter – SVT över 2 800 och DN omkring 4 000 – vilket förklaras av att DN hänvisar till ett senare klockslag; Aftonbladet och Di uppger 231 incidenter specifikt kopplade till saknade valsedlar.",
-      "leadSource": "SVT Nyheter",
-      "publishedAt": "2026-09-12T16:02:23.000Z",
+      "id": "feed-congress-SmVmZnJpZXMgd29uJ3QgcnVs",
+      "sphere": "congress",
+      "kategori": "POLITIK",
+      "rubrik": "Jeffries utesluter inte riksrätt mot Trump",
+      "sammanfattning": "Hakeem Jeffries, Demokraternas gruppledare i representanthuset, sade i en intervju att han varken utesluter eller lovar riksrätt mot president Trump om Demokraterna vinner huset i november. Han sade att man inte har uteslutit något i frågan om riksrätt.",
+      "synthes": "",
+      "leadSource": "Senate News",
+      "publishedAt": "2026-09-13T18:10:57.000Z",
       "readMinutes": 1,
-      "sourceCount": 6,
+      "sourceCount": 4,
       "singleSource": false,
-      "enriched": true,
+      "enriched": false,
       "sources": [
         {
-          "source": "SVT Nyheter",
-          "title": "Över 2 800 valincidenter – saknade valsedlar kallas valfusk",
-          "link": "https://www.svt.se/nyheter/inrikes/over-2-800-valincidenter-saknade-valsedlar-kallas-valfusk"
+          "source": "Senate News",
+          "title": "Jeffries does not rule out pursuing Trump impeachment if Democrats win House",
+          "link": "https://thehill.com/homenews/house/6086866-jeffries-trump-impeachment-possibility/"
         },
         {
-          "source": "Inrikes | SVT Nyheter",
-          "title": "Över 2 800 valincidenter – saknade valsedlar kallas valfusk",
-          "link": "https://www.svt.se/nyheter/inrikes/over-2-800-valincidenter-saknade-valsedlar-kallas-valfusk"
+          "source": "House News",
+          "title": "Jeffries does not rule out pursuing Trump impeachment if Democrats win House",
+          "link": "https://thehill.com/homenews/house/6086866-jeffries-trump-impeachment-possibility/"
         },
         {
-          "source": "DN.se - Dagens Nyheter",
-          "title": "4 000 incidenter i vallokalerna",
-          "link": "https://www.dn.se/sverige/4-000-incidenter-i-vallokalerna/"
+          "source": "Administration News",
+          "title": "Jeffries does not rule out pursuing Trump impeachment if Democrats win House",
+          "link": "https://thehill.com/homenews/house/6086866-jeffries-trump-impeachment-possibility/"
         },
         {
-          "source": "Senaste nytt – nyheter från Aftonbladet",
-          "title": "Över 200 incidenter kring valsedlar",
-          "link": "https://www.aftonbladet.se/nyheter/a/Bx9qLg/over-100-incidenter-kring-valsedlar?utm_medium=rss"
-        },
-        {
-          "source": "Senaste nytt – nyheter från Aftonbladet",
-          "title": "SD-sedlar saknas i vallokal: ”Kanske inte hunnit”",
-          "link": "https://www.aftonbladet.se/nyheter/a/L47qxV/darfor-kan-valsedlar-saknas-pa-valdagen?utm_medium=rss"
-        },
-        {
-          "source": "Expressen: Nyheter",
-          "title": "Hundratals larm från vallokalerna",
-          "link": "https://www.expressen.se/nyheter/politik/hundratals-larm-fran-vallokalerna/"
+          "source": "Political Campaign News | The Hill",
+          "title": "Jeffries does not rule out pursuing Trump impeachment if Democrats win House",
+          "link": "https://thehill.com/homenews/house/6086866-jeffries-trump-impeachment-possibility/"
         }
       ]
     },
     {
-      "id": "feed-val2026-SG91dGhpcyBhdHRhY2sgU2F1",
-      "sphere": "val2026",
-      "kategori": "KONFLIKT",
-      "rubrik": "Huthierna påstår attack mot saudisk militärbas",
-      "sammanfattning": "Huthirörelsen i Jemen uppger att man attackerat en militärbas i Sharurah i södra Saudiarabien med robotar och drönare. Saudiarabien uppger samtidigt att två personer skadats i attacker mot ett samhälle i Jazan-provinsen. Striderna mellan huthierna och den saudistödda jemenitiska regeringssidan har pågått i flera dagar. Enligt Al Jazeera står Saudiarabien inför dubbla hot: attacker mot territoriet och störningar av sjöfarten.",
-      "synthes": "SVT, DN och SCMP rapporterar samstämmigt om huthiernas påstående, men DN och Al Jazeera tillägger att attacker även riktats mot civila mål i Abha, Khamis Mushait, Jizan och Najran, vilket övriga källor inte nämner.",
-      "leadSource": "SVT Nyheter",
-      "publishedAt": "2026-09-12T23:55:56.000Z",
+      "id": "feed-congress-VHJ1bXAgZG93bnBsYXlzIEFJ",
+      "sphere": "congress",
+      "kategori": "TEKNIK",
+      "rubrik": "Trump tonar ned AI-varningar med hänvisning till Kina",
+      "sammanfattning": "President Trump sade att varningar om AI-risk är överdrivna och att negativa krafter tar upp saker som inte kommer att hända. Han vill att USA behåller ledningen över Kina. Talmannen Mike Johnson varnade för att snabb reglering kan skada innovation. Demokraternas Hakeem Jeffries vill se ett långsammare tempo för att skydda amerikanerna.",
+      "synthes": "BBC och NPR rapporterar att David Sacks, rådgivare till Trump, uppmanade AI-bolagen att agera själva. SVT noterar att Trump inte nämnde någon aktör vid namn.",
+      "leadSource": "Administration News",
+      "publishedAt": "2026-09-13T15:57:05.000Z",
       "readMinutes": 1,
-      "sourceCount": 6,
+      "sourceCount": 4,
       "singleSource": false,
       "enriched": true,
       "sources": [
+        {
+          "source": "Administration News",
+          "title": "Trump downplays AI warnings, citing competition with China",
+          "link": "https://thehill.com/policy/technology/6086739-trump-downplays-ai-risks/"
+        },
+        {
+          "source": "NPR Topics: Politics",
+          "title": "Trump warns against slowing down AI but he is not against some guardrails",
+          "link": "https://www.npr.org/2026/09/13/nx-s1-5968078/trump-mike-johnson-ai-slowdown"
+        },
+        {
+          "source": "BBC News",
+          "title": "Trump downplays warnings of AI risks, citing rivalry with China",
+          "link": "https://www.bbc.co.uk/news/articles/c7v48vp31mdo?at_medium=RSS&at_campaign=rss"
+        },
         {
           "source": "Utrikes | SVT Nyheter",
-          "title": "Huthirörelsen: Attack mot bas",
-          "link": "https://www.svt.se/nyheter/utrikes/huthirorelsen-attack-mot-bas"
-        },
-        {
-          "source": "SVT Nyheter",
-          "title": "Huthirörelsen: Attack mot bas",
-          "link": "https://www.svt.se/nyheter/utrikes/huthirorelsen-attack-mot-bas"
-        },
-        {
-          "source": "DN.se - Dagens Nyheter",
-          "title": "Huthirörelsen: Attacker mot bas i Saudiarabien",
-          "link": "https://www.dn.se/varlden/huthirorelsen-attacker-mot-bas-i-saudiarabien/"
-        },
-        {
-          "source": "Senast publicerat",
-          "title": "Huthirörelsen: Attacker mot bas i Saudiarabien",
-          "link": "https://www.svd.se/a/16JMzl/huthirorelsen-attack-mot-bas?utm_medium=rss"
-        },
-        {
-          "source": "France 24 - International breaking news, top stories and headlines",
-          "title": "Middle East live: Houthis say hit Saudi base after renewed fighting with Yemeni forces",
-          "link": "https://www.france24.com/en/middle-east/20260913-middle-east-live-houthis-say-hit-saudi-base-after-renewed-fighting-with-yemeni-forces"
-        },
-        {
-          "source": "News - South China Morning Post",
-          "title": "Houthis hit Saudi base amid renewed fighting with Yemen government forces",
-          "link": "https://www.scmp.com/news/world/middle-east/article/3367329/houthis-hit-saudi-base-after-renewed-fighting-yemen-government-forces?utm_source=rss_feed"
+          "title": "Trump spelar ner AI-oro: ”Negativa krafter”",
+          "link": "https://www.svt.se/nyheter/utrikes/trump-spelar-ner-ai-oro-negativa-krafter"
         }
       ]
     },
@@ -601,15 +653,15 @@
       "id": "feed-crypto-Q3J5cHRvIGJpbGxpb25haXJl",
       "sphere": "crypto",
       "kategori": "POLITIK",
-      "rubrik": "Kryptomiljardärer skänker nära en miljard till Reform UK",
-      "sammanfattning": "Ben Delo, medgrundare av BitMEX, och Christopher Harborne donerade vardera 36 miljoner pund till Nigel Farages parti Reform UK inom loppet av två dagar. Tillsammans motsvarar donationerna nära en miljard svenska kronor, mer än vad alla brittiska partier fick i gåvor förra året. Partiet utreds samtidigt för misstänkta brott mot donationsreglerna. Brittisk vallag tillåter bara donationer från brittiska väljare eller företag registrerade i Storbritannien.",
-      "synthes": "Alla källor är eniga om summorna, men Aftonbladet och The Block noterar att en pågående utredning om donationsregler och ett lagförslag i överhuset om att begränsa kryptodonationer kan påverka partiet.",
+      "rubrik": "Kryptomiljardärer skänker 97 miljoner dollar till Reform UK",
+      "sammanfattning": "Ben Delo, medgrundare av BitMEX, och Christopher Harborne har vardera skänkt 36 miljoner pund till Nigel Farages parti Reform UK. Tillsammans motsvarar donationerna cirka 97 miljoner dollar. Beloppet uppges vara de största enskilda politiska donationerna i brittisk historia. Samtidigt överväger överhuset ett lagförslag som skulle stoppa kryptodonationer och begränsa utländska gåvor.",
+      "synthes": "The Block nämner lagförslaget i överhuset, medan Cointelegraph, Decrypt och CoinDesk fokuserar på donationsbeloppen och deras storlek.",
       "leadSource": "The Block",
       "publishedAt": "2026-09-12T16:18:05.000Z",
       "readMinutes": 1,
-      "sourceCount": 6,
+      "sourceCount": 4,
       "singleSource": false,
-      "enriched": true,
+      "enriched": false,
       "sources": [
         {
           "source": "The Block",
@@ -630,122 +682,190 @@
           "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
           "title": "Nigel Farage’s Reform UK lands $97 million donations from two crypto billionaires in 24 hours",
           "link": "https://www.coindesk.com/business/2026/09/12/nigel-farage-s-reform-uk-lands-usd97-million-donations-from-two-crypto-billionaires-in-24-hours"
-        },
-        {
-          "source": "Senaste nytt – nyheter från Aftonbladet",
-          "title": "Reform UK fick miljarddonation – på två dagar",
-          "link": "https://www.aftonbladet.se/nyheter/a/M7GqX5/reform-uk-fick-miljarddonation-pa-tva-dagar?utm_medium=rss"
-        },
-        {
-          "source": "POLITICO",
-          "title": "Farage’s Reform UK gets two £36M donations from crypto billionaires",
-          "link": "https://www.politico.eu/article/nigel-farage-reform-uk-gets-36-million-from-crypto-billionaire/?utm_source=RSS_Feed&#038;utm_medium=RSS&#038;utm_campaign=RSS_Syndication"
         }
       ]
     },
     {
-      "id": "feed-val2026-R3VpZGUgdG8gdm90aW5nIGlu",
+      "id": "feed-val2026-VGhvdXNhbmRzIG9mIGVsZWN0",
       "sphere": "val2026",
-      "kategori": "VAL",
-      "rubrik": "Guide: Så röstar du i vallokalen",
-      "sammanfattning": "På valdagen kan väljare som inte förtidsröstat gå till sin tilldelade vallokal eller en vallokal för förtidsröstning. Legitimation krävs, men inte röstkortet. Valsedlarna finns i tre färger: gul för riksdagsvalet, blå för regionvalet och vit för kommunvalet. Väljaren kan välja mellan namnvalsedel och partivalsedel, och om partiets valsedel saknas går det att skriva partiets namn på en blank valsedel. Rösterna räknas först preliminärt på valkvällen och sedan slutligt av länsstyrelserna.",
-      "synthes": "SVT, DN och Aftonbladet ger samstämmiga praktiska råd, men DN och SVT beskriver även den efterföljande processen med mandatfördelning och regeringsbildning, vilket de kortare guiderna inte tar upp.",
-      "leadSource": "Inrikes | SVT Nyheter",
-      "publishedAt": "2026-09-12T05:28:12.000Z",
+      "kategori": "POLITIK",
+      "rubrik": "Över 2 800 valincidenter – saknade valsedlar kallas valfusk",
+      "sammanfattning": "Valmyndigheten har fått in över 2 800 incidentrapporter, varav de flesta gäller valsedlar som flyttats, dolts eller tagits bort. Filmer på sociala medier där saknade valsedlar beskrivs som valfusk sprids. Enligt Valmyndigheten kan valsedlar saknas av flera skäl, bland annat att de tagit slut eller inte levererats. En statlig utredning föreslår att valadministrationen tar över all distribution.",
+      "synthes": "SVT och DN anger olika antal incidenter – 2 800 respektive 4 300 – medan Aftonbladet uppger 1 358 rapporter i en lista. Skillnaderna kan bero på tidpunkten för sammanställningen.",
+      "leadSource": "SVT Nyheter",
+      "publishedAt": "2026-09-12T16:02:23.000Z",
       "readMinutes": 1,
-      "sourceCount": 6,
+      "sourceCount": 4,
       "singleSource": false,
       "enriched": true,
       "sources": [
         {
+          "source": "SVT Nyheter",
+          "title": "Över 2 800 valincidenter – saknade valsedlar kallas valfusk",
+          "link": "https://www.svt.se/nyheter/inrikes/over-2-800-valincidenter-saknade-valsedlar-kallas-valfusk"
+        },
+        {
           "source": "Inrikes | SVT Nyheter",
-          "title": "Guide: Viktiga hållpunkter under valdagen",
-          "link": "https://www.svt.se/nyheter/inrikes/guide-viktiga-hallpunkter-infor-och-under-valdagen"
+          "title": "Över 2 800 valincidenter – saknade valsedlar kallas valfusk",
+          "link": "https://www.svt.se/nyheter/inrikes/over-2-800-valincidenter-saknade-valsedlar-kallas-valfusk"
         },
         {
           "source": "DN.se - Dagens Nyheter",
-          "title": "Guide: Så går det till i vallokalen – och det händer sen",
-          "link": "https://www.dn.se/sverige/guide-sa-gar-det-till-i-vallokalen-och-det-hander-sen-2/"
-        },
-        {
-          "source": "Senast publicerat",
-          "title": "Guide: Så går det till att rösta i vallokalen",
-          "link": "https://www.svd.se/a/xr2b6n/guide-sa-gar-det-till-att-rosta-i-vallokalen?utm_medium=rss"
+          "title": "Över 4 300 incidenter i vallokalerna",
+          "link": "https://www.dn.se/sverige/4-000-incidenter-i-vallokalerna/"
         },
         {
           "source": "Senaste nytt – nyheter från Aftonbladet",
-          "title": "Guide: Så går det till att rösta i vallokalen",
-          "link": "https://www.aftonbladet.se/nyheter/a/9p1M79/guide-sa-gar-det-till-att-rosta-i-vallokalen?utm_medium=rss"
-        },
-        {
-          "source": "sydsvenskan.se",
-          "title": "Guide: Så går det till att rösta i vallokalen",
-          "link": "https://www.sydsvenskan.se/sverige/guide-sa-gar-det-till-att-rosta-i-vallokalen/"
-        },
-        {
-          "source": "hd.se",
-          "title": "Guide: Så går det till att rösta i vallokalen",
-          "link": "https://www.hd.se/sverige/guide-sa-gar-det-till-att-rosta-i-vallokalen/"
+          "title": "Lista: Över 1 300 incidenter rapporterade – så såg det ut i din kommun",
+          "link": "https://www.aftonbladet.se/nyheter/a/bObqOl/alla-incidenter-valdagen-2026?utm_medium=rss"
         }
       ]
     },
     {
-      "id": "feed-congress-T2JhbWEgdXJnZXMgRGVtb2Ny",
-      "sphere": "congress",
+      "id": "feed-val2026-U0QgYmFja3MgZm9yIGZpcnN0",
+      "sphere": "val2026",
       "kategori": "POLITIK",
-      "rubrik": "Obama uppmanar Demokraterna att prioritera AI",
-      "sammanfattning": "Barack Obama uppmanade Demokraterna att skapa ett ramverk för en offentlig diskussion om AI under en sluten insamlingsmiddag i New York. Han sade till Hakeem Jeffries att partiet bör fokusera på allt från säkerhetsbromsningar till jobbförluster och barns välbefinnande. Jeffries sade i en TV-intervju att kongressen skyndsamt måste agera för AI-säkerhet. Samtidigt upprepade Donald Trump att han inte vill bromsa AI-utvecklingen.",
-      "synthes": "Guardian och The Hill rapporterar båda om Obamas uttalanden, men Guardian är ensam om att citera Obama för att AI kan påskynda läkemedelsutveckling och bidra till ren energi, medan The Hindu noterar att Obama även vill att presidentkandidater 2028 ska lyfta AI.",
-      "leadSource": "Politics",
-      "publishedAt": "2026-09-13T15:55:04.000Z",
+      "rubrik": "SD backar – Åkesson kallar partiet vinnare",
+      "sammanfattning": "Sverigedemokraterna backar för första gången i ett riksdagsval och tappar positionen som största parti på högersidan till Moderaterna. Partiledaren Jimmie Åkesson säger att partiet ändå är vinnare i valrörelsen. Partisekreteraren beskriver resultatet som blandat. Flera företrädare pekar på att samarbetet inom Tidö har varit en ny situation.",
+      "synthes": "DN och TT rapporterar att partiet backar med nära tre procentenheter och att Oscar Sjöstedt kallar det en dubbel käftsmäll. Aftonbladet rapporterar samtidigt att Miljöpartiet ser valet som ett av sina bästa.",
+      "leadSource": "DN.se - Dagens Nyheter",
+      "publishedAt": "2026-09-13T19:08:46.000Z",
       "readMinutes": 1,
-      "sourceCount": 5,
+      "sourceCount": 4,
       "singleSource": false,
       "enriched": true,
       "sources": [
         {
-          "source": "Politics",
-          "title": "Obama calls for Dems to focus on AI",
-          "link": "https://www.politico.com/news/2026/09/13/obama-ai-democrats-fundraiser-01073778"
+          "source": "DN.se - Dagens Nyheter",
+          "title": "SD-toppen om partiets satsning: ”Ger lite mer hopp”",
+          "link": "https://www.dn.se/sverige/sd-toppens-besvikelse-efter-tappet-i-valu-vill-inte-tro-det/"
         },
         {
-          "source": "House News",
-          "title": "Obama pushes Jeffries to move AI oversight to center of agenda: Report",
-          "link": "https://thehill.com/policy/technology/6086768-obama-urges-ai-oversight/"
+          "source": "Senast publicerat",
+          "title": "Åkesson (SD) om tappet: Vi är ändå vinnare",
+          "link": "https://www.svd.se/a/j02Xje/lindberg-sd-en-hel-del-smutskastning?utm_medium=rss"
         },
         {
-          "source": "House News",
-          "title": "Jeffries says Congress should &#039;act urgently&#039; on AI safeguards",
-          "link": "https://thehill.com/homenews/house/6086761-jeffries-urges-ai-regulation/"
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "MP: ”Ett av våra bästa val hittills”",
+          "link": "https://www.aftonbladet.se/nyheter/a/43wv8e/daniel-hellden-mp-en-pirrig-dag?utm_medium=rss"
         },
         {
-          "source": "Administration News",
-          "title": "Obama pushes Jeffries to move AI oversight to center of agenda: Report",
-          "link": "https://thehill.com/policy/technology/6086768-obama-urges-ai-oversight/"
-        },
-        {
-          "source": "US politics | The Guardian",
-          "title": "Obama reportedly urges Democrats to prioritize safety plan for AI",
-          "link": "https://www.theguardian.com/us-news/2026/sep/13/obama-democrats-ai-safety"
-        },
-        {
-          "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-          "title": "Obama voices caution on AI, urges Democrats to tackle it: reports",
-          "link": "https://www.thehindu.com/news/international/obama-voices-caution-on-ai-urges-democrats-to-tackle-it-reports/article71462679.ece"
+          "source": "hd.se",
+          "title": "Åkesson (SD) om tappet: Vi är ändå vinnare",
+          "link": "https://www.hd.se/sverige/det-ar-valdigt-blandat-for-sverigedemokraterna/"
         }
       ]
     },
     {
-      "id": "feed-val2026-T3BlbkFJIHdpbGwgbm90IElQ",
+      "id": "feed-congress-TGF3bGVyIHF1ZXN0aW9ucyBU",
+      "sphere": "congress",
+      "kategori": "POLITIK",
+      "rubrik": "Republikan tvekar om Trumps 5 000-dollarsutdelning",
+      "sammanfattning": "Kongressledamoten Mike Lawler ifrågasätter finansieringen av president Trumps förslag att skicka 5 000 dollar till varje vuxen amerikan. I en intervju undvek han först att svara på om han stödjer förslaget och frågade hur det ska betalas. Flera andra republikaner har också ifrågasatt förslaget.",
+      "synthes": "",
+      "leadSource": "Senate News",
+      "publishedAt": "2026-09-13T18:50:47.000Z",
+      "readMinutes": 1,
+      "sourceCount": 4,
+      "singleSource": false,
+      "enriched": false,
+      "sources": [
+        {
+          "source": "Senate News",
+          "title": "Lawler deflects on supporting Trump&#039;s $5K dividend pledge: &#039;How do you pay for it?&#039;",
+          "link": "https://thehill.com/homenews/house/6086944-lawler-questions-trump-dividend/"
+        },
+        {
+          "source": "House News",
+          "title": "Lawler deflects on supporting Trump&#039;s $5K dividend pledge: &#039;How do you pay for it?&#039;",
+          "link": "https://thehill.com/homenews/house/6086944-lawler-questions-trump-dividend/"
+        },
+        {
+          "source": "Administration News",
+          "title": "Lawler deflects on supporting Trump&#039;s $5K dividend pledge: &#039;How do you pay for it?&#039;",
+          "link": "https://thehill.com/homenews/house/6086944-lawler-questions-trump-dividend/"
+        },
+        {
+          "source": "Political Campaign News | The Hill",
+          "title": "Lawler deflects on supporting Trump&#039;s $5K dividend pledge: &#039;How do you pay for it?&#039;",
+          "link": "https://thehill.com/homenews/house/6086944-lawler-questions-trump-dividend/"
+        }
+      ]
+    },
+    {
+      "id": "feed-val2026-VHJ1bXAgbGlmdHMgSXJpc2gg",
       "sphere": "val2026",
       "kategori": "EKONOMI",
-      "rubrik": "Altman: OpenAI börsnoteras inte i år",
-      "sammanfattning": "OpenAI:s vd Sam Altman uppger i en intervju med Fortune att bolaget inte kommer att gå till börsen 2026 på grund av säkerhetsfrågor kring AI. Han säger att det vore ogenomtänkt att noteras parallellt med arbetet för säkerhet och anpassning. Altman uppger att risken för AI-driven mänsklig utrotning är allvarlig nog att agera som om den inte kan tolereras. Beskedet kommer efter att han, Dario Amodei och Elon Musk varnat för att AI-utvecklingen måste bromsas.",
-      "synthes": "SVT och The Hindu rapporterar samstämmigt om beskedet, men The Hindu tillägger att Anthropic enligt Reuters planerar att påbörja marknadsföringen av sin börsnotering i mitten av oktober, vilket inte nämns i de svenska källorna.",
+      "rubrik": "Trump slopar tullar på irländsk whiskey",
+      "sammanfattning": "President Trump meddelade att USA tar bort tullarna på irländsk whiskey. Irländsk whiskey omfattas av 15 procents tull på EU-varor, medan whiskey från Nordirland är tullfri sedan i maj. Beskedet kom vid avslutningen av Trumps tvådagarsbesök i Irland. Han upprepade också sitt stöd för ett enat Irland.",
+      "synthes": "BBC rapporterar att tullslopet kan påverka konkurrensen för nordirländska destillerier som använt irländsk råvara. POLITICO och Administration News noterar att beskedet gavs som en gåva vid golfevenemanget.",
+      "leadSource": "BBC News",
+      "publishedAt": "2026-09-13T19:34:36.000Z",
+      "readMinutes": 1,
+      "sourceCount": 3,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "Administration News",
+          "title": "Trump says he plans to lift tariffs on Irish whiskey",
+          "link": "https://thehill.com/business/6087112-trump-to-lift-irish-whiskey-tariffs/"
+        },
+        {
+          "source": "BBC News",
+          "title": "Trump says he will remove all Irish whiskey tariffs as he ends two-day visit",
+          "link": "https://www.bbc.co.uk/news/articles/cx2z79n0eeno?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source": "POLITICO",
+          "title": "Trump cuts Ireland’s whiskey tariff as a parting gift",
+          "link": "https://www.politico.com/news/2026/09/13/trump-irish-whiskey-tariffs-01073879?utm_source=RSS_Feed&#038;utm_medium=RSS&#038;utm_campaign=RSS_Syndication"
+        }
+      ]
+    },
+    {
+      "id": "feed-val2026-VHVya2V5IHJhaWRzIGdheSBi",
+      "sphere": "val2026",
+      "kategori": "JURIDIK",
+      "rubrik": "Turkiet griper hbtqi-aktivister i razzior",
+      "sammanfattning": "Turkisk polis har genomfört razzior mot gaybarer och hbtqi-aktivisters hem i flera provinser. Minst 26 personer har gripits enligt åklagarmyndigheten, medan organisationen Kaos GL uppger att minst 50 aktivister gripits. Åtgärderna ingår i kampanjen familjens decennium som president Erdogan utlyst. Flera sociala mediekonton har blockerats.",
+      "synthes": "BBC uppger att 47 personer gripits totalt, medan SVT anger minst 26 enligt åklagarmyndigheten och minst 50 enligt Kaos GL. BBC nämner också att kampanjen kallas My Family is Safe.",
       "leadSource": "SVT Nyheter",
+      "publishedAt": "2026-09-13T10:19:37.000Z",
+      "readMinutes": 1,
+      "sourceCount": 3,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "Utrikes | SVT Nyheter",
+          "title": "Turkiet gör tillslag mot gaybarer och aktivister",
+          "link": "https://www.svt.se/nyheter/utrikes/turkiet-gor-tillslag-mot-gaybarer-och-aktivister"
+        },
+        {
+          "source": "SVT Nyheter",
+          "title": "Turkiet gör tillslag mot gaybarer och aktivister",
+          "link": "https://www.svt.se/nyheter/utrikes/turkiet-gor-tillslag-mot-gaybarer-och-aktivister"
+        },
+        {
+          "source": "BBC News",
+          "title": "Turkish police detain dozens in raids on gay bars and homes of LGBTQ+ activists",
+          "link": "https://www.bbc.co.uk/news/articles/cpve191wy47o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "id": "feed-congress-QWx0bWFuIHNheXMgT3BlbkFJ",
+      "sphere": "congress",
+      "kategori": "EKONOMI",
+      "rubrik": "OpenAI börsnoteras inte i år",
+      "sammanfattning": "OpenAI:s vd Sam Altman uppger att bolaget inte kommer att börsnoteras i år. Han säger att man fokuserar på säkerhetsfrågor och att en notering samtidigt vore ogenomtänkt. Noteringen skjuts i stället upp till nästa år. Beskedet kommer efter att flera AI-profiler varnat för utvecklingens risker.",
+      "synthes": "SVT och CoinDesk rapporterar samma besked, men CoinDesk citerar Altman om att det vore olämpligt att gå till börsen just nu.",
+      "leadSource": "Utrikes | SVT Nyheter",
       "publishedAt": "2026-09-13T05:00:50.000Z",
       "readMinutes": 1,
-      "sourceCount": 5,
+      "sourceCount": 3,
       "singleSource": false,
       "enriched": true,
       "sources": [
@@ -763,190 +883,6 @@
           "source": "SVT Nyheter",
           "title": "Altman: Ingen börsnotering för Open AI i år",
           "link": "https://www.svt.se/nyheter/utrikes/altman-ingen-borsnotering-for-open-ai-i-ar"
-        },
-        {
-          "source": "Senast publicerat",
-          "title": "Altman: Ingen notering för Open AI i år",
-          "link": "https://www.svd.se/a/wrGaGM/altman-ingen-borsnotering-for-open-ai-i-ar?utm_medium=rss"
-        },
-        {
-          "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-          "title": "OpenAI's Altman won't do IPO this year, calls AI extinction risk 'unacceptable'",
-          "link": "https://www.thehindu.com/sci-tech/technology/openais-altman-wont-do-ipo-this-year-calls-ai-extinction-risk-unacceptable/article71462569.ece"
-        }
-      ]
-    },
-    {
-      "id": "feed-val2026-V2hlbiBTd2VkaXNoIGVsZWN0",
-      "sphere": "val2026",
-      "kategori": "VAL",
-      "rubrik": "Rösterna räknas två gånger – så går det till",
-      "sammanfattning": "När vallokalerna stänger klockan 20 börjar den preliminära rösträkningen. De första siffrorna väntas runt klockan 21 och en preliminär mandatfördelning kan komma vid 22.30. Länsstyrelserna påbörjar den slutliga rösträkningen på måndagen och det slutliga resultatet beräknas vara klart drygt en vecka efter valet. På onsdagen räknas sena förtidsröster och utlandsröster. Både vallokalsräkningen och den slutliga räkningen är offentliga.",
-      "synthes": "SVT, Aftonbladet och Expressen är eniga om tidslinjen, men Expressen och Aftonbladet betonar att ett jämnt val kan fördröja ett tydligt resultat till slutet av nästa vecka, medan SVT främst beskriver de officiella klockslagen.",
-      "leadSource": "Inrikes | SVT Nyheter",
-      "publishedAt": "2026-09-12T09:53:28.000Z",
-      "readMinutes": 1,
-      "sourceCount": 5,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "Inrikes | SVT Nyheter",
-          "title": "Då ska du ställa klockan – för att veta vem som vann valet",
-          "link": "https://www.svt.se/nyheter/inrikes/da-ska-du-stalla-klockan-for-att-veta-vem-som-vann-valet"
-        },
-        {
-          "source": "Senast publicerat",
-          "title": "Rösterna räknas två gånger – så går det till",
-          "link": "https://www.svd.se/a/WvMdOL/rosterna-raknas-tva-ganger-sa-gar-det-till?utm_medium=rss"
-        },
-        {
-          "source": "Senaste nytt – nyheter från Aftonbladet",
-          "title": "Rösterna räknas två gånger – så går det till",
-          "link": "https://www.aftonbladet.se/nyheter/a/L47Lnp/rosterna-raknas-tva-ganger-sa-gar-det-till?utm_medium=rss"
-        },
-        {
-          "source": "Senaste nytt – nyheter från Aftonbladet",
-          "title": "Då vet vi vilka som vinner valet",
-          "link": "https://www.aftonbladet.se/nyheter/a/JOA666/valresultat-2026-da-kommer-resultatet?utm_medium=rss"
-        },
-        {
-          "source": "Expressen: Nyheter",
-          "title": "Då är valresultatet klart – två scenarier som gäller",
-          "link": "https://www.expressen.se/nyheter/politik/da-ar-valresultatet-klart-tva-scenarier-som-galler/"
-        },
-        {
-          "source": "Nyheter",
-          "title": "Rösterna räknas två gånger – så går det till",
-          "link": "https://www.nsd.se/nyheter/samhalle/artikel/rosterna-raknas-tva-ganger-sa-gar-det-till/lyx9kvvr"
-        }
-      ]
-    },
-    {
-      "id": "feed-world-U3dlZGVuIHZvdGVzIGluIGNs",
-      "sphere": "world",
-      "kategori": "VAL",
-      "rubrik": "Sverige går till val – högerblocket knappar in",
-      "sammanfattning": "Sverige höll riksdagsval den 13 september. Oppositionspartierna till vänster om regeringen ledde knappt i opinionsmätningarna, men statsminister Ulf Kristerssons fyraparti-allians har hämtat in under de sista veckorna. Kristersson har lovat att släppa in Sverigedemokraterna i regeringen om hans block vinner. Kritiker menar att regeringens politik inskränker medborgerliga friheter och tvingar invandrare att anpassa sig till svenska normer.",
-      "synthes": "France 24 och SCMP beskriver båda en jämn kamp, men France 24 fokuserar på att Sverigedemokraterna kan komma in i regeringen för första gången, medan SCMP lyfter kritik mot regeringens integrationspolitik.",
-      "leadSource": "France 24 - International breaking news, top stories and headlines",
-      "publishedAt": "2026-09-13T13:11:59.000Z",
-      "readMinutes": 1,
-      "sourceCount": 4,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "POLITICO",
-          "title": "How to watch Sweden&#8217;s election like a pro",
-          "link": "https://www.politico.eu/article/how-to-watch-sweden-election-like-pro/?utm_source=RSS_Feed&#038;utm_medium=RSS&#038;utm_campaign=RSS_Syndication"
-        },
-        {
-          "source": "France 24 - International breaking news, top stories and headlines",
-          "title": "Swedish far-right eyes role in government",
-          "link": "https://www.france24.com/en/swedish-far-right-eyes-role-in-government"
-        },
-        {
-          "source": "France 24 - International breaking news, top stories and headlines",
-          "title": "Sweden election: A turning point for the far right?",
-          "link": "https://www.france24.com/en/sweden-election-a-turning-point-for-the-far-right"
-        },
-        {
-          "source": "France 24 - International breaking news, top stories and headlines",
-          "title": "Swedes vote in close general election that could usher far right into government",
-          "link": "https://www.france24.com/en/europe/20260913-swedes-vote-in-close-general-election-that-could-usher-far-right-into-government"
-        },
-        {
-          "source": "News - South China Morning Post",
-          "title": "Sweden votes over immigration as right-wing bloc gains traction",
-          "link": "https://www.scmp.com/news/world/europe/article/3367356/sweden-votes-over-immigration-right-wing-bloc-gains-traction?utm_source=rss_feed"
-        },
-        {
-          "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-          "title": "Swedes vote in election that could usher far right into government",
-          "link": "https://www.thehindu.com/news/international/swedes-vote-in-election-that-could-usher-far-right-into-government/article71463032.ece"
-        }
-      ]
-    },
-    {
-      "id": "feed-val2026-RXVyb3BlIHdpbnMgU29saGVp",
-      "sphere": "val2026",
-      "kategori": "SPORT",
-      "rubrik": "Europa vann Solheim Cup – Grant och Nordqvist avgjorde",
-      "sammanfattning": "Europa besegrade USA med 15–13 i Solheim Cup på Bernardus Golf i Nederländerna. Linn Grant vann fyra av fyra matcher och var en av nyckelspelarna. Lottie Woad satte den avgörande putten på 17:e hålet utan att själv förstå att segern stod på spel. Anna Nordqvist blev den första svenska kaptenen sedan 2013 att leda ett Europalag till seger. Grant berättade efteråt att hon har alkoholförbud på grund av en detox.",
-      "synthes": "Sydsvenskan och DN rapporterar samstämmigt om resultatet, men Sydsvenskan är ensam om att citera Grant om alkoholförbudet och om hennes endometrios, medan DN fokuserar på Woads avgörande putt.",
-      "leadSource": "DN.se - Dagens Nyheter",
-      "publishedAt": "2026-09-13T15:01:33.000Z",
-      "readMinutes": 1,
-      "sourceCount": 4,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "DN.se - Dagens Nyheter",
-          "title": "Europa vinner Solheim Cup – Grant fixade ny poäng",
-          "link": "https://www.dn.se/sport/europa-vinner-solheim-cup-grant-fixade-ny-poang/"
-        },
-        {
-          "source": "sydsvenskan.se",
-          "title": "Grant om segerfesten: ”Har tyvärr alkoholförbud”",
-          "link": "https://www.sydsvenskan.se/sport/grant-om-segerfesten-har-tyvarr-alkoholforbud/"
-        },
-        {
-          "source": "sydsvenskan.se",
-          "title": "Nordqvist efter segern: ”Tårarna kommer nog snart”",
-          "link": "https://www.sydsvenskan.se/sport/nordqvist-efter-segern-tararna-kommer-nog-snart/"
-        },
-        {
-          "source": "sydsvenskan.se",
-          "title": "Europa vann Solheim Cup – Grant fixade ny poäng",
-          "link": "https://www.sydsvenskan.se/sport/ny-seger-for-grant-europa-har-kopplat-greppet/"
-        },
-        {
-          "source": "hd.se",
-          "title": "Europa vann Solheim Cup – Grant fixade ny poäng",
-          "link": "https://www.hd.se/sport/ny-seger-for-grant-europa-har-kopplat-greppet/"
-        },
-        {
-          "source": "Barometern",
-          "title": "Europa vann Solheim Cup – Grant fixade ny poäng",
-          "link": "https://www.barometern.se/sport/ny-seger-for-grant-europa-har-kopplat-greppet/"
-        }
-      ]
-    },
-    {
-      "id": "feed-congress-UmVwLiBUaWZmYW55IHN1cnZp",
-      "sphere": "congress",
-      "kategori": "OLYCKA",
-      "rubrik": "Kongressledamot nödlandade i sjö – simmade i land",
-      "sammanfattning": "Republikanen Tom Tiffany, kongressledamot för Wisconsin och guvernörskandidat, färdades i ett litet flygplan som förlorade motorkraft och nödlandade i Lake Wausau på lördagskvällen. Tiffany och piloten tog sig ut ur planet och simmade till grunt vatten där de räddades av en luftbåt. Båda fick lindriga skador och fördes till sjukhus. Olyckan utreds av FAA och NTSB.",
-      "synthes": "BBC och Guardian rapporterar samstämmigt om händelsen, men BBC uppger att planet var en Beechcraft K35 med plats för upp till fem personer, medan Guardian skriver att det var en enmotorig Bonanza med fyra säten.",
-      "leadSource": "House News",
-      "publishedAt": "2026-09-13T12:57:19.000Z",
-      "readMinutes": 1,
-      "sourceCount": 4,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "House News",
-          "title": "Tiffany suffers minor injuries after plane makes emergency lake landing",
-          "link": "https://thehill.com/homenews/house/6086647-wisconsin-gop-lawmaker-plane-crash/"
-        },
-        {
-          "source": "Political Campaign News | The Hill",
-          "title": "Tiffany suffers minor injuries after plane makes emergency lake landing",
-          "link": "https://thehill.com/homenews/house/6086647-wisconsin-gop-lawmaker-plane-crash/"
-        },
-        {
-          "source": "US politics | The Guardian",
-          "title": "Wisconsin congressman swims to safety after plane makes emergency landing in lake",
-          "link": "https://www.theguardian.com/us-news/2026/sep/13/wisconsin-congressman-plane-emergency-landing-lake"
-        },
-        {
-          "source": "BBC News",
-          "title": "US congressman swims to safety after his plane is forced to land on a lake",
-          "link": "https://www.bbc.co.uk/news/articles/c5y5d87x72zo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -955,12 +891,12 @@
       "sphere": "val2026",
       "kategori": "JURIDIK",
       "rubrik": "Haval Khalil utlämnad till Sverige",
-      "sammanfattning": "Den 31-årige Haval Khalil greps i Rumänien den 3 september och har nu utlämnats till Sverige. Han greps av svensk polis vid ankomsten och är misstänkt för medhjälp till försök till mord, grovt olaga hot och grov utpressning. Polisen beskriver honom som en högprioriterad person och tongivande i ett kriminellt nätverk i Stockholms län. Förhör hölls under helgen och häktningsförhandling väntas på måndag.",
-      "synthes": "SVT och TV4 rapporterar samstämmigt om utlämningen, men TV4 uppger att han greps på Arlanda medan SVT skriver att han greps vid ankomsten; Aftonbladet lyfter att han även är verksam som rappare.",
+      "sammanfattning": "Haval Khalil greps i Rumänien i början av september och har nu utlämnats till Sverige. Han greps på Arlanda och är misstänkt för medhjälp till försök till mord, grovt olaga hot och grov utpressning. Polisen beskriver honom som högprioriterad och tongivande i ett kriminellt nätverk i Stockholm. Han förhörs under helgen och häktningsförhandling väntas på måndag.",
+      "synthes": "SVT och TV4 uppger att han greps på Arlanda, medan SVT även nämner att han varit begärd häktad i sin utevaro. TV4 uppger att han är 31 år.",
       "leadSource": "SVT Nyheter",
       "publishedAt": "2026-09-12T12:41:21.000Z",
       "readMinutes": 1,
-      "sourceCount": 4,
+      "sourceCount": 3,
       "singleSource": false,
       "enriched": true,
       "sources": [
@@ -975,11 +911,6 @@
           "link": "https://www.svt.se/nyheter/utrikes/gangtoppen-haval-khalil-har-lamnats-ut-till-sverige"
         },
         {
-          "source": "Senaste nytt – nyheter från Aftonbladet",
-          "title": "Jakten på Haval & småbarnsmamman i mordkommandot",
-          "link": "https://www.aftonbladet.se/podcasts/episode/406821?utm_medium=rss"
-        },
-        {
           "source": "TV4 Nyheterna",
           "title": "Gängtoppen Haval Khalil har lämnats ut till Sverige",
           "link": "https://www.tv4.se/artikel/7AYfCn3vPOR7CUtCIeX9hl/gaengtoppen-haval-khalil-har-laemnats-ut-till-sverige"
@@ -987,16 +918,47 @@
       ]
     },
     {
+      "id": "feed-val2026-UnVzc2lhIGxpbmtlZCB0byBM",
+      "sphere": "val2026",
+      "kategori": "GEOPOLITIK",
+      "rubrik": "Tyskland pekar ut rysk underrättelse bakom drönare",
+      "sammanfattning": "Enligt en rapport var rysk militär underrättelsetjänst inblandad i planeringen av en drönare med sprängmedel mot flygplatsen Leipzig/Halle i augusti. Tyska tjänstemän har identifierat en person som misstänks tillhöra GRU och haft en logistiksamordnande roll. Uppgifterna låg till grund för att Tyskland pekade ut Ryssland och stängde ryskt konsulat och kulturcentrum.",
+      "synthes": "SVT hänvisar till Welt am Sonntag, medan POLITICO uppger att en belarusisk medborgare och en rysk medborgare med koppling till militär underrättelsetjänst är huvudmisstänkta.",
+      "leadSource": "SVT Nyheter",
+      "publishedAt": "2026-09-12T12:20:07.000Z",
+      "readMinutes": 1,
+      "sourceCount": 3,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "Utrikes | SVT Nyheter",
+          "title": "Tyskland: Rysk underrättelse bakom bombdrönare",
+          "link": "https://www.svt.se/nyheter/utrikes/tyskland-rysk-underrattelse-bakom-bombdronare"
+        },
+        {
+          "source": "SVT Nyheter",
+          "title": "Tyskland: Rysk underrättelse bakom bombdrönare",
+          "link": "https://www.svt.se/nyheter/utrikes/tyskland-rysk-underrattelse-bakom-bombdronare"
+        },
+        {
+          "source": "POLITICO",
+          "title": "Suspected Russian spy behind drone attack in Leipzig",
+          "link": "https://www.politico.eu/article/suspect-russia-spy-drone-attack-in-leipzig-halle-airport-germany/?utm_source=RSS_Feed&#038;utm_medium=RSS&#038;utm_campaign=RSS_Syndication"
+        }
+      ]
+    },
+    {
       "id": "feed-crypto-UmV2b2x1dCBjdXN0b21lciBk",
       "sphere": "crypto",
-      "kategori": "SÄKERHET",
-      "rubrik": "Revolut lämnade ut kunddata efter falsk myndighetsförfrågan",
-      "sammanfattning": "Fintechbolaget Revolut uppger att en bedragare använde en myndighetsdomän för att skicka en falsk begäran om information. Bolaget behandlade begäran som legitim och lämnade ut pass, selfies, hemadresser och kryptotransaktionshistorik för ett begränsat antal kunder. Inga kundmedel ska ha förlorats. Onchain-utredaren ZachXBT spekulerar i att attacken kan ha riktats mot förmögna användare.",
-      "synthes": "Alla källor är eniga om händelseförloppet, men Decrypt och CoinDesk betonar att det rörde sig om ett begränsat antal användare, medan The Block är ensam om att citera ZachXBT om att attacken kan ha riktats mot höginkomsttagare.",
+      "kategori": "JURIDIK",
+      "rubrik": "Revolut läckte kunddata efter falsk myndighetsförfrågan",
+      "sammanfattning": "Fintechbolaget Revolut har lämnat ut kunddata efter en förfrågan från en falsk avsändare med en myndighets domän. Pass, selfies och transaktionshistorik för ett begränsat antal kunder exponerades. Enligt uppgifter kan händelsen ha riktat sig mot förmögna användare. Revolut uppger att man agerat på en förfrågan som såg ut att komma från en myndighet.",
+      "synthes": "The Block nämner att en onchain-utredare spekulerat i att hög förmögna användare var målet, medan Cointelegraph och Decrypt fokuserar på vilken typ av data som läckte.",
       "leadSource": "The Block",
       "publishedAt": "2026-09-12T18:57:08.000Z",
       "readMinutes": 1,
-      "sourceCount": 4,
+      "sourceCount": 3,
       "singleSource": false,
       "enriched": false,
       "sources": [
@@ -1014,25 +976,20 @@
           "source": "Decrypt",
           "title": "Revolut Leaks Passports, Bitcoin Transaction Histories to Fake Government Request",
           "link": "https://decrypt.co/378114/revolut-passports-bitcoin-activity-data-breach"
-        },
-        {
-          "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-          "title": "Bitcoin activity, passports exposed after Revolut falls for fake government request",
-          "link": "https://www.coindesk.com/tech/2026/09/12/bitcoin-activity-passports-exposed-after-revolut-falls-for-fake-government-request"
         }
       ]
     },
     {
       "id": "feed-val2026-V29tYW4gc2hvdCBpbiBoZWFk",
       "sphere": "val2026",
-      "kategori": "BROTT",
+      "kategori": "JURIDIK",
       "rubrik": "Kvinna skjuten i huvudet i Malmö – man anhållen",
-      "sammanfattning": "En man i 30-årsåldern har anhållits misstänkt för mordförsök och grovt vapenbrott efter att ha skjutit en kvinna i huvudet i en lägenhet i Sofielund i Malmö. Kvinnan fördes till sjukhus men skadorna bedöms inte vara livshotande och hon var talbar efter händelsen. Mannen lämnade lägenheten men greps kort därefter. Polisen utreder händelsen som isolerad och inga gängkopplingar misstänks.",
-      "synthes": "SVT, DN och Aftonbladet rapporterar samstämmigt, men TV4 och Aftonbladet noterar att inget vapen har anträffats utan att en patron och skadorna bekräftar att ett skjutvapen använts.",
+      "sammanfattning": "En man i 30-årsåldern har anhållits misstänkt för mordförsök och grovt vapenbrott efter att ha skjutit en kvinna i huvudet i en bostad i Sofielund i Malmö. Kvinnan fördes till sjukhus men skadorna bedöms inte vara livshotande. Mannen hade lämnat platsen men greps strax efter. Polisen utreder händelsen som isolerad.",
+      "synthes": "SVT och DN uppger att kvinnan var talbar, medan TV4 rapporterar att en patron hittats och att inget vapen anträffats.",
       "leadSource": "SVT Nyheter",
       "publishedAt": "2026-09-13T05:54:00.000Z",
       "readMinutes": 1,
-      "sourceCount": 4,
+      "sourceCount": 3,
       "singleSource": false,
       "enriched": true,
       "sources": [
@@ -1047,11 +1004,6 @@
           "link": "https://www.dn.se/sverige/kvinna-skjuten-i-huvudet-man-gripen/"
         },
         {
-          "source": "Senaste nytt – nyheter från Aftonbladet",
-          "title": "Kvinna skjuten i huvudet i Malmö",
-          "link": "https://www.aftonbladet.se/nyheter/a/GxRqXl/man-gripen-for-mordforsok-i-malmo?utm_medium=rss"
-        },
-        {
           "source": "TV4 Nyheterna",
           "title": "Kvinna skjuten i huvudet",
           "link": "https://www.tv4.se/artikel/5lzjUvyaPL0bu72mSETJo9/kvinna-skjuten-i-huvudet"
@@ -1059,122 +1011,14 @@
       ]
     },
     {
-      "id": "feed-val2026-UnliYWtpbmEgd2lucyBVUyBP",
+      "id": "feed-val2026-U2hvb3RpbmcgaW4gRmluc3DD",
       "sphere": "val2026",
-      "kategori": "SPORT",
-      "rubrik": "Rybakina vann US Open",
-      "sammanfattning": "Jelena Rybakina från Kazakstan vann US Open efter att ha besegrat Aryna Sabalenka med 2–1 i set i finalen. Det är hennes första US Open-titel och tredje grand slam-seger totalt. Rybakina har dragits med skadeproblem men tog sig igenom turneringen utan större bekymmer. Segern innebär att hon vunnit tre av fyra grand slam-titlar; bara Franska öppna saknas.",
-      "synthes": "DN, Sydsvenskan och hd.se rapporterar samstämmigt om resultatet och prissumman på 5,5 miljoner dollar.",
-      "leadSource": "DN.se - Dagens Nyheter",
-      "publishedAt": "2026-09-13T03:24:58.000Z",
-      "readMinutes": 1,
-      "sourceCount": 4,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "DN.se - Dagens Nyheter",
-          "title": "Rybakina segrare i US Open",
-          "link": "https://www.dn.se/sport/rybakina-segrare-i-us-open/"
-        },
-        {
-          "source": "Senast publicerat",
-          "title": "Rybakina segrare i US Open: ”Allt föll på plats”",
-          "link": "https://www.svd.se/a/q6abXw/rybakina-segrare-i-us-open?utm_medium=rss"
-        },
-        {
-          "source": "sydsvenskan.se",
-          "title": "Rybakina segrare i US Open",
-          "link": "https://www.sydsvenskan.se/sport/rybakina-segrare-i-us-open/"
-        },
-        {
-          "source": "hd.se",
-          "title": "Rybakina segrare i US Open",
-          "link": "https://www.hd.se/sport/rybakina-segrare-i-us-open/"
-        }
-      ]
-    },
-    {
-      "id": "feed-val2026-U1ZUIFZhbHUgZXhpdCBwb2xs",
-      "sphere": "val2026",
-      "kategori": "VAL",
-      "rubrik": "Så träffsäker är SVT:s Valu",
-      "sammanfattning": "SVT presenterar sin vallokalsundersökning Valu strax efter att vallokalerna stänger. Undersökningen baseras på över 10 000 svar från väljare utanför vallokaler och förtidsröstningslokaler. Enligt Henrik Ekengren Oscarsson, professor i statsvetenskap, var den senaste undersökningen den mest träffsäkra hittills med ett snittfel på 0,44 procentenheter. Valu är designad för att träffa rätt på enskilda partiers resultat, inte på block, vilket kan ge felaktiga blockprognoser vid jämna val.",
-      "synthes": "DN och Di beskriver båda undersökningens träffsäkerhet, men ETC är ensam om att påpeka att Valu 2022 visade fel och gav segern till det rödgröna blocket, vilket DN också nämner men förklarar med att undersökningen fokuserar på partier snarare än block.",
-      "leadSource": "DN.se - Dagens Nyheter",
-      "publishedAt": "2026-09-13T14:13:17.000Z",
-      "readMinutes": 1,
-      "sourceCount": 4,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "DN.se - Dagens Nyheter",
-          "title": "Så väl träffar vallokalsundersökningen valresultatet",
-          "link": "https://www.dn.se/sverige/sa-val-traffar-vallokalsundersokningen-valresultatet/"
-        },
-        {
-          "source": "Dagens industri",
-          "title": "Inför valvakans stora mätning: Så pricksäker är SVT:s Valu",
-          "link": "https://www.di.se/nyheter/infor-valvakans-stora-matning-sa-pricksaker-ar-svts-valu/"
-        },
-        {
-          "source": "hd.se",
-          "title": "Här görs SVT:s stora valundersökning – en av många hemliga platser",
-          "link": "https://www.hd.se/angelholm/nu-avgors-valet-har-ar-stamningen-vid-vallokalen/"
-        },
-        {
-          "source": "ETC.se",
-          "title": "Så träffsäker är SVT:s Valu",
-          "link": "https://www.etc.se/inrikes/saa-traeffsaeker-aer-svt-s-valu?utm_source=rss"
-        }
-      ]
-    },
-    {
-      "id": "feed-val2026-S3Jpc3RlcnNzb24gdm90ZXMg",
-      "sphere": "val2026",
-      "kategori": "VAL",
-      "rubrik": "Kristersson och Andersson har röstat",
-      "sammanfattning": "Statsminister Ulf Kristersson röstade i Strängnäs vid 13-tiden tillsammans med sin familj och hunden Winston. Han beskriver valrörelsen som rolig och spänstig och känner gott hopp inför resultatet. Socialdemokraternas ledare Magdalena Andersson röstade också och kallar valrörelsen både fantastiskt rolig och smutsig, med hänvisning till hot mot Göteborgs kommunstyrelseordförande Jonas Attenius. Hon är beredd att samtala med alla partier utom Sverigedemokraterna.",
-      "synthes": "Aftonbladet, Di och hd.se rapporterar samstämmigt om båda partiledarnas röstande, men Di och hd.se citerar Kristersson för att valrörelsen varit spänstig medan Aftonbladet och SVT använder formuleringen rolig och spänd.",
+      "kategori": "JURIDIK",
+      "rubrik": "Två skadade efter skottlossning i Finspång",
+      "sammanfattning": "Två personer skadades vid en skottlossning i Finspång strax efter klockan 21. De anträffades i en bil och fördes till sjukhus med skottskador. En tredje person i bilen ska inte vara skottskadad. Polisen har gripit minst två personer och hållit förhör med vittnen. Brottsmisstanken är mordförsök.",
+      "synthes": "Expressen uppger att de skadade är två män i 20-årsåldern och att en tredje person beskrivs som lindrigt skadad, medan SvD och Aftonbladet inte anger ålder.",
       "leadSource": "Senast publicerat",
-      "publishedAt": "2026-09-13T07:08:54.000Z",
-      "readMinutes": 1,
-      "sourceCount": 4,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "Senast publicerat",
-          "title": "Kristersson: ”Det är lite spänt”",
-          "link": "https://www.svd.se/a/7pvQwV/andersson-om-valrorelsen-smutsig?utm_medium=rss"
-        },
-        {
-          "source": "Senaste nytt – nyheter från Aftonbladet",
-          "title": "Kristersson: ”Det är lite spänt”",
-          "link": "https://www.aftonbladet.se/nyheter/a/8pMvKG/andersson-om-valrorelsen-smutsig?utm_medium=rss"
-        },
-        {
-          "source": "Dagens industri",
-          "title": "Kristersson har röstat: ”Spänstig valrörelse”",
-          "link": "https://www.di.se/nyheter/kristersson-har-rostat-spanstig-valrorelse/"
-        },
-        {
-          "source": "hd.se",
-          "title": "Kristersson: ”Det är lite spänt”",
-          "link": "https://www.hd.se/sverige/andersson-om-valrorelsen-smutsig/"
-        }
-      ]
-    },
-    {
-      "id": "feed-val2026-TW9yZWdhcmRoIHdpbnMgV1RU",
-      "sphere": "val2026",
-      "kategori": "SPORT",
-      "rubrik": "Möregårdh vann WTT Champions i Macao",
-      "sammanfattning": "Truls Möregårdh besegrade brasilianske Hugo Calderano med 4–1 i set i finalen av WTT Champions i Macao. Det är hans andra WTT Champions-titel, den första kom i Montpellier 2025. I semifinalen besegrade han japanske Tomokazu Harimoto i en rysare över sju set. Segern gav 60 000 dollar, motsvarande över en halv miljon kronor. Anton Källberg slogs ut i semifinal mot Calderano.",
-      "synthes": "Sydsvenskan och hd.se rapporterar samstämmigt om finalen, men Sydsvenskan citerar Möregårdh som säger att han är galet glad och att han aldrig trodde på segern, medan hd.se noterar att en helsvensk final uteblev.",
-      "leadSource": "Senast publicerat",
-      "publishedAt": "2026-09-13T12:58:11.000Z",
+      "publishedAt": "2026-09-13T21:51:33.000Z",
       "readMinutes": 1,
       "sourceCount": 3,
       "singleSource": false,
@@ -1182,28 +1026,23 @@
       "sources": [
         {
           "source": "Senast publicerat",
-          "title": "Möregårdh tar tung titel – får jättesumma",
-          "link": "https://www.svd.se/a/wA9Gmd/senaste-nytt?pinnedEntry=77412&utm_medium=rss"
+          "title": "Två skadade efter skottlossning i Finspång",
+          "link": "https://www.svd.se/a/6qQd4W/tva-skadade-efter-skottlossning?utm_medium=rss"
         },
         {
           "source": "Senast publicerat",
-          "title": "Truls Möregårdh klar för final efter rysare",
-          "link": "https://www.svd.se/a/wA9Gmd/senaste-nytt?pinnedEntry=77386&utm_medium=rss"
+          "title": "Två skadade i skottlossning i Finspång",
+          "link": "https://www.svd.se/a/wA9Gmd/senaste-nytt?pinnedEntry=77474&utm_medium=rss"
         },
         {
-          "source": "sydsvenskan.se",
-          "title": "Möregårdh tog titel – får jättesumma: ”Galet glad”",
-          "link": "https://www.sydsvenskan.se/sport/moregardh-tar-tung-titel-far-jattesumma/"
+          "source": "Senaste nytt – nyheter från Aftonbladet",
+          "title": "Två skadade i skottlossning i Finspång",
+          "link": "https://www.aftonbladet.se/nyheter/a/m02WK1/fler-skadade-i-skottlossning-i-finspang?utm_medium=rss"
         },
         {
-          "source": "hd.se",
-          "title": "Möregårdh tog titel – får jättesumma: ”Galet glad”",
-          "link": "https://www.hd.se/sport/moregardh-tar-tung-titel-far-jattesumma/"
-        },
-        {
-          "source": "hd.se",
-          "title": "Möregårdh till final – men Källberg utklassad",
-          "link": "https://www.hd.se/sport/moregardh-till-final-efter-rysare-sakrat-en-kvarts-miljon/"
+          "source": "Expressen: Nyheter",
+          "title": "Skottlossning i Finspång",
+          "link": "https://www.expressen.se/nyheter/sverige/skottlossning-i-finspang/"
         }
       ]
     }
