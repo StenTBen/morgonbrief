@@ -1,0 +1,183 @@
+{
+  "_comment_voice": "The voice is a taste decision, so it lives here rather than in code. Change 'name', re-run the workflow, listen. Chirp3-HD voices do NOT support speaking rate or pitch (Google's own limitation), so the only lever is which voice - if you want a slower, heavier delivery than any Chirp3 voice gives, switch 'family' to 'Wavenet', which does support rate and pitch below.",
+  "voice": {
+    "name": "sv-SE-Chirp3-HD-Charon",
+    "family": "Chirp3-HD",
+    "_comment_alternatives": "Male Chirp3-HD voices, roughly from measured to brighter. Try them in this order if Charon is not right: Charon (Google's own demo voice, deep and even), Rasalgethi, Schedar, Algenib, Alnilam, Umbriel, Orus, Enceladus, Iapetus, Achird, Algieba, Sadaltager, Sadachbia, Fenrir, Puck, Zubenelgenubi. Female: Achernar (the old default), Aoede, Autonoe, Callirrhoe, Despina, Erinome, Gacrux, Kore, Laomedeia, Leda, Pulcherrima, Sulafat, Vindemiatrix, Zephyr.",
+    "alternatives": [
+      "sv-SE-Chirp3-HD-Charon",
+      "sv-SE-Chirp3-HD-Rasalgethi",
+      "sv-SE-Chirp3-HD-Schedar",
+      "sv-SE-Chirp3-HD-Algenib",
+      "sv-SE-Chirp3-HD-Alnilam",
+      "sv-SE-Chirp3-HD-Umbriel"
+    ],
+    "_comment_rate": "Ignored by Chirp3-HD voices; applied only when 'family' is Wavenet or Neural2. 1.0 is normal, 0.92 reads as deliberate, below 0.85 sounds sedated.",
+    "speakingRate": 0.94,
+    "pitch": -1.5
+  },
+  "_comment_delivery": "Handed to the model as the persona for the spoken script. This shapes sentence length and register, which is half of what makes a voice sound senior - the other half is the voice itself.",
+  "delivery": "Write as an experienced news anchor reads: measured, declarative sentences, one idea per sentence. No chattiness, no filler openers, no rhetorical questions. Trust the listener to keep up.",
+  "_comment_listener": "Who the script is written for. This is the single biggest lever on quality: the same story told to someone who knows the machinery and to someone who does not are different scripts. Knowledge levels are per sphere because they genuinely differ - edit them as they change.",
+  "listener": {
+    "general": "A Swedish senior manager in his forties, outside tech and outside journalism. Extremely news-interested: he has typically already read around 90 percent of the day's news before this plays. He reads English fluently and follows financial markets closely. He is not naive about institutions or power, and he dislikes being told things he already knows. Treat him as a sharp generalist who will notice if you pad.",
+    "knowledge": {
+      "congress": "LOW on machinery, MODERATE on narrative. He follows American politics through news, so he knows the parties, the main figures and the broad conflicts. He does not know legislative procedure. Explain what a cloture vote, a markup, a discharge petition or a continuing resolution actually does, inline and in one clause, the first time it appears. Never explain who the president is.",
+      "crypto": "MODERATE-HIGH on markets, LOW on protocol internals. He follows financial markets and holds crypto-adjacent equities, so treat price action, liquidity, custody risk and regulatory exposure as familiar ground. Do explain protocol mechanics: what a fee switch is, what a governance token actually controls, what TVL measures and what it does not. Never explain what a central bank or a bond is.",
+      "world": "HIGH general literacy, LOW regional specifics. This sphere exists because Swedish media did not carry the story, so assume he has not seen it - but assume he knows how the world works. Never explain the UN, NATO or sanctions. Do explain who the specific actors are: which faction, which party, who has been in power, what the previous round of this conflict was.",
+      "football": "HIGH on Swedish football and its culture, MODERATE on European club economics. Explain ownership structures, financial regulations and league mechanics abroad; never explain Allsvenskan.",
+      "sverige": "HIGH on Swedish politics and its actors. He has already read the day's coverage, so never recap it - this sphere exists for what the full text and the independent research added, not for what the headlines said. Explain mechanics only where genuinely obscure: mandate allocation, how a budget proposition moves through the chamber, what an utredning actually binds anyone to, which decisions sit with a myndighet rather than with the government. Never explain who the party leaders are, what the Riksdag is, or what a coalition is."
+    }
+  },
+  "_comment_structure": "The shape every spoken segment must follow. Announcement first so he knows what is coming and can decide to pay attention; then only the background he specifically lacks; then the substance.",
+  "segmentStructure": [
+    "ANNOUNCE: open the segment by naming the subject in one short sentence, so the listener knows what is coming before it arrives. Plain and concrete - the place, the institution or the conflict at issue. Not a teaser, not a question.",
+    "GROUND: give only the background this specific listener lacks, calibrated to the knowledge level supplied below. Two to four sentences. Who the actors are, what the previous state of affairs was, what the term of art means. Skip anything the knowledge level says he already has - padding here is the fastest way to lose him.",
+    "SUBSTANCE: then the story itself, told so that someone who started this segment knowing nothing specific can follow it end to end. Lead with what actually happened, then what the documents or reporting show beneath it, then what is contested or unknown."
+  ],
+  "_comment_craft": "Journalistic standards applied to every spoken segment, in addition to each sphere's own rules.",
+  "craft": [
+    "Attribute every contested claim to who made it. Never 'experts say', 'critics argue' or 'it is believed' - name the outlet, the official, the document.",
+    "Distinguish what is established from what is claimed. A court filing alleging something is not the thing having happened.",
+    "State plainly what is not known. An honest gap is stronger than a smooth sentence that implies more certainty than exists.",
+    "Prefer the concrete to the abstract: a number, a date, a named place. If the material does not contain one, say the material does not contain one rather than reaching for a vague formulation.",
+    "Answer the question the listener will actually ask next - who benefits, who decides, what happens now - rather than the question the coverage happened to answer.",
+    "No throat-clearing. No 'in today's episode', no 'let us take a look at', no summarising what you are about to say before saying it.",
+    "Never invent a transition that implies a connection between two unrelated stories."
+  ],
+  "_comment_limits": "How much material reaches the model, and how much it may write back. DeepSeek allows up to 384000 output tokens in non-thinking mode, which is what we run, so output was never the real constraint - the input caps were, and they were discarding real signal silently. Raise anything that shows truncation in the log; the cost of all of this is cents per day.",
+  "limits": {
+    "_comment_input": "How many items are shown to the model. Set high enough that nothing is discarded on a busy day - the log prints how many were swept, so compare.",
+    "maxCoverageItems": 400,
+    "maxSwedishShadowItems": 500,
+    "maxGovernanceTopics": 400,
+    "_comment_summaryChars": "How much of each item's RSS teaser is shown when clustering. Longer means better grouping, which is the single thing that decides whether the feed reads sharp or repetitive.",
+    "clusterSummaryChars": 400,
+    "_comment_article": "Full article text. maxChars is per article; articlesPerStory is how many sources of one story get fetched. Both feed the synthesis directly, so this is where quality actually comes from.",
+    "articleMaxChars": 16000,
+    "articlesPerStory": 5,
+    "enrichTopClusters": 25,
+    "articleBodyCharsInPrompt": 12000,
+    "_comment_output": "Output ceilings per call. Generous by default - a truncated answer costs a whole failed sphere, and finish_reason now names truncation explicitly when it happens.",
+    "tokensLinking": 16000,
+    "tokensClustering": 32000,
+    "tokensCards": 16000,
+    "tokensScript": 16000
+  },
+  "_comment_research": "The independent retrieval pass - the only place the pipeline reads something no source in the coverage cited, and the reason the sverige sphere has a fourth provenance tier. provider 'none', or a missing BRAVE_API_KEY, disables it cleanly: entries are then written with three tiers and the tolkning paragraph is empty. One query per cluster, so three a night at the current maxItemsPerEpisode - roughly 90 a month. Serialised rather than parallel because Brave documents the free tier at one request per second, and a 429 costs the tier for the night while the nightly run has hours of budget to spare. NOTE: Brave's published free allowance has moved between a monthly query count and a monthly credit balance depending on which of their pages you read - check the dashboard rather than a number written here. Google's Custom Search JSON API was the obvious alternative since the project already holds GCP credentials, and is ruled out on Google's own documentation: closed to new customers, discontinued 1 January 2027.",
+  "research": {
+    "provider": "brave",
+    "resultsPerQuery": 20,
+    "keepAnalysis": 4,
+    "keepOther": 2,
+    "fetchBodies": 3,
+    "bodyMaxChars": 12000,
+    "minIntervalMs": 1100,
+    "timeoutMs": 15000
+  },
+  "_comment_tts": "Which TTS model speaks the script. Gemini-TTS is primary because it has a style prompt, which is the largest single lever on how human the read sounds - Chirp has no equivalent field. sv-SE is Preview on Gemini-TTS; GA would normally win, and that rule is broken here only because the GA option lacks the feature. Chirp stays as a bare fallback with no controls, which the voice block above already documents.",
+  "tts": {
+    "primary": {
+      "model": "gemini-2.5-pro-tts",
+      "voiceId": "Charon",
+      "languageCode": "sv-SE",
+      "_comment_access": "UNVERIFIED: confirm the project has Gemini-TTS Preview access for sv-SE, and that the service account has roles/aiplatform.user. The existing code only requests the cloud-platform scope, which is not the same thing. This fails at the first call, not at deploy.",
+      "_comment_voiceId": "Gemini-TTS takes the short voice name plus modelName; Chirp takes the full sv-SE-Chirp3-HD-Charon form. Charon is the darkest of the male voices - if it reads too heavy, Rasalgethi and Schedar are the next two in the alternatives list. Untested: if the first call 400s on the voice, this is the field to try first.",
+      "limits": {
+        "textBytes": 4000,
+        "promptBytes": 4000,
+        "combinedBytes": 8000,
+        "maxOutputSeconds": 655
+      },
+      "_comment_limits": "BYTES, not characters. Swedish å, ä and ö are two bytes each in UTF-8, so 4200 characters of Swedish overruns a 4000-byte cap. synthesize-gemini.mjs chunks by bytes and leaves headroom because prompt and text share the combined ceiling.",
+      "stylePrompt": "Läs som en erfaren svensk nyhetsuppläsare i ett samtalsformat. Lugnt tempo, tydliga tankepauser, inget reklamtonfall. Sänk inte rösten mekaniskt i slutet av varje mening."
+    },
+    "fallback": {
+      "family": "Chirp3-HD",
+      "name": "sv-SE-Chirp3-HD-Charon",
+      "_comment": "Leave alternatives populated: without them the family match picks whichever Chirp3-HD voice sorts first, which is Achernar - a female voice. Falling back should change the voice, never its gender. No controls otherwise: Google classifies Chirp 3: HD as a conversational-agent voice, and the voice block above records empirically that it ignores speakingRate and pitch. Pause markers are stripped before a fallback call rather than spoken aloud.",
+      "alternatives": [
+        "sv-SE-Chirp3-HD-Charon",
+        "sv-SE-Chirp3-HD-Rasalgethi",
+        "sv-SE-Chirp3-HD-Schedar",
+        "sv-SE-Chirp3-HD-Algenib",
+        "sv-SE-Chirp3-HD-Alnilam",
+        "sv-SE-Chirp3-HD-Umbriel"
+      ]
+    },
+    "onRefusal": "name-and-continue",
+    "_comment_refusal": "Gemini-TTS runs safety filters. A brief about war or violence can return a support code instead of audio. That is logged as 'TTS refused' and never as a quiet day - same class of failure as the DeepSeek truncation rule."
+  },
+  "_comment_speech": "Turning a finished script into text a Swedish voice says correctly. Deterministic rules plus a lexicon, never a second model pass: a model rewriting the finished script is a new place for figures and names to drift, which fights the rule that the model only restates its material.",
+  "speech": {
+    "_comment_lexicon": "Term -> Swedish respelling, NOT IPA. Custom pronunciations are explicitly unavailable for sv-SE, so there is no phoneme override to reach for - pronunciation has to be solved in the text. Per-sphere overrides are required rather than cosmetic: SEC does not mean the same thing in congress as in crypto.",
+    "pronunciationLexicon": {
+      "shared": {
+        "Reuters": "Rojters",
+        "Bloomberg": "Blombörj",
+        "Politico": "Pollitiko"
+      },
+      "perSphere": {
+        "congress": {
+          "SEC": "ess-e-ce",
+          "Senate": "Sennat"
+        },
+        "crypto": {
+          "SEC": "ess-e-ce",
+          "DeFi": "diffaj",
+          "Ethereum": "Etirium"
+        },
+        "world": {},
+        "sverige": {
+          "Valmyndigheten": "Valmyndigheten"
+        }
+      }
+    },
+    "_comment_unresolved": "docs/unresolved-terms.json collects every capitalised name and acronym the lexicon did not know. Promote what it catches and the same name is never mispronounced twice. This log is the whole reason the speech work compounds - without promotion the effort costs the same every night forever and never improves.",
+    "unresolvedLog": "docs/unresolved-terms.json",
+    "_comment_repair": "Off until a single-voice reference recording exists. Turning it on before there is a baseline means you cannot tell what improved.",
+    "repairLoop": {
+      "enabled": false,
+      "unit": "chunk",
+      "_comment_unit": "Neural TTS is not deterministic between runs, so re-generating five seconds and splicing leaves an audible seam - breath, entry prosody and level all mismatch. Chunks are already the unit imposed by the byte limit, so they are the repair unit too and the seams sit where they already sat.",
+      "maxAttemptsPerChunk": 3,
+      "keepBest": true,
+      "_comment_keepBest": "Attempt two is sometimes worse than attempt one. Score every attempt, keep all, ship the best.",
+      "detector": {
+        "mode": "audio-native",
+        "model": "gemini-2.5-pro",
+        "_comment": "STT comparison has a blind spot exactly where the problem is: Swedish STT normalizes, so an English name said with Swedish phonology still transcribes to the right word. Clean in the log, wrong in the car. An audio-native model given both the audio and the script can hear it.",
+        "_comment_invariant": "The model may not decide what gets covered. It may judge how a generated read sounds. Editorial scoring and craft QA are different things - this sentence exists so the distinction is not collapsed by whoever reads the file next."
+      },
+      "promoteApprovedFixes": true
+    },
+    "_comment_scriptRules": "Constraints on the script itself, upstream of normalization. Long subordinate clauses and several numbers in one sentence are where TTS prosody collapses.",
+    "scriptRules": {
+      "maxWordsPerSentence": 22,
+      "maxNumbersPerSentence": 1,
+      "noParentheses": true,
+      "noEmDashes": true,
+      "avoidRepeatingHardNames": true,
+      "_comment_avoid": "For names that cannot be respelled reliably, avoid them on second mention - 'utskottsordföranden' instead. That is what human hosts do anyway."
+    }
+  },
+  "_comment_dialogue": "Aftonbladet Daily's humanity comes from someone asking, not from timbre - a lone narrator reading beautifully is still a genre the ear recognises in half a second. Disabled until the single-voice reference exists to measure against. Note the structure warning: ANNOUNCE / GROUND / SUBSTANCE was written for one voice and has to be revisited before it is split across two speakers.",
+  "dialogue": {
+    "enabled": false,
+    "format": "host-and-reporter",
+    "speakers": {
+      "host": {
+        "voiceId": "Charon",
+        "role": "asks"
+      },
+      "reporter": {
+        "voiceId": "Aoede",
+        "role": "carries the facts"
+      }
+    },
+    "guard": {
+      "hostMayOnlyReferToStatedMaterial": true,
+      "_comment": "The host's questions may only refer to what the reporter has already said in the same episode, or a premise sneaks in through a question. It also makes the most human-sounding half of the script structurally incapable of inventing anything."
+    }
+  }
+}
