@@ -8,6 +8,8 @@
     "congress-fb-9833bdefa826f7b5",
     "congress-fb-b53d3e6fa8147387",
     "congress-fb-de25d593b7936aa2",
+    "congress-fb-5523cfc85d79c371",
+    "congress-fb-de25d593b7936aa2",
     "congress-fb-4f4b5f8ffb82a60c",
     "congress-fb-5523cfc85d79c371"
   ],
@@ -20,7 +22,9 @@
     "gov-uniswap-26168",
     "gov-uniswap-26208",
     "gov-aave-25623",
-    "tvl-ethereum-2026-09-13"
+    "tvl-ethereum-2026-09-13",
+    "gov-uniswap-26162",
+    "tvl-ethereum-2026-09-14"
   ],
   "world": [
     "world-QlJJQ1Mgc3VtbWl0IG9wZW5z",
@@ -39,7 +43,9 @@
     "world-QlJJQ1Mgc3VtbWl0IGluIE5l",
     "world-TmVwYWwgaHlkcm9wb3dlciB0",
     "world-SW5kb25lc2lhbiBmZXJyeSBj",
-    "world-UHJvLVBhbGVzdGluZSBwcm90"
+    "world-UHJvLVBhbGVzdGluZSBwcm90",
+    "world-U3dlZGlzaCBnZW5lcmFsIGVs",
+    "world-QlJJQ1Mgc3VtbWl0IGluIElu"
   ],
   "val2026": [
     "val2026-a72cdd9097e0c074",
@@ -49,7 +55,9 @@
     "val2026-175f21b80cac8622",
     "val2026-e67856440f6fc02b",
     "val2026-0e9dd4cd1aadbded",
+    "val2026-53d57d4700facb8c",
     "val2026-b4d1ac95ce84d909",
-    "val2026-53d57d4700facb8c"
+    "val2026-53d57d4700facb8c",
+    "val2026-cf3517f2a2f9800c"
   ]
 }
