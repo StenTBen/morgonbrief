@@ -1,0 +1,475 @@
+/**
+ * Shared primitives every sphere module uses. Nothing sphere-specific lives here -
+ * a sphere is "media sweep decides WHAT, primary source decides WHAT WE SAY, scoring
+ * is arithmetic, the model only writes from material already in context." This file
+ * is the plumbing that discipline runs on top of.
+ */
+
+import { createHash } from 'node:crypto';
+import { XMLParser } from 'fast-xml-parser';
+import { GoogleAuth } from 'google-auth-library';
+
+export const DEEPSEEK_URL = 'https://api.deepseek.com/chat/completions';
+export const DEEPSEEK_MODEL = 'deepseek-flash';
+
+export function req(name) {
+  const v = process.env[name];
+  if (!v) throw new Error(`Missing required secret: ${name}`);
+  return v;
+}
+
+export const strip = (s) =>
+  String(s ?? '')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&[a-z]+;/gi, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+/**
+ * `onUsage(usage, role)` is called after every completion with the token counts
+ * the API reported. It exists so that metering does not depend on thirty call
+ * sites remembering to meter themselves - a scheme like that measures
+ * discipline rather than spend. Optional: it was optional because the election
+ * pulse ran as a separate process with its own ledger. That process is gone, so
+ * every caller in the app now passes one - the parameter stays optional only so
+ * that a test or a one-off script can build a client without a ledger handle.
+ */
+export function makeDeepseek(apiKey, { onUsage } = {}) {
+  return async function deepseek(messages, { json = false, maxTokens = 4000, role = 'deepseek' } = {}) {
+    // DeepSeek rejects response_format json_object outright unless the word
+    // "json" appears in a system or user message - documented at
+    // api-docs.deepseek.com/guides/json_mode, and measured the hard way. Every
+    // entry write in the election window returned
+    //   400 "Prompt must contain the word 'json' in some form..."
+    // because the entry call used scriptSystemPrompt() as its system message and
+    // that prompt contains no such word. The observation call did ("Return
+    // strict JSON only"), so observations landed and entries did not: the sphere
+    // published nothing across two days while its log read like a quiet news
+    // cycle. docs/val-ledger.json holds 603 observations and 0 published.
+    //
+    // Guarded here rather than at the call sites because it is a property of
+    // this client's contract with the API, not something thirty prompts should
+    // each have to remember. Prompts still say it themselves; this catches the
+    // one that forgets, and says so in the log rather than fixing it silently.
+    const needsWord = json && messages.length &&
+      !messages.some((m) => /json/i.test(String(m?.content ?? '')));
+    if (needsWord) {
+      console.log(`  deepseek(${role}): json mode requested with no "json" in any message - appending the requirement`);
+    }
+    const sent = needsWord
+      ? [
+          ...messages.slice(0, -1),
+          {
+            ...messages[messages.length - 1],
+            content: `${messages[messages.length - 1]?.content ?? ''}\n\nReturn a single valid json object and nothing else.`
+          }
+        ]
+      : messages;
+
+    const res = await fetch(DEEPSEEK_URL, {
+      method: 'POST',
+      headers: { 'content-type': 'application/json', authorization: `Bearer ${apiKey}` },
+      body: JSON.stringify({
+        model: DEEPSEEK_MODEL,
+        messages: sent,
+        max_tokens: maxTokens,
+        temperature: json ? 0 : 0.6,
+        // V4-family models think by default now (see api-docs.deepseek.com/guides/thinking_mode).
+        // The reasoning tokens come out of the same max_tokens budget as the answer, so a
+        // structured-output call can burn its whole budget thinking and return empty content.
+        // Every call in this app wants one direct answer, never a chain of thought, so thinking
+        // is switched off everywhere - this is not specific to the json path.
+        thinking: { type: 'disabled' },
+        ...(json ? { response_format: { type: 'json_object' } } : {})
+      })
+    });
+    if (!res.ok) throw new Error(`DeepSeek ${res.status}: ${await res.text()}`);
+    const data = await res.json();
+    // Reported before the error checks below, so a truncated or empty answer
+    // still costs what it cost. Silent spend is the thing the ledger exists
+    // to prevent.
+    onUsage?.(data.usage ?? {}, role);
+    const choice = data.choices?.[0] ?? {};
+    const msg = choice.message ?? {};
+    const text = msg.content ?? '';
+    // Defensive: if thinking ever turns itself back on server-side, fail with the
+    // reasoning visible rather than a bare empty string that gives no clue why.
+    if (!text && msg.reasoning_content) {
+      throw new Error(`DeepSeek returned only reasoning, no content: ${msg.reasoning_content.slice(0, 400)}`);
+    }
+    // Truncation looks exactly like malformed JSON downstream, which sends you
+    // hunting for a prompt bug that isn't there. Name the real cause.
+    if (choice.finish_reason === 'length') {
+      throw new Error(
+        `DeepSeek hit the ${maxTokens}-token output cap and was cut off mid-answer. ` +
+        `Raise maxTokens for this call, or ask for less output. Truncated at: ...${text.slice(-200)}`
+      );
+    }
+    if (!json) return text;
+    try {
+      return JSON.parse(text.replace(/^```json\s*|\s*```$/g, '').trim());
+    } catch {
+      throw new Error(`DeepSeek returned unparseable JSON: ${text.slice(0, 400)}`);
+    }
+  };
+}
+
+// ---------------------------------------------------------------- media sweep
+
+/**
+ * Pulls every feed in parallel, tolerates individual failures (dead feeds are
+ * normal - see README), and returns a flat list of recent items. Media
+ * attention is the gate for every sphere: an item this sweep does not surface
+ * cannot qualify for an episode, no matter what a primary-source API says.
+ */
+// A real browser string. The previous "compatible; morgonbrief" pattern is a
+// textbook bot signature and was being blocked by most news sites - 43 of 50
+// article fetches failed on the first live run because of it.
+export const BROWSER_UA =
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
+
+export async function sweepMedia(feeds, { windowHours = 36, label = 'Sweep' } = {}) {
+  // Guardian World, both SR programmes and Axios are not dead feeds. They trip
+  // fast-xml-parser's entity-expansion guard by one or two percent - 1012, 1018,
+  // 1020, 1032 against a default ceiling of 1000 - and a perfectly good feed is
+  // then logged as DEAD. The guard exists to stop billion-laughs attacks, and
+  // 20000 is still far below anything that could exhaust memory here while
+  // clearing normal Nordic and British feeds with room to spare.
+  const parser = new XMLParser({ ignoreAttributes: false, maxEntityCount: 20000 });
+  const cutoff = Date.now() - windowHours * 3600 * 1000;
+  const items = [];
+
+  const results = await Promise.allSettled(
+    feeds.map(async (url) => {
+      const res = await fetch(url, {
+        headers: { 'user-agent': BROWSER_UA, accept: 'application/rss+xml, application/xml, text/xml, */*' },
+        signal: AbortSignal.timeout(20000)
+      });
+      if (!res.ok) throw new Error(`${res.status}`);
+      return { url, xml: parser.parse(await res.text()) };
+    })
+  );
+
+  for (const r of results) {
+    if (r.status !== 'fulfilled') continue;
+    const feed = r.value.xml?.rss?.channel ?? r.value.xml?.feed ?? {};
+    const source = strip(feed.title) || new URL(r.value.url).hostname;
+    const entries = [].concat(feed.item ?? feed.entry ?? []);
+    for (const e of entries) {
+      const when = Date.parse(e.pubDate ?? e.published ?? e.updated ?? '') || Date.now();
+      if (when < cutoff) continue;
+      items.push({
+        source,
+        title: strip(e.title),
+        summary: strip(e.description ?? e.summary ?? '').slice(0, 500),
+        publishedAt: new Date(when).toISOString(),
+        link: typeof e.link === 'string' ? e.link : e.link?.['@_href'] ?? ''
+      });
+    }
+  }
+
+  // Promise.allSettled preserves input order, so the index maps straight back
+  // to the URL. Counting failures without naming them left nobody able to say
+  // WHICH feed to delete - and a silently dead feed does more than lose
+  // stories. In the world sphere it manufactures a false gap; in sverige it
+  // under-counts how many outlets carried a story, which is the only thing that
+  // decides what gets written about.
+  const failures = results
+    .map((r, i) => (r.status === 'rejected'
+      ? { url: feeds[i], reason: r.reason?.message ?? String(r.reason) }
+      : null))
+    .filter(Boolean);
+
+  console.log(`${label}: ${items.length} items from ${feeds.length - failures.length}/${feeds.length} feeds`);
+  for (const f of failures) console.log(`${label}: DEAD FEED ${f.url} (${f.reason})`);
+  return items;
+}
+
+// ---------------------------------------------------------------- article text
+
+/**
+ * Pulls readable body text out of an article page. No dependency, no headless
+ * browser - just enough extraction to give the synthesis step real sentences
+ * instead of an RSS teaser. Paywalls and bot-blocks are expected and must never
+ * break a run: every failure returns null and the caller falls back to the feed
+ * summary it already had.
+ */
+/**
+ * The article's own lead image, from its og:image tag.
+ *
+ * This is the ONLY honest image source the pipeline has. The spheres produce
+ * text; anything else on screen would be stock or generated art, and a
+ * decorative picture on a news brief is worse than no picture - it implies a
+ * photograph of an event nobody took.
+ *
+ * Returns null far more often than not: many publishers omit the tag, and the
+ * fetch itself only succeeds for roughly a third of sources. The app renders a
+ * plain text row when it is null, which is the normal case rather than a fault.
+ *
+ * NOTE: this hotlinks the publisher's CDN. og:image exists to be embedded by
+ * third parties, so that is its intended use, but some publishers block
+ * referrers - the app removes any image that fails to load rather than leaving
+ * a broken frame.
+ */
+export async function fetchArticleImage(url) {
+  if (!url) return null;
+  try {
+    const res = await fetch(url, {
+      headers: { 'user-agent': BROWSER_UA, accept: 'text/html,*/*;q=0.8' },
+      redirect: 'follow',
+      signal: AbortSignal.timeout(10000)
+    });
+    if (!res.ok) return null;
+    const html = (await res.text()).slice(0, 60000); // og tags live in <head>
+
+    const patterns = [
+      /<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i,
+      /<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i,
+      /<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["']/i
+    ];
+    for (const re of patterns) {
+      const hit = re.exec(html)?.[1];
+      // https only - the app is served over https and mixed content is blocked.
+      if (hit && /^https:\/\//.test(hit)) return hit.replace(/&amp;/g, '&');
+    }
+    return null;
+  } catch {
+    return null;
+  }
+}
+
+export async function fetchArticleText(url, { maxChars = 8000 } = {}) {
+  if (!url) return null;
+  try {
+    const res = await fetch(url, {
+      headers: {
+        'user-agent': BROWSER_UA,
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'accept-language': 'en-US,en;q=0.9,sv;q=0.8'
+      },
+      redirect: 'follow',
+      signal: AbortSignal.timeout(15000)
+    });
+    if (!res.ok) return null;
+    if (!(res.headers.get('content-type') ?? '').includes('html')) return null;
+
+    let html = await res.text();
+
+    // Drop the furniture before looking for prose.
+    for (const tag of ['script', 'style', 'noscript', 'nav', 'header', 'footer', 'aside', 'form', 'figure']) {
+      html = html.replace(new RegExp(`<${tag}[\\s\\S]*?</${tag}>`, 'gi'), ' ');
+    }
+
+    // Prefer an <article> block when the page marks one up; otherwise take the body.
+    const article = /<article[^>]*>([\s\S]*?)<\/article>/i.exec(html);
+    const scope = article ? article[1] : (/<body[^>]*>([\s\S]*?)<\/body>/i.exec(html)?.[1] ?? html);
+
+    const paragraphs = [...scope.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)]
+      .map((m) => strip(m[1]))
+      .filter((p) => p.length > 60); // skip captions, bylines, cookie notices
+
+    const text = paragraphs.join('\n\n').slice(0, maxChars);
+    return text.length > 200 ? text : null;
+  } catch {
+    return null;
+  }
+}
+
+// ---------------------------------------------------------------- synthesis
+
+/**
+ * LEGACY synthesis path, kept as a one-line rollback.
+ *
+ * run.mjs now goes through scripts/synthesize-gemini.mjs, which sends the
+ * markup field (pause tags are read aloud in the text field), chunks by BYTES
+ * rather than characters (Swedish a-ring and umlauts are two bytes each, so
+ * 4200 characters overruns the 4000-byte cap), and names a safety-filter
+ * refusal instead of logging it as silence. This function is untouched so that
+ * reverting is a single import change rather than a merge.
+ *
+ * Synthesises the script. The voice is a taste decision and lives in
+ * config.json, not here - but we still verify the configured voice actually
+ * exists in this GCP project and fall back rather than failing the run.
+ *
+ * Chirp3-HD ignores speakingRate and pitch (Google's limitation, not ours), so
+ * those are sent only for voice families that support them. If you want a
+ * slower, heavier read than Chirp3 gives, switch family to Wavenet in config.
+ */
+export async function synthesize(script, serviceAccount, voiceConfig = {}) {
+  const auth = new GoogleAuth({
+    credentials: serviceAccount,
+    scopes: ['https://www.googleapis.com/auth/cloud-platform']
+  });
+  const client = await auth.getClient();
+  const token = (await client.getAccessToken()).token;
+  const H = { authorization: `Bearer ${token}`, 'content-type': 'application/json' };
+
+  const list = await fetch('https://texttospeech.googleapis.com/v1/voices?languageCode=sv-SE', { headers: H });
+  if (!list.ok) throw new Error(`TTS voices ${list.status}: ${await list.text()}`);
+  const voices = (await list.json()).voices ?? [];
+
+  const wanted = voiceConfig.name;
+  const family = voiceConfig.family ?? 'Chirp3-HD';
+  const byName = (n) => voices.find((v) => v.name === n);
+
+  // The configured alternatives are tried BEFORE any generic family match.
+  // Without this the third step picks whichever Chirp3-HD voice sorts first,
+  // which is Achernar - a female voice. A missing male voice then silently
+  // became a woman reading the brief, which is a taste decision the code has no
+  // business making. The alternatives list already existed in config.json and
+  // was never read; this is what it is for.
+  const alternatives = Array.isArray(voiceConfig.alternatives) ? voiceConfig.alternatives : [];
+  const fromAlternatives = alternatives.map(byName).find(Boolean);
+
+  const pick =
+    byName(wanted) ??
+    fromAlternatives ??
+    voices.find((v) => v.name.includes(family)) ??
+    voices.find((v) => v.name.includes('Chirp3-HD')) ??
+    voices[0];
+  if (!pick) throw new Error('No Swedish voice available in this project');
+  if (wanted && pick.name !== wanted && !alternatives.includes(pick.name)) {
+    console.log(`Voice: WARNING fell past every configured alternative to ${pick.name} - check the gender before shipping`);
+  }
+  if (wanted && pick.name !== wanted) {
+    console.log(`Voice: ${pick.name} (configured "${wanted}" not available in this project)`);
+  } else {
+    console.log(`Voice: ${pick.name}`);
+  }
+
+  // Rate and pitch are silently ignored by Chirp3-HD, so only send them where
+  // they do something - otherwise the request is rejected outright.
+  const supportsProsody = !pick.name.includes('Chirp');
+  const audioConfig = { audioEncoding: 'MP3' };
+  if (supportsProsody) {
+    if (typeof voiceConfig.speakingRate === 'number') audioConfig.speakingRate = voiceConfig.speakingRate;
+    if (typeof voiceConfig.pitch === 'number') audioConfig.pitch = voiceConfig.pitch;
+  }
+
+  const chunks = [];
+  let buf = '';
+  for (const sentence of script.split(/(?<=[.!?])\s+/)) {
+    if ((buf + sentence).length > 4200) { chunks.push(buf.trim()); buf = ''; }
+    buf += sentence + ' ';
+  }
+  if (buf.trim()) chunks.push(buf.trim());
+
+  const parts = [];
+  for (const [i, text] of chunks.entries()) {
+    const res = await fetch('https://texttospeech.googleapis.com/v1/text:synthesize', {
+      method: 'POST',
+      headers: H,
+      body: JSON.stringify({
+        input: { text },
+        voice: { languageCode: 'sv-SE', name: pick.name },
+        audioConfig
+      })
+    });
+    if (!res.ok) throw new Error(`TTS synth ${res.status}: ${await res.text()}`);
+    parts.push(Buffer.from((await res.json()).audioContent, 'base64'));
+    console.log(`  synthesised chunk ${i + 1}/${chunks.length}`);
+  }
+  return Buffer.concat(parts);
+}
+
+// ---------------------------------------------------------------- script craft
+
+/**
+ * Builds the system prompt for a spoken segment. Shared by every sphere so that
+ * a change to how the briefing sounds lands in one place rather than three, and
+ * so the three spheres cannot drift into three different programmes.
+ *
+ * Order matters here. The listener profile comes before the structure, because
+ * the structure's GROUND step is meaningless without knowing what this listener
+ * already has - and it is the step most likely to be got wrong in both
+ * directions: explaining the UN to someone who reads the news daily, or
+ * dropping an acronym on someone who has never met it.
+ */
+export function scriptSystemPrompt(sphere, config = {}) {
+  const listener = config.listener ?? {};
+  const knowledge = listener.knowledge?.[sphere.id];
+  const lines = ['You write a spoken Swedish briefing segment for one specific listener.'];
+
+  if (listener.general) lines.push('', 'THE LISTENER', listener.general);
+  if (knowledge) lines.push('', `WHAT HE ALREADY KNOWS ABOUT ${(sphere.label ?? sphere.id).toUpperCase()}`, knowledge);
+  if (config.delivery) lines.push('', 'DELIVERY', config.delivery);
+
+  if (config.segmentStructure?.length) {
+    lines.push('', 'STRUCTURE - every segment follows these three moves in order');
+    lines.push(...config.segmentStructure.map((s, i) => `${i + 1}. ${s}`));
+  }
+
+  if (config.craft?.length) {
+    lines.push('', 'CRAFT');
+    lines.push(...config.craft.map((c) => `- ${c}`));
+  }
+
+  if (sphere.scriptRules?.length) {
+    lines.push('', `RULES SPECIFIC TO ${(sphere.label ?? sphere.id).toUpperCase()}`);
+    lines.push(...sphere.scriptRules.map((r, i) => `${i + 1}. ${r}`));
+  }
+
+  return lines.join('\n');
+}
+
+// ---------------------------------------------------------------- clustering
+
+/**
+ * Crude lexical grouping of items that cover the same event.
+ *
+ * Moved here from sphere-val2026.mjs when that file was deleted. It had to
+ * move: congress's political fallback imported it from the val2026 module, so
+ * one sphere's lifecycle had become a dependency of another sphere's, and
+ * retiring the election sphere would have silently broken the congress path
+ * that runs whenever no bill can be linked.
+ *
+ * feed.mjs owns clustering for the daily feed, but buildFeed() is a whole-feed
+ * operation that also writes entries, so it is the wrong tool for a caller that
+ * only needs several outlets covering one event in one bucket.
+ *
+ * Deliberately crude. It only has to group; it does not have to be right about
+ * why. If the cluster count approaches the item count it is not grouping at
+ * all, and every source count downstream inflates - callers are expected to
+ * check that ratio and log it, because nothing here will complain on its own.
+ */
+const CLUSTER_STOP = new Set([
+  'och', 'att', 'det', 'som', 'för', 'med', 'har', 'den', 'till', 'inte', 'var', 'kan', 'ett',
+  'säger', 'efter', 'från', 'sig', 'under', 'mot', 'över', 'vid', 'blir', 'hade', 'ska',
+  'the', 'and', 'for', 'that', 'with', 'says', 'after', 'from'
+]);
+
+const sha16 = (s) => createHash('sha1').update(String(s)).digest('hex').slice(0, 16);
+
+function clusterTokens(it) {
+  return new Set(
+    `${it.title} ${it.summary ?? ''}`
+      .toLowerCase()
+      .replace(/[^\p{L}\s]/gu, ' ')
+      .split(/\s+/)
+      .filter((w) => w.length > 3 && !CLUSTER_STOP.has(w))
+  );
+}
+
+export function clusterItems(items, threshold = 0.34) {
+  const clusters = [];
+  for (const item of items) {
+    const t = clusterTokens(item);
+    if (t.size < 4) continue;
+    const hit = clusters.find((c) => {
+      let n = 0;
+      for (const tok of t) if (c.tokens.has(tok)) n += 1;
+      return n / Math.min(t.size, c.tokens.size, 25) >= threshold;
+    });
+    if (hit) {
+      hit.items.push(item);
+      for (const tok of t) hit.tokens.add(tok);
+    } else {
+      clusters.push({
+        id: sha16(item.link || `${item.source}::${item.title}`),
+        tokens: t,
+        items: [item]
+      });
+    }
+  }
+  return clusters.map((c) => ({ ...c, sourceCount: new Set(c.items.map((i) => i.source)).size }));
+}
