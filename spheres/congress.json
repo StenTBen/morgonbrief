@@ -1,0 +1,54 @@
+{
+  "id": "congress",
+  "label": "US Congress",
+  "status": "active",
+  "_comment_feeds": "Media attention is the gate. An item only qualifies if it surfaced here first. Edit freely - feeds break, that is normal. Remove a dead one rather than debugging it.",
+  "feeds": [
+    "https://rss.politico.com/congress.xml",
+    "https://www.rollcall.com/feed/",
+    "https://thehill.com/homenews/senate/feed/",
+    "https://thehill.com/homenews/house/feed/",
+    "https://feeds.npr.org/1014/rss.xml",
+    "https://www.theguardian.com/us-news/us-congress/rss",
+    "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml",
+    "https://www.svt.se/nyheter/utrikes/rss.xml"
+  ],
+  "_comment_scoring": "Deterministic. The model never scores. Each rule is a plain fact read off the Congress.gov response.",
+  "scoring": {
+    "passedOneChamber": 40,
+    "reportedOutOfCommittee": 20,
+    "bipartisanCosponsors": 25,
+    "manyCosponsors": 10,
+    "moneyOrDeadline": 15,
+    "actionWithin48h": 20,
+    "threshold": 55
+  },
+  "_comment_cap": "Hard ceiling. If only one item clears the threshold the episode has one item. If none clear it, the episode says so and the sphere yields its slot.",
+  "maxItemsPerEpisode": 2,
+  "moneyOrDeadlineTerms": [
+    "appropriation",
+    "appropriations",
+    "budget",
+    "debt limit",
+    "debt ceiling",
+    "continuing resolution",
+    "shutdown",
+    "authorization",
+    "reauthorization",
+    "tax",
+    "tariff",
+    "expire",
+    "expiration",
+    "sunset",
+    "funding"
+  ],
+  "_comment_script": "Rules handed to the model verbatim when it writes the podcast script.",
+  "scriptRules": [
+    "The listener has already read today's headlines, so the value here is depth, not repetition. GROUND is background he lacks - who the actors are, what a term means, what came before - and is never a recap of this morning's coverage. SUBSTANCE goes where the coverage stopped.",
+    "Every factual claim must come from the supplied documents or article text. If something is not in the material, say that it is not in the material.",
+    "Mark provenance out loud: what the bill text states, what a sponsor claims, and what is contested are three different things and must sound different.",
+    "The listener is Swedish and follows US politics as an interested outsider, not a specialist. Never use a procedural term (markup, cloture, reconciliation, discharge petition) without explaining it in the same sentence.",
+    "Always answer why it matters, not only what moved.",
+    "Write in Swedish, for the ear. Spoken sentences, no headings, no bullet points, no stage directions."
+  ]
+}

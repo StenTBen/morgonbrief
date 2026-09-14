@@ -1,0 +1,80 @@
+{
+  "id": "crypto",
+  "label": "Crypto",
+  "status": "active",
+  "_comment_feeds": "Media attention is the gate, same as congress. No X in v0 - deliberately deferred, see README. Feeds break; delete dead ones rather than debugging them.",
+  "feeds": [
+    "https://www.theblock.co/rss.xml",
+    "https://blockworks.co/feed",
+    "https://cointelegraph.com/rss",
+    "https://decrypt.co/feed",
+    "https://www.coindesk.com/arc/outboundfeeds/rss/",
+    "https://defillama.com/feed.xml"
+  ],
+  "_comment_governance": "Primary-source layer, the crypto equivalent of Congress.gov. Discourse instances expose a plain JSON API at /latest.json - no key, no auth. Add a forum by adding its base URL; the pipeline appends the path itself.",
+  "governanceForums": [
+    {
+      "name": "Uniswap",
+      "base": "https://gov.uniswap.org"
+    },
+    {
+      "name": "Aave",
+      "base": "https://governance.aave.com"
+    },
+    {
+      "name": "Compound",
+      "base": "https://www.comp.xyz"
+    },
+    {
+      "name": "Arbitrum",
+      "base": "https://forum.arbitrum.foundation"
+    },
+    {
+      "name": "Optimism",
+      "base": "https://gov.optimism.io"
+    },
+    {
+      "name": "MakerDAO/Sky",
+      "base": "https://forum.sky.money"
+    }
+  ],
+  "_comment_defillama": "No key required. Used to size a move, never to invent one - the model is not allowed to write about a number it was not handed.",
+  "defillamaChains": [
+    "Ethereum",
+    "Solana",
+    "Arbitrum",
+    "Optimism",
+    "Base"
+  ],
+  "_comment_scoring": "Deterministic, same discipline as congress: the model never scores. Wider scope than congress (L2s, stablecoins included) means the threshold sits higher than congress's, to offset the extra noise a broader net lets in - but a contested governance fight with broad coverage must still clear it; that combination is exactly what the sphere exists to catch.",
+  "scoring": {
+    "governanceVoteLive": 25,
+    "governanceVotePassedContested": 35,
+    "tvlMoveLarge": 30,
+    "tvlMoveExtreme": 45,
+    "stablecoinDepeg": 40,
+    "multipleIndependentSources": 15,
+    "moneyThresholdUSD": 20,
+    "threshold": 50
+  },
+  "_comment_thresholds": "Plain numeric cutoffs the scoring rules above test against. Edit these, not the model, when a sphere feels too loud or too quiet.",
+  "tvlMoveThresholds": {
+    "largePct": 10,
+    "extremePct": 25,
+    "windowHours": 24
+  },
+  "depegThreshold": 0.03,
+  "moneyThresholdUSD": 50000000,
+  "_comment_cap": "Same hard ceiling as congress. An empty episode is a valid, common answer.",
+  "maxItemsPerEpisode": 2,
+  "_comment_script": "Rules handed to the model verbatim when it writes the podcast script.",
+  "scriptRules": [
+    "The listener has already read today's headlines, so the value here is depth, not repetition. GROUND is background he lacks - who the actors are, what a term means, what came before - and is never a recap of this morning's coverage. SUBSTANCE goes where the coverage stopped.",
+    "Every factual claim must come from the supplied documents, forum posts, or DefiLlama figures in context. If something is not in the material, say that it is not in the material.",
+    "Mark provenance out loud: a governance forum post, a protocol's own numbers, and a journalist's framing are three different things and must sound different.",
+    "Never state a price or TVL figure that was not handed to you in the material. Do not round in a way that implies more precision than the source had, and do not estimate a figure that is missing.",
+    "This is not investment advice and must never be phrased as a recommendation to buy, sell, or hold anything.",
+    "Always answer why it matters, not only what moved.",
+    "Write in Swedish, for the ear. Spoken sentences, no headings, no bullet points, no stage directions."
+  ]
+}
