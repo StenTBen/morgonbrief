@@ -1,0 +1,24 @@
+name: Verify TTS access
+
+# Manual only. Never scheduled, never writes to docs/, never touches the brief.
+# Actions -> Verify TTS access -> Run workflow.
+on:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Make one real Gemini-TTS call
+        env:
+          GCP_SERVICE_ACCOUNT: ${{ secrets.GCP_SERVICE_ACCOUNT }}
+        run: node scripts/verify-tts.mjs
