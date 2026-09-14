@@ -1,21 +1,21 @@
 {
   "date": "2026-09-14",
-  "builtAt": "2026-09-14T05:14:54.775Z",
+  "builtAt": "2026-09-14T05:45:18.040Z",
   "episodes": [
     {
       "sphere": "congress",
       "sphereLabel": "Politik",
       "audioUrl": "https://github.com/StenTBen/morgonbrief/releases/download/audio/pod-congress-2026-09-14.mp3",
-      "audioBytes": 801408,
+      "audioBytes": 638400,
       "itemCount": 0,
       "items": [],
-      "script": "Inget lagförslag går att länka i dag. Avsnittet bygger på bevakning, inte på primärkällor.\n\nKongressen är tillbaka i Washington, och AI-reglering har flyttat upp på agendan.\n\nBakgrunden: den federala regleringen av AI är i praktiken obefintlig. Ingen lag har antagits. Vita huset har haft utfärdanden och frivilliga åtaganden från bolagen, men kongressen har inte röstat igenom något bindande. Delstaterna har agerat på egen hand, och det är dit frågan om jurisdiktion nu pekar.\n\nDet som driver veckan är en rapport om Barack Obama. Enligt The New York Times ska Obama vid en insamling i torsdags ha uppmanat Hakeem Jeffries, demokraternas gruppledare i representanthuset, att göra AI-tillsyn till en kärna i agendan och få till stånd ett ramverk för ett offentligt samtal om tekniken inför ett eventuellt övertagande av representanthuset. Uppgiften cirkulerar via The New York Times. Obama har inte bekräftat den, och Jeffries har inte kommenterat den.\n\nJeffries sade själv i ABC:s \"This Week\" i söndags att kongressen bör agera skyndsamt och att AI blir en hög prioritet. Det är hans egen formulering, inte en bekräftelse av Obamas påtryckning.\n\nSamma dag gick två ledamöter ut i NewsNations \"The Hill Sunday\". Demokraternas Greg Stanton från Arizona sade att talmannen Mike Johnson bör hålla kammaren kvar i session för att ta upp riskerna med snabbt framväxande AI-modeller, och att varningarna från ledande AI-forskare bör tas på största allvar. Republikernas Mike Flood från Nebraska sade att regeringen bör införa skyddsåtgärder så att tekniken inte hamnar i fel händer, och att AI-bolagens ledare bör svara på frågor om säkerhet och risker.\n\nDet konkreta läget: senaten väntas den här veckan hålla en procedural vote — en röst om att ens ta upp en fråga till behandling, inte om innehållet — på ett kryptoregleringsförslag. Vid sidan av det ligger jordbrukslagen och den budgetresolution som republikanerna behöver för att låsa upp ett tredje försoningspaket. AI finns inte bland de tre. Ingen text är framlagd, och ingen omröstning är utlyst.\n\nVad som är okänt: om Stanton och Flood talar för sina partiledningar eller för sig själva, och om något faktiskt utskottsarbete är inbokat. Bevakningen innehåller inget datum och ingen text."
+      "script": "Ingen lagtext att länka i dag. Avsnittet bygger på bevakning, inte på primärkällor.\n\nKongressen är tillbaka från recessen, och AI-reglering har flyttat upp högst på agendan.\n\nFör den som inte följer utskottsarbete: ingen av dagens uppgifter bygger på ett framlagt förslag. Det som finns är intervjuer och en tidningsuppgift om ett möte. Partierna är långt ifrån varandra om vad staten ska göra, och det är oklart om något alls kommer att röstas igenom.\n\nDet konkreta: Demokraternas gruppledare i representanthuset, Hakeem Jeffries, sade i ABC:s \"This Week\" i söndags att kongressen \"akut\" måste agera för att reglera utvecklingen av artificiell intelligens. Han kallade det en hög prioritet. Representanten Greg Stanton, demokrat från Arizona, sade till NewsNation samma dag att talmannen Mike Johnson borde hålla kammaren kvar i session i stället för att skicka hem ledamöterna, så att AI-riskerna kan behandlas. Bakgrunden Stanton hänvisar till är uttalanden från en tidigare anställd på AI-företaget Anthropic — vad den personen sagt framgår inte av sammanfattningarna, och det är värt att notera.\n\nPå republikanskt håll sade representanten Mike Flood från Nebraska, också hos NewsNation, att staten bör införa skyddsåtgärder så att tekniken inte hamnar i fel händer, och att AI-bolagens ledare borde svara på frågor om säkerheten. Det är alltså inte en partiskiljelinje om huruvida något ska göras. Den går om vad.\n\nDen uppgift som cirkulerar och som bör behandlas därefter: The New York Times rapporterar att Barack Obama i torsdags, på en insamling, ska ha uppmanat Jeffries att göra AI-tillsyn till en central del av demokraternas agenda inför ett eventuellt övertagande av representanthuset. Ingen av de inblandade har bekräftat samtalet. Det är en tidningsuppgift om ett slutet möte, och den bör läsas som just det.\n\nVad som inte är känt: om det finns ett utkast, en tidsplan eller en majoritet för någonting. Inget av materialet innehåller ett datum eller ett förslagsnummer."
     },
     {
       "sphere": "crypto",
       "sphereLabel": "Ekonomi",
       "audioUrl": "https://github.com/StenTBen/morgonbrief/releases/download/audio/pod-crypto-2026-09-14.mp3",
-      "audioBytes": 57120,
+      "audioBytes": 59136,
       "itemCount": 0,
       "items": [],
       "script": "God morgon. Inget i crypto klarade tröskeln idag. Ingen governance-strid var het nog, och inga kedjor rörde sig utanför det normala. Vi hörs imorgon."
@@ -24,168 +24,122 @@
       "sphere": "sverige",
       "sphereLabel": "Sveriges politik",
       "audioUrl": "https://github.com/StenTBen/morgonbrief/releases/download/audio/pod-sverige-2026-09-14.mp3",
-      "audioBytes": 1259904,
+      "audioBytes": 2042208,
       "itemCount": 3,
       "items": [
         {
-          "id": "feed-sverige-OTU0MGFiNDE5Yjg4MDI5Nw",
-          "sphere": "sverige",
-          "kategori": "VALET",
-          "rubrik": "SVT:s prognos pekar på oppositionsövertag – uppsamlingsdistrikten återstår",
-          "sammanfattning": "SVT:s prognos, baserad på räknade röster, visar att Vänsterpartiet, Socialdemokraterna, Miljöpartiet och Centerpartiet ser ut att få 176 mandat, medan Liberalerna, Kristdemokraterna, Moderaterna och Sverigedemokraterna ser ut att landa på 173. Siffrorna gäller vid 94 procent av de räknade valdistrikten. Under natten rörde sig prognosen mellan 176–173 och 175–174 till oppositionens fördel, men under de tidiga morgontimmarna uppges siffrorna ha stabiliserats. Uppsamlingsdistrikten räknas först senare under veckan, vilket innebär att mandatfördelningen inte är fastställd.",
-          "synthes": "",
-          "fakta": [
-            {
-              "tag": "reported",
-              "text": "SVT:s prognos, baserad på räknade röster, ger Vänsterpartiet, Socialdemokraterna, Miljöpartiet och Centerpartiet 176 mandat och Liberalerna, Kristdemokraterna, Moderaterna och Sverigedemokraterna 173 mandat, vid 94 procent räknade valdistrikt.",
-              "kalla": "hd.se"
-            },
-            {
-              "tag": "reported",
-              "text": "Under natten svajade siffrorna mellan 176–173 och 175–174 till oppositionen, men under de tidiga morgontimmarna verkade siffrorna ha stabiliserats.",
-              "kalla": "hd.se"
-            },
-            {
-              "tag": "reported",
-              "text": "Uppsamlingsdistrikt räknas senare under veckan, vilket innebär att det kan dröja innan mandatfördelningen står klar.",
-              "kalla": "hd.se"
-            }
-          ],
-          "tiers": {
-            "verified": 0,
-            "reported": 3,
-            "circulating": 0,
-            "tolkning": 0
-          },
-          "hasTolkning": false,
-          "image": "https://static.bonniernews.se/ba/6537228e-3980-40e2-85c3-0a81189ecc3c.jpg?crop=6272%2C3528%2Cx0%2Cy580&width=1200&format=pjpg&auto=avif",
-          "leadSource": "hd.se",
-          "publishedAt": "2026-09-14T05:03:47.184Z",
-          "readMinutes": 1,
-          "sourceCount": 4,
-          "singleSource": false,
-          "enriched": true,
-          "researched": false,
-          "sources": [
-            {
-              "source": "hd.se",
-              "title": "Valprognos: Oppositionens ledning ökar",
-              "link": "https://www.hd.se/sverige/prognos-oppositionens-ledning-okar/",
-              "provenance": null
-            },
-            {
-              "source": "Barometern",
-              "title": "Valprognos: Oppositionens ledning ökar",
-              "link": "https://www.barometern.se/sverige/prognos-oppositionens-ledning-okar/",
-              "provenance": null
-            },
-            {
-              "source": "Senast publicerat",
-              "title": "Valprognos: Oppositionens ledning ökar",
-              "link": "https://www.svd.se/a/AryWWz/prognos-oppositionens-ledning-okar?utm_medium=rss",
-              "provenance": null
-            },
-            {
-              "source": "Senaste nytt – nyheter från Aftonbladet",
-              "title": "Valprognos: Oppositionens ledning ökar",
-              "link": "https://www.aftonbladet.se/nyheter/a/6qQd1r/prognos-oppositionens-ledning-okar?utm_medium=rss",
-              "provenance": null
-            }
-          ],
-          "coverageSources": [
-            {
-              "source": "hd.se",
-              "title": "Valprognos: Oppositionens ledning ökar",
-              "link": "https://www.hd.se/sverige/prognos-oppositionens-ledning-okar/"
-            },
-            {
-              "source": "Barometern",
-              "title": "Valprognos: Oppositionens ledning ökar",
-              "link": "https://www.barometern.se/sverige/prognos-oppositionens-ledning-okar/"
-            },
-            {
-              "source": "Senast publicerat",
-              "title": "Valprognos: Oppositionens ledning ökar",
-              "link": "https://www.svd.se/a/AryWWz/prognos-oppositionens-ledning-okar?utm_medium=rss"
-            },
-            {
-              "source": "Senaste nytt – nyheter från Aftonbladet",
-              "title": "Valprognos: Oppositionens ledning ökar",
-              "link": "https://www.aftonbladet.se/nyheter/a/6qQd1r/prognos-oppositionens-ledning-okar?utm_medium=rss"
-            }
-          ],
-          "researchSources": []
-        },
-        {
-          "id": "feed-sverige-MGYzZjAxZjQwYTg4OGQyYg",
+          "id": "feed-sverige-ZDRhZjU3MDlkMzM1OTMwNg",
           "sphere": "sverige",
           "kategori": "SVERIGES POLITIK",
-          "rubrik": "Vad som gäller dagarna efter valet",
-          "sammanfattning": "Barometern beskriver i en artikel med rubriken Detta händer dagarna efter valet att läget i riksdagsvalet fortfarande är extremt jämnt, och att artikeln redogör för scenarier för vad som sker när ett resultat väl finns. Artikelns brödtext är i den del som gått att läsa begränsad till en prenumerationshänvisning, och några sakuppgifter om förloppet ryms inte i den.\n\nAftonbladet och kanalen Senast publicerat publicerar samma genomgång av turordningen. Där beskrivs två spår. Om Ulf Kristersson bedömer att regeringen har förlorat valet och meddelar sin avgång kan den sittande talmannen omgående inleda processen och hålla en talmansrunda med partiledarna. När riksdagen har valt talman, eller valt om den sittande, tar denne över och lägger fram ett förslag till statsminister. Den nya riksdagen samlas den 28 september, och röstar om talmannens förslag någon gång därefter. Kandidaten är godkänd om mindre än hälften av de 349 ledamöterna röstar nej.\n\nOm Kristersson i stället bedömer att han kan sitta kvar och vill fortsätta med samma regeringskonstellation prövas han i en obligatorisk statsministeromröstning, tidigast den 29 september, alltså dagen efter att den nyvalda riksdagen samlats och en talman valts. Även där gäller att mindre än hälften av nej-röster räcker för att han ska vara vald igen och kunna bilda regering. Om mer än hälften röstar nej ska talmannen avsätta statsministern, inleda samtal med partiledarna och lägga fram en ny kandidat för omröstning. Nedlagda röster räknas som att kandidaten accepteras eller tolereras.\n\nGenomgången noterar att Kristersson har lovat Sverigedemokraterna plats i regeringen vid seger för Tidöpartierna, och att en statsminister som vill regera med en ny partikonstellation förväntas avgå för att prövas på nytt i riksdagen. Det är den enda uppgiften i materialet som pekar framåt mot en faktisk regeringskonstellation snarare än mot själva proceduren.\n\nGöteborgs-Posten har en artikel med rubriken Extremt jämnt i valet – vad händer nu, men brödtexten saknas i underlaget. Några uppgifter därifrån går inte att återge. Den fristående researchen gav inga träffar, så något tolkningstier finns inte i den här posten.",
+          "rubrik": "Efter valet: talmansrundan och statsministeromröstningen",
+          "sammanfattning": "SVT Nyheter, Sydsvenskan, Expressen och Barometern rapporterar att riksdagsvalet 2026 är extremt jämnt. Sydsvenskan uppger att oppositionen på måndag morgon ser ut att ha en knapp ledning, men att inget är säkert, och att resultat ännu saknas från omkring 350 valdistrikt. Barometern beskriver läget som fortsatt extremt jämnt och hänvisar till scenarier för dagarna efter valet.\n\nEnligt den senast publicerade texten bedömer Ulf Kristersson (M) att han och regeringen har förlorat valet och meddelar sin avgång. I så fall kan den sittande talmannen omgående inleda processen och hålla en talmansrunda med partiledarna. När riksdagen har valt en ny talman, eller valt om den sittande, tar denne över processen och lägger fram ett förslag till statsminister för riksdagen. Den nya riksdagen röstar om talmannens förslag någon gång efter det att riksdagen samlats, vilket sker den 28 september. Om mindre än hälften av riksdagens ledamöter röstar nej är kandidaten godkänd.\n\nOm Kristersson i stället bedömer att han kan sitta kvar och vill fortsätta med samma regeringskonstellation som tidigare, prövas han i en obligatorisk statsministeromröstning som sker tidigast den 29 september, dagen efter att den nyvalda riksdagen har samlats och en ny talman har valts. Om mindre än hälften av de 349 ledamöterna röstar nej är statsministern vald igen och kan bilda regering. Om mer än hälften röstar nej ska talmannen avsätta statsministern, inleda samtal med partiledarna och lägga fram ett förslag till statsministerkandidat som riksdagen får rösta om. Röstar mindre än hälften av ledamöterna nej är kandidaten godkänd, och nedlagda röster räknas som att kandidaten accepteras eller tolereras.\n\nTexten noterar att Kristersson har lovat Sverigedemokraterna plats i regeringen vid en seger för Tidöpartierna. I ett sådant läge, där en statsminister vill regera med en ny partikonstellation, förväntas det att hen avgår för att prövas på nytt i en omröstning i riksdagen. Det framgår inte av materialet vilka partier som avses ingå i en sådan ny konstellation utöver att SD nämns, och inte heller vilka besked de övriga partiledarna har gett i en talmansrunda.",
           "synthes": "",
           "fakta": [
             {
               "tag": "reported",
-              "text": "Läget i riksdagsvalet beskrivs som extremt jämnt, och artikeln redogör för scenarier för vad som sker när ett resultat finns.",
+              "text": "Oppositionen ser på måndag morgon ut att ha en knapp ledning i riksdagsvalet, men inget är ännu säkert.",
+              "kalla": "sydsvenskan.se"
+            },
+            {
+              "tag": "reported",
+              "text": "Resultat saknas ännu från omkring 350 valdistrikt i landet.",
+              "kalla": "sydsvenskan.se"
+            },
+            {
+              "tag": "reported",
+              "text": "Läget i riksdagsvalet beskrivs som fortsatt extremt jämnt.",
               "kalla": "Barometern"
             },
             {
               "tag": "reported",
-              "text": "Om Ulf Kristersson bedömer att regeringen har förlorat valet och meddelar sin avgång kan den sittande talmannen omgående inleda processen och hålla en talmansrunda med partiledarna.",
-              "kalla": "Aftonbladet"
+              "text": "Ulf Kristersson (M) bedömer att han och regeringen har förlorat valet och meddelar sin avgång.",
+              "kalla": "Senast publicerat"
             },
             {
               "tag": "reported",
-              "text": "Den nya riksdagen samlas den 28 september, och röstar om talmannens förslag till statsminister någon gång därefter.",
-              "kalla": "Aftonbladet"
+              "text": "Om den sittande talmannen kan inleda processen omgående hålls en talmansrunda med partiledarna.",
+              "kalla": "Senast publicerat"
             },
             {
               "tag": "reported",
-              "text": "En statsministerkandidat är godkänd om mindre än hälften av de 349 ledamöterna röstar nej.",
-              "kalla": "Aftonbladet"
+              "text": "När riksdagen har valt en ny talman, eller valt om den sittande, tar denne över processen och lägger fram ett förslag till statsminister för riksdagen.",
+              "kalla": "Senast publicerat"
             },
             {
               "tag": "reported",
-              "text": "Om Kristersson vill fortsätta med samma regeringskonstellation prövas han i en obligatorisk statsministeromröstning tidigast den 29 september.",
-              "kalla": "Aftonbladet"
+              "text": "Den nya riksdagen röstar om talmannens förslag någon gång efter det att riksdagen samlats, vilket sker den 28 september.",
+              "kalla": "Senast publicerat"
             },
             {
               "tag": "reported",
-              "text": "Om mer än hälften av ledamöterna röstar nej ska talmannen avsätta statsministern, inleda samtal med partiledarna och lägga fram en ny kandidat för omröstning.",
-              "kalla": "Aftonbladet"
+              "text": "Om mindre än hälften av riksdagens ledamöter röstar nej är kandidaten godkänd.",
+              "kalla": "Senast publicerat"
             },
             {
               "tag": "reported",
-              "text": "Nedlagda röster räknas som att kandidaten accepteras eller tolereras.",
-              "kalla": "Aftonbladet"
+              "text": "Om Kristersson bedömer att han kan sitta kvar och vill fortsätta med samma regeringskonstellation prövas han i en obligatorisk statsministeromröstning tidigast den 29 september.",
+              "kalla": "Senast publicerat"
             },
             {
               "tag": "reported",
-              "text": "Kristersson har lovat Sverigedemokraterna plats i regeringen vid seger för Tidöpartierna, och en statsminister som vill regera med en ny partikonstellation förväntas avgå för att prövas på nytt i riksdagen.",
-              "kalla": "Aftonbladet"
+              "text": "Om mindre än hälften av de 349 ledamöterna röstar nej är statsministern vald igen och kan bilda regering.",
+              "kalla": "Senast publicerat"
             },
             {
               "tag": "reported",
-              "text": "Göteborgs-Posten har en artikel med rubriken Extremt jämnt i valet – vad händer nu, men brödtexten saknas i underlaget.",
-              "kalla": "Göteborgs-Posten"
+              "text": "Om mer än hälften röstar nej ska talmannen avsätta statsministern, inleda samtal med partiledarna och lägga fram ett förslag till statsministerkandidat som riksdagen får rösta om.",
+              "kalla": "Senast publicerat"
+            },
+            {
+              "tag": "reported",
+              "text": "Röstar mindre än hälften av ledamöterna nej är kandidaten godkänd, och nedlagda röster räknas som att kandidaten accepteras eller tolereras.",
+              "kalla": "Senast publicerat"
+            },
+            {
+              "tag": "reported",
+              "text": "Kristersson har lovat Sverigedemokraterna plats i regeringen vid en seger för Tidöpartierna.",
+              "kalla": "Senast publicerat"
+            },
+            {
+              "tag": "reported",
+              "text": "I ett läge där en statsminister vill regera med en ny partikonstellation förväntas det att hen avgår för att prövas på nytt i en omröstning i riksdagen.",
+              "kalla": "Senast publicerat"
             }
           ],
           "tiers": {
             "verified": 0,
-            "reported": 9,
+            "reported": 14,
             "circulating": 0,
             "tolkning": 0
           },
           "hasTolkning": false,
-          "image": "https://static.bonniernews.se/ba/00fc2f5d-fc9b-4704-bd8b-92da4218bbca.jpg?crop=8031%2C4517%2Cx0%2Cy419&width=1200&format=pjpg&auto=avif",
-          "leadSource": "Barometern",
-          "publishedAt": "2026-09-14T05:03:55.122Z",
+          "image": "https://www.svtstatic.se/image-news/1200/1.91:1/0.5/0.5/c130f35dc52542e29f29e137b69b8ec3f9b42376103c10fc5bddd2e09ce0c879",
+          "leadSource": "Inrikes | SVT Nyheter",
+          "publishedAt": "2026-09-14T05:34:02.275Z",
           "readMinutes": 2,
-          "sourceCount": 4,
+          "sourceCount": 9,
           "singleSource": false,
           "enriched": true,
-          "researched": false,
+          "researched": true,
           "sources": [
+            {
+              "source": "Inrikes | SVT Nyheter",
+              "title": "Valet 2026: Så röstade dina grannar",
+              "link": "https://www.svt.se/nyheter/inrikes/valet-2026-sa-rostade-dina-grannar",
+              "provenance": null
+            },
+            {
+              "source": "sydsvenskan.se",
+              "title": "Valet Direkt: Allt du behöver veta om valet 2026",
+              "link": "https://www.sydsvenskan.se/sverige/valet-direkt-vagen-till-valurnorna-2026/",
+              "provenance": null
+            },
+            {
+              "source": "Expressen: Nyheter",
+              "title": "LIVE-TV: Allt om valresultatet",
+              "link": "https://www.expressen.se/tv/politik/live-tv-allt-om-valresultatet",
+              "provenance": null
+            },
             {
               "source": "Barometern",
               "title": "Detta händer dagarna efter valet",
@@ -199,19 +153,34 @@
               "provenance": null
             },
             {
-              "source": "Senaste nytt – nyheter från Aftonbladet",
-              "title": "Detta händer dagarna efter valet",
-              "link": "https://www.aftonbladet.se/nyheter/a/pB2mvE/detta-hander-dagarna-efter-valet?utm_medium=rss",
-              "provenance": null
+              "source": "dn.se",
+              "title": "Valet 2026: Så röstade dina grannar",
+              "link": "https://www.dn.se/sverige/valet-2026-sa-rostade-dina-grannar/",
+              "provenance": "tolkning"
             },
             {
-              "source": "Göteborgs-Posten",
-              "title": "Extremt jämnt i valet – vad händer nu?",
-              "link": "https://www.gp.se/politik/extremt-jamnt-i-valet-det-har-ar-nasta-steg.ded55876-8b6e-4ecd-9b9f-78700d84f4b2",
-              "provenance": null
+              "source": "expressen.se",
+              "title": "Valet 2026 resultat: Så röstade dina grannar",
+              "link": "https://www.expressen.se/nyheter/politik/val-2026-sa-rostade-dina-grannar/",
+              "provenance": "tolkning"
             }
           ],
           "coverageSources": [
+            {
+              "source": "Inrikes | SVT Nyheter",
+              "title": "Valet 2026: Så röstade dina grannar",
+              "link": "https://www.svt.se/nyheter/inrikes/valet-2026-sa-rostade-dina-grannar"
+            },
+            {
+              "source": "sydsvenskan.se",
+              "title": "Valet Direkt: Allt du behöver veta om valet 2026",
+              "link": "https://www.sydsvenskan.se/sverige/valet-direkt-vagen-till-valurnorna-2026/"
+            },
+            {
+              "source": "Expressen: Nyheter",
+              "title": "LIVE-TV: Allt om valresultatet",
+              "link": "https://www.expressen.se/tv/politik/live-tv-allt-om-valresultatet"
+            },
             {
               "source": "Barometern",
               "title": "Detta händer dagarna efter valet",
@@ -221,266 +190,427 @@
               "source": "Senast publicerat",
               "title": "Detta händer dagarna efter valet",
               "link": "https://www.svd.se/a/XM1nLB/detta-hander-dagarna-efter-valet?utm_medium=rss"
-            },
-            {
-              "source": "Senaste nytt – nyheter från Aftonbladet",
-              "title": "Detta händer dagarna efter valet",
-              "link": "https://www.aftonbladet.se/nyheter/a/pB2mvE/detta-hander-dagarna-efter-valet?utm_medium=rss"
-            },
-            {
-              "source": "Göteborgs-Posten",
-              "title": "Extremt jämnt i valet – vad händer nu?",
-              "link": "https://www.gp.se/politik/extremt-jamnt-i-valet-det-har-ar-nasta-steg.ded55876-8b6e-4ecd-9b9f-78700d84f4b2"
             }
           ],
-          "researchSources": []
+          "researchSources": [
+            {
+              "source": "dn.se",
+              "title": "Valet 2026: Så röstade dina grannar",
+              "link": "https://www.dn.se/sverige/valet-2026-sa-rostade-dina-grannar/",
+              "provenance": "tolkning"
+            },
+            {
+              "source": "expressen.se",
+              "title": "Valet 2026 resultat: Så röstade dina grannar",
+              "link": "https://www.expressen.se/nyheter/politik/val-2026-sa-rostade-dina-grannar/",
+              "provenance": "tolkning"
+            }
+          ]
         },
         {
-          "id": "feed-sverige-MTg2OThhOTEzYzY1NTY4Zg",
+          "id": "feed-sverige-ZDEyMmFkNjU1NmZkNDE0Yw",
           "sphere": "sverige",
-          "kategori": "SVERIGES POLITIK",
-          "rubrik": "Ett mandat mellan blocken i SVT:s prognos",
-          "sammanfattning": "SVT publicerade klockan 21.45 sin så kallade superprognos, den första för kvällen. Enligt den står oppositionen med S, V, MP och C på 175 mandat, medan M, SD, KD och L får 174. Skillnaden motsvarar omkring 20 000 röster. Det är ett mandat.\n\nPrognosen bygger på en statistisk modell där SVT tillsammans med forskare och matematiker kartlagt landets runt 6 600 valdistrikt utifrån demografi, och modellen uppges ha några få tiondels procentenheters fel per parti redan när omkring 10 procent av distrikten är räknade. Klockan 22.55 hade 4 338 distrikt räknats, och läget var fortsatt mycket jämnt.\n\nBilden skiljer sig från de första mätningarna. I SVT:s vallokalsundersökning fick de rödgröna partierna 17 mandat fler än Tidöpartierna. Valforskaren Henrik Ekengren Oscarsson säger till SVT att skillnaden inte borde vara så stor och att sanningen kanske hamnar någonstans mittemellan. SVT:s inrikespolitiska kommentator Mats Knutson säger att om prognosen står sig kan utlandsrösterna bli avgörande.\n\nSocialdemokraterna får 27,6 procent i prognosen, ett tapp på 2,73 procentenheter jämfört med 2022. Altinget noterar att Stefan Löfven ledde partiet till 28,3 procent 2018, vilket innebär att S enligt prognosen riskerar sitt sämsta valresultat någonsin. Moderaterna ser samtidigt ut att gå om SD och återta platsen som näst största parti. SD ser ut att backa i ett riksdagsval för första gången.\n\nPartisekreteraren Karin Enström (M) säger till Altinget att partiet var uträknat för några månader sedan och att många moderata väljare lånar ut sin röst till Liberalerna. S-partisekreteraren Tobias Baudin säger i SVT:s sändning att han inte vågar lita på Valu-siffrorna och att alla röster ska räknas.\n\nI Stockholm säger skol-, arbetsmarknads- och personalborgarrådet Emilia Bjuggren (S) till Dagens Samhälle att det viktigaste är att få en ny regering, och att hon är optimistisk om Valu står sig. Stockholm styrs i dag av S, V och MP med 53 av 101 mandat i kommunfullmäktige. Liberalernas toppkandidat Gulan Avci uppgav under kvällen att hon är beredd att söka stöd hos MP om de borgerliga mandaten inte räcker.",
+          "kategori": "VALET 2026",
+          "rubrik": "Preliminärt valresultat: oppositionen 176 mandat mot 173",
+          "sammanfattning": "När 94 procent av valdistrikten räknats ser Vänsterpartiet, Socialdemokraterna, Miljöpartiet och Centerpartiet ut att få 176 mandat, medan Liberalerna, Kristdemokraterna, Moderaterna och Sverigedemokraterna ser ut att landa på 173. Det visar Valmyndighetens senaste siffror enligt TT:s rapportering. Under natten svajade siffrorna mellan den fördelningen och 175–174 till oppositionen, men under de tidiga morgontimmarna verkade siffrorna ha stabiliserats. Uppsamlingsdistrikt räknas senare under veckan, vilket innebär att det kan dröja innan mandatfördelningen står klar. SVT:s valresultatsida anger samma läge: 6 273 av 6 626 valdistrikt räknade, uppdaterad 14 september klockan 05:00, preliminärt. Där framgår också partiernas röstandelar och mandat: Socialdemokraterna 28,1 procent och 100 mandat, en nedgång med 2,3 procentenheter och sju mandat jämfört med 2022. Moderaterna 19,9 procent och 70 mandat, en uppgång med 0,8 procentenheter och två mandat. Sverigedemokraterna 17,6 procent och 62 mandat, en nedgång med tre procentenheter och elva mandat. Vänsterpartiet 8,2 procent och 29 mandat, en uppgång med 1,5 procentenheter och fem mandat. Centerpartiet 7,1 procent och 25 mandat, en uppgång med 0,3 procentenheter och ett mandat. Kristdemokraterna 6,2 procent och 22 mandat, en uppgång med 0,9 procentenheter och tre mandat. Miljöpartiet 6,1 procent och 22 mandat, en uppgång med en procentenhet och fyra mandat. Liberalerna 5,4 procent och 19 mandat, en uppgång med 0,8 procentenheter och tre mandat. Övriga partier 1,6 procent. SVT anger att partier som inte förväntas ta mandat grupperas under övriga partier under den preliminära rösträkningen, och att alla partier redovisas separat i den slutliga räkningen. Enligt SVT:s politiska kommentator Mats Knutson räknas alla röster två gånger: först en preliminär rösträkning på valkvällen i vallokalerna, vilket är kommunens ansvar, därefter en slutgiltig rösträkning hos länsstyrelsen. Elisabeth Marmorstein, politisk kommentator på SVT, uppger att rösträkningen till riksdagen är klar cirka en vecka efter valet, och för kommuner och regioner inom två veckor. Mandaten fördelas enligt den jämkade uddatalsmetoden, där ett parti med 20 procent av rösterna får cirka 20 procent av mandaten. Av riksdagens 349 platser är 310 fasta mandat fördelade på 29 riksdagsvalkretsar, och därefter fördelas 39 utjämningsmandat.",
           "synthes": "",
           "fakta": [
             {
               "tag": "reported",
-              "text": "SVT:s superprognos klockan 21.45 ger oppositionen 175 mandat och Tidöpartierna 174, en skillnad på ett mandat och omkring 20 000 röster.",
-              "kalla": "Altinget"
+              "text": "När 94 procent av valdistrikten räknats ser Vänsterpartiet, Socialdemokraterna, Miljöpartiet och Centerpartiet ut att få 176 mandat medan Liberalerna, Kristdemokraterna, Moderaterna och Sverigedemokraterna ser ut att landa på 173 mandat.",
+              "kalla": "sydsvenskan.se"
             },
             {
               "tag": "reported",
-              "text": "SVT:s prognosmodell bygger på kartläggning av landets runt 6 600 valdistrikt utifrån demografi, och uppges ha några få tiondels procentenheters fel per parti redan vid 10 procent räknade distrikt.",
-              "kalla": "SVT Nyheter"
+              "text": "Under natten svajade siffrorna mellan 176–173 och 175–174 till oppositionen, men under de tidiga morgontimmarna verkade siffrorna ha stabiliserats.",
+              "kalla": "sydsvenskan.se"
             },
             {
               "tag": "reported",
-              "text": "Klockan 22.55 hade 4 338 distrikt räknats och läget var fortsatt mycket jämnt mellan blocken.",
-              "kalla": "Altinget"
+              "text": "Uppsamlingsdistrikt kommer att räknas senare under veckan, vilket innebär att det kan dröja innan det står klart hur mandatfördelningen blir.",
+              "kalla": "sydsvenskan.se"
             },
             {
               "tag": "reported",
-              "text": "I SVT:s vallokalsundersökning fick de rödgröna partierna 17 mandat fler än Tidöpartierna.",
-              "kalla": "Altinget"
+              "text": "SVT:s prognos, baserad på räknade röster, visar samma mandatfördelning: 176 mot 173.",
+              "kalla": "hd.se"
             },
             {
-              "tag": "reported",
-              "text": "Valforskaren Henrik Ekengren Oscarsson säger att skillnaden mellan Valu och prognosen inte borde vara så stor och att sanningen kanske hamnar någonstans mittemellan.",
-              "kalla": "SVT Nyheter"
+              "tag": "verified",
+              "text": "SVT:s valresultatsida anger 94 procent räknat, 6 273 av 6 626 valdistrikt, uppdaterad 14 september klockan 05:00, preliminärt, med mandatfördelningen 176 mot 173.",
+              "kalla": "valresultat.svt.se"
             },
             {
-              "tag": "reported",
-              "text": "SVT:s inrikespolitiska kommentator Mats Knutson säger att utlandsrösterna kan bli avgörande om prognosen står sig.",
-              "kalla": "SVT Nyheter"
+              "tag": "verified",
+              "text": "Partiernas röstandelar och mandat enligt SVT:s valresultatsida: S 28,1 procent och 100 mandat, M 19,9 procent och 70 mandat, SD 17,6 procent och 62 mandat, V 8,2 procent och 29 mandat, C 7,1 procent och 25 mandat, KD 6,2 procent och 22 mandat, MP 6,1 procent och 22 mandat, L 5,4 procent och 19 mandat, övriga partier 1,6 procent.",
+              "kalla": "valresultat.svt.se"
             },
             {
-              "tag": "reported",
-              "text": "Socialdemokraterna får 27,6 procent i SVT:s prognos, ett tapp på 2,73 procentenheter jämfört med riksdagsvalet 2022.",
-              "kalla": "Dagens Samhälle"
+              "tag": "verified",
+              "text": "SVT:s valresultatsida anger förändringar mot 2022: S nedgång med 2,3 procentenheter och sju mandat, M uppgång med 0,8 procentenheter och två mandat, SD nedgång med tre procentenheter och elva mandat, V uppgång med 1,5 procentenheter och fem mandat, C uppgång med 0,3 procentenheter och ett mandat, KD uppgång med 0,9 procentenheter och tre mandat, MP uppgång med en procentenhet och fyra mandat, L uppgång med 0,8 procentenheter och tre mandat.",
+              "kalla": "valresultat.svt.se"
             },
             {
-              "tag": "reported",
-              "text": "Stefan Löfven ledde S till 28,3 procent 2018, vilket innebär att S enligt prognosen riskerar sitt sämsta valresultat någonsin.",
-              "kalla": "Altinget"
+              "tag": "verified",
+              "text": "Under den preliminära rösträkningen grupperas partier som inte förväntas ta mandat under övriga partier; alla partier redovisas separat i den slutliga räkningen.",
+              "kalla": "valresultat.svt.se"
             },
             {
-              "tag": "reported",
-              "text": "Moderaterna ser ut att gå om SD och återta platsen som näst största parti, medan SD ser ut att backa i ett riksdagsval för första gången.",
-              "kalla": "Altinget"
+              "tag": "verified",
+              "text": "Enligt SVT:s Mats Knutson räknas alla röster två gånger: först en preliminär rösträkning på valkvällen i vallokalerna, vilket är kommunens ansvar, därefter en slutgiltig rösträkning hos länsstyrelsen.",
+              "kalla": "valresultat.svt.se"
             },
             {
-              "tag": "reported",
-              "text": "Partisekreteraren Karin Enström (M) säger att partiet var uträknat för några månader sedan och att många moderata väljare lånar ut sin röst till Liberalerna.",
-              "kalla": "Altinget"
+              "tag": "verified",
+              "text": "Enligt SVT:s Elisabeth Marmorstein är rösträkningen till riksdagen klar cirka en vecka efter valet, och för kommuner och regioner inom två veckor.",
+              "kalla": "valresultat.svt.se"
             },
             {
-              "tag": "reported",
-              "text": "S-partisekreteraren Tobias Baudin säger i SVT:s sändning att han inte vågar lita på Valu-siffrorna och att alla röster ska räknas.",
-              "kalla": "Altinget"
-            },
-            {
-              "tag": "reported",
-              "text": "Emilia Bjuggren (S) säger till Dagens Samhälle att det viktigaste är att få en ny regering och att hon är optimistisk om Valu står sig.",
-              "kalla": "Dagens Samhälle"
-            },
-            {
-              "tag": "reported",
-              "text": "Stockholm styrs i dag av S, V och MP med 53 av 101 mandat i kommunfullmäktige, med M, L, C och KD i opposition.",
-              "kalla": "Dagens Samhälle"
-            },
-            {
-              "tag": "reported",
-              "text": "Liberalernas toppkandidat Gulan Avci uppgav under valkvällen att hon är beredd att söka stöd hos MP om de borgerliga mandaten inte räcker.",
-              "kalla": "Dagens Samhälle"
+              "tag": "verified",
+              "text": "Mandaten fördelas enligt den jämkade uddatalsmetoden; ett parti med 20 procent av rösterna får cirka 20 procent av mandaten. Av riksdagens 349 platser är 310 fasta mandat fördelade på 29 riksdagsvalkretsar, därefter fördelas 39 utjämningsmandat.",
+              "kalla": "valresultat.svt.se"
             }
           ],
           "tiers": {
-            "verified": 0,
-            "reported": 14,
+            "verified": 7,
+            "reported": 4,
             "circulating": 0,
             "tolkning": 0
           },
           "hasTolkning": false,
-          "image": "https://static.bonniernews.se/ba/5ddf845b-2f16-4af4-8078-6dfb85691c5d.jpeg?crop=8256%2C4644%2Cx0%2Cy430&width=4096&auto=webp&enable=upscale",
-          "leadSource": "Dagens Samhälle - Senaste nytt",
-          "publishedAt": "2026-09-14T05:04:04.306Z",
+          "image": "https://static.bonniernews.se/ba/6537228e-3980-40e2-85c3-0a81189ecc3c.jpg?crop=6272%2C3528%2Cx0%2Cy0&width=1200&format=pjpg&auto=avif",
+          "leadSource": "sydsvenskan.se",
+          "publishedAt": "2026-09-14T05:34:13.508Z",
           "readMinutes": 2,
           "sourceCount": 4,
           "singleSource": false,
           "enriched": true,
-          "researched": false,
+          "researched": true,
           "sources": [
             {
-              "source": "Dagens Samhälle - Senaste nytt",
-              "title": "Emilia Bjuggren (S) om valrysaren: ”Optimistisk”",
-              "link": "https://www.dagenssamhalle.se/styrning-och-beslut/demokrati/emilia-bjuggren-s-om-valrysaren-optimistisk/",
+              "source": "sydsvenskan.se",
+              "title": "Preliminärt valresultat: Oppositionens ledning ökar",
+              "link": "https://www.sydsvenskan.se/sverige/prognos-oppositionens-ledning-okar/",
               "provenance": null
             },
             {
-              "source": "Inrikes | SVT Nyheter",
-              "title": "Dött lopp mellan blocken i SVT:s prognos",
-              "link": "https://www.svt.se/nyheter/inrikes/dott-lopp-mellan-blocken-i-svts-prognos",
+              "source": "Barometern",
+              "title": "Preliminärt valresultat: Oppositionens ledning ökar",
+              "link": "https://www.barometern.se/sverige/prognos-oppositionens-ledning-okar/",
               "provenance": null
             },
             {
-              "source": "Altinget",
-              "title": "Prognosen: Ett mandat mellan blocken – L klarar sp&#228;rren",
-              "link": "https://www.altinget.se/artikel/matningarna-rodgron-seger-och-l-klarar-sparren",
+              "source": "hd.se",
+              "title": "Preliminärt valresultat: Oppositionens ledning ökar",
+              "link": "https://www.hd.se/sverige/prognos-oppositionens-ledning-okar/",
               "provenance": null
+            },
+            {
+              "source": "Senast publicerat",
+              "title": "Preliminärt valresultat: Oppositionens ledning ökar",
+              "link": "https://www.svd.se/a/AryWWz/prognos-oppositionens-ledning-okar?utm_medium=rss",
+              "provenance": null
+            },
+            {
+              "source": "dagen.se",
+              "title": "Preliminärt valresultat: Oppositionens ledning ökar",
+              "link": "https://www.dagen.se/nyheter/preliminaert-valresultat-oppositionens-ledning-oekar/10529106",
+              "provenance": "tolkning"
+            },
+            {
+              "source": "valresultat.svt.se",
+              "title": "Valresultat 2026 – för riksdagsvalet, region- och kommunval | SVT Nyheter",
+              "link": "https://valresultat.svt.se/2026/",
+              "provenance": "tolkning"
             }
           ],
           "coverageSources": [
             {
-              "source": "Dagens Samhälle - Senaste nytt",
-              "title": "Emilia Bjuggren (S) om valrysaren: ”Optimistisk”",
-              "link": "https://www.dagenssamhalle.se/styrning-och-beslut/demokrati/emilia-bjuggren-s-om-valrysaren-optimistisk/"
+              "source": "sydsvenskan.se",
+              "title": "Preliminärt valresultat: Oppositionens ledning ökar",
+              "link": "https://www.sydsvenskan.se/sverige/prognos-oppositionens-ledning-okar/"
             },
             {
-              "source": "Inrikes | SVT Nyheter",
-              "title": "Dött lopp mellan blocken i SVT:s prognos",
-              "link": "https://www.svt.se/nyheter/inrikes/dott-lopp-mellan-blocken-i-svts-prognos"
+              "source": "Barometern",
+              "title": "Preliminärt valresultat: Oppositionens ledning ökar",
+              "link": "https://www.barometern.se/sverige/prognos-oppositionens-ledning-okar/"
             },
             {
-              "source": "Altinget",
-              "title": "Prognosen: Ett mandat mellan blocken – L klarar sp&#228;rren",
-              "link": "https://www.altinget.se/artikel/matningarna-rodgron-seger-och-l-klarar-sparren"
+              "source": "hd.se",
+              "title": "Preliminärt valresultat: Oppositionens ledning ökar",
+              "link": "https://www.hd.se/sverige/prognos-oppositionens-ledning-okar/"
+            },
+            {
+              "source": "Senast publicerat",
+              "title": "Preliminärt valresultat: Oppositionens ledning ökar",
+              "link": "https://www.svd.se/a/AryWWz/prognos-oppositionens-ledning-okar?utm_medium=rss"
             }
           ],
-          "researchSources": []
+          "researchSources": [
+            {
+              "source": "dagen.se",
+              "title": "Preliminärt valresultat: Oppositionens ledning ökar",
+              "link": "https://www.dagen.se/nyheter/preliminaert-valresultat-oppositionens-ledning-oekar/10529106",
+              "provenance": "tolkning"
+            },
+            {
+              "source": "valresultat.svt.se",
+              "title": "Valresultat 2026 – för riksdagsvalet, region- och kommunval | SVT Nyheter",
+              "link": "https://valresultat.svt.se/2026/",
+              "provenance": "tolkning"
+            }
+          ]
+        },
+        {
+          "id": "feed-sverige-OTQ2NTg4MWE4ZDJhNzUzZQ",
+          "sphere": "sverige",
+          "kategori": "UTRIKES",
+          "rubrik": "Bombades före bröllopet i Kiev",
+          "sammanfattning": "Ljudmyla och Leonid Ryzjak gifte sig i Kiev förra veckan. Det rapporterar Barometern, Aftonbladet och Senast publicerat, som alla bygger på samma TT-text.\n\nLeonid Ryzjak, 43, är soldat placerad i Pokrovsk vid frontlinjen i öst, där han enligt uppgifterna ingått i enheter som styr bombdrönare mot ryska styrkor. Vid månadsskiftet augusti–september fick han ledigt och reste hem till fästmön Ljudmyla, 33, i Kiev. Paret försökte boka vigsel hos myndigheterna, men servicekontoret tvingades stänga när larm gick om attacker. Det upprepades sex dagar i rad. Först förra helgen, då anfallen uppges ha avtagit i samband med att USA:s sändebud kom till Kiev från Moskva, fick de en tid på tisdag förmiddag.\n\nNatten till tisdagen slog ett ryskt anfall från luften ned i en lagerlokal på andra sidan gatan från parets bostad. Tryckvågen krossade fönster, satte gardiner i brand och slog sönder möbler. Familjen tog med Ljudmylas sexåriga dotter och två hamstrar till närmaste skyddsrum. Ryska robotar och drönare fortsatte slå ned i Kiev under fem timmars tid.\n\nPå morgonen återvände de till lägenheten. Ljudmylas vita broderade klänning grävdes fram ur bråte och splitter med små hål i tyget. Leonid hittade sin broderade folkdräktsskjorta, men byxorna låg begravda och han tog arméns kamouflagebyxor i stället.\n\nVigseln skulle ha ägt rum klockan 10.40. Flyglarm gick igen och paret fick vänta ytterligare tre timmar innan de kunde gå in för att bli make och maka. Ljudmyla säger till TT att hon aldrig varit med om en så spektakulär dag, och att hon inte ville skjuta upp bröllopet eftersom ingen kan garantera att det blir en morgondag.\n\nDet som inte framgår av materialet är hur många som skadades eller dödades i anfallet mot kvarteret, vilken typ av vapen som träffade lagerlokalen, eller vad USA:s sändebud hade för uppdrag i Kiev. Ingen av källorna uppger något om det.",
+          "synthes": "",
+          "fakta": [
+            {
+              "tag": "reported",
+              "text": "Ljudmyla och Leonid Ryzjak gifte sig i Kiev förra veckan.",
+              "kalla": "Barometern"
+            },
+            {
+              "tag": "reported",
+              "text": "Leonid Ryzjak, 43, är soldat placerad i Pokrovsk vid frontlinjen i öst och har ingått i enheter som styr bombdrönare mot ryska styrkor.",
+              "kalla": "Aftonbladet"
+            },
+            {
+              "tag": "reported",
+              "text": "Vid månadsskiftet augusti–september fick han ledigt och reste hem till fästmön Ljudmyla, 33, i Kiev.",
+              "kalla": "Aftonbladet"
+            },
+            {
+              "tag": "reported",
+              "text": "Parets försök att boka vigsel hos myndigheterna hindrades sex dagar i rad av larm om attacker som tvingade servicekontoret att stänga.",
+              "kalla": "Aftonbladet"
+            },
+            {
+              "tag": "reported",
+              "text": "En tid på tisdag förmiddag bokades först förra helgen, då anfallen uppges ha avtagit i samband med att USA:s sändebud kom till Kiev från Moskva.",
+              "kalla": "Aftonbladet"
+            },
+            {
+              "tag": "reported",
+              "text": "Natten till tisdagen slog ett ryskt anfall från luften ned i en lagerlokal på andra sidan gatan från parets bostad; tryckvågen krossade fönster, satte gardiner i brand och slog sönder möbler.",
+              "kalla": "Aftonbladet"
+            },
+            {
+              "tag": "reported",
+              "text": "Familjen tog med Ljudmylas sexåriga dotter och två hamstrar till närmaste skyddsrum.",
+              "kalla": "Aftonbladet"
+            },
+            {
+              "tag": "reported",
+              "text": "Ryska robotar och drönare fortsatte slå ned i Kiev under fem timmars tid.",
+              "kalla": "Aftonbladet"
+            },
+            {
+              "tag": "reported",
+              "text": "Ljudmylas vita broderade klänning grävdes fram ur bråte och splitter med små hål i tyget; Leonid hittade sin broderade folkdräktsskjorta men tog arméns kamouflagebyxor eftersom byxorna låg begravda.",
+              "kalla": "Aftonbladet"
+            },
+            {
+              "tag": "reported",
+              "text": "Vigseln var utsatt till klockan 10.40, men flyglarm gjorde att paret fick vänta ytterligare tre timmar.",
+              "kalla": "Aftonbladet"
+            },
+            {
+              "tag": "reported",
+              "text": "Ljudmyla säger att hon inte ville skjuta upp bröllopet eftersom ingen kan garantera att det blir en morgondag, och att hon aldrig varit med om en så spektakulär dag.",
+              "kalla": "Aftonbladet"
+            }
+          ],
+          "tiers": {
+            "verified": 0,
+            "reported": 11,
+            "circulating": 0,
+            "tolkning": 0
+          },
+          "hasTolkning": false,
+          "image": "https://static.bonniernews.se/ba/d6f243bd-00af-4cec-b275-dc9e36ca36a8.jpg?crop=8640%2C4860%2Cx0%2Cy450&width=1200&format=pjpg&auto=avif",
+          "leadSource": "Barometern",
+          "publishedAt": "2026-09-14T05:34:24.171Z",
+          "readMinutes": 2,
+          "sourceCount": 3,
+          "singleSource": false,
+          "enriched": true,
+          "researched": true,
+          "sources": [
+            {
+              "source": "Barometern",
+              "title": "Bombades före bröllopet: ”En spektakulär dag”",
+              "link": "https://www.barometern.se/varlden/bombades-fore-brollopet-en-spektakular-dag/",
+              "provenance": null
+            },
+            {
+              "source": "Senast publicerat",
+              "title": "Bombades före bröllopet: ”En spektakulär dag”",
+              "link": "https://www.svd.se/a/bOxdbe/bombades-fore-brollopet-en-spektakular-dag?utm_medium=rss",
+              "provenance": null
+            },
+            {
+              "source": "Senaste nytt – nyheter från Aftonbladet",
+              "title": "Bombades före bröllopet: ”En spektakulär dag”",
+              "link": "https://www.aftonbladet.se/nyheter/a/xr2yEV/bombades-fore-brollopet-en-spektakular-dag?utm_medium=rss",
+              "provenance": null
+            },
+            {
+              "source": "sydsvenskan.se",
+              "title": "Bombades före bröllopet: ”En spektakulär dag”",
+              "link": "https://www.sydsvenskan.se/varlden/bombades-fore-brollopet-en-spektakular-dag",
+              "provenance": "tolkning"
+            },
+            {
+              "source": "svd.se",
+              "title": "Bombades före bröllopet: ”En spektakulär dag”",
+              "link": "https://www.svd.se/a/bOxdbe/bombades-fore-brollopet-en-spektakular-dag",
+              "provenance": "tolkning"
+            }
+          ],
+          "coverageSources": [
+            {
+              "source": "Barometern",
+              "title": "Bombades före bröllopet: ”En spektakulär dag”",
+              "link": "https://www.barometern.se/varlden/bombades-fore-brollopet-en-spektakular-dag/"
+            },
+            {
+              "source": "Senast publicerat",
+              "title": "Bombades före bröllopet: ”En spektakulär dag”",
+              "link": "https://www.svd.se/a/bOxdbe/bombades-fore-brollopet-en-spektakular-dag?utm_medium=rss"
+            },
+            {
+              "source": "Senaste nytt – nyheter från Aftonbladet",
+              "title": "Bombades före bröllopet: ”En spektakulär dag”",
+              "link": "https://www.aftonbladet.se/nyheter/a/xr2yEV/bombades-fore-brollopet-en-spektakular-dag?utm_medium=rss"
+            }
+          ],
+          "researchSources": [
+            {
+              "source": "sydsvenskan.se",
+              "title": "Bombades före bröllopet: ”En spektakulär dag”",
+              "link": "https://www.sydsvenskan.se/varlden/bombades-fore-brollopet-en-spektakular-dag",
+              "provenance": "tolkning"
+            },
+            {
+              "source": "svd.se",
+              "title": "Bombades före bröllopet: ”En spektakulär dag”",
+              "link": "https://www.svd.se/a/bOxdbe/bombades-fore-brollopet-en-spektakular-dag",
+              "provenance": "tolkning"
+            }
+          ]
         }
       ],
-      "script": "Valet är inte avgjort, och det som återstår är uppsamlingsdistrikten.\n\nSVT:s prognos bygger på räknade röster och uppdateras allteftersom distrikten kommer in. Vid 94 procent räknade distrikt ger den Vänsterpartiet, Socialdemokraterna, Miljöpartiet och Centerpartiet 176 mandat, mot 173 för Liberalerna, Kristdemokraterna, Moderaterna och Sverigedemokraterna. Under natten rörde sig siffrorna mellan 176–173 och 175–174 till oppositionens fördel, och under de tidiga morgontimmarna uppges de ha stabiliserats. Uppsamlingsdistrikten räknas först senare under veckan. Mandatfördelningen är därmed inte fastställd.\n\nDen första superprognosen kom klockan 21.45 och gav oppositionen 175 mandat mot 174 för Tidöpartierna. Skillnaden motsvarar ett mandat, omkring 20 000 röster. Modellen bygger på att SVT tillsammans med forskare och matematiker kartlagt landets runt 6 600 valdistrikt utifrån demografi, och den uppges ha några få tiondels procentenheters fel per parti redan vid omkring 10 procent räknade distrikt. Klockan 22.55 hade 4 338 distrikt räknats, och läget var fortsatt mycket jämnt.\n\nBilden skiljer sig från de första mätningarna. I SVT:s vallokalsundersökning fick de rödgröna partierna 17 mandat fler än Tidöpartierna. Valforskaren Henrik Ekengren Oscarsson säger till SVT att skillnaden inte borde vara så stor, och att sanningen kanske hamnar någonstans mittemellan. SVT:s inrikespolitiska kommentator Mats Knutson säger att utlandsrösterna kan bli avgörande om prognosen står sig.\n\nPå partinivå får Socialdemokraterna 27,6 procent i prognosen, ett tapp på 2,73 procentenheter jämfört med 2022. Altinget noterar att Stefan Löfven ledde partiet till 28,3 procent 2018, vilket innebär att S enligt prognosen riskerar sitt sämsta valresultat någonsin. Moderaterna ser ut att gå om SD och återta platsen som näst största parti, medan SD ser ut att backa i ett riksdagsval för första gången.\n\nPartisekreteraren Karin Enström säger till Altinget att partiet var uträknat för några månader sedan, och att många moderata väljare lånar ut sin röst till Liberalerna. S-partisekreteraren Tobias Baudin säger i SVT:s sändning att han inte vågar lita på Valu-siffrorna, och att alla röster ska räknas.\n\nI Stockholm säger skol-, arbetsmarknads- och personalborgarrådet Emilia Bjuggren till Dagens Samhälle att det viktigaste är att få en ny regering, och att hon är optimistisk om Valu står sig. Stockholm styrs i dag av S, V och MP med 53 av 101 mandat i kommunfullmäktige. Liberalernas toppkandidat Gulan Avci uppgav under kvällen att hon är beredd att söka stöd hos MP om de borgerliga mandaten inte räcker.\n\nVad som händer härnäst är reglerat i riksdagsordningen. Om Ulf Kristersson bedömer att regeringen har förlorat valet och meddelar sin avgång kan den sittande talmannen omgående inleda processen och hålla en talmansrunda med partiledarna. Den nya riksdagen samlas den 28 september. När riksdagen har valt talman, eller valt om den sittande, lägger talmannen fram ett förslag till statsminister, och omröstningen sker någon gång därefter. Kandidaten är godkänd om mindre än hälften av de 349 ledamöterna röstar nej. Nedlagda röster räknas som att kandidaten accepteras eller tolereras.\n\nOm Kristersson i stället bedömer att han kan sitta kvar och vill fortsätta med samma regeringskonstellation prövas han i en obligatorisk statsministeromröstning, tidigast den 29 september, alltså dagen efter att den nyvalda riksdagen samlats och en talman valts. Även där gäller att mindre än hälften av nej-rösterna räcker för att han ska vara vald igen. Om mer än hälften röstar nej ska talmannen avsätta statsministern, inleda samtal med partiledarna och lägga fram en ny kandidat för omröstning.\n\nEn uppgift i genomgången pekar framåt mot en faktisk regeringskonstellation snarare än mot proceduren: Kristersson har lovat Sverigedemokraterna plats i regeringen vid seger för Tidöpartierna, och en statsminister som vill regera med en ny partikonstellation förväntas avgå för att prövas på nytt i riksdagen.\n\nVad gäller de enskilda partiernas vägval efter ett preliminärt resultat finns i underlaget bara Avcis uttalande om MP. Några besked från de övriga partiledarna om vilka konstellationer de är beredda att ingå i finns inte i materialet."
+      "script": "Efter valet står Sverige inför en regeringsbildning, och den första frågan är vilken väg den ska ta: en talmansrunda med ny statsministeromröstning, eller en obligatorisk omröstning om den sittande statsministern. Underlaget för vad som faktiskt har hänt är ännu tunt, och det ska sägas rakt ut.\n\nBevakningen visar att oppositionen på måndag morgon ser ut att ha en knapp ledning, enligt Sydsvenskan, men att inget är säkert och att resultat ännu saknas från omkring 350 valdistrikt. Barometern beskriver läget som fortsatt extremt jämnt. Enligt den senast publicerade texten bedömer Ulf Kristersson att han och regeringen har förlorat valet och meddelar sin avgång.\n\nOm den sittande talmannen kan inleda processen omgående hålls en talmansrunda med partiledarna. När riksdagen sedan har valt en ny talman, eller valt om den sittande, tar denne över processen och lägger fram ett förslag till statsminister för riksdagen. Den nya riksdagen röstar om talmannens förslag någon gång efter det att riksdagen samlats, vilket sker den 28 september. Om mindre än hälften av ledamöterna röstar nej är kandidaten godkänd.\n\nOm Kristersson i stället bedömer att han kan sitta kvar och vill fortsätta med samma regeringskonstellation prövas han i en obligatorisk statsministeromröstning, tidigast den 29 september, dagen efter att den nyvalda riksdagen har samlats och en ny talman har valts. Röstar mindre än hälften av de 349 ledamöterna nej är statsministern vald igen och kan bilda regering. Röstar mer än hälften nej ska talmannen avsätta statsministern, inleda samtal med partiledarna och lägga fram ett förslag till statsministerkandidat som riksdagen får rösta om. Röstar mindre än hälften nej är kandidaten godkänd, och nedlagda röster räknas som att kandidaten accepteras eller tolereras.\n\nKristersson har lovat Sverigedemokraterna plats i regeringen vid en seger för Tidöpartierna. I ett läge där en statsminister vill regera med en ny partikonstellation förväntas det att hen avgår för att prövas på nytt i en omröstning i riksdagen. Det framgår inte av materialet vilka partier som avses ingå i en sådan ny konstellation utöver att SD nämns, och inte heller vilka besked de övriga partiledarna har gett i en talmansrunda.\n\nDet preliminära valresultatet pekar på 176 mandat för Vänsterpartiet, Socialdemokraterna, Miljöpartiet och Centerpartiet, mot 173 för Liberalerna, Kristdemokraterna, Moderaterna och Sverigedemokraterna. Det visar Valmyndighetens senaste siffror enligt TT:s rapportering, och SVT:s prognos visar samma fördelning. Under natten svajade siffrorna mellan 176–173 och 175–174 till oppositionen, men under de tidiga morgontimmarna verkade siffrorna ha stabiliserats. Uppsamlingsdistrikt räknas senare under veckan, vilket innebär att det kan dröja innan mandatfördelningen står klar.\n\nSVT:s valresultatsida anger 94 procent räknat, 6 273 av 6 626 valdistrikt, uppdaterad 14 september klockan 05:00, preliminärt, med mandatfördelningen 176 mot 173. Där framgår partiernas röstandelar och mandat: Socialdemokraterna 28,1 procent och 100 mandat, Moderaterna 19,9 procent och 70 mandat, Sverigedemokraterna 17,6 procent och 62 mandat, Vänsterpartiet 8,2 procent och 29 mandat, Centerpartiet 7,1 procent och 25 mandat, Kristdemokraterna 6,2 procent och 22 mandat, Miljöpartiet 6,1 procent och 22 mandat, Liberalerna 5,4 procent och 19 mandat, övriga partier 1,6 procent.\n\nFörändringarna mot 2022 är betydande. Socialdemokraterna går ned 2,3 procentenheter och sju mandat. Moderaterna går upp 0,8 procentenheter och två mandat. Sverigedemokraterna går ned tre procentenheter och elva mandat. Vänsterpartiet går upp 1,5 procentenheter och fem mandat. Centerpartiet går upp 0,3 procentenheter och ett mandat. Kristdemokraterna går upp 0,9 procentenheter och tre mandat. Miljöpartiet går upp en procentenhet och fyra mandat. Liberalerna går upp 0,8 procentenheter och tre mandat.\n\nUnder den preliminära rösträkningen grupperas partier som inte förväntas ta mandat under övriga partier. Alla partier redovisas separat i den slutliga räkningen. Enligt SVT:s Mats Knutson räknas alla röster två gånger: först en preliminär rösträkning på valkvällen i vallokalerna, vilket är kommunens ansvar, därefter en slutgiltig rösträkning hos länsstyrelsen. Enligt SVT:s Elisabeth Marmorstein är rösträkningen till riksdagen klar cirka en vecka efter valet, och för kommuner och regioner inom två veckor.\n\nMandaten fördelas enligt den jämkade uddatalsmetoden. Ett parti med 20 procent av rösterna får cirka 20 procent av mandaten. Av riksdagens 349 platser är 310 fasta mandat fördelade på 29 riksdagsvalkretsar. Därefter fördelas 39 utjämningsmandat.\n\nEn notis från Kiev. Ljudmyla och Leonid Ryzjak gifte sig i staden förra veckan, rapporterar Barometern, Aftonbladet och Senast publicerat, som alla bygger på samma TT-text. Leonid Ryzjak, 43, är soldat placerad i Pokrovsk vid frontlinjen i öst, där han enligt uppgifterna ingått i enheter som styr bombdrönare mot ryska styrkor. Vid månadsskiftet augusti–september fick han ledigt och reste hem till fästmön Ljudmyla, 33, i Kiev.\n\nParet försökte boka vigsel hos myndigheterna, men servicekontoret tvingades stänga när larm gick om attacker. Det upprepades sex dagar i rad. Först förra helgen, då anfallen uppges ha avtagit i samband med att USA:s sändebud kom till Kiev från Moskva, fick de en tid på tisdag förmiddag.\n\nNatten till tisdagen slog ett ryskt anfall från luften ned i en lagerlokal på andra sidan gatan från parets bostad. Tryckvågen krossade fönster, satte gardiner i brand och slog sönder möbler. Familjen tog med Ljudmylas sexåriga dotter och två hamstrar till närmaste skyddsrum. Ryska robotar och drönare fortsatte slå ned i Kiev under fem timmars tid.\n\nPå morgonen återvände de till lägenheten. Ljudmylas vita broderade klänning grävdes fram ur bråte och splitter med små hål i tyget. Leonid hittade sin broderade folkdräktsskjorta, men byxorna låg begravda och han tog arméns kamouflagebyxor i stället. Vigseln skulle ha ägt rum klockan 10.40. Flyglarm gick igen och paret fick vänta ytterligare tre timmar innan de kunde gå in för att bli make och maka. Ljudmyla säger till TT att hon aldrig varit med om en så spektakulär dag, och att hon inte ville skjuta upp bröllopet eftersom ingen kan garantera att det blir en morgondag.\n\nDet som inte framgår av materialet är hur många som skadades eller dödades i anfallet mot kvarteret, vilken typ av vapen som träffade lagerlokalen, eller vad USA:s sändebud hade för uppdrag i Kiev. Ingen av källorna uppger något om det."
     },
     {
       "sphere": "world",
       "sphereLabel": "Världen",
       "audioUrl": "https://github.com/StenTBen/morgonbrief/releases/download/audio/pod-world-2026-09-14.mp3",
-      "audioBytes": 1812576,
+      "audioBytes": 1558848,
       "itemCount": 2,
       "items": [
         {
-          "id": "world-VHVya2V5IHJhaWRzIExHQlRR",
-          "kategori": "TURKIET",
-          "rubrik": "Turkisk polis slog till mot HBTQ+-grupper och barer – dussintals gripna",
-          "sammanfattning": "Turkisk polis genomförde i mitten av september 2026 räder i ett flertal städer, bland annat Istanbul, Ankara, Izmir och Mersin, mot gaybarer, föreningslokaler och aktivisters hem. Enligt åklagarmyndigheterna greps minst 63 personer, medan organisationen Kaos GL uppger att ett femtiotal aktivister frihetsberövats eller är föremål för utredning. Justitieminister Akin Gurlek sade att utredningen omfattar 162 misstänkta, nio föreningar och 13 företag och att den syftar till att skydda barn, familjen och den allmänna ordningen inom ramen för president Erdogans tioåriga satsning på familjen. Flera HBTQ+- och hiv-organisationers webbplatser blockerades redan före räderna, och regeringen anklagas för att använda familjevärderingar som täckmantel för att slå mot civilsamhället.",
-          "varfor": "Kampanjen mot HBTQ+-grupper är en del av en bredare inskränkning av medborgerliga friheter i Turkiet, vilket påverkar landets relationer till EU och försvårar arbetet för människorättsorganisationer.",
-          "status": "Räderna fortsätter och gripna hålls kvar medan utredningarna mot organisationerna pågår.",
+          "id": "world-SG9ybXV6IHRhbGtzIHBvc3Rw",
+          "kategori": "MELLANÖSTERN",
+          "rubrik": "Hormuzsamtal skjuts upp efter attack mot iranskt fartyg",
+          "sammanfattning": "Oman meddelade att ett möte mellan Iran och Gulfstaterna om sjöfarten i Hormuzsundet, planerat till måndagen, ställs in. Beskedet kom samma dag som en iransk lastbåt träffades av en projektil nära Qeshmön, varvid en person dödades och fyra skadades; Teheran pekade ut en \"terroristisk fiende\" som ansvarig. Enligt iransk media sköts samtalen upp på begäran av vissa länder i regionen och som ett gemensamt beslut av Teheran och Muscat. Oman har tidigare lagt ett förslag om delat ansvar för sundet och frivilliga avgifter från fartyg, vilket Iran avvisat till förmån för obligatoriska betalningar. Samtidigt höll Saudiarabien en viktig öst-västlig pipeline stängd efter drönarattacker, och oljepriset steg när marknaden öppnade.",
+          "varfor": "The postponement and attack heighten tensions in the Strait of Hormuz, a vital oil chokepoint, risking global energy supply disruptions.",
+          "status": "",
           "score": 55,
           "reasons": [
-            "3 international outlets (+25)",
-            "Only passing Swedish mention (+15)",
-            "Underreported region (Middle East) (+15)"
-          ],
-          "region": "Middle East",
-          "swedishCoverage": "weak",
-          "leadSource": "BBC News",
-          "publishedAt": "2026-09-13T14:25:56.000Z",
-          "singleSource": false,
-          "enriched": true,
-          "sourceCount": 3,
-          "coverage": [
-            {
-              "source": "BBC News",
-              "title": "Turkish police detain dozens in raids on gay bars and homes of LGBTQ+ activists",
-              "link": "https://www.bbc.co.uk/news/articles/cpve191wy47o?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-              "title": "Turkish authorities launch anti-LGBTQ raids, detaining dozens",
-              "link": "https://www.aljazeera.com/news/2026/9/14/turkish-authorities-launch-anti-lgbtq-raids-detaining-dozens?traffic_source=rss"
-            },
-            {
-              "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-              "title": "Turkish authorities launch crackdown on LGBTQ+, HIV support groups",
-              "link": "https://www.thehindu.com/news/international/turkish-authorities-launch-crackdown-on-lgbtq-hiv-support-groups/article71463680.ece"
-            }
-          ]
-        },
-        {
-          "id": "world-SG91dGhpIGFkdmFuY2VzIGFu",
-          "kategori": "JEMEN",
-          "rubrik": "Houthirebeller avancerar i Jemen – strider kring Bab el-Mandeb",
-          "sammanfattning": "Striderna i Jemen har trappats upp kraftigt sedan början av september 2026, då Houthirebeller intog hamnstaden Mokha och en ö vid Bab el-Mandeb-sundet. Regeringsstyrkor har svarat med attacker längs Röda havskusten och flyganfall mot Houthipositioner, medan Houthi-milisen uppges ha avfyrat drönare och robotar mot mål i södra Saudiarabien. Enligt FN har över 80 000 människor tvingats fly sedan stridernas början, och en regeringsallierad styrka uppger att fler än 500 regeringssoldater dödats på fyra veckor. Houthiernas framryckning för dem nära den amerikanska militärbasen i Djibouti, samtidigt som de hotar sjöfarten i sundet.",
-          "varfor": "Eskaleringen hotar sjöfarten i Röda havet och riskerar att återuppväcka inbördeskriget i Jemen, vilket kan påverka globala oljeleveranser och ge Iran ökat inflytande.",
-          "status": "Regeringsstyrkor omgrupperar sig för att återta förlorade områden medan Houthi-attackerna mot Saudiarabien fortsätter.",
-          "score": 55,
-          "reasons": [
-            "3 international outlets (+25)",
+            "4 international outlets (+25)",
             "Only passing Swedish mention (+15)",
             "Underreported region (Middle East) (+15)"
           ],
           "region": "Middle East",
           "swedishCoverage": "weak",
           "leadSource": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-          "publishedAt": "2026-09-14T00:14:09.000Z",
+          "publishedAt": "2026-09-14T00:00:00.000Z",
           "singleSource": false,
           "enriched": true,
-          "sourceCount": 3,
+          "sourceCount": 4,
           "coverage": [
             {
               "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-              "title": "Yemen’s Houthis advance on government strongholds of Marib, Taiz",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/14/yemens-houthis-advance-on-government-strongholds-of-marib-taiz?traffic_source=rss"
+              "title": "Iran war live: Oman says Hormuz talks with Iran, Gulf states postponed",
+              "link": "https://www.aljazeera.com/news/liveblog/2026/9/14/iran-war-live-oman-says-hormuz-talks-with-iran-gulf-states-postponed?traffic_source=rss"
+            },
+            {
+              "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+              "title": "Tehran and Muscat delay talks, citing regional consensus need",
+              "link": "https://www.aljazeera.com/news/2026/9/13/tehran-and-muscat-delay-talks-citing-regional-consensus-need?traffic_source=rss"
             },
             {
               "source": "France 24 - International breaking news, top stories and headlines",
-              "title": "Sucker Punch: How the Houthis shocked the Gulf",
-              "link": "https://www.france24.com/en/tv-shows/spotlight/20260913-sucker-punch-how-the-houthis-shocked-the-gulf"
+              "title": "Mideast live: Oman postpones Hormuz talks with Iran, regional countries",
+              "link": "https://www.france24.com/en/middle-east/20260914-middle-east-live-houthis-say-hit-saudi-base-after-renewed-fighting-with-yemeni-forces"
             },
             {
               "source": "France 24 - International breaking news, top stories and headlines",
-              "title": "Yemen: The Houthis test Iran's regional influence",
-              "link": "https://www.france24.com/en/video/20260913-yemen-the-houthis-test-iran-s-regional-influence"
+              "title": "Iranian cargo vessel struck near Qeshm Island as Oman delays Tehran-Gulf talks",
+              "link": "https://www.france24.com/en/middle-east/20260914-iranian-ship-qeshm-island-tehran-hormuz"
             },
             {
-              "source": "France 24 - International breaking news, top stories and headlines",
-              "title": "Yemen: Fighting escalates around the Bab el-Mandeb Strait",
-              "link": "https://www.france24.com/en/yemen-fighting-escalates-around-the-bab-el-mandeb-strait"
+              "source": "News - South China Morning Post",
+              "title": "Middle East diplomacy falters as war spreads and Hormuz talks stall",
+              "link": "https://www.scmp.com/news/world/middle-east/article/3367372/iran-set-unveil-temporary-hormuz-agreement-gulf-nations-monday?utm_source=rss_feed"
             },
             {
               "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-              "title": "Fighting in Yemen intensifies, Houthis launch more attacks on Saudi Arabia",
-              "link": "https://www.thehindu.com/news/international/fighting-in-yemen-intensifies-houthis-launch-more-attacks-on-saudi-arabia/article71464664.ece"
+              "title": "Talks between Iran and Gulf countries in Oman postponed ‘in the interests of consensus’",
+              "link": "https://www.thehindu.com/news/international/talks-between-iran-and-gulf-countries-in-oman-postponed-in-the-interests-of-consensus/article71464526.ece"
+            }
+          ]
+        },
+        {
+          "id": "world-UHJvdGVzdHMgaW4gU3lyaWEg",
+          "kategori": "MELLANÖSTERN",
+          "rubrik": "Protester i Syrien mot höjda bränslepriser",
+          "sammanfattning": "Efter att den syriska regeringen höjt priserna på diesel med upp till 40 procent och på bensin med 28 procent bröt protester ut i flera städer. Demonstranter blockerade en större väg i flera timmar och eldade bildäck; protester rapporterades bland annat från Hama, Khan Sheikhoun och Maarat al-Numan. Regeringen kallar höjningarna tillfälliga och hänvisar till stigande globala kostnader för bränsle samt en översyn av raffinaderiet i Baniyas, vars kapacitet ska öka från 80 000 till 130 000 fat per dag. Enligt energiminister Mohammed al-Bashir producerar landet cirka 102 000 fat per dag medan behovet är omkring 325 000 fat, vilket täcks delvis med import.",
+          "varfor": "The protests signal growing public discontent in Syria amid economic hardship, with potential for instability in a war-torn region.",
+          "status": "",
+          "score": 50,
+          "reasons": [
+            "No Swedish coverage found (+35)",
+            "Underreported region (Middle East) (+15)"
+          ],
+          "region": "Middle East",
+          "swedishCoverage": "none",
+          "leadSource": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+          "publishedAt": "2026-09-14T04:50:25.000Z",
+          "singleSource": true,
+          "enriched": true,
+          "sourceCount": 1,
+          "coverage": [
+            {
+              "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+              "title": "Protests break out across Syria over fuel price increases",
+              "link": "https://www.aljazeera.com/news/2026/9/14/protests-break-out-across-syria-over-fuel-price-increases?traffic_source=rss"
             },
             {
-              "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-              "title": "Nearly 86,000 flee fighting in Yemen: UN",
-              "link": "https://www.thehindu.com/news/international/nearly-86000-flee-fighting-in-yemen-un/article71464343.ece"
+              "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+              "title": "Protests erupt across Syria over sharp fuel price hikes",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/14/14-09-sv-syria-protest-fuel-hikes-sy?traffic_source=rss"
             }
           ]
         }
       ],
-      "script": "Turkiet. Polisen slog till mot HBTQ-organisationer och gaybarer i tolv provinser i helgen, och minst 47 personer greps enligt myndigheterna själva.\n\nBakgrunden: Turkiet har haft en organiserad fientlighet mot HBTQ-rörelsen i ungefär ett decennium. Istanbul Pride förbjöds 2015 av det styrande AK-partiet, och sedan dess har varje försök till samling skingrats med våld. Samkönade relationer är inte olagliga i Turkiet, men president Recep Tayyip Erdogan har offentligt kallat HBTQ-personer för perverterade och gett dem skulden för det sjunkande födelsetalet. Det är mot den bakgrunden helgens tillslag ska läsas.\n\nDet som hände: räderna genomfördes natten mot söndagen, från klockan ett på morgonen, i Istanbul, Ankara, Izmir, Aydin och Mersin. Enligt Turkiets statliga nyhetsbyrå Anadolu grep åklagare i Ankara, Istanbul och Izmir sammanlagt minst 63 personer. Justitieminister Akin Gurlek skrev på X att åklagare har inlett utredning mot 162 misstänkta, nio föreningar och tretton företag, med motiveringen att skydda barn, familjen som institution och den allmänna ordningen. Han kopplade operationen, som fått namnet \"Min familj är trygg\", till Erdogans tioåriga dekret om familj och befolkning.\n\nSiffrorna går isär. Istanbulåklagaren säger 26 gripna, med beslag av droger, digital utrustning, smuggelsprit och ett skjutvapen. Ankaraåklagaren säger 21 gripna i utredningen mot organisationen Kaos GL. Kaos GL själva säger att ett femtiotal aktivister gripits, varav mer än tio i sina hem, och att myndigheterna blockerat deras och ett femtiotal andra HBTQ-organisationers konton och webbplatser. Anklagelsen mot Kaos GL är att ha publicerat obscent material som varit tillgängligt för barn.\n\nDet här är inte bara en inrikes angelägenhet. Turkiets människorättsförbund kallar operationen för statsledd diskriminering och en nedmontering av civilsamhället. Europaparlamentets rapportör för Turkiet, Nacho Sanchez Amor, kallar gripandena en chockerande eskalering av repressionen. Och justitieministern nämner själv att föreningarna påstås ta emot betydande finansiering från internationella källor, vilket är den formulering som i praktiken kan bli nästa steg mot åtal. Turkiet är fortfarande kandidatland till EU och formellt bundet av unionens krav på rättsstat och föreningsfrihet. Det är den kopplingen som gör att tillslaget får konsekvenser långt utanför Ankara.\n\nVad som inte är känt: hur många som faktiskt sitter frihetsberövade i detta nu. Myndigheternas egna siffror motsäger varandra, och ingen oberoende part har kunnat verifiera dem.\n\nJemen härnäst. Huthirörelsen har tagit strategisk mark vid Bab el-Mandeb och beskjuter Saudiarabien, samtidigt som regeringssidan erkänner ett smärtsamt nederlag.\n\nBakgrunden: Jemen har varit i krig i tolv år. Den internationellt erkända regeringen, stödd av Saudiarabien, har slagits mot huthierna, som är Iran-stödda och kontrollerar huvudstaden Sanaa och norra delen av landet. En vapenvila från 2022 hade i praktiken stoppat striderna. Den är nu bruten. Bab el-Mandeb är sundet mellan Jemen och Djibouti, en av världens viktigaste sjöfartsleder och ett alternativ till Hormuz för oljetransporter.\n\nDet som har hänt: den 10 september tog huthierna hamnstaden Mokha och en ö i sundet. Regeringssidan kallar förlusten smärtsam och förödmjukande. En medlem av det styrande presidentrådet, Sultan al-Arada, sade i en tv-intervju natten till lördagen att styrkorna grupperar om och kommer tillbaka, och på söndagen uppgav Jemens militär att man genomfört flyganfall mot huthipositioner i Mokha, Dhubab och Taiz. Huthierna rapporterar i sin tur anfall från den saudistödda sidan och artilleribeskjutning i Saadaprovinsen vid gränsen mot Saudiarabien.\n\nHuthierna har förklarat en blockad och säger sig rikta in sig på saudisk oljeinfrastruktur och sjöfart. De säger samtidigt att de inte tänker hota andra länders kommersiella sjöfart, men marknaden tror dem inte: oljepriserna har stigit igen. Saudiska myndigheter larmade i söndags i staden Abha och i Khamis Mushait och uppmanade invånare att söka skydd. Saudiskt civilförsvar uppger att en projektil slog ned nära gränsen, skadade två personer och förstörde en moské och flera byggnader, och skulden läggs på huthierna. Saudiarabien har inte annonserat några nya egna anfall.\n\nDen stora mänskliga kostnaden: FN uppskattar att fler än 80 000 människor drivits på flykt sedan september började. En kvinna från Khawkha i Hodeidaprovinsen beskriver för AP hur hon flydde mitt i natten och såg brinnande bilar och barn och kvinnor döda på vägen. Över 2 000 jemeniter har tagit sig över till Djibouti enligt Internationella migrationsorganisationen, och Djiboutis finansminister säger att kustbevakning och marina enheter genomför räddningsinsatser.\n\nEn detalj som sällan nämns: huthiernas framryckning för dem nu 32 kilometer från den amerikanska militärbasen i Djibouti, USA:s huvudbas i Afrika, där även Kina, Frankrike och Japan har baser. Det är den geografin som gör att Washington följer det här nära.\n\nSiffrorna för striderna kommer från en enda källa och ska behandlas därefter. Den regeringsallierade styrkan Nationella motståndet uppger att fler än 500 regeringssoldater dödats på västkusten under fyra veckor och omkring 1 500 skadats sedan den 9 augusti, samt att fler än 1 000 huthier dödats i Hodeida och Taiz. Det är deras första samlade redovisning, och en huthitaleman har inte svarat på förfrågan om kommentar. Inga av dessa siffror är oberoende bekräftade.\n\nAvslutningsvis, vilka uppgifter i det här programmet som vilar på en enda källa: antalet gripna i Turkiet varierar mellan åklagarnas egna besked och Kaos GL:s uppgift om ett femtiotal, och ingen oberoende verifiering finns. I Jemen kommer dödssiffrorna uteslutande från Nationella motståndet, och de är obekräftade. Uppgiften om att över 2 000 jemeniter nått Djibouti kommer från Internationella migrationsorganisationen."
+      "script": "Saudiarabien har stängt av sin stora öst-västliga pipeline efter drönaranfall, och samtalen om sjöfarten genom Hormuzsundet skjuts upp. Först bakgrunden.\n\nHormuzsundet är den smala passage mellan Persiska viken och Arabiska havet där omkring en femtedel av världens olja och flytande naturgas gick ut från Gulfstaterna före kriget. Den 28 februari inledde Israel och USA ett krig mot Iran, och sedan dess är trafiken genom sundet inte längre fri. Oman, vars södra kust ligger vid sundet, har blivit en central medlare och lade i juli fram ett förslag om en gemensam regional mekanism som skulle dela kontrollen över sundet femtio-femtio, med frivilliga avgifter från fartyg, ungefär som i Malackasundet. Iran avvisade frivilligheten och krävde att avgifterna ska vara obligatoriska, och har dessutom drivit på för att fartyg ska gå närmare den iranska kusten.\n\nDet som nu har hänt är att Oman på söndagen sköt upp ett möte som var planerat till måndagen, där Irans och Gulfstaternas utrikesministrar skulle ha träffats för att presentera en överenskommelse mellan Iran och Oman om sjöfartsrutterna. Omans utrikesminister Badr Albusaidi meddelade på X att mötet skjuts upp \"i konsensusens intresse\", och uppgav att Oman står fast vid dialogen. Irans statliga nyhetsbyrå Fars, som citerar en tjänsteman på utrikesministeriets Gulfavdelning, säger att uppskjutandet skedde på begäran av vissa länder i regionen och var ett gemensamt beslut av Teheran och Muscat. Något nytt datum finns inte.\n\nUppskjutandet kom timmar efter ett anfall mot ett iranskt handelsfartyg i sundet. Iransk statlig media uppger att en person dödades och fyra skadades i ett anfall utanför Qeshmön, omkring två mil från hamnstaden Bandar Abbas, och guvernören på Qeshm tillskriver enligt samma rapportering anfallet en \"terroristisk fiende\". Den brittiska sjöfartsövervakningen UKMTO uppger separat att ett fartyg träffats av en projektil under passage genom sundet, att en kraftig brand brutit ut och att lokala myndigheter evakuerar dem ombord. UKMTO klargör inte om det rör samma incident som Iran beskriver. USA:s militär har inte kommenterat; den har tidigare beslagtagit och attackerat iranska fartyg i sin blockad av iranska hamnar.\n\nIrans president Masoud Pezeshkian skriver på sociala medier att det iranska folket inte kan tvingas till underkastelse och att Iran inte kommer att kapitulera. USA:s president Donald Trump säger samtidigt att Iran \"vill göra en uppgörelse så gärna\" att de \"ringer hela tiden\", och på en direkt fråga om USA låg bakom attacken mot det iranska lastfartyget svarade han: \"Det vill jag inte säga.\" Det är värt att notera att Trump vill få tillbaka sjöfarten till nivåerna före kriget för att pressa energipriserna inför kongressvalet i november, medan Teheran inte visar några tecken på att ge upp det man ser som sitt strategiska hävstångsmedel.\n\nDet som är känt är alltså att samtalen skjutits upp, att ett fartyg träffats och att en person dött. Det som inte är känt är vem som utförde attacken. Iran pekar ut en \"terroristisk fiende\" utan att namnge någon, UKMTO bekräftar en träff men inte av vem, och USA tiger. Det finns ingen oberoende bekräftelse på någon av versionerna.\n\nVarför det spelar roll utanför regionen: Saudiarabien höll hela helgen stängt sin pipeline på 120 mil, den öst-västliga ledning som är den viktigaste vägen för olja som kringgår just Hormuzsundet. Den skadades i drönaranfall i fredags. När marknaderna öppnade på måndagen steg oljepriset. Med den viktigaste omvägen stängd och samtalen om sundet uppskjutna finns det för närvarande ingen fungerande kanal för att få ned risken i världens mest trafikerade oljepassage.\n\nVi går vidare till Syrien, där bränsleprishöjningar har utlöst protester.\n\nSyrien styrs efter fjorton år av krig av en regering som försöker få igång ekonomin, och bränsleförsörjningen är en av de mest känsliga punkterna i den återuppbyggnaden. Landet producerar ungefär 102 000 fat olja per dag, enligt energiminister Mohammed al-Bashir, medan den inhemska förbrukningen ligger på omkring 325 000 fat per dag. Mellanskillnaden måste importeras, och priset på att säkra den importen har stigit kraftigt.\n\nI söndags höjde regeringen priserna, med upp till fyrtio procent på diesel och tjugoåtta procent på bensin. Regeringen kallar höjningarna tillfälliga och hänvisar dels till den globala kostnaden för att säkra bränsle, dels till en översyn av Baniyasraffinaderiet, som enligt regeringen ska öka kapaciteten från 80 000 till 130 000 fat per dag. Energiministeriet säger enligt den statliga nyhetsbyrån SANA att man kommer att fortsätta se över priserna när marknadsläget förändras och på lång sikt bygga ut raffinaderi- och lagringskapacitet.\n\nProtester rapporterades i Hama, Khan Sheikhoun och Maarat al-Numan. Demonstranter blockerade en huvudväg i flera timmar, och Al Jazeera har publicerat filmat material som visar folksamlingar på gatan och brinnande bildäck. Höjningarna har också väckt hård debatt i sociala medier.\n\nHär är en sak värd att vara tydlig med: den här rapporteringen kommer från en enda kanal. Det är Al Jazeera som rapporterar om protesterna, om platserna och om det filmade materialet, och det är Al Jazeera som återger energiministerns siffror och hänvisningen till SANA. Det finns ingen andra oberoende källa i underlaget som bekräftar omfattningen av protesterna, hur många som deltagit eller hur länge blockaden varade. Att prishöjningarna ägt rum och att regeringen angett de skälen är vad som framgår av materialet; hur utbredda protesterna är, är det inte.\n\nSammanfattningsvis: uppgifterna om protesterna i Syrien och om de syriska bränslepriserna vilar på en enda kanal, Al Jazeera. Uppgifterna om Hormuzsundet bygger på flera källor, men den centrala frågan där, vem som attackerade det iranska fartyget, är fortfarande obesvarad."
     }
   ],
   "feed": [
     {
       "id": "feed-congress-UmVwLiBUaWZmYW55IHN1cnZp",
       "sphere": "congress",
-      "kategori": "OLYCKA",
-      "rubrik": "Tom Tiffany skadad efter nödlandning på sjö",
-      "sammanfattning": "Republikanen Tom Tiffany, kongressledamot från Wisconsin och guvernörskandidat, färdades i ett litet enmotorigt plan på lördagskvällen när det förlorade kraften inför Wausau Downtown Airport. Piloten Leonard Boltz gjorde en nödlandning på Lake Wausau. Tiffany och piloten tog sig ut ur planet och simmade till grunt vatten, varifrån de larmade 911 medan de stod på flygplanskroppen. Båda fördes till sjukhus med lindriga skador; Tiffany fick stygn ovanför höger öga. FAA och NTSB ska utreda händelsen.",
-      "synthes": "BBC och NPR uppger att planet var en Beechcraft Bonanza, medan The Guardian beskriver den som en fyr sitsig Bonanza och BBC säger att den kan ta upp till fem personer; NPR och BBC anger att personerna var i vattnet i cirka 20 respektive 15 minuter innan de hämtades, och NPR uppger att Tiffany var på väg hem från La Crosse County Lincoln Day Dinner.",
+      "kategori": "POLITIK",
+      "rubrik": "Tiffany skadad efter nödlandning på sjö",
+      "sammanfattning": "Republikanen Tom Tiffany, kongressledamot från Wisconsin och guvernörskandidat, färdades i ett litet enmotorigt plan på lördagskvällen när det tappade kraft inför Wausau Downtown Airport. Piloten gjorde en nödlandning på Lake Wausau och båda ombord tog sig ut ur planet och simmade till grundare vatten. Tiffany uppger att han fick stygn ovanför höger öga och skrevs ut från sjukhuset, medan piloten också behandlades för lindriga skador. Enligt Marathon County Sheriff's Office var de i vattnet i omkring 20 minuter innan räddningstjänsten nådde dem med båt. FAA och NTSB ska utreda händelsen.",
+      "synthes": "NPR och BBC ger mer detaljer om tidsförloppet och räddningen, medan BBC uppger att planet var en Beechcraft K35 med plats för upp till fem personer och The Guardian beskriver det som en fyr sittplatser stor Bonanza – samma plan, olika angiven kapacitet.",
       "leadSource": "House News",
       "publishedAt": "2026-09-13T12:57:19.000Z",
       "readMinutes": 1,
@@ -517,11 +647,52 @@
       "image": null
     },
     {
+      "id": "feed-world-T21hbiBwb3N0cG9uZXMgSG9y",
+      "sphere": "world",
+      "kategori": "GEOPOLITIK",
+      "rubrik": "Hormuzsamtal skjuts upp efter attack mot fartyg",
+      "sammanfattning": "Oman sköt upp ett möte som var planerat till måndagen mellan Iran och gulfstater om sjöfarten i Hormuzsundet, enligt utrikesminister Badr Albusaidi för att värna konsensus. Irans Fars nyhetsbyrå uppger att uppskjutandet skedde på begäran av vissa länder i regionen och var ett gemensamt beslut av Teheran och Muscat. Beskedet kom timmar efter att en iransk lastbåt träffats av en projektil nära Qeshmön, varvid en person dödades och fyra skadades; Irans myndigheter skyllde på en \"terroristisk fiende\". Storbritanniens sjöfartsövervakning UKMTO rapporterade separat om ett fartyg som träffats i sundet.",
+      "synthes": "Al Jazeera och The Hindu ger flest detaljer om attacken och samtalen, medan SCMP tillför att Saudiarabien hållit en viktig öst-västlig pipeline stängd efter drönarattacker och att oljepriset steg – uppgifter som inte nämns av de övriga.",
+      "leadSource": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+      "publishedAt": "2026-09-14T00:00:00.000Z",
+      "readMinutes": 1,
+      "sourceCount": 4,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+          "title": "Iran war live: Oman says Hormuz talks with Iran, Gulf states postponed",
+          "link": "https://www.aljazeera.com/news/liveblog/2026/9/14/iran-war-live-oman-says-hormuz-talks-with-iran-gulf-states-postponed?traffic_source=rss"
+        },
+        {
+          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+          "title": "Tehran and Muscat delay talks, citing regional consensus need",
+          "link": "https://www.aljazeera.com/news/2026/9/13/tehran-and-muscat-delay-talks-citing-regional-consensus-need?traffic_source=rss"
+        },
+        {
+          "source": "France 24 - International breaking news, top stories and headlines",
+          "title": "Mideast live: Oman postpones Hormuz talks with Iran, regional countries",
+          "link": "https://www.france24.com/en/middle-east/20260914-middle-east-live-houthis-say-hit-saudi-base-after-renewed-fighting-with-yemeni-forces"
+        },
+        {
+          "source": "News - South China Morning Post",
+          "title": "Middle East diplomacy falters as war spreads and Hormuz talks stall",
+          "link": "https://www.scmp.com/news/world/middle-east/article/3367372/iran-set-unveil-temporary-hormuz-agreement-gulf-nations-monday?utm_source=rss_feed"
+        },
+        {
+          "source": "World News Today: International News Headlines - The Hindu | The Hindu",
+          "title": "Talks between Iran and Gulf countries in Oman postponed ‘in the interests of consensus’",
+          "link": "https://www.thehindu.com/news/international/talks-between-iran-and-gulf-countries-in-oman-postponed-in-the-interests-of-consensus/article71464526.ece"
+        }
+      ]
+    },
+    {
       "id": "feed-congress-SmVmZnJpZXMgZG9lcyBub3Qg",
       "sphere": "congress",
       "kategori": "POLITIK",
       "rubrik": "Jeffries utesluter inte riksrätt mot Trump",
-      "sammanfattning": "Hakeem Jeffries, demokraternas minoritetsledare i representanthuset, sade i ABC:s \"This Week\" att han inte utesluter att driva riksrätt mot president Trump om demokraterna tar tillbaka kammaren i november. Han sade att man varken har beslutat för eller emot. Uttalandet kom som svar på en fråga från programledaren George Stephanopoulos.",
+      "sammanfattning": "Demokraternas minoritetsledare i representanthuset, Hakeem Jeffries, sade i ABC:s \"This Week\" att han varken slagit fast eller uteslutit en riksrättsprocess mot president Trump om demokraterna tar tillbaka kammaren i november. På frågan från programledaren George Stephanopoulos svarade han att ingenting har uteslutits i fråga om riksrätt.",
       "synthes": "",
       "leadSource": "Senate News",
       "publishedAt": "2026-09-13T18:10:57.000Z",
@@ -557,8 +728,8 @@
       "sphere": "congress",
       "kategori": "TEKNIK",
       "rubrik": "Trump tonar ned AI-varningar med hänvisning till Kina",
-      "sammanfattning": "President Trump sade vid sitt golfresort i Doonbeg på Irland att varningarna om AI är överdrivna och att \"negativa krafter\" tar upp saker som inte kommer att hända. Han sade att USA leder över Kina inom AI och att skyddsräcken kan sättas upp, men att landet inte får förlora AI-racet. Uttalandet kom efter att Anthropics vd Dario Amodei i en essä uppmanat till att bromsa utvecklingen och föreslagit oberoende granskning, branschregler och global reglering. Open AI:s Sam Altman och Elon Musk har sagt sig dela Amodeis oro, och Altman uppgav att en börsnotering skjuts upp.",
-      "synthes": "BBC och NPR ger olika uppgifter om tidsramar och personer: BBC nämner den tidigare Anthropic-forskaren Jacob Coxon och hans varningar, medan NPR citerar David Sacks svar på X; SVT och BBC skiljer sig också i stavningen av Amodeis namn och i vilka detaljer om mötet som lyfts fram.",
+      "sammanfattning": "President Trump sade vid sin golfbana i irländska Doonbeg att varningarna om AI är överdrivna och att \"negativa krafter\" tar upp saker som inte kommer att hända. Han framhöll att USA leder över Kina inom AI och att den som vinner AI-racet vinner, men att skyddsräcken kan sättas upp. Uttalandet kom efter att Anthropics vd Dario Amodei i en text uppmanat till ett långsammare tempo, och efter att Open AI:s Sam Altman och Elon Musk sagt sig dela hans oro. Talmannen Mike Johnson varnade i CNN för att en snabb reglering skulle få USA att förlora mot Kina, medan Jeffries i ABC argumenterade för att tempot bör sänkas.",
+      "synthes": "BBC och NPR återger samma citat men BBC tillför fler detaljer om branschens varningar och om en tidigare Anthropic-anställd som talat med BBC, medan SVT enbart sammanfattar Trumps uttalande och de tre branschföreträdarnas varningar.",
       "leadSource": "Administration News",
       "publishedAt": "2026-09-13T15:57:05.000Z",
       "readMinutes": 1,
@@ -589,47 +760,11 @@
       ]
     },
     {
-      "id": "feed-world-VHVya2V5IHJhaWRzIGdheSBi",
-      "sphere": "world",
-      "kategori": "JURIDIK",
-      "rubrik": "Turkiet slår mot hbtqi-rörelsen – minst 26 gripna",
-      "sammanfattning": "Turkisk polis genomförde under helgen razzior mot gaybarer, hbtqi-aktivisters hem och organisationskontor i ett flertal provinser. Justitieminister Akin Gürlek uppgav att rättsliga åtgärder inletts mot 162 misstänkta personer, nio organisationer och 13 företag inom ramen för kampanjen \"Min familj är trygg\" och president Erdogans tioåriga familjeprogram. Organisationen Kaos GL uppger att ett femtiotal aktivister gripits eller är föremål för rättsliga åtgärder, medan åklagarmyndigheten i Istanbul uppger 26 gripna och Ankara-åklagaren ytterligare 21. Flera hbtqi-konton på sociala medier blockerades.",
-      "synthes": "Antalet gripna skiljer sig mellan källorna: BBC uppger 47 gripna totalt, Al Jazeera minst 63 enligt Anadolu, medan SVT och BBC citerar åklagarmyndighetens siffra 26 och Kaos GL:s uppgift om ett femtiotal; BBC och The Hindu nämner också olika kampanjnamn och antal provinser.",
-      "leadSource": "BBC News",
-      "publishedAt": "2026-09-13T14:25:56.000Z",
-      "readMinutes": 1,
-      "sourceCount": 4,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "Utrikes | SVT Nyheter",
-          "title": "Turkiet gör tillslag mot gaybarer och aktivister",
-          "link": "https://www.svt.se/nyheter/utrikes/turkiet-gor-tillslag-mot-gaybarer-och-aktivister"
-        },
-        {
-          "source": "BBC News",
-          "title": "Turkish police detain dozens in raids on gay bars and homes of LGBTQ+ activists",
-          "link": "https://www.bbc.co.uk/news/articles/cpve191wy47o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-          "title": "Turkish authorities launch anti-LGBTQ raids, detaining dozens",
-          "link": "https://www.aljazeera.com/news/2026/9/14/turkish-authorities-launch-anti-lgbtq-raids-detaining-dozens?traffic_source=rss"
-        },
-        {
-          "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-          "title": "Turkish authorities launch crackdown on LGBTQ+, HIV support groups",
-          "link": "https://www.thehindu.com/news/international/turkish-authorities-launch-crackdown-on-lgbtq-hiv-support-groups/article71463680.ece"
-        }
-      ]
-    },
-    {
       "id": "feed-congress-TGF3bGVyIHF1ZXN0aW9ucyBm",
       "sphere": "congress",
-      "kategori": "EKONOMI",
-      "rubrik": "Lawler undviker fråga om Trumps 5 000-dollarsutdelning",
-      "sammanfattning": "Republikanen Mike Lawler från New York sade i ABC:s \"This Week\" att han stöder att pengar kommer hårt arbetande amerikaner till del, men undvek att svara ja på frågan om han stöder Trumps förslag om 5 000 dollar till varje vuxen amerikan. Han ställde i stället frågan hur förslaget ska finansieras. Därmed anslöt han sig till flera andra republikanska ledamöter som ifrågasatt förslagets finansiering.",
+      "kategori": "POLITIK",
+      "rubrik": "Lawler undviker frågan om Trumps 5 000-dollarsutdelning",
+      "sammanfattning": "Republikanen Mike Lawler från New York anslöt sig i ABC:s \"This Week\" till flera partikamrater som ifrågasätter det finanspolitiska i president Trumps förslag att skicka 5 000 dollar till varje vuxen amerikan. Han undvek först frågan om han stödjer utdelningen och lyfte i stället fram att pengar ska tillbaka till hårt arbetande människor, men frågade hur förslaget ska finansieras.",
       "synthes": "",
       "leadSource": "Senate News",
       "publishedAt": "2026-09-13T18:50:47.000Z",
@@ -661,94 +796,12 @@
       ]
     },
     {
-      "id": "feed-world-WWVtZW4gZmlnaHRpbmcgaW50",
-      "sphere": "world",
-      "kategori": "GEOPOLITIK",
-      "rubrik": "Huthierna avancerar mot Marib och Taiz – tusentals flyr",
-      "sammanfattning": "Striderna i Jemen har intensifierats sedan huthierna tagit kontroll över stora delar av Jemens röda havskust, inklusive hamnstaden Mocha och strategiska öar vid Bab el-Mandeb. Huthierna uppges avancera mot regeringskontrollerade områden som Marib och Taiz, och regeringsstyrkor har svarat med flyganfall. Huthierna har också attackerat mål i Saudiarabien, bland annat en militärbas i Sharurah, medan saudiska myndigheter uppger att en projektil skadat en moské och byggnader nära gränsen. FN uppskattar att över 80 000 människor tvingats fly sedan början av september.",
-      "synthes": "The Hindu och SVT rapporterar om samma huthiattack mot Sharurah men med olika detaljer om tidpunkt och skador, och The Hindu uppger att över 500 regeringssoldater dödats på västkusten medan huthierna inte kommenterat; Al Jazeera och France 24 bidrar med bakgrund om gruppen och hotet mot sjöfarten.",
-      "leadSource": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-      "publishedAt": "2026-09-14T00:14:09.000Z",
-      "readMinutes": 1,
-      "sourceCount": 3,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-          "title": "Yemen’s Houthis advance on government strongholds of Marib, Taiz",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/9/14/yemens-houthis-advance-on-government-strongholds-of-marib-taiz?traffic_source=rss"
-        },
-        {
-          "source": "France 24 - International breaking news, top stories and headlines",
-          "title": "Sucker Punch: How the Houthis shocked the Gulf",
-          "link": "https://www.france24.com/en/tv-shows/spotlight/20260913-sucker-punch-how-the-houthis-shocked-the-gulf"
-        },
-        {
-          "source": "France 24 - International breaking news, top stories and headlines",
-          "title": "Yemen: The Houthis test Iran's regional influence",
-          "link": "https://www.france24.com/en/video/20260913-yemen-the-houthis-test-iran-s-regional-influence"
-        },
-        {
-          "source": "France 24 - International breaking news, top stories and headlines",
-          "title": "Yemen: Fighting escalates around the Bab el-Mandeb Strait",
-          "link": "https://www.france24.com/en/yemen-fighting-escalates-around-the-bab-el-mandeb-strait"
-        },
-        {
-          "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-          "title": "Fighting in Yemen intensifies, Houthis launch more attacks on Saudi Arabia",
-          "link": "https://www.thehindu.com/news/international/fighting-in-yemen-intensifies-houthis-launch-more-attacks-on-saudi-arabia/article71464664.ece"
-        },
-        {
-          "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-          "title": "Nearly 86,000 flee fighting in Yemen: UN",
-          "link": "https://www.thehindu.com/news/international/nearly-86000-flee-fighting-in-yemen-un/article71464343.ece"
-        }
-      ]
-    },
-    {
-      "id": "feed-world-SXJhbi1HdWxmIEhvcm11eiB0",
-      "sphere": "world",
-      "kategori": "GEOPOLITIK",
-      "rubrik": "Hormuzsamtal skjuts upp efter attack mot iranskt fartyg",
-      "sammanfattning": "Ett möte i Oman mellan Iran och gulfstaterna om sjöfarten genom Hormuz, planerat till måndagen, sköts upp på söndagen. Omans utrikesminister Badr Albusaidi uppgav att uppskjutandet skedde \"i samförståndets intresse\", medan iranska Fars citerade en tjänsteman som sade att beslutet fattats gemensamt av Teheran och Muscat på begäran av vissa länder i regionen. Uppskjutandet kom timmar efter att en iransk lastbåt träffats av en projektil nära Qeshm, varvid en person dödades och fyra skadades. Iran skyllde på en \"terroristisk fiende\". Oljepriserna steg när marknaderna öppnade.",
-      "synthes": "Al Jazeera och The Hindu ger delvis olika uppgifter om vilka länder som skulle delta och om samtalsämnet, och SCMP tillägger att Saudiarabien höll en viktig öst-västlig pipeline stängd efter drönarattacker, vilket inte nämns i de andra källorna.",
-      "leadSource": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-      "publishedAt": "2026-09-14T00:00:00.000Z",
-      "readMinutes": 1,
-      "sourceCount": 3,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-          "title": "Iran war live: Oman says Hormuz talks with Iran, Gulf states postponed",
-          "link": "https://www.aljazeera.com/news/liveblog/2026/9/14/iran-war-live-oman-says-hormuz-talks-with-iran-gulf-states-postponed?traffic_source=rss"
-        },
-        {
-          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-          "title": "Tehran and Muscat delay talks, citing regional consensus need",
-          "link": "https://www.aljazeera.com/news/2026/9/13/tehran-and-muscat-delay-talks-citing-regional-consensus-need?traffic_source=rss"
-        },
-        {
-          "source": "News - South China Morning Post",
-          "title": "Middle East diplomacy falters as war spreads and Hormuz talks stall",
-          "link": "https://www.scmp.com/news/world/middle-east/article/3367372/iran-set-unveil-temporary-hormuz-agreement-gulf-nations-monday?utm_source=rss_feed"
-        },
-        {
-          "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-          "title": "Talks between Iran and Gulf countries in Oman postponed ‘in the interests of consensus’",
-          "link": "https://www.thehindu.com/news/international/talks-between-iran-and-gulf-countries-in-oman-postponed-in-the-interests-of-consensus/article71464526.ece"
-        }
-      ]
-    },
-    {
       "id": "feed-congress-T2JhbWEgdXJnZXMgRGVtb2Ny",
       "sphere": "congress",
       "kategori": "POLITIK",
-      "rubrik": "Obama uppmanar Demokraterna att prioritera AI",
-      "sammanfattning": "Barack Obama ska vid en insamlingsmiddag i veckan ha uppmanat Hakeem Jeffries att göra AI-tillsyn till en central del av Demokraternas agenda. Enligt uppgifter till The New York Times sade Obama att demokratiska ledamöter bör ta fram ett ramverk för en offentlig diskussion om tekniken om de tar tillbaka representanthuset. Uppmaningen gäller både kongressen och presidentkandidater.",
-      "synthes": "",
+      "rubrik": "Obama vill att demokraterna lyfter AI-frågan",
+      "sammanfattning": "Barack Obama uppmanade enligt uppgifter i The New York Times Hakeem Jeffries vid en insamling i torsdags att göra AI-tillsyn till en central del av demokraternas agenda. Om partiet tar tillbaka representanthuset bör ledamöterna ta fram ett ramverk för ett offentligt samtal om tekniken, ska Obama ha sagt.",
+      "synthes": "Politics och House News/Administration News beskriver samma uppmaning men med olika detaljnivå; den förstnämnda talar allmänt om kongress och presidentkandidater, de senare kopplar den specifikt till Jeffries och ett demokratiskt maktövertagande.",
       "leadSource": "Politics",
       "publishedAt": "2026-09-13T15:55:04.000Z",
       "readMinutes": 1,
@@ -778,8 +831,8 @@
       "sphere": "crypto",
       "kategori": "REGLERING",
       "rubrik": "Vita huset accepterar etikregler i kryptolag",
-      "sammanfattning": "Vita huset har accepterat ny etikformulering i Clarity Act inför senatens procedurvot på tisdag. Bestämmelsen förbjuder offentliga tjänstemän att ge ut eller sponsra digitala tillgångar och kan enligt uppgifterna verkställas av både delstatliga åklagare och justitiedepartementet. Republikanerna i senaten har lagt fram ett reviderat förslag på 635 sidor, och president Trump har accepterat de flesta etikbestämmelserna, som bland annat begränsar tjänstemäns och deras makars kryptotransaktioner.",
-      "synthes": "",
+      "sammanfattning": "Vita huset har gått med på ny etikformulering i Clarity Act inför senatens avgörande omröstning om kryptoregleringslagen på tisdag. Bestämmelsen förbjuder offentliga tjänstemän att ge ut eller sponsra digitala tillgångar och kan enligt uppgifterna verkställas både av delstatliga åklagare och av justitiedepartementet. Republikanerna i senaten har lagt fram ett slutligt utkast på 635 sidor, där Trump enligt The Block accepterat de flesta etikbestämmelser som begränsar tjänstemän och deras makar i kryptohandel.",
+      "synthes": "Administration News beskriver innehållet i etikklausulen och vem som kan verkställa den, medan The Block och Cointelegraph fokuserar på att utkastet är slutligt och att Trump accepterat begränsningarna.",
       "leadSource": "The Block",
       "publishedAt": "2026-09-14T04:24:37.000Z",
       "readMinutes": 1,
@@ -808,9 +861,9 @@
       "id": "feed-world-SXJhbmlhbiBzaGlwIHN0cnVj",
       "sphere": "world",
       "kategori": "GEOPOLITIK",
-      "rubrik": "Iranskt handelsfartyg träffat i Hormuz – en död",
-      "sammanfattning": "Ett iranskt containerfartyg träffades tidigt i söndags av en projektil nära Qeshm i Hormuzsundet. Enligt iransk statlig media dödades en av de tio besättningsmedlemmarna och fyra skadades. Qeshm-guvernören skyllde på en \"terroristisk fiende\" och sade att projektilen ännu inte identifierats. Storbritanniens sjöfartsmyndighet UKMTO rapporterade separat att ett fartyg träffats av en projektil i sundet. USA:s militär hade ingen omedelbar kommentar.",
-      "synthes": "The Hindu och France 24 uppger båda att en person dödades och fyra skadades, medan Administration News inte nämner några skadade; The Hindu noterar att UKMTO:s rapport kan avse samma händelse men att det inte är klarlagt.",
+      "rubrik": "Iranskt fartyg träffat nära Hormuzsundet",
+      "sammanfattning": "Ett iranskt kommersiellt containerfartyg träffades tidigt i söndags nära Qeshmön i Hormuzsundet, enligt iransk statlig media. En person dödades och fyra skadades; Qeshm-guvernören skyllde på en \"terroristisk fiende\" och uppgav att den dödade tillhörde fartygets tio personer stora besättning. UKMTO rapporterade separat att ett fartyg träffats av en projektil i sundet utan närmare uppgifter. USA:s militär hade ingen omedelbar kommentar.",
+      "synthes": "France 24 och The Hindu ger flest detaljer om dödsoffer och besättning, medan Administration News sammanfattar händelsen kortare; The Hindu tillägger bakgrund om Houthi-rebellernas påverkan på Bab el-Mandeb, vilket de övriga inte nämner.",
       "leadSource": "France 24 - International breaking news, top stories and headlines",
       "publishedAt": "2026-09-14T02:35:36.000Z",
       "readMinutes": 1,
@@ -840,8 +893,8 @@
       "sphere": "crypto",
       "kategori": "TEKNIK",
       "rubrik": "Anthropic-chefen vill bromsa AI-utvecklingen",
-      "sammanfattning": "Dario Amodei, vd för Anthropic, skrev i en essä att AI-utvecklingen bör bromsas och övervakas nära. Han föreslog en trepunktsplan med oberoende granskning av modeller, branschregler och global reglering, och lovade att Anthropic ensidigt skulle vidta åtgärderna. Open AI:s Sam Altman och xAI:s Elon Musk har sagt sig hålla med. En tidigare Anthropic-forskare, Jacob Coxon, sade till BBC att anställda inom branschen är genuint rädda för mänsklighetens framtid.",
-      "synthes": "BBC och Cointelegraph/CoinDesk betonar olika delar: BBC lyfter Coxons varningar och kritik från Silicon Valley, medan kryptokällorna fokuserar på Altmans besked att skjuta upp en börsnotering.",
+      "sammanfattning": "Anthropics vd Dario Amodei skrev i en text att AI-utvecklingen bör gå långsammare och övervakas nära, med förslag om oberoende granskning av modeller, branschregler och global reglering. Open AI:s Sam Altman och xAI:s Elon Musk har båda sagt sig hålla med. Amodei betonade att en bromsning måste vara begränsad och samordnad för att inte låta Kina gå om, och uppmanade USA att hindra försäljning av AI-chip till Kina.",
+      "synthes": "BBC ger den mest utförliga redogörelsen för Amodeis förslag och reaktionerna, medan Cointelegraph och CoinDesk enbart sammanfattar att Altman och Musk instämmer.",
       "leadSource": "Cointelegraph.com News",
       "publishedAt": "2026-09-13T11:09:54.000Z",
       "readMinutes": 1,
@@ -867,11 +920,11 @@
       ]
     },
     {
-      "id": "feed-congress-RGVtb2NyYXQgdXJnZXMgSm9o",
+      "id": "feed-congress-RGVtIHJlcCB1cmdlcyBKb2hu",
       "sphere": "congress",
       "kategori": "POLITIK",
       "rubrik": "Demokrat kräver att Johnson kallar tillbaka kongressen om AI",
-      "sammanfattning": "Demokraten Greg Stanton från Arizona sade i NewsNations \"The Hill Sunday\" att talmannen Mike Johnson bör hålla kvar ledamöterna i session för att hantera riskerna med snabbt framväxande AI-modeller. Han sade att varningarna från ledande AI-forskare måste tas på största allvar. Uttalandet kom efter en tidigare Anthropic-forskares varningar.",
+      "sammanfattning": "Demokraten Greg Stanton från Arizona sade i NewsNations \"The Hill Sunday\" att talmannen Mike Johnson bör hålla kvar ledamöterna i session för att hantera riskerna med snabbt framväxande AI-modeller. Han sade att varningarna från ledande AI-forskare måste tas på största allvar, efter att en tidigare Anthropic-anställd uttalat sig.",
       "synthes": "",
       "leadSource": "Senate News",
       "publishedAt": "2026-09-13T19:49:35.000Z",
@@ -901,8 +954,8 @@
       "id": "feed-congress-TGF3bWFrZXJzIHJldHVybiBm",
       "sphere": "congress",
       "kategori": "POLITIK",
-      "rubrik": "Kongressen återvänder med full agenda",
-      "sammanfattning": "Representanthuset och senaten återvänder till Washington denna vecka med en full agenda innan fokus i stor utsträckning skiftar till höstens mellanårsval. Senaten väntas fortsätta samtalen om budgetresolutionen och hålla en procedurvot om kryptolagstiftningen. Representanthuset väntas enligt uppgifter behandla ytterligare ärenden. President Trump deltog samtidigt i en golfturnering på Irland.",
+      "rubrik": "Kongressen återvänder till full agenda",
+      "sammanfattning": "Representanthuset och senaten återvänder till Washington denna vecka med en fullspäckad agenda innan fokus i stor utsträckning skiftar till höstens mellanårsval. Senaten väntas fortsätta samtalen om budgetresolutionen och hålla en proceduromröstning om kryptoregleringslagen. Representanthuset väntas enligt uppgifterna behandla ytterligare ärenden.",
       "synthes": "",
       "leadSource": "Senate News",
       "publishedAt": "2026-09-13T13:02:06.000Z",
@@ -932,9 +985,9 @@
       "id": "feed-crypto-UmV2b2x1dCBjdXN0b21lciBk",
       "sphere": "crypto",
       "kategori": "JURIDIK",
-      "rubrik": "Revolut-kunders data läckt efter falsk myndighetsförfrågan",
-      "sammanfattning": "Fintechbolaget Revolut uppger att kunddata exponerats efter en bedrägeriförfrågan som utgett sig komma från en myndighetsdomän. Pass, selfies och finansiella transaktionshistoriker för vissa kunder ska ha röjts. Angripare uppges ha publicerat identitetshandlingar och selfies och hotat att läcka mer data varje dag tills bolaget betalar. Onchain-utredaren ZachXBT spekulerade i att incidenten kan ha riktat sig mot förmögna användare.",
-      "synthes": "",
+      "rubrik": "Revolut-kunders uppgifter läckte efter falsk myndighetsförfrågan",
+      "sammanfattning": "Revolut uppger att kunddata exponerats sedan en bedragare använt en domän som tillhör en myndighet för att skicka en falsk begäran. Pass, selfies och finansiella transaktionshistoriker för vissa kunder ska ha röjts. Enligt Cointelegraph publicerade angriparna identitetshandlingar och selfies och hotade med dagliga läckor till dess att fintechbolaget betalar. Onchain-utredaren ZachXBT spekulerade i att incidenten kan ha riktat in sig på förmögna användare.",
+      "synthes": "The Block fokuserar på hur intrånget gick till och vem som kan ha varit mål, medan Cointelegraphs två texter beskriver läckans omfattning och angriparnas hot.",
       "leadSource": "The Block",
       "publishedAt": "2026-09-12T18:57:08.000Z",
       "readMinutes": 1,
@@ -964,7 +1017,7 @@
       "sphere": "congress",
       "kategori": "POLITIK",
       "rubrik": "Senaten möter tre oavslutade prioriteringar",
-      "sammanfattning": "Senaten återvänder denna vecka med tre oavslutade prioriteringar: kryptolagstiftning, jordbrukslagen och den budgetresolution som republikanerna behöver för att låsa upp ett tredje försoningspaket. Den största frågan är om republikanerna kan enas om budgetresolutionen.",
+      "sammanfattning": "Senaten återvänder denna vecka med tre oavslutade prioriteringar: kryptolagstiftningen, jordbrukslagen och den budgetresolution som republikanerna behöver för att låsa upp ett tredje försoningspaket. Den största frågan är om partiet kan enas kring budgetresolutionen.",
       "synthes": "",
       "leadSource": "Senate News",
       "publishedAt": "2026-09-13T19:57:28.000Z",
@@ -986,12 +1039,12 @@
       ]
     },
     {
-      "id": "feed-congress-VHJ1bXAgcHJvbWlzZXMgJDUs",
+      "id": "feed-congress-VHJ1bXAgc2F5cyAkNUsgZGl2",
       "sphere": "congress",
-      "kategori": "EKONOMI",
-      "rubrik": "Trump: 5 000-dollarscheckar kommer att ske",
-      "sammanfattning": "President Trump sade i söndags att utbetalningar på 5 000 dollar till amerikaner kommer att \"ske till 100 procent\" om republikanerna behåller sin majoritet i kongressen efter mellanårsvalet. Han jämförde utbetalningarna med de checkar på 1 776 dollar som gick till amerikanska militärer. Uttalandet gjordes till reportrar utanför Air Force One. Enligt NPR har löftet väckt uppmärksamhet men inte övertygelse.",
-      "synthes": "",
+      "kategori": "POLITIK",
+      "rubrik": "Trump: utdelningarna kommer att ske till 100 procent",
+      "sammanfattning": "President Trump sade i söndags att utbetalningarna på 5 000 dollar kommer att ske \"till 100 procent\" om republikanerna behåller majoriteten i kongressen efter mellanårsvalet. Han jämförde utbetalningarna med de 1 776 dollar som gick till amerikanska militärer. NPR beskriver att löftet väckt uppmärksamhet men inte tilltro, och att vicepresident JD Vance samtidigt karakteriserade demokraterna som extremister.",
+      "synthes": "Administration News återger Trumps besked och jämförelsen med militärutbetalningarna, medan NPR tillför att löftet inte mötts av tilltro och nämner Vances uttalanden, vilket den andra källan inte tar upp.",
       "leadSource": "Administration News",
       "publishedAt": "2026-09-14T00:27:32.000Z",
       "readMinutes": 1,
@@ -1012,12 +1065,12 @@
       ]
     },
     {
-      "id": "feed-congress-Rmlyc3QgZGVwb3J0YXRpb24g",
+      "id": "feed-congress-VVMgZGVwb3J0cyBsZWdhbCBy",
       "sphere": "congress",
       "kategori": "JURIDIK",
       "rubrik": "Första fallet i särskild domstol – afghansk kvinna utvisad",
-      "sammanfattning": "Nazira Haji Zada, 47, laglig permanent bosatt i USA, utvisades till Afghanistan efter att ha medgett att hon är en \"alien terrorist\" i det första fallet någonsin vid Alien Terrorist Removal Court. Domstolen inrättades 1996 men hade aldrig prövat ett mål förrän i juli. Åklagare anklagade henne för att ha stött en plan av hennes son och svärson att genomföra en IS-inspirerad masskjutning på valdagen 2024. Hennes advokater uppger att de nekats ta del av bevisningen och ifrågasätter domstolens konstitutionalitet.",
-      "synthes": "NPR och BBC ger delvis olika uppgifter om namn och domstolsförfarande: NPR skriver att sonen Abdullah Haji Zada dömts till 15 års fängelse och att svärsonen heter Nasir Ahmad Tawhedi, medan BBC skriver Tawhed och att båda männen dömts.",
+      "sammanfattning": "Nazira Haji Zada, 47, laglig permanentboende i USA, utvisades till Afghanistan efter att ha medgett att hon är en \"alien terrorist\" i det första fallet någonsin vid Alien Terrorist Removal Court. Domstolen inrättades 1996 för att låta justitiedepartementet använda hemligstämplad bevisning vid utvisningar. Åklagare hävdade att hon som familjens matriark radikaliserat sina barn och stött en planerad masskjutning på valdagen 2024, där hennes son och svärson dömts. Hennes försvarare uppger att de inte fått ta del av bevisningen och kallar förfarandet grundlagsstridigt.",
+      "synthes": "NPR och BBC beskriver samma förlopp, men NPR ger fler detaljer om bevisningen och turerna kring familjen medan BBC tydligare betonar att hon aldrig åtalats för brott och citerar justitiedepartementets uttalande.",
       "leadSource": "NPR Topics: Politics",
       "publishedAt": "2026-09-12T18:29:18.000Z",
       "readMinutes": 1,
@@ -1042,8 +1095,8 @@
       "sphere": "congress",
       "kategori": "EKONOMI",
       "rubrik": "Altman: Open AI börsnoteras inte i år",
-      "sammanfattning": "Open AI:s vd Sam Altman uppgav i en intervju med Fortune att bolaget inte kommer att börsnoteras i år. Han sade att man fokuserar på säkerhetsfrågor och att en notering samtidigt vore ogenomtänkt, och att den i stället ska ske nästa år. Beskedet kommer efter att Altman, Anthropics Dario Amodei och Elon Musk alla varnat för att AI-utvecklingen måste bromsas.",
-      "synthes": "",
+      "sammanfattning": "Open AI:s vd Sam Altman uppger i en intervju med Fortune att bolaget inte kommer att börsnoteras i år. Han säger att man nu fokuserar på säkerhetsfrågor kring tekniken och att en notering samtidigt vore ogenomtänkt; i stället ska den ske nästa år. Beskedet kommer efter att Altman, Anthropics Dario Amodei och Elon Musk alla varnat för att AI-utvecklingen måste bromsas.",
+      "synthes": "SVT och CoinDesk återger samma besked, men SVT ger mer av Altmans motivering medan CoinDesk citerar hans formulering om att det vore olämpligt att gå till börsen just nu.",
       "leadSource": "Utrikes | SVT Nyheter",
       "publishedAt": "2026-09-13T05:00:50.000Z",
       "readMinutes": 1,
@@ -1067,8 +1120,8 @@
       "id": "feed-congress-U3VsbGl2YW4gYW5kIFBlbHRv",
       "sphere": "congress",
       "kategori": "POLITIK",
-      "rubrik": "Sullivan och Peltola möts i fiskedebatt",
-      "sammanfattning": "Republikanen Dan Sullivan, sittande senator för Alaska, och demokraten Mary Peltola, tidigare kongressledamot, möttes i sin första direktsända debatt i lördags. Debatten kretsade kring delstatens fiskerinäring. Enligt uppgifterna har Peltolas kampanj redan tagit fasta på ett särskilt ögonblick i debatten.",
+      "rubrik": "Sullivan och Peltola möttes i fiskedebatt",
+      "sammanfattning": "Republikanen Dan Sullivan, sittande senator för Alaska, och demokraten Mary Peltola, tidigare kongressledamot, möttes i sin första direktsända debatt i lördags. Debatten kretsade kring delstatens fiskerinäring, och ett ögonblick under debatten har redan använts av Peltolas kampanj.",
       "synthes": "",
       "leadSource": "Senate News",
       "publishedAt": "2026-09-13T01:02:24.000Z",
@@ -1092,9 +1145,9 @@
     {
       "id": "feed-congress-TWFyc2hhbGwgYmFja3RyYWNr",
       "sphere": "congress",
-      "kategori": "EKONOMI",
-      "rubrik": "Marshall backar om Trumps 5 000-dollarsutdelning",
-      "sammanfattning": "Senator Roger Marshall från Kansas tycktes ändra sin inställning till president Trumps förslag om 5 000 dollar till amerikaner under en debatt på Kansas State Fair mot demokraten Adam Hamilton. En moderator frågade båda kandidaterna om de stöder utdelningen och hänvisade till kostnaden på 1,2 biljoner dollar och den växande statsskulden. Marshall svarade inledningsvis undvikande.",
+      "kategori": "POLITIK",
+      "rubrik": "Marshall backar om Trumps utdelning i debatt",
+      "sammanfattning": "Senator Roger Marshall från Kansas tycktes ändra sin hållning till president Trumps utdelning på 5 000 dollar under en debatt på Kansas State Fair mot demokraten Adam Hamilton. En moderator frågade båda kandidaterna om de stödjer förslaget och hänvisade till dess kostnad på 1 200 miljarder dollar mot bakgrund av den växande statsskulden.",
       "synthes": "",
       "leadSource": "Senate News",
       "publishedAt": "2026-09-12T22:44:10.000Z",
@@ -1116,11 +1169,11 @@
       ]
     },
     {
-      "id": "feed-congress-R09QIHJlcCBjYWxscyBmb3Ig",
+      "id": "feed-congress-R09QIHJlcCBGbG9vZCB1cmdl",
       "sphere": "congress",
       "kategori": "TEKNIK",
-      "rubrik": "Republikan: Få kontroll över AI",
-      "sammanfattning": "Republikanen Mike Flood från Nebraska sade i NewsNations \"The Hill Sunday\" att den federala regeringen bör införa skyddsåtgärder för AI för att förhindra att tekniken hamnar i orätta händer. Han sade att ledarna för de största AI-bolagen bör svara på frågor om teknikens säkerhet och risker.",
+      "rubrik": "Republikan: få kontroll över AI",
+      "sammanfattning": "Republikanen Mike Flood från Nebraska sade i NewsNations \"The Hill Sunday\" att den federala regeringen bör införa skyddsåtgärder för AI för att hindra tekniken från att hamna i orätta händer. Han ansåg att ledarna för de främsta AI-bolagen bör stå till svars och svara på frågor om teknikens säkerhet och risker.",
       "synthes": "",
       "leadSource": "House News",
       "publishedAt": "2026-09-13T19:24:32.000Z",
@@ -1145,8 +1198,8 @@
       "id": "feed-congress-R09QIHJlcCBzYXlzIG1pbGl0",
       "sphere": "congress",
       "kategori": "POLITIK",
-      "rubrik": "Republikan: Militären bör prioriteras före 5 000-dollarscheckar",
-      "sammanfattning": "Republikanen Mike Flood från Nebraska sade i söndags att han stöder mer pengar till försvarsdepartementet framför att anta lagstiftning för president Trumps förslag om 5 000 dollar till amerikaner. Han sade att förslaget först måste granskas, men att prioriteringen just nu bör vara att finansiera trupperna och fylla på förråden.",
+      "rubrik": "Republikan vill prioritera militären före 5 000-dollarcheckar",
+      "sammanfattning": "Republikanen Mike Flood från Nebraska sade att han stödjer ökad finansiering till försvarsdepartementet under Iran-kriget framför att driva igenom president Trumps förslag om utdelning på 5 000 dollar. Han sade att förslaget först måste ses i sin helhet, men att prioriteringen just nu bör vara att finansiera trupperna och fylla på förråden.",
       "synthes": "",
       "leadSource": "House News",
       "publishedAt": "2026-09-13T17:27:31.000Z",
@@ -1171,9 +1224,9 @@
       "id": "feed-congress-VHJ1bXAgcGxhbnMgdG8gbGlm",
       "sphere": "congress",
       "kategori": "POLITIK",
-      "rubrik": "Trump vill se ett enat Irland – oklart om policy",
-      "sammanfattning": "Under sitt besök på Irland sade president Trump att han vill se ett enat Irland, vilket blev en global nyhet. Det var oklart om uttalandet innebär en ny amerikansk policy eller en spontan kommentar. Den tidigare republikanske kongressledamoten Mick Mulvaney, som var Trumps särskilda sändebud för Nordirland, sade att uttalandet inte innebär en förändring av USA:s utrikespolitik och att stödet för långfredagsavtalet kvarstår. Trump upprepade sina synpunkter i ett tal vid USA:s ambassadörsresidens. Han sade också att han planerar att häva tullar på irländsk whiskey.",
-      "synthes": "Administration News rapporterar om tullarna på whiskey medan BBC fokuserar på uttalandet om ett enat Irland och spekulerar i om det riktade sig till irländsk-amerikanska väljare inför mellanårsvalet.",
+      "rubrik": "Trump vill slopa tullar på irländsk whiskey",
+      "sammanfattning": "President Trump sade i söndags under sitt besök på Irland att han planerar att slopa tullarna på irländsk whiskey. BBC rapporterar samtidigt att Trumps uttalanden om ett enat Irland väckte uppmärksamhet, och att det stod oklart om det rörde sig om en ny amerikansk politik eller en spontan kommentar. Den tidigare kongressledamoten Mick Mulvaney, Trumps särskilda sändebud för Nordirland under den första mandatperioden, sade att uttalandet inte innebär någon förändring av USA:s utrikespolitik och att stödet för långfredagsavtalet består.",
+      "synthes": "Administration News rapporterar om tullarna på whiskey, medan BBC fokuserar på uttalandet om ett enat Irland och tolkningarna av det – de två källorna beskriver alltså olika delar av samma besök.",
       "leadSource": "Administration News",
       "publishedAt": "2026-09-13T21:05:47.000Z",
       "readMinutes": 1,
@@ -1194,28 +1247,28 @@
       ]
     },
     {
-      "id": "feed-congress-SG91dGhpcyBjbGFpbSBhdHRh",
+      "id": "feed-congress-UmVwdWJsaWNhbnMgY2FzdCBN",
       "sphere": "congress",
-      "kategori": "GEOPOLITIK",
-      "rubrik": "Huthierna uppger attack mot saudisk bas",
-      "sammanfattning": "Huthirörelsen uppger att den attackerat en militärbas i Sharurah i södra Saudiarabien med robotar och drönare, riktade mot vapenförråd och ledningscentraler. Tidpunkten för attacken anges inte. Saudiarabien uppger samtidigt att två personer skadats och flera byggnader skadats i en attack mot ett samhälle i Jazan-provinsen. Striderna mellan huthierna och de saudistödda jemenitiska regeringsstyrkorna har intensifierats, och huthierna har nyligen tagit kontroll över stora delar av Jemens röda havskust.",
-      "synthes": "SVT och The Hindu rapporterar om samma händelser men The Hindu tillägger att Axios uppgett att Saudiarabiens kronprins två gånger bett Trump om amerikanska attacker mot huthierna, vilket avslagits, och att FN:s migrationsorgan uppger att 76 000 flytt sedan juli.",
-      "leadSource": "Utrikes | SVT Nyheter",
-      "publishedAt": "2026-09-12T23:55:56.000Z",
+      "kategori": "POLITIK",
+      "rubrik": "Republikaner lyfter antimuslimsk retorik inför valet",
+      "sammanfattning": "Republikanerna gör antimuslimsk retorik till en central del av sin valkampanj inför mellanårsvalet, vilket mött skarp kritik från demokrater och politiska bedömare. Attackerna tilltog vid partiets första mellanårsvalskonvent i Dallas, där flera ledande republikaner pekade ut New Yorks borgmästare Zohran Mamdani och Michigans senatskandidat Abdul El-Sayed. I The Guardian argumenterar Nesrine Malik för att en ny generation amerikaner med muslimsk bakgrund gör sig gällande politiskt och kulturellt, samtidigt som islamofobin enligt Pew blivit mer utbredd och partipolitiskt laddad sedan 11 september.",
+      "synthes": "The Hill beskriver den republikanska retoriken och reaktionerna på den, medan Guardian-texten är en argumenterande krönika som sätter den i ett bredare sammanhang – de två källorna ger alltså olika genrer och perspektiv på samma företeelse.",
+      "leadSource": "Political Campaign News | The Hill",
+      "publishedAt": "2026-09-13T10:00:00.000Z",
       "readMinutes": 1,
       "sourceCount": 2,
       "singleSource": false,
       "enriched": true,
       "sources": [
         {
-          "source": "Utrikes | SVT Nyheter",
-          "title": "Huthirörelsen: Attack mot bas",
-          "link": "https://www.svt.se/nyheter/utrikes/huthirorelsen-attack-mot-bas"
+          "source": "Political Campaign News | The Hill",
+          "title": "Republicans cast Muslim Democrats as chief enemies in &#039;dangerous&#039; midterm pitch",
+          "link": "https://thehill.com/homenews/campaign/6085055-gop-cruz-muslim-democrats-midterms/"
         },
         {
-          "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-          "title": "Houthis say hit Saudi base after renewed fighting with Yemeni govt forces",
-          "link": "https://www.thehindu.com/news/international/yemen-govt-forces-say-hit-houthis-in-red-sea-city/article71461361.ece"
+          "source": "US politics | The Guardian",
+          "title": "The US right still paints Muslims as the ‘enemy’. But they are fighting for a brighter future for Americans | Nesrine Malik",
+          "link": "https://www.theguardian.com/commentisfree/2026/sep/14/9-11-anniversary-islamophobia-us-politics-zohran-mamdani"
         }
       ]
     },
@@ -1223,8 +1276,8 @@
       "id": "feed-crypto-Q2xhcml0eSBBY3QncyB1bmNl",
       "sphere": "crypto",
       "kategori": "REGLERING",
-      "rubrik": "Oklart läge för Clarity Act inför senatens vot",
-      "sammanfattning": "Kryptobranschen väntar på en procedurvot i senaten den 15 september om Clarity Act, men det är oklart om voteringen blir av. Enligt CoinDesk kan den skjutas upp eller återkomma i annan form. Läget beskrivs som osäkert när senaten återvänder.",
+      "rubrik": "Ovisst läge för Clarity Act inför senatens återkomst",
+      "sammanfattning": "Kryptobranschen väntar på en omröstning den 15 september om Clarity Act, men det är oklart om den blir av. CoinDesk beskriver lagförslaget som i ett skenbart levande-dött tillstånd, där omröstningen kan skjutas upp eller återkomma i annan form.",
       "synthes": "",
       "leadSource": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "publishedAt": "2026-09-13T18:45:08.000Z",
@@ -1242,6 +1295,48 @@
           "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
           "title": "Crypto's Clarity Act is a Schrödinger's cat in life-death limbo as U.S. Senate returns",
           "link": "https://www.coindesk.com/news-analysis/2026/09/11/crypto-s-clarity-act-is-a-schroedinger-s-cat-in-life-death-limbo-as-u-s-senate-returns"
+        }
+      ]
+    },
+    {
+      "id": "feed-congress-VHJ1bXAgdXJnZXMgVWtyYWlu",
+      "sphere": "congress",
+      "kategori": "GEOPOLITIK",
+      "rubrik": "Trump: Ukraina bör avstå från attacker mot ryska raffinaderier",
+      "sammanfattning": "President Trump sade i söndags att Ukraina bör hålla tillbaka sina attacker mot ryska oljeraffinaderier, med hänvisning till stigande dieselpriser under Iran-kriget och den efterföljande energikrisen. Uttalandet kom vid hans golfbana på Irland under Irish Open, efter en fråga om huruvida han talat med Ukrainas president Volodymyr Zelenskyj.",
+      "synthes": "",
+      "leadSource": "Administration News",
+      "publishedAt": "2026-09-14T03:16:14.000Z",
+      "readMinutes": 1,
+      "sourceCount": 1,
+      "singleSource": true,
+      "enriched": false,
+      "sources": [
+        {
+          "source": "Administration News",
+          "title": "Trump says Ukraine should halt Russian refinery strikes amid surging diesel prices",
+          "link": "https://thehill.com/homenews/administration/6087423-trump-urges-ukraine-halt-russia-oil-strikes/"
+        }
+      ]
+    },
+    {
+      "id": "feed-congress-SnVkZ2UgcnVsZXMgRkVNQSB3",
+      "sphere": "congress",
+      "kategori": "JURIDIK",
+      "rubrik": "Domare: Trumps plan att halvera FEMA olaglig",
+      "sammanfattning": "En federal domare slog i fredags fast att Trump-administrationen bröt mot lagen när den försökte skära ned personalstyrkan vid Federal Emergency Management Agency. I sitt beslut skriver distriktsdomaren Susan Illston att departementet för inrikessäkerhet \"olagligen tillskansade sig\" FEMAs befogenhet. Avgörandet sammanföll med USA:s orkansäsong.",
+      "synthes": "",
+      "leadSource": "Administration News",
+      "publishedAt": "2026-09-12T21:56:57.000Z",
+      "readMinutes": 1,
+      "sourceCount": 1,
+      "singleSource": true,
+      "enriched": false,
+      "sources": [
+        {
+          "source": "Administration News",
+          "title": "Trump&#039;s plan to halve FEMA workforce illegal, judge rules",
+          "link": "https://thehill.com/regulation/court-battles/6086363-trump-fema-cuts-illegal-federal-judge/"
         }
       ]
     }
