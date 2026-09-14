@@ -1,0 +1,72 @@
+name: Lockfile
+
+# Run this once, by hand, from Actions -> Lockfile -> Run workflow.
+#
+# WHY IT EXISTS. There is no package-lock.json in this repo, and brief.yml runs
+# `npm install`. That means every nightly run re-resolves the dependency tree
+# from scratch against whatever npm considers newest inside the version ranges
+# in package.json - so the code that runs tonight is not necessarily the code
+# that ran last night, and nothing records which was which.
+#
+# This is not theoretical here. fast-xml-parser was declared as "^4.4.1", npm
+# quietly moved to 4.5.5, and 4.5.5 added an entity-expansion limit that rejects
+# ordinary RSS. Four feeds - Sveriges Radio twice, The Guardian, Axios - started
+# failing with "Entity expansion limit exceeded" and were logged as DEAD FEED.
+# They had been fixed once before and the fix was not reverted, it was
+# reinstalled over. Without a lockfile that can happen to any of the roughly 150
+# packages in this tree, on any night, with no diff to look at afterwards.
+#
+# AFTER THIS RUNS, brief.yml switches itself to `npm ci` automatically - it
+# checks for the lockfile and uses it when present. No second edit needed.
+#
+# Re-run this whenever package.json changes on purpose. The commit it makes is
+# the record of what actually got installed.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  lock:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # --package-lock-only resolves the full tree and writes the lockfile
+      # without building native modules or running install scripts. Faster, and
+      # nothing executes that would not execute during a normal install anyway.
+      - name: Resolve the dependency tree
+        run: npm install --package-lock-only --no-audit --no-fund
+
+      - name: Show what got pinned
+        run: |
+          node -e '
+            const lock = require("./package-lock.json");
+            const pkgs = lock.packages || {};
+            const direct = Object.keys(require("./package.json").dependencies || {});
+            console.log("lockfileVersion", lock.lockfileVersion);
+            console.log("total packages :", Object.keys(pkgs).length - 1);
+            console.log("");
+            for (const name of direct) {
+              const e = pkgs["node_modules/" + name];
+              console.log("  " + name.padEnd(22) + (e ? e.version : "MISSING"));
+            }
+          '
+
+      - name: Commit it
+        run: |
+          git config user.name  "morgonbrief"
+          git config user.email "actions@users.noreply.github.com"
+          git add package-lock.json
+          git diff --staged --quiet && echo "Lockfile already current." && exit 0
+          git commit -m "Lock the dependency tree"
+          git pull --rebase --autostash
+          git push
