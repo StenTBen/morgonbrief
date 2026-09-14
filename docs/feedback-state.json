@@ -1,9 +1,17 @@
 {
-  "watermark": "2026-09-13T17:14:27.776Z",
+  "watermark": "2026-09-14T04:58:22.063Z",
   "boundaryIds": [
-    "5icVO2bLXnv1UWn4Uw38"
+    "5Qj4deVfgcH9QRI7URdc"
   ],
-  "updatedAt": "2026-09-14T04:20:10.758Z",
-  "pending": {},
+  "updatedAt": "2026-09-14T05:01:01.600Z",
+  "pending": {
+    "congressionalMachinery": [
+      {
+        "at": "2026-09-14T04:58:07.047Z",
+        "delta": 1,
+        "itemId": "feed-congress-VHJ1bXAgZG93bnBsYXlzIEFJ"
+      }
+    ]
+  },
   "history": []
 }
