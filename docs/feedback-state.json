@@ -1,15 +1,22 @@
 {
-  "watermark": "2026-09-14T16:21:02.743Z",
+  "watermark": "2026-09-15T12:04:23.076Z",
   "boundaryIds": [
-    "FRsGaT4EZBZaHqHmtlNc"
+    "yG4rHprSFRw2d4cu3LSF"
   ],
-  "updatedAt": "2026-09-15T02:58:53.882Z",
+  "updatedAt": "2026-09-16T02:55:01.941Z",
   "pending": {
     "congressionalMachinery": [
       {
         "at": "2026-09-14T04:58:07.047Z",
         "delta": 1,
         "itemId": "feed-congress-VHJ1bXAgZG93bnBsYXlzIEFJ"
+      }
+    ],
+    "internationalPolitics": [
+      {
+        "at": "2026-09-15T06:26:04.151Z",
+        "delta": 1,
+        "itemId": "feed-world-VHJ1bXAgZGlzbWlzc2VzIEFJ"
       }
     ]
   },
