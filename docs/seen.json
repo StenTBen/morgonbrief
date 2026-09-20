@@ -28,7 +28,8 @@
     "gov-aave-24055",
     "tvl-ethereum-2026-09-18",
     "tvl-ethereum-2026-09-19",
-    "gov-aave-25170"
+    "gov-aave-25170",
+    "tvl-ethereum-2026-09-20"
   ],
   "world": [
     "world-QlJJQ1Mgc3VtbWl0IG9wZW5z",
@@ -67,7 +68,9 @@
     "world-QXVzdHJhbGlhIG1pZ3JhdGlv",
     "world-TmV3IGNhdCBzcGVjaWVzIGlk",
     "world-Q29zdCBhbmQgZmFsbG91dCBv",
-    "world-VVMgYXBwcm92ZXMgRi0zNSBz"
+    "world-VVMgYXBwcm92ZXMgRi0zNSBz",
+    "world-RWQgU2hlZXJhbiBHYXphIGNv",
+    "world-Q3ViYSBuYXRpb253aWRlIGJs"
   ],
   "val2026": [
     "val2026-a72cdd9097e0c074",
@@ -103,6 +106,7 @@
     "sverige-MTk3ZmUzMzJkMzRjNjgxYg",
     "sverige-MGUzM2ZlMjNkOGJhNjFiZQ",
     "sverige-N2EyN2VlZGE4NjZhNTQ5MA",
-    "sverige-NzU5Njk0MDJhNmUyMjU0YQ"
+    "sverige-NzU5Njk0MDJhNmUyMjU0YQ",
+    "sverige-NTQ3MTVmODk1NTFiMWY2Ng"
   ]
 }
