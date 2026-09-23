@@ -33,7 +33,9 @@
     "gov-arbitrum-30192",
     "tvl-solana-2026-09-21",
     "tvl-ethereum-2026-09-22",
-    "tvl-solana-2026-09-22"
+    "tvl-solana-2026-09-22",
+    "gov-uniswap-19734",
+    "gov-aave-25500"
   ],
   "world": [
     "world-QlJJQ1Mgc3VtbWl0IG9wZW5z",
@@ -78,7 +80,9 @@
     "world-SG91dGhpIG1pc3NpbGUgYXR0",
     "world-SW1yYW4gS2hhbidzIHNpc3Rl",
     "world-VUsgdG8gcmVmdWVsIFNhdWRp",
-    "world-U2lzdGVycyBvZiBQYWtpc3Rh"
+    "world-U2lzdGVycyBvZiBQYWtpc3Rh",
+    "world-TWFjcm9uJ3MgZmluYWwgVU4g",
+    "world-U2Nob29sIHNob290aW5nIGlu"
   ],
   "val2026": [
     "val2026-a72cdd9097e0c074",

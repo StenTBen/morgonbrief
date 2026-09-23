@@ -1,12 +1,12 @@
 {
-  "date": "2026-09-22",
-  "builtAt": "2026-09-22T03:10:08.437Z",
+  "date": "2026-09-23",
+  "builtAt": "2026-09-23T03:10:20.183Z",
   "episodes": [
     {
       "sphere": "congress",
       "sphereLabel": "US Congress",
-      "audioUrl": "https://github.com/StenTBen/morgonbrief/releases/download/audio/pod-congress-2026-09-22.mp3",
-      "audioBytes": 56640,
+      "audioUrl": "https://github.com/StenTBen/morgonbrief/releases/download/audio/pod-congress-2026-09-23.mp3",
+      "audioBytes": 56736,
       "itemCount": 0,
       "items": [],
       "script": "God morgon. Inget lagförslag klarade tröskeln idag. Bevakningen handlade om politik, inte om lagstiftning som rört sig, och då finns det ingenting i dokumenten att fördjupa. Vi hörs imorgon."
@@ -14,690 +14,360 @@
     {
       "sphere": "crypto",
       "sphereLabel": "Crypto",
-      "audioUrl": "https://github.com/StenTBen/morgonbrief/releases/download/audio/pod-crypto-2026-09-22.mp3",
-      "audioBytes": 1396896,
+      "audioUrl": "https://github.com/StenTBen/morgonbrief/releases/download/audio/pod-crypto-2026-09-23.mp3",
+      "audioBytes": 1893024,
       "itemCount": 2,
       "items": [
         {
-          "id": "tvl-ethereum-2026-09-22",
-          "rubrik": "Ethereum: TVL-rörelse",
-          "sammanfattning": "Ethereums TVL steg från 53 398 883 172 USD till 54 029 571 309 USD, en förändring på 1,18 procent. Bakgrunden är att Circle lanserar Bitcoin-stödd USDC-upplåning för institutionella kunder, vilket gör att de kan använda sina BTC-innehav för USDC-likviditet utan att sälja Bitcoinen.",
-          "varfor": "Circles lansering kan flytta BTC- och USDC-likviditet in i Ethereum-baserade utlåningsmiljöer.",
-          "status": "Rörelsen är över 50 miljoner USD men flaggas som tunn.",
-          "score": 20,
+          "id": "gov-uniswap-19734",
+          "rubrik": "Uniswap v3 på BNB Chain – RFC med 102 svar",
+          "sammanfattning": "Ett förslag (RFC) vill ge 0xPlasma Labs mandat att deploya Uniswap v3 (1 / 0,3 / 0,05 / 0,01) på BNB PoS Chain. Tråden har 102 inlägg och skapades 2022-12-11; i diskussionen nämns bland annat att BNB Chain är näst störst efter Ethereum och att PancakeSwap har 2,35 miljarder dollar i TVL.",
+          "varfor": "CME:s beslut att lägga till Bitcoin Cash- och Uniswap-terminer kopplas i materialet till Uniswap-deployen och derivatmarknadsdiskussionen i BNB Chain-tråden.",
+          "status": "RFC-stadium; enligt svar i tråden krävs sju dagars väntan innan temperature check, som behöver 10 miljoner For-röster för att gå vidare till on-chain-votering.",
+          "score": 35,
           "reasons": [
-            ">$50M moved (+20)"
+            "Contested (102 replies) (+35)"
           ],
-          "singleSource": true,
-          "documentUrl": "https://defillama.com/chain/Ethereum",
+          "singleSource": false,
+          "documentUrl": "https://gov.uniswap.org/t/rfc-update-deploy-uniswap-v3-1-0-3-0-05-0-01-on-bnb-chain-binance/19734",
           "coverage": [
             {
-              "source": "Cointelegraph.com News",
-              "title": "Circle launches Bitcoin-backed USDC borrowing for institutional clients",
-              "link": "https://cointelegraph.com/news/circle-launches-bitcoin-backed-usdc-borrowing-for-institutional-clients?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+              "source": "The Block",
+              "title": "CME adds Bitcoin Cash and Uniswap futures as crypto derivatives push grows",
+              "link": "https://www.theblock.co/news/markets/2026-09-22-cme-adds-bitcoin-cash-and-uniswap-futures-as-crypto-derivatives-push-grows-416049"
+            },
+            {
+              "source": "Decrypt",
+              "title": "CME Expands Crypto Futures Lineup With Bitcoin Cash and Uniswap",
+              "link": "https://decrypt.co/379004/cme-crypto-bitcoin-cash-uniswap-futures"
             }
           ]
         },
         {
-          "id": "tvl-solana-2026-09-22",
-          "rubrik": "Solana: TVL-rörelse",
-          "sammanfattning": "Solanas TVL gick från 6 299 401 410 USD till 6 480 902 633 USD, en uppgång på 2,88 procent. Samtidigt noteras att NEAR Intents nått 29,3 miljarder USD i kumulativ volym, inklusive swappar med Zcash, och att NEAR stigit kraftigt.",
-          "varfor": "Cross-chain-flödet som NEAR Intents volym pekar på kan flytta TVL inom Solana DeFi.",
-          "status": "Rörelsen är över 50 miljoner USD men flaggas som tunn.",
-          "score": 20,
+          "id": "gov-aave-25500",
+          "rubrik": "HINC som säkerhet på Aave Horizon",
+          "sammanfattning": "Securitize föreslår att HINC – den tokeniserade andelsklassen i Neuberger Securitize High Income Tokenized Fund Ltd. – tas upp som supply-only-säkerhet på Aave Horizon (Ethereum), med USDC, GHO och RLUSD lånebara mot den. LlamaRisk stödjer onboarding och rekommenderar ett initialt supply cap på 10 000 HINC, LTV 55 procent samt en liquidation threshold.",
+          "varfor": "Ondos in-kind-konvertering av aktier till tokeniserade andelar matchar Aaves onboarding av tokeniserad fondsäkerhet som HINC.",
+          "status": "ARFC med 9 svar; LlamaRisk har lämnat stöd och parametrar, medan tråden fortsätter diskutera timelock- och liquidator-SLA-gates.",
+          "score": 25,
           "reasons": [
-            ">$50M moved (+20)"
+            "Live discussion (9 replies) (+25)"
           ],
-          "singleSource": false,
-          "documentUrl": "https://defillama.com/chain/Solana",
+          "singleSource": true,
+          "documentUrl": "https://governance.aave.com/t/arfc-onboard-hinc-neuberger-securitize-high-income-tokenized-fund-to-aave-horizon/25500",
           "coverage": [
             {
               "source": "Cointelegraph.com News",
-              "title": "NEAR jumps nearly 80% in a week as Intents volume nears $30B",
-              "link": "https://cointelegraph.com/markets/near-price-surge-intents-zcash-privacy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-            },
-            {
-              "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-              "title": "Bitcoin rises above $81,000, while NEAR jumps 23% on Zcash swap traffic",
-              "link": "https://www.coindesk.com/markets/2026/09/21/bitcoin-rises-above-usd81-000-while-near-jumps-23-on-zcash-swap-traffic"
+              "title": "Ondo lets institutions convert stocks directly into tokenized shares",
+              "link": "https://cointelegraph.com/news/ondo-lets-institutions-convert-stocks-directly-into-tokenized-shares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
             }
           ]
         }
       ],
-      "script": "Circle öppnar för institutionell USDC-upplåning mot bitcoin som säkerhet.\n\nCircle är utgivaren av USDC. Det nya här är att bolaget självt ställer sig i kreditledet: institutionella kunder ska kunna låna USDC mot bitcoin som pant, utan att sälja bitcoinen. Uppgiften kommer från Cointelegraph den 21 september, och det är den enda källan i mitt underlag.\n\nDet som inte finns i materialet är i praktiken allt som avgör om detta betyder något. Där står ingen belåningsgrad, ingen ränta, inget tak för programmets storlek, inget om vem som håller säkerheten och ingen uppgift om huruvida Circle tar kreditrisken på egen balansräkning eller förmedlar den vidare. Utan de uppgifterna går det inte att säga om produkten konkurrerar med de etablerade kreditborden eller bara formaliserar något Circle redan gjorde bilateralt.\n\nDet som går att mäta är kedjan bredvid. DefiLlamas siffror för Ethereum går från 53,40 miljarder dollar till 54,03 miljarder dollar, en uppgång på 1,18 procent, alltså drygt 630 miljoner dollar. Kopplingen mellan Circles lansering och den rörelsen är en hypotes från aggregatorn, inte ett konstaterat samband. Underlaget innehåller ingen uppdelning av rörelsen på nya insättningar kontra prisuppgång i de underliggande tillgångarna, och det är en avgörande skillnad. TVL mäter dollarvärdet av det som ligger låst i kontrakten vid en given tidpunkt. Det mäter inte intäkter, inte antal användare och inte hur mycket av kapitalet som är samma dollar räknad två gånger via olika lager av insättningsbevis. En kedja kan alltså se ut att växa en procent utan att en enda ny dollar har flyttats in.\n\nVem gynnas är det mer intressanta ledet. En institution som lånar mot bitcoin i stället för att sälja skjuter upp en skattehändelse och behåller exponeringen. Priset är likvidationsrisk vid nedgång. Vilka nivåer som gäller framgår inte av materialet.\n\nNästa ämne är Solana och kedjans kapitalinflöde.\n\nBakgrunden är NEAR Intents, en avvecklingsmekanism där användaren uttrycker vad hen vill uppnå i stället för att själv sätta ihop transaktionsvägen, och där så kallade lösare konkurrerar om att utföra bytet över kedjegränser. Det gör flödet svårt att spåra i vanlig brygg-statistik, eftersom volymen bokförs hos lösarna snarare än som en identifierbar överföring mellan två kedjor.\n\nCointelegraph rapporterade den 21 september att NEAR Intents nått 29,3 miljarder dollar i kumulativ volym, inklusive byten som involverar Zcash, och att NEAR stigit nästan 80 procent på en vecka. CoinDesk skrev samma dag att NEAR var upp 23 procent och att bitcoin passerat 81 000 dollar under den asiatiska sessionen, med hänvisning till framsteg i handelssamtalen mellan Washington och Peking. Notera att kumulativ volym är ett summerat mått sedan start, inte ett flöde för dygnet. Det säger ingenting om hur mycket kapital som ligger kvar någonstans.\n\nSolanas TVL enligt DefiLlama går från 6,299 miljarder dollar till 6,481 miljarder dollar, plus 2,88 procent, ungefär 181 miljoner dollar. Aggregatorns motivering är att gränsöverskridande flöden av den här typen kan flytta Solanas DeFi-kapital. Men i mitt underlag finns ingen uppgift som knyter NEAR Intents-volymen till Solana-insättningar. Det är en möjlig förklaring, inte en dokumenterad. Och eftersom Solanas TVL i huvudsak är denominerad i tillgångar vars pris rör sig, är en uppgång på knappt tre procent på ett dygn fullt förenlig med att ingenting alls har flyttats in i kedjan.\n\nBåda TVL-posterna är för övrigt markerade som tunna i det underlag jag har. Den enda tröskel de passerat är att mer än femtio miljoner dollar rört sig.\n\nTill sist provenensen. Circles lansering vilar på en enda källa, Cointelegraph, och programmets villkor saknas helt. Volymsiffran 29,3 miljarder dollar för NEAR Intents kommer från samma källa och är ursprungligen protokollets egen mätning, inte en oberoende verifikation. Bitcoinnoteringen över 81 000 dollar kommer från CoinDesk ensamt. TVL-siffrorna för Ethereum och Solana är DefiLlamas, och orsakssambanden mellan nyheterna och siffrorna är aggregatorns framing, inte något som är belagt i materialet."
-    },
-    {
-      "sphere": "sverige",
-      "sphereLabel": "Sveriges politik",
-      "audioUrl": "https://github.com/StenTBen/morgonbrief/releases/download/audio/pod-sverige-2026-09-22.mp3",
-      "audioBytes": 997440,
-      "itemCount": 1,
-      "items": [
-        {
-          "id": "feed-sverige-YTZjZmE5NjZkNDk5ZDJiYQ",
-          "sphere": "sverige",
-          "kategori": "SVERIGES POLITIK",
-          "rubrik": "Åklagare utreder misstänkt valfusk i Dalarna – utredningen återupptagen",
-          "sammanfattning": "Riksenheten mot korruption har återupptagit en förundersökning om misstänkt valfusk i Dalarna. Det rapporterar Dagens industri, och uppgifterna förs vidare av Barometern, Dagens Samhälle, Altinget och TV4 Nyheterna. Anmälan är rubricerad som otillbörligt verkande vid röstning och inkom till Åklagarmyndighetens riksenhet mot korruption den 1 september. Utredningen lades först ned på grund av bevisproblem och återupptogs på måndagen sedan polisen kommit in med nya uppgifter. Åklagaren Oskar Edvardsson säger till Dagens industri att nya uppgifter tillkommit som han inte vill gå in på.\n\nEnligt uppgifter till Dagens industri rör ärendet förkryssade valsedlar i riksdagsvalet. Dagens Samhälle återger att det i anmälan står att personer tilldelats valsedlar för Vänsterpartiet med förkryssade politiker, och att personer enligt Dagens industri ska ha erbjudits pengar för att rösta på en viss kandidat. Enligt Dagens Samhälle hade en person då omhändertagits av polis i Borlänge. TV4 Nyheterna uppger att det aktuella distriktet är detsamma som den nyinvalda ledamoten Mohamed Abdukardir Ali tillhör, och att en anonym polisanmälan som Expressen tagit del av gör gällande att personer ska ha skjutsat väljare från utanförskapsområden och försett dem med valsedlar från Vänsterpartiet med förkryssade politiker. Ingen person har delgivits misstanke om brott. Justitieminister Gunnar Strömmer säger till TV4 Nyheterna att det rör sig om allvarliga uppgifter och att utredningen får ha sin gång.\n\nDet som är etablerat är att en förundersökning pågår och att den en gång lades ned och nu har återupptagits. Det som är uppgifter från mediernas källor, och inte bekräftat av åklagaren, är innehållet i misstankarna: de förkryssade valsedlarna, pengarna, skjutsen och kopplingen till en namngiven ledamot. Åklagaren har uttryckligen avböjt att gå in på vad misstankarna gäller. Vad de nya uppgifterna består i är okänt.\n\nVad som händer nu ligger hos Riksenheten mot korruption. En förundersökning är ett utredningsförfarande, inte en prövning av valets giltighet. Frågan om ett val ska göras om prövas av Valprövningsnämnden, och den prövningen är en annan och trögare väg. Nämndens praxis kräver att det med fog kan antas att det inträffade har inverkat på valutgången, vilket i praktiken innebär att avvikelsen måste vara så stor att den kan ha flyttat mandat. I ett beslut från 2002 om otillbörligt verkande vid röstning i Rinkeby konstaterade nämnden att samma personer omväxlande fungerat som bud och vittne för ett förhållandevis stort antal väljare, vilket nämnden fann anmärkningsvärt, men avslog överklagandet eftersom det hade krävts mer än 5 000 färre röster för Socialdemokraterna i Stockholms kommun för att ett mandat skulle ha gått till ett annat parti. I ett beslut från 2022 avslog nämnden ett överklagande om påstått valfusk och missgynnande av ett visst parti med motiveringen att det anförda var alltför allmänt hållet för att kunna läggas till grund för vidare utredning. Tröskeln för omval är alltså hög, och den ligger inte hos åklagaren.",
-          "synthes": "Den fristående läsningen lyfter fram det politiska läget snarare än det juridiska. Kvartal återger statsvetaren Erik Wångmar vid Linnéuniversitetet, som säger till Expressen att S och C kan använda utredningen i förhandlingarna med V, men att han inte tror att det biter med tanke på hur envisa V är. Aftonbladets Oisín Cantwell beskriver situationen som en möjlig mardröm för Nooshi Dadgostar och som potentiell politisk dynamit om det visar sig att olagliga metoder använts. Expressens Viktor Barth-Kron pekar på en annan mekanism: det rödgröna regeringsunderlaget har 176 mandat mot Tidöpartiernas 173, och eftersom ett riksdagsmandat är personligt kan partiet inte frånta en utesluten ledamot platsen. Enligt Barth-Kron blir det då 175 mot 173 och en vilde. Kvartal återger vidare att polisen enligt Expressen under förtidsröstningen ska ha spanat på en bil som misstänktes användas för att skjutsa väljare till en vallokal i köpcentret Kupolen, och att bilen liksom fler personer kunde knytas till den nyvalde V-ledamoten. Dessa uppgifter kommer från Expressen via Kvartal och är inte bekräftade av åklagaren.",
-          "fakta": [
-            {
-              "tag": "reported",
-              "text": "Riksenheten mot korruption har återupptagit en förundersökning om misstänkt valfusk i Dalarna.",
-              "kalla": "Dagens industri"
-            },
-            {
-              "tag": "reported",
-              "text": "Anmälan är rubricerad som otillbörligt verkande vid röstning och inkom till Åklagarmyndighetens riksenhet mot korruption den 1 september.",
-              "kalla": "Barometern"
-            },
-            {
-              "tag": "reported",
-              "text": "Utredningen lades först ned på grund av bevisproblem och återupptogs på måndagen sedan polisen kommit in med nya uppgifter.",
-              "kalla": "Dagens Samhälle"
-            },
-            {
-              "tag": "reported",
-              "text": "Åklagaren Oskar Edvardsson säger att nya uppgifter tillkommit som han inte vill gå in på.",
-              "kalla": "Dagens Samhälle"
-            },
-            {
-              "tag": "reported",
-              "text": "Enligt uppgifter till tidningen rör ärendet förkryssade valsedlar i riksdagsvalet.",
-              "kalla": "Barometern"
-            },
-            {
-              "tag": "reported",
-              "text": "I anmälan står att personer tilldelats valsedlar för Vänsterpartiet med förkryssade politiker.",
-              "kalla": "Dagens Samhälle"
-            },
-            {
-              "tag": "reported",
-              "text": "Enligt Dagens industri ska personer ha erbjudits pengar för att rösta på en viss kandidat i riksdagsvalet.",
-              "kalla": "Dagens Samhälle"
-            },
-            {
-              "tag": "reported",
-              "text": "En person hade omhändertagits av polis i Borlänge.",
-              "kalla": "Dagens Samhälle"
-            },
-            {
-              "tag": "reported",
-              "text": "Det aktuella distriktet är detsamma som den nyinvalda ledamoten Mohamed Abdukardir Ali tillhör.",
-              "kalla": "TV4 Nyheterna"
-            },
-            {
-              "tag": "reported",
-              "text": "Enligt en anonym polisanmälan som Expressen tagit del av ska personer ha skjutsat väljare från utanförskapsområden och försett dem med valsedlar från Vänsterpartiet med förkryssade politiker.",
-              "kalla": "TV4 Nyheterna"
-            },
-            {
-              "tag": "reported",
-              "text": "Ingen person har ännu delgivits misstanke om brott.",
-              "kalla": "TV4 Nyheterna"
-            },
-            {
-              "tag": "reported",
-              "text": "Justitieminister Gunnar Strömmer säger att det rör sig om allvarliga uppgifter och att utredningen får ha sin gång.",
-              "kalla": "TV4 Nyheterna"
-            },
-            {
-              "tag": "verified",
-              "text": "Valprövningsnämnden prövar överklaganden av val till riksdagen, region- och kommunfullmäktige samt Sametinget och Europaparlamentet.",
-              "kalla": "riksdagen.se"
-            },
-            {
-              "tag": "verified",
-              "text": "I beslut 57-2002 konstaterade Valprövningsnämnden att samma personer omväxlande fungerat som bud eller vittne för ett förhållandevis stort antal väljare, vilket nämnden fann anmärkningsvärt, men avslog överklagandet eftersom det hade krävts mer än 5 000 färre röster för Socialdemokraterna i riksdagsvalet i Stockholms kommun för att ett mandat skulle ha tillfallit ett annat parti.",
-              "kalla": "riksdagen.se"
-            },
-            {
-              "tag": "verified",
-              "text": "I beslut 108-2022 avslog Valprövningsnämnden ett överklagande om påstått valfusk och missgynnande av ett visst parti med motiveringen att det anförda var alltför allmänt hållet för att kunna läggas till grund för någon vidare utredning.",
-              "kalla": "riksdagen.se"
-            },
-            {
-              "tag": "tolkning",
-              "text": "Statsvetaren Erik Wångmar säger till Expressen att S och C kan använda utredningen i förhandlingarna med V, men att han inte tror att det biter med tanke på hur envisa V är.",
-              "kalla": "kvartal.se"
-            },
-            {
-              "tag": "tolkning",
-              "text": "Aftonbladets Oisín Cantwell beskriver situationen som en möjlig mardröm för Nooshi Dadgostar och som potentiell politisk dynamit om det visar sig att olagliga metoder använts.",
-              "kalla": "kvartal.se"
-            },
-            {
-              "tag": "tolkning",
-              "text": "Expressens Viktor Barth-Kron pekar på att det rödgröna regeringsunderlaget har 176 mandat mot Tidöpartiernas 173, och att ett riksdagsmandat är personligt så att partiet inte kan frånta en utesluten ledamot platsen; enligt honom blir det då 175 mot 173 och en vilde.",
-              "kalla": "kvartal.se"
-            },
-            {
-              "tag": "tolkning",
-              "text": "Polisen ska enligt Expressen under förtidsröstningen ha spanat på en bil som misstänktes användas för att skjutsa väljare till en vallokal i köpcentret Kupolen, och bilen kunde liksom fler personer knytas till den nyvalde V-ledamoten.",
-              "kalla": "kvartal.se"
-            }
-          ],
-          "tiers": {
-            "verified": 3,
-            "reported": 12,
-            "circulating": 0,
-            "tolkning": 4
-          },
-          "hasTolkning": true,
-          "hasDocument": true,
-          "image": "https://static.bonniernews.se/ba/e9b2c627-f453-46e4-b202-8d821d9abbcc.jpg?crop=4661%2C2622%2Cx0%2Cy288&width=1200&format=pjpg&auto=avif",
-          "leadSource": "Barometern",
-          "publishedAt": "2026-09-22T02:59:26.982Z",
-          "readMinutes": 4,
-          "sourceCount": 4,
-          "singleSource": false,
-          "enriched": true,
-          "researched": true,
-          "sources": [
-            {
-              "source": "Barometern",
-              "title": "Åklagare utreder misstänkt valfusk",
-              "link": "https://www.barometern.se/sverige/aklagare-utreder-misstankt-valfusk/",
-              "provenance": null
-            },
-            {
-              "source": "Dagens Samhälle - Senaste nytt",
-              "title": "Åklagare utreder misstänkt valfusk i Dalarna",
-              "link": "https://www.dagenssamhalle.se/styrning-och-beslut/demokrati/aklagare-utreder-misstankt-valfusk-i-dalarna/",
-              "provenance": null
-            },
-            {
-              "source": "Altinget",
-              "title": "&#197;klagare utreder misst&#228;nkt valfusk i Dalarna",
-              "link": "https://www.altinget.se/artikel/aaklagare-utreder-misstankt-valfusk-i-dalarna",
-              "provenance": null
-            },
-            {
-              "source": "TV4 Nyheterna",
-              "title": "Misstänkt valfusk utreds hos Vänsterpartiet i Dalarna",
-              "link": "https://www.tv4.se/artikel/4fswq02qUB7ZNk6G3U30T8/misstaenkt-valfusk-utreds-i-dalarna",
-              "provenance": null
-            },
-            {
-              "source": "riksdagen.se",
-              "title": "Valsedlar avlägsnade från vallokalen. Bedömning av handskrivna valsedlar (Valprövningsnämndens beslut 25-2002) | Sveriges riksdag",
-              "link": "https://riksdagen.se/sv/dokument-lagar/dokument/valprovningsnamndens-beslut/valsedlar-avlagsnade-fran-vallokalen-bedomning_GQD34C3172",
-              "provenance": "verified"
-            },
-            {
-              "source": "riksdagen.se",
-              "title": "Allmänna påståenden om fusk och missgynnande av visst parti - avslag (Valprövningsnämndens beslut 108-2022) | Sveriges riksdag",
-              "link": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/valprovningsnamndens-beslut/allmanna-pastaenden-om-fusk-och-missgynnande-av_had34ebf50/",
-              "provenance": "verified"
-            },
-            {
-              "source": "riksdagen.se",
-              "title": "Fråga om otillbörligt verkande (valfusk) vid riksdagsvalet 2002 (Valprövningsnämndens beslut 57-2002) | Sveriges riksdag",
-              "link": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/valprovningsnamndens-beslut/fraga-om-otillborligt-verkande-valfusk-vid_gqd34c329c/",
-              "provenance": "verified"
-            },
-            {
-              "source": "kvartal.se",
-              "title": "Misstänkt valfusk – ”mardröm” för Dadgostar – Kvartal",
-              "link": "https://kvartal.se/nyheter/artiklar/misstankt-valfusk-mardrom-for-dadgostar/cG9zdDoyMDM3MTk",
-              "provenance": "tolkning"
-            },
-            {
-              "source": "dagenssamhalle.se",
-              "title": "Åklagare utreder misstänkt valfusk i Dalarna – kan ha gynnat V - Dagens Samhälle",
-              "link": "https://www.dagenssamhalle.se/styrning-och-beslut/demokrati/aklagare-utreder-misstankt-valfusk-i-dalarna/",
-              "provenance": "tolkning"
-            },
-            {
-              "source": "kvartal.se",
-              "title": "Polisen hade spaning på inkryssade V-ledamoten – Kvartal",
-              "link": "https://kvartal.se/nyheter/artiklar/aklagare-utreder-misstankt-valfusk/cG9zdDoyMDM1MjE",
-              "provenance": "tolkning"
-            },
-            {
-              "source": "gp.se",
-              "title": "Åklagare utreder misstänkt valfusk | Göteborgs-Posten",
-              "link": "https://www.gp.se/nyheter/sverige/aklagare-utreder-misstankt-valfusk.a25b28b9-26ad-5f96-9d34-7a66864892d4",
-              "provenance": "tolkning"
-            },
-            {
-              "source": "na.se",
-              "title": "Åklagare utreder misstänkt valfusk – Nerikes Allehanda",
-              "link": "https://www.na.se/sverige/aklagare-utreder-misstankt-valfusk",
-              "provenance": "tolkning"
-            }
-          ],
-          "coverageSources": [
-            {
-              "source": "Barometern",
-              "title": "Åklagare utreder misstänkt valfusk",
-              "link": "https://www.barometern.se/sverige/aklagare-utreder-misstankt-valfusk/"
-            },
-            {
-              "source": "Dagens Samhälle - Senaste nytt",
-              "title": "Åklagare utreder misstänkt valfusk i Dalarna",
-              "link": "https://www.dagenssamhalle.se/styrning-och-beslut/demokrati/aklagare-utreder-misstankt-valfusk-i-dalarna/"
-            },
-            {
-              "source": "Altinget",
-              "title": "&#197;klagare utreder misst&#228;nkt valfusk i Dalarna",
-              "link": "https://www.altinget.se/artikel/aaklagare-utreder-misstankt-valfusk-i-dalarna"
-            },
-            {
-              "source": "TV4 Nyheterna",
-              "title": "Misstänkt valfusk utreds hos Vänsterpartiet i Dalarna",
-              "link": "https://www.tv4.se/artikel/4fswq02qUB7ZNk6G3U30T8/misstaenkt-valfusk-utreds-i-dalarna"
-            }
-          ],
-          "researchSources": [
-            {
-              "source": "riksdagen.se",
-              "title": "Valsedlar avlägsnade från vallokalen. Bedömning av handskrivna valsedlar (Valprövningsnämndens beslut 25-2002) | Sveriges riksdag",
-              "link": "https://riksdagen.se/sv/dokument-lagar/dokument/valprovningsnamndens-beslut/valsedlar-avlagsnade-fran-vallokalen-bedomning_GQD34C3172",
-              "provenance": "verified"
-            },
-            {
-              "source": "riksdagen.se",
-              "title": "Allmänna påståenden om fusk och missgynnande av visst parti - avslag (Valprövningsnämndens beslut 108-2022) | Sveriges riksdag",
-              "link": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/valprovningsnamndens-beslut/allmanna-pastaenden-om-fusk-och-missgynnande-av_had34ebf50/",
-              "provenance": "verified"
-            },
-            {
-              "source": "riksdagen.se",
-              "title": "Fråga om otillbörligt verkande (valfusk) vid riksdagsvalet 2002 (Valprövningsnämndens beslut 57-2002) | Sveriges riksdag",
-              "link": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/valprovningsnamndens-beslut/fraga-om-otillborligt-verkande-valfusk-vid_gqd34c329c/",
-              "provenance": "verified"
-            },
-            {
-              "source": "kvartal.se",
-              "title": "Misstänkt valfusk – ”mardröm” för Dadgostar – Kvartal",
-              "link": "https://kvartal.se/nyheter/artiklar/misstankt-valfusk-mardrom-for-dadgostar/cG9zdDoyMDM3MTk",
-              "provenance": "tolkning"
-            },
-            {
-              "source": "dagenssamhalle.se",
-              "title": "Åklagare utreder misstänkt valfusk i Dalarna – kan ha gynnat V - Dagens Samhälle",
-              "link": "https://www.dagenssamhalle.se/styrning-och-beslut/demokrati/aklagare-utreder-misstankt-valfusk-i-dalarna/",
-              "provenance": "tolkning"
-            },
-            {
-              "source": "kvartal.se",
-              "title": "Polisen hade spaning på inkryssade V-ledamoten – Kvartal",
-              "link": "https://kvartal.se/nyheter/artiklar/aklagare-utreder-misstankt-valfusk/cG9zdDoyMDM1MjE",
-              "provenance": "tolkning"
-            },
-            {
-              "source": "gp.se",
-              "title": "Åklagare utreder misstänkt valfusk | Göteborgs-Posten",
-              "link": "https://www.gp.se/nyheter/sverige/aklagare-utreder-misstankt-valfusk.a25b28b9-26ad-5f96-9d34-7a66864892d4",
-              "provenance": "tolkning"
-            },
-            {
-              "source": "na.se",
-              "title": "Åklagare utreder misstänkt valfusk – Nerikes Allehanda",
-              "link": "https://www.na.se/sverige/aklagare-utreder-misstankt-valfusk",
-              "provenance": "tolkning"
-            }
-          ],
-          "selectionReason": "Förundersökning om förkryssade valsedlar i riksdagsvalet rör valets integritet och ett partis lokala organisation - kan få följder för förtroendet för valsystemet och för mandat.",
-          "selectionWeight": 4
-        }
-      ],
-      "script": "Förundersökningen om misstänkt valfusk i Dalarna.\n\nDet som är fast mark i det här ärendet är smalt. En anmälan rubricerad som otillbörligt verkande vid röstning kom in till Riksenheten mot korruption den 1 september, förundersökningen lades ned med hänvisning till bevisproblem, och den återupptogs i måndags efter att polisen lämnat in nytt material. Åklagaren Oskar Edvardsson har uttryckligen avstått från att säga vad det nya materialet består i. Allt övrigt – de förkryssade valsedlarna, pengarna, skjutsarna, kopplingen till en namngiven ledamot – är uppgifter från mediernas källor, och ingen har delgivits misstanke om brott.\n\nDen viktigaste distinktionen ligger i vilka spår som finns. En förundersökning prövar straffansvar för enskilda. Den prövar inte valets giltighet. Den frågan hanteras av Valprövningsnämnden, och där är tröskeln en helt annan.\n\nNämndens egna beslut på riksdagen.se visar hur hög den är. I beslut 57 från 2002, som gällde just otillbörligt verkande vid röstning, konstaterade nämnden att samma personer omväxlande hade fungerat som bud eller vittne för ett förhållandevis stort antal väljare, och nämnden kallade det anmärkningsvärt. Överklagandet avslogs ändå. Skälet som anges i beslutet är rent aritmetiskt: det hade krävts mer än 5 000 färre röster för Socialdemokraterna i riksdagsvalet i Stockholms kommun för att ett mandat skulle ha tillfallit ett annat parti. I beslut 108 från 2022 avslog nämnden ett överklagande om påstått valfusk med motiveringen att det anförda var alltför allmänt hållet för att kunna läggas till grund för någon vidare utredning.\n\nSlutsatsen av de två besluten är att konstaterade oegentligheter i sig inte räcker. Det måste kunna antas att de påverkat mandatfördelningen. Ett valdistrikt i Dalarna rör ett antal röster som ligger långt under den storleksordningen. Vad en fällande dom mot enskilda skulle innebära för mandatet är inte prövat i det här ärendet, och materialet innehåller ingen uppgift om att någon överklagat valet till nämnden.\n\nSå till det som inte kommer från dagens bevakning. Kvartal har sammanställt den politiska läsningen av ärendet. Där återges Expressens Viktor Barth-Kron, som pekar på att det rödgröna underlaget har 176 mandat mot Tidöpartiernas 173, och på att ett riksdagsmandat är personligt. En utesluten ledamot behåller alltså platsen. Barth-Krons räkning blir därmed 175 mot 173 och en vilde. Det är hans resonemang, inte ett konstaterat förlopp.\n\nKvartal återger också statsvetaren Erik Wångmar vid Linnéuniversitetet, som säger till Expressen att Socialdemokraterna och Centerpartiet kan använda utredningen i förhandlingarna med Vänsterpartiet, men att han inte tror att det biter givet hur envisa Vänsterpartiet är. Aftonbladets Oisín Cantwell beskriver enligt samma sammanställning läget som en möjlig mardröm för Nooshi Dadgostar och som potentiell politisk dynamit om olagliga metoder skulle visa sig ha använts.\n\nEn uppgift till cirkulerar i samma material och bör hanteras som just cirkulation. Enligt Expressen, återgivet av Kvartal, ska polisen under förtidsröstningen ha spanat på en bil som misstänktes användas för att skjutsa väljare till en vallokal i köpcentret Kupolen, och bilen och flera personer ska ha kunnat knytas till den nyvalde vänsterpartistiske ledamoten. Det är inte bekräftat av åklagaren, och det är inte prövat.\n\nJustitieminister Gunnar Strömmer har begränsat sig till att kalla uppgifterna allvarliga och säga att utredningen får ha sin gång. Beslutet om nästa steg ligger hos Riksenheten mot korruption, och det är åklagaren som avgör om någon delges misstanke."
+      "script": "CME listar terminer på Uniswaps token och på Bitcoin Cash.\n\nThe Block rapporterade i går att börsen lägger till både standardkontrakt och mikrokontrakt: 250 respektive 25 Bitcoin Cash, och 10 000 respektive 1 000 UNI. Decrypt beskriver det som en fortsättning på ett mönster som redan omfattar Cardano, Chainlink, Stellar, Avalanche och Sui. Materialet innehåller inget startdatum, ingen uppgift om marginalkrav och ingen uppgift om kontrakten är kontantavräknade. Det sägs inte, alltså säger jag det inte.\n\nDet intressanta ligger under prislistan, nämligen vad UNI faktiskt är som instrument. En governance-token ger rösträtt i protokollets beslutsprocess. Den ger inte per automatik anspråk på protokollets intäkter. Vad rösträtten konkret används till framgår av Uniswaps eget forum, i tråden om att distribuera Uniswap v3 på BNB Chain. Den öppnades av 0xPlasma Labs den elfte december 2022 och har vuxit till 102 inlägg. Förslaget är att församlingen ska auktorisera 0xPlasma Labs att distribuera v3 på BNB-kedjan på communityns vägnar, och ett av de uttalade skälen är att licensen löper ut. Det är den typen av beslut en UNI-röst styr: vem som får kopiera koden, vart den får gå, och när.\n\nSiffrorna i det ursprungliga inlägget är från december 2022 och är forumförfattarens egna. Där anges Uniswap v3:s samlade låsta värde till 2,6 miljarder dollar, varav 2,37 miljarder på Ethereum, 99,84 miljoner på Polygon, 84,9 miljoner på Arbitrum, 44,53 miljoner på Optimism och 865 400 dollar på Celo. GFX Labs svarar i tråden med DeFi Llama-siffror från samma period: hela DeFi-sektorn 41 miljarder dollar, Ethereum 24 miljarder, BSC 4,5 miljarder, och PancakeSwap ensamt 2,35 miljarder. De citerar också Dune på 753 000 veckoanvändare på BSC och tillägger att även om siffran vore fel med nittio procent skulle den vara betydande.\n\nTvå saker är värda att hålla isär här. TVL mäter hur mycket kapital som ligger insatt i kontrakten vid en given tidpunkt. Det mäter inte omsättning, inte avgiftsintäkter och inte hur mycket av kapitalet som faktiskt är tillgängligt vid stress. Förslagsställarens estimat av potentiell TVL på BNB Chain är just ett estimat, framräknat som halva PancakeSwaps siffra, inte en observation.\n\nTröskeln framgår också av tråden. Enligt den då nya governance-processen krävs sju dagars väntan, och en temperature check måste nå tio miljoner ja-röster för att gå vidare till on-chain-omröstning. Materialet innehåller ingen uppgift om huruvida den tröskeln nåddes eller hur det gick sedan. Det är en tråd från 2022 som lyfts fram nu, inte en nyhet från i går.\n\nNästa ämne: Aave Horizon och tokeniserad högavkastande kredit.\n\nBakgrunden ligger i vad Horizon är. Det är Aaves tillståndspliktiga instans, där säkerheterna hittills bestått av tokeniserade statspapper, statliga penningmarknadsfonder och investment grade-kredit. Den artonde augusti i år lade Securitize fram en ARFC om att ta in HINC, Neuberger Securitize High Income Tokenized Fund, som säkerhet. Det är en BVI-registrerad professional fund, rådgiven av Securitize Capital och underrådgiven av Neuberger Berman Investment Advisers, som enligt förslaget ingår i en grupp med ungefär 567 miljarder dollar under förvaltning per den 31 mars 2026. Fonden ligger huvudsakligen i high yield-företagsobligationer, plus CLO-trancher, banklån och en likviditetssleeve.\n\nKonstruktionen: andelarna ges ut som tillståndspliktiga DSTokens på Ethereum, där en SEC-registrerad transfer agent för huvudregistret. Samma stack används redan för VanEcks VBILL på Horizon. HINC föreslås bli supply-only, alltså endast säkerhet, med USDC, GHO och RLUSD lånbara mot den.\n\nMotivet i förslaget är ovanligt rakt formulerat. Securitize skriver att när säkerhetens avkastning ligger nära eller under låneräntan på stablecoins blir upplåning en likviditetsoperation snarare än en carry trade, och utnyttjandegraden drivs då av tillfälliga kassabehov. HINC skulle bli den första säkerheten under investment grade på Horizon, med förväntad avkastning materiellt över låneräntan. Med andra ord: man tar in kreditrisk för att skapa efterfrågan på lån.\n\nLlamaRisk tillstyrker, med förvar hos BNY Mellon och dagligt NAV publicerat via RedStone. De rekommenderar ett initialt utbudstak på 10 000 HINC och en belåningsgrad på 55 procent. Siffran för likvidationströskeln är avklippt i materialet jag har, så den lämnar jag.\n\nDiskussionen i tråden går längre än så, och det är där substansen finns. En oberoende deltagare, som uppger att han prissätter illikvida privata positioner yrkesmässigt och läser förslaget som en stablecoin-långivare skulle göra, driver en lång växling om drawdown-statistik. Det handlar om vad formuleringen tre till fem procent av lånad TVL egentligen mäter, och om att det sämsta fyrasessionersfönstret börjar 9,05 procent under senaste toppen. En premiss om att detta skulle ge en värre svans föll när motparten lade fram sina data, och den som hävdade att kvoten 1,08 var ett golv tog tillbaka ordet golv.\n\nDen skarpaste öppna frågan gäller oraklet. En deltagare läser LlamaGuards publika kod och beskriver att ett brott mot en nedre prisgräns leder till att gränsen skrivs in som priset, och att reserven fryses där åtgärder är aktiverade, men att likvidationer fortfarande kan köras mot det fastklämda värdet. Det betyder i klartext att om fondens NAV faller under den förinställda gränsen kan likvidationer ske till ett pris som per konstruktion är för högt. Något svar på den frågan finns inte i materialet. Materialet säger inte heller om förslaget har gått till omröstning eller om HINC är live.\n\nVad som vilar på en enda källa. Kontraktsstorlekarna hos CME kommer från The Block. Listan över tidigare altcoin-kontrakt kommer från Decrypt. Ondos nya in kind-mekanism, där godkända institutioner kan skapa och lösa in tokeniserade aktier och ETF:er mot underliggande värdepapper i stället för kontanter, rapporteras i mitt material enbart av Cointelegraph. Och samtliga siffror om HINC kommer från parter inne i processen: förslagsställaren Securitize själv och riskkonsulten LlamaRisk. Ingen oberoende part har granskat dem i det jag har framför mig."
     },
     {
       "sphere": "world",
       "sphereLabel": "Världen",
-      "audioUrl": "https://github.com/StenTBen/morgonbrief/releases/download/audio/pod-world-2026-09-22.mp3",
-      "audioBytes": 1608288,
+      "audioUrl": "https://github.com/StenTBen/morgonbrief/releases/download/audio/pod-world-2026-09-23.mp3",
+      "audioBytes": 1624416,
       "itemCount": 2,
       "items": [
         {
-          "id": "world-VUsgdG8gcmVmdWVsIFNhdWRp",
-          "kategori": "MELLANÖSTERN",
-          "rubrik": "Storbritannien tankar saudiska stridsflyg mot houthiattacker",
-          "sammanfattning": "Storbritanniens premiärminister Andy Burnham har godkänt en saudisk begäran om lufttankning av saudiska stridsflygplan. Enligt Burnham ska ett RAF-plan av typen Voyager bistå vid defensiva uppdrag i några veckor, och insatsen är tidsbegränsad och ska följas upp löpande. Beslutet kommer efter att houthirebeller i Jemen återigen trappat upp konflikten med den saudistödda regeringen, bland annat genom robot- och drönarattacker mot saudiskt territorium och genom att ta kontroll över hamnstaden Mocha och strategiska öar i Röda havet. Burnham säger att syftet är att skydda energianläggningar och hålla oljevägarna öppna, vilket han kopplar till Storbritanniens egen ekonomi och levnadskostnader. Storbritannien har sedan tidigare en luftvärnssystemet Sky Sabre på plats i Saudiarabien.",
-          "varfor": "Det brittiska stödet kan öka den västerländska inblandningen i Jemenkriget och påverka den redan spända situationen kring Röda havet och Bab al-Mandab, en rutt som en betydande del av världshandeln normalt passerar. Beslutet kan också få följder för Storbritanniens relation till USA och för den globala oljeförsörjningen.",
-          "status": "Insatsen väntas inledas inom några dagar och ska utvärderas fortlöpande medan konflikten fortsätter.",
-          "score": 90,
+          "id": "world-TWFjcm9uJ3MgZmluYWwgVU4g",
+          "kategori": "DIPLOMATI",
+          "rubrik": "Macron manar till motstånd mot \"djungelns lag\" i sitt sista FN-tal",
+          "sammanfattning": "Frankrikes president Emmanuel Macron höll sitt sista tal inför FN:s generalförsamling och uppmanade världens länder att hålla fast vid internationell rätt och FN-systemet i stället för vad han beskrev som en återkomst av djungelns lag. Han varnade för att retorik om nederlag banar väg för stormakters maktmissbruk som hotar andra länders suveränitet. Macron upprepade sitt stöd till Ukraina och sade att den frivilliga koalitionen inte kommer att ge vika, samtidigt som han efterlyste ett dubbelt moratorium mot attacker på civil och energirelaterad infrastruktur i Rysslands krig mot Ukraina. Han kritiserade också situationen i Gaza och ifrågasatte vad Frankrikes trovärdighet är värd om man förblir passiv, med hänvisning till uteblivna humanitära leveranser. Dessutom föreslog han en öppen källkodsmodell för avancerad AI som inte ska göra länder beroende av Kina eller USA.",
+          "varfor": "Frames France's stance on Ukraine, Gaza and multilateralism as US policy shifts.",
+          "status": "",
+          "score": 60,
           "reasons": [
-            "5 international outlets (+40)",
-            "No Swedish coverage found (+35)",
-            "Underreported region (Middle East) (+15)"
+            "3 international outlets (+25)",
+            "No Swedish coverage found (+35)"
           ],
-          "region": "Middle East",
+          "region": "Europe",
           "swedishCoverage": "none",
           "leadSource": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-          "publishedAt": "2026-09-22T00:29:28.000Z",
+          "publishedAt": "2026-09-22T21:09:03.000Z",
           "singleSource": false,
           "enriched": true,
-          "sourceCount": 5,
+          "sourceCount": 3,
           "coverage": [
             {
               "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-              "title": "UK to refuel Saudi jets to help counter Houthi attacks",
-              "link": "https://www.aljazeera.com/news/2026/9/22/uk-to-refuel-saudi-jets-to-help-counter-houthi-attacks?traffic_source=rss"
-            },
-            {
-              "source": "World news | The Guardian",
-              "title": "UK to give support to Saudi jets in attempt to counter Houthi fighters",
-              "link": "https://www.theguardian.com/politics/2026/sep/21/uk-to-give-support-to-saudi-jets-in-attempt-to-counter-houthi-fighters"
+              "title": "Macron: France won’t ‘yield an inch’ on Ukraine support",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/macron-france-wont-yield-an-inch-on-ukraine-support?traffic_source=rss"
             },
             {
               "source": "France 24 - International breaking news, top stories and headlines",
-              "title": "Saudi Arabia left without US help against Houthis",
-              "link": "https://www.france24.com/en/saudi-arabia-left-without-us-help-against-houthis"
-            },
-            {
-              "source": "News - South China Morning Post",
-              "title": "Burnham to meet Trump, make UN debut after offering UK military support for Saudi Arabia",
-              "link": "https://www.scmp.com/news/world/europe/article/3368308/uk-pm-burnham-agrees-saudi-request-refuelling-support?utm_source=rss_feed"
+              "title": "Macron urges world to 'stand firm' against 'abuse of power by empires' in final UN speech",
+              "link": "https://www.france24.com/en/france/20260922-macron-urges-world-stand-firm-against-abuse-of-power-by-empires-final-un-speech"
             },
             {
               "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-              "title": "Andy Burnham is set to meet Donald Trump for the first time at the UN in New York",
-              "link": "https://www.thehindu.com/news/international/andy-burnham-is-set-to-meet-donald-trump-for-the-first-time-at-the-un-in-new-york/article71490809.ece"
+              "title": "Macron urges world to choose UN over ‘law of the jungle’",
+              "link": "https://www.thehindu.com/news/international/macron-urges-world-to-choose-un-over-law-of-the-jungle/article71497347.ece"
             }
           ]
         },
         {
-          "id": "world-U2lzdGVycyBvZiBQYWtpc3Rh",
-          "kategori": "SYDASIEN",
-          "rubrik": "Imran Khans systrar gripna inför protestmarsch i Pakistan",
-          "sammanfattning": "Tre systrar till den fängslade pakistanske expresidenten Imran Khan greps i Lahore under helgen och har dömts till 30 dagars frihetsberövande enligt Punjab-provinsens lag om allmän ordning. Aleema Khan greps först i Lahore, och kort därefter greps Uzma Khan och Noreen Niazi efter en presskonferens. Enligt deras advokat ska polisen ha omringat familjens hem och tagit med sig barn och barnbarn, som senare släpptes. Systrarna har varit aktiva i kampanjen för Khans frigivning och anklagas för att ha mobiliserat hans supportrar inför den planerade protestmarschen den 27 september. Khans parti PTI kallar gripandena olagliga och kräver att systrarna ställs inför rätt.",
-          "varfor": "Tillslagen mot Khans familj kan fördjupa den politiska instabiliteten i Pakistan inför de väntade protesterna och väcker frågor om rättssäkerhet och yttrandefrihet i landet. Khans popularitet och den ekonomiska krisen gör att myndigheterna fruktar stora folksamlingar.",
-          "status": "Systrarna sitter i Kot Lakhpat-fängelset i Lahore och deras advokat har överklagat gripandena till High Court.",
-          "score": 75,
+          "id": "world-U2Nob29sIHNob290aW5nIGlu",
+          "kategori": "SKOLSKJUTNING",
+          "rubrik": "Elva skadade i skolskjutning i västra Turkiet",
+          "sammanfattning": "En tonåring öppnade eld utanför en yrkes- och teknikskola i Turgutlu i provinsen Manisa i västra Turkiet och skadade elva personer, varav flera allvarligt. Enligt myndigheterna var den misstänkte en 15-årig elev vid skolan som greps efter händelsen, och tre av de skadade vårdades i intensivvård medan en kunde lämna sjukhuset. Vapnet ska ha hämtats från en släkting, och den misstänktes föräldrar och farfar har också frihetsberövats. Motivet är ännu inte klarlagt, men utredare undersöker bland annat uppgifter om att eleven ska ha varit utsatt för mobbning. Detta är den tredje skolskjutningen i Turkiet i år, efter två dödliga attacker i april som ledde till skärpta säkerhetsåtgärder och vapenkontroller inför läsåret.",
+          "varfor": "Adds to a pattern of school violence in Turkey and pressures gun policy debate.",
+          "status": "",
+          "score": 55,
           "reasons": [
-            "4 international outlets (+25)",
-            "No Swedish coverage found (+35)",
-            "Underreported region (South Asia) (+15)"
+            "3 international outlets (+25)",
+            "Only passing Swedish mention (+15)",
+            "Underreported region (Middle East) (+15)"
           ],
-          "region": "South Asia",
-          "swedishCoverage": "none",
+          "region": "Middle East",
+          "swedishCoverage": "weak",
           "leadSource": "BBC News",
-          "publishedAt": "2026-09-20T19:04:11.000Z",
+          "publishedAt": "2026-09-22T10:42:47.000Z",
           "singleSource": false,
           "enriched": true,
-          "sourceCount": 4,
+          "sourceCount": 3,
           "coverage": [
             {
               "source": "BBC News",
-              "title": "Sister of Pakistan's ex-PM Imran Khan arrested",
-              "link": "https://www.bbc.co.uk/news/articles/cm36l2pye2kwo?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "source": "World news | The Guardian",
-              "title": "Pakistan jails sisters of Imran Khan before protest seeking his release",
-              "link": "https://www.theguardian.com/world/2026/sep/21/pakistan-jails-sisters-of-imran-khan-before-protest-seeking-his-release"
+              "title": "Eleven injured in shooting outside Turkish school",
+              "link": "https://www.bbc.co.uk/news/articles/c6y0z4gv0le4o?at_medium=RSS&at_campaign=rss"
             },
             {
               "source": "News - South China Morning Post",
-              "title": "Sisters of Pakistan’s Imran Khan arrested in Lahore, jailed ex-PM’s party says",
-              "link": "https://www.scmp.com/news/asia/south-asia/article/3368301/sisters-pakistans-imran-khan-arrested-lahore-jailed-ex-pms-party-says?utm_source=rss_feed"
+              "title": "Turkey teen arrested after 11 pupils injured in shotgun shooting",
+              "link": "https://www.scmp.com/news/world/article/3368398/turkey-student-arrested-after-11-injured-shotgun-shooting?utm_source=rss_feed"
             },
             {
               "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-              "title": "Pakistan ex-PM Imran Khan’s three sisters arrested in Lahore",
-              "link": "https://www.thehindu.com/news/international/pakistan-ex-pm-imran-khans-three-sisters-arrested-in-lahore/article71490800.ece"
-            },
-            {
-              "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-              "title": "Pakistan’s Ex-PM Imran Khan’s sister detained by authorities",
-              "link": "https://www.thehindu.com/news/international/pakistans-ex-pm-imran-khans-sister-detained-by-authorities/article71489030.ece"
+              "title": "Shooter opens fire near high school in Turkiye, wounding at least 11",
+              "link": "https://www.thehindu.com/news/international/turkiye-shooter-opens-fire-near-high-school-in-wounding-several/article71495240.ece"
             }
           ]
         }
       ],
-      "script": "Storbritannien går in militärt till stöd för Saudiarabien i Jemenkriget.\n\nBakgrunden är den här. Huthirörelsen, den Iranstödda part som kontrollerar norra Jemen och huvudstaden Sanaa, har åter hamnat i öppen strid med Jemens saudistödda regering efter några veckor av upptrappning. Huthierna har enligt Al Jazeeras sammanställning av AFP, AP och Reuters tagit hamnstaden Mocha och flera nyckelöar i Röda havet, vilket ger dem bättre uppsikt över Bab al-Mandeb. Genom det sundet går normalt omkring tolv procent av världshandeln. Det är den rutt Saudiarabien har använt som alternativ för sin oljeexport sedan Hormuzsundet i praktiken stängdes i februari i samband med det amerikansk-israeliska kriget mot Iran.\n\nDet som hände i går är att Storbritanniens premiärminister Andy Burnham, Labour, som tillträdde efter Keir Starmer i juli, godkände en saudisk begäran om militärt stöd. Han sade det till journalister på planet till FN:s generalförsamling i New York. Stödet består av lufttankning av saudiska stridsflygplan, efter rekommendation från försvarsministern och utrikesministern. Enligt brittiska tjänstemän, återgivna av nyhetsbyrån PA, handlar det om ett enda RAF-plan av typen Voyager, insatsen inleds inom några dagar och gäller bara flygplan som försvarar saudiskt territorium mot drönare och robotar. Den ska alltså inte stödja anfall mot huthierna. Burnham kallar uppdraget tidsbegränsat och säger att det ska omprövas löpande. Guardian uppger att det rör sig om några veckor.\n\nHuthierna har skjutit robotar och drönare mot Saudiarabien, bland annat ett anfall mot Riyadh i lördags som sköts ned. Sedan tidigare finns brittiska luftvärnssystemet Sky Sabre på plats i kungadömet, utplacerat tidigare i år under Irankriget.\n\nBurnhams egen motivering är ekonomisk snarare än strategisk. Han säger uttryckligen att han agerar för att hålla oljevägarna öppna och att situationen i Mellanöstern är en stor drivkraft bakom de brittiska levnadskostnaderna. Guardian sätter in det i ett inrikespolitiskt sammanhang: stigande energipriser, inflationstryck och statliga upplåningskostnader på fleråriga toppnivåer, veckor före regeringens första budget.\n\nEn uppgift som bara finns hos France 24, och där utan artikeltext, är att Washington har avvisat en saudisk begäran om hjälp mot huthierna. Om det stämmer är det förklaringen till varför Riyadh vänder sig till London. Det går inte att bekräfta i det övriga materialet.\n\nI dag möter Burnham Donald Trump för första gången, i marginalen av generalförsamlingen. Enligt Guardian tänker han pressa Trump att trappa ned i Iran. Trump uppges fortfarande vara irriterad över att Storbritannien vägrade delta i det kriget. Vad som faktiskt sägs i det mötet finns inte i materialet.\n\nFör svensk del är det här inte i första hand en Jemenfråga. Det är frågan om två av världens viktigaste sjöfartspassager samtidigt är under press, vad det gör med frakt- och energipriser in i Europa, och att en europeisk Natoallierad nu tar ett steg in i ett krig som västliga regeringar i flera år har försökt hålla armlängds avstånd till.\n\nNästa ämne: Pakistan, och gripandet av Imran Khans systrar.\n\nKhan var premiärminister 2018 till 2022 och föll på en misstroendeomröstning efter en konflikt med militären. Han sitter fängslad sedan 2023 och har enligt BBC åtalats i över hundra mål, som han själv kallar politiskt motiverade. Hans parti PTI är i praktiken dekapiterat, de flesta ledande företrädare sitter fängslade eller har pressats ur politiken. Den nuvarande koalitionsregeringen kom till makten i valet 2024, ett val som Guardian beskriver som väldokumenterat riggat med militär inblandning. Arméchefen, fältmarskalk Asim Munir, bröt med Khan redan när Khan var regeringschef.\n\nDet som nu har hänt är att tre av Khans systrar har gripits i Lahore inför en landsomfattande protestmarsch mot Islamabad den 27 september. Aleema Khan greps i söndags. Enligt Guardian greps systrarna Uzma Khan och Noreen vid tretiden natten till måndagen, efter att de hållit en presskonferens om Aleemas gripande. Alla tre sitter i Kot Lakhpat-fängelset. Grunden är Punjabprovinsens ordningslag från 1960, som tillåter frihetsberövande av personer som bedöms hota den allmänna ordningen. AFP har sett två separata beslut från Lahores deputy commissioner, Muhammad Ali Ijaz, om trettio dagars förvar. I beslutet anges att Aleema Khan mobiliserat anhängare via sociala medier och möten och skanderat stötande paroller mot regeringen. Punjabpolisen har inte svarat på AFP:s begäran om kommentar.\n\nSystrarna har inga formella poster i PTI. Deras advokat Rana Mudassir Umar säger till Guardian att gripandena har överklagats till högsta domstolen i Lahore och att klienterna hittills nekats kontakt med både familj och juridiskt ombud. Samma advokat uppger att hundratals poliser omringade familjens hus och att även barn och barnbarn, fyra och sex år gamla, fördes bort men släpptes på morgonen. De uppgifterna finns bara hos Guardian.\n\nRegeringens linje är öppet uttalad. Inrikesminister Mohsin Naqvi sade i måndags att man ska hitta en permanent lösning för att stoppa marschen. Informationsminister Attaullah Tarar kallade protestuppropet olagligt. Islamabad är redan avspärrat med containrar vid infarterna.\n\nMaterialet innehåller motstridiga uppgifter om Khans domar. BBC anger fjorton år i ett markkorruptionsmål förra året. The Hindu anger sjutton år tillsammans med hustrun. Källorna förenas inte, och jag har inget underlag för att avgöra vilken siffra som gäller.\n\nDet som gör tidpunkten känslig är att missnöjet inte bara handlar om Khan. Guardian beskriver ekonomisk kris och akut bränslebrist kopplad just till turbulensen i Gulfen. PTI-ledaren Sheikh Waqas Akram säger till Guardian att regeringen fruktar hundratusentals demonstranter och en utveckling som i Bangladesh, Nepal och Sri Lanka. Det är hans bedömning, inte ett konstaterande.\n\nTill sist, det som vilar på en enda källa. Att Washington avvisat den saudiska begäran om hjälp kommer enbart från France 24. Att brittiska insatsen omfattar ett Voyager-plan och bara försvarsuppdrag kommer från brittiska tjänstemän via PA, återgivet av Al Jazeera. Detaljerna om husrannsakan, de gripna barnen, advokatens uppgifter om nekad kontakt, och Khan-sönernas anklagelser om att fadern långsamt dödas i fängelset, kommer alla från Guardians egen rapportering och är inte bekräftade på annat håll i materialet."
+      "script": "Först Frankrikes linje i FN:s generalförsamling.\n\nEmmanuel Macron talade i New York på tisdagen, vid den åttioförsta generalförsamlingen, och det var enligt hans eget angivande hans sista tal där som fransk president. \"Coalition of the willing\" som han hänvisade till är den grupp av främst europeiska stater som utanför Nato-strukturen har åtagit sig att stötta Ukraina och diskutera säkerhetsgarantier efter ett eventuellt eldupphör. Han hade dagen före, den tjugoförsta september, träffat Donald Trump och då tagit upp Ukraina.\n\nInnehållet i talet var en uppmaning att välja FN-systemet framför vad han kallade en återkommande djungelns lag. Formuleringen enligt referatet från AFP via The Hindu var att frågan är om vi vill leva i ett naturtillstånd eller i ett civiliserat internationellt samhälle. Han talade om maktmissbruk från imperier som hotar vissa staters suveränitet, utan att i det citerade materialet namnge vilka.\n\nDet konkreta förslaget var ett dubbelt moratorium. Macron uppmanade Moskva och Kiev att komma överens om att sluta beskjuta energianläggningar och civil infrastruktur. Det är ett avgränsat och verifierbart förslag, till skillnad från ett allmänt eldupphör, och det är i praktiken samma idé som cirkulerat i tidigare förhandlingsrundor. Materialet innehåller ingen uppgift om att vare sig Ryssland eller Ukraina har svarat.\n\nOm Gaza var han hårdast. Citatet, återgivet av The Hindu: vad är vår trovärdighet värd om vi förblir passiva. Han sade att vissa hävdar att fred har uppnåtts, men att detta inte har öppnat för humanitära leveranser, och kallade det ett skådespel som skämmer ut oss alla. Vem \"vissa\" syftar på framgår inte av materialet.\n\nDen fjärde delen är den mest oväntade. Macron föreslog från FN:s talarstol att stater ska slå ihop sina investeringar och bygga en öppen frontmodell inom artificiell intelligens, alltså en toppmodell med öppen källkod. Motivet han angav var att ingen ska bli vasall under någon av stormakterna, vilket France 24 och The Hindu båda läser som en hänvisning till USA och Kina. Materialet innehåller inga siffror, ingen tidsplan och ingen namngiven finansieringsmekanism för det förslaget.\n\nVarför det angår Sverige: det är en fransk position inför en period då amerikansk politik rör sig, och den svenska hållningen till europeiska säkerhetsgarantier för Ukraina formuleras inom samma krets av villiga stater. Förslaget om en gemensam europeisk AI-modell skulle, om det får fäste, hamna i EU-budgetdiskussionen.\n\nNästa ämne är skolskjutningar i Turkiet.\n\nBakgrunden är att Turkiet fram till i år inte hade någon historia av skolskjutningar. Det ändrades i april. Enligt AFP:s och AP:s sammanställningar sköt en tidigare elev i provinsen Şanlıurfa i sydöstra Turkiet och skadade sexton personer, mestadels elever, varefter han tog sitt liv. Dagen efter öppnade en fjortonåring eld i två klassrum i grannprovinsen Kahramanmaraş. Där skiljer sig uppgifterna åt: The Hindu skriver åtta elever och en lärare dödade och tretton skadade, och att gärningsmannen sköts av polis, medan BBC skriver nio elever i tioårsåldern och en lärare dödade, och att gärningsmannen dog på platsen. Regeringen införde efter det skärpta säkerhetsåtgärder och strängare vapenkontroll inför läsåret 2026–2027, som inleddes förra veckan.\n\nDet som hände i tisdags: en beväpnad person öppnade eld utanför en yrkesinriktad gymnasieskola i distriktet Turgutlu i provinsen Manisa, väster om Izmir. Elva personer skadades, samtliga uppges vara elever. Inrikesminister Mustafa Çiftçi sade vid en presskonferens i Manisa, enligt AP via South China Morning Post, att tio minderåriga vårdades varav tre på intensiven, och att en skrivits ut. Justitieminister Akın Gürlek uppgav på X att minst två var i allvarligt tillstånd. Gärningsmannen greps kort därefter.\n\nUnder ytan: Gürlek säger att motivet inte är känt, att två chefsåklagare har utsetts att utreda, och att utredningen uttryckligen omfattar uppgifter om att eleven ska ha utsatts för mobbning i skolan. Den misstänktes föräldrar och farfar har tagits i förvar. Farfadern uppges ha ägt vapnet, ett hagelgevär. BBC uppger att den misstänkte är femton år och att övervakningsfilm visar honom gå genom tomma gator och kontrollera geväret före dådet, lugnt och vardagligt klädd. Ingen av källorna redovisar hur han kom över vapnet trots de nya reglerna, utöver att det fanns i familjen.\n\nDen vidare betydelsen ligger i vapenpolitiken. Turkiet har en stor legal och illegal privat vapenstock, och tre skjutningar på ett halvår mot skolor sätter press på en regering som redan svarat med åtgärder som uppenbarligen inte räckte. Vad som händer nu, enligt turkisk lag: den femtonårige ska ställas inför domare innan han formellt anhålls. Utbildningsministeriet har skickat tre utredare till Manisa.\n\nTill sist, vad som vilar på en enda källa. Att den misstänkte är femton år, och beskrivningen av övervakningsfilmen, kommer bara från BBC. Intensivvårdssiffrorna och inrikesministerns citat kommer bara från AP via South China Morning Post. Uppgiften att vapnet hämtades i farmoderns hus, och att gärningsmannen var elev vid skolan, kommer från HaberTürk återgivet av The Hindu. Uppgiften om sammandrabbningar mellan föräldrar och polis utanför skolan kommer från tidningen Cumhuriyet, återgiven av The Hindu. Dödssiffrorna från Kahramanmaraş i april skiljer sig mellan BBC och The Hindu, och materialet ger inget underlag för att avgöra vilken som är rätt."
     }
   ],
   "feed": [
     {
-      "id": "feed-world-VHJ1bXAgbWVkaWEgYmFuIGFu",
-      "sphere": "world",
-      "kategori": "MEDIA",
-      "rubrik": "Tv-bolag stämmer Trump efter pressförbud i Vita huset",
-      "sammanfattning": "CNN, MS NOW och Politico stämmer Trumpadministrationen i federal domstol i Washington DC efter att ha nekats tillträde till Vita husets område. Kanalerna hävdar att förbudet strider mot det första tillägget och rätten till fri press, och begär ett tillfälligt föreläggande; enligt South China Morning Post är en förhandling planerad till onsdag. Flera stora tv-bolag avbröt samtidigt sin bevakning av Trumps framträdanden, och Vita huset lanserade i stället en egen videoström. Trump har kallat delar av medierna ett hot mot nationens säkerhet och sagt att han troligen förlorar målet, samtidigt som han pekar på domaren. Republikanska röster som Maria Elvira Salazar försvarar hans agerande med att han \"har sin egen stil\".",
-      "synthes": "Guardian uppger att Trump sagt att han sannolikt förlorar målet och lägger skulden på domaren, medan BBC och SVT beskriver tv-bolagens bojkott och South China Morning Post nämner den planerade förhandlingen – uppgifter som övriga källor inte tar upp.",
-      "leadSource": "BBC News",
-      "publishedAt": "2026-09-22T00:16:06.000Z",
+      "id": "feed-congress-VHJ1bXAgYWRkcmVzc2VzIFVO",
+      "sphere": "congress",
+      "kategori": "POLITIK",
+      "rubrik": "Trump inför FN: välj mellan avtal med Iran eller att krossa republiken",
+      "sammanfattning": "I sitt tal till FN:s generalförsamling i New York ställde USA:s president Donald Trump Iran inför ett ultimatum: antingen ett avtal som låter landet återuppbyggas, eller att USA tillintetgör den islamiska republiken. Han sade sig tro att en överenskommelse kommer först efter höstens mellanårsval och upprepade samtidigt löftet att aldrig tillåta Iran kärnvapen. Vid sidan av talet möttes amerikanska och iranska företrädare i vad Trump kallade ett produktivt tre timmar långt samtal, förmedlat via Qatar. Trump sade också att han räknar med att få ett slut på Rysslands krig i Ukraina snabbare än många tror, och han kritiserade FN för en vänsteragenda samt varnade för att USA kommer att använda sin militära styrka för att skydda sina intressen på västra halvklotet.",
+      "synthes": "BBC och Roll Call skildrar samma tal men skiljer sig i detaljer: BBC uppger att en person ur Irans delegation såg talet medan The Hindu rapporterar att den iranska delegationen lämnade salen inom tio minuter, och BBC nämner att USA:s och Irans företrädare möttes medan Roll Call inte tar upp något sådant möte.",
+      "leadSource": "Roll Call",
+      "publishedAt": "2026-09-22T13:20:49.000Z",
       "readMinutes": 1,
-      "sourceCount": 11,
+      "sourceCount": 7,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "Roll Call",
+          "title": "‘Into hell’: Trump signals aggressive lame-duck foreign policy at UN",
+          "link": "https://rollcall.com/2026/09/22/into-hell-trump-signals-aggressive-lame-duck-foreign-policy/"
+        },
+        {
+          "source": "NPR Topics: Politics",
+          "title": "Is President Trump the world's peacekeeper?",
+          "link": "https://www.npr.org/2026/09/22/nx-s1-5976857/is-president-trump-the-worlds-peacekeeper"
+        },
+        {
+          "source": "NPR Topics: Politics",
+          "title": "Trump heads to the U.N. looking for wins after a rough week",
+          "link": "https://www.npr.org/2026/09/22/nx-s1-5976843/trump-heads-to-u-n-looking-for-wins-after-a-rough-week"
+        },
+        {
+          "source": "BBC News",
+          "title": "Trump threatens to 'annihilate' Iran in UN speech as officials from both countries meet on sidelines",
+          "link": "https://www.bbc.co.uk/news/articles/c52e0ywl9pr7o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source": "BBC News",
+          "title": "American power, AI and a walkout - key moments from Trump's UN speech",
+          "link": "https://www.bbc.co.uk/news/articles/c6rm903e22lgo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source": "BBC News",
+          "title": "What to expect as world leaders descend on New York - and who won't be there",
+          "link": "https://www.bbc.co.uk/news/videos/cxe87p9d4198o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "image": "https://rollcall.com/app/uploads/2026/09/GettyImages-2296583018.jpg"
+    },
+    {
+      "id": "feed-congress-R09QIHNlbmF0b3Igc2Vla3Mg",
+      "sphere": "congress",
+      "kategori": "POLITIK",
+      "rubrik": "Republikansk senator vill kalla Donald Trump Jr. till förhör om ryskt bröllop",
+      "sammanfattning": "Senator John Curtis (R-Utah) har i ett brev till ledningen för senatens justitieutskott begärt en utredning om att presidentens äldste sons bröllopsfester finansierades av den ryske affärsmannen Umar Kremlev, ordförande i Internationella boxningsförbundet. Curtis vill också att både Donald Trump Jr. och Hunter Biden kallas till förhör, och hänvisar till familjemedlemmars möjlighet att använda närhet till presidenten för egen vinning, inklusive kryptosatsningar. Presidenten har sagt att sonen betalat tillbaka och att det hela är tillåtet. Hunter Biden svarade att han redan vittnat under ed och gärna ställer upp igen.",
+      "synthes": "Roll Call ger den mest detaljerade bilden av reaktionerna i senaten, medan Senate News och Al Jazeera lyfter fram att Curtis agerande är ovanligt eftersom det riktar sig mot den egna partikamratens familj; Cointelegraph är ensam om att särskilt peka på kryptokopplingen i Curtis brev.",
+      "leadSource": "Congress",
+      "publishedAt": "2026-09-22T13:13:16.000Z",
+      "readMinutes": 1,
+      "sourceCount": 5,
       "singleSource": false,
       "enriched": true,
       "sources": [
         {
           "source": "Congress",
-          "title": "Top House Oversight Dem demands answers to Trump’s media ban",
-          "link": "https://www.politico.com/news/2026/09/21/garcia-demands-answers-trumps-media-ban-01086516"
+          "title": "GOP senator wants to subpoena Donald Trump Jr. over Russian-funded wedding",
+          "link": "https://www.politico.com/live-updates/2026/09/22/congress/curtis-has-questions-01086970"
         },
         {
           "source": "Roll Call",
-          "title": "Capitol Lens &#124; First Amendment grounds",
-          "link": "https://rollcall.com/2026/09/21/capitol-lens-first-amendment-grounds/"
+          "title": "Not a ‘toaster’: GOP senator urges Judiciary panel to probe Don Jr. wedding party",
+          "link": "https://rollcall.com/2026/09/22/gop-senator-urges-judiciary-panel-probe-don-jr-wedding/"
         },
         {
-          "source": "House News",
-          "title": "Florida Republican says Trump &#039;has his own style&#039; in handling reporters covering the White House",
-          "link": "https://thehill.com/homenews/house/6100450-salazar-defends-trump-media-ban/"
+          "source": "Senate News",
+          "title": "Hunter Biden responds to GOP senator&#039;s request: &#039;I&#039;ll sit next to Don Jr. and testify any time&#039;",
+          "link": "https://thehill.com/homenews/senate/6105280-hunter-biden-responds-senator-request/"
         },
         {
-          "source": "NPR Topics: Politics",
-          "title": "Trump's big weekend: The arch, Greenland, and media outlets banned from White House",
-          "link": "https://www.npr.org/2026/09/21/nx-s1-5976738/trumps-big-weekend-the-arch-greenland-and-media-outlets-banned-from-white-house"
+          "source": "Senate News",
+          "title": "Two Republicans back GOP senator’s call for Trump Jr. probe",
+          "link": "https://thehill.com/homenews/senate/6105396-senate-judiciary-investigates-donald-trump-jr/"
         },
         {
-          "source": "NPR Topics: Politics",
-          "title": "CNN, MS NOW and Politico sue Trump after being barred from White House",
-          "link": "https://www.npr.org/2026/09/21/nx-s1-5975451/reporters-say-they-were-blocked-from-entering-white-house-after-trump-banned-outlets"
+          "source": "Cointelegraph.com News",
+          "title": "Republican senator calls for probe into US presidents’ sons, citing crypto ventures",
+          "link": "https://cointelegraph.com/news/us-senator-probe-donald-trump-hunter-biden-crypto-business?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         },
         {
-          "source": "BBC News",
-          "title": "CNN, MS NOW and Politico file lawsuit against Trump's White House ban",
-          "link": "https://www.bbc.co.uk/news/articles/cm0e32rwvrryo?at_medium=RSS&at_campaign=rss"
+          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+          "title": "US Republican calls for probe into Donald Trump Jr’s business dealings",
+          "link": "https://www.aljazeera.com/news/2026/9/22/us-republican-calls-for-probe-into-donald-trump-jrs-business-dealings?traffic_source=rss"
         }
-      ],
-      "image": null
+      ]
     },
     {
-      "id": "feed-world-VHlwaG9vbiBEdWp1YW4gaGl0",
+      "id": "feed-world-U2Nob29sIHNob290aW5nIGlu",
       "sphere": "world",
-      "kategori": "VÄDER",
-      "rubrik": "Tyfonen Dujuan drar längs Japans kust – två döda",
-      "sammanfattning": "Nästan två miljoner människor uppmanades att evakuera när tyfonen Dujuan drog fram längs Japans östra kust med kraftigt regn, översvämningar och jordskred nära Tokyo. Enligt NHK har två personer dött och flera saknades, och hundratals flyg ställdes in medan tågtrafik och evenemang som Tokyo Game Show stoppades. Japans meteorologiska myndighet hade varnat för en överhängande fara för liv, men flera varningar nedgraderades senare. Stormen rörde sig sedan nordost ut mot havet.",
-      "synthes": "Källorna skiljer sig om hur många som omfattades av evakueringsråden – BBC och France 24 anger nära två miljoner, Al Jazeera 1,6 miljoner och South China Morning Post drygt 1 miljon – och Guardian beskriver Dujuan som en tropisk storm som väntas återta tyfonstyrka, medan övriga kallar den tyfon.",
+      "kategori": "BROTT",
+      "rubrik": "Elva elever skadade i skolskjutning i västra Turkiet",
+      "sammanfattning": "En 15-årig elev öppnade eld med hagelgevär utanför en gymnasieskola i Manisa-provinsen i västra Turkiet på tisdagsmorgonen. Elva elever skadades, varav flera allvarligt och några i intensivvård, och en person kunde skrivas ut. Den misstänkte greps efter att ha flytt platsen, och även hans mamma, pappa och farfar – som ägde vapnet – har frihetsberövats. Det är den tredje skolskjutningen i Turkiet i år, efter dåden i Sanliurfa och Kahramanmaras i april, och regeringen har lovat skärpta vapenlagar och ökad säkerhet i skolorna.",
+      "synthes": "Källorna är oense om antalet allvarligt skadade: SVT och The Hindu uppger två, medan SCMP talar om tre i intensivvård och ett annat antal skadade totalt; The Hindu uppger att gärningsmannen tog vapnet från sin mormors hus medan BBC och SVT skriver farfadern.",
       "leadSource": "BBC News",
-      "publishedAt": "2026-09-21T20:26:41.000Z",
+      "publishedAt": "2026-09-22T10:42:47.000Z",
       "readMinutes": 1,
-      "sourceCount": 6,
+      "sourceCount": 4,
       "singleSource": false,
       "enriched": true,
       "sources": [
         {
-          "source": "BBC News",
-          "title": "Millions urged to evacuate as powerful Typhoon Dujuan hits Japan",
-          "link": "https://www.bbc.co.uk/news/articles/cm3wj2lexl97o?at_medium=RSS&at_campaign=rss"
+          "source": "Utrikes | SVT Nyheter",
+          "title": "Elva skadade efter skolskjutning i Turkiet",
+          "link": "https://www.svt.se/nyheter/utrikes/uppgifter-om-skjutning-vid-skola-i-turkiet"
         },
         {
           "source": "BBC News",
-          "title": "Watch: Timelapse shows typhoon barrelling towards Japan",
-          "link": "https://www.bbc.co.uk/news/videos/cm0j3224p6j8o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-          "title": "Typhoon Dujuan kills two in Japan, causes travel chaos near Tokyo",
-          "link": "https://www.aljazeera.com/news/2026/9/22/typhoon-dujuan-hits-japan-with-deadly-floods-travel-chaos-near-tokyo?traffic_source=rss"
-        },
-        {
-          "source": "World news | The Guardian",
-          "title": "Japanese islands brace for Dujuan to become a typhoon again",
-          "link": "https://www.theguardian.com/environment/2026/sep/21/weather-tracker-japan-typhoon-dujuan"
-        },
-        {
-          "source": "France 24 - International breaking news, top stories and headlines",
-          "title": "Typhoon Dujuan: Japan urges two million to evacuate",
-          "link": "https://www.france24.com/en/video/20260921-typhoon-dujuan-japan-urges-two-million-to-evacuate"
+          "title": "Eleven injured in shooting outside Turkish school",
+          "link": "https://www.bbc.co.uk/news/articles/c6y0z4gv0le4o?at_medium=RSS&at_campaign=rss"
         },
         {
           "source": "News - South China Morning Post",
-          "title": "Flights axed, over 1 million urged to evacuate as Typhoon Dujuan hits Japan",
-          "link": "https://www.scmp.com/news/asia/east-asia/article/3368271/over-16-million-japan-urged-evacuate-typhoon-dujuan-nears-tokyo?utm_source=rss_feed"
-        }
-      ]
-    },
-    {
-      "id": "feed-world-R2VybWFuIHN0YXRlIGVsZWN0",
-      "sphere": "world",
-      "kategori": "POLITIK",
-      "rubrik": "Merz kallar delstatsvalen en katastrof – vägrar avgå",
-      "sammanfattning": "I delstatsvalet i Mecklenburg-Vorpommern blev högerpopulistiska AfD största parti med omkring 38 procent, medan CDU hamnade under femprocentsspärren och för första gången inte tar sig in i ett tyskt delstatsparlament. I Berlin blev vänsterpartiet Die Linke störst med 25,7 procent och kan leda nästa stadsregering med Elif Eralp som möjlig första borgmästare med invandrarbakgrund. Förbundskansler Friedrich Merz kallade resultatet en katastrof men sade att han stannar och håller koalitionen med SPD samman för Tysklands demokratiska framtid. AfD:s Alice Weidel spår att han snart lämnar.",
-      "synthes": "SVT och Guardian uppger att CDU fick 4,9 procent i Mecklenburg-Vorpommern, medan BBC skriver att partiet inte nådde spärren utan att ange siffran; Guardian nämner också att Kreml kommenterat AfD:s framgång, vilket andra källor inte tar upp.",
-      "leadSource": "BBC News",
-      "publishedAt": "2026-09-21T16:54:56.000Z",
-      "readMinutes": 1,
-      "sourceCount": 5,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "Utrikes | SVT Nyheter",
-          "title": "Merz: ”Det är en katastrof”",
-          "link": "https://www.svt.se/nyheter/utrikes/merz-det-ar-en-katastrof"
-        },
-        {
-          "source": "Utrikes | SVT Nyheter",
-          "title": "Ytterkanterna går mot succéval i tyska delstatsvalen",
-          "link": "https://www.svt.se/nyheter/utrikes/ytterkanterna-gar-mot-succeval-i-tyska-delstatsvalen"
-        },
-        {
-          "source": "BBC News",
-          "title": "Merz vows to keep coalition together for Germany's 'democratic future'",
-          "link": "https://www.bbc.co.uk/news/articles/cqm27p8enwmko?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "BBC News",
-          "title": "Merz's political crisis threatens Germany's obsession with stability",
-          "link": "https://www.bbc.co.uk/news/articles/c6vgyz1n0v1xo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "World news | The Guardian",
-          "title": "Chancellor vows to stay on for Germany’s ‘democratic future’ after latest loss to far-right AfD",
-          "link": "https://www.theguardian.com/world/2026/sep/21/germany-chancellor-freidrich-merz-cdu-christian-democratic-union-state-election-defeats-mecklenburg-western-pomerania-berlin"
-        },
-        {
-          "source": "World news | The Guardian",
-          "title": "Germany’s Merz ‘grateful’ centre-left SPD wants to stay in coalition after CDU’s heavy losses – as it happened",
-          "link": "https://www.theguardian.com/world/live/2026/sep/21/merz-german-chancellor-state-elections-russia-ukraine-europe-live-latest-news"
-        }
-      ]
-    },
-    {
-      "id": "feed-world-VW5pdGVkIFJ1c3NpYSB3aW5z",
-      "sphere": "world",
-      "kategori": "POLITIK",
-      "rubrik": "Enade Ryssland vinner stort i dumavalet",
-      "sammanfattning": "Vladimir Putins parti Enade Ryssland fick enligt preliminära resultat omkring 57,8 procent av rösterna och en supermajoritet i duman, med 355 av 450 mandat enligt Guardian. Valdeltagandet låg nära 60 procent och valet omfattade för första gången invånare i de ockuperade ukrainska regionerna. Det enda registrerade antikrigspartiet Jabloko ströks från vallistan av Högsta domstolen och tog inte något nationellt mandat, men uppges ha tagit sig in i ett regionalt parlament. Enligt Guardian ingår 49 veteraner från kriget i Ukraina i den nya duman.",
-      "synthes": "Guardian uppger att 49 krigsveteraner valts in och att Enade Ryssland fick 355 mandat, medan Al Jazeera skriver att partiet väntas få över tre fjärdedelar av platserna; SVT och The Hindu anger 57,82 respektive 57,83 procent, medan Guardian skriver 57,83 procent med 95 procent av rösterna räknade.",
-      "leadSource": "BBC News",
-      "publishedAt": "2026-09-21T00:05:11.000Z",
-      "readMinutes": 1,
-      "sourceCount": 5,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "Utrikes | SVT Nyheter",
-          "title": "Väntat utfall i ryska valet – Putins parti störst",
-          "link": "https://www.svt.se/nyheter/utrikes/vantat-utfall-i-ryska-valet-putins-parti-storst"
-        },
-        {
-          "source": "BBC News",
-          "title": "Russia's elections had few surprises - but how the Kremlin uses the results will be crucial",
-          "link": "https://www.bbc.co.uk/news/articles/cx4gqv239043o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "BBC News",
-          "title": "'No surprises' as results emerge in Russian parliamentary election",
-          "link": "https://www.bbc.co.uk/news/videos/cjp30pq0rx6ro?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-          "title": "Putin’s party wins supermajority in Russia’s parliamentary election",
-          "link": "https://www.aljazeera.com/news/2026/9/21/pro-putin-party-wins-supermajority-amid-ramped-up-ukrainian-attacks?traffic_source=rss"
-        },
-        {
-          "source": "World news | The Guardian",
-          "title": "Putin consolidates grip on Russia as 49 Ukraine war veterans elected to parliament",
-          "link": "https://www.theguardian.com/world/2026/sep/21/putin-consolidates-grip-russia-ukraine-war-veterans-elected-duma"
+          "title": "Turkey teen arrested after 11 pupils injured in shotgun shooting",
+          "link": "https://www.scmp.com/news/world/article/3368398/turkey-student-arrested-after-11-injured-shotgun-shooting?utm_source=rss_feed"
         },
         {
           "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-          "title": "Russia's ruling pro-Putin party wins wartime election with over 57% of vote, near-complete results show",
-          "link": "https://www.thehindu.com/news/international/russias-ruling-pro-putin-party-wins-wartime-election-with-over-57-of-vote-near-complete-results-show/article71491436.ece"
+          "title": "Shooter opens fire near high school in Turkiye, wounding at least 11",
+          "link": "https://www.thehindu.com/news/international/turkiye-shooter-opens-fire-near-high-school-in-wounding-several/article71495240.ece"
         }
       ]
     },
     {
-      "id": "feed-world-RkFBIGNvbW11bmljYXRpb25z",
-      "sphere": "world",
-      "kategori": "INFRASTRUKTUR",
-      "rubrik": "Kabelbrott stoppade flyg på USA:s östkust",
-      "sammanfattning": "Ett avgrävt fiberkabel i New Jersey ledde till att FAA tillfälligt stoppade flyg till flera stora flygplatser på USA:s östkust, däribland Newark, JFK, LaGuardia, Boston och Philadelphia. Tusentals flyg försenades eller ställdes in och problemen var inte helt lösta förrän efter omkring åtta timmar. Enligt FAA hade den primära förbindelsen redan fallerat och felet upptäcktes först när systemet växlade till reservkabeln. Myndigheterna pekade först på Amtrak, medan Amtrak och Verizon hänvisade till en entreprenör från NJ Transit.",
-      "synthes": "Källorna är oense om vem som grävde av kabeln: transportministern pekade på Amtrak, medan Amtrak och Verizon hänvisade till NJ Transit, och Guardian uppger att NJ Transit själva sagt att deras arbetare skar av linjen.",
-      "leadSource": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-      "publishedAt": "2026-09-21T20:01:37.000Z",
-      "readMinutes": 1,
-      "sourceCount": 5,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "BBC News",
-          "title": "Flights at major US airports delayed after cable cut by construction workers",
-          "link": "https://www.bbc.co.uk/news/articles/ckvgyzzgvv4wo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-          "title": "FAA halts flights to major US East Coast airports amid outage",
-          "link": "https://www.aljazeera.com/economy/2026/9/21/faa-halts-flights-to-major-us-east-coast-airports-amid-outage?traffic_source=rss"
-        },
-        {
-          "source": "World news | The Guardian",
-          "title": "Flights resume across US north-east after FAA communications failure",
-          "link": "https://www.theguardian.com/us-news/2026/sep/21/airports-flight-ground-stop-hacking-threat"
-        },
-        {
-          "source": "News - South China Morning Post",
-          "title": "Thousands of US flights snarled before FAA resolves communications problem",
-          "link": "https://www.scmp.com/news/world/united-states-canada/article/3368302/flights-halted-eastern-us-airports-world-leaders-arrive-new-york-un-meeting?utm_source=rss_feed"
-        },
-        {
-          "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-          "title": "U.S. halts flights at busy East Coast airports, says fiber line cut at construction site",
-          "link": "https://www.thehindu.com/news/international/us-halts-flights-at-busy-east-coast-airports-says-fiber-line-cut-at-construction-site/article71493081.ece"
-        }
-      ]
-    },
-    {
-      "id": "feed-crypto-Q3J5cHRvIHN1cGVyIFBBQyBG",
+      "id": "feed-crypto-QmluYW5jZSB0YWtlcyAkMTAw",
       "sphere": "crypto",
-      "kategori": "KRYPTO",
-      "rubrik": "Kryptopac satsar 30 miljoner dollar mot Sherrod Brown",
-      "sammanfattning": "Kryptopacen Fairshake satsar 30 miljoner dollar på att motarbeta demokraten Sherrod Browns försök att återvända till senaten i Ohio, där han utmanar republikanen Jon Husted. Satsningen kommer dagar efter att senaten röstat ned Clarity Act, ett lagförslag om federala regler för kryptomarknader, med röstsiffrorna 49–50. Fairshake uppges ha kvar nära 100 miljoner dollar inför valet den 3 november. Browns kampanjchef säger att Husted är \"till salu\" och att miljardärer och företag satsar miljoner i racet.",
-      "synthes": "Decrypt och CoinDesk uppger att Fairshake har omkring 90–100 miljoner dollar kvar, medan Decrypt anger att gruppen hade 108 miljoner dollar vid augusti månads slut – siffrorna skiljer sig något mellan källorna.",
+      "kategori": "MARKNAD",
+      "rubrik": "Binance köper aktier i Circle i femårigt USDC-avtal",
+      "sammanfattning": "Kryptobörsen Binance förvärvade Circle-aktier för 100 miljoner dollar i en privat placering som stängdes den 17 september, enligt en 8-K-rapport. Samtidigt utökades parternas USDC-samarbete till fem år, där Circle betalar Binance en månatlig incitamentsavgift baserad på hur mycket USDC som hålls via Circles plånboksinfrastruktur och Binance marknadsför stablecoinen på sin plattform. Avtalet ersätter tidigare uppgörelser från november 2024 och augusti 2025. Binance får inte sälja eller säkra aktierna på två år men behåller rösträtten.",
+      "synthes": "Decrypt och CoinDesk är ensamma om att nämna att den federala åklagarmyndigheten utreder Binance för misstänkta brott mot USA:s Iransanktioner, vilket rapporterades dagen innan affären offentliggjordes.",
+      "leadSource": "The Block",
+      "publishedAt": "2026-09-22T12:53:52.000Z",
+      "readMinutes": 1,
+      "sourceCount": 4,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "The Block",
+          "title": "Binance takes $100 million Circle stake alongside five-year USDC deal",
+          "link": "https://www.theblock.co/news/business/2026-09-22-binance-takes-100-million-circle-stake-alongside-five-year-usdc-deal-416042"
+        },
+        {
+          "source": "Cointelegraph.com News",
+          "title": "Binance takes $100M stake in Circle under expanded USDC deal",
+          "link": "https://cointelegraph.com/news/binance-stake-circle-expanded-usdc-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "source": "Decrypt",
+          "title": "Binance Takes $100M Stake in Circle Under Five-Year USDC Promotion Deal",
+          "link": "https://decrypt.co/378910/binance-takes-100m-stake-in-circle-under-five-year-usdc-promotion-deal"
+        },
+        {
+          "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+          "title": "Binance buys $100 million Circle stake in five-year USDC promotion deal",
+          "link": "https://www.coindesk.com/policy/2026/09/22/binance-buys-usd100-million-circle-stake-in-five-year-usdc-promotion-deal"
+        }
+      ]
+    },
+    {
+      "id": "feed-crypto-U3BvdCBiaXRjb2luIEVURnMg",
+      "sphere": "crypto",
+      "kategori": "MARKNAD",
+      "rubrik": "Bitcoin-ETF:er tog emot nära en miljard dollar på en dag",
+      "sammanfattning": "Amerikanska spot-ETF:er för bitcoin hade ett nettoinflöde på 998,95 miljoner dollar i måndags, det största på en dag sedan oktober 2025 och det nionde största sedan starten 2024. Blackrocks IBIT ledde med 381,37 miljoner dollar, följt av ARKB och FBTC. Inflödet kom bara en vecka efter att samma fonder noterat sitt svagaste veckoinflöde någonsin, och bitcoin handlades samtidigt kring 86 000 dollar, vilket enligt analytiker förde den genomsnittlige ETF-innehavaren tillbaka över sin kostnadsbas.",
+      "synthes": "Decrypt och CoinDesk ger samma siffror men olika vinklar: Decrypt betonar att snittinnehavaren åter är i vinst och att handelsvolymen var förhållandevis låg, medan CoinDesk lyfter att inflödet skedde trots ett misslyckat Clarity Act-omröstning och en räntehöjning från Fed.",
+      "leadSource": "The Block",
+      "publishedAt": "2026-09-22T07:44:17.000Z",
+      "readMinutes": 1,
+      "sourceCount": 4,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "The Block",
+          "title": "Spot bitcoin ETFs attract nearly $1 billion in largest daily inflow in 11 months",
+          "link": "https://www.theblock.co/news/markets/2026-09-22-spot-bitcoin-etfs-1-billion-daily-inflow-416005"
+        },
+        {
+          "source": "Cointelegraph.com News",
+          "title": "Bitcoin ETFs flirt with $1B as inflows hit 2026 high",
+          "link": "https://cointelegraph.com/markets/bitcoin-etf-biggest-inflow-october-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "source": "Decrypt",
+          "title": "Bitcoin ETFs Take Nearly $1B in a Day as Average Holder Returns to Profit",
+          "link": "https://decrypt.co/378921/bitcoin-etfs-take-nearly-1b-in-a-day-as-average-holder-returns-to-profit"
+        },
+        {
+          "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+          "title": "Spot bitcoin ETFs attracted nearly $1 billion on Monday, the 9th largest inflow ever",
+          "link": "https://www.coindesk.com/markets/2026/09/22/spot-bitcoin-etfs-attracted-nearly-usd1-billion-on-monday-the-9th-largest-inflow-ever"
+        }
+      ]
+    },
+    {
+      "id": "feed-crypto-Q3J5cHRvIFBBQyBGYWlyc2hh",
+      "sphere": "crypto",
+      "kategori": "POLITIK",
+      "rubrik": "Kryptopac satsar 30 miljoner dollar mot Sherrod Brown i Ohio",
+      "sammanfattning": "Super-PAC:en Fairshake, som finansieras av bland andra Coinbase, Ripple och a16z, satsar 30 miljoner dollar på att motarbeta demokraten Sherrod Browns försök att återvända till senaten i Ohio, där han utmanar republikanen Jon Husted. Satsningen kommer dagar efter att senaten stoppat Clarity Act, och är den största enskilda utgiften mot en kandidat i årets mellanårsval. Fairshake uppges fortfarande ha över 90 miljoner dollar kvar för valrörelsens sista veckor.",
+      "synthes": "CoinDesk och Decrypt är ense om beloppet men CoinDesk är ensam om att redovisa opinionssiffror för Ohios senatsval och om att Fairshake tidigare lagt omkring 12 miljoner dollar på Alabamas primärval.",
       "leadSource": "The Block",
       "publishedAt": "2026-09-21T16:35:43.000Z",
       "readMinutes": 1,
-      "sourceCount": 5,
+      "sourceCount": 4,
       "singleSource": false,
       "enriched": true,
       "sources": [
-        {
-          "source": "Congress",
-          "title": "Crypto super PAC to spend $30 million in bid to take down Sherrod Brown",
-          "link": "https://www.politico.com/live-updates/2026/09/21/congress/crypto-super-pac-spend-sherrod-brown-01086078"
-        },
         {
           "source": "The Block",
           "title": "Clarity Act fallout: crypto’s Fairshake PAC commits $30 million against Sherrod Brown",
@@ -721,64 +391,23 @@
       ]
     },
     {
-      "id": "feed-world-VUsgdG8gcmVmdWVsIFNhdWRp",
-      "sphere": "world",
-      "kategori": "GEOPOLITIK",
-      "rubrik": "Storbritannien stöttar saudiska flyg mot Huthi",
-      "sammanfattning": "Storbritanniens premiärminister Andy Burnham har godkänt en saudisk begäran om militärt stöd och låter Royal Air Force lufttanka saudiska plan på \"defensiva\" uppdrag mot Huthi-attacker. Insatsen beskrivs som tidsbegränsad och ska ses över löpande, och enligt uppgifter inleds den inom några dagar med ett RAF Voyager-plan. Syftet är att skydda energianläggningar och hålla oljevägarna öppna. Burnham ska också träffa Donald Trump för första gången vid FN:s generalförsamling och då bland annat ta upp konflikten i Iran.",
-      "synthes": "France 24 uppger att Saudiarabien står utan amerikansk hjälp mot Huthi efter att ha begärt stöd, en uppgift som övriga källor inte nämner; Guardian och The Hindu beskriver i stället Trumps tidigare avvisande av saudiska förfrågningar.",
-      "leadSource": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-      "publishedAt": "2026-09-22T00:29:28.000Z",
-      "readMinutes": 1,
-      "sourceCount": 5,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-          "title": "UK to refuel Saudi jets to help counter Houthi attacks",
-          "link": "https://www.aljazeera.com/news/2026/9/22/uk-to-refuel-saudi-jets-to-help-counter-houthi-attacks?traffic_source=rss"
-        },
-        {
-          "source": "World news | The Guardian",
-          "title": "UK to give support to Saudi jets in attempt to counter Houthi fighters",
-          "link": "https://www.theguardian.com/politics/2026/sep/21/uk-to-give-support-to-saudi-jets-in-attempt-to-counter-houthi-fighters"
-        },
-        {
-          "source": "France 24 - International breaking news, top stories and headlines",
-          "title": "Saudi Arabia left without US help against Houthis",
-          "link": "https://www.france24.com/en/saudi-arabia-left-without-us-help-against-houthis"
-        },
-        {
-          "source": "News - South China Morning Post",
-          "title": "Burnham to meet Trump, make UN debut after offering UK military support for Saudi Arabia",
-          "link": "https://www.scmp.com/news/world/europe/article/3368308/uk-pm-burnham-agrees-saudi-request-refuelling-support?utm_source=rss_feed"
-        },
-        {
-          "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-          "title": "Andy Burnham is set to meet Donald Trump for the first time at the UN in New York",
-          "link": "https://www.thehindu.com/news/international/andy-burnham-is-set-to-meet-donald-trump-for-the-first-time-at-the-un-in-new-york/article71490809.ece"
-        }
-      ]
-    },
-    {
-      "id": "feed-crypto-Qml0Y29pbiByYWxsaWVzIGFi",
+      "id": "feed-crypto-Qml0Y29pbiByYWxsaWVzIHRv",
       "sphere": "crypto",
       "kategori": "MARKNAD",
-      "rubrik": "Bitcoin över 85 000 dollar – kort positioner likviderades",
-      "sammanfattning": "Bitcoin steg till omkring 86 000 dollar, den högsta nivån på åtta månader, och passerade därmed 85 000 dollar för första gången sedan januari. Uppgången drevs delvis av en kort squeeze där hundratals miljoner dollar i blankningspositioner tvingades stänga, och av fallande oljepriser inför mötet mellan Trump och Xi. Enligt CoinGlass likviderades mellan 648 och 877 miljoner dollar över 24 timmar, varav merparten korta positioner. Analytiker varnar samtidigt för att hävstången byggs upp och att en återtestning av stödet kring 79 000–80 000 dollar kan bli aktuell.",
-      "synthes": "Källorna anger olika siffror för likvideringarna – Decrypt och CoinDesk nämner 648 miljoner dollar medan Decrypt på annan plats och The Block anger 877 respektive minst 750 miljoner dollar – och Bitwise och Standard Chartered ger motstridiga bilder av om en ny tjurmarknad inletts.",
-      "leadSource": "The Block",
-      "publishedAt": "2026-09-21T10:56:54.000Z",
+      "rubrik": "Bitcoin över 86 000 dollar när oljan faller",
+      "sammanfattning": "Bitcoin passerade 86 000 dollar för första gången sedan i januari och hela kryptomarknadens värde tog sig över 3 biljoner dollar. Uppgången sammanföll med fallande oljepriser efter rapporter om att Iran kan tänka sig att öppna Hormuzsundet igen, samt en Nasdaq-notering på rekordnivå. Enligt derivatdata drevs rörelsen till stor del av att blankare tvingades stänga positioner snarare än av nya köp. Analytiker pekar på att nästa steg beror på om köpare fortsätter komma in, och varnar för att överhettade signaler kan kräva en paus eller ett återtest av stödnivåer.",
+      "synthes": "Decrypt och CoinDesk är ense om att blankningstvång drev uppgången, men Decrypt är ensam om att nämna att Fed höjt räntan samtidigt som balansräkningen slutat krympa, och om att Bitwise kallat kryptovintern över.",
+      "leadSource": "Cointelegraph.com News",
+      "publishedAt": "2026-09-22T16:01:55.000Z",
       "readMinutes": 1,
-      "sourceCount": 4,
+      "sourceCount": 3,
       "singleSource": false,
       "enriched": true,
       "sources": [
         {
-          "source": "The Block",
-          "title": "Bitcoin taps $85,000 for first time since January as crypto short liquidations surge",
-          "link": "https://www.theblock.co/news/markets/2026-09-21-bitcoin-taps-85000-for-first-time-since-january-as-crypto-short-liquidations-surge-415905"
+          "source": "Cointelegraph.com News",
+          "title": "Bitcoin price seeks $86K as new support after oil dips below $90",
+          "link": "https://cointelegraph.com/markets/bitcoin-price-seeks-86k-as-new-support-after-oil-dips-below-90?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         },
         {
           "source": "Cointelegraph.com News",
@@ -786,9 +415,9 @@
           "link": "https://cointelegraph.com/markets/bitcoin-price-86k-analysis-sees-crypto-new-bull-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         },
         {
-          "source": "Cointelegraph.com News",
-          "title": "BTC price nears eight-month high above $85K: Five things to know in Bitcoin this week",
-          "link": "https://cointelegraph.com/markets/btc-price-nears-eight-month-high-above-85k-five-things-to-know-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+          "source": "Decrypt",
+          "title": "Bitcoin Breaks Out as Nasdaq Hits Records and Oil Slides on Iran Hopes",
+          "link": "https://decrypt.co/378972/bitcoin-breaks-out-nasdaq-hits-records-oil-slides"
         },
         {
           "source": "Decrypt",
@@ -796,467 +425,155 @@
           "link": "https://decrypt.co/378767/bitcoin-rally-what-happens-next"
         },
         {
-          "source": "Decrypt",
-          "title": "Morning Minute: Kevin O’Leary Calls for $1 Million Bitcoin, With an Asterisk",
-          "link": "https://decrypt.co/378728/morning-minute-kevin-oleary-calls-for-1-million-bitcoin-with-an-asterisk"
-        },
-        {
-          "source": "Decrypt",
-          "title": "Bitcoin Tops $85K as $648M in Crypto Shorts Liquidated",
-          "link": "https://decrypt.co/378729/bitcoin-tops-85k-as-648m-in-crypto-shorts-liquidated"
-        }
-      ]
-    },
-    {
-      "id": "feed-congress-UmVwdWJsaWNhbnMgYnJlYWsg",
-      "sphere": "congress",
-      "kategori": "POLITIK",
-      "rubrik": "Republikaner kräver snabbt slut på Iran-kriget",
-      "sammanfattning": "Flera republikaner har offentligt tagit avstånd från kriget i Iran med hänvisning till stigande priser. Senatskandidaten Mike Rogers i Michigan säger att kriget måste avslutas snabbt och att \"familjer i Michigan inte har råd att vänta\", medan representanten Ashley Hinson för andra gången uttrycker frustration över kriget och de stigande dieselpriserna. Senator John Kennedy spår att USA lämnar Iran inom omkring sex månader och medger att kriget drivit upp priser på olja och gödsel. Enligt Roll Call uppgår krigets kostnad till 43 miljarder dollar, men kongressen har ännu inte enats om finansieringen.",
-      "synthes": "Källorna kompletterar varandra: Rogers och Hinson beskriver trycket hemifrån, Kennedy ger en tidsprognos och Roll Call redovisar kostnadsläget och den uteblivna finansieringsplanen.",
-      "leadSource": "Congress",
-      "publishedAt": "2026-09-21T21:26:45.000Z",
-      "readMinutes": 1,
-      "sourceCount": 4,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "Congress",
-          "title": "Mike Rogers says Iran war needs to 'end quickly' amid rising prices",
-          "link": "https://www.politico.com/live-updates/2026/09/21/congress/rogers-says-iran-war-needs-to-end-01086434"
-        },
-        {
-          "source": "Congress",
-          "title": "Hinson calls for end to Iran war amid soaring diesel costs",
-          "link": "https://www.politico.com/live-updates/2026/09/21/congress/hinson-breaks-from-trump-again-01086190"
-        },
-        {
-          "source": "Roll Call",
-          "title": "Iran war funding dilemma",
-          "link": "https://rollcall.com/podcasts/cq-budget-podcast/iran-war-funding-dilemma/"
-        },
-        {
-          "source": "Senate News",
-          "title": "Senate Republican on Iran war: &#039;I think we&#039;ll be out of there in about 6 months&#039;",
-          "link": "https://thehill.com/homenews/senate/6101336-senate-gop-john-kennedy-donald-trump-iran-war-endgame/"
-        },
-        {
-          "source": "House News",
-          "title": "Rogers calls for end to war in Iran: &#039;Michigan families can&#039;t afford to wait&#039;",
-          "link": "https://thehill.com/homenews/campaign/6102630-rogers-iran-war-gas-tax/"
-        },
-        {
-          "source": "House News",
-          "title": "Senate Republican on Iran war: &#039;I think we&#039;ll be out of there in about 6 months&#039;",
-          "link": "https://thehill.com/homenews/senate/6101336-senate-gop-john-kennedy-donald-trump-iran-war-endgame/"
-        }
-      ]
-    },
-    {
-      "id": "feed-world-V29ybGQgbGVhZGVycyBnYXRo",
-      "sphere": "world",
-      "kategori": "KLIMAT",
-      "rubrik": "Klimatfrågan på agendan inför FN-toppmötet",
-      "sammanfattning": "Inför FN:s generalförsamling inleddes Climate Week i New York, där Australiens premiärminister Anthony Albanese och Islands premiärminister Kristrún Frostadóttir talade om klimatkrisens effekter och omställningen från fossila bränslen. Frostadóttir beskrev hur Island byggde ut geotermisk fjärrvärme efter oljekrisen och nu värmer nästan alla hem med förnybar energi. Flera talare lyfte säkerhets- och ekonomiska skäl för omställningen, bland annat med hänvisning till kriget i Iran. Arrangörerna uppger att årets upplaga är den största hittills, men noterar samtidigt en ökad tystnad kring klimatfrågan.",
-      "synthes": "Guardian och South China Morning Post beskriver båda mötet som präglat av krig, klimat och AI, men bara Guardian tar upp den amerikanska regeringens åtgärder mot klimatpolitiken och begreppet \"climate hushing\".",
-      "leadSource": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-      "publishedAt": "2026-09-22T00:36:12.000Z",
-      "readMinutes": 1,
-      "sourceCount": 4,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-          "title": "Here’s what to pay attention to at the UNGA",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/aje-onl-nf_heres-what-to-pay-attention-to-at-the-unga-210926?traffic_source=rss"
-        },
-        {
-          "source": "World news | The Guardian",
-          "title": "World leaders address climate crisis before UN meet amid record-breaking El Niño",
-          "link": "https://www.theguardian.com/environment/2026/sep/21/world-leaders-climate-crisis-el-nino"
-        },
-        {
-          "source": "AllAfrica News: Latest",
-          "title": "Africa: What to Know Ahead of UN General Assembly",
-          "link": "https://allafrica.com/stories/202609210589.html"
-        },
-        {
-          "source": "News - South China Morning Post",
-          "title": "World leaders meet at UN as planet grapples with climate change, wars, runaway AI",
-          "link": "https://www.scmp.com/news/world/united-states-canada/article/3368291/world-leaders-meet-un-planet-grapples-climate-change-wars-runaway-ai?utm_source=rss_feed"
-        }
-      ]
-    },
-    {
-      "id": "feed-crypto-U3RyYXRlZ3kgYW5kIEJpdG1p",
-      "sphere": "crypto",
-      "kategori": "KRYPTO",
-      "rubrik": "Strategy och Bitmine fortsätter köpa krypto",
-      "sammanfattning": "Michael Saylors Strategy köpte 950 bitcoin för 75,7 miljoner dollar och återköpte samtidigt preferensaktier för 174 miljoner dollar, vilket förde innehavet till 846 000 bitcoin – strax under rekordet från juni. Bitmine Immersion Technologies fortsatte sin veckovisa ethereum-köp och adderade 27 562 ETH för omkring 74 miljoner dollar, vilket ger ett innehav på 5 983 940 ETH eller 4,9 procent av utbudet. Bitmines ordförande Tom Lee säger att en kryptotjurmarknad inletts och att institutioner fortfarande är underviktade.",
-      "synthes": "Decrypt och CoinDesk uppger att Bitmines köp var värt omkring 74–75 miljoner dollar, medan The Block anger 27 562 ETH utan belopp; Decrypt uppger att Bitmine nått 98 procent av sitt mål om 5 procent av utbudet.",
-      "leadSource": "The Block",
-      "publishedAt": "2026-09-21T15:07:39.000Z",
-      "readMinutes": 1,
-      "sourceCount": 4,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "The Block",
-          "title": "Strive adds 1,355 bitcoin, picks up pace toward year-end second-place treasury goal",
-          "link": "https://www.theblock.co/news/markets/2026-09-21-strive-adds-1355-bitcoin-picks-up-pace-year-end-second-place-treasury-goal-415940"
-        },
-        {
-          "source": "The Block",
-          "title": "‘Crypto bull market is underway,’ Tom Lee says as Bitmine nears 5% Ethereum supply target with 27,562 ETH buy",
-          "link": "https://www.theblock.co/news/business/2026-09-21-crypto-bull-market-underway-tom-lee-says-bitmine-nears-5-ethereum-supply-target-with-27562-eth-buy-415923"
-        },
-        {
-          "source": "Cointelegraph.com News",
-          "title": "Strategy buys 950 Bitcoin for $76M, repurchases $174M in STRC",
-          "link": "https://cointelegraph.com/news/strategy-950-btc-buy-strc-repurchase-174-million?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-        },
-        {
-          "source": "Decrypt",
-          "title": "Tom Lee's Bitmine Adds $74M in Ethereum, Declares a Crypto Bull Market 'Underway'",
-          "link": "https://decrypt.co/378754/tom-lee-bitmine-adds-ethereum-crypto-bull-market"
-        },
-        {
-          "source": "Decrypt",
-          "title": "Strategy's Bitcoin Pile Nears June Record After $76M Purchase",
-          "link": "https://decrypt.co/378737/strategys-bitcoin-pile-nears-june-record-after-76m-purchase"
+          "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+          "title": "Bitcoin recovers from Asian-session lows as falling oil price supports risk appetite",
+          "link": "https://www.coindesk.com/markets/2026/09/22/bitcoin-recovers-from-asian-session-lows-as-falling-oil-price-supports-risk-appetite"
         },
         {
           "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-          "title": "Bitmine bought $75 million ether as Tom Lee says institutions are still underweight crypto",
-          "link": "https://www.coindesk.com/business/2026/09/21/bitmine-bought-usd75-million-ether-as-tom-lee-says-institutions-are-still-underweight-crypto"
+          "title": "Live updates: Bitcoin trades near $86,000 as U.S. stocks post small gains",
+          "link": "https://www.coindesk.com/markets/2026/09/22/live-updates-oil-falls-as-iran-signals-possible-hormuz-reopening-bitcoin-holds-near-usd86-000"
         }
       ]
     },
     {
-      "id": "feed-world-SW1yYW4gS2hhbidzIHNpc3Rl",
-      "sphere": "world",
-      "kategori": "JURIDIK",
-      "rubrik": "Imran Khans systrar gripna inför protestmarsch",
-      "sammanfattning": "Tre systrar till Pakistans fängslade expresident Imran Khan greps i Lahore och dömdes till 30 dagars förvar enligt lagen om allmän ordning. Enligt PTI slog polisen till mot Aleema Khans hem och grep även Uzma Khan och Noreen Niazi, medan barn och barnbarn släpptes. Gripandena sker inför partiets planerade protestmarsch mot Islamabad den 27 september, som regeringen kallar olaglig. Khans familj och parti uppger att han hålls isolerad och nekas besök och vård.",
-      "synthes": "BBC uppger att en syster greps medan Guardian, South China Morning Post och The Hindu rapporterar att tre systrar gripits; The Hindu uppger att Khan dömts till 17 års fängelse medan BBC anger 14 år i ett markkorruptionsmål.",
-      "leadSource": "BBC News",
-      "publishedAt": "2026-09-20T19:04:11.000Z",
-      "readMinutes": 1,
-      "sourceCount": 4,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "BBC News",
-          "title": "Sister of Pakistan's ex-PM Imran Khan arrested",
-          "link": "https://www.bbc.co.uk/news/articles/cm36l2pye2kwo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "World news | The Guardian",
-          "title": "Pakistan jails sisters of Imran Khan before protest seeking his release",
-          "link": "https://www.theguardian.com/world/2026/sep/21/pakistan-jails-sisters-of-imran-khan-before-protest-seeking-his-release"
-        },
-        {
-          "source": "News - South China Morning Post",
-          "title": "Sisters of Pakistan’s Imran Khan arrested in Lahore, jailed ex-PM’s party says",
-          "link": "https://www.scmp.com/news/asia/south-asia/article/3368301/sisters-pakistans-imran-khan-arrested-lahore-jailed-ex-pms-party-says?utm_source=rss_feed"
-        },
-        {
-          "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-          "title": "Pakistan ex-PM Imran Khan’s three sisters arrested in Lahore",
-          "link": "https://www.thehindu.com/news/international/pakistan-ex-pm-imran-khans-three-sisters-arrested-in-lahore/article71490800.ece"
-        },
-        {
-          "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-          "title": "Pakistan’s Ex-PM Imran Khan’s sister detained by authorities",
-          "link": "https://www.thehindu.com/news/international/pakistans-ex-pm-imran-khans-sister-detained-by-authorities/article71489030.ece"
-        }
-      ]
-    },
-    {
-      "id": "feed-world-VUsgYnJpbmdzIGZpcnN0IGNo",
-      "sphere": "world",
-      "kategori": "JURIDIK",
-      "rubrik": "Första brittiska åtalet för folkmordet i Rwanda",
-      "sammanfattning": "Brittiska åklagare har väckt det första åtalet i Storbritannien med koppling till folkmordet i Rwanda 1994. Vincent Brown, tidigare Vincent Bajinya, 65, åtalas för ett fall av medverkan till folkmord och sex fall av medverkan till mord som brott mot mänskligheten. Enligt Crown Prosecution Service ska han ha lett och uppmanat till mord och folkmord utförda av andra. Han greps 2006 och utlämning till Rwanda nekades 2017; utredningen inleddes 2019 efter en begäran från Rwandas regering.",
-      "synthes": "Källorna är eniga om åtalspunkterna, men Al Jazeera tillägger bakgrund om att Brown kom till Storbritannien som asylsökande 1998 och bytte namn 2004, vilket övriga källor inte nämner.",
-      "leadSource": "BBC News",
-      "publishedAt": "2026-09-21T17:48:23.000Z",
-      "readMinutes": 1,
-      "sourceCount": 4,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "BBC News",
-          "title": "First UK charges brought over 1994 Rwanda genocide",
-          "link": "https://www.bbc.co.uk/news/articles/cr2092216nywo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-          "title": "UK prosecutors charge first person for Rwanda genocide",
-          "link": "https://www.aljazeera.com/news/2026/9/21/uk-prosecutors-charge-first-person-for-rwanda-genocide?traffic_source=rss"
-        },
-        {
-          "source": "News - South China Morning Post",
-          "title": "First charges brought in UK for 1994 Rwanda genocide",
-          "link": "https://www.scmp.com/news/world/europe/article/3368303/first-charges-brought-uk-1994-rwanda-genocide?utm_source=rss_feed"
-        },
-        {
-          "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-          "title": "U.K. charges man over alleged Rwanda genocide offences",
-          "link": "https://www.thehindu.com/news/international/uk-charges-man-over-alleged-rwanda-genocide-offences/article71492881.ece"
-        }
-      ]
-    },
-    {
-      "id": "feed-world-R29vZ2xlIGZpbmVkIOKCrDQw",
-      "sphere": "world",
-      "kategori": "REGLERING",
-      "rubrik": "Google bötfälls 403 miljoner euro för platsdata",
-      "sammanfattning": "Irlands dataskyddsmyndighet DPC bötfäller Google med 403 miljoner euro för hanteringen av användares platsdata. Utredningen gällde funktionerna Web App Activity, Location History och Location Accuracy mellan maj 2018 och februari 2020, och myndigheten konstaterar att behandlingen inte var laglig, rättvis eller transparent. Enligt DPC kunde användare vara omedvetna om att deras plats användes för att rikta annonser eller dra slutsatser om deras intressen. Google ska inom sex månader bringa behandlingen i linje med GDPR och uppger att praxis uppdaterats sedan 2019.",
-      "synthes": "Guardian och France 24 noterar kritik mot att utredningen tagit åtta år, och Guardian uppger att bötesbeloppet är det fjärde största från den irländska myndigheten – jämförelser som BBC och The Hindu inte gör.",
-      "leadSource": "BBC News",
-      "publishedAt": "2026-09-21T12:30:54.000Z",
-      "readMinutes": 1,
-      "sourceCount": 4,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "BBC News",
-          "title": "Google hit with €403m fine by Irish data watchdog over GDPR violations",
-          "link": "https://www.bbc.co.uk/news/articles/ck1e52v16ngxo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "World news | The Guardian",
-          "title": "Google fined more than €400m by Irish regulator over its use of location data",
-          "link": "https://www.theguardian.com/technology/2026/sep/21/google-is-fined-more-than-400m-by-irish-regulator-over-its-use-of-location-data"
-        },
-        {
-          "source": "France 24 - International breaking news, top stories and headlines",
-          "title": "EU fines Google €403 million for improperly using location data",
-          "link": "https://www.france24.com/en/europe/20260921-eu-fines-google-%E2%82%AC403-million-for-improperly-using-location-data"
-        },
-        {
-          "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-          "title": "Irish privacy regulator fines Google €403 million over location data processing",
-          "link": "https://www.thehindu.com/sci-tech/technology/irish-privacy-regulator-fines-google-403-million-over-location-data-processing/article71491276.ece"
-        }
-      ]
-    },
-    {
-      "id": "feed-crypto-WCBzdWVzIHVzZXJzIG92ZXIg",
-      "sphere": "crypto",
-      "kategori": "JURIDIK",
-      "rubrik": "X stämmer två brittiska användare för bedrägeri",
-      "sammanfattning": "X stämmer Vivek Kumar Sen och Zamyang Sherpa i brittisk domstol och anklagar dem för att ha drivit ett nätverk av falska bitcoin-konton för att komma åt utbetalningar från plattformens Creator Revenue Sharing-program. Enligt stämningen ska nio konton ha publicerat nästan identiska rubriker inom sekunder och samordnat gillningar och delningar för att fejka engagemang. X kräver tillbaka minst 277 000 dollar plus skadestånd och uppger sig ha lagt minst 75 000 pund på utredningen. Kontona stängdes av den 18 augusti.",
-      "synthes": "Decrypt och CoinDesk uppger nio konton medan Cointelegraph skriver sex konton, och CoinDesk anger beloppet i pund medan övriga räknar i dollar.",
-      "leadSource": "The Block",
-      "publishedAt": "2026-09-21T09:24:27.000Z",
-      "readMinutes": 1,
-      "sourceCount": 4,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "The Block",
-          "title": "X sues UK duo over alleged $277K crypto account payout fraud",
-          "link": "https://www.theblock.co/news/regulation/2026-09-21-x-sues-uk-duo-over-alleged-277k-crypto-account-payout-fraud-415889"
-        },
-        {
-          "source": "Cointelegraph.com News",
-          "title": "X sues Bitcoin account operators over alleged $278K payout fraud",
-          "link": "https://cointelegraph.com/news/x-lawsuit-bitcoin-accounts-alleged-scheme?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-        },
-        {
-          "source": "Decrypt",
-          "title": "X Sues Two Bitcoin Influencers Over Bot Army That Milked Creator Payouts",
-          "link": "https://decrypt.co/378877/x-sues-bitcoin-influencers-bot-army-creator-payout"
-        },
-        {
-          "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-          "title": "X sues its own users for running a fake bitcoin news bot farm",
-          "link": "https://www.coindesk.com/markets/2026/09/21/x-sues-its-won-users-for-running-a-fake-bitcoin-news-bot-farm"
-        }
-      ]
-    },
-    {
-      "id": "feed-world-VVMtQ2hpbmEgQUkgc2FmZXR5",
-      "sphere": "world",
-      "kategori": "GEOPOLITIK",
-      "rubrik": "USA och Kina samtalar om AI-säkerhet inför toppmöte",
-      "sammanfattning": "Amerikanska och kinesiska företrädare möttes i New York och diskuterade att skapa en mekanism för att meddela varandra om AI-incidenter som kan nå nationell säkerhetsnivå. USA:s finansminister Scott Bessent kallade samtalen framgångsrika och sade att ökad transparens mellan världens två främsta AI-makter är viktig. Mötet föregår ett toppmöte mellan Donald Trump och Xi Jinping i Washington senare i veckan. Kongressledamoten Ro Khanna efterlyser internationella säkerhetsstandarder och förbud mot självförbättrande AI-system.",
-      "synthes": "BBC och The Hindu beskriver samtalen som en grund för toppmötet, medan South China Morning Post tillägger att analytiker varnar för att en kommunikationskanal inte överbryggar de strukturella motsättningarna kring chiptillgång och marknadsdominans.",
-      "leadSource": "BBC News",
-      "publishedAt": "2026-09-21T05:50:56.000Z",
-      "readMinutes": 1,
-      "sourceCount": 3,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "BBC News",
-          "title": "US and China discuss AI safety plan ahead of Trump-Xi summit",
-          "link": "https://www.bbc.co.uk/news/articles/c8vgyzn2d31yo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "BBC News",
-          "title": "US and China discuss AI safety plan ahead of Trump-Xi summit",
-          "link": "https://www.bbc.co.uk/news/articles/c8vgyzn2d31yo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "News - South China Morning Post",
-          "title": "US, China need nuclear-style AI safeguards, congressman says before Xi-Trump summit",
-          "link": "https://www.scmp.com/news/us/diplomacy/article/3368311/us-china-need-nuclear-style-ai-safeguards-congressman-says-xi-trump-summit?utm_source=rss_feed"
-        },
-        {
-          "source": "News - South China Morning Post",
-          "title": "As AI safety fears mount, can a US-China hotline prevent a global crisis?",
-          "link": "https://www.scmp.com/tech/tech-war/article/3368281/ai-safety-fears-mount-can-us-china-hotline-prevent-global-crisis?utm_source=rss_feed"
-        },
-        {
-          "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-          "title": "U.S. seeks ‘AI dialogue’ with China as officials set stage for Trump-Xi summit",
-          "link": "https://www.thehindu.com/news/international/us-seeks-ai-dialogue-with-china-as-officials-set-stage-for-trump-xi-summit/article71490031.ece"
-        },
-        {
-          "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-          "title": "Top U.S., China negotiators to hold final preparatory talks ahead of Trump-Xi summit",
-          "link": "https://www.thehindu.com/news/international/top-us-china-negotiators-to-hold-final-preparatory-talks-ahead-of-trump-xi-summit/article71484389.ece"
-        }
-      ]
-    },
-    {
-      "id": "feed-world-SXJhbiB3YXIgdGVuc2lvbnMg",
-      "sphere": "world",
-      "kategori": "GEOPOLITIK",
-      "rubrik": "Iran varnar för ny amerikansk bombkampanj",
-      "sammanfattning": "Irans revolutionsgarde uppger att USA och Israel måste acceptera ett tillbakadragande från regionen, efter iranska uppgifter om att USA förbereder en ny bombkampanj mot Iran. Donald Trump sade till Fox News att han överväger att \"utplåna Iran\", låta landet förfalla ekonomiskt eller sluta en uppgörelse. Bakgrunden är Huthirebellernas attacker mot Riyadh, där Saudiarabien uppger sig ha skjutit ned en ballistisk missil. USA:s utrikesdepartement har utfärdat säkerhetsvarningar för amerikaner i regionen och uppmanar dem i Iran att lämna landet.",
-      "synthes": "Guardian och The Hindu beskriver båda Trumps oväntade avbrott på Camp David, men bara The Hindu uppger att Trump i ett samtal med Jemens president inte lovade något militärt stöd, och bara Guardian nämner Frankrikes ambassadörskall och Irans sju fredsvillkor.",
-      "leadSource": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "readMinutes": 1,
-      "sourceCount": 3,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-          "title": "Iran war live: IRGC says US, Israel ‘must accept withdrawal’ from region",
-          "link": "https://www.aljazeera.com/news/liveblog/2026/9/22/iran-war-live-irgc-says-us-israel-must-accept-withdrawal-from-region?traffic_source=rss"
-        },
-        {
-          "source": "World news | The Guardian",
-          "title": "Middle East braces for more violence as Iran claims US is planning to renew bombing campaign",
-          "link": "https://www.theguardian.com/world/2026/sep/20/middle-east-braces-for-more-violence-as-iran-claims-us-is-planning-to-renew-bombing-campaign"
-        },
-        {
-          "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-          "title": "U.S. fears rapid escalation in West Asia after Houthis attack Riyadh",
-          "link": "https://www.thehindu.com/news/international/us-fears-rapid-escalation-in-west-asia-after-houthis-attack-riyadh/article71487153.ece"
-        },
-        {
-          "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-          "title": "Trump, in call with Yemen President, did not pledge military support against Houthis, say sources",
-          "link": "https://www.thehindu.com/news/international/trump-in-call-with-yemen-president-did-not-pledge-military-support-against-houthis-say-sources/article71492048.ece"
-        },
-        {
-          "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-          "title": "U.S. issues Iran travel warning, urges Americans to leave country amid rising West Asia tensions",
-          "link": "https://www.thehindu.com/news/international/us-issues-iran-travel-warning-urges-americans-to-leave-country-amid-rising-west-asia-tensions/article71490382.ece"
-        },
-        {
-          "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-          "title": "Trump claims Houthis agree not to fight U.S., as attacks mount on Saudi allies",
-          "link": "https://www.thehindu.com/news/international/trump-claims-houthis-agree-not-to-fight-us-as-attacks-mount-on-saudi-allies/article71488627.ece"
-        }
-      ]
-    },
-    {
-      "id": "feed-congress-VVMsIERlbm1hcmssIEdyZWVu",
+      "id": "feed-congress-V2hpdGUgSG91c2UgbGF1bmNo",
       "sphere": "congress",
-      "kategori": "GEOPOLITIK",
-      "rubrik": "USA, Danmark och Grönland undertecknar säkerhetsavtal",
-      "sammanfattning": "USA, Danmark och Grönland väntas underteckna ett nytt säkerhetsavtal om Grönland på tisdagen, enligt flera källor. Danmarks radio erfar att USA vill öppna två nya militärbaser på ön, medan Reuters källor pekar på södra Grönland och östkusten. Trump säger att avtalet ger USA permanent kontroll över säkerheten och att ingen motståndare får ha militär närvaro eller göra känsliga investeringar utan amerikanskt skriftligt godkännande. Danmarks statsminister Mette Frederiksen säger att danska \"röda linjer\" respekterats och att Grönlands självbestämmanderätt ligger fast.",
-      "synthes": "SVT och BBC är eniga om huvuddragen, men BBC återger att Liberaldemokraternas Ed Davey kallar avtalet en låtsasseger och nästan identiskt med avtalet från 1950-talet – en invändning som inte nämns i de svenska källorna.",
-      "leadSource": "Utrikes | SVT Nyheter",
-      "publishedAt": "2026-09-22T02:12:37.000Z",
+      "kategori": "MEDIER",
+      "rubrik": "Vita huset lanserar Trump TV efter att ha portat mediebolag",
+      "sammanfattning": "Efter att president Trump portat CNN, MS NOW och Politico från Vita huset lanserade administrationen en dygnet-runt-kanal på YouTube under namnet Trump TV. Kanalen visar klipp med presidenten och administrationen och beskrivs som en plats för administrationens största ögonblick. De tre portade mediebolagen har stämt administrationen med hänvisning till första och femte tillägget, och de fem stora TV-nätverken har gemensamt valt att bojkotta bevakningen av presidentens poolhändelser. Kritiker, däribland demokratiska politiker, kallar kanalen för statligt styrd media.",
+      "synthes": "BBC och SVT beskriver samma händelseförlopp men BBC är ensam om att förklara vad Vita husets presspool är och om att Obama-administrationen 2009 försökte utesluta Fox News från en enskild intervju.",
+      "leadSource": "NPR Topics: Politics",
+      "publishedAt": "2026-09-22T21:31:01.000Z",
       "readMinutes": 1,
       "sourceCount": 3,
       "singleSource": false,
       "enriched": true,
       "sources": [
         {
-          "source": "Utrikes | SVT Nyheter",
-          "title": "Källor: USA planerar nya baser på Grönland",
-          "link": "https://www.svt.se/nyheter/utrikes/kallor-usa-planerar-nya-baser-pa-gronland"
-        },
-        {
-          "source": "Utrikes | SVT Nyheter",
-          "title": "Mette Frederiksen: Grönlandavtalet respekterar ”röda linjer”",
-          "link": "https://www.svt.se/nyheter/utrikes/mette-frederiksen-gronlandavtalet-respekterar-roda-linjer"
-        },
-        {
-          "source": "BBC News",
-          "title": "Burnham hails Greenland deal ahead of expected first Trump meeting",
-          "link": "https://www.bbc.co.uk/news/articles/c8207255rq5lo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "France 24 - International breaking news, top stories and headlines",
-          "title": "US, Denmark and Greenland to sign security deal on Tuesday",
-          "link": "https://www.france24.com/en/americas/20260921-us-denmark-and-greenland-to-sign-security-deal-on-tuesday"
-        }
-      ]
-    },
-    {
-      "id": "feed-congress-VHJ1bXAncyBwcm9wb3NlZCBE",
-      "sphere": "congress",
-      "kategori": "POLITIK",
-      "rubrik": "Motstånd mot Trumps triumfbåge som militäranläggning",
-      "sammanfattning": "Donald Trump uppger att hans planerade triumfbåge i Washington DC ska göras om till ett militärt komplex med plats för drönare, prickskyttar och ammunition, med hänvisning till nationell säkerhet. Republikanen Mike Simpson, ledamot av representanthusets anslagskommitté, säger att han inte vill se försvarsmedel gå till bågen och att militären behöver pengarna till annat. Demokraternas Jamie Raskin riktar kritik mot projektet och kräver delstatlig status för Washington DC. En federal domstol prövar bågens laglighet efter en stämning från Vietnamveteraner och en arkitekturhistoriker.",
-      "synthes": "Källorna kompletterar varandra: NPR redogör för Trumps inlägg och rättsprocessen, medan Congress och House News fångar den republikanska och demokratiska kritiken mot finansieringen.",
-      "leadSource": "Congress",
-      "publishedAt": "2026-09-21T15:53:53.000Z",
-      "readMinutes": 1,
-      "sourceCount": 3,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "Congress",
-          "title": "Senior GOP appropriator pours cold water on funding Trump’s arch",
-          "link": "https://www.politico.com/live-updates/2026/09/21/congress/trump-arch-pushback-01086147"
-        },
-        {
-          "source": "House News",
-          "title": "Raskin attacks Trump’s proposed arch, calls for DC statehood",
-          "link": "https://thehill.com/homenews/house/6102460-raskin-attacks-trump-arch-plan/"
-        },
-        {
-          "source": "House News",
-          "title": "House Republican signals opposition to using military funds for Trump’s arch",
-          "link": "https://thehill.com/homenews/house/6102459-mike-simpson-opposes-pentagon-arch-funding/"
+          "source": "NPR Topics: Politics",
+          "title": "White House launches 'Trump TV' after ban on major news outlets",
+          "link": "https://www.npr.org/2026/09/22/nx-s1-5977768/trump-tv-media-ban-white-house"
         },
         {
           "source": "NPR Topics: Politics",
-          "title": "Trump says his D.C. arch will serve as 'military complex' with snipers and drones",
-          "link": "https://www.npr.org/2026/09/20/nx-s1-5975449/trump-washington-dc-arch-military-complex-snipers-drones"
+          "title": "Trump's big weekend: The arch, Greenland, and media outlets banned from White House",
+          "link": "https://www.npr.org/2026/09/21/nx-s1-5976738/trumps-big-weekend-the-arch-greenland-and-media-outlets-banned-from-white-house"
+        },
+        {
+          "source": "BBC News",
+          "title": "What is the White House pool and why is it in a row with Trump?",
+          "link": "https://www.bbc.co.uk/news/articles/c8dx5dy5rzz2o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source": "Utrikes | SVT Nyheter",
+          "title": "Ryter ifrån mot CNN: ”Borde inte vara här”",
+          "link": "https://www.svt.se/nyheter/utrikes/efter-vita-husets-portning-av-medier-startar-trump-tv"
         }
       ]
     },
     {
-      "id": "feed-crypto-RUNCIGxhdW5jaGVzIFBvbnRl",
+      "id": "feed-congress-VHJ1bXAgd2VpZ2hzIGRpZXNl",
+      "sphere": "congress",
+      "kategori": "EKONOMI",
+      "rubrik": "Trump öppnar för att stoppa dieselexport",
+      "sammanfattning": "President Trump sade vid FN-mötet att han personligen stöder ett tillfälligt stopp för amerikansk dieselexport för att pressa de rekordhöga priserna, men att det är en avvägning och att administrationen ännu inte nått enighet. Finansminister Scott Bessent uppgav att man utreder om ett helt eller delvis förbud är genomförbart med hänsyn till raffinaderikapaciteten. Flera republikaner i tuffa valkretsar, däribland Dan Sullivan i Alaska och Ashley Hinson i Iowa, har krävt ett stopp, medan oljeindustrin och analytiker varnar för att ett förbud kan slå mot USA:s anseende som leverantör och på sikt höja priserna.",
+      "synthes": "Roll Call och BBC ger samstämmiga uppgifter om priser och politik, men Roll Call är ensam om att redovisa att en Marist-mätning visar Turek åtta procentenheter före Hinson i Iowa och om att Thune lutar åt exportförbud framför andra åtgärder.",
+      "leadSource": "Roll Call",
+      "publishedAt": "2026-09-22T18:28:16.000Z",
+      "readMinutes": 1,
+      "sourceCount": 3,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "Roll Call",
+          "title": "Trump says administration is weighing diesel export restrictions",
+          "link": "https://rollcall.com/2026/09/22/trump-says-administration-is-weighing-diesel-export-restrictions/"
+        },
+        {
+          "source": "Senate News",
+          "title": "Proposed diesel export ban pits GOP senators against each other",
+          "link": "https://thehill.com/homenews/senate/6102916-senate-gop-diesel-export-ban/"
+        },
+        {
+          "source": "BBC News",
+          "title": "Trump says he would back ban on diesel exports",
+          "link": "https://www.bbc.co.uk/news/articles/cmkg7560epw0o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "id": "feed-congress-RWxlY3Rpb24gcmF0aW5ncyBz",
+      "sphere": "congress",
+      "kategori": "POLITIK",
+      "rubrik": "Allt fler valdistrikt bedöms gå mot demokraterna",
+      "sammanfattning": "Inför mellanårsvalet den 3 november flyttar valanalytiker allt fler distrikt i demokraternas riktning. Inside Elections ändrar ett dussin distrikt, bland annat Maines senatsval mellan Susan Collins och Troy Jackson som går från lutande republikanskt till dött lopp, samt flera distrikt i Florida, Iowa, Texas och North Carolina. Även Sabatos Crystal Ball flyttar tre senatsval och fyra guvernörsval åt vänster och hänvisar till en ihållande svag nationell miljö för republikanerna.",
+      "synthes": "Roll Call och Senate News/House News rapporterar om olika analytikers ändringar och nämner delvis olika distrikt, men båda pekar på samma övergripande rörelse mot demokraterna.",
+      "leadSource": "Roll Call",
+      "publishedAt": "2026-09-22T16:28:00.000Z",
+      "readMinutes": 1,
+      "sourceCount": 3,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "Roll Call",
+          "title": "Rating changes: A dozen more races move toward Democrats",
+          "link": "https://rollcall.com/2026/09/22/rating-changes-a-dozen-more-races-move-toward-democrats/"
+        },
+        {
+          "source": "Senate News",
+          "title": "Sabato&#039;s Crystal Ball moves 3 Senate, 4 gubernatorial races in Democrats&#039; favor",
+          "link": "https://thehill.com/homenews/campaign/6104713-sabato-crystal-ball-shifts-left/"
+        },
+        {
+          "source": "House News",
+          "title": "Sabato&#039;s Crystal Ball moves 3 Senate, 4 gubernatorial races in Democrats&#039; favor",
+          "link": "https://thehill.com/homenews/campaign/6104713-sabato-crystal-ball-shifts-left/"
+        }
+      ]
+    },
+    {
+      "id": "feed-crypto-Q0ZUQyB3YXJucyBvZiBtYW5p",
       "sphere": "crypto",
       "kategori": "REGLERING",
-      "rubrik": "ECB lanserar Pontes och köper tokeniserade värdepapper",
-      "sammanfattning": "Europeiska centralbanken har lanserat plattformen Pontes, som gör det möjligt för banker och andra behöriga institut att göra upp tokeniserade transaktioner i centralbankspengar. ECB planerar samtidigt att investera en mindre del av sina egna medel i eurodenominerade tokeniserade värdepapper från stater, offentliga organ och europeiska supranationella institut. Belopp och tidpunkt beslutas av direktionen när förberedelserna är klara. Pontes ska byggas ut stegvis och vara fullt genomförd 2028, och är separat från pilotprojektet med en digital euro för konsumenter.",
-      "synthes": "CoinDesk uppger att ECB-president Christine Lagarde presenterade lanseringen vid ett Eurogroup-möte och att en digital euro-pilot planeras till 2027, detaljer som Decrypt och Cointelegraph inte tar upp.",
+      "rubrik": "CFTC varnar för manipuleringsrisk i så kallade mention markets",
+      "sammanfattning": "USA:s terminshandelsmyndighet CFTC utfärdade en vägledning om spelmarknader där utfallet beror på vad en namngiven person säger eller gör. Myndigheten konstaterar att sådana kontrakt till skillnad från andra marknader inte har ett oberoende och externt verifierbart utfall, och att de därför kan vara särskilt lätta att manipulera. Kontrakten förbjuds inte, men plattformarna måste visa att de inte är manipulerbara, bland annat genom oberoende verifierbarhet och offentlig granskning. Vägledningen kommer efter att CFTC bötfällt en tidigare teleprompter-operatör i Vita huset.",
+      "synthes": "CoinDesk är ensam om att nämna att Kalshi stängt av George Santos på livstid efter misstankar om spel på sitt eget framträdande, medan Cointelegraph är ensam om att koppla varningen till böterna för teleprompter-operatören.",
+      "leadSource": "The Block",
+      "publishedAt": "2026-09-22T21:42:19.000Z",
+      "readMinutes": 1,
+      "sourceCount": 3,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "The Block",
+          "title": "CFTC warns ‘mention market’ prediction contracts carry heightened manipulation risk",
+          "link": "https://www.theblock.co/news/regulation/2026-09-22-cftc-advisory-mention-markets-manipulation-risk-416120"
+        },
+        {
+          "source": "Cointelegraph.com News",
+          "title": "CFTC issues warning over risky prediction market ‘mention’ contracts",
+          "link": "https://cointelegraph.com/news/cftc-issues-warning-over-risky-prediction-market-mention-contracts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+          "title": "U.S. regulator warns about cheating risks in 'mention markets' on prediction platforms",
+          "link": "https://www.coindesk.com/policy/2026/09/22/u-s-regulator-warns-about-cheating-risks-in-mention-markets-on-prediction-platforms"
+        }
+      ]
+    },
+    {
+      "id": "feed-crypto-VVMgcHJvc2VjdXRvcnMgcHJv",
+      "sphere": "crypto",
+      "kategori": "JURIDIK",
+      "rubrik": "Åklagare utreder om Binance medvetet brutit mot Iransanktioner",
+      "sammanfattning": "Enligt Bloomberg utreder federala åklagare i Manhattan, tillsammans med justitiedepartementets kriminalavdelning i Washington, om Binance tillät handel som bröt mot USA:s sanktioner mot Iran och om börsen gjorde det med vetskap. Binance uppger att man har en nolltoleranspolicy mot sanktionsbrott och samarbetar med myndigheterna. Börsen dömdes 2023 för brott mot bank- och sanktionslagstiftning och betalade 4,3 miljarder dollar. Utredningen följer tidigare rapporter om stora belopp som ska ha nått Iran-kopplade aktörer.",
+      "synthes": "Decrypt och CoinDesk ger samma huvudsakliga uppgifter, men Decrypt är ensam om att nämna att Binance stämt Wall Street Journal och om att OFAC i augusti fått mandat att rikta sig mot Irans digitala tillgångssektor.",
       "leadSource": "Cointelegraph.com News",
-      "publishedAt": "2026-09-21T11:27:00.000Z",
+      "publishedAt": "2026-09-22T02:22:59.000Z",
       "readMinutes": 1,
       "sourceCount": 3,
       "singleSource": false,
@@ -1264,8 +581,132 @@
       "sources": [
         {
           "source": "Cointelegraph.com News",
-          "title": "ECB launches Pontes to settle tokenized assets without stablecoins",
-          "link": "https://cointelegraph.com/news/eurosystem-central-bank-money-tokenized-finance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+          "title": "Manhattan US Attorney leading probe into Binance’s Iran compliance: Bloomberg",
+          "link": "https://cointelegraph.com/news/doj-probing-binance-over-alleged-iran-sanction-violations-bloomberg?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "source": "Decrypt",
+          "title": "US Probes Whether Binance 'Knowingly' Let Iran-Linked Trades Through: Report",
+          "link": "https://decrypt.co/378902/us-probes-whether-binance-knowingly-let-iran-linked-trades-through-report"
+        },
+        {
+          "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+          "title": "Binance probed by U.S. federal prosecutors for sanctions violations: Bloomberg",
+          "link": "https://www.coindesk.com/policy/2026/09/22/binance-probed-by-u-s-federal-prosecutors-for-sanctions-violations-bloomberg"
+        }
+      ]
+    },
+    {
+      "id": "feed-world-TWFjcm9uIHVyZ2VzIHdvcmxk",
+      "sphere": "world",
+      "kategori": "GEOPOLITIK",
+      "rubrik": "Macron manar världen att stå emot maktmissbruk i sitt sista FN-tal",
+      "sammanfattning": "Frankrikes president Emmanuel Macron höll sitt sista tal inför FN:s generalförsamling som landets ledare och uppmanade nationerna att sluta upp bakom FN och folkrätten i stället för en återvändande djungelns lag. Han fördömde situationen i Gaza och efterlyste ett dubbelt moratorium för attacker mot civil och energirelaterad infrastruktur i Rysslands krig mot Ukraina. Macron sade också att Frankrike inte kommer att vika en tum i sitt stöd till Ukraina, och föreslog en öppen källkodsmodell för avancerad AI som ett alternativ till beroende av Kina och USA.",
+      "synthes": "Al Jazeera och The Hindu återger talet samstämmigt, medan France 24 är ensam om att särskilt lyfta Macrons vädjan om ett moratorium för attacker mot civil och energirelaterad infrastruktur.",
+      "leadSource": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+      "publishedAt": "2026-09-22T21:09:03.000Z",
+      "readMinutes": 1,
+      "sourceCount": 3,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
+          "title": "Macron: France won’t ‘yield an inch’ on Ukraine support",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/macron-france-wont-yield-an-inch-on-ukraine-support?traffic_source=rss"
+        },
+        {
+          "source": "France 24 - International breaking news, top stories and headlines",
+          "title": "Macron urges world to 'stand firm' against 'abuse of power by empires' in final UN speech",
+          "link": "https://www.france24.com/en/france/20260922-macron-urges-world-stand-firm-against-abuse-of-power-by-empires-final-un-speech"
+        },
+        {
+          "source": "World News Today: International News Headlines - The Hindu | The Hindu",
+          "title": "Macron urges world to choose UN over ‘law of the jungle’",
+          "link": "https://www.thehindu.com/news/international/macron-urges-world-to-choose-un-over-law-of-the-jungle/article71497347.ece"
+        }
+      ]
+    },
+    {
+      "id": "feed-congress-T2hpbyBUViBzdGF0aW9ucyBh",
+      "sphere": "congress",
+      "kategori": "MEDIER",
+      "rubrik": "Ohio-stationer sänder motståndarannons trots hot från Max Miller",
+      "sammanfattning": "Lokala TV-stationer i Ohio fortsätter att sända en annons från demokraten Brian Poindexter som riktar sig mot den republikanske kongressledamoten Max Miller. Millers advokat ska ha skickat ett upphörandebrev till chefer på WKYC-TV i Cleveland och kallat annonsens påståenden om Miller falska och ärekränkande. Stationerna har ändå valt att sända annonsen.",
+      "synthes": "Congress, Senate News och House News återger samma uppgifter utan att motsäga varandra.",
+      "leadSource": "Congress",
+      "publishedAt": "2026-09-22T15:33:38.000Z",
+      "readMinutes": 1,
+      "sourceCount": 3,
+      "singleSource": false,
+      "enriched": false,
+      "sources": [
+        {
+          "source": "Congress",
+          "title": "Ohio stations ignore Max Miller’s legal threat, run Democratic challenger’s ad",
+          "link": "https://www.politico.com/live-updates/2026/09/22/congress/max-miller-ad-cease-desist-01087414"
+        },
+        {
+          "source": "Senate News",
+          "title": "Ohio TV stations ignore legal threat from Max Miller, air opponent&#039;s ad: Report",
+          "link": "https://thehill.com/homenews/campaign/6105523-ohio-poindexter-max-miller-ad/"
+        },
+        {
+          "source": "House News",
+          "title": "Ohio TV stations ignore legal threat from Max Miller, air opponent&#039;s ad: Report",
+          "link": "https://thehill.com/homenews/campaign/6105523-ohio-poindexter-max-miller-ad/"
+        }
+      ]
+    },
+    {
+      "id": "feed-crypto-QW5pbW9jYSBCcmFuZHMgc3Vz",
+      "sphere": "crypto",
+      "kategori": "MARKNAD",
+      "rubrik": "Animoca skjuter upp planerad notering på Nasdaq",
+      "sammanfattning": "Animoca Brands har pausat samtalen om en omvänd fusion med Currenc Group som skulle ha gett kryptoinvesteringsbolaget en notering på Nasdaq. Enligt bolaget stämde inte tidsplanen för affären med parternas respektive mål. Planen, som diskuterats sedan slutet av förra året, skulle ha gett Hongkongbaserade Animoca 95 procent av det sammanslagna bolaget. Animoca uppger att man fortfarande siktar på en notering på en större börs.",
+      "synthes": "CoinDesk är ensam om att nämna att Currenc-aktien föll 0,93 procent i efterhandeln och om att affären skulle ha gett Animoca 95 procent av det nya bolaget.",
+      "leadSource": "The Block",
+      "publishedAt": "2026-09-22T02:46:02.000Z",
+      "readMinutes": 1,
+      "sourceCount": 3,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "The Block",
+          "title": "Animoca Brands suspends merger deal that would have taken it public",
+          "link": "https://www.theblock.co/news/business/2026-09-21-animoca-brands-suspends-merger-deal-415991"
+        },
+        {
+          "source": "Cointelegraph.com News",
+          "title": "Animoca puts Currenc merger on ice, delaying its Nasdaq debut",
+          "link": "https://cointelegraph.com/news/animoca-currenc-merger-delaying-nasdaq-debut?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+          "title": "Animoca Brands delays IPO plans, suspends merger talks with Currenc",
+          "link": "https://www.coindesk.com/business/2026/09/22/animoca-brands-delays-ipo-plans-suspends-merger-talks-with-currenc"
+        }
+      ]
+    },
+    {
+      "id": "feed-crypto-RUNCIHRvIGludmVzdCBvd24g",
+      "sphere": "crypto",
+      "kategori": "REGLERING",
+      "rubrik": "ECB ska investera egna medel i tokeniserade värdepapper",
+      "sammanfattning": "Europeiska centralbanken förbereder att placera en mindre del av sina egna medel i tokeniserade värdepapper, med avveckling via den nya tjänsten Pontes. Köpen ska inledningsvis gälla eurodenominerade statspapper och skulder från offentliga organ och europeiska supranationella institutioner, och syftet är att bygga praktisk erfarenhet av distribuerad liggare i finansmarknaden. Belopp och tidpunkt är ännu inte fastställda utan ska beslutas av ECB:s direktion. Pontes väntas vara fullt genomfört 2028.",
+      "synthes": "Decrypt och CoinDesk ger samma bild, men Decrypt är ensam om att nämna jämförbara projekt hos JPMorgan, New York Life och Indiens pilot med tokeniserade företagsobligationer.",
+      "leadSource": "Cointelegraph.com News",
+      "publishedAt": "2026-09-22T11:29:35.000Z",
+      "readMinutes": 1,
+      "sourceCount": 3,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "Cointelegraph.com News",
+          "title": "ECB to put its own money into tokenized securities via new Pontes DLT",
+          "link": "https://cointelegraph.com/news/ecb-money-tokenized-securities-pontes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         },
         {
           "source": "Decrypt",
@@ -1276,116 +717,49 @@
           "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
           "title": "ECB plans to buy tokenized bonds with its own funds",
           "link": "https://www.coindesk.com/policy/2026/09/21/ecb-announces-it-will-invest-in-tokenized-securities-via-new-pontes-platform"
+        }
+      ]
+    },
+    {
+      "id": "feed-crypto-V2hpdGUgaGF0cyBtb3ZlIDUy",
+      "sphere": "crypto",
+      "kategori": "BROTT",
+      "rubrik": "Whitehats flyttar bitcoin från Coldcard-exploateringen till återvinningstrust",
+      "sammanfattning": "Enligt Galaxy Research har etiska hackare flyttat 52,37 bitcoin, värda omkring 4,3 miljoner dollar, från plånböcker kopplade till exploateringen av Coldcard till en adress märkt med en återvinningstrust. Transaktionen bekräftades i block 967 948 och beloppet motsvarar cirka 2,8 procent av de totala medel som spårats i attacken. Exploateringen byggde på ett firmwarefel från 2021 som gjorde att plånböcker skapade seed-fraser med för lite slumpmässighet, vilket gjorde privata nycklar gissningsbara. Drabbade kan söka sina adresser på trustens webbplats.",
+      "synthes": "Decrypt och CoinDesk är ense om beloppet 52,37 BTC, men Decrypt uppger att exploateringen vid sin topp uppgick till omkring 130 miljoner dollar medan CoinDesk anger över 100 miljoner dollar och daterar attacken till juli.",
+      "leadSource": "Cointelegraph.com News",
+      "publishedAt": "2026-09-22T09:06:59.000Z",
+      "readMinutes": 1,
+      "sourceCount": 3,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "Cointelegraph.com News",
+          "title": "White hats outrun Coldcard hackers in 52-Bitcoin evacuation",
+          "link": "https://cointelegraph.com/news/white-hats-coldcard-btc-exploit-galaxy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "source": "Decrypt",
+          "title": "White-Hat Hackers Route Coldcard Exploit Bitcoin Into 'Recovery Trust'",
+          "link": "https://decrypt.co/378978/white-hat-hackers-coldcard-exploit-bitcoin-recovery-trust"
         },
         {
           "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-          "title": "ECB deploys Pontes platform to settle wholesale tokenized assets in central-bank money",
-          "link": "https://www.coindesk.com/business/2026/09/21/ecb-deploys-pontes-platform-to-settle-wholesale-tokenized-assets-in-central-bank-money"
+          "title": "Whitehats move 52 bitcoin from the Coldcard hack to a recovery trust",
+          "link": "https://www.coindesk.com/markets/2026/09/22/whitehats-move-52-bitcoin-from-the-coldcard-hack-to-a-recovery-trust"
         }
       ]
     },
     {
-      "id": "feed-congress-VHJ1bXAgcHVzaCB0byBwb2xp",
+      "id": "feed-congress-VVMgdG8gYnVpbGQgdHdvIG1p",
       "sphere": "congress",
-      "kategori": "POLITIK",
-      "rubrik": "Kritik mot politisk styrning av NIH-bidrag",
-      "sammanfattning": "Rapporter om att Vita huset vill ge politiskt tillsatta tjänstemän mer kontroll över National Institutes of Healths bidragsprocess har mött motstånd i kongressen. Senator Susan Collins, ordförande i senatens anslagskommitté, säger att en politisk granskning av redan vetenskapligt utvalda anslag strider mot kongressens avsikt och att OMB inte bör vara inblandat. Även demokraten Patty Murray kritiserar planen. Enligt uppgifterna övervägs en verkställande order eller en granskning från Vita huset för att sortera bort forskning som strider mot Trumps agenda.",
-      "synthes": "Roll Call och Senate News är eniga om Collins och Murrays kritik, medan Roll Call tillägger att en pågående budgetresolution skjuter upp en omstridd bidragsregel och att branschorganisationer varnar för att kliniska prövningar kan stoppas.",
-      "leadSource": "Congress",
-      "publishedAt": "2026-09-21T19:12:26.000Z",
-      "readMinutes": 1,
-      "sourceCount": 3,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "Congress",
-          "title": "Collins slams Trump plan to ‘politicize’ grants as defying Congress",
-          "link": "https://www.politico.com/live-updates/2026/09/21/congress/collins-warns-trump-on-nih-shakeup-01086273"
-        },
-        {
-          "source": "Roll Call",
-          "title": "Lawmakers bristle at Trump effort for tighter control of NIH",
-          "link": "https://rollcall.com/2026/09/21/lawmakers-bristle-at-trump-effort-for-tighter-control-of-nih/"
-        },
-        {
-          "source": "Senate News",
-          "title": "Collins, Murray speak out against reported Trump push to &#039;politicize grantmaking&#039;",
-          "link": "https://thehill.com/policy/healthcare/6102442-collins-murray-omb-nih-grants/"
-        }
-      ]
-    },
-    {
-      "id": "feed-congress-VHJ1bXAgcGl2b3RzIHRvIGZv",
-      "sphere": "congress",
-      "kategori": "POLITIK",
-      "rubrik": "Trump vänder sig mot utrikespolitiken inför FN-veckan",
-      "sammanfattning": "Donald Trump reser till New York för FN:s generalförsamling och ett möte med Xi Jinping i Washington, med Iran och AI högst på agendan. USA:s FN-ambassadör Mike Waltz säger att talet till generalförsamlingen ska lyfta hur administrationen tagit sig an globala problem och vikten av att Iran aldrig får kärnvapen. Demokratiska ledamöter kräver att Trump säkrar någon form av AI-överenskommelse med Xi, medan Trump själv skriver att han inte går med på något som hämmar tillväxt. Senaten väntas samtidigt hantera ett lagförslag om college-idrott som Trump stöder.",
-      "synthes": "Roll Call ger detaljer om schemat, AI-frågan och tullförhandlingarna, medan NPR och Al Jazeera främst ramar in veckan och påminner om kriget i Iran och Israels agerande mot Gaza-vapenvilan.",
-      "leadSource": "Roll Call",
-      "publishedAt": "2026-09-21T12:54:11.000Z",
-      "readMinutes": 1,
-      "sourceCount": 3,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "Roll Call",
-          "title": "Trump pivots to foreign policy amid political, legal battles at home",
-          "link": "https://rollcall.com/2026/09/21/trump-pivots-to-foreign-policy-amid-political-legal-battles-at-home/"
-        },
-        {
-          "source": "NPR Topics: Politics",
-          "title": "President Trump navigates tough political waters with UNGA, Xi visit and AI",
-          "link": "https://www.npr.org/2026/09/20/nx-s1-5975459/president-trump-navigates-tough-political-waters-with-unga-xi-visit-and-ai"
-        },
-        {
-          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-          "title": "Trump returns to the UN, what will he say?",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/aje-onl-nf_trump-returns-to-the-un-what-will-he-say-210926?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "id": "feed-congress-SmFyZWQgR29sZGVuIGVuZG9y",
-      "sphere": "congress",
-      "kategori": "POLITIK",
-      "rubrik": "Demokraten Golden stöder republikanen Lawler",
-      "sammanfattning": "Den avgående demokratiske kongressledamoten Jared Golden från Maine stöder republikanen Mike Lawler i dennes valkrets i delstaten New York. I en debattartikel pekar Golden på deras gemensamma arbete med flera lagförslag, bland annat ett som förlänger pausen för federala hummerregler till 2035. Lawler tillhör de mest utsatta republikanerna i representanthuset och möter demokraten Cait Conley i ett race som bedöms som helt jämnt. Demokraternas gruppledare Hakeem Jeffries kallar stödet för ett skenmanöver.",
-      "synthes": "Roll Call och House News är eniga om innebörden, men Roll Call tillägger att Golden nyligen röstat med republikanerna i procedurfrågor och att Jeffries kallat Lawler en \"oäkta\" politiker.",
-      "leadSource": "Congress",
-      "publishedAt": "2026-09-21T14:51:19.000Z",
-      "readMinutes": 1,
-      "sourceCount": 3,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "Congress",
-          "title": "Jared Golden crosses party lines again, endorsing Mike Lawler for reelection",
-          "link": "https://www.politico.com/live-updates/2026/09/21/congress/jared-golden-mike-lawler-endorsement-01086087"
-        },
-        {
-          "source": "Roll Call",
-          "title": "Golden breaks Democratic ranks to support Lawler’s reelection bid",
-          "link": "https://rollcall.com/2026/09/21/golden-breaks-democratic-ranks-to-support-lawlers-reelection-bid/"
-        },
-        {
-          "source": "House News",
-          "title": "Democrat Golden backs GOP&#039;s Lawler in tough New York race",
-          "link": "https://thehill.com/homenews/house/6101822-bipartisan-endorsement-mike-lawler/"
-        }
-      ]
-    },
-    {
-      "id": "feed-congress-QXVzdGluIElDRSBzaG9vdGlu",
-      "sphere": "congress",
-      "kategori": "MIGRATION",
-      "rubrik": "Protester efter att ICE skjutit man i Austin",
-      "sammanfattning": "En agent från USA:s migrationspolis ICE sköt och skadade Wilber Rafael Garcés Perez, en 28-årig venezuelansk matbudförare, i Austin i Texas. Mannen träffades i bålen och vårdas på sjukhus; enligt AP är skadorna allvarliga men tillståndet stabilt. Vad som ledde fram till skottlossningen är oklart, och borgmästaren Kirk Watson kräver att stadens polis deltar i en oberoende utredning. Ett hundratal demonstranter samlades på platsen för att protestera mot ICE.",
-      "synthes": "BBC och SVT är eniga om händelseförloppet, men SVT uppger att skottlossningen följde efter ett trafikstopp, en detalj som BBC inte nämner, medan BBC tillägger att en ICE-agent tidigare i månaden åtalats för att ha ljugit om en skjutning i Minnesota.",
+      "kategori": "GEOPOLITIK",
+      "rubrik": "USA, Danmark och Grönland undertecknar försvarsavtal",
+      "sammanfattning": "Vid FN:s generalförsamling undertecknade USA:s president Donald Trump, Danmarks statsminister Mette Frederiksen och Grönlands regeringschef Jens-Frederik Nielsen ett försvarsavtal som ger USA rätt att bygga två nya militärbaser på Grönland, vid Narsarsuaq och Mestersvig. Avtalet uppdaterar en försvarsöverenskommelse från 1951, bekräftar dansk suveränitet och Grönlands rätt till självbestämmande, och tillåter USA att modernisera sin befintliga bas Pituffik. Inget territorium avträds, och avtalet måste godkännas av både Danmarks och Grönlands parlament.",
+      "synthes": "BBC och SVT är ense om huvuddragen, men SVT är ensam om att Trump sagt att avtalet ger USA permanent kontroll över säkerheten på ön, och om att uppgifterna om basernas placering först kom via Danmarks Radio och Reuters.",
       "leadSource": "BBC News",
-      "publishedAt": "2026-09-21T12:22:06.000Z",
+      "publishedAt": "2026-09-22T21:36:55.000Z",
       "readMinutes": 1,
       "sourceCount": 2,
       "singleSource": false,
@@ -1393,30 +767,123 @@
       "sources": [
         {
           "source": "BBC News",
-          "title": "Protests as ICE agent shoots and wounds Venezuelan DoorDash driver in Texas",
-          "link": "https://www.bbc.co.uk/news/articles/c3y0z25v0zjwo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "BBC News",
-          "title": "'I am frustrated' - Protesters take to the streets after Austin ICE shooting",
-          "link": "https://www.bbc.co.uk/news/videos/cj1dl26vrl6no?at_medium=RSS&at_campaign=rss"
+          "title": "US to build two military bases in Greenland under new deal with Denmark",
+          "link": "https://www.bbc.co.uk/news/articles/c9dr74g32g8go?at_medium=RSS&at_campaign=rss"
         },
         {
           "source": "Utrikes | SVT Nyheter",
-          "title": "Man allvarligt skadad efter ny ICE-skjutning",
-          "link": "https://www.svt.se/nyheter/utrikes/man-allvarligt-skadad-efter-ny-ice-skjutning"
+          "title": "Grönland signerar historiskt avtal med USA",
+          "link": "https://www.svt.se/nyheter/utrikes/gronland-signerar-historiskt-avtal-med-usa"
+        },
+        {
+          "source": "Utrikes | SVT Nyheter",
+          "title": "Källor: USA planerar nya baser på Grönland",
+          "link": "https://www.svt.se/nyheter/utrikes/kallor-usa-planerar-nya-baser-pa-gronland"
         }
       ]
     },
     {
-      "id": "feed-congress-R2FyeSBQZXRlcnMgdG8gbGVh",
+      "id": "feed-crypto-Q0xBUklUWSBBY3QgZmFpbHVy",
+      "sphere": "crypto",
+      "kategori": "REGLERING",
+      "rubrik": "Lummis skyller Clarity Acts fall på demokraterna",
+      "sammanfattning": "Senator Cynthia Lummis sade vid ett evenemang i Washington att hon är besviken över att senaten inte kunde driva igenom en procedurröstning om kryptomarknadslagstiftningen Clarity Act, och lade skulden på demokraterna. Samtidigt sade Vita husets kryptorådgivare Patrick Witt och finansdepartementets Luke Pettit att förhoppningarna om en ny chans under lame duck-sessionen är små och att fokus i stället ligger på tillsynsmyndigheternas arbete. Kongressledamöterna French Hill och Ritchie Torres menade båda att en version av lagen fortfarande behövs.",
+      "synthes": "CoinDesk och Cointelegraph rapporterar om samma omröstning, men CoinDesk är ensam om att återge Lummis och kongressledamöternas uttalanden om Trumps memecoin och om att myndigheternas regelarbete nu tar över.",
+      "leadSource": "Cointelegraph.com News",
+      "publishedAt": "2026-09-22T15:55:37.000Z",
+      "readMinutes": 1,
+      "sourceCount": 2,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "Cointelegraph.com News",
+          "title": "CLARITY vote failure could stoke more crypto PAC spending in key races",
+          "link": "https://cointelegraph.com/news/failure-clarity-act-vote-us-lawmakers-2026-midterms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "source": "Cointelegraph.com News",
+          "title": "Crypto Biz: CLARITY Act setback puts Coinbase in the spotlight",
+          "link": "https://cointelegraph.com/news/crypto-biz-clarity-act-coinbase-sec-tokenized-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+          "title": "Democrats 'chose visceral hatred for' Donald Trump over crypto Clarity Act, Lummis says",
+          "link": "https://www.coindesk.com/policy/2026/09/22/democrats-chose-visceral-hatred-for-donald-trump-over-crypto-clarity-act-lummis-says"
+        },
+        {
+          "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+          "title": "Crypto market structure can't wait for shot at post-election Clarity Act surge: White House",
+          "link": "https://www.coindesk.com/policy/2026/09/22/crypto-market-structure-can-t-wait-for-shot-at-post-election-clarity-act-surge-white-house"
+        }
+      ]
+    },
+    {
+      "id": "feed-crypto-Q3J5cHRvIG1hcmtldCBjYXAg",
+      "sphere": "crypto",
+      "kategori": "MARKNAD",
+      "rubrik": "Dogecoin lyfter när kryptomarknaden återtar 3 biljoner dollar",
+      "sammanfattning": "Dogecoin steg över 15 procent och ledde uppgången bland större kryptovalutor, medan bitcoin höll sig strax över 85 000 dollar efter en uppgång på omkring 5 procent under ett dygn. Mer än en miljard dollar i kryptopositioner likviderades under dagen, varav 844 miljoner dollar i blankningspositioner, vilket enligt analytiker innebär att nästa steg beror på nya köpare. Uppgången sammanföll med stigande teknikaktier i Asien och ökad entusiasm kring AI.",
+      "synthes": "CoinDesk och Cointelegraph ger samstämmiga siffror, men Cointelegraph är ensam om att nämna Glassnodes altcoin-signal och att bitcoins marknadsandel stannat under 60 procent.",
+      "leadSource": "Cointelegraph.com News",
+      "publishedAt": "2026-09-22T10:00:43.000Z",
+      "readMinutes": 1,
+      "sourceCount": 2,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "Cointelegraph.com News",
+          "title": "Crypto metric signals altseason as Bitcoin market-cap share stalls below 60%",
+          "link": "https://cointelegraph.com/markets/crypto-metric-signals-altseason-as-bitcoin-market-cap-share-stalls-below-60?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "source": "Cointelegraph.com News",
+          "title": "Crypto market cap reclaims $3 trillion as Bitcoin, altcoins rally",
+          "link": "https://cointelegraph.com/markets/crypto-market-cap-3-trillion-bitcoin-altcoins-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+          "title": "Dogecoin leads market rebound with 15% pump, bitcoin steady above $85,000",
+          "link": "https://www.coindesk.com/markets/2026/09/22/dogecoin-leads-market-rebound-with-15-pump-bitcoin-steady-above-usd85-000"
+        }
+      ]
+    },
+    {
+      "id": "feed-congress-QXBwZWFscyBjb3VydCByZWpl",
+      "sphere": "congress",
+      "kategori": "JURIDIK",
+      "rubrik": "Appellationsdomstol underkänner regler om demonstrationer på Capitoltrappan",
+      "sammanfattning": "USA:s appellationsdomstol för District of Columbia underkände i en 2-1-dom de regler som förbjuder de flesta demonstrationer på Capitoliums östra trappa, med motiveringen att de strider mot yttrandefriheten. Domaren Neomi Rao skrev att trappan är ett icke-offentligt forum där restriktioner måste vara åsiktsneutrala, och att kongressledamöters kontroll över tillträdet gör reglerna godtyckliga. Målet går tillbaka till distriktsdomstolen. Domaren Judith Rogers var skiljaktig och ville gå längre i att underkänna reglerna.",
+      "synthes": "Congress och Roll Call rapporterar om samma dom, men Congress är ensam om att koppla den till frågan om Trump-administrationens medieportförbud.",
+      "leadSource": "Congress",
+      "publishedAt": "2026-09-22T17:43:18.000Z",
+      "readMinutes": 1,
+      "sourceCount": 2,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "Congress",
+          "title": "Appeals court’s Capitol steps ruling may signal trouble for Trump on media ban",
+          "link": "https://www.politico.com/news/2026/09/22/dc-circuit-ruling-capitol-steps-01087843"
+        },
+        {
+          "source": "Roll Call",
+          "title": "Court rejects Capitol Police rules on demonstrations on Capitol steps",
+          "link": "https://rollcall.com/2026/09/22/court-rejects-capitol-police-rules-on-demonstrations-on-capitol-steps/"
+        }
+      ]
+    },
+    {
+      "id": "feed-congress-Q29sbGlucyBvcHBvc2VzIFRy",
       "sphere": "congress",
       "kategori": "POLITIK",
-      "rubrik": "Peters går till USC efter senaten",
-      "sammanfattning": "Demokraten Gary Peters från Michigan, som lämnar senaten vid mandatperiodens slut, blir professor och meddirektör vid University of Southern California. Han ska leda Center for the Political Future tillsammans med den republikanske strategen Mike Murphy, enligt universitetets tillkännagivande.",
-      "synthes": "Congress och Senate News är eniga om uppdraget; Senate News tillägger namnet på den republikanske meddirektören, vilket Congress inte nämner.",
+      "rubrik": "Collins motsätter sig planer på politisk styrning av NIH-bidrag",
+      "sammanfattning": "Senator Susan Collins (R-Maine), ordförande i senatens anslagskommitté, uppmanade i ett brev till Vita huset att inte gå vidare med en planerad presidentorder som skulle ge politiska tillsatta tjänstemän beslutanderätt över forskningsbidrag vid National Institutes of Health. Enligt uppgifter överväger presidenten en sådan order, vilket Collins menar skulle politisera bidragen och strida mot kongressens vilja.",
+      "synthes": "Congress och Senate News återger samma uppgifter utan att motsäga varandra.",
       "leadSource": "Congress",
-      "publishedAt": "2026-09-21T14:58:22.000Z",
+      "publishedAt": "2026-09-21T19:12:26.000Z",
       "readMinutes": 1,
       "sourceCount": 2,
       "singleSource": false,
@@ -1424,13 +891,91 @@
       "sources": [
         {
           "source": "Congress",
-          "title": "Michigan’s Gary Peters to teach at USC after retirement",
-          "link": "https://www.politico.com/live-updates/2026/09/21/congress/gary-peters-usc-01086112"
+          "title": "Collins slams Trump plan to ‘politicize’ grants as defying Congress",
+          "link": "https://www.politico.com/live-updates/2026/09/21/congress/collins-warns-trump-on-nih-shakeup-01086273"
         },
         {
           "source": "Senate News",
-          "title": "Retiring Michigan senator to lead USC politics center",
-          "link": "https://thehill.com/homenews/senate/6101666-gary-peters-joins-usc/"
+          "title": "Collins urges White House not to move forward with NIH grant proposal",
+          "link": "https://thehill.com/policy/healthcare/6105092-collins-urges-nih-grants-oversight-block/"
+        }
+      ]
+    },
+    {
+      "id": "feed-congress-TWlrZSBSb2dlcnMgY2FsbHMg",
+      "sphere": "congress",
+      "kategori": "POLITIK",
+      "rubrik": "Republikansk senatskandidat i Michigan vill avsluta Iran-kriget",
+      "sammanfattning": "Mike Rogers, republikansk senatskandidat i Michigan, sade i en kampanjannons att kriget mot Iran måste få ett snabbt slut och att Michiganfamiljer inte har råd att vänta. Han är därmed den andre republikanen som offentligt tar avstånd från Vita husets linje i frågan.",
+      "synthes": "Congress och House News återger samma uppgifter utan att motsäga varandra.",
+      "leadSource": "Congress",
+      "publishedAt": "2026-09-21T21:26:45.000Z",
+      "readMinutes": 1,
+      "sourceCount": 2,
+      "singleSource": false,
+      "enriched": false,
+      "sources": [
+        {
+          "source": "Congress",
+          "title": "Mike Rogers says Iran war needs to 'end quickly' amid rising prices",
+          "link": "https://www.politico.com/live-updates/2026/09/21/congress/rogers-says-iran-war-needs-to-end-01086434"
+        },
+        {
+          "source": "House News",
+          "title": "Rogers calls for end to war in Iran: &#039;Michigan families can&#039;t afford to wait&#039;",
+          "link": "https://thehill.com/homenews/campaign/6102630-rogers-iran-war-gas-tax/"
+        }
+      ]
+    },
+    {
+      "id": "feed-congress-SGluc29uIGNhbGxzIGZvciBl",
+      "sphere": "congress",
+      "kategori": "POLITIK",
+      "rubrik": "Hinson kräver slut på Iran-kriget när dieselpriserna stiger",
+      "sammanfattning": "Kongressledamoten Ashley Hinson (R-Iowa) har för andra gången uttryckt frustration över kriget mot Iran och krävt att det avslutas, med hänvisning till de stigande dieselpriserna. Samtidigt visar en ny Marist-mätning att hon ligger åtta procentenheter efter demokraten Josh Turek i kampen om senatsplatsen i Iowa.",
+      "synthes": "Congress och Senate News rapporterar om olika aspekter av samma sak – Hinsons utspel om kriget respektive opinionssiffrorna – utan att motsäga varandra.",
+      "leadSource": "Congress",
+      "publishedAt": "2026-09-21T16:59:39.000Z",
+      "readMinutes": 1,
+      "sourceCount": 2,
+      "singleSource": false,
+      "enriched": false,
+      "sources": [
+        {
+          "source": "Congress",
+          "title": "Hinson calls for end to Iran war amid soaring diesel costs",
+          "link": "https://www.politico.com/live-updates/2026/09/21/congress/hinson-breaks-from-trump-again-01086190"
+        },
+        {
+          "source": "Senate News",
+          "title": "Hinson trails Turek by 8 points in new Iowa Senate poll",
+          "link": "https://thehill.com/homenews/campaign/6105117-hinson-trails-turek-iowa-senate-poll/"
+        }
+      ]
+    },
+    {
+      "id": "feed-congress-R09QIGFwcHJvcHJpYXRvciBv",
+      "sphere": "congress",
+      "kategori": "POLITIK",
+      "rubrik": "Republikansk anslagsledamot tvekar om pengar till Trumps triumfbåge",
+      "sammanfattning": "Kongressledamoten Mike Simpson (R-Idaho), senior medlem i representanthusets anslagskommitté, sade att han inte vill att försvarsmedel används för att bygga president Trumps triumfbåge. Han hänvisade till att det finns många andra behov inom försvaret och att medlen är knappa.",
+      "synthes": "Congress och House News återger samma uppgifter utan att motsäga varandra.",
+      "leadSource": "Congress",
+      "publishedAt": "2026-09-21T15:53:53.000Z",
+      "readMinutes": 1,
+      "sourceCount": 2,
+      "singleSource": false,
+      "enriched": false,
+      "sources": [
+        {
+          "source": "Congress",
+          "title": "Senior GOP appropriator pours cold water on funding Trump’s arch",
+          "link": "https://www.politico.com/live-updates/2026/09/21/congress/trump-arch-pushback-01086147"
+        },
+        {
+          "source": "House News",
+          "title": "House Republican signals opposition to using military funds for Trump’s arch",
+          "link": "https://thehill.com/homenews/house/6102459-mike-simpson-opposes-pentagon-arch-funding/"
         }
       ]
     }
