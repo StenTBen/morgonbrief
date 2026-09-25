@@ -37,7 +37,9 @@
     "gov-uniswap-19734",
     "gov-aave-25500",
     "gov-makerdao/sky-28229",
-    "tvl-ethereum-2026-09-24"
+    "tvl-ethereum-2026-09-24",
+    "gov-arbitrum-31003",
+    "gov-compound-8061"
   ],
   "world": [
     "world-QlJJQ1Mgc3VtbWl0IG9wZW5z",
@@ -86,7 +88,9 @@
     "world-TWFjcm9uJ3MgZmluYWwgVU4g",
     "world-U2Nob29sIHNob290aW5nIGlu",
     "world-RXRoaW9waWEtVGlncmF5IGNv",
-    "world-VHJ1bXAncyBCb2FyZCBvZiBQ"
+    "world-VHJ1bXAncyBCb2FyZCBvZiBQ",
+    "world-VGlncmF5IHJlYmVscyBhbmQg",
+    "world-SXJhbidzIHByZXNpZGVudCB0"
   ],
   "val2026": [
     "val2026-a72cdd9097e0c074",
