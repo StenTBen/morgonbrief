@@ -39,7 +39,9 @@
     "gov-makerdao/sky-28229",
     "tvl-ethereum-2026-09-24",
     "gov-arbitrum-31003",
-    "gov-compound-8061"
+    "gov-compound-8061",
+    "gov-aave-25427",
+    "tvl-ethereum-2026-09-26"
   ],
   "world": [
     "world-QlJJQ1Mgc3VtbWl0IG9wZW5z",
@@ -90,7 +92,9 @@
     "world-RXRoaW9waWEtVGlncmF5IGNv",
     "world-VHJ1bXAncyBCb2FyZCBvZiBQ",
     "world-VGlncmF5IHJlYmVscyBhbmQg",
-    "world-SXJhbidzIHByZXNpZGVudCB0"
+    "world-SXJhbidzIHByZXNpZGVudCB0",
+    "world-TmV0YW55YWh1J3MgVU4gc3Bl",
+    "world-SXRhbHkgYmFucyBidXJxYSBp"
   ],
   "val2026": [
     "val2026-a72cdd9097e0c074",
@@ -132,6 +136,8 @@
     "sverige-ZmVkZDM2MjYxYTMxN2JlZA",
     "sverige-ZDZhZDQwNTY3YzQ4NjJkNg",
     "sverige-YTZjZmE5NjZkNDk5ZDJiYQ",
-    "sverige-YjMyOWZhYzc2ZTZlMjJlNw"
+    "sverige-YjMyOWZhYzc2ZTZlMjJlNw",
+    "sverige-YzE0NWY5NjNkYjIwMjZiMQ",
+    "sverige-MGVlZTc4ODEwM2YxYWZjMA"
   ]
 }
