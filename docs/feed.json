@@ -1,12 +1,12 @@
 {
-  "date": "2026-10-01",
-  "builtAt": "2026-10-01T04:00:41.442Z",
+  "date": "2026-10-02",
+  "builtAt": "2026-10-02T03:46:22.040Z",
   "episodes": [
     {
       "sphere": "congress",
       "sphereLabel": "US Congress",
-      "audioUrl": "https://github.com/StenTBen/morgonbrief/releases/download/audio/pod-congress-2026-10-01.mp3",
-      "audioBytes": 55488,
+      "audioUrl": "https://github.com/StenTBen/morgonbrief/releases/download/audio/pod-congress-2026-10-02.mp3",
+      "audioBytes": 71136,
       "itemCount": 0,
       "items": [],
       "script": "God morgon. Inget lagförslag klarade tröskeln idag. Bevakningen handlade om politik, inte om lagstiftning som rört sig, och då finns det ingenting i dokumenten att fördjupa. Vi hörs imorgon."
@@ -14,1028 +14,91 @@
     {
       "sphere": "crypto",
       "sphereLabel": "Crypto",
-      "audioUrl": "https://github.com/StenTBen/morgonbrief/releases/download/audio/pod-crypto-2026-10-01.mp3",
-      "audioBytes": 1918944,
+      "audioUrl": "https://github.com/StenTBen/morgonbrief/releases/download/audio/pod-crypto-2026-10-02.mp3",
+      "audioBytes": 1511328,
       "itemCount": 2,
       "items": [
         {
-          "id": "tvl-ethereum-2026-10-01",
+          "id": "tvl-ethereum-2026-10-02",
           "rubrik": "Ethereum: TVL-rörelse",
-          "sammanfattning": "Ethereums TVL gick från 53 199 701 730 USD till 53 196 363 495 USD, en förändring på -0,0063 procent. Bakgrunden är Bitget-hacken på 388 miljoner dollar, penningtvätt via THORChain och Zcash samt delvis återvinning av medel.",
-          "varfor": "En exploit-driven förflyttning av värde av den här storleken på Ethereum är relevant för kedjans TVL även om själva rörelsen är marginell.",
-          "status": "TVL i praktiken oförändrat, medan hackets efterspel fortsätter.",
-          "score": 15,
+          "sammanfattning": "Ethereum TVL gick från 53 263 400 992 USD till 53 676 789 022 USD, en förändring på 0,7761202294650498 procent. Underlaget kopplar rörelsen till NEAR Intents exploit på 3,8 miljoner dollar som stoppade insättningar och uttag på 11 nätverk. Fyra oberoende källor rapporterar om händelsen.",
+          "varfor": "En cross-chain likviditetshändelse som enligt underlaget rimligen kan ha påverkat Ethereums TVL.",
+          "status": "NEAR Intents har patchat kontraktsfelet, men insättningar och uttag på 11 nätverk är fortfarande störda och protokollet lovar full kompensation.",
+          "score": 35,
           "reasons": [
-            "6 independent sources (+15)"
+            ">$50M moved (+20)",
+            "4 independent sources (+15)"
+          ],
+          "singleSource": false,
+          "documentUrl": "https://defillama.com/chain/Ethereum",
+          "coverage": [
+            {
+              "source": "The Block",
+              "title": "NEAR Intents halts services after $3.8 million exploit, promises full compensation",
+              "link": "https://www.theblock.co/news/ecosystems/2026-10-01-near-intents-halts-services-after-3-8-million-exploit-promises-full-compensation-417404"
+            },
+            {
+              "source": "Cointelegraph.com News",
+              "title": "NEAR Intents says its identified the hacker, gives 48-hour ultimatum",
+              "link": "https://cointelegraph.com/news/near-intents-says-its-identified-the-hacker-gives-48-hour-ultimatum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+            },
+            {
+              "source": "Cointelegraph.com News",
+              "title": "NEAR Intents suffers $3.8M exploit after assistance with Bitget breach",
+              "link": "https://cointelegraph.com/news/near-intents-exploit-assistance-bitget-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+            },
+            {
+              "source": "Decrypt",
+              "title": "Near Intents Hacked for $3.8M Days After Denying North Korea-Linked Bitget Hacker",
+              "link": "https://decrypt.co/379822/near-intents-hacked-days-after-denying-bitget-hacker"
+            }
+          ]
+        },
+        {
+          "id": "tvl-ethereum-2026-10-02",
+          "rubrik": "Ethereum: TVL-rörelse",
+          "sammanfattning": "Ethereum TVL gick från 53 263 400 992 USD till 53 676 789 022 USD, en förändring på 0,7761202294650498 procent. Underlaget kopplar rörelsen till NEAR Intents exploit på 3,8 miljoner dollar som stoppade insättningar och uttag på 11 nätverk. Fyra oberoende källor rapporterar om händelsen.",
+          "varfor": "En cross-chain likviditetshändelse som enligt underlaget rimligen kan ha påverkat Ethereums TVL.",
+          "status": "NEAR Intents har patchat kontraktsfelet, men insättningar och uttag på 11 nätverk är fortfarande störda och protokollet lovar full kompensation.",
+          "score": 35,
+          "reasons": [
+            ">$50M moved (+20)",
+            "3 independent sources (+15)"
           ],
           "singleSource": false,
           "documentUrl": "https://defillama.com/chain/Ethereum",
           "coverage": [
             {
               "source": "Cointelegraph.com News",
-              "title": "Bitget ‘gradually back to usual’ as protection fund reaches $309M",
-              "link": "https://cointelegraph.com/news/bitget-operations-protection-fund-security-breach?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-            },
-            {
-              "source": "Cointelegraph.com News",
-              "title": "Could THORChain face prosecution over stolen Bitget funds? Legal opinion",
-              "link": "https://cointelegraph.com/magazine/does-thorchain-face-a-criminal-reckoning-near-intents-bitget?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-            },
-            {
-              "source": "Cointelegraph.com News",
-              "title": "SlowMist traces Bitget hack activity to Aug. 31 zero-day exploit",
-              "link": "https://cointelegraph.com/news/bitget-hack-zero-day-slowmist-investigation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-            },
-            {
-              "source": "Cointelegraph.com News",
-              "title": "Bitget CEO ‘not very optimistic’ on recovering funds from $388M breach",
-              "link": "https://cointelegraph.com/news/bitget-ceo-gracy-chen-chances-recovering-funds-security-breach?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+              "title": "MetaMask exits Ethereum validators amid undisclosed security incident",
+              "link": "https://cointelegraph.com/news/metamask-exits-lido-validators-as-it-investigates-security-incident?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
             },
             {
               "source": "Decrypt",
-              "title": "Bitget Hacker Turns to Zcash Privacy Pool After Near Rejects $50M in Swaps",
-              "link": "https://decrypt.co/379759/bitget-hacker-zcash-private-pool-near-thorchain"
-            }
-          ]
-        },
-        {
-          "id": "tvl-arbitrum-2026-10-01",
-          "rubrik": "Arbitrum: TVL-rörelse",
-          "sammanfattning": "Arbitrums TVL gick från 1 432 000 352 USD till 1 423 611 551 USD, en förändring på -0,5858 procent. Samtidigt lanserade Robinhood perps, weekend-handel och AI-agenter, och ArbitrumDAO publicerade en faktasida om Robinhood Chain mainnet.",
-          "varfor": "Robinhoods utökade kryptoerbjudande kan påverka värdeflöden på Arbitrum.",
-          "status": "Nedgång på knappt 0,6 procent medan Robinhood-relaterade initiativ rullas ut.",
-          "score": 15,
-          "reasons": [
-            "5 independent sources (+15)"
-          ],
-          "singleSource": false,
-          "documentUrl": "https://defillama.com/chain/Arbitrum",
-          "coverage": [
-            {
-              "source": "The Block",
-              "title": "Robinhood to launch perps, weekend stock trading for US users",
-              "link": "https://www.theblock.co/news/business/2026-09-29-robinhood-perps-trading-417242"
-            },
-            {
-              "source": "Decrypt",
-              "title": "Morning Minute: Robinhood Adds Perps, Weekend Stocks, and AI Traders",
-              "link": "https://decrypt.co/379645/morning-minute-robinhood-adds-perps-weekend-stocks-and-ai-traders"
+              "title": "MetaMask Exits Lido Validators Amid Infrastructure ‘Security Incident’",
+              "link": "https://decrypt.co/379800/metamask-exits-lido-validators-amid-infrastructure-security-incident"
             },
             {
               "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-              "title": "Bitcoin stalls near $83,000 while lighter drops 17% on Robinhood perps plan",
-              "link": "https://www.coindesk.com/markets/2026/09/30/bitcoin-stalls-near-usd83-000-while-lighter-drops-17-on-robinhood-perps-plan"
-            },
-            {
-              "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-              "title": "Robinhood unveils an AI that trades your money 24/7, and you carry all the risk",
-              "link": "https://www.coindesk.com/markets/2026/09/30/robinhood-is-giving-customers-an-ai-agent-that-trades-for-them-plus-10x-crypto-bets"
-            },
-            {
-              "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-              "title": "Robinhood adds AI agents, perps and weekend trading in push to win active traders",
-              "link": "https://www.coindesk.com/markets/2026/09/29/robinhood-adds-ai-agents-perps-and-weekend-trading-in-push-to-win-active-traders"
+              "title": "MetaMask security incident forces Ethereum staking exits, no funds at risk",
+              "link": "https://www.coindesk.com/tech/2026/10/01/metamask-security-incident-forces-ethereum-staking-exits-with-lido-warning-of-lost-rewards"
             }
           ]
         }
       ],
-      "script": "Först: Bitget-hacket och var pengarna tar vägen. Sedan: Robinhoods nya produkter och Arbitrum.\n\nBitget är en kryptobörs. Den 2022 startade bolaget en skyddsfond — en reserv som börsen själv håller för att täcka förluster vid incidenter. Den här typen av fond är inte en försäkring; den är bolagets egen balanspost, och storleken på den säger något om hur mycket börsen kan absorbera utan att kundmedel drabbas.\n\nDet som hände är att Bitget förlorade 388 miljoner dollar av användarnas tillgångar i ett intrång. Enligt SlowMist, ett säkerhetsföretag som undersökt händelsen, började den skadliga aktiviteten redan den 31 augusti — veckor före själva stölden — och involverade en zero-day-sårbarhet, två säkerhetsprodukter och ett egenutvecklat uttagsverktyg. En zero-day är en sårbarhet som är okänd för tillverkaren när den utnyttjas, vilket förklarar varför den kunde passera obemärkt under en period.\n\nBitgets vd Gracy Chen säger att skyddsfonden absorberade den finansiella effekten av händelsen, och att fonden nu uppgår till 309 miljoner dollar. Hon säger samtidigt att hon inte är särskilt optimistisk om att få tillbaka pengarna, och jämför med Bybit-hacket 2025, där bara en liten andel av medlen frystes eller återställdes. Det är två separata påståenden: att fonden täcker förlusten, och att återvinningen blir liten. Båda kommer från samma person, i samma intervjuserie.\n\nSjälva penningtvätten är den del som är tekniskt intressant. Angriparen har använt THORChain, ett protokoll som låter användare växla tillgångar mellan olika blockkedjor utan en central mellanhand. THORChain har inte blockerat de adresser som kopplas till hacket — enligt en krypto-advokat, Yuriy Brisov, som Cointelegraph citerar, är det oklart om utvecklarna ens kan göra det, och ännu oklarare om de kan åtalas för penningtvätt. Det är en juridisk bedömning från en enskild advokat, inte ett rättsligt avgörande.\n\nDärefter har angriparen vänt sig till Zcash, en kryptovaluta med ett integritetsskyddande pool-system. CoinDesk rapporterar att tre överföringar flyttade ungefär 15 procent av den stulna ZEC:n — omkring 3,8 miljoner dollar enligt Decrypt — in i Zcashs Ironwood-pool, där avsändare, mottagare och belopp döljs. Enligt Decrypt nekades angriparen först växlingar på omkring 50 miljoner dollar via Near Intents. Det är värt att notera: vad som faktiskt är känt är att medel rört sig in i en privat pool. Hur mycket som fortfarande går att spåra därifrån är inte känt, och ingen av källorna säger det.\n\nVarför det spelar roll: det här är inte i första hand en Bitget-historia. Det är en historia om att infrastruktur som THORChain och Zcash — byggd för att ingen enskild part ska kunna stoppa en transaktion — nu används för att flytta stulna medel, och att det juridiska ramverket för vad utvecklarna ansvarar för inte är klarlagt. Det är den frågan som är öppen, inte huruvida pengarna rörde sig.\n\nSedan: Robinhood och Arbitrum.\n\nRobinhood är en amerikansk mäklarfirma som började som aktiehandel för privatpersoner och sedan byggt ut kryptosidan. Arbitrum är ett så kallat layer-2-nätverk ovanpå Ethereum — det flyttar transaktioner bort från huvudkedjan för att göra dem billigare, och samlar dem sedan tillbaka dit. Det styrs av ArbitrumDAO, en decentraliserad organisation där innehavare av styrningstoken röstar om protokollets riktning. En styrningstoken ger alltså rösträtt över beslut, inte ägande i ett bolag och inte automatiskt rätt till intäkter.\n\nRobinhood meddelade att man lanserar perpetuals — terminskontrakt utan förfallodatum — för amerikanska användare, handel med aktier även på helger, och AI-agenter som kan handla åt användaren dygnet runt. CoinDesk noterar att det är användaren, inte Robinhood, som bär risken om en AI-agent gör en felaktig affär. Enligt CoinDesk föll tokenen lighter 17 procent efter beskedet, medan bitcoin höll sig nära 83 000 dollar och den 30-åriga amerikanska statsobligationsräntan passerade 5,6 procent.\n\nKopplingen till Arbitrum är att ArbitrumDAO har publicerat ett faktaark om en så kallad Robinhood Chain på mainnet. Det är alltså ett dokument från DAO:n själv, inte en nyhet från Robinhood, och det är den primärkälla som finns i materialet. Vad faktaarket innehåller i detalj framgår inte av underlaget.\n\nArbitrums TVL — totalt värde som är inlåst i protokoll på nätverket — föll marginellt, från knappt 1 432 miljoner dollar till 1 424 miljoner, en nedgång på cirka 0,59 procent enligt DefiLlama. Det är värt att säga vad TVL mäter och inte mäter: det räknar värdet på tillgångar som ligger i protokoll, men det säger ingenting om hur mycket av det som faktiskt används, och en liten rörelse över ett dygn är normalt brus. Ethereum rörde sig i praktiken inte alls samma period — ned 0,006 procent, från 53 199,7 miljoner till 53 196,4 miljoner dollar.\n\nVarför det spelar roll: om Robinhoods nya produkter drar kapital till en egen kedja byggd på Arbitrum, är det en fråga om var handelsvolymen hamnar och vem som får avgifterna. Men inget i underlaget visar att så redan har skett. TVL-siffrorna för båda kedjorna är för små för att bära någon slutsats.\n\nAvslutningsvis, vad som vilar på en enda källa: SlowMists tidslinje för intrånget kommer från en enda rapport. Advokat Yuriy Brisovs bedömning av THORChains juridiska ansvar är en enskild advokats uppfattning. Uppgiften att angriparen nekades växlingar på 50 miljoner dollar kommer från Decrypt. Bitgets fondsiffra på 309 miljoner dollar är bolagets egen, framförd av dess vd. DefiLlamas TVL-siffror är protokollets egna mätvärden."
-    },
-    {
-      "sphere": "sverige",
-      "sphereLabel": "Sveriges politik",
-      "audioUrl": "https://github.com/StenTBen/morgonbrief/releases/download/audio/pod-sverige-2026-10-01.mp3",
-      "audioBytes": 2410368,
-      "itemCount": 2,
-      "items": [
-        {
-          "id": "feed-sverige-YzRlNTQ3ZDNhZTc1MDA1Yw",
-          "sphere": "sverige",
-          "kategori": "SVERIGES POLITIK",
-          "rubrik": "Talmannen tar tid på sig – och skolan väntar på besked",
-          "sammanfattning": "Talman Andreas Norlén har efter sin andra runda med partiledarna meddelat att han vill ha mer betänketid innan han utser vem som får sonderingsuppdraget. Det rapporterar TV4 Nyheterna. Beskedet kommer knappt tre veckor efter valet och efter att S-ledaren Magdalena Andersson i måndags gav upp sitt första försök att bilda regering. Enligt TV4 är partierna lika låsta bakom sina röda linjer som på valnatten, och de två främsta statsministerkandidaternas inställning till att ta emot uppdraget beskrivs som att be dem ta emot en säck rutten potatis.\n\nMekaniken bakom uppdraget är reglerad. Enligt riksdagen.se leder talmannen förhandlingarna vid ett regeringsskifte och lägger fram förslag till ny statsminister – en uppgift som i andra parlamentariska demokratier ligger hos statschefen. Talmannen står utanför det politiska arbetet och deltar varken i utskottsarbete eller i debatter och omröstningar i kammaren. Enligt regeringen.se håller talmannen enskilda överläggningar med partiledarna och föreslår därefter vem som ska utses till statsminister; riksdagen röstar om förslaget. Förslaget är förkastat om mer än hälften av riksdagens ledamöter röstar mot det. Förkastas fyra förslag blir det nyval, om inte ordinarie val ska hållas inom tre månader.\n\nI sak står processen stilla. Enligt TV4 säger Andersson att Kristersson bör få uppdraget, eftersom V röstade för M:s kandidat till talman. Kristersson framhåller i sin tur att S, MP, C och V har Andersson som sin statsministerkandidat och att de fyra rödgröna partierna har flest mandat. V-ledaren Nooshi Dadgostar säger att det är uteslutet att släppa kravet på ministerposter. C-ledaren Elisabeth Thand Ringqvist säger att om kraven för ett första möte är att prata ministerposter är det lönlöst, och upprepar att partiet inte kan stötta en regering som SD sitter i eller samarbetar med. L-ledaren Simona Mohamsson kallar Anderssons försök de senaste två veckorna patetiskt och säger att hon inte tänker rädda S-ledaren. SD-ledaren Jimmie Åkesson vill se en snabb statsministeromröstning om Andersson, och KD-ledaren Ebba Busch anser att Andersson bör prövas i kammaren – hon är bara redo att samarbeta över blockgränsen i krig, kris eller exceptionellt läge.\n\nVad som inte framgår av bevakningen är vilka alternativ som faktiskt är matematiskt möjliga. Det är den frågan talmannen nu sitter med, och den är inte besvarad i det material som finns tillgängligt här.",
-          "synthes": "Fokus skriver att talmannen inte behöver ha bråttom, och räknar upp utgångsläget: 176 mandat för oppositionen mot Tidöpartiernas 173. Enligt Fokus blir det 198 borgerliga mandat om C byter sida, och 195 om MP gör det. Med antagandet att hålla isär S och M återstår enligt texten bara ett alternativ – S, C, KD, L och MP med 187 mandat – och varken KD eller L har något intresse av det. En superkoalition med S och de tidigare allianspartierna skulle enligt Fokus samla 235 mandat men kan avföras av samma skäl. Fokus beskriver C-ledarens uppträdande vid talmansrundan som zombielikt och menar att ett extra val framåt vårkanten kan bli följden, och att väljarna kommer att straffa både C och S för det. Detta är en analys och en bedömning, inte en redovisning av vad partierna har sagt.",
-          "fakta": [
-            {
-              "tag": "reported",
-              "text": "Talman Andreas Norlén vill efter sin andra runda med partiledarna ha mer betänketid innan han utser vem som får sonderingsuppdraget, men lovar besked under veckan.",
-              "kalla": "TV4 Nyheterna"
-            },
-            {
-              "tag": "reported",
-              "text": "S-ledaren Magdalena Andersson gav i måndags upp sitt första försök att bilda ny regering.",
-              "kalla": "TV4 Nyheterna"
-            },
-            {
-              "tag": "reported",
-              "text": "V-ledaren Nooshi Dadgostar säger att det är uteslutet att släppa kravet på ministerposter.",
-              "kalla": "TV4 Nyheterna"
-            },
-            {
-              "tag": "reported",
-              "text": "C-ledaren Elisabeth Thand Ringqvist upprepar att hennes parti inte kan stötta en regering som SD sitter i eller samarbetar med.",
-              "kalla": "TV4 Nyheterna"
-            },
-            {
-              "tag": "reported",
-              "text": "L-ledaren Simona Mohamsson säger att Andersson gjort ett patetiskt försök de senaste två veckorna och att hon inte tänker rädda S-ledaren.",
-              "kalla": "TV4 Nyheterna"
-            },
-            {
-              "tag": "reported",
-              "text": "KD-ledaren Ebba Busch anser att Andersson bör prövas i kammaren och är bara redo att samarbeta över blockgränsen i krig, kris eller exceptionellt läge.",
-              "kalla": "TV4 Nyheterna"
-            },
-            {
-              "tag": "verified",
-              "text": "Talmannen leder förhandlingarna vid ett regeringsskifte och lägger fram förslag till ny statsminister, en uppgift som i andra parlamentariska demokratier ligger hos statschefen. Talmannen står utanför det politiska arbetet och deltar varken i utskottsarbete eller i debatter och omröstningar i kammaren.",
-              "kalla": "riksdagen.se"
-            },
-            {
-              "tag": "verified",
-              "text": "Talmannen håller enskilda överläggningar med partiledarna och föreslår därefter vem som ska utses till statsminister; riksdagen röstar om förslaget. Förslaget är förkastat om mer än hälften av ledamöterna röstar mot det. Förkastas fyra förslag blir det nyval, om inte ordinarie val ska hållas inom tre månader.",
-              "kalla": "regeringen.se"
-            },
-            {
-              "tag": "tolkning",
-              "text": "Utgångsläget är 176 mandat för oppositionen mot Tidöpartiernas 173; C:s byte ger 198 borgerliga mandat, MP:s ger 195. Med S och M hållna isär återstår enligt texten bara S, C, KD, L och MP med 187 mandat, ett alternativ varken KD eller L har intresse av.",
-              "kalla": "fokus.se"
-            },
-            {
-              "tag": "tolkning",
-              "text": "Talmannen behöver inte ha bråttom, och ett extra val framåt vårkanten kan bli följden av C:s blockad; väljarna kommer att straffa både C och S för det.",
-              "kalla": "fokus.se"
-            }
-          ],
-          "tiers": {
-            "verified": 2,
-            "reported": 6,
-            "circulating": 0,
-            "tolkning": 2
-          },
-          "hasTolkning": true,
-          "hasDocument": true,
-          "image": "https://static.bonniernews.se/ba/f6f69fd7-b8f7-4ba4-8649-767e2a8dc536.jpeg?crop=3200%2C1800%2Cx0%2Cy0&width=4096&auto=webp&enable=upscale",
-          "leadSource": "Dagens Samhälle - Senaste nytt",
-          "publishedAt": "2026-10-01T03:46:00.672Z",
-          "readMinutes": 3,
-          "sourceCount": 2,
-          "singleSource": false,
-          "enriched": true,
-          "researched": true,
-          "sources": [
-            {
-              "source": "Dagens Samhälle - Senaste nytt",
-              "title": "”Nästa regering måste ge skolan arbetsro”",
-              "link": "https://www.dagenssamhalle.se/opinion/debatt/nasta-regering-maste-ge-skolan-arbetsro/",
-              "provenance": null
-            },
-            {
-              "source": "TV4 Nyheterna",
-              "title": "Talmannen behöver mer tid – ännu låst om regering",
-              "link": "https://www.tv4.se/artikel/tt-260930-valregering1-222f0646/talmannen-behover-mer-tid-annu-last-om-regering",
-              "provenance": null
-            },
-            {
-              "source": "riksdagen.se",
-              "title": "The tasks of the Speaker | Sveriges riksdag",
-              "link": "https://www.riksdagen.se/en/how-the-riksdag-works/the-work-of-the-riksdag/the-speaker/the-tasks-of-the-speaker/",
-              "provenance": "verified"
-            },
-            {
-              "source": "riksdagen.se",
-              "title": "Talmannens uppdrag | Sveriges riksdag",
-              "link": "https://www.riksdagen.se/sv/teckensprak/sa-fungerar-riksdagen/talmannens-uppdrag/",
-              "provenance": "verified"
-            },
-            {
-              "source": "regeringen.se",
-              "title": "Så bildas regeringen - Regeringen.se",
-              "link": "https://www.regeringen.se/sa-styrs-sverige/sa-arbetar-regeringen-och-regeringskansliet/sa-bildas-regeringen/",
-              "provenance": "verified"
-            },
-            {
-              "source": "fokus.se",
-              "title": "Jonas Gummesson: Talmannen behöver inte ha bråttom - Fokus",
-              "link": "https://www.fokus.se/sticket/talmannen-behover-inte-ha-brattom/",
-              "provenance": "tolkning"
-            },
-            {
-              "source": "altinget.se",
-              "title": "Kristersson får sonderingsuppdrag – ny talman avgör nästa steg - Altinget",
-              "link": "https://www.altinget.se/artikel/kristersson-faar-sonderingsuppdrag-ny-talman-avgor-nasta-steg",
-              "provenance": "tolkning"
-            },
-            {
-              "source": "dagensarena.se",
-              "title": "Talmansrunda 2: Löfven övertar uppdraget att bilda regering | Dagens Arena",
-              "link": "https://www.dagensarena.se/innehall/talmansrunda-2-lofven-overtar-uppdraget-att-bilda-regering/",
-              "provenance": "tolkning"
-            },
-            {
-              "source": "riksdagen.se",
-              "title": "arbetsro i skolan (Interpellation 2004/05:403 av Darvik, Axel (fp)) | Sveriges riksdag",
-              "link": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/interpellation/arbetsro-i-skolan_gs10403/",
-              "provenance": "tolkning"
-            },
-            {
-              "source": "ttela.se",
-              "title": "Låt skolan få arbetsro efter betygsreformen | TTELA",
-              "link": "https://www.ttela.se/asikt/ledare/lat-skolan-fa-arbetsro-efter-betygsreformen.c6c6f892-3e2a-412a-ac38-c32a0f72050b",
-              "provenance": "tolkning"
-            }
-          ],
-          "coverageSources": [
-            {
-              "source": "Dagens Samhälle - Senaste nytt",
-              "title": "”Nästa regering måste ge skolan arbetsro”",
-              "link": "https://www.dagenssamhalle.se/opinion/debatt/nasta-regering-maste-ge-skolan-arbetsro/"
-            },
-            {
-              "source": "TV4 Nyheterna",
-              "title": "Talmannen behöver mer tid – ännu låst om regering",
-              "link": "https://www.tv4.se/artikel/tt-260930-valregering1-222f0646/talmannen-behover-mer-tid-annu-last-om-regering"
-            }
-          ],
-          "researchSources": [
-            {
-              "source": "riksdagen.se",
-              "title": "The tasks of the Speaker | Sveriges riksdag",
-              "link": "https://www.riksdagen.se/en/how-the-riksdag-works/the-work-of-the-riksdag/the-speaker/the-tasks-of-the-speaker/",
-              "provenance": "verified"
-            },
-            {
-              "source": "riksdagen.se",
-              "title": "Talmannens uppdrag | Sveriges riksdag",
-              "link": "https://www.riksdagen.se/sv/teckensprak/sa-fungerar-riksdagen/talmannens-uppdrag/",
-              "provenance": "verified"
-            },
-            {
-              "source": "regeringen.se",
-              "title": "Så bildas regeringen - Regeringen.se",
-              "link": "https://www.regeringen.se/sa-styrs-sverige/sa-arbetar-regeringen-och-regeringskansliet/sa-bildas-regeringen/",
-              "provenance": "verified"
-            },
-            {
-              "source": "fokus.se",
-              "title": "Jonas Gummesson: Talmannen behöver inte ha bråttom - Fokus",
-              "link": "https://www.fokus.se/sticket/talmannen-behover-inte-ha-brattom/",
-              "provenance": "tolkning"
-            },
-            {
-              "source": "altinget.se",
-              "title": "Kristersson får sonderingsuppdrag – ny talman avgör nästa steg - Altinget",
-              "link": "https://www.altinget.se/artikel/kristersson-faar-sonderingsuppdrag-ny-talman-avgor-nasta-steg",
-              "provenance": "tolkning"
-            },
-            {
-              "source": "dagensarena.se",
-              "title": "Talmansrunda 2: Löfven övertar uppdraget att bilda regering | Dagens Arena",
-              "link": "https://www.dagensarena.se/innehall/talmansrunda-2-lofven-overtar-uppdraget-att-bilda-regering/",
-              "provenance": "tolkning"
-            },
-            {
-              "source": "riksdagen.se",
-              "title": "arbetsro i skolan (Interpellation 2004/05:403 av Darvik, Axel (fp)) | Sveriges riksdag",
-              "link": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/interpellation/arbetsro-i-skolan_gs10403/",
-              "provenance": "tolkning"
-            },
-            {
-              "source": "ttela.se",
-              "title": "Låt skolan få arbetsro efter betygsreformen | TTELA",
-              "link": "https://www.ttela.se/asikt/ledare/lat-skolan-fa-arbetsro-efter-betygsreformen.c6c6f892-3e2a-412a-ac38-c32a0f72050b",
-              "provenance": "tolkning"
-            }
-          ],
-          "selectionReason": "Krav på nästa regerings skolpolitik, kopplat till den låsta regeringsbildningen och talmannens tidsram. Berör maktfördelning och kommande styrning, men är delvis ett tyckande inlägg.",
-          "selectionWeight": 3
-        },
-        {
-          "id": "feed-sverige-MDAzOTYyYTU1YzkzNTI1Nw",
-          "sphere": "sverige",
-          "kategori": "FOLKHÄLSA",
-          "rubrik": "Naturen som folkhälsopolitik – debattinlägg och riksdagsunderlag",
-          "sammanfattning": "Kristina Ljungros, generalsekreterare för Friluftsfrämjandet, och Matilda van den Bosch, läkare och doktor i landskapsplanering med folkhälsoinriktning, skriver i ett debattinlägg i Sydsvenskan och HD att den tillträdande regeringen bör göra naturen till en tydligare del av folkhälsopolitiken. Artikeln är publicerad i båda tidningarna med identiskt innehåll och är märkt som debattinlägg, där skribenterna svarar för åsikterna.\n\nSkribenterna hänvisar till forskning av Andrey I Egorov, Thomas Astell-Burt och Payam Dadvand som kopplar mer natur nära bostäder till lägre kronisk stress och mindre ensamhet, och gröna skolgårdar till bättre kognitiv utveckling hos barn. De hänvisar också till en analys av Evelise Pereira Barboza av nära tusen europeiska städer som visar att omkring 43 000 förtida dödsfall årligen skulle kunna förebyggas om städerna levde upp till WHO:s rekommendationer om tillgång till grönska. Richard Mitchell och Frank Popham visas kunna minska skillnader mellan olika gruppers hälsa.\n\nSkribenterna uppger att regeringens handlingsplan uppskattar samhällets kostnader för psykisk ohälsa till 345 miljarder kronor årligen, men att bara åtta av landets 21 regioner erbjuder naturbaserade insatser för psykisk ohälsa. De uppger vidare att de statliga anslagen per skyddat naturområde har minskat med 38 procent sedan 2017, med hänvisning till Riksrevisionens granskning Förvaltningen av skyddad natur. Enligt skribenterna saknar länsstyrelserna resurser för att bevara naturvärden och göra skyddade områden tillgängliga.\n\nSkribenterna uppger att en enig parlamentarisk miljömålsberedning i fjol ansåg att 1,6 miljarder kronor behöver tillföras årligen för skötseln av Sveriges mest värdefulla natur. De uppger att neddragningar av anslaget till naturvård har begränsat Naturvårdsverkets möjlighet att finansiera LONA, det statliga stödet till lokal naturvård. Under 2010-talet genomförde nästan alla kommuner minst ett LONA-projekt, och en extern utvärdering visar enligt skribenterna att bidragen varit avgörande för att även mindre kommuner ska bedriva naturvård.\n\nSkribenterna hänvisar till Folkhälsomyndighetens undersökning Skolbarns hälsovanor (2021/2022) som visar att fyra av fem barn rör sig för lite, och till en studie från 2018 gjord av GIH, Gymnastik- och idrottshögskolan, som visar att nästan hälften av vuxna har en hälsofarligt dålig kondition. De uppger att andelen barn som regelbundet vistas i naturen har sjunkit från 78 procent till 49 procent på tjugo år, enligt siffror från Folkhälsomyndigheten. En enkät från Svenskt friluftsliv bland samtliga riksdagspartier visar enligt skribenterna att alla anser att landets friluftsorganisationer bör få en viktig roll i arbetet med att förebygga ohälsa.\n\nSkribenterna föreslår tre beslut som de menar kan tas redan i höstbudgeten: att ge en myndighet ansvar för att sprida kunskap om och främja naturbaserade metoder inom vård och omsorg, att fördubbla anslaget till det organiserade friluftslivet i linje med förslaget från Kommittén för främjande av ökad fysisk aktivitet och Naturvårdsverkets budgetunderlag för 2027–2029, samt att ge Naturvårdsverket och länsstyrelserna resurser för att sköta naturreservat och nationalparker och öronmärka pengar till LONA.\n\nI riksdagens dokument finns en motion från Centerpartiet (2025/26:2824) av Stina Larsson m.fl. om natur och biologisk mångfald. Motionen konstaterar att Sverige har över 5 000 naturreservat och 30 nationalparker, och att de allra flesta svenskar i genomsnitt bara har några få kilometer till skyddad natur. Motionen uppger att skötseln av många skyddade områden är eftersatt och att de inte uppvisar de naturvärden som det är tänkt. Centerpartiet vill öka takten i att restaurera och återställa skyddad natur och betonar vikten av långsiktighet i skötseln, så att exempelvis arbete mot invasiva främmande arter inte plötsligt upphör på grund av kraftigt kapade anslag. Motionen föreslår att ett stöd utreds som ger ersättning till privata skogsägare som har hotade arter på sina marker så länge den hotade arten finns kvar. Motionen vill också använda de två etablerade statsbidragen LONA och LOVA som styrmedel för att öka takten i återställande och anläggande av våtmarker, med utökade satsningar på att koppla utbetalningar till tydliga resultat genom mer uppföljning och utvärdering.\n\nI riksdagens dokument finns också en äldre utredning, Effektiv användning av naturresurser (SOU 2001:2), som behandlar sambandet mellan tillväxt och miljö samt behovet av åtgärder för effektivare användning av naturresurser. Utredningen definierar resurseffektivitet som material- och energiproduktivitet och konstaterar att marknadshushållningen har brister när det gäller utnyttjandet av naturresurser och fördelningen av resurser mellan generationer. Utredningen överlämnades som slutbetänkande och särskilda yttranden lämnades av Kenneth Hermele och Roy Resare.\n\nI riksdagens dokument finns vidare en äldre motion från Moderata samlingspartiet om miljöpolitik. Motionen slår fast att målet med miljöpolitiken måste vara att minska miljöskadlig verksamhet till under den nivå naturen tål, och att det krävs såväl lagstiftning som ekonomiska styrmedel. Motionen framhåller att åtgärder mot miljöförstöring är resurskrävande och att problemen inte kan klaras genom att minska den ekonomiska tillväxten. Motionen föreslår att Sverige i FN bör ta initiativ till en världsklimatkonferens om växthuseffekten, och att 20 miljoner kronor bör anvisas för nya laboratoriebyggnader vid forskningsstationerna i Askö och Kristineberg. Motionen föreslår också att Naturvårdsverket får i uppdrag att utarbeta en aktionsplan mot föroreningar som tillförs sjöar och vattendrag, samt att samma låga gränsvärde för dioxiner ska gälla såväl nya som gamla avfallsförbränningsanläggningar.\n\nIngen av de tre dokumentposterna från riksdagen innehåller någon uppgift om att de skulle vara kopplade till det aktuella debattinlägget eller till den tillträdande regeringens folkhälsopolitik. Dokumenten är hämtade från riksdagens och data.riksdagens domäner och utgör primärmaterial som inte citeras i bevakningen.",
-          "synthes": "I researchmaterialet finns en analys från Timbro som argumenterar att socialdemokratins syn på miljön är urban och postmodern, och att partiet ser naturen som en plats för rekreation snarare än en plats där människor, företag och föreningar verkar. Dagens Arena ställer frågan vem som egentligen äger Sveriges naturresurser och varnar för att fortsatt misshushållning kan urholka den sociala och institutionella tilliten mellan välfärdsstaten och medborgarna. Altinget publicerar en text av Ulrika Modéer, generalsekreterare för Svenska Röda korset, och Gustaf Lind, generalsekreterare för Världsnaturfonden WWF, som argumenterar att naturbaserade lösningar är avgörande för klimatpolitiken och att IPCC bedömer att de kan stå för över en tredjedel av de utsläppsminskningar som krävs till 2030. Dessa texter citeras inte i bevakningen och utgör fristående tolkningar.",
-          "fakta": [
-            {
-              "tag": "reported",
-              "text": "Kristina Ljungros, generalsekreterare för Friluftsfrämjandet, och Matilda van den Bosch, läkare och doktor i landskapsplanering med folkhälsoinriktning, skriver att den nya regeringen bör göra naturen till en tydligare del av folkhälsopolitiken.",
-              "kalla": "sydsvenskan.se"
-            },
-            {
-              "tag": "reported",
-              "text": "Skribenterna uppger att regeringens handlingsplan uppskattar samhällets kostnader för psykisk ohälsa till 345 miljarder kronor årligen, men att bara åtta av landets 21 regioner erbjuder naturbaserade insatser för psykisk ohälsa.",
-              "kalla": "sydsvenskan.se"
-            },
-            {
-              "tag": "reported",
-              "text": "Skribenterna uppger att de statliga anslagen per skyddat naturområde har minskat med 38 procent sedan 2017, med hänvisning till Riksrevisionens granskning Förvaltningen av skyddad natur.",
-              "kalla": "sydsvenskan.se"
-            },
-            {
-              "tag": "reported",
-              "text": "Skribenterna uppger att en enig parlamentarisk miljömålsberedning i fjol ansåg att 1,6 miljarder kronor behöver tillföras årligen för skötseln av Sveriges mest värdefulla natur.",
-              "kalla": "sydsvenskan.se"
-            },
-            {
-              "tag": "reported",
-              "text": "Skribenterna uppger att andelen barn som regelbundet vistas i naturen har sjunkit från 78 procent till 49 procent på tjugo år, enligt siffror från Folkhälsomyndigheten.",
-              "kalla": "sydsvenskan.se"
-            },
-            {
-              "tag": "reported",
-              "text": "Skribenterna uppger att en enkät från Svenskt friluftsliv bland samtliga riksdagspartier visar att alla anser att landets friluftsorganisationer bör få en viktig roll i arbetet med att förebygga ohälsa.",
-              "kalla": "sydsvenskan.se"
-            },
-            {
-              "tag": "reported",
-              "text": "Skribenterna föreslår tre beslut som de menar kan tas redan i höstbudgeten: ge en myndighet ansvar för naturbaserade metoder inom vård och omsorg, fördubbla anslaget till det organiserade friluftslivet, och ge Naturvårdsverket och länsstyrelserna resurser för att sköta naturreservat och nationalparker samt öronmärka pengar till LONA.",
-              "kalla": "sydsvenskan.se"
-            },
-            {
-              "tag": "verified",
-              "text": "Centerpartiets motion 2025/26:2824 av Stina Larsson m.fl. konstaterar att Sverige har över 5 000 naturreservat och 30 nationalparker, och att de allra flesta svenskar i genomsnitt bara har några få kilometer till skyddad natur.",
-              "kalla": "riksdagen.se"
-            },
-            {
-              "tag": "verified",
-              "text": "Motionen uppger att skötseln av många skyddade områden är eftersatt och att de inte uppvisar de naturvärden som det är tänkt, och vill öka takten i att restaurera och återställa skyddad natur.",
-              "kalla": "riksdagen.se"
-            },
-            {
-              "tag": "verified",
-              "text": "Motionen föreslår att ett stöd utreds som ger ersättning till privata skogsägare som har hotade arter på sina marker så länge den hotade arten finns kvar.",
-              "kalla": "riksdagen.se"
-            },
-            {
-              "tag": "verified",
-              "text": "Motionen vill använda statsbidragen LONA och LOVA som styrmedel för att öka takten i återställande och anläggande av våtmarker, med utökade satsningar på att koppla utbetalningar till tydliga resultat genom mer uppföljning och utvärdering.",
-              "kalla": "riksdagen.se"
-            },
-            {
-              "tag": "verified",
-              "text": "Utredningen Effektiv användning av naturresurser (SOU 2001:2) definierar resurseffektivitet som material- och energiproduktivitet och konstaterar att marknadshushållningen har brister när det gäller utnyttjandet av naturresurser och fördelningen av resurser mellan generationer.",
-              "kalla": "riksdagen.se"
-            },
-            {
-              "tag": "verified",
-              "text": "Utredningen överlämnades som slutbetänkande och särskilda yttranden lämnades av Kenneth Hermele och Roy Resare.",
-              "kalla": "riksdagen.se"
-            },
-            {
-              "tag": "verified",
-              "text": "En äldre motion från Moderata samlingspartiet slår fast att målet med miljöpolitiken måste vara att minska miljöskadlig verksamhet till under den nivå naturen tål, och att det krävs såväl lagstiftning som ekonomiska styrmedel.",
-              "kalla": "data.riksdagen.se"
-            },
-            {
-              "tag": "verified",
-              "text": "Motionen föreslår att Sverige i FN bör ta initiativ till en världsklimatkonferens om växthuseffekten, och att 20 miljoner kronor bör anvisas för nya laboratoriebyggnader vid forskningsstationerna i Askö och Kristineberg.",
-              "kalla": "data.riksdagen.se"
-            },
-            {
-              "tag": "verified",
-              "text": "Motionen föreslår att Naturvårdsverket får i uppdrag att utarbeta en aktionsplan mot föroreningar som tillförs sjöar och vattendrag, samt att samma låga gränsvärde för dioxiner ska gälla såväl nya som gamla avfallsförbränningsanläggningar.",
-              "kalla": "data.riksdagen.se"
-            },
-            {
-              "tag": "tolkning",
-              "text": "Timbro argumenterar att socialdemokratins syn på miljön är urban och postmodern, och att partiet ser naturen som en plats för rekreation snarare än en plats där människor, företag och föreningar verkar.",
-              "kalla": "timbro.se"
-            },
-            {
-              "tag": "tolkning",
-              "text": "Dagens Arena ställer frågan vem som egentligen äger Sveriges naturresurser och varnar för att fortsatt misshushållning kan urholka den sociala och institutionella tilliten mellan välfärdsstaten och medborgarna.",
-              "kalla": "dagensarena.se"
-            },
-            {
-              "tag": "tolkning",
-              "text": "Ulrika Modéer, generalsekreterare för Svenska Röda korset, och Gustaf Lind, generalsekreterare för Världsnaturfonden WWF, argumenterar att naturbaserade lösningar är avgörande för klimatpolitiken och att IPCC bedömer att de kan stå för över en tredjedel av de utsläppsminskningar som krävs till 2030.",
-              "kalla": "altinget.se"
-            }
-          ],
-          "tiers": {
-            "verified": 9,
-            "reported": 7,
-            "circulating": 0,
-            "tolkning": 3
-          },
-          "hasTolkning": true,
-          "hasDocument": true,
-          "image": "https://static.bonniernews.se/ba/2f0f4dad-0e17-4145-8838-b68409919056.jpeg?crop=3200%2C1800%2Cx0%2Cy0&width=1200&format=pjpg&auto=avif",
-          "leadSource": "sydsvenskan.se",
-          "publishedAt": "2026-10-01T03:46:24.974Z",
-          "readMinutes": 5,
-          "sourceCount": 2,
-          "singleSource": false,
-          "enriched": true,
-          "researched": true,
-          "sources": [
-            {
-              "source": "sydsvenskan.se",
-              "title": "”Naturen är en del av lösningen på Sveriges växande ohälsa.”",
-              "link": "https://www.sydsvenskan.se/opinion/naturen-ar-en-del-av-losningen-pa-sveriges-vaxande-ohalsa/",
-              "provenance": null
-            },
-            {
-              "source": "hd.se",
-              "title": "”Naturen är en del av lösningen på Sveriges växande ohälsa.”",
-              "link": "https://www.hd.se/opinion/aktuella-fragor/naturen-ar-en-del-av-losningen-pa-sveriges-vaxande-ohalsa/",
-              "provenance": null
-            },
-            {
-              "source": "riksdagen.se",
-              "title": "Effektiv användning av naturresurser - del 1 (Statens offentliga utredningar 2001:2) | Sveriges riksdag",
-              "link": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/statens-offentliga-utredningar/effektiv-anvandning-av-naturresurser-del-1_gpb32d1/html/",
-              "provenance": "verified"
-            },
-            {
-              "source": "riksdagen.se",
-              "title": "Natur och biologisk mångfald (Motion 2025/26:2824 av Stina Larsson m.fl. (C)) | Sveriges riksdag",
-              "link": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/motion/natur-och-biologisk-mangfald_hd022824/",
-              "provenance": "verified"
-            },
-            {
-              "source": "data.riksdagen.se",
-              "title": "Riksdagen",
-              "link": "https://data.riksdagen.se/dokument/GC02Jo796",
-              "provenance": "verified"
-            },
-            {
-              "source": "altinget.se",
-              "title": "Naturbaserade lösningar krävs för att hejda klimatkrisen - Altinget",
-              "link": "https://www.altinget.se/artikel/naturbaserade-losningar-kravs-for-att-hejda-klimatkrisen",
-              "provenance": "tolkning"
-            },
-            {
-              "source": "timbro.se",
-              "title": "SMEDJAN | Sossarnas miljöpolitik påminner mig om varför jag är höger",
-              "link": "https://timbro.se/smedjan/sossarnas-miljopolitik-paminner-mig-om-varfor-jag-ar-hoger/",
-              "provenance": "tolkning"
-            },
-            {
-              "source": "dagensarena.se",
-              "title": "Vem äger egentligen våra naturresurser i Sverige? | Dagens Arena",
-              "link": "https://www.dagensarena.se/essa/vem-ager-egentligen-vara-naturresurser-i-sverige/",
-              "provenance": "tolkning"
-            },
-            {
-              "source": "sydsvenskan.se",
-              "title": "”Naturen är en del av lösningen på Sveriges växande ohälsa.”",
-              "link": "https://www.sydsvenskan.se/opinion/naturen-ar-en-del-av-losningen-pa-sveriges-vaxande-ohalsa",
-              "provenance": "tolkning"
-            },
-            {
-              "source": "pressen.se",
-              "title": "Naturen är en del av lösningen på Sveriges växande ohälsa. - Pressen.se",
-              "link": "https://www.pressen.se/1366703631.html",
-              "provenance": "tolkning"
-            }
-          ],
-          "coverageSources": [
-            {
-              "source": "sydsvenskan.se",
-              "title": "”Naturen är en del av lösningen på Sveriges växande ohälsa.”",
-              "link": "https://www.sydsvenskan.se/opinion/naturen-ar-en-del-av-losningen-pa-sveriges-vaxande-ohalsa/"
-            },
-            {
-              "source": "hd.se",
-              "title": "”Naturen är en del av lösningen på Sveriges växande ohälsa.”",
-              "link": "https://www.hd.se/opinion/aktuella-fragor/naturen-ar-en-del-av-losningen-pa-sveriges-vaxande-ohalsa/"
-            }
-          ],
-          "researchSources": [
-            {
-              "source": "riksdagen.se",
-              "title": "Effektiv användning av naturresurser - del 1 (Statens offentliga utredningar 2001:2) | Sveriges riksdag",
-              "link": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/statens-offentliga-utredningar/effektiv-anvandning-av-naturresurser-del-1_gpb32d1/html/",
-              "provenance": "verified"
-            },
-            {
-              "source": "riksdagen.se",
-              "title": "Natur och biologisk mångfald (Motion 2025/26:2824 av Stina Larsson m.fl. (C)) | Sveriges riksdag",
-              "link": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/motion/natur-och-biologisk-mangfald_hd022824/",
-              "provenance": "verified"
-            },
-            {
-              "source": "data.riksdagen.se",
-              "title": "Riksdagen",
-              "link": "https://data.riksdagen.se/dokument/GC02Jo796",
-              "provenance": "verified"
-            },
-            {
-              "source": "altinget.se",
-              "title": "Naturbaserade lösningar krävs för att hejda klimatkrisen - Altinget",
-              "link": "https://www.altinget.se/artikel/naturbaserade-losningar-kravs-for-att-hejda-klimatkrisen",
-              "provenance": "tolkning"
-            },
-            {
-              "source": "timbro.se",
-              "title": "SMEDJAN | Sossarnas miljöpolitik påminner mig om varför jag är höger",
-              "link": "https://timbro.se/smedjan/sossarnas-miljopolitik-paminner-mig-om-varfor-jag-ar-hoger/",
-              "provenance": "tolkning"
-            },
-            {
-              "source": "dagensarena.se",
-              "title": "Vem äger egentligen våra naturresurser i Sverige? | Dagens Arena",
-              "link": "https://www.dagensarena.se/essa/vem-ager-egentligen-vara-naturresurser-i-sverige/",
-              "provenance": "tolkning"
-            },
-            {
-              "source": "sydsvenskan.se",
-              "title": "”Naturen är en del av lösningen på Sveriges växande ohälsa.”",
-              "link": "https://www.sydsvenskan.se/opinion/naturen-ar-en-del-av-losningen-pa-sveriges-vaxande-ohalsa",
-              "provenance": "tolkning"
-            },
-            {
-              "source": "pressen.se",
-              "title": "Naturen är en del av lösningen på Sveriges växande ohälsa. - Pressen.se",
-              "link": "https://www.pressen.se/1366703631.html",
-              "provenance": "tolkning"
-            }
-          ],
-          "selectionReason": "Debattinlägg som riktar krav mot den nya regeringens folkhälsopolitik. Handlar om politisk prioritering av offentliga resurser, men är en åsiktsartikel utan beslut eller konflikt med konkreta följder.",
-          "selectionWeight": 2
-        }
-      ],
-      "script": "Talmannen och regeringsbildningen.\n\nTalman Andreas Norlén har efter sin andra runda med partiledarna sagt att han vill ha mer betänketid innan han utser vem som får sonderingsuppdraget. Beskedet kommer knappt tre veckor efter valet, och efter att Magdalena Andersson i måndags gav upp sitt första försök att bilda regering. Det rapporterar TV4 Nyheterna. Norlén lovar samtidigt besked under veckan.\n\nMekaniken är värd att hålla i huvudet, för den styr tempot. Enligt riksdagen.se leder talmannen förhandlingarna vid ett regeringsskifte och lägger fram förslag till ny statsminister, en uppgift som i andra parlamentariska demokratier ligger hos statschefen. Talmannen står utanför det politiska arbetet och deltar varken i utskottsarbete eller i debatter och omröstningar i kammaren. Enligt regeringen.se håller talmannen enskilda överläggningar med partiledarna och föreslår därefter vem som ska utses. Riksdagen röstar om förslaget, och det är förkastat om mer än hälften av ledamöterna röstar mot det. Förkastas fyra förslag blir det nyval, om inte ordinarie val ska hållas inom tre månader. Det är den klockan som tickar, inte någon formell tidsfrist för talmannen.\n\nI sak står processen stilla. Enligt TV4 säger Andersson att Kristersson bör få uppdraget, eftersom V röstade för M:s kandidat till talman. Kristersson framhåller i sin tur att S, MP, C och V har Andersson som sin statsministerkandidat och att de fyra rödgröna partierna har flest mandat. Nooshi Dadgostar säger att det är uteslutet att släppa kravet på ministerposter. Elisabeth Thand Ringqvist säger att om kraven för ett första möte är att prata ministerposter är det lönlöst, och upprepar att C inte kan stötta en regering som SD sitter i eller samarbetar med. Simona Mohamsson kallar Anderssons försök de senaste två veckorna patetiskt och säger att hon inte tänker rädda S-ledaren. Jimmie Åkesson vill se en snabb statsministeromröstning om Andersson. Ebba Busch anser att Andersson bör prövas i kammaren, och är bara redo att samarbeta över blockgränsen i krig, kris eller exceptionellt läge.\n\nDet bevakningen inte svarar på är vilka alternativ som faktiskt är matematiskt möjliga. Det är den frågan talmannen sitter med, och den är inte besvarad i det material som finns tillgängligt här.\n\nEn sak till, och den kommer inte från bevakningen utan från Fokus. Fokus räknar upp utgångsläget: 176 mandat för oppositionen mot Tidöpartiernas 173. Enligt Fokus blir det 198 borgerliga mandat om C byter sida, och 195 om MP gör det. Med antagandet att hålla isär S och M återstår enligt texten bara ett alternativ, S, C, KD, L och MP med 187 mandat, och varken KD eller L har något intresse av det. En superkoalition med S och de tidigare allianspartierna skulle enligt Fokus samla 235 mandat men kan avföras av samma skäl. Fokus beskriver C-ledarens uppträdande vid talmansrundan som zombielikt och menar att ett extra val framåt vårkanten kan bli följden, och att väljarna kommer att straffa både C och S för det. Det är en analys och en bedömning, inte en redovisning av vad partierna har sagt.\n\nNaturen som folkhälsopolitik.\n\nKristina Ljungros, generalsekreterare för Friluftsfrämjandet, och Matilda van den Bosch, läkare och doktor i landskapsplanering med folkhälsoinriktning, skriver i ett debattinlägg i Sydsvenskan och HD att den tillträdande regeringen bör göra naturen till en tydligare del av folkhälsopolitiken. Artikeln är märkt som debattinlägg, och skribenterna svarar för åsikterna.\n\nDe hänvisar till forskning av Andrey Egorov, Thomas Astell-Burt och Payam Dadvand som kopplar mer natur nära bostäder till lägre kronisk stress och mindre ensamhet, och gröna skolgårdar till bättre kognitiv utveckling hos barn. De hänvisar också till en analys av Evelise Pereira Barboza av nära tusen europeiska städer, som visar att omkring 43 000 förtida dödsfall årligen skulle kunna förebyggas om städerna levde upp till WHO:s rekommendationer om tillgång till grönska.\n\nSkribenterna uppger att regeringens handlingsplan uppskattar samhällets kostnader för psykisk ohälsa till 345 miljarder kronor årligen, men att bara åtta av landets 21 regioner erbjuder naturbaserade insatser för psykisk ohälsa. De uppger vidare att de statliga anslagen per skyddat naturområde har minskat med 38 procent sedan 2017, med hänvisning till Riksrevisionens granskning Förvaltningen av skyddad natur. Enligt skribenterna saknar länsstyrelserna resurser för att bevara naturvärden och göra skyddade områden tillgängliga. De uppger att en enig parlamentarisk miljömålsberedning i fjol ansåg att 1,6 miljarder kronor behöver tillföras årligen för skötseln av Sveriges mest värdefulla natur. De uppger också att andelen barn som regelbundet vistas i naturen har sjunkit från 78 procent till 49 procent på tjugo år, enligt siffror från Folkhälsomyndigheten, och att en enkät från Svenskt friluftsliv bland samtliga riksdagspartier visar att alla anser att friluftsorganisationerna bör få en viktig roll i att förebygga ohälsa.\n\nSkribenterna föreslår tre beslut som de menar kan tas redan i höstbudgeten: att ge en myndighet ansvar för att sprida kunskap om naturbaserade metoder inom vård och omsorg, att fördubbla anslaget till det organiserade friluftslivet, och att ge Naturvårdsverket och länsstyrelserna resurser för att sköta naturreservat och nationalparker samt öronmärka pengar till LONA.\n\nHär finns nu ett primärmaterial som bevakningen inte citerar. I riksdagens dokument ligger en motion från Centerpartiet, 2025/26:2824, av Stina Larsson med flera, om natur och biologisk mångfald. Motionen konstaterar att Sverige har över 5 000 naturreservat och 30 nationalparker, och att de allra flesta svenskar i genomsnitt bara har några få kilometer till skyddad natur. Den uppger att skötseln av många skyddade områden är eftersatt och att de inte uppvisar de naturvärden som det är tänkt, och vill öka takten i att restaurera och återställa skyddad natur. Motionen föreslår att ett stöd utreds som ger ersättning till privata skogsägare som har hotade arter på sina marker så länge den hotade arten finns kvar. Den vill också använda statsbidragen LONA och LOVA som styrmedel för att öka takten i återställande och anläggande av våtmarker, med utökade satsningar på att koppla utbetalningar till tydliga resultat genom mer uppföljning och utvärdering.\n\nSamma dokument innehåller två äldre texter. Utredningen Effektiv användning av naturresurser, SOU 2001:2, definierar resurseffektivitet som material- och energiproduktivitet och konstaterar att marknadshushållningen har brister när det gäller utnyttjandet av naturresurser och fördelningen av resurser mellan generationer. Den överlämnades som slutbetänkande, och särskilda yttranden lämnades av Kenneth Hermele och Roy Resare. Där finns också en äldre motion från Moderata samlingspartiet, som slår fast att målet med miljöpolitiken måste vara att minska miljöskadlig verksamhet till under den nivå naturen tål, och att det krävs såväl lagstiftning som ekonomiska styrmedel. Den motionen föreslår att Sverige i FN bör ta initiativ till en världsklimatkonferens om växthuseffekten, att 20 miljoner kronor anvisas för nya laboratoriebyggnader vid forskningsstationerna i Askö och Kristineberg, att Naturvårdsverket får i uppdrag att utarbeta en aktionsplan mot föroreningar i sjöar och vattendrag, och att samma låga gränsvärde för dioxiner ska gälla nya som gamla avfallsförbränningsanläggningar.\n\nIngen av de tre dokumentposterna innehåller någon uppgift om att de skulle vara kopplade till debattinlägget eller till den tilltränande regeringens folkhälsopolitik. De är primärmaterial, hämtade från riksdagens domäner, och de citeras inte i bevakningen.\n\nSlutligen tre fristående tolkningar, som inte heller de kommer från bevakningen. Timbro argumenterar att socialdemokratins syn på miljön är urban och postmodern, och att partiet ser naturen som en plats för rekreation snarare än en plats där människor, företag och föreningar verkar. Dagens Arena ställer frågan vem som egentligen äger Sveriges naturresurser, och varnar för att fortsatt misshushållning kan urholka den sociala och institutionella tilliten mellan välfärdsstaten och medborgarna. På Altinget argumenterar Ulrika Modéer, generalsekreterare för Svenska Röda korset, och Gustaf Lind, generalsekreterare för Världsnaturfonden WWF, att naturbaserade lösningar är avgörande för klimatpolitiken, och att IPCC bedömer att de kan stå för över en tredjedel av de utsläppsminskningar som krävs till 2030."
-    },
-    {
-      "sphere": "world",
-      "sphereLabel": "Världen",
-      "audioUrl": "https://github.com/StenTBen/morgonbrief/releases/download/audio/pod-world-2026-10-01.mp3",
-      "audioBytes": 2273856,
-      "itemCount": 2,
-      "items": [
-        {
-          "id": "world-VVMtbGVkIGNvYWxpdGlvbiBj",
-          "kategori": "MELLANÖSTERN",
-          "rubrik": "USA:s ledda koalition lämnar Irak – ny fas för Bagdad",
-          "sammanfattning": "Den USA-ledda koalitionen har formellt avslutat sin militära insats i Irak och de sista brittiska och amerikanska soldaterna har lämnat landet. Utrymningen skedde enligt en överenskommelse mellan Washington och Bagdad som slöts för två år sedan, och den avslutar en militär närvaro som inleddes 2014 för att bekämpa Islamiska staten. Iraks premiärminister Ali al-Zaidi säger att landet nu tar fullt ansvar för sin egen säkerhet, och Irak har utlyst fyra dagars firande av vad man kallar suveränitetsdagen. USA:s president Donald Trump beskriver tillbakadragandet som en seger både för USA och Irak, medan Pentagon betonar att ansvaret för kvarvarande hot nu vilar på den irakiska regeringen.",
-          "varfor": "Maktbalansen i regionen förskjuts när en utländsk militär närvaro försvinner, vilket kan ge Iranstödda miliser ökat spelrum och samtidigt lämna utrymme för IS-rester att återhämta sig.",
-          "status": "Koalitionens insatsstyrka uppges nu vara baserad i Jordanien och USA fortsätter sin IS-insats i Syrien.",
-          "score": 90,
-          "reasons": [
-            "5 international outlets (+40)",
-            "No Swedish coverage found (+35)",
-            "Underreported region (Middle East) (+15)"
-          ],
-          "region": "Middle East",
-          "swedishCoverage": "none",
-          "leadSource": "BBC News",
-          "publishedAt": "2026-09-30T11:36:23.000Z",
-          "singleSource": false,
-          "enriched": true,
-          "sourceCount": 5,
-          "coverage": [
-            {
-              "source": "BBC News",
-              "title": "Last UK and US troops leave Iraq as anti-Islamic State mission ends",
-              "link": "https://www.bbc.co.uk/news/articles/c65ym1dyn92mo?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-              "title": "Iraq celebrates Sovereignty Day as US troops complete withdrawal",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/1/iraq-celebrates-sovereignty-day-as-us-troops-complete-withdrawal?traffic_source=rss"
-            },
-            {
-              "source": "World news | The Guardian",
-              "title": "Pentagon says it has formally completed withdrawal of US troops from Iraq",
-              "link": "https://www.theguardian.com/us-news/2026/sep/30/pentagon-formal-withdrawal-troops-iraq"
-            },
-            {
-              "source": "News - South China Morning Post",
-              "title": "US ends troop mission in Iraq, Baghdad to celebrate Sovereignty Day on October 1",
-              "link": "https://www.scmp.com/news/world/middle-east/article/3369343/us-ends-troop-mission-iraq-baghdad-celebrate-sovereignty-day-october-1?utm_source=rss_feed"
-            },
-            {
-              "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-              "title": "23 years after invasion, U.S. leaves Iraq; Iran stays",
-              "link": "https://www.thehindu.com/news/international/23-years-after-invasion-us-leaves-iraq-stays-in-iran/article71527593.ece"
-            },
-            {
-              "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-              "title": "U.S. military says its withdrawal of troops from Iraq complete",
-              "link": "https://www.thehindu.com/news/international/us-forces-exit-iraq-after-two-decades-leaving-opening-for-iran/article71526553.ece"
-            }
-          ]
-        },
-        {
-          "id": "world-UmVuZXdlZCBUaWdyYXkgZmln",
-          "kategori": "AFRIKA",
-          "rubrik": "Striderna i Tigray trappas upp – farhågor om nytt inbördeskrig",
-          "sammanfattning": "Efter månader av spänning har strider blossat upp igen i norra Etiopien mellan regeringstrupper och styrkor lojala med TPLF, det parti som styr Tigray. Enligt sjukhuskällor har minst 52 civila dödats under tre dagars strider kring Alamata, och regeringsstyrkor uppges ha tagit kontroll över staden och avancera norrut mot Mekelle. Konflikten har spridit sig till grannregionerna Afar och Amhara, där bland annat 33 turister fastnat i världsarvsstaden Lalibela efter att flygplatsen stängt. TPLF har tillsammans med sex andra väpnade grupper bildat en allians med målet att störta regeringen i Addis Abeba, och båda sidor anklagar varandra för att ha brutit 2022 års fredsavtal.",
-          "varfor": "En återupptagen konflikt hotar stabiliteten i hela Afrikas horn och riskerar att dra in grannländer som Eritrea, samtidigt som en redan svår humanitär situation förvärras.",
-          "status": "Kommunikationer och banktjänster i Tigray är avstängda, och Afrikanska unionen uppmanar parterna till återhållsamhet och nya samtal.",
-          "score": 75,
-          "reasons": [
-            "3 international outlets (+25)",
-            "No Swedish coverage found (+35)",
-            "Underreported region (Africa) (+15)"
-          ],
-          "region": "Africa",
-          "swedishCoverage": "none",
-          "leadSource": "BBC News",
-          "publishedAt": "2026-09-30T15:04:32.000Z",
-          "singleSource": false,
-          "enriched": true,
-          "sourceCount": 3,
-          "coverage": [
-            {
-              "source": "BBC News",
-              "title": "Ethiopia fighting escalates in Tigray killing 52 civilians, medic tells the BBC",
-              "link": "https://www.bbc.co.uk/news/articles/c6grveejg1e2o?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "source": "France 24 - International breaking news, top stories and headlines",
-              "title": "Ethiopia back to civil war? Horn of Africa fears spillover effect of renewed fighting",
-              "link": "https://www.france24.com/en/tv-shows/the-debate/20260930-ethiopia-back-to-civil-war-horn-of-africa-fears-spillover-effect-of-renewed-fighting"
-            },
-            {
-              "source": "AllAfrica News: Latest",
-              "title": "Ethiopia: Tensions Return to Tigray - Fears of a New Civil War",
-              "link": "https://allafrica.com/stories/202609300551.html"
-            },
-            {
-              "source": "AllAfrica News: Latest",
-              "title": "Ethiopia: Ethiopian Federal Forces Reportedly Advance Deep Into Tigray Toward Mekelle",
-              "link": "https://allafrica.com/stories/202609300324.html"
-            }
-          ]
-        }
-      ],
-      "script": "USA och Storbritannien har lämnat Irak. Den sista kontingenten lämnade Irbil i norra Irak i onsdags, och därmed är Operation Inherent Resolve – koalitionens insats mot Islamiska staten – formellt avslutad.\n\nBakgrunden: koalitionen sattes upp 2014, när IS hade tagit stora delar av norra Irak och Syrien. Irakiska myndigheter utropade IS militära nederlag 2017, men utländska styrkor stannade kvar för att förhindra en återkomst. För två år sedan, under Joe Bidens presidentskap, slöt USA och Irak ett avtal om att dra tillbaka koalitionen före utgången av september i år. Det avtalet är alltså vad som nu har verkställts. Det här är tredje gången amerikanska och brittiska styrkor lämnar Irak: efter Kuwaitkriget 1991, efter tillbakadragandet 2011, och nu.\n\nVad som har hänt: enligt BBC lämnade de sista brittiska soldaterna – omkring hundra man – Irbil, koordinerat med de amerikanska styrkorna som lämnade samma dag. USA:s försvarsdepartement meddelade formellt att Operation Inherent Resolve i Irak därmed är avslutad, och Pentagon talesperson Sean Parnell säger att ansvaret för Iraks kvarvarande säkerhetsproblem nu vilar på Iraks regering. President Trump kallade det en seger för USA, en seger för Irak och en avgörande seger över IS, och beskrev Irakkriget som en kvagmire skapad av dåligt beslutsfattande. Iraks premiärminister Ali al-Zaidi, som tillträdde i maj, säger att landet nu går in i en fas där det tar fullt ansvar för sin egen säkerhet. Irak har utlyst fyra så kallade suveränitetsdagar som nationell helgdag, och Al Jazeera rapporterar om nattliga firanden.\n\nVad rapporteringen visar under ytan: det här är inte bara ett trupptillbakadragande, det är en maktförskjutning. Sedan kriget mellan USA och Israel å ena sidan och Iran å andra sidan bröt ut tidigare i år har Iranstödda miliser i Irak attackerat de kvarvarande amerikanska och brittiska styrkorna på Irbilbasen. BBC:s team besökte basen i april och fick då cirkla med ett RAF-transportplan medan drönare avfyrades i närheten; som mest utsattes basen för upp till 28 drönare och robotar per dygn, och brittiska skyttesoldater sköt ner över hundra drönare under krigets första sex veckor. Hundratals Natosoldater lämnade Bagdad redan i mars. Zaidi har lovat att avväpna miliserna och lägga alla vapen under statlig kontroll – men enligt BBC gör flera mäktiga fraktioner motstånd mot hans planer, och de kan nu se sitt inflytande växa när den amerikanska närvaron försvinner. Iran och dess allierade har enligt Guardian firat tillbakadragandet som en seger.\n\nVad som är oklart: huruvida de irakiska säkerhetsstyrkorna klarar uppgiften. En färsk FN-rapport bedömer att IS har några hundra stridande kvar, kapabla till enklare operationer. Men Jassim al-Bahadli, säkerhetsrådgivare, säger till Reuters att säkerhetsvakuum kan vara extremt farliga, och den pensionerade irakiske generalen Mohammed al-Juburi säger till samma byrå att den viktigaste frågan är om Irak har förberett en plan för den nya fasen. USA:s centralkommando uppger att koalitionens insatsstyrka finns kvar och nu är baserad i Jordanien, och att man fortsätter mot IS i Syrien, där FN uppskattar att gruppen har upp till tre tusen stridande.\n\nNästa ämne: förnyade strider i Tigray i Etiopien.\n\nI slutet av september tog federala etiopiska styrkor och regionala Tigray-styrkor åter till vapen, tre år efter att ett tvåårigt inbördeskrig avslutades med avtalet i Pretoria.\n\nBakgrunden: Tigrayregionen styrdes av partiet TPLF från 1991 fram till 2018, då Abiy Ahmed tog över makten i Addis Abeba. Brytningen mellan regeringen och Tigrayledningen ledde till kriget 2020 till 2022. Det avslutades med Cessation of Hostilities Agreement, undertecknat den 2 november 2022 med Afrikanska unionen som medlare. Under det kriget var Tigray i praktiken avskuret från omvärlden – kommunikationer bröts, tillgången till mat, kontanter och medicin begränsades hårt, och hundratusentals människor drevs mot hungersnöd. Det är den erfarenheten som nu gör att många fruktar en upprepning.\n\nVad som har hänt: striderna bröt ut i förra veckan efter månader av spänning, där båda sidor anklagar varandra för att ha brutit mot 2022 års avtal. TPLF säger att man svarade på en federal offensiv, inklusive drönaranfall; regeringen säger att Tigraystyrkorna anföll först, efter att ha tagit kontroll över flygplatser i regionen. Den 23 september tog Tigray-styrkor kontroll över Mekeles huvudflygplats. Den 25 september tillkännagav sju väpnade grupper från olika delar av landet – däribland TPLF – bildandet av Ethiopian People's Forces Alliance for Survival, med det uttalade målet att störta regeringen i Addis Abeba. Enligt Al Jazeera, citerat av AllAfrica, har federala styrkor avancerat mer än 150 kilometer in i Tigray och tagit tillbaka städerna Mekoni, Wajena och Adi Gudom, omkring 39 kilometer från Mekelle. De uppgifterna kunde inte verifieras oberoende, och AllAfrica noterar att tillträdet till området är begränsat.\n\nVad rapporteringen visar: BBC har talat med sjukvårdskällor som uppger att minst 52 civila dödats under tre dagars strider kring Alamata, bland dem barn, mödrar och boskapsherdar; tolv personer ska ha dött i ett enskilt anfall mot stadens marknad. Enligt samma källor förefaller regeringsstyrkor ha tagit kontrollen över Alamata och avser att fortsätta norrut mot Mekelle. Läkare utan gränser uppger att fler än 700 skadade tagits emot på sjukhus man stöder i Tigray. Striderna har också spridit sig till grannregionerna Afar och Amhara. I Lalibela, en av Unescos världsarvsorter, har 33 turister varit instängda i en vecka sedan flygplatsen stängde för kommersiell trafik; fjorton israeler evakuerades med militärhelikopter i måndags. En brittisk turist säger till BBC att man hört skott och artillerield hela veckan, och att situationen lugnat sig de senaste två dagarna. Internationella rödakorskommittén uppger att man evakuerat omkring 160 personer från Tigray, däribland etiopisk federal polis, Ethiopian Airlines-anställda och Afrikanska unionens observatörer.\n\nVad som är omstritt och oklart: regeringen har stängt banktjänster i Tigray, och internet är avstängt – BBC uppger att det inte är klart vem som beordrade nedstängningen. Konton öppnade i Tigray har frysts eller begränsats, vilket också drabbar tigrayer utanför regionen. BBC kan inte rapportera från Tigray, och kommunikationerna till regionen är avskurna. Afrikanska unionens kommissionsordförande Mahmoud Ali Youssouf uppmanade den 22 september parterna till största återhållsamhet och direkta samtal. Det finns också en oro för att Eritrea dras in: regeringen anklagar Asmara för att stödja de väpnade grupperna, vilket Eritrea förnekar. France 24 ställer frågan om konflikten kan få spridningseffekter i hela Afrikas horn, men den artikeln har ingen brödtext i underlaget, så något svar på den frågan finns inte där.\n\nVarför det spelar roll utanför regionen: Etiopien är Afrikas näst folkrikaste land och en central aktör i Afrikas horn. TPLF-styrkor strider också i Afar, det strategiska område som förbinder det inlandsstängda Etiopien med Djibouti och dess hamnar. En ny fullskalig konflikt där skulle träffa handelsvägar, humanitära insatser och maktbalansen i ett område som redan är skakat av kriget mellan USA, Israel och Iran.\n\nAvslutningsvis, om källorna: uppgifterna om de federala styrkornas avancemang in i Tigray och om de tre återtagna städerna vilar på en enda kedja – Al Jazeera, återgivet av AllAfrica – och har inte kunnat verifieras oberoende. Uppgifterna om civila dödsoffer i Alamata kommer från sjukvårdskällor som talat med BBC, och BBC kan inte rapportera från regionen. Detaljerna om evakueringen av de 160 personerna kommer från Internationella rödakorskommittén. Uppgifterna om Irans och dess allierades reaktion på tillbakadragandet från Irak kommer från Guardian."
+      "script": "Först: NEAR Intents.\n\nNEAR Intents är en cross-chain-tjänst som låter användare byta tillgångar mellan elva olika nätverk utan att själva hantera bryggor. Protokollet drivs av NEAR och har en general manager, Alex Shevchenko, som offentligt frontar det. Tjänsten är alltså inte en börs och inte en bank, utan ett intent-lager: användaren anger ett önskat utfall och en lösare verkställer bytet. Det är den mekaniken som nu har fallit.\n\nDet som hände: en bugg i deposit- och withdrawal-kontraktet lät en angripare ta ut cirka 3,8 miljoner dollar. NEAR Intents stoppade deposits och withdrawals på elva nätverk. Enligt The Block patchades kontraktet, men tjänsterna är fortfarande störda. Enligt Decrypt har protokollet lovat att kompensera samtliga användare fullt ut. Det är protokollets eget löfte, inte en bekräftad utbetalning — ingen av källorna visar att pengarna faktiskt har betalats tillbaka.\n\nDet som går utöver rubrikerna är tidslinjen. Decrypt noterar att exploit'en skedde dagar efter att NEAR Intents offentligt förnekat koppling till den hackare som ligger bakom intrånget hos Bitget, en hackare som tillskrivs Nordkorea. Det är en tidsmässig närhet, inte ett bevisat samband — ingen av källorna påstår att det är samma aktör. Cointelegraph rapporterar att Shevchenko på fredagen gick ut med att man identifierat hackaren och gett ett ultimatum på 48 timmar. Citatet lyder: \"We have identified you, sir.\" Hur identifieringen gjorts, och vad ultimatumet innebär konkret, framgår inte av materialet.\n\nDet som är oklart: hur buggen såg ut, om några medel har frysts, och när deposits och withdrawals öppnar igen. The Block säger att de fortfarande är störda. Ingen källa anger ett datum.\n\nVarför det spelar roll: det här är inte först och främst en förlust på 3,8 miljoner. Det är en cross-chain-tjänst som stänger av elva nätverk samtidigt, vilket gör att likviditet som normalt rör sig mellan kedjor stannar. DefiLlamas siffra för Ethereum visar en uppgång på 0,78 procent till 53,68 miljarder dollar, från 53,26 miljarder. Det är en rörelse i linje med en vanlig dag och ingen tydlig effekt av händelsen. Jag noterar att DefiLlama själva flaggar posten som tunn, och att orsakssambandet mellan exploit'en och TVL-siffran är en gissning från bevakningens sida, inte något som går att belägga i materialet.\n\nNästa ämne: MetaMask och Lido.\n\nMetaMask är den största plånboken i Ethereum-ekosystemet, ägd av Consensys. Lido är den största likviditetsstakningstjänsten på Ethereum: användare sätter in ETH, Lido kör validators, och användaren får en token som representerar insatsen och som går att använda i DeFi medan den ligger stakad. Det som nu händer är att MetaMask, som driver validators genom Lido, väljer att dra sig ur.\n\nDet som hände: MetaMask meddelade att man utreder en säkerhetsincident i sin infrastruktur. Man säger sig inte ha hittat något omedelbart hot mot användarnas plånböcker. Som försiktighetsåtgärd har man påbörjat utträde ur validators som tillsammans håller omkring 523 000 ETH. Enligt Decrypt kan det ta upp till 45 dagar innan den ETH:en är tillbaka.\n\nDet som går utöver rubrikerna: CoinDesk citerar en Ethereum-säkerhetsforskare som uppskattar att omkring 0,36 ETH i rewards har dirigerats om. Det är en uppskattning från en namngiven forskare, inte en siffra från MetaMask eller Lido. Lido har samtidigt varnat för att rewards kan gå förlorade i samband med utträdena. Vad incidenten faktiskt består i beskriver MetaMask inte — man säger att man utreder internt, och man har inte gått ut med någon teknisk redogörelse.\n\nDet som är oklart: vad hotet var, om det var riktat mot MetaMask specifikt eller mot en tredjepart i deras infrastruktur, och om det finns någon koppling till Lido över huvud taget. Ingen av de tre källorna besvarar det.\n\nVarför det spelar roll: 523 000 ETH är en stor position, och den ska ut ur stakning under en period på upp till 45 dagar. Det binder upp kapital och det tar bort stake från nätverket under tiden. För den som följer Ethereum är frågan inte om MetaMask förlorat pengar — det finns inget i materialet som tyder på det — utan vad en plånboksleverantörs infrastrukturincident säger om var risken i stakning faktiskt sitter. Den sitter inte bara i protokollet, utan i de operatörer som kör validators.\n\nDefiLlama-siffran för Ethereum igen: plus 0,78 procent. Även här är kopplingen till händelsen en gissning i bevakningen. Posten är flaggad som tunn.\n\nAvslutningsvis, om källtäckningen. Uppgiften att NEAR Intents identifierat hackaren och gett ett 48-timmarsultimatum vilar på en enda källa, Cointelegraph, med citat från Shevchenko. Uppgiften att cirka 0,36 ETH i rewards dirigerats om vilar på en enda källa, CoinDesk, och på en enskild forskares uppskattning. Uppgiften att utträdet kan ta upp till 45 dagar kommer från Decrypt. Att kontraktet patchats men att tjänsterna fortfarande är störda kommer från The Block. Inga priser eller TVL-siffror utöver de här angivna har använts."
     }
   ],
   "feed": [
     {
-      "id": "feed-world-Rmx5ZHViYWkgcGlsb3Qgc3Rh",
-      "sphere": "world",
-      "kategori": "KRIMINALITET",
-      "rubrik": "Pilot knivhöggs på flygning mot Tel Aviv – passagerare övermannade angriparen",
-      "sammanfattning": "En Flydubai-flygning från Dubai till Tel Aviv tvingades nödlanda i Tabuk, Saudiarabien, efter att en pilot enligt Israels premiärminister Benjamin Netanyahu knivhuggit den andre piloten och försökt störta planet. Passagerare och besättning tog sig in i cockpit och övermannade angriparen, medan den skadade piloten, indiske kaptenen Smit Machchhar, öppnade dörren innan han kollapsade. Planet tappade över 5 000 meter i höjd på kort tid och hade omkring 170 personer ombord. Angriparen greps och utreds av saudiska myndigheter. Motivet är oklart; Israels försvarsminister Israel Katz kallar det ett försök till jihadistiskt terrordåd, medan Netanyahu säger att det är för tidigt att säga vem som ligger bakom.",
-      "synthes": "BBC och AP rapporterar att videoklipp visar blodiga män på golvet, medan SVT citerar en passagerare som säger att piloten var knivhuggen och låg på andra sidan dörren; Al Jazeera och The Hindu bidrar med ytterligare passagerarutsagor och Trumps kommentar om en israelisk rörmokare, men inga källor motsäger varandra i sak.",
-      "leadSource": "BBC News",
-      "publishedAt": "2026-10-01T03:43:06.000Z",
-      "readMinutes": 1,
-      "sourceCount": 7,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "Utrikes | SVT Nyheter",
-          "title": "Passageraren om flygdramat: ”Det var nu eller aldrig”",
-          "link": "https://www.svt.se/nyheter/utrikes/passageraren-om-flygdramat-det-var-nu-eller-aldrig"
-        },
-        {
-          "source": "BBC News",
-          "title": "Too early to say who was behind Dubai-Tel Aviv flight attack, Israeli PM says",
-          "link": "https://www.bbc.co.uk/news/articles/cqgmrm7xd8wyo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "BBC News",
-          "title": "What we know about stabbing on Flydubai flight to Israel",
-          "link": "https://www.bbc.co.uk/news/articles/cqjdv7pmj9dno?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "BBC News",
-          "title": "Flydubai passenger describes putting attacker in chokehold after cockpit stabbing",
-          "link": "https://www.bbc.co.uk/news/articles/cmx2z92xx57no?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "BBC News",
-          "title": "Passengers describe stabbing on Israel-bound plane",
-          "link": "https://www.bbc.co.uk/news/videos/cv70d22kd34do?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-          "title": "Passengers tell of ‘nightmare’ onboard diverted Flydubai flight",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/1/passengers-tell-of-nightmare-onboard-diverted-flydubai-flight?traffic_source=rss"
-        }
-      ],
-      "image": "https://www.svtstatic.se/image-news/1200/1.91:1/0.43/0.27/cdeed965323e45402d48f5f00fed8c77c5fef6164c5f9d8bed7b2feefba2887b"
-    },
-    {
-      "id": "feed-crypto-VHJ1bXAgdW52ZWlscyB2b2x1",
+      "id": "feed-crypto-Qml0Y29pbiByZWFjdHMgdG8g",
       "sphere": "crypto",
-      "kategori": "TEKNIK",
-      "rubrik": "Trump och techbolag undertecknar frivilligt AI-avtal",
-      "sammanfattning": "USA:s president Donald Trump meddelade att han och ledarna för flera stora AI-företag har undertecknat ett frivilligt avtal om självreglering av AI-utveckling. Avtalet, som Trump kallar moraliskt bindande, innebär att företagen ska införa interna kontroller, anlita oberoende externa revisorer och inrätta en kommitté inom styrelsen för att granska rapporter. Det finns inga sanktioner eller tidsfrister. Trump sade att han kommer att utse en kommitté på cirka tio personer för att övervaka avtalet. Experter är skeptiska och menar att avtalet saknar tydliga konsekvenser och att företagen själva får definiera vad som är säkert.",
-      "synthes": "BBC och NPR rapporterar att avtalet undertecknades av Trump, Anthropic, Google, Meta, OpenAI, Nvidia och xAI, medan Decrypt och CoinDesk betonar att avtalet saknar sanktioner och att företagen själva väljer revisorer; Al Jazeera och The Hindu ger ytterligare bakgrund men inga motsägelser framkommer.",
-      "leadSource": "Cointelegraph.com News",
-      "publishedAt": "2026-09-30T00:28:38.000Z",
-      "readMinutes": 1,
-      "sourceCount": 7,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "NPR Topics: Politics",
-          "title": "Trump says top tech firms have signed accord to 'self-police' AI development",
-          "link": "https://www.npr.org/2026/09/30/nx-s1-5985699/trump-self-police-ai-development"
-        },
-        {
-          "source": "BBC News",
-          "title": "Three takeaways from Trump's 'Super Intelligence' summit",
-          "link": "https://www.bbc.co.uk/news/articles/cme30dz5vkzko?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "Cointelegraph.com News",
-          "title": "Trump accord calls for tech firms to ‘self police’ their own frontier AI",
-          "link": "https://cointelegraph.com/news/trump-accord-calls-for-tech-firms-to-self-police-their-own-frontier-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-        },
-        {
-          "source": "Decrypt",
-          "title": "Trump Unveils 'Morally Binding' AI Accord Signed by OpenAI, Google and Nvidia",
-          "link": "https://decrypt.co/379728/trump-unveils-morally-binding-ai-accord-signed-by-openai-google-and-nvidia"
-        },
-        {
-          "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-          "title": "OpenAI, Google and Meta pledge independent AI safety audits under voluntary White House deal",
-          "link": "https://www.coindesk.com/tech/2026/09/30/openai-google-and-meta-pledge-outside-ai-audits-under-voluntary-white-house-deal"
-        },
-        {
-          "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-          "title": "Trump releases AI accord with tech executives",
-          "link": "https://www.thehindu.com/sci-tech/technology/trump-releases-ai-accord-with-tech-executives/article71525807.ece"
-        }
-      ]
-    },
-    {
-      "id": "feed-world-VGVubmVzc2VlIGV4ZWN1dGlv",
-      "sphere": "world",
-      "kategori": "JURIDIK",
-      "rubrik": "Avrättning av Christa Pike i Tennessee misslyckades – överlevde två injektioner",
-      "sammanfattning": "Tennessee-fången Christa Pike, 50, avrättades inte som planerat på onsdagen efter att ha fått två doser av läkemedlet pentobarbital. Hennes advokater uppger att hon fördes till sjukhus vid liv och att hon andades snarkande. USA:s högsta domstol hade tidigare upphävt en paus från en lägre domstol, men en federal appellationsdomstol beviljade senare en ny paus. Pike dömdes till döden 1996 för mordet på Colleen Slemmer. Hon skulle ha blivit den första kvinnan avrättad i Tennessee på över 200 år. Delstaten har inte kommenterat händelsen.",
-      "synthes": "BBC och The Guardian rapporterar att Pike hördes snarka 40 minuter efter injektionerna och att en ambulans tillkallades, medan France 24 och SCMP fokuserar på de juridiska turerna; Al Jazeera och The Hindu bekräftar att högsta domstolen godkände avrättningen men inga källor motsäger varandra.",
-      "leadSource": "BBC News",
-      "publishedAt": "2026-10-01T03:46:55.000Z",
-      "readMinutes": 1,
-      "sourceCount": 6,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "BBC News",
-          "title": "Tennessee death row inmate Christa Pike taken to hospital after attempted execution, lawyer says",
-          "link": "https://www.bbc.co.uk/news/articles/cq8r6rjdvlx6o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "BBC News",
-          "title": "Execution of US murderer Christa Pike halted shortly before it was due to happen",
-          "link": "https://www.bbc.co.uk/news/articles/cw20vxxn876no?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "BBC News",
-          "title": "US Supreme Court denies Christa Pike's last-ditch bid to halt execution",
-          "link": "https://www.bbc.co.uk/news/articles/cwe879654mj7o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "BBC News",
-          "title": "Watch: Why was the US execution of Christa Pike halted?",
-          "link": "https://www.bbc.co.uk/news/videos/cm3v4vkdl017o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "BBC News",
-          "title": "US death row inmate Christa Pike taken to hospital after surviving two lethal injections, says lawyer",
-          "link": "https://www.bbc.co.uk/news/articles/cq8r6rjdvlx6o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-          "title": "US Supreme Court clears way for Christa Pike’s execution in Tennessee",
-          "link": "https://www.aljazeera.com/news/2026/10/1/us-supreme-court-clears-way-for-christa-pikes-execution-in-tennessee?traffic_source=rss"
-        }
-      ]
-    },
-    {
-      "id": "feed-congress-SGVnc2V0aCBTdGF0ZSBvZiB0",
-      "sphere": "congress",
-      "kategori": "FÖRSVAR",
-      "rubrik": "Hegseth: 20 procent av generaler och amiraler har avskedats",
-      "sammanfattning": "USA:s försvarsminister Pete Hegseth höll ett tal vid Marine Corps Base Quantico där han meddelade att 20 procent av militärens generaler och amiraler har avskedats eller avgått. Han sade att försvaret inte längre är \"woke\" och att de som inte stöder förändringarna inte längre arbetar där. Hegseth tillkännagav också en ny kommando för autonom krigföring, ett kontor för religiösa frågor och planer på en ny militärbas. Senator Jack Reed och andra demokrater kritiserade åtgärderna och anklagade Hegseth för att ha avskedat erfarna officerare utan förklaring.",
-      "synthes": "NPR och BBC rapporterar att minst 20 generaler och amiraler har avskedats eller slutat, medan Al Jazeera och SCMP betonar att Hegseth kallar det \"accountability\"; The Hindu nämner att Elon Musk ska leda en del av det nya teknikinitiativet, vilket inte nämns av alla källor.",
-      "leadSource": "Senate News",
-      "publishedAt": "2026-09-30T20:05:58.000Z",
-      "readMinutes": 1,
-      "sourceCount": 6,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "Senate News",
-          "title": "Live updates: Hegseth calls officer cuts &#039;bare minimum&#039; in address to troops; Senate Democrats block key bills",
-          "link": "https://thehill.com/homenews/administration/6119378-live-updates-trump-ai-tariffs-hegseth-pentagon-cuts/"
-        },
-        {
-          "source": "NPR Topics: Politics",
-          "title": "Leaning into culture war flashpoints, Hegseth says he has transformed U.S. military",
-          "link": "https://www.npr.org/2026/09/30/nx-s1-5986304/hegseth-troops-address"
-        },
-        {
-          "source": "BBC News",
-          "title": "Two dead in Canada after vehicle hits pedestrians taking part in First Nations event",
-          "link": "https://www.bbc.co.uk/news/articles/c3kg8gwzqnvko?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "BBC News",
-          "title": "'Clowns out, cowboys in,' says Hegseth as a fifth of generals and admirals are fired",
-          "link": "https://www.bbc.co.uk/news/articles/crq5xvnq8yzqo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-          "title": "Hegseth announces 20% cut to US military commanders",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/1/hegseth-announces-20-cut-to-us-military-commanders?traffic_source=rss"
-        },
-        {
-          "source": "News - South China Morning Post",
-          "title": "Hegseth says US slashed number of generals and admirals by 20%",
-          "link": "https://www.scmp.com/news/world/united-states-canada/article/3369394/trump-defence-chief-says-us-slashed-number-generals-and-admirals-20?utm_source=rss_feed"
-        }
-      ]
-    },
-    {
-      "id": "feed-world-QnVybmhhbSByZW9wZW5zIGRl",
-      "sphere": "world",
-      "kategori": "POLITIK",
-      "rubrik": "Burnham öppnar för att Storbritannien kan återinträda i EU",
-      "sammanfattning": "Storbritanniens premiärminister Andy Burnham sade i en intervju med BBC att Storbritannien kan \"gå hela vägen\" och bli medlem i EU igen. Han sade att hans ministrar ser över olika alternativ för relationen till EU, inklusive att stanna kvar i nuvarande avtal, en tullunion eller fullt medlemskap. Burnham sade att Brexit gjort mer skada än nytta. Uttalandet markerar en omsvängning för Labour, som 2024 lovade att inte återgå till tullunionen eller fri rörlighet. Frankrikes president Emmanuel Macron sade \"välkommen tillbaka\" och Spaniens premiärminister Pedro Sánchez välkomnade också idén.",
-      "synthes": "The Guardian och The Hindu rapporterar att Downing Street söker stöd för ett återinträde och att Labour kan ta upp frågan i nästa valmanifest, medan SVT och France 24 fokuserar på Burnhams intervju; SCMP noterar att Macron och Sánchez välkomnar förslaget, vilket bekräftas av The Guardian.",
-      "leadSource": "World News Today: International News Headlines - The Hindu | The Hindu",
-      "publishedAt": "2026-09-30T14:36:47.000Z",
-      "readMinutes": 1,
-      "sourceCount": 5,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "Utrikes | SVT Nyheter",
-          "title": "Andy Burnham: ”Vill se Storbritannien återinträda i EU”",
-          "link": "https://www.svt.se/nyheter/utrikes/andy-burnham-vill-se-storbritannien-aterintrada-i-eu"
-        },
-        {
-          "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-          "title": "Full re-entry into EU is an option for U.K., says PM Burnham",
-          "link": "https://www.thehindu.com/news/international/full-re-entry-into-eu-is-an-option-for-uk-says-pm-burnham/article71528942.ece"
-        },
-        {
-          "source": "World news | The Guardian",
-          "title": "No 10 gathering evidence on public support for UK rejoining EU",
-          "link": "https://www.theguardian.com/politics/2026/sep/30/no-10-gathering-evidence-public-support-rejoining-eu-reversing-brexit"
-        },
-        {
-          "source": "World news | The Guardian",
-          "title": "Macron says ‘welcome back’ to Burnham suggestion UK could rejoin EU",
-          "link": "https://www.theguardian.com/world/2026/sep/30/macron-welcome-back-burnham-suggestion-uk-could-rejoin-eu"
-        },
-        {
-          "source": "France 24 - International breaking news, top stories and headlines",
-          "title": "UK PM Burnham reopens divisive debate on rejoining EU",
-          "link": "https://www.france24.com/en/tv-shows/a-propos/20260930-uk-pm-burnham-reopens-divisive-debate-on-rejoining-eu"
-        },
-        {
-          "source": "France 24 - International breaking news, top stories and headlines",
-          "title": "UK PM Burnham reopens divisive debate on rejoining EU",
-          "link": "https://www.france24.com/en/uk-pm-burnham-reopens-divisive-debate-on-rejoining-eu"
-        }
-      ]
-    },
-    {
-      "id": "feed-world-VVMgY29tcGxldGVzIHRyb29w",
-      "sphere": "world",
-      "kategori": "FÖRSVAR",
-      "rubrik": "Sista brittiska och amerikanska trupperna lämnar Irak",
-      "sammanfattning": "De sista brittiska och amerikanska trupperna har lämnat Irak efter mer än ett decennium i landet. Uttåget sker enligt en överenskommelse mellan USA och Irak från för två år sedan. Operation Inherent Resolve, koalitionens insats mot Islamiska staten, avslutas. Iraks premiärminister Ali al-Zaidi sade att landet nu tar fullt ansvar för sin säkerhet. Irak planerar att hålla fyra \"suveränitetsdagar\" som nationell helg. Iran och dess allierade har firat tillbakadragandet som en seger, medan irakiska säkerhetsexperter varnar för att IS kan återhämta sig.",
-      "synthes": "BBC och The Guardian rapporterar att USA:s försvarsdepartement formellt avslutat uppdraget, medan Al Jazeera och SCMP betonar firandet i Irak; The Hindu noterar att Iran ser uttåget som en seger för sin \"motståndsaxel\", vilket inte nämns av alla källor.",
-      "leadSource": "BBC News",
-      "publishedAt": "2026-09-30T11:36:23.000Z",
-      "readMinutes": 1,
-      "sourceCount": 5,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "BBC News",
-          "title": "Last UK and US troops leave Iraq as anti-Islamic State mission ends",
-          "link": "https://www.bbc.co.uk/news/articles/c65ym1dyn92mo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-          "title": "Iraq celebrates Sovereignty Day as US troops complete withdrawal",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/1/iraq-celebrates-sovereignty-day-as-us-troops-complete-withdrawal?traffic_source=rss"
-        },
-        {
-          "source": "World news | The Guardian",
-          "title": "Pentagon says it has formally completed withdrawal of US troops from Iraq",
-          "link": "https://www.theguardian.com/us-news/2026/sep/30/pentagon-formal-withdrawal-troops-iraq"
-        },
-        {
-          "source": "News - South China Morning Post",
-          "title": "US ends troop mission in Iraq, Baghdad to celebrate Sovereignty Day on October 1",
-          "link": "https://www.scmp.com/news/world/middle-east/article/3369343/us-ends-troop-mission-iraq-baghdad-celebrate-sovereignty-day-october-1?utm_source=rss_feed"
-        },
-        {
-          "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-          "title": "23 years after invasion, U.S. leaves Iraq; Iran stays",
-          "link": "https://www.thehindu.com/news/international/23-years-after-invasion-us-leaves-iraq-stays-in-iran/article71527593.ece"
-        },
-        {
-          "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-          "title": "U.S. military says its withdrawal of troops from Iraq complete",
-          "link": "https://www.thehindu.com/news/international/us-forces-exit-iraq-after-two-decades-leaving-opening-for-iran/article71526553.ece"
-        }
-      ]
-    },
-    {
-      "id": "feed-world-VUsgc2F5cyBJcmFuIG1heSBi",
-      "sphere": "world",
-      "kategori": "SÄKERHET",
-      "rubrik": "Burnham: Starka indikationer på iransk inblandning i RAF Fairford",
-      "sammanfattning": "Storbritanniens premiärminister Andy Burnham sade att det finns \"starka indikationer\" på att Iran var inblandat i en säkerhetsincident vid flygbasen RAF Fairford. Fem brittiska män i 20-årsåldern greps i söndags misstänkta för terrorism och explosiva varor, men släpptes mot borgen dagen därpå. Polisen hittade inga sprängmedel men beslagtog en mängd bensin. Irans utrikesminister Abbas Araghchi förnekade inblandning och sade att Storbritannien \"skäller uppför fel träd\". USA:s president Donald Trump kritiserade beslutet att släppa männen mot borgen.",
-      "synthes": "SVT och Al Jazeera rapporterar att en av männen själv ringde polisen innan gripandet, medan SCMP och The Hindu citerar Burnhams uttalande om iransk inblandning; France 24 noterar att regeringen inte har förklarat incidentens natur, vilket alla källor är ense om.",
-      "leadSource": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-      "publishedAt": "2026-10-01T02:30:45.000Z",
-      "readMinutes": 1,
-      "sourceCount": 5,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "Utrikes | SVT Nyheter",
-          "title": "Burnham: Klara tecken på iransk inblandning",
-          "link": "https://www.svt.se/nyheter/utrikes/burnham-klara-tecken-pa-iransk-inblandning"
-        },
-        {
-          "source": "Utrikes | SVT Nyheter",
-          "title": "Män misstänkta för att ha planerat terrordåd släpps mot borgen",
-          "link": "https://www.svt.se/nyheter/utrikes/brittisk-polis-definitivt-fortfarande-under-utredning"
-        },
-        {
-          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-          "title": "UK says Iran may be linked to alleged airbase plot, drawing angry denial",
-          "link": "https://www.aljazeera.com/news/2026/10/1/uk-says-iran-may-be-linked-to-alleged-airbase-plot-drawing-angry-denial?traffic_source=rss"
-        },
-        {
-          "source": "France 24 - International breaking news, top stories and headlines",
-          "title": "British PM alleges there are 'strong indications' Iran was involved in Fairford airbase incident",
-          "link": "https://www.france24.com/en/europe/20260930-british-pm-alleges-there-are-strong-indications-iran-was-involved-in-fairford-airbase-incident"
-        },
-        {
-          "source": "News - South China Morning Post",
-          "title": "UK PM says ‘strong indications’ of Iran role in security incident at US-run airbase",
-          "link": "https://www.scmp.com/news/world/europe/article/3369387/uk-pm-says-strong-indications-iran-involved-bomb-scare-us-run-airbase?utm_source=rss_feed"
-        },
-        {
-          "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-          "title": "U.K. PM says 'strong indications' Iran involved in airbase incident",
-          "link": "https://www.thehindu.com/news/international/uk-pm-says-strong-indications-iran-involved-in-airbase-incident/article71530409.ece"
-        }
-      ]
-    },
-    {
-      "id": "feed-congress-U2VuYXRlIERlbW9jcmF0cyBi",
-      "sphere": "congress",
-      "kategori": "POLITIK",
-      "rubrik": "Senaten stoppar republikanskt förslag om aktiehandel för kongressledamöter",
-      "sammanfattning": "USA:s senat blockerade på onsdagen ett republikanskt förslag som skulle begränsa kongressledamöters aktiehandel. Omröstningen slutade 53-47, sju röster kort om de 60 som krävdes. Demokraterna motsatte sig förslaget med argumentet att det inte går tillräckligt långt eftersom det tillåter ledamöter att behålla sina befintliga aktier och att det innehåller en bestämmelse om foto-ID vid val, vilket de kallar en \"giftpiller\". Republikanerna anklagade demokraterna för att sätta politik före reform. Förslaget hade tidigare passerat representanthuset.",
-      "synthes": "Roll Call och The Guardian rapporterar att alla demokrater och independents röstade nej, medan Senate News och Congress noterar att förslaget sponsrades av Pete Ricketts; The Guardian påpekar att Trump själv gjort tusentals aktieaffärer, vilket inte nämns av alla källor.",
-      "leadSource": "Congress",
-      "publishedAt": "2026-09-30T16:56:44.000Z",
-      "readMinutes": 1,
-      "sourceCount": 4,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "Congress",
-          "title": "Senate Democrats block House-passed bill restricting member stock trading",
-          "link": "https://www.politico.com/live-updates/2026/09/30/congress/senate-stock-trading-vote-01099912"
-        },
-        {
-          "source": "Roll Call",
-          "title": "Lawmakers’ stock trading bill falls short in Senate",
-          "link": "https://rollcall.com/2026/09/30/lawmakers-stock-trading-bill-falls-short-in-senate/"
-        },
-        {
-          "source": "Senate News",
-          "title": "Democrats block bill restricting lawmakers from trading stocks",
-          "link": "https://thehill.com/homenews/senate/6120528-senate-blocks-gop-stock-bill/"
-        },
-        {
-          "source": "US Congress | The Guardian",
-          "title": "Senate blocks Republican bill restricting stock trades by US Congress members",
-          "link": "https://www.theguardian.com/us-news/2026/sep/30/us-senate-stock-trades-bill"
-        }
-      ]
-    },
-    {
-      "id": "feed-crypto-Q0ZUQyBtb3ZlcyB0byBkZWZp",
-      "sphere": "crypto",
-      "kategori": "REGLERING",
-      "rubrik": "CFTC vill definiera event-kontrakt som swappar",
-      "sammanfattning": "USA:s terminshandelskommission CFTC har skickat två förslag till Vita huset för granskning i syfte att befästa sin jurisdiktion över prediktionsmarknader. Det ena förslaget skulle definiera event-kontrakt som swappar, det andra skulle undanta kasinospel från definitionen. CFTC:s ordförande Michael Selig har argumenterat för att myndigheten har exklusiv jurisdiktion. Flera delstater har stämt prediktionsmarknadsoperatörer för illegal spelverksamhet, och CFTC har stämt delstaterna tillbaka. Federala appellationsdomstolar har gett motstridiga besked, vilket kan leda till att Högsta domstolen får avgöra frågan.",
-      "synthes": "Decrypt och CoinDesk rapporterar att förslagen skickades den 28 september och att de inte är ekonomiskt betydande, medan The Block och Cointelegraph noterar att CFTC:s ordförande agerar ensam eftersom Trump inte utsett fler kommissionärer; alla källor är ense om att förslagen syftar till att stärka CFTC:s roll.",
+      "kategori": "MARKNAD",
+      "rubrik": "Bitcoin stannar under 86 000 dollar trots svalare PCE-siffror",
+      "sammanfattning": "USA:s inflationsmått PCE steg mindre än väntat i augusti, vilket dämpade förväntningarna på en räntehöjning från Fed i oktober. Bitcoin steg kort över 85 000 dollar men föll tillbaka till omkring 84 000 dollar när de amerikanska statsobligationsräntorna låg kvar nära sina högsta nivåer sedan 2002. Enligt Decrypt visar CME:s FedWatch nu 62 procents sannolikhet för oförändrad ränta och 37 procent för en höjning med 25 punkter. Fed-vice ordförande Philip Jefferson sade att mer tid behövs innan beslut om ytterligare höjningar, och enligt CoinDesk har oddsen för en åtgärd vid mötet den 28 oktober fallit till 30 procent från 70 procent tidigare i veckan.",
+      "synthes": "Cointelegraph påpekar att metodförändringar i PCE-siffrorna gjorde den låga inflationen svårtolkad, medan Decrypt och CoinDesk betonar att uppgången inte höll eftersom obligationsräntorna inte föll.",
       "leadSource": "The Block",
-      "publishedAt": "2026-09-30T17:54:45.000Z",
+      "publishedAt": "2026-09-30T16:10:36.000Z",
       "readMinutes": 1,
       "sourceCount": 4,
       "singleSource": false,
@@ -1043,54 +106,111 @@
       "sources": [
         {
           "source": "The Block",
-          "title": "White House weighs new CFTC event contract rules in growing prediction market power struggle",
-          "link": "https://www.theblock.co/news/regulation/2026-09-30-white-house-weighs-new-cftc-event-contract-rules-in-growing-prediction-market-power-struggle-417345"
+          "title": "Bitcoin steadies as soft PCE cools October Fed rate hike bets",
+          "link": "https://www.theblock.co/news/markets/2026-09-30-bitcoin-pce-inflation-october-rate-hike-417335"
         },
         {
           "source": "Cointelegraph.com News",
-          "title": "CFTC seeks to define event contracts as swaps amid prediction market fight",
-          "link": "https://cointelegraph.com/news/cftc-seeks-to-define-event-contracts-as-swaps-amid-prediction-market-fight?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+          "title": "Bitcoin fights for local uptrend as US bond yields drop from new 24-year highs",
+          "link": "https://cointelegraph.com/markets/bitcoin-fights-local-uptrend-us-bond-yields-drop-from-new-24-year-highs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "source": "Cointelegraph.com News",
+          "title": "Bitcoin trapped below $86K as PCE changes cloud inflation reading",
+          "link": "https://cointelegraph.com/markets/bitcoin-rally-lower-us-inflation-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         },
         {
           "source": "Decrypt",
-          "title": "CFTC Sends White House New Rules to Cement Its Grip on Prediction Markets",
-          "link": "https://decrypt.co/379750/cftc-sends-white-house-new-rules-to-cement-its-grip-on-prediction-markets"
+          "title": "Bitcoin Jumps on Cool PCE Inflation Data as Bond Yields Hit 20-Year Highs",
+          "link": "https://decrypt.co/379705/bitcoin-jumps-cool-pce-inflation-data"
         },
         {
           "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-          "title": "U.S. CFTC seeks event contract definitions that may defy states' gambling claims",
-          "link": "https://www.coindesk.com/policy/2026/09/30/u-s-cftc-seeks-event-contract-definitions-that-may-defy-states-gambling-claims"
+          "title": "Live updates: Bitcoin posts tentative gains as rates drop ahead of Friday's jobs report",
+          "link": "https://www.coindesk.com/tech/2026/10/01/live-updates-bitcoin-flat-near-usd84-000-after-best-quarter-since-2024"
+        },
+        {
+          "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+          "title": "Bitcoin kicks off new quarter in the old $82,000-$85,000 price range",
+          "link": "https://www.coindesk.com/markets/2026/10/01/bitcoin-kicks-off-new-quarter-in-the-old-usd82-000-usd85-000-price-range"
         }
-      ]
+      ],
+      "image": null
     },
     {
-      "id": "feed-congress-SmFjayBTbWl0aCB0ZXN0aWZp",
+      "id": "feed-congress-RGVtb2NyYXRzIHRhcmdldCB0",
       "sphere": "congress",
-      "kategori": "JURIDIK",
-      "rubrik": "Jack Smith försvarade utredningen av Trump i senaten",
-      "sammanfattning": "USA:s förre särskilde åklagare Jack Smith försvarade på tisdagen sina två federala åtal mot president Donald Trump inför senatens justitieutskott. Republikaner anklagade honom för att ha agerat politiskt och för att ha utfärdat stämningar mot kongressledamöters telefonregister. Smith sade att stämningarna var nödvändiga för att samla bevis om Trumps försök att fördröja certifieringen av valresultatet 2020. Han sade att han skulle åtala en före detta president igen om samma fakta förelåg, oavsett partitillhörighet. Demokrater kallade utfrågningen en \"fars\".",
-      "synthes": "The Guardian rapporterar att senator Eric Schmitt anklagade Smith för mened baserat på en förväxling av basketlag, medan NPR och Congress noterar att Smith försvarade sin opartiskhet; inga källor motsäger att utfrågningen präglades av partisk polemik.",
+      "kategori": "POLITIK",
+      "rubrik": "Demokrater kräver utredning av skattefinansierade Trump-annonser",
+      "sammanfattning": "Demokraterna i kongressen reagerar på tv-annonser som finansierats med offentliga medel och som lyfter fram president Trump inför mellanårsvalet. Representanterna Jamie Raskin och George Whitesides har begärt att GAO och särskilda åklagarmyndigheten utreder annonserna, som de menar kan bryta mot flera lagar, bland annat förbudet mot propaganda i anslag och Hatch Act. Senator Patty Murray föreslår att budgetmyndigheten OMB ska få minskade anslag för överträdelser. Enligt Guardian beskriver Raskin och Whitesides annonserna som valpropaganda och hävdar att nästan alla påståenden i dem är falska. Vita huset kallar annonserna utbildande och patriotiska, och Trump har sagt att han gärna betalar tillbaka pengarna om de visar sig olagliga. Även republikaner som John Thune, Mike Rounds, John Kennedy och Thom Tillis har ifrågasatt användningen av offentliga medel.",
+      "synthes": "Guardian och Senate News beskriver en ny annons om Irankriget, medan de övriga källorna fokuserar på de tidigare annonserna och på kraven på utredning.",
       "leadSource": "Congress",
-      "publishedAt": "2026-09-29T21:18:03.000Z",
+      "publishedAt": "2026-10-01T19:41:31.000Z",
       "readMinutes": 1,
-      "sourceCount": 3,
+      "sourceCount": 4,
       "singleSource": false,
       "enriched": true,
       "sources": [
         {
           "source": "Congress",
-          "title": "Republicans wanted Jack Smith to give them a smoking gun. They got a gaffe instead.",
-          "link": "https://www.politico.com/news/2026/09/29/jack-smith-hearing-senate-judiciary-01098107"
+          "title": "Top Democratic appropriator wants White House to pay for airing 'propaganda'",
+          "link": "https://www.politico.com/live-updates/2026/10/01/congress/penalties-for-propaganda-ads-01103825"
         },
         {
-          "source": "NPR Topics: Politics",
-          "title": "Former special counsel Jack Smith defends investigation into Trump on Capitol Hill",
-          "link": "https://www.npr.org/2026/09/30/nx-s1-5984990/former-special-counsel-jack-smith-defends-investigation-into-trump-on-capitol-hill"
+          "source": "Congress",
+          "title": "Raskin leads calls for federal investigation into Trump PSA’s",
+          "link": "https://www.politico.com/live-updates/2026/10/01/congress/raskin-wants-answers-01102271"
+        },
+        {
+          "source": "Senate News",
+          "title": "Latest taxpayer-funded ad promotes Trump war with Iran",
+          "link": "https://thehill.com/homenews/administration/6122506-trump-airing-taxpayer-funded-ads/"
+        },
+        {
+          "source": "House News",
+          "title": "House Democrats call for GAO to investigate government-funded Trump ads",
+          "link": "https://thehill.com/homenews/house/6123030-house-democrats-gao-trump-ads/"
         },
         {
           "source": "US Congress | The Guardian",
-          "title": "‘You make me want to throw up’: Republicans attack ex-special counsel Jack Smith at Senate hearing",
-          "link": "https://www.theguardian.com/us-news/2026/sep/29/jack-smith-senate-hearing"
+          "title": "Lawmakers call for action on ‘plainly illegal’ taxpayer-funded ads to promote Trump",
+          "link": "https://www.theguardian.com/us-news/2026/oct/01/house-democrats-letter-trump-ads"
+        }
+      ]
+    },
+    {
+      "id": "feed-crypto-U0VDIHByb3Bvc2VzIGNyeXB0",
+      "sphere": "crypto",
+      "kategori": "REGLERING",
+      "rubrik": "SEC föreslår nya regler för kryptoförvaring hos rådgivare och fonder",
+      "sammanfattning": "USA:s finansinspektion SEC har lagt ett förslag om hur registrerade investeringsrådgivare och reglerade fonder får förvara kryptoåtkomst. Förslaget tillåter förvaring i egen regi under vissa villkor, öppnar för delstatscharterade trustbolag som förvaringsinstitut och uppdaterar regler för revision och förvarings­tjänster. Enligt CoinDesk är förslaget 760 sidor och öppnar för en 60 dagars remissperiod. SEC-ordföranden Paul Atkins säger att de gamla förvaringsreglerna var utformade för en annan tid och inte hållit jämna steg med marknaden. Förslaget kommer dagen innan kommissionär Hester Peirce lämnar sin post, och myndigheten har nyligen sänkt kravet på antal kommissionärer för beslutsförhet från tre till två.",
+      "synthes": "Källorna är eniga om innehållet; CoinDesk tillför detaljer om förslagets omfattning och om Peirces avgång, medan Decrypt sätter förslaget i en bredare serie av SEC-åtgärder efter att Clarity Act fastnat i senaten.",
+      "leadSource": "The Block",
+      "publishedAt": "2026-10-01T21:00:53.000Z",
+      "readMinutes": 1,
+      "sourceCount": 4,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "The Block",
+          "title": "SEC proposes framework allowing investment advisers, funds to self-custody crypto",
+          "link": "https://www.theblock.co/news/regulation/2026-10-01-sec-proposes-crypto-custody-rule-investment-advisers-funds-417498"
+        },
+        {
+          "source": "Cointelegraph.com News",
+          "title": "SEC moves to clear custody hurdle for advisers offering crypto",
+          "link": "https://cointelegraph.com/news/sec-moves-to-clear-custody-hurdle-for-advisers-offering-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "source": "Decrypt",
+          "title": "SEC Proposes Rules to Clear Up How Advisers and Funds Can Hold Crypto",
+          "link": "https://decrypt.co/379899/sec-proposes-rules-advisers-funds-hold-crypto"
+        },
+        {
+          "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+          "title": "SEC proposes new crypto custody rules for investment advisers and funds",
+          "link": "https://www.coindesk.com/policy/2026/10/01/u-s-sec-maps-out-crypto-custody-in-new-proposal-that-furthers-its-digital-assets-agenda"
         }
       ]
     },
@@ -1098,9 +218,9 @@
       "id": "feed-congress-Q29ybmVsbCByYXBlIGNhc2Ug",
       "sphere": "congress",
       "kategori": "JURIDIK",
-      "rubrik": "Åklagare återupptar utredning om våldtäkt vid Cornell",
-      "sammanfattning": "Åklagare i Tompkins County, New York, har återupptagit utredningen av en påstådd våldtäkt vid Cornell University 2024. En kvinnlig före detta student, kallad Jane Doe, har stämt universitetet och sju medlemmar av Chi Phi-fraterniteten och hävdar att hon drogs och våldtogs. Cornell säger att man utrett och bestraffat de inblandade, bland annat med avstängningar och utvisningar. Flera senatorer, däribland Chuck Schumer och Kirsten Gillibrand, har krävt en grundlig utredning. Fallet har belyst svårigheterna med att navigera mellan universitetens och rättsväsendets processer.",
-      "synthes": "BBC och NPR rapporterar att åklagaren Matthew Van Houten sagt att Jane Does ursprungliga vittnesmål inte innehöll anklagelser om droganvändning eller gruppvåldtäkt, medan Senate News citerar Schumer och Slotkin som kräver utredning; The Hindu och SCMP bidrar inte med ytterligare detaljer.",
+      "rubrik": "Cornell-anmälan om våldtäkt väcker politiska reaktioner",
+      "sammanfattning": "En kvinna som i en stämningsansökan kallar sig Jane Doe anklagar sju män för att ha drogat och våldtagit henne på ett studentföreningshus vid Cornell University 2024. Hon hävdar också att universitetet inte skyddade henne eller straffade de inblandade. Åklagaren i Tompkins County lade ned fallet 2024 men har återupptagit utredningen mindre än två veckor efter att civilstämningen lämnades in. Enligt BBC uppger hennes advokat att hon missades av universitetets vård: hon sökte läkare två dagar efter händelsen men fick ingen uppföljning, och först tre veckor senare togs ett så kallat rape kit utan att DNA säkrades. Senatorerna Chuck Schumer och Elissa Slotkin samt Nancy Pelosi har reagerat, och Demokraternas kvinnogrupp kritiserar administrationens nedskärningar av Title IX.",
+      "synthes": "BBC bidrar med detaljer från universitetets Title IX-utredning och turerna kring åklagaren, medan kongresskällorna enbart rapporterar om politikernas reaktioner.",
       "leadSource": "Senate News",
       "publishedAt": "2026-10-01T01:58:32.000Z",
       "readMinutes": 1,
@@ -1119,31 +239,36 @@
           "link": "https://thehill.com/homenews/senate/6121358-schumer-calls-cornell-assault-review/"
         },
         {
-          "source": "NPR Topics: Politics",
-          "title": "N.Y. Sen. Gillibrand says new allegations in Cornell case are 'serious and horrific'",
-          "link": "https://www.npr.org/2026/09/29/nx-s1-5984611/n-y-sen-gillibrand-says-new-allegations-in-cornell-case-are-serious-and-horrific"
+          "source": "House News",
+          "title": "Pelosi cancels Cornell University event amid frat house rape investigation",
+          "link": "https://thehill.com/homenews/house/6124898-pelosi-cancels-cornell-event/"
+        },
+        {
+          "source": "House News",
+          "title": "Democratic Women’s Caucus blasts Trump over Title IX rollback after Cornell rape allegations",
+          "link": "https://thehill.com/homenews/house/6121915-dwc-criticizes-trump-titleix/"
         },
         {
           "source": "BBC News",
-          "title": "Cornell case spotlights 'confusing' web of systems for reporting campus assaults",
+          "title": "Cornell accuser was 'failed' by university healthcare system, lawyer says",
+          "link": "https://www.bbc.co.uk/news/articles/c699d93j22r5o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source": "BBC News",
+          "title": "Cornell case highlights 'draining' maze for victims to report campus sex assaults",
           "link": "https://www.bbc.co.uk/news/articles/crpd0wdnlgxno?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "BBC News",
-          "title": "What we know about Cornell University frat house rape investigation",
-          "link": "https://www.bbc.co.uk/news/articles/cmpq0r1ljpqwo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
-      "id": "feed-crypto-Um9iaW5ob29kIGxhdW5jaGVz",
+      "id": "feed-crypto-TkVBUiBJbnRlbnRzIGhpdCBi",
       "sphere": "crypto",
-      "kategori": "MARKNAD",
-      "rubrik": "Robinhood lanserar AI-agenter, perpetuals och helghandel",
-      "sammanfattning": "Robinhood meddelade på sin HOOD Summit i Houston att man lanserar AI-agenter som kan handla åt användare, krypto-perpetual futures med upp till tio gångers hävstång och helghandel med utvalda aktier och ETF:er. AI-verktyget Robinhood Agents kan analysera marknader och utföra affärer, och en funktion kallad Loops ska kunna köra strategier automatiskt. Robinhood varnar för att användare bär all risk och att företaget inte övervakar agenterna. Bank of England och forskare har varnat för att autonoma AI-agenter kan förstärka volatilitet.",
-      "synthes": "CoinDesk och Decrypt rapporterar att mer än 150 000 agentiska konton skapats sedan maj, medan The Block noterar att Robinhood även lanserar earnings-kontrakt; alla källor är ense om att produkterna riktar sig till aktiva handlare.",
+      "kategori": "TEKNIK",
+      "rubrik": "NEAR Intents utsatt för exploit på 3,8 miljoner dollar",
+      "sammanfattning": "NEAR Intents stoppade sina tjänster efter att en angripare tömt omkring 3,8 miljoner dollar via en bugg i samspelet mellan insättnings- och uttagsinfrastrukturen och protokollets smarta kontrakt. Teamet säger att kontraktshålet är lappat och att förlorade medel ska kompenseras fullt ut, medan insättningar och uttag på elva nätverk ligger nere. Enligt Cointelegraph uppger NEAR Intents att man identifierat angriparen och ställt ett ultimatum på 48 timmar. Händelsen kommer dagar efter att tjänsten blockerat ett försök till swap på 50 miljoner dollar kopplat till Bitget-hackaren, som enligt Bitgets vd och analysföretaget Elliptic misstänks ha nordkoreansk koppling. Decrypt noterar att NEAR:s token föll 8,93 procent och att Bitwise NEAR-ETF:en lanserats bara två dagar tidigare.",
+      "synthes": "Decrypt kopplar samman exploiten med Bitget-hackarens tidigare blockerade swappar och påpekar att sambandet är oklart, vilket de andra källorna inte tar upp.",
       "leadSource": "The Block",
-      "publishedAt": "2026-09-30T02:58:24.000Z",
+      "publishedAt": "2026-10-01T14:18:12.000Z",
       "readMinutes": 1,
       "sourceCount": 3,
       "singleSource": false,
@@ -1151,85 +276,379 @@
       "sources": [
         {
           "source": "The Block",
-          "title": "Robinhood to launch perps, weekend stock trading for US users",
-          "link": "https://www.theblock.co/news/business/2026-09-29-robinhood-perps-trading-417242"
+          "title": "NEAR Intents halts services after $3.8 million exploit, promises full compensation",
+          "link": "https://www.theblock.co/news/ecosystems/2026-10-01-near-intents-halts-services-after-3-8-million-exploit-promises-full-compensation-417404"
+        },
+        {
+          "source": "Cointelegraph.com News",
+          "title": "NEAR Intents says its identified the hacker, gives 48-hour ultimatum",
+          "link": "https://cointelegraph.com/news/near-intents-says-its-identified-the-hacker-gives-48-hour-ultimatum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "source": "Cointelegraph.com News",
+          "title": "NEAR Intents suffers $3.8M exploit after assistance with Bitget breach",
+          "link": "https://cointelegraph.com/news/near-intents-exploit-assistance-bitget-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         },
         {
           "source": "Decrypt",
-          "title": "Morning Minute: Robinhood Adds Perps, Weekend Stocks, and AI Traders",
-          "link": "https://decrypt.co/379645/morning-minute-robinhood-adds-perps-weekend-stocks-and-ai-traders"
+          "title": "Near Intents Hacked for $3.8M Days After Denying North Korea-Linked Bitget Hacker",
+          "link": "https://decrypt.co/379822/near-intents-hacked-days-after-denying-bitget-hacker"
         },
         {
-          "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-          "title": "Robinhood unveils an AI that trades your money 24/7, and you carry all the risk",
-          "link": "https://www.coindesk.com/markets/2026/09/30/robinhood-is-giving-customers-an-ai-agent-that-trades-for-them-plus-10x-crypto-bets"
-        },
-        {
-          "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-          "title": "Robinhood adds AI agents, perps and weekend trading in push to win active traders",
-          "link": "https://www.coindesk.com/markets/2026/09/29/robinhood-adds-ai-agents-perps-and-weekend-trading-in-push-to-win-active-traders"
+          "source": "Decrypt",
+          "title": "Bitget Hacker Turns to Zcash Privacy Pool After Near Rejects $50M in Swaps",
+          "link": "https://decrypt.co/379759/bitget-hacker-zcash-private-pool-near-thorchain"
         }
       ]
     },
     {
-      "id": "feed-world-RXRoaW9waWEgZmlnaHRpbmcg",
-      "sphere": "world",
-      "kategori": "KONFLIKT",
-      "rubrik": "Strider i Tigray – minst 52 civila döda",
-      "sammanfattning": "Minst 52 civila har dödats under tre dagars strider runt Alamata i Etiopiens norra Tigray-region, enligt sjukhuskällor till BBC. Regeringsstyrkor uppges ha tagit kontroll över staden och rör sig norrut mot Mekelle. Striderna bröt ut efter månader av spänningar mellan regeringen och TPLF, som anklagar varandra för att ha brutit mot fredsavtalet från 2022. Fighting har också spridit sig till grannregionerna, och 33 turister har varit strandsatta i Lalibela. Kommunikationer till Tigray är avskurna och banktjänster har suspenderats.",
-      "synthes": "BBC rapporterar att 14 israeliska turister evakuerats med militärhelikopter, medan AllAfrica och France 24 noterar att en ny allians av sju väpnade grupper bildats med mål att störta regeringen; inga källor motsäger att striderna intensifierats.",
-      "leadSource": "BBC News",
-      "publishedAt": "2026-09-30T15:04:32.000Z",
+      "id": "feed-congress-R09QIHdvcnJpZXMgYWJvdXQg",
+      "sphere": "congress",
+      "kategori": "POLITIK",
+      "rubrik": "Republikaner oroas av datacenterfrågan inför valet",
+      "sammanfattning": "Republikanska senatorer och representanter ser datacenter och stigande elräkningar som en politisk belastning inför mellanårsvalet. Senaten blockerade den republikanskt sponsrade Ratepayer Protection Act, som skulle få delstatliga energibolag att överväga att låta stora elkunder bära sina egna kostnader. Enligt NPR är det svårt att fastställa hur mycket av kostnaderna som vältras över på hushållen; PJM:s marknadsmonitor uppskattar att datacenter kostat regionens 67 miljoner elkunder omkring 29 miljarder dollar under ungefär två år. En uppskattning för Maryland pekar på 168–216 dollar mer per år i elräkning för hushållen. Sekretessavtal mellan energibolag och datacenter försvårar insynen, enligt en studie som nämns av NPR.",
+      "synthes": "NPR förklarar kostnadsbilden och osäkerheten i siffrorna, medan kongresskällorna beskriver den politiska striden och de motstridiga budskapen om vem som bär kostnaderna.",
+      "leadSource": "Senate News",
+      "publishedAt": "2026-10-01T10:00:00.000Z",
       "readMinutes": 1,
       "sourceCount": 3,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "Senate News",
+          "title": "GOP wrestles with rising data center backlash weeks before midterms",
+          "link": "https://thehill.com/homenews/senate/6121776-gop-worried-data-center-midterms/"
+        },
+        {
+          "source": "House News",
+          "title": "GOP wrestles with rising data center backlash weeks before midterms",
+          "link": "https://thehill.com/homenews/senate/6121776-gop-worried-data-center-midterms/"
+        },
+        {
+          "source": "NPR Topics: Politics",
+          "title": "AI data centers: How much are ratepayers on the hook for?",
+          "link": "https://www.npr.org/2026/10/01/nx-s1-5984949/data-centers-ai-ratepayers-congress"
+        }
+      ]
+    },
+    {
+      "id": "feed-crypto-RXZlcm5vcnRoIFhSUCB0cmVh",
+      "sphere": "crypto",
+      "kategori": "MARKNAD",
+      "rubrik": "Evernorth godkänns av aktieägarna och tar XRP-treasury till Nasdaq",
+      "sammanfattning": "Aktieägarna i Armada Acquisition Corp. II har godkänt samgåendet med Evernorth, ett företag byggt kring en XRP-treasury. Affären väntas slutföras den 7 oktober och aktien börja handlas på Nasdaq under tickern XRPN den 8 oktober. Enligt Decrypt har samgåendet och relaterad kapitalanskaffning dragit in över 1 miljard dollar, varav cirka 300 miljoner i bruttokontanta intäkter, och bolaget räknar med att hålla omkring 473 miljoner XRP vid stängning. Evernorth backas av bland andra Ripple, Pantera Capital, Kraken, SBI Group, GSR och Arrington Capital. Cointelegraph uppger att XRP-treasuryn är värd omkring 710 miljoner dollar vid nuvarande priser.",
+      "synthes": "Källorna är eniga om villkoren; Decrypt tillför flest detaljer om finansieringen och om risken att aktiekursen följer XRP:s pris.",
+      "leadSource": "The Block",
+      "publishedAt": "2026-10-01T15:17:11.000Z",
+      "readMinutes": 1,
+      "sourceCount": 3,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "The Block",
+          "title": "Evernorth shareholders approve $1 billion XRP treasury deal, clearing path to Nasdaq debut",
+          "link": "https://www.theblock.co/news/deals/2026-10-01-evernorth-xrpn-nasdaq-armada-shareholders-approve-417413"
+        },
+        {
+          "source": "Cointelegraph.com News",
+          "title": "Evernorth clears shareholder vote ahead of Nasdaq debut with 473M XRP treasury",
+          "link": "https://cointelegraph.com/news/evernorth-clears-shareholder-vote-ahead-nasdaq-debut-473m-xrp-treasury?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "source": "Decrypt",
+          "title": "The 'Largest Pure-Play' XRP Treasury Is About to Go Public",
+          "link": "https://decrypt.co/379856/the-largest-pure-play-xrp-treasury-is-about-to-go-public"
+        }
+      ]
+    },
+    {
+      "id": "feed-crypto-Q0ZUQyBtb3ZlcyB0byBkZWZp",
+      "sphere": "crypto",
+      "kategori": "REGLERING",
+      "rubrik": "CFTC vill definiera event-kontrakt som swappar",
+      "sammanfattning": "CFTC har skickat två regelutkast till Vita husets granskningskontor OIRA i syfte att befästa sin jurisdiktion över prediktionsmarknader. Det ena förslaget skulle definiera termen swap så att den uttryckligen omfattar event-kontrakt, det andra är en interimistisk slutregel som undantar kasinoliknande spelprodukter från samma definition. Enligt Decrypt är swappklassificeringen kärnan i en tvist där flera delstater stämt prediktionsplattformar för olagligt spelande och CFTC svarat med egna stämningar. Ordföranden Michael Selig hävdar att myndighetens befogenhet är exklusiv. Regelutkasten kommer efter motstridiga domar i appellationsdomstolar, en fråga som nu uppmärksammas av Högsta domstolen.",
+      "synthes": "Decrypt ger mest kontext om rättstvisterna och om CFTC:s parallella regelarbete, medan de andra källorna sammanfattar förslagens innehåll.",
+      "leadSource": "The Block",
+      "publishedAt": "2026-09-30T17:54:45.000Z",
+      "readMinutes": 1,
+      "sourceCount": 3,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "The Block",
+          "title": "White House weighs new CFTC event contract rules in growing prediction market power struggle",
+          "link": "https://www.theblock.co/news/regulation/2026-09-30-white-house-weighs-new-cftc-event-contract-rules-in-growing-prediction-market-power-struggle-417345"
+        },
+        {
+          "source": "Cointelegraph.com News",
+          "title": "CFTC seeks to define event contracts as swaps amid prediction market fight",
+          "link": "https://cointelegraph.com/news/cftc-seeks-to-define-event-contracts-as-swaps-amid-prediction-market-fight?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "source": "Decrypt",
+          "title": "CFTC Sends White House New Rules to Cement Its Grip on Prediction Markets",
+          "link": "https://decrypt.co/379750/cftc-sends-white-house-new-rules-to-cement-its-grip-on-prediction-markets"
+        }
+      ]
+    },
+    {
+      "id": "feed-crypto-TWV0YU1hc2sgZXhpdHMgRXRo",
+      "sphere": "crypto",
+      "kategori": "TEKNIK",
+      "rubrik": "MetaMask lämnar Lido-validators efter säkerhetsincident",
+      "sammanfattning": "MetaMask vidtar åtgärder efter en säkerhetsincident i en del av sin infrastruktur och har som försiktighetsåtgärd börjat avveckla sina Ethereum-validators hos stakingprotokollet Lido. Företaget uppger att man inte funnit något omedelbart hot mot användarnas plånböcker. Enligt Lido kan de berörda validators gå miste om belöningar och drabbas av straffavgifter om de tas offline, och det kan ta upp till 45 dagar innan ETH:n är tillbaka i staking på grund av Ethereums kö. Enligt CoinDesk uppskattar en oberoende forskare att 18 av 19 validators som tjänat blockbelöningar skickat betalningarna till en oväntad adress, motsvarande cirka 0,36 ETH, och att omkring 17 000 validators med ungefär 523 000 ETH avvecklas i förebyggande syfte. Varken MetaMask eller Lido har bekräftat siffrorna eller förklarat hur systemen komprometterades.",
+      "synthes": "CoinDesk och Decrypt återger samma forskningssiffror men betonar att de är obekräftade; Decrypt tillför att Ethena tillfälligt drog tillbaka medel från Morpho och att Aave följer situationen.",
+      "leadSource": "Cointelegraph.com News",
+      "publishedAt": "2026-10-01T00:15:55.000Z",
+      "readMinutes": 1,
+      "sourceCount": 3,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "Cointelegraph.com News",
+          "title": "MetaMask exits Ethereum validators amid undisclosed security incident",
+          "link": "https://cointelegraph.com/news/metamask-exits-lido-validators-as-it-investigates-security-incident?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "source": "Decrypt",
+          "title": "MetaMask Exits Lido Validators Amid Infrastructure ‘Security Incident’",
+          "link": "https://decrypt.co/379800/metamask-exits-lido-validators-amid-infrastructure-security-incident"
+        },
+        {
+          "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+          "title": "MetaMask security incident forces Ethereum staking exits, no funds at risk",
+          "link": "https://www.coindesk.com/tech/2026/10/01/metamask-security-incident-forces-ethereum-staking-exits-with-lido-warning-of-lost-rewards"
+        }
+      ]
+    },
+    {
+      "id": "feed-crypto-RG9nZU9TIGxhdW5jaGVzIHRl",
+      "sphere": "crypto",
+      "kategori": "TEKNIK",
+      "rubrik": "DogeOS öppnar testnät för appar på Dogecoin",
+      "sammanfattning": "DogeOS har öppnat ett publikt testnät för sitt applikationslager på Dogecoin, vilket gör det möjligt för utvecklare att bygga Ethereum-kompatibla appar med test-DOGE som avgiftsvaluta. Projektet drivs av teamet bakom plånboken MyDoge och körs som ett separat lager ovanpå Dogecoin snarare än genom att ändra själva myntet. Enligt CoinDesk använder den första versionen en tillståndsstyrd sekvenserare, betrodd hårdvara och ett säkerhetsråd, medan Dogecoins egna miners ännu inte verifierar applikationernas bevis. En föreslagen uppgradering av Dogecoin Core, OP_CHECKZKP, skulle ge miners den rollen, men förslaget från juli 2025 är fortfarande ett utkast utan aktiveringsdatum. Decrypt nämner byggprojekt som Superposition Finance, Derps, USDoge, Snag och PlaysOut. CoinDesk noterar att de tre amerikanska dogecoin-ETF:erna samlat omkring 12 miljoner dollar i nettoinflöden under nästan tio månader och att Bitwise sagt att man stänger sin fond.",
+      "synthes": "Decrypt beskriver projektet och dess deltagare, medan CoinDesk ifrågasätter efterfrågan och jämför med tidigare memecoin-nätverk som Dogechain och Shibarium.",
+      "leadSource": "The Block",
+      "publishedAt": "2026-09-30T18:23:57.000Z",
+      "readMinutes": 1,
+      "sourceCount": 3,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "The Block",
+          "title": "DogeOS launches testnet to bring EVM smart contracts to Dogecoin",
+          "link": "https://www.theblock.co/news/ecosystems/2026-09-30-dogeos-launches-public-testnet-dogecoin-zk-rollup-evm-417307"
+        },
+        {
+          "source": "Decrypt",
+          "title": "Dogecoin Is Getting Apps as DogeOS Opens Its Public Testnet",
+          "link": "https://decrypt.co/379772/dogecoin-getting-apps-dogeos-public-testnet"
+        },
+        {
+          "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+          "title": "Dogecoin gets DeFi testnet as DogeOS bets miners will eventually secure its apps",
+          "link": "https://www.coindesk.com/tech/2026/10/01/dogecoin-gets-defi-testnet-as-dogeos-bets-miners-will-eventually-secure-its-apps"
+        }
+      ]
+    },
+    {
+      "id": "feed-crypto-SWxsaW5vaXMgZGVsYXlzIGNy",
+      "sphere": "crypto",
+      "kategori": "REGLERING",
+      "rubrik": "Illinois skjuter upp omstridd kryptoskatt i sex månader",
+      "sammanfattning": "Illinois myndigheter och kryptobranschens organisationer har i en gemensam framställning bett domstol i Sangamon County att skjuta upp den så kallade Digital Asset Tax från den 1 januari till den 1 juli 2027. Skatten på 0,2 procent på kryptoaktivitet infördes i delstatens budget för 2027 och ska tas ut av kryptomäklare som större börser. Enligt Decrypt stämmer The Digital Chamber och Illinois Blockchain Association delstatens skattedirektör och justitieminister och hävdar att skatten är grundlagsstridig och att den slår mot användare även utan vinst. CoinDesk uppger att skatten gäller företag med intäkter över 100 000 dollar och att branschen också argumenterar att den strider mot den federala Internet Tax Freedom Act. Framställningen måste godkännas av domstolen och avgör inte målet.",
+      "synthes": "Källorna är eniga om uppskovet; Decrypt tillför beloppsuppskattningen på upp till 60 miljoner dollar och jämförelsen med andra rättsliga utmaningar, medan CoinDesk beskriver tröskelvärdet för skatten.",
+      "leadSource": "Cointelegraph.com News",
+      "publishedAt": "2026-10-01T18:01:49.000Z",
+      "readMinutes": 1,
+      "sourceCount": 3,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "Cointelegraph.com News",
+          "title": "Illinois will postpone implementation of crypto tax following lawsuit",
+          "link": "https://cointelegraph.com/news/illinois-postpones-crypto-tax-industry-lawsuit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "source": "Decrypt",
+          "title": "Illinois Delays Controversial Crypto Tax Amid Industry Lawsuit",
+          "link": "https://decrypt.co/379830/illinois-delays-controversial-crypto-tax"
+        },
+        {
+          "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+          "title": "Illinois agrees to six-month delay of crypto tax as industry continues court battle",
+          "link": "https://www.coindesk.com/policy/2026/09/30/illinois-agrees-to-six-month-delay-of-crypto-tax-as-industry-continues-court-battle"
+        }
+      ]
+    },
+    {
+      "id": "feed-congress-Q2hyaXN0YSBQaWtlIHN1cnZp",
+      "sphere": "congress",
+      "kategori": "JURIDIK",
+      "rubrik": "Avrättningen av Christa Pike misslyckades – utredning inledd",
+      "sammanfattning": "Christa Pike, dömd till döden i Tennessee 1996 för mordet på 19-åriga Colleen Slemmer, överlevde två injektioner av pentobarbital vid sin avrättning och fördes till sjukhus. Hennes advokater uppger att hon förlorade medvetandet men fortfarande hade hjärtslag och hördes snarka, och enligt en av advokaterna får hon livräddande vård. Guvernör Bill Lee har beordrat en oberoende utredning och stoppat avrättningar i delstaten för resten av året. Tennessees kriminalvårdsmyndighet försvarar sitt agerande och säger att protokollet följdes och inte tillåter ytterligare åtgärder. Enligt BBC är det oklart om delstaten kommer att försöka avrätta Pike igen, och en expert bedömer att hon kan ha fått en hjärnskada till följd av fördröjningen av återupplivningen.",
+      "synthes": "BBC och SVT beskriver samma händelseförlopp; BBC tillför detaljer om rättsprocessen och tidigare fall, medan SVT fokuserar på reaktionerna efter den misslyckade avrättningen.",
+      "leadSource": "BBC News",
+      "publishedAt": "2026-10-01T09:59:59.000Z",
+      "readMinutes": 1,
+      "sourceCount": 2,
       "singleSource": false,
       "enriched": true,
       "sources": [
         {
           "source": "BBC News",
-          "title": "Ethiopia fighting escalates in Tigray killing 52 civilians, medic tells the BBC",
-          "link": "https://www.bbc.co.uk/news/articles/c6grveejg1e2o?at_medium=RSS&at_campaign=rss"
+          "title": "US death row inmate survives execution attempt after two lethal injections",
+          "link": "https://www.bbc.co.uk/news/articles/cq8r6rjdvlx6o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "source": "France 24 - International breaking news, top stories and headlines",
-          "title": "Ethiopia back to civil war? Horn of Africa fears spillover effect of renewed fighting",
-          "link": "https://www.france24.com/en/tv-shows/the-debate/20260930-ethiopia-back-to-civil-war-horn-of-africa-fears-spillover-effect-of-renewed-fighting"
+          "source": "BBC News",
+          "title": "What we know about Christa Pike’s condition after failed execution",
+          "link": "https://www.bbc.co.uk/news/videos/cwe8e82jgm8po?at_medium=RSS&at_campaign=rss"
         },
         {
-          "source": "AllAfrica News: Latest",
-          "title": "Ethiopia: Tensions Return to Tigray - Fears of a New Civil War",
-          "link": "https://allafrica.com/stories/202609300551.html"
+          "source": "BBC News",
+          "title": "What happened in the failed execution of Christa Pike - and what next?",
+          "link": "https://www.bbc.co.uk/news/articles/ckge4eql4q7eo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "source": "AllAfrica News: Latest",
-          "title": "Ethiopia: Ethiopian Federal Forces Reportedly Advance Deep Into Tigray Toward Mekelle",
-          "link": "https://allafrica.com/stories/202609300324.html"
+          "source": "BBC News",
+          "title": "Witnesses recount Christa Pike's failed execution",
+          "link": "https://www.bbc.co.uk/news/videos/ckly5y1jzm2zo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source": "BBC News",
+          "title": "Watch: The many questions raised by the failed execution of Christa Pike",
+          "link": "https://www.bbc.co.uk/news/videos/cq5ymyl1y29ko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source": "BBC News",
+          "title": "Watch: Why was the US execution of Christa Pike halted?",
+          "link": "https://www.bbc.co.uk/news/videos/cm3v4vkdl017o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
-      "id": "feed-congress-U2VuYXRlIGJsb2NrcyBkYXRh",
+      "id": "feed-congress-U2NodW1lciBjb25maWRlbnQg",
       "sphere": "congress",
       "kategori": "POLITIK",
-      "rubrik": "Senaten stoppar datacenter- och aktiehandelsförslag",
-      "sammanfattning": "Senaten blockerade på onsdagen två republikanska förslag: Ratepayer Protection Act, som skulle adressera datacenters el-kostnader, och Stop Insider Trading Act, som skulle begränsa kongressledamöters aktiehandel. Demokraterna kallade båda för \"tandlösa\" och menade att de var valkampanjsretorik. Ratepayer Protection Act fick 57-43, fyra demokrater röstade ja, medan aktiehandelsförslaget föll med 53-47. Förslagen hade passerat representanthuset med bred marginal. Republikanerna anklagade demokraterna för att spela politik.",
-      "synthes": "Roll Call och The Guardian rapporterar att fyra demokrater stödde datacenter-förslaget, medan Senate News och Congress noterar att demokraterna kallade båda förslagen \"toothless\"; The Guardian påpekar att Husted ligger efter Brown i opinionsmätningar, vilket inte nämns av alla källor.",
-      "leadSource": "Roll Call",
-      "publishedAt": "2026-09-30T18:26:59.000Z",
+      "rubrik": "Schumer ser medvind inför valet – senaten ajournerar",
+      "sammanfattning": "Senatens demokratiska ledare Chuck Schumer säger att partiet har medvind inför mellanårsvalet och att man är nära att ta tillbaka senaten. Senaten ajournerade i onsdags för valkampanjen trots en stor mängd oavslutade ärenden, sedan republikaner i utsatta lägen velat åka hem och kampanja. Enligt Senate News finns oro bland republikaner för att förlora majoriteten i kammaren. Schumer lovar inte seger men säger att partiet går in i oktober och slutspurten med vind i seglen.",
+      "synthes": "Källorna är eniga om Schumers budskap; Senate News tillför att senaten ajournerat och att republikaner fruktar att förlora majoriteten.",
+      "leadSource": "Congress",
+      "publishedAt": "2026-10-01T08:45:00.000Z",
       "readMinutes": 1,
-      "sourceCount": 3,
+      "sourceCount": 2,
+      "singleSource": false,
+      "enriched": false,
+      "sources": [
+        {
+          "source": "Congress",
+          "title": "Capitol agenda: Dems skip DC with wind in their sails",
+          "link": "https://www.politico.com/live-updates/2026/10/01/congress/dems-skip-dc-wind-in-sails-01102940"
+        },
+        {
+          "source": "Congress",
+          "title": "Chuck Schumer projects confidence as GOP money washes over Senate Democrats",
+          "link": "https://www.politico.com/news/2026/09/30/chuck-schumer-senate-democrats-midterms-interview-01102265"
+        },
+        {
+          "source": "Senate News",
+          "title": "Schumer: ‘We’re on the edge of taking back the Senate’",
+          "link": "https://thehill.com/homenews/senate/6122591-schumer-democrats-senate-majority/"
+        },
+        {
+          "source": "Senate News",
+          "title": "Senate adjourns until November with Republicans fearful of losing majority",
+          "link": "https://thehill.com/homenews/senate/6121941-senate-adjourns-midterm-campaigns/"
+        }
+      ]
+    },
+    {
+      "id": "feed-congress-RmFtaWx5IG9mIFJlbmVlIEdv",
+      "sphere": "congress",
+      "kategori": "JURIDIK",
+      "rubrik": "Renee Goods familj stämmer USA efter dödlig ICE-skjutning",
+      "sammanfattning": "Familjen till Renee Good, en 37-årig trebarnsmamma som sköts ihjäl av en ICE-agent i Minneapolis den 7 januari, har lämnat in två civilrättsliga stämningar mot USA:s regering och medlemmar av Trump-administrationen. En stämning anklagar staten för misshandel, olaga frihetsberövande, avsiktligt vållande av psykiskt lidande och vårdslöshet som ledde till hennes död. Den andra riktar sig mot ICE-agenten Jonathan Ross samt Stephen Miller, Kristi Noem, Tom Homan och andra, och hävdar sammansvärjning för att kränka medborgerliga rättigheter. En talesperson för Vita huset kallar stämningarna grundlösa. Enligt BBC har minst tio personer dödats i möten med migrationspoliser under Trumps andra mandatperiod, och Goods mamma vittnade nyligen vid en kongressutfrågning.",
+      "synthes": "BBC och SVT beskriver samma stämningar; BBC tillför bakgrund om händelsen och om Trumps skiftande uttalanden, medan SVT kortfattat återger anklagelserna.",
+      "leadSource": "BBC News",
+      "publishedAt": "2026-10-01T20:30:47.000Z",
+      "readMinutes": 1,
+      "sourceCount": 2,
       "singleSource": false,
       "enriched": true,
       "sources": [
         {
-          "source": "Roll Call",
-          "title": "‘Toothless messaging’? Senate agenda caught up in midterm branding",
-          "link": "https://rollcall.com/2026/09/30/senate-agenda-midterm-branding/"
+          "source": "BBC News",
+          "title": "Renee Good: Family of US woman killed by ICE agent sues Trump officials",
+          "link": "https://www.bbc.co.uk/news/articles/cwly7y5gvxlmo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "source": "Senate News",
-          "title": "Democrats block data center electricity bill, calling it &#039;toothless&#039;",
-          "link": "https://thehill.com/policy/energy-environment/6119834-senate-data-center-bill-ratepayer-protection-act/"
+          "source": "BBC News",
+          "title": "Renee Good's partner speaks publicly for first time since her death",
+          "link": "https://www.bbc.co.uk/news/videos/cmd686wyp0pgo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source": "Utrikes | SVT Nyheter",
+          "title": "Mamman sköts ihjäl av ICE – familjen stämmer",
+          "link": "https://www.svt.se/nyheter/utrikes/mamman-skots-ihjal-av-ice-familjen-stammer"
+        }
+      ]
+    },
+    {
+      "id": "feed-crypto-Q3J5cHRvIGhhY2tzIHRvcCAk",
+      "sphere": "crypto",
+      "kategori": "MARKNAD",
+      "rubrik": "Kryptoförluster i hack passerade en miljard dollar under tredje kvartalet",
+      "sammanfattning": "Under tredje kvartalet inträffade 247 säkerhetsincidenter inom krypto med sammanlagda förluster på 1,26 miljarder dollar, enligt säkerhetsföretaget CertiK. September var den värsta månaden hittills i år med 99 incidenter och 768,5 miljoner dollar stulna. Bitget-intrånget på 388 miljoner dollar och en exploit mot Liquid Network på 320 miljoner dollar svarade för merparten, även om över 270 miljoner dollar från det senare senare återlämnades. Enligt CoinDesk uppgår förlusterna hittills i år till 2,68 miljarder dollar, samtidigt som bitcoin stängde kvartalet upp 40 procent. CoinGecko har uppskattat kapaciteten i kryptorelaterad försäkring till 130,2 miljoner dollar, en nedgång med 20,2 procent från året innan.",
+      "synthes": "CoinDesk tillför försäkringssiffror och varningar om AI-relaterade angrepp, medan Cointelegraph fokuserar på kvartals- och månadssiffrorna.",
+      "leadSource": "Cointelegraph.com News",
+      "publishedAt": "2026-10-01T13:35:47.000Z",
+      "readMinutes": 1,
+      "sourceCount": 2,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "Cointelegraph.com News",
+          "title": "Bitget’s $388M hack pushes Q3 crypto security losses past $1B",
+          "link": "https://cointelegraph.com/news/bitget-hack-q3-industry-losses-1-26-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "source": "Cointelegraph.com News",
+          "title": "Crypto hacks top $768M in September, worst month of 2026",
+          "link": "https://cointelegraph.com/news/crypto-hacks-total-766m-in-september-peckshield?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+          "title": "Crypto lost $1.26 billion in hacks while bitcoin bulls enjoyed a monster quarter",
+          "link": "https://www.coindesk.com/daybook-us/2026/10/01/crypto-lost-usd1-26-billion-in-hacks-while-bitcoin-bulls-enjoyed-a-monster-quarter"
+        }
+      ]
+    },
+    {
+      "id": "feed-congress-U2VuYXRlIGRhdGEgY2VudGVy",
+      "sphere": "congress",
+      "kategori": "POLITIK",
+      "rubrik": "Senaten stoppar datacenterlag – demokrater kallar den tandlös",
+      "sammanfattning": "Senaten röstade ned Ratepayer Protection Act med 57 mot 43, tre röster kort om de 60 som krävdes. Lagen skulle ha krävt att elbolag överväger standarder så att datacenter står för kostnaderna för nödvändiga uppgraderingar av transmission, produktion och distribution. Fyra demokrater röstade med republikanerna: Maggie Hassan, Amy Klobuchar samt Jon Ossoff och Raphael Warnock. Chuck Schumer kallade förslaget tandlöst och sade att amerikanerna kräver verkliga skyddsräcken för AI. Senator Jon Husted, som drivit lagen i senaten, säger att stora teknikbolag ska betala sin egen väg. Enligt Guardian är omröstningen en av senatens sista före valet den 3 november.",
+      "synthes": "Guardian tillför röstsiffror, namnen på de fyra demokraterna och den politiska kontexten kring Husteds valkampanj, vilket kongresskällorna inte redovisar.",
+      "leadSource": "Congress",
+      "publishedAt": "2026-10-01T08:47:00.000Z",
+      "readMinutes": 1,
+      "sourceCount": 2,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "Congress",
+          "title": "Bipartisan Senate duo drops new data center bills",
+          "link": "https://www.politico.com/live-updates/2026/10/01/congress/new-data-center-bills-01102362"
         },
         {
           "source": "US Congress | The Guardian",
@@ -1239,140 +658,172 @@
       ]
     },
     {
-      "id": "feed-crypto-RkNBIG9wZW5zIGNyeXB0byBh",
-      "sphere": "crypto",
-      "kategori": "REGLERING",
-      "rubrik": "FCA öppnar ansökningsfönster för kryptoföretag",
-      "sammanfattning": "Storbritanniens finansinspektion FCA har öppnat ett ansökningsfönster för kryptoföretag som vill verka i landet. Ansökningar måste lämnas in senast den 28 februari 2027, före det nya regelverket som planeras träda i kraft i oktober 2027. Företag som redan är registrerade under FCA:s penningtvättsregler kan ha en fördel. Mer än 60 företag är redan registrerade. Zumo, ett kryptoinfrastrukturföretag, har lanserat ett verktyg för att spåra regelverket.",
-      "synthes": "CoinDesk och Cointelegraph rapporterar att ansökningsfönstret är fem månader, medan The Block noterar att befintliga penningtvättsregistreringar inte automatiskt omvandlas till FCA-auktorisation; alla källor är ense om tidsramen.",
-      "leadSource": "The Block",
-      "publishedAt": "2026-09-30T13:21:27.000Z",
+      "id": "feed-congress-UGF4dG9uIFNlbmF0ZSByYWNl",
+      "sphere": "congress",
+      "kategori": "POLITIK",
+      "rubrik": "Trump kampanjar för Paxton – och pikar honom samtidigt",
+      "sammanfattning": "President Trump höll ett evenemang i Denton i Texas för att stödja delstatens justitieminister Ken Paxton i senatsvalet mot demokraten James Talarico. Under evenemanget kallade Trump Paxton för en \"pain in the ass\" samtidigt som han berömde honom som landets bäste justitieminister och sade att han behövs för att behålla den republikanska senatsmajoriteten. Enligt Roll Call visar läckt ljudupptagning att Paxton sagt att Trumps konvent sänkte deras siffror och att han ser presidenten som en belastning. Trump sade till reportrar att han ändå åker till Texas eftersom valet måste vinnas. Enligt en undersökning av YouGov och The Economist godkänner 36 procent av de registrerade väljarna Trumps arbete medan 62 procent är missnöjda. Kongresskällan uppger att Paxton säkrat ett annonsköp på 20 miljoner dollar.",
+      "synthes": "Roll Call tillför de läckta ljudupptagningarna, opinionssiffrorna och Trumps dubbla budskap, medan kongresskällan enbart rapporterar om annonsköpet.",
+      "leadSource": "Congress",
+      "publishedAt": "2026-09-30T18:40:33.000Z",
       "readMinutes": 1,
-      "sourceCount": 3,
+      "sourceCount": 2,
       "singleSource": false,
       "enriched": true,
       "sources": [
         {
-          "source": "The Block",
-          "title": "FCA starts accepting crypto authorization applications ahead of 2027 regime",
-          "link": "https://www.theblock.co/news/regulation/2026-09-30-fca-starts-accepting-crypto-authorization-applications-ahead-of-2027-regime-417284"
+          "source": "Congress",
+          "title": "Paxton secures $20M ad buy",
+          "link": "https://www.politico.com/live-updates/2026/09/30/congress/ken-paxton-20-million-ad-buy-01100312"
         },
         {
-          "source": "Cointelegraph.com News",
-          "title": "FCA opens crypto authorization window ahead of 2027 UK regime",
-          "link": "https://cointelegraph.com/news/fca-crypto-authorization-2027-uk-regime?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-        },
-        {
-          "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-          "title": "Clock's ticking: UK's crypto regulatory application window opens with February deadline",
-          "link": "https://www.coindesk.com/policy/2026/09/30/the-clock-s-ticking-uk-s-crypto-regulatory-application-window-opens-with-february-deadline"
+          "source": "Roll Call",
+          "title": "‘Pain in the ass’: Trump again shows annoyance with Paxton after leaked audio",
+          "link": "https://rollcall.com/2026/10/01/pain-in-the-ass-trump-again-shows-annoyance-with-paxton-after-leaked-audio/"
         }
       ]
     },
     {
-      "id": "feed-crypto-U3RhbmQgV2l0aCBDcnlwdG8g",
-      "sphere": "crypto",
+      "id": "feed-congress-U2VuYXRlIERlbW9jcmF0cyBi",
+      "sphere": "congress",
       "kategori": "POLITIK",
-      "rubrik": "Stand With Crypto lanserar senatsstöd efter Clarity Act-nederlag",
-      "sammanfattning": "Krypto-advokatorganisationen Stand With Crypto, som lanserades av Coinbase 2023, presenterade på onsdagen en bipartisan lista av kandidater för senaten och representanthuset inför mellanårsvalet i november. Bland senatskandidaterna finns republikanerna Jon Husted och Ashley Hinson samt demokraten Chris Pappas. Organisationen grundar sina stöd på kandidaternas kryptopolitik. Beskedet kommer två veckor efter att Clarity Act misslyckades i senaten med röstsiffrorna 49-50. Stand With Crypto har varnat för att senatorers röster kommer att granskas av väljarna.",
-      "synthes": "Decrypt rapporterar att Fairshake Super PAC lanserat en reklamkampanj på 30 miljoner dollar mot Sherrod Brown, medan The Block och Cointelegraph noterar att organisationen inte gör direkta kampanjbidrag; alla källor är ense om att stödet är bipartisan.",
-      "leadSource": "The Block",
-      "publishedAt": "2026-09-30T12:00:00.000Z",
+      "rubrik": "Senaten stoppar republikanskt förslag om aktiehandel för kongressledamöter",
+      "sammanfattning": "Senaten blockerade med röstsiffrorna 53 mot 47 det republikanska förslaget Stop Insider Trading Act, som skulle förbjuda kongressledamöter, deras makar och beroende barn att köpa enskilda aktier. Demokraterna menade att förslaget inte gick tillräckligt långt eftersom ledamöter skulle få behålla sina befintliga innehav, återinvestera utdelningar och låta en make eller ett barn handla i deras ställe. Flera ville också att reglerna skulle omfatta presidenten och andra i Vita huset, och kritiserade de krav på fotolegitimation vid röstning som förslaget var sammankopplat med. Chuck Schumer kallade lagen en tillåtelse för korruption, medan republikanen Pete Ricketts sade att förtroendet för kongressen måste återställas. Enligt Guardian visar redovisningar att Trump gjort nästan 28 700 affärer mellan januari 2025 och juni 2026, jämfört med 22 200 för alla kongressledamöter tillsammans.",
+      "synthes": "Guardian tillför detaljer om Trumps egna affärer, tidigare misslyckade försök och kritiken mot kopplingen till väljarlegitimation, vilket kongresskällan inte tar upp.",
+      "leadSource": "Congress",
+      "publishedAt": "2026-09-30T16:56:44.000Z",
       "readMinutes": 1,
-      "sourceCount": 3,
+      "sourceCount": 2,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "Congress",
+          "title": "Senate Democrats block House-passed bill restricting member stock trading",
+          "link": "https://www.politico.com/live-updates/2026/09/30/congress/senate-stock-trading-vote-01099912"
+        },
+        {
+          "source": "US Congress | The Guardian",
+          "title": "Senate blocks Republican bill restricting stock trades by US Congress members",
+          "link": "https://www.theguardian.com/us-news/2026/sep/30/us-senate-stock-trades-bill"
+        }
+      ]
+    },
+    {
+      "id": "feed-congress-VVMgbXVuaXRpb25zIGxvdyBh",
+      "sphere": "congress",
+      "kategori": "GEOPOLITIK",
+      "rubrik": "Trump medger viss brist på ammunition – Pentagon beställer robotar",
+      "sammanfattning": "President Trump säger att lagren av vissa typer av ammunition är något lägre till följd av kriget mot Iran, men lovar att fylla på dem till nivåer man aldrig sett tidigare. Pentagon inspektörsrapport i mitten av juli visade på brist på kritiska vapen och flaskhalsar i återförsörjningen, vilket Trump då kallade mestadels falska nyheter. Enligt BBC uppskattade CSIS i juli att lagren av vissa interceptorer, som Patriot och Thaad, minskat betydligt, i vissa fall med mer än hälften. I en intervju med Time sade Trump att det är möjligt att USA trappar upp attackerna mot Iran efter mellanårsvalet i november. SVT rapporterar att Pentagon tilldelat Raytheon ett avtal värt 24,4 miljarder dollar, omkring 245 miljarder kronor, för robottypen SM-6.",
+      "synthes": "BBC och SVT kompletterar varandra: BBC beskriver Trumps uttalanden och opinionsläget, medan SVT redovisar det konkreta avtalet med Raytheon.",
+      "leadSource": "BBC News",
+      "publishedAt": "2026-10-01T16:02:07.000Z",
+      "readMinutes": 1,
+      "sourceCount": 2,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "BBC News",
+          "title": "Trump says 'some' munitions are low as Iran war grinds on",
+          "link": "https://www.bbc.co.uk/news/articles/cm4gjgzjrvp5o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source": "Utrikes | SVT Nyheter",
+          "title": "USA: Fyller på med robotar för miljarder",
+          "link": "https://www.svt.se/nyheter/utrikes/usa-fyller-pa-med-robotar-for-miljarder"
+        }
+      ]
+    },
+    {
+      "id": "feed-crypto-Qml0Y29pbiBFVEYgaW5mbG93",
+      "sphere": "crypto",
+      "kategori": "MARKNAD",
+      "rubrik": "Bitcoin-ETF:er bröt nio dagars inflödesstreak",
+      "sammanfattning": "Amerikanska spot-ETF:er för bitcoin hade nio raka sessioner med nettoinflöden från den 17 september, totalt omkring 3,08 miljarder dollar, vilket precis slog augustis niodagarsserie på cirka 3,04 miljarder dollar. Enligt Decrypt tog inflödena slut när 149 miljoner dollar lämnade fonderna, medan spot-ETF:er för ethereum såg utflöden på 59,6 miljoner dollar, varav 26,6 miljoner från Fidelitys FETH. Streaken inleddes efter att Fed höjt räntan med 25 punkter den 16 september, då bitcoin föll till omkring 75 000 dollar och ETF:erna först tappade cirka 746 miljoner dollar under två dagar. Den 21 september nådde inflödena 999 miljoner dollar och veckan till den 25 september drog 2,4 miljarder dollar, den största veckan sedan oktober 2025.",
+      "synthes": "Decrypt beskriver hela förloppet och jämför med augustis serie, medan The Block rapporterar om att streaken brutits och om utflödena från ethereumfonder.",
+      "leadSource": "The Block",
+      "publishedAt": "2026-10-01T12:17:06.000Z",
+      "readMinutes": 1,
+      "sourceCount": 2,
       "singleSource": false,
       "enriched": true,
       "sources": [
         {
           "source": "The Block",
-          "title": "Crypto advocacy group Stand With Crypto rolls out its first round of Senate endorsements after failed Clarity vote",
-          "link": "https://www.theblock.co/news/regulation/2026-09-30-crypto-advocacy-group-stand-with-crypto-first-senate-endorsements-after-failed-clarity-417223"
-        },
-        {
-          "source": "Cointelegraph.com News",
-          "title": "Crypto advocacy group announces picks for US Congress as midterms loom",
-          "link": "https://cointelegraph.com/news/stand-with-crypto-coinbase-senate-picks-us-midterms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+          "title": "Bitcoin ETFs’ 9-day, $3 billion inflow streak comes to an end as $149 million exits the funds",
+          "link": "https://www.theblock.co/news/markets/2026-10-01-bitcoin-etfs-9-day-3-billion-inflow-streak-comes-to-an-end-as-149-million-exits-the-funds-417384"
         },
         {
           "source": "Decrypt",
-          "title": "Coinbase-Backed Crypto Group Reveals Midterm Endorsements After Clarity Act Collapse",
-          "link": "https://decrypt.co/379767/coinbase-crypto-group-senate-midterm-endorsements-clarity-act"
+          "title": "Bitcoin ETFs Extend Win Streak to 9 Days, Matching August Rally",
+          "link": "https://decrypt.co/379731/bitcoin-etf-9-day-streak-august-rally"
         }
       ]
     },
     {
-      "id": "feed-world-RnJlbmNoIGNvdXJ0IGphaWxz",
-      "sphere": "world",
-      "kategori": "JURIDIK",
-      "rubrik": "Sex människosmugglare dömda för kanalolyckan 2021",
-      "sammanfattning": "En fransk domstol dömde på onsdagen sex människosmugglare för vållande till annans död efter att 31 migranter drunknade i Engelska kanalen i november 2021. Straffen varierar mellan sex och tio års fängelse. Sju andra dömdes till lindrigare straff, och en frikändes. Båten var överlastad, saknade livvästar och var inte sjövärdig. De dömda tillhörde två smugglingsnätverk, ett irakisk-kurdiskt och ett afghanskt. En separat utredning pågår mot sju franska militärer för att ha underlåtit att hjälpa migranterna.",
-      "synthes": "BBC och The Guardian rapporterar att 27 bekräftades döda och fyra saknas, medan Al Jazeera och SCMP noterar att 13 män dömdes totalt; The Guardian påpekar att det tog nästan 12 timmar innan båten hittades, vilket inte nämns av alla källor.",
-      "leadSource": "BBC News",
-      "publishedAt": "2026-09-30T17:14:03.000Z",
+      "id": "feed-crypto-RVUgc2NydXRpbml6ZXMgQmlu",
+      "sphere": "crypto",
+      "kategori": "REGLERING",
+      "rubrik": "EU granskar Binances användning av undantag i MiCA",
+      "sammanfattning": "Europeiska värdepappers- och marknadsmyndigheten ESMA och tillsynsmyndigheter i bland annat Frankrike, Tyskland och Grekland undersöker hur Binance fortsatt betjäna kunder i EU månader efter att ha misslyckats med att säkra licens enligt MiCA. Enligt Financial Times, som Decrypt citerar, granskar man börsens åberopande av så kallad reverse solicitation, undantaget i MiCA:s artikel 61 för tjänster som ett företag utanför unionen tillhandahåller på kundens eget initiativ. Kunder utanför de länder där Binance haft lokal registrering betjänas i praktiken av ett företag med tillstånd i Abu Dhabi från december 2025. Binance säger sig följa tillämpliga regler och arbetar för att bli MiCA-auktoriserat. Börsen drog tillbaka sin ansökan i Grekland i juni.",
+      "synthes": "Decrypt tillför detaljer om ESMA:s riktlinjer, tillsynsmyndigheternas kommentarer och Binances Abu Dhabi-enhet, vilket Cointelegraph inte redovisar.",
+      "leadSource": "Cointelegraph.com News",
+      "publishedAt": "2026-10-01T10:07:18.000Z",
       "readMinutes": 1,
-      "sourceCount": 3,
+      "sourceCount": 2,
       "singleSource": false,
       "enriched": true,
       "sources": [
         {
-          "source": "BBC News",
-          "title": "Six smugglers jailed for manslaughter over worst Channel small boats disaster",
-          "link": "https://www.bbc.co.uk/news/articles/c6n8m33pn9djo?at_medium=RSS&at_campaign=rss"
+          "source": "Cointelegraph.com News",
+          "title": "Binance’s EU services face scrutiny over licensing exemption: Report",
+          "link": "https://cointelegraph.com/news/europe-binance-questions-esma-tighter-mica-oversight?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         },
         {
-          "source": "Al Jazeera &#8211; Breaking News, World News and Video from Al Jazeera",
-          "title": "French court sentences 13 men over deadliest small-boat crossing to UK",
-          "link": "https://www.aljazeera.com/news/2026/9/30/french-court-sentences-13-men-over-deadliest-small-boat-crossing-to-uk?traffic_source=rss"
-        },
-        {
-          "source": "World news | The Guardian",
-          "title": "French court jails six men for manslaughter over mass drowning in Channel",
-          "link": "https://www.theguardian.com/world/2026/sep/30/french-court-jails-six-manslaughter-mass-drowning-channel"
+          "source": "Decrypt",
+          "title": "EU Presses Binance Over ‘Reverse Solicitation’ Exemption for Users: Report",
+          "link": "https://decrypt.co/379792/eu-presses-binance-over-reverse-solicitation-exemption-for-users-report"
         }
       ]
     },
     {
-      "id": "feed-world-RnJlbmNoIHN0dWRlbnQgcHJv",
-      "sphere": "world",
-      "kategori": "POLITIK",
-      "rubrik": "Studentprotester i Frankrike – dussintals skadade",
-      "sammanfattning": "Dussintals personer har skadats i en våg av studentprotester i Frankrike mot bristande skolresurser, överfulla klasser och lärarbrist. Protesterna började förra veckan och sammanföll på tisdagen med en bredare strejk inom offentlig sektor. Ministern för utbildning, Edouard Geffray, sade att 76 personer skadats. Inrikesminister Laurent Nunez uppgav att 440 personer gripits, de flesta minderåriga, och att sju incidenter med saltsyra mot polis inträffat. Protesterna har blivit en politisk stridsfråga inför budgetpresentationen den 1 oktober.",
-      "synthes": "BBC och France 24 rapporterar att protesterna började i Île-de-France och spreds över landet, medan The Hindu noterar att vänsterpartiet France Unbowed deltagit och kritiserats; alla källor är ense om att protesterna är omfattande.",
-      "leadSource": "World News Today: International News Headlines - The Hindu | The Hindu",
-      "publishedAt": "2026-09-30T11:14:23.000Z",
+      "id": "feed-crypto-Q2l0aSByYWlzZXMgQml0Y29p",
+      "sphere": "crypto",
+      "kategori": "MARKNAD",
+      "rubrik": "Citi höjer tolvmånadersmål för bitcoin till 113 000 dollar",
+      "sammanfattning": "Citigroup har höjt sitt tolvmånadersmål för bitcoin från 82 000 till 113 000 dollar och för ethereum från 2 240 till 3 028 dollar, med hänvisning till återupptagna ETF-inflöden och ett stödjande makroekonomiskt läge. Enligt CoinDesk räknar banken med inflöden på 5 miljarder dollar till kryptoprodukter under de kommande tolv månaderna i en långsammare men mer uthållig takt. Citi noterar att senatens nej till Clarity Act den 15 september följdes av SEC-regler som dämpade den negativa stämningen, och att Trumps finansdepartements återköp av långa obligationer fick fart på marknaden. Decrypt påpekar att målet på 113 000 dollar ändå ligger omkring 10 procent under bitcoins rekord på cirka 126 200 dollar från oktober 2025.",
+      "synthes": "CoinDesk och Decrypt återger samma mål och motivering; Decrypt tillför jämförelsen med rekordnivån och osäkerheten om huruvida inflödesprognosen gäller spot-ETF:er enbart eller kryptoprodukter bredare.",
+      "leadSource": "Decrypt",
+      "publishedAt": "2026-10-01T12:23:15.000Z",
       "readMinutes": 1,
-      "sourceCount": 3,
+      "sourceCount": 2,
       "singleSource": false,
       "enriched": true,
       "sources": [
         {
-          "source": "World News Today: International News Headlines - The Hindu | The Hindu",
-          "title": "Dozens injured in French student protests over school resources",
-          "link": "https://www.thehindu.com/news/international/dozens-injured-in-french-student-protests-over-school-resources/article71527899.ece"
+          "source": "Decrypt",
+          "title": "Citi Lifts 12-Month Bitcoin Target to $113K, Ethereum to $3K",
+          "link": "https://decrypt.co/379808/citi-lifts-12-month-bitcoin-target-to-113k-ethereum-to-3k"
         },
         {
-          "source": "BBC News",
-          "title": "Fires and blockades as students stage school protests across France",
-          "link": "https://www.bbc.co.uk/news/videos/cmy0zey3ey2lo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "France 24 - International breaking news, top stories and headlines",
-          "title": "Clashes between French teens, police as school blockades intensify",
-          "link": "https://www.france24.com/en/clashes-between-french-teens-police-as-school-blockades-intensify"
+          "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+          "title": "Citigroup raises 12-month bitcoin target to $113,000 as ETF inflows resume",
+          "link": "https://www.coindesk.com/markets/2026/10/01/citigroup-raises-12-month-bitcoin-target-to-usd113-000-as-etf-inflows-resume"
         }
       ]
     },
     {
-      "id": "feed-congress-U2NobWl0dCBtaXgtdXAgZHVy",
+      "id": "feed-congress-U2NobWl0dCBiYXNrZXRiYWxs",
       "sphere": "congress",
       "kategori": "POLITIK",
-      "rubrik": "Schmitt försvarar förväxling under Jack Smith-utfrågning",
-      "sammanfattning": "Senator Eric Schmitt (R-Mo.) försvarade på tisdagen en förväxling under utfrågningen av förre särskilde åklagaren Jack Smith. Schmitt frågade Smith om han närvarat vid en NBA-match i Atlanta mellan Hawks och Golden State Warriors i februari 2024, men Smith sade att han aldrig varit på en Hawks-match och att han i stället sett University of Iowa Hawkeyes spela i Maryland. Schmitt kallade Smith för \"dirtbag\" och antydde att han träffat Fani Willis. Representanthusledamoten Jamie Raskin (D-Md.) sade att Schmitt \"disgraced himself\".",
-      "synthes": "Senate News och House News rapporterar att Raskin kritiserade Schmitt, medan Congress noterar att Schmitt sade att hans jobb är att ställa frågor; alla källor är ense om att förväxlingen blev viral.",
+      "rubrik": "Schmitt försvarar förväxling under Jack Smiths utfrågning",
+      "sammanfattning": "Senator Eric Schmitt från Missouri försvarar en förväxling som ledde till en viral fadäs under utfrågningen med den tidigare särskilde åklagaren Jack Smith. Enligt Senate News visar textmeddelanden som The Hill tagit del av att Smiths stab inte nämnde några basketlagsnamn, vilket ökar förvirringen kring varför Schmitt felaktigt anklagade åklagaren för att ha varit på en match i Atlanta för att koppla honom till en Georgia-utredning av Trump. Schmitt sade att han inte visste att Smith var ett fan av Caitlin Clark.",
+      "synthes": "Senate News tillför uppgifterna från textmeddelandena som motsäger Schmitts framställning, medan kongresskällan enbart återger hans försvar.",
       "leadSource": "Congress",
       "publishedAt": "2026-09-30T17:20:20.000Z",
       "readMinutes": 1,
-      "sourceCount": 3,
+      "sourceCount": 2,
       "singleSource": false,
       "enriched": false,
       "sources": [
@@ -1383,185 +834,20 @@
         },
         {
           "source": "Senate News",
-          "title": "Raskin rips Schmitt questioning of Jack Smith: &#039;He&#039;s basically disgraced himself&#039;",
-          "link": "https://thehill.com/homenews/house/6119619-jamie-raskin-eric-schmitt-basketball-mix-up-jack-smith-hearing-criticism/"
-        },
-        {
-          "source": "Senate News",
-          "title": "Schmitt on mix-up at Jack Smith hearing: &#039;My job is to ask questions&#039;",
-          "link": "https://thehill.com/homenews/senate/6119588-eric-schmitt-jack-smith-senate-hearing-sports-mix-up-response/"
-        },
-        {
-          "source": "House News",
-          "title": "Raskin rips Schmitt questioning of Jack Smith: &#039;He&#039;s basically disgraced himself&#039;",
-          "link": "https://thehill.com/homenews/house/6119619-jamie-raskin-eric-schmitt-basketball-mix-up-jack-smith-hearing-criticism/"
+          "title": "Smith’s game-day texts reviewed by Schmitt never referenced basketball team names",
+          "link": "https://thehill.com/homenews/senate/6124359-schmitt-perjury-claim-debunked/"
         }
       ]
     },
     {
-      "id": "feed-crypto-QXp0ZWMgcmVsYXVuY2hlcyB6",
-      "sphere": "crypto",
-      "kategori": "TEKNIK",
-      "rubrik": "Aztec återlanserar zk.money på Ethereum",
-      "sammanfattning": "Aztec Labs har återlanserat plånboken zk.money på sitt Ethereum-lager 2-nätverk Aztec Network, tre år efter att den ursprungliga produkten lades ner. Plånboken gör det möjligt att skicka och ta emot stablecoins utan att belopp, saldon eller mottagare offentliggörs. Användare kan använda läsbara taggar som bob.zk.money via ENS. Insättningar från Ethereum är fortfarande offentliga, och transaktioner är begränsade till 2 500 dollar per transaktion med ett dagligt insättningstak på 50 000 dollar. Aztec varnar för att programvaran inte är fullständigt granskad.",
-      "synthes": "Decrypt och CoinDesk rapporterar att USDC och USDT konverteras till DAI, medan The Block noterar att plånboken är självförvarande; CoinDesk påpekar att en kritisk bugg upptäckts i Aztecs proofs-system, vilket inte nämns av alla källor.",
-      "leadSource": "The Block",
-      "publishedAt": "2026-09-29T16:00:00.000Z",
-      "readMinutes": 1,
-      "sourceCount": 3,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "The Block",
-          "title": "Aztec relaunches zk.money privacy wallet on its Ethereum Layer 2",
-          "link": "https://www.theblock.co/news/defi/2026-09-29-aztec-zk-money-privacy-wallet-ethereum-layer-2-417174"
-        },
-        {
-          "source": "Decrypt",
-          "title": "Ethereum Gets Another Privacy Boost as Aztec Brings Back zk.money",
-          "link": "https://decrypt.co/379621/ethereum-privacy-aztec-brings-back-zk-money"
-        },
-        {
-          "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-          "title": "Ethereum users get another way to pay privately as zk.money returns after three years",
-          "link": "https://www.coindesk.com/tech/2026/09/29/embargo-12-et-ethereum-users-get-another-way-to-pay-privately-as-zk-money-returns-after-three-years"
-        }
-      ]
-    },
-    {
-      "id": "feed-world-UnVzc2lhIGxhdW5jaGVzIGxh",
-      "sphere": "world",
-      "kategori": "KONFLIKT",
-      "rubrik": "Ryssland attackerar Ukrainas energisystem",
-      "sammanfattning": "Ryssland genomförde natten till onsdagen sin största attack mot Ukrainas energiinfrastruktur sedan i våras. Minst fem personer dödades, inklusive ett barn i Kyiv-regionen. Elförsörjningen påverkades och DTEK uppgav att strömmen återställts till 8 000 hem. Rysslands försvarsdepartement sade att man attackerat Trypilska-kraftverket, den största elleverantören till Kyiv. Ukraina uppger att 11 regioner attackerades och att bostadshus, järnvägar och civil infrastruktur träffades. Ukraina har förväntat sig en ny vinteroffensiv mot elnätet.",
-      "synthes": "BBC rapporterar att fem dödades och att elavbrott kvarstår i flera regioner, medan France 24 uppger sju döda; skillnaden i dödstal mellan källorna är inte förklarad.",
-      "leadSource": "BBC News",
-      "publishedAt": "2026-09-30T14:53:02.000Z",
-      "readMinutes": 1,
-      "sourceCount": 2,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "BBC News",
-          "title": "Russia launches largest attack on Ukraine energy infrastructure since spring",
-          "link": "https://www.bbc.co.uk/news/articles/ckjw5jx2l393o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "France 24 - International breaking news, top stories and headlines",
-          "title": "Russia launches major attack on Ukraine’s energy grid, causing power cuts",
-          "link": "https://www.france24.com/en/europe/20261001-russia-launches-major-attack-on-ukraine-energy-grid-causing-power-cuts"
-        }
-      ]
-    },
-    {
-      "id": "feed-crypto-Qml0Y29pbiBzdGFsbHMgbmVh",
-      "sphere": "crypto",
-      "kategori": "MARKNAD",
-      "rubrik": "Bitcoin stannar nära 83 000 dollar – analytiker varnar för stödnivå",
-      "sammanfattning": "Bitcoin handlades nära 83 000 dollar på onsdagen efter att ha fallit från en topp på över 87 400 dollar den 21 september. Analytiker pekar på 82 000 dollar som en kritisk stödnivå; ett brott under den kan leda till en nedgång mot 70 000-talet. Stigande amerikanska statsobligationsräntor, med 30-årsräntan över 5,6 procent, tynger riskfyllda tillgångar. Spotbitcoin-ETF:er har samtidigt haft nio dagars inflöden. Krypto-marknaden väntar på PCE-inflationsdata.",
-      "synthes": "CoinDesk och Cointelegraph rapporterar att långsiktiga innehavare håller emot, medan Decrypt noterar att ETF-inflöden matchar augustirallyt; alla källor är ense om att ränteläget påverkar marknaden negativt.",
-      "leadSource": "Cointelegraph.com News",
-      "publishedAt": "2026-09-29T16:26:11.000Z",
-      "readMinutes": 1,
-      "sourceCount": 2,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "Cointelegraph.com News",
-          "title": "Bitcoin gives back gains as long-term holder supply keeps $85K out of reach",
-          "link": "https://cointelegraph.com/markets/bitcoin-gives-back-gains-long-term-holder-supply-keeps-85k-out-of-reach?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-        },
-        {
-          "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-          "title": "Live updates: Bitcoin closing out best quarter since 2024, ether its best since 2021",
-          "link": "https://www.coindesk.com/markets/2026/09/30/live-updates-bitcoin-below-usd84-000-ahead-of-pce-inflation-data-micron-earnings"
-        },
-        {
-          "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-          "title": "Bitcoin stalls near $83,000 while lighter drops 17% on Robinhood perps plan",
-          "link": "https://www.coindesk.com/markets/2026/09/30/bitcoin-stalls-near-usd83-000-while-lighter-drops-17-on-robinhood-perps-plan"
-        },
-        {
-          "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-          "title": "Bitcoin bulls have one price level to defend",
-          "link": "https://www.coindesk.com/markets/2026/09/30/bitcoin-bulls-have-one-price-level-to-defend"
-        },
-        {
-          "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-          "title": "Bitcoin rally shows signs of cooling even as a 'bull score' gauge nears its perfect score",
-          "link": "https://www.coindesk.com/markets/2026/09/30/bitcoin-rally-shows-signs-of-cooling-even-as-a-bull-score-gauge-nears-its-perfect-score"
-        }
-      ]
-    },
-    {
-      "id": "feed-crypto-Qml0Y29pbiBFVEZzIGV4dGVu",
-      "sphere": "crypto",
-      "kategori": "MARKNAD",
-      "rubrik": "Bitcoin-ETF:er förlänger inflödesstreak till nio dagar",
-      "sammanfattning": "Amerikanska spotbitcoin-ETF:er tog emot 66,19 miljoner dollar på tisdagen, den nionde raka dagen med nettoinflöden. Sedan den 17 september har inflödena uppgått till cirka 3,08 miljarder dollar, vilket marginellt överträffar augustis niodagarsstreak på 3,04 miljarder. Bitcoin handlades nära 84 400 dollar på onsdagen. Ether-ETF:er hade ett utflöde på 3 miljoner dollar efter sju dagars inflöden. Zcash-fonder hade ett utflöde på 8 miljoner dollar i början av veckan.",
-      "synthes": "Decrypt rapporterar att inflödena återhämtat sig efter Clarity Act-omröstningen, medan Cointelegraph noterar att ether-ETF:er vände till utflöde; alla källor är ense om att inflödesstreaken är den längsta sedan augusti.",
-      "leadSource": "Cointelegraph.com News",
-      "publishedAt": "2026-09-30T10:12:28.000Z",
-      "readMinutes": 1,
-      "sourceCount": 2,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "Cointelegraph.com News",
-          "title": "Bitcoin ETFs stretch $3.1B inflow streak as Ether funds turn red",
-          "link": "https://cointelegraph.com/markets/bitcoin-etf-streak-9-day-ether-zcash-flip-red?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-        },
-        {
-          "source": "Decrypt",
-          "title": "Bitcoin ETFs Extend Win Streak to 9 Days, Matching August Rally",
-          "link": "https://decrypt.co/379731/bitcoin-etf-9-day-streak-august-rally"
-        },
-        {
-          "source": "Decrypt",
-          "title": "Crypto ETFs Surge as Bitcoin Funds Add $2.95 Billion in 30 Days",
-          "link": "https://decrypt.co/379575/crypto-etfs-surge-bitcoin-adds-nearly-3-billion"
-        }
-      ]
-    },
-    {
-      "id": "feed-congress-QmxhY2tidXJuIHN1ZXMgSmFj",
-      "sphere": "congress",
-      "kategori": "JURIDIK",
-      "rubrik": "Blackburn stämmer Jack Smith för telefonregister",
-      "sammanfattning": "Senator Marsha Blackburn (R-Tenn.) stämde på onsdagen förre särskilde åklagaren Jack Smith i en federal domstol i Tennessee. Hon anklagar honom för att ha inhämtat hennes telefonregister på ett grundlagsstridigt sätt under utredningen av Donald Trumps försök att ogiltigförklara valresultatet 2020. Stämningen bygger delvis på Speech or Debate Clause, som ger kongressledamöter immunitet för handlingar kopplade till deras ämbete. Blackburn hävdar att Smith inte informerade domstolen om att han sökte register från kongressledamöter. Stämningen kom dagen efter Smiths utfrågning i senaten.",
-      "synthes": "Roll Call rapporterar att Smith sade att han följt lagen och Speech or Debate Clause, medan Congress noterar att Blackburn inte ställde frågor under utfrågningen; alla källor är ense om att stämningen är en politisk och juridisk konfrontation.",
-      "leadSource": "Congress",
-      "publishedAt": "2026-09-30T19:21:09.000Z",
-      "readMinutes": 1,
-      "sourceCount": 2,
-      "singleSource": false,
-      "enriched": true,
-      "sources": [
-        {
-          "source": "Congress",
-          "title": "Blackburn sues Jack Smith for obtaining her phone records",
-          "link": "https://www.politico.com/news/2026/09/30/blackburn-sues-jack-smith-for-obtaining-her-phone-records-01100441"
-        },
-        {
-          "source": "Roll Call",
-          "title": "Blackburn sues Jack Smith over phone records",
-          "link": "https://rollcall.com/2026/09/30/blackburn-sues-jack-smith-over-phone-records/"
-        }
-      ]
-    },
-    {
-      "id": "feed-congress-RGVtb2NyYXRzIHJpcCBESFMg",
+      "id": "feed-congress-RGVtb2NyYXRzIGNhbGwgZm9y",
       "sphere": "congress",
       "kategori": "POLITIK",
-      "rubrik": "Demokrater anklagar DHS för att använda medel till Trump-reklam",
-      "sammanfattning": "Demokratiska senatorer och representanthusledamöter anklagar USA:s departement för inrikes säkerhet (DHS) och tullen och gränsskyddet (CBP) för att ha använt medel för att sända politiska reklamfilmer som gynnar president Donald Trump. Senatorerna Patty Murray och Chris Murphy har skickat ett brev till DHS-sekreteraren Markwayne Mullin med krav på svar. Representanthusets demokrater anklagar Vita huset för att använda CBP-medel för en 30-sekunders reklamfilm inför mellanårsvalet i november. Republikanerna har inte kommenterat anklagelserna.",
-      "synthes": "Senate News och House News rapporterar att demokraterna kräver svar från DHS och CBP, medan Congress noterar att reklamen säger att man ska \"besegra kommunism, socialism\"; inga källor motsäger anklagelserna.",
+      "rubrik": "Demokrater kräver att Pulte avgår efter nedskärning av tillsynsbudget",
+      "sammanfattning": "Demokratiska toppolitiker kräver att Bill Pulte, chef för Federal Housing Finance Agency, avgår efter att myndigheten skurit ned finansieringen av sin generalinspektör. Enligt kongresskällorna menar de att nedskärningen i praktiken kan stänga ned den oberoende tillsynsfunktionen. Bland dem som kräver avgången finns senatens minoritetsledare Chuck Schumer och representanthusets minoritetsledare Hakeem Jeffries samt flera andra ledande demokrater.",
+      "synthes": "",
       "leadSource": "Senate News",
-      "publishedAt": "2026-09-30T14:41:34.000Z",
+      "publishedAt": "2026-10-01T14:05:51.000Z",
       "readMinutes": 1,
       "sourceCount": 2,
       "singleSource": false,
@@ -1569,13 +855,39 @@
       "sources": [
         {
           "source": "Senate News",
-          "title": "Senate Democrats rip DHS over diverted funding for campaign-style Trump ads",
-          "link": "https://thehill.com/homenews/senate/6120110-senate-democrats-dhs-funding-trump-taxpayer-funded-tv-ads/"
+          "title": "Democrats call for Pulte resignation over FHFA watchdog budget cuts",
+          "link": "https://thehill.com/homenews/senate/6122945-democrats-call-pulte-resign/"
         },
         {
           "source": "House News",
-          "title": "Democratic appropriators accuse White House of using CBP funds for Trump political ads",
-          "link": "https://thehill.com/homenews/house/6118310-democrats-accuse-trump-cbp-funds-political-ads/"
+          "title": "Democrats call for Pulte resignation over FHFA watchdog budget cuts",
+          "link": "https://thehill.com/homenews/senate/6122945-democrats-call-pulte-resign/"
+        }
+      ]
+    },
+    {
+      "id": "feed-congress-SnVkZ2UgZGlzbWlzc2VzIFJl",
+      "sphere": "congress",
+      "kategori": "JURIDIK",
+      "rubrik": "Domare lägger ned målet mot olympiern David Hearn permanent",
+      "sammanfattning": "Domaren Todd Edelman i Washington DC har lagt ned åtalet mot den före detta olympiske kanotisten David Hearn med prejudice, vilket innebär att federala åklagare inte kan väcka det igen. Hearn greps i juni vid Lincoln Memorials reflekterande pool och åtalades för skadegörelse, men åklagarna drog tillbaka åtalet efter att ha konstaterat att skadorna berodde på bristfällig installation och inte på skadegörelse. Enligt BBC grundar Edelman sitt beslut på att president Trump upprepade gånger kritiserat åklagarna och pressat dem att ändra kurs, och på att Hearn är politiskt aktiv och donerat till Demokraterna. Vita huset hänvisar till Trumps inlägg på Truth Social. Även åtal mot tre andra personer lades ned.",
+      "synthes": "NPR och BBC är eniga om utgången; NPR citerar domen mer utförligt och beskriver Trumps angrepp på åklagaren Jeanine Pirro, medan BBC sammanfattar bakgrunden till poolprojektet.",
+      "leadSource": "NPR Topics: Politics",
+      "publishedAt": "2026-10-01T18:22:59.000Z",
+      "readMinutes": 1,
+      "sourceCount": 2,
+      "singleSource": false,
+      "enriched": true,
+      "sources": [
+        {
+          "source": "NPR Topics: Politics",
+          "title": "A judge permanently dismisses former Olympian's Reflecting Pool charges",
+          "link": "https://www.npr.org/2026/10/01/nx-s1-5987947/reflecting-pool-vandalism-hearn-charges-dismissed"
+        },
+        {
+          "source": "BBC News",
+          "title": "Judge permanently ends case against Olympian accused of Reflecting Pool vandalism",
+          "link": "https://www.bbc.co.uk/news/articles/c68jdjw7mydeo?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
